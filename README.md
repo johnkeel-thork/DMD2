@@ -9,6 +9,7 @@ The app can be found here:
 https://play.google.com/store/apps/details?id=com.thorkracing.dmd2launcher
 
 
+
 The official website is here:
 
 https://www.drivemodedashboard.com/
@@ -18,6 +19,7 @@ https://www.drivemodedashboard.com/
 
 
 ### Help Translate:
+
 ###Please Submit for the Android App Translation!
 
 https://github.com/johnkeel-thork/DMD2/tree/main/app/src/main/res
