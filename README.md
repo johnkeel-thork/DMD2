@@ -1,5 +1,5 @@
-# TET
-Drive Mode Dashboard Public Files
+# DMD2
+Drive Mode Dashboard 2 - Public Files
 
 Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.
 
