@@ -1,5 +1,5 @@
 # DMD2
-##Drive Mode Dashboard 2 - Public Files
+Drive Mode Dashboard 2 - Public Files
 
 **Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.**
 
@@ -20,12 +20,12 @@ https://www.drivemodedashboard.com/
 
 ### Help Translate:
 
-###Please Submit for the Android App Translation!
+Please Submit for the Android App Translation!
 
 https://github.com/johnkeel-thork/DMD2/tree/main/app/src/main/res
 
 
-###Following the Android schemas:
+Following the Android schemas:
 
 **Each language should be put inside a folder named like "values-TWO_LETTER_COUNTRY_CODE"**
 
