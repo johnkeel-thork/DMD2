@@ -12,11 +12,17 @@ The official website is here:
 https://www.drivemodedashboard.com/
 
 
+=====================
+
+
 ### Help Translate:
 Please Submit for the Android App Translation!
+https://github.com/johnkeel-thork/DMD2/tree/main/app/src/main/res
 
-
-
+Following the Android schemas:
+- Each language should be put inside a values-TWO_LETTER_COUNTRY_CODE
+Example for Portuguese translation folder: "values-pt"
+Example for Spanish translation folder: "values-es"
 
 
 =====================
