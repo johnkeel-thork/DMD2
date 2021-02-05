@@ -22,7 +22,7 @@ https://www.drivemodedashboard.com/
 
 Please Submit for the Android App Translation!
 
-https://github.com/johnkeel-thork/DMD2/tree/main/app/src/main/res
+https://github.com/johnkeel-thork/DMD2/tree/main/Android/app/src/main/res
 
 
 Following the Android schemas:
