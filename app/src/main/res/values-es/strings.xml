@@ -2,8 +2,8 @@
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
-    <string name="online_status">Online</string>
-    <string name="offline_status">Offline</string>
+    <string name="online_status">Conectado</string>
+    <string name="offline_status">Sin Conexion</string>
 
 
     <!-- Common and Global -->
@@ -12,46 +12,46 @@
     <string name="km">Km</string>
     <string name="kmh">Km/h</string>
     <string name="meters">meters</string>
-    <string name="back">Back</string>
-    <string name="abort">Abort</string>
-    <string name="ok">OK</string>
-    <string name="save">Save</string>
-    <string name="cancel">Cancel</string>
-    <string name="close">Close</string>
-    <string name="swipe_message">Most views will show a blue vertical bar on the left of your screen. That means there is a Left Menu available which you can access by swiping from the left of your screen. If you are using any CARPE Controller the left menu can usually be accessed by pressing Up or Down.</string>
-    <string name="already_purchased">Already purchased this plugin</string>
-    <string name="hide_menu">Hide Menu</string>
-    <string name="select">Select</string>
-    <string name="delete">Delete</string>
-    <string name="update">Update</string>
+    <string name="back">Atras</string>
+    <string name="abort">Abortar</string>
+    <string name="ok">Aceptar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="swipe_message">La mayoría de las vistas mostrarán una barra vertical azul a la izquierda de la pantalla. Eso significa que hay un menú izquierdo disponible al que puede acceder deslizando el dedo desde el borde izquierdo de la pantalla. Si está utilizando cualquier controlador CARPE, generalmente podrá acceder al menú de la izquierda presionando Arriba o Abajo.</string>
+    <string name="already_purchased">Este puglin ya ha sido comprado</string>
+    <string name="hide_menu">Ocultar Menu</string>
+    <string name="select">Seleccionar</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
 
 
     <!-- Bottom Menu -->
-    <string name="global_settings">Global Settings</string>
-    <string name="exit">Exit</string>
-    <string name="dashboard">Dashboard</string>
-    <string name="apps">Applications</string>
-    <string name="speedometer">Speedometer</string>
-    <string name="control_station">Control Station</string>
+    <string name="global_settings">Ajustes Generales</string>
+    <string name="exit">Salir</string>
+    <string name="dashboard">Tablero de Instrumentos</string>
+    <string name="apps">Applicaciones</string>
+    <string name="speedometer">Velocimetro</string>
+    <string name="control_station">Estación de Control</string>
     <string name="roadbook">Roadbook</string>
-    <string name="map">Map</string>
+    <string name="map">Mapa</string>
 
     <!-- Global Settings -->
-    <string name="localization_options">Localization Options</string>
-    <string name="hour_format">Use 24h format</string>
-    <string name="use_miles">Use miles instead of kilometers</string>
-    <string name="ui_options">Interface Options</string>
-    <string name="hide_status_bar">Hide status bar</string>
-    <string name="hide_bottom_menu">Auto-hide bottom menu</string>
-    <string name="hide_odo">Hide Odometer on all views</string>
-    <string name="carpe_controller_options">CARPE Controller Options</string>
-    <string name="immidiate_bottom_menu">Bottom menu immediate mode</string>
-    <string name="use_terrain_wheel_sensor">Use Terrain Command wheel sensor</string>
-    <string name="terrain_current_speed_mode">Current speed value mode</string>
+    <string name="localization_options">Ajustes de Localización</string>
+    <string name="hour_format">Usar formato 24H</string>
+    <string name="use_miles">Usar millas en vez de kilometros</string>
+    <string name="ui_options">Ajustes de Interfaz</string>
+    <string name="hide_status_bar">Ocultar barra de estado</string>
+    <string name="hide_bottom_menu">Ocultar automaticamente el menu inferior</string>
+    <string name="hide_odo">Ocultar Odometro en todas las vistas</string>
+    <string name="carpe_controller_options">Ajustes Controllador CARPE</string>
+    <string name="immidiate_bottom_menu">Modo inmediato menu inferior</string>
+    <string name="use_terrain_wheel_sensor">Usar sensor de rueda Terrain Command</string>
+    <string name="terrain_current_speed_mode">Valores de velocidad actuales</string>
     <string-array name="terrain_speed_modes" translatable="true">
-        <item>Always GPS</item>
-        <item>Always wheel sensor</item>
-        <item>Wheel sensor only when low GPS Accuracy</item>
+        <item>Utilizar siempre GPS</item>
+        <item>Utilizar siempre sensor de rueda</item>
+        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
     </string-array>
     <string name="terrain_odo_mode">Distances measure mode</string>
     <string-array name="terrain_odo_modes" translatable="true">
