@@ -28,13 +28,13 @@
 
     <!-- Bottom Menu -->
     <string name="global_settings">Globale Einstellungen</string>
-    <string name="exit">Verlassen</string>
+    <string name="exit">Schließen</string>
     <string name="dashboard">Dashboard</string>
     <string name="apps">Apps</string>
     <string name="speedometer">Tachometer</string>
     <string name="control_station">Control Station</string>
     <string name="roadbook">Roadbook</string>
-    <string name="map">Langkarte</string>
+    <string name="map">Landkarte</string>
 
     <!-- Global Settings -->
     <string name="localization_options">Lokalisierungs Optionen</string>
@@ -82,7 +82,7 @@
     <string name="speed_widget_desc">Tacho / Teil-Km / Gesamt-Km</string>
     <string name="fav_apps_widgets">App Verknüpfungen</string>
     <string name="trip_info">Trip Information</string>
-    <string name="digital_clock">Digitaluhr</string>
+    <string name="digital_clock">Digital Uhr</string>
     <string name="compass_widget">Kompass</string>
     <string name="system_widget">Android System Widget</string>
     <string name="logo_widget">PNG-Logo hinzufügen</string>
@@ -116,180 +116,180 @@
 
 
     <!-- Control Station -->
-    <string name="brightness">Brightness</string>
-    <string name="set_max_bright_title">System Max Brightness Detection</string>
-    <string name="set_max_brightness">Detect Max Brightness</string>
-    <string name="set_max_bright_message">Since different devices use different values for the maximum brightness we need to get it first.
-    Please manually go to system menu and set your brightness to the maximum and then press SAVE</string>
-    <string name="bright_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change Auto/Manual</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="set_max_bright_title">Max System Helligkeit ermitteln</string>
+    <string name="set_max_brightness">Max Helligkeit ermitteln</string>
+    <string name="set_max_bright_message">Da verschiedene Endgeräte unterschiedliche Werte für maximale Helligkeit verwenden, muss zuerst die maximale Helligkeit ermittelt werden.
+    Bitte manuell die Helligkeit des Endgerätes im System Menü auf maximal stellen und dann hier auf SPEICHERN drücken,</string>
+    <string name="bright_command_instruction">Carpe Controller: Benutze die Zoom Knöpfe für hoch/runter und Enter/Mitte um zwischen Automatik und Manuell zu wechseln.</string>
     <string name="auto_bright">Auto</string>
-    <string name="manual_bright">Manual</string>
-    <string name="control_station_exit">Controller: Use Left or Right buttons to exit</string>
-    <string name="music_volume">Music Volume</string>
-    <string name="calls_volume">Calls Volume</string>
-    <string name="ring_volume">Ring Volume</string>
-    <string name="volume_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change source</string>
-    <string name="dnd_mode_title">DND Mode Permission</string>
-    <string name="dnd_mode_message">To fully adjust all volumes we need permission for DND Mode!</string>
-    <string name="controller_default_message">Controller: Press up to select a slider, press down to return to menu.</string>
+    <string name="manual_bright">Manuell</string>
+    <string name="control_station_exit">Carpe Controller: benutze links oder rechts zum verlassen.</string>
+    <string name="music_volume">Musik Lautstärke</string>
+    <string name="calls_volume">Anruf Lautstärke</string>
+    <string name="ring_volume">Rufton Lautstärke</string>
+    <string name="volume_command_instruction">Carpe Controller: Benutze die Zoom Knöpfe für hoch/runter und Enter/Mitte um Quelle zu wechseln.</string>
+    <string name="dnd_mode_title">Rechte für "Bitte nicht Stören" Modus</string>
+    <string name="dnd_mode_message">Um alle Lautstärke Pegel einzustellen brauchen wir Rechte für "Bitte nicht Stören"!</string>
+    <string name="controller_default_message">Carpe Controller: Drücke Hoch um einen Regler zu wählen, Runter um zum Menü zurückzukehren.</string>
 
 
     <!-- Roadbook -->
-    <string name="tap_to_open_file">Tap here to open file</string>
-    <string name="select_instrument">Select Instrument</string>
-    <string name="none_empty_instrument_desc">None, will hide box</string>
-    <string name="total_instrument_desc">Total Distance</string>
-    <string name="partial_instrument_desc">Partial Distance</string>
-    <string name="heading_instrument_desc">Heading Degrees</string>
-    <string name="current_speed_instrument_desc">Current Speed</string>
+    <string name="tap_to_open_file">Tippe hier um eine Datei zu öffnen</string>
+    <string name="select_instrument">Anzeigen auswählen</string>
+    <string name="none_empty_instrument_desc">Keine Anzeige (wird nicht dargestellt)/string>
+    <string name="total_instrument_desc">Gesamtstrecke</string>
+    <string name="partial_instrument_desc">Teilstrecke</string>
+    <string name="heading_instrument_desc">Kurs in Grad/string>
+    <string name="current_speed_instrument_desc">Momentan Geschwindigkeit</string>
     <string name="chronometer_instrument_desc">Chronometer</string>
-    <string name="current_time_instrument_desc">Clock (Current Time)</string>
-    <string name="clock_title">Clock</string>
-    <string name="speed_title">Speed</string>
-    <string name="heading_title">Heading</string>
+    <string name="current_time_instrument_desc">Uhr (aktuelle Uhrzeit)</string>
+    <string name="clock_title">Uhr</string>
+    <string name="speed_title">Geschwindigkeit</string>
+    <string name="heading_title">Kurs</string>
     <string name="chrono_title">Chrono</string>
-    <string name="total_distance_title">Total</string>
-    <string name="partial_distance_title">Partial</string>
-    <string name="chrono_paused">PAUSED</string>
-    <string name="edit_instruments">Edit Instruments</string>
-    <string name="total_options">Options for Total</string>
-    <string name="partial_options">Options for Partial</string>
-    <string name="invert_paper_color">Invert Paper Color</string>
-    <string name="reset_all_instruments">Reset All Instruments</string>
-    <string name="total_distance_edit_title">Total Distance</string>
-    <string name="total_distance_message">Tap to edit the Total Distance instrument value:</string>
-    <string name="partial_distance_edit_title">Partial Distance</string>
-    <string name="partial_distance_message">Tap to edit the Partial Distance instrument value:</string>
-    <string name="total_options_dialog_title">Total Distance</string>
-    <string name="total_options_dialog_message">Available options for the Total Distance Instrument:</string>
-    <string name="total_options_reset_button">Reset Value</string>
-    <string name="total_options_input_button">Input Value</string>
-    <string name="total_options_decimals_button">Decimal Places</string>
-    <string name="total_decimals_dialog_title">Total - Decimal Places</string>
-    <string name="total_decimals_dialog_message">Choose the amount of decimal places to show for the Total value:</string>
-    <string name="total_decimals_dialog_one_button">One (0.0)</string>
-    <string name="total_decimals_dialog_two_button">Two (0.00)</string>
-    <string name="partial_options_dialog_title">Partial Distance</string>
-    <string name="partial_options_dialog_message">Available options for the Partial Distance Instrument:</string>
-    <string name="partial_options_reset_button">Reset Value</string>
-    <string name="partial_options_input_button">Input Value</string>
-    <string name="partial_options_decimals_button">Decimal Places</string>
-    <string name="partial_decimals_dialog_title">Partial - Decimal Places</string>
-    <string name="partial_decimals_dialog_message">Choose the amount of decimal places to show for the Partial value:</string>
-    <string name="partial_decimals_dialog_one_button">One (0.0)</string>
-    <string name="partial_decimals_dialog_two_button">Two (0.00)</string>
-    <string name="edit_hardware_controls">Controller Setup</string>
-    <string name="controller_lock_mode">Controller Lock Mode</string>
-    <string name="controller_lock_mode_enabled">Controller Lock Mode Enabled</string>
-    <string name="controller_lock_mode_disabled">Controller Lock Mode Disabled</string>
-    <string name="roadbook_controller_setup_cat_title">CARPE Controller Button Setup</string>
-    <string name="roadbook_controller_button_up">Joystick Up / Terrain Up</string>
-    <string name="roadbook_controller_button_down">Joystick Down / Terrain Down</string>
-    <string name="roadbook_controller_button_left">Joystick Left / Terrain Left</string>
-    <string name="roadbook_controller_button_right">Joystick Right / Terrain Right</string>
-    <string name="roadbook_controller_button_enter">Joystick Center Click / Terrain Enter</string>
-    <string name="roadbook_controller_button_enter_long">Long Press Joystick Center Click / Terrain Enter</string>
-    <string name="roadbook_controller_button_zoomin">Button A / Zoom In</string>
-    <string name="roadbook_controller_button_zoomout">Button B / Zoom Out</string>
-    <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll paper down once on partial reset</string>
-    <string name="roadbook_controller_paper_roll_options_cat_title">Paper Roll Options</string>
-    <string name="roadbook_controller_cat_title">CARPE Controller Options</string>
-    <string name="enable_controller_lock_also_disable_touch">Also disable screen touch when Controller Lock Mode is Enabled</string>
+    <string name="total_distance_title">Gesamt</string>
+    <string name="partial_distance_title">Teil</string>
+    <string name="chrono_paused">Angehalten</string>
+    <string name="edit_instruments">Anzeigen einstellen</string>
+    <string name="total_options">Optionen für Gesamt</string>
+    <string name="partial_options">Optionen für Teil</string>
+    <string name="invert_paper_color">Roadbookfarbe umkehren</string>
+    <string name="reset_all_instruments">Alle Instrumente zurückstellen</string>
+    <string name="total_distance_edit_title">Gesamtstrecke</string>
+    <string name="total_distance_message">Tippen um Gesamtstreckenwert einzustellen:</string>
+    <string name="partial_distance_edit_title">Teilstrecke</string>
+    <string name="partial_distance_message">Tippen um Teilstreckenwert einzustellen:</string>
+    <string name="total_options_dialog_title">Gesamtstrecke</string>
+    <string name="total_options_dialog_message">Verfügbare Optionen für Gesamtstreckenzähler:</string>
+    <string name="total_options_reset_button">Zurückstellen/<string>
+    <string name="total_options_input_button">Wert Eingeben</string>
+    <string name="total_options_decimals_button">Dezimalstellen</string>
+    <string name="total_decimals_dialog_title">Gesamtstrecke - Dezimalstellen</string>
+    <string name="total_decimals_dialog_message">Wähle die Zahl der Dezimalstellen für die Gesamtstrecke:</string>
+    <string name="total_decimals_dialog_one_button">Eine (0.0)</string>
+    <string name="total_decimals_dialog_two_button">Zwei (0.00)</string>
+    <string name="partial_options_dialog_title">Teilstrecke</string>
+    <string name="partial_options_dialog_message">Verfügbare Optionen für Teilstreckenzähler:</string>
+    <string name="partial_options_reset_button">Zurückstellen</string>
+    <string name="partial_options_input_button">Wert Eingeben</string>
+    <string name="partial_options_decimals_button">Dezimalstellen</string>
+    <string name="partial_decimals_dialog_title">Teilstrecke - Dezimalstellen</string>
+    <string name="partial_decimals_dialog_message">Wähle die Zahl der Dezimalstellen für die  Teilstrecke:</string>
+    <string name="partial_decimals_dialog_one_button">Eine (0.0)</string>
+    <string name="partial_decimals_dialog_two_button">Zwei (0.00)</string>
+    <string name="edit_hardware_controls">Controller Einstellung</string>
+    <string name="controller_lock_mode"> Modus</string>
+    <string name="controller_lock_mode_enabled"> Modus ein</string>
+    <string name="controller_lock_mode_disabled"> Modus aus</string>
+    <string name="roadbook_controller_setup_cat_title">CARPE Controller Knöpfe Einstellungen</string>
+    <string name="roadbook_controller_button_up">Joystick Hoch / Terrain Hoch</string>
+    <string name="roadbook_controller_button_down">Joystick Runter / Terrain Runter</string>
+    <string name="roadbook_controller_button_left">Joystick Links / Terrain Links</string>
+    <string name="roadbook_controller_button_right">Joystick Rechts / Terrain Rechts</string>
+    <string name="roadbook_controller_button_enter">Joystick Mitte / Terrain Enter</string>
+    <string name="roadbook_controller_button_enter_long">Langes Halten Joystick Mitte / Terrain Enter</string>
+    <string name="roadbook_controller_button_zoomin">Knopf A / Zoom rein</string>
+    <string name="roadbook_controller_button_zoomout">Knopf B / Zoom raus</string>
+    <string name="roadbook_controller_scroll_amount_title">Zeilenvorschub pro Klick</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Roadbook Vorschub einmal runter wenn Teilstrecke zurückgestellt wird.</string>
+    <string name="roadbook_controller_paper_roll_options_cat_title">Roadbook Vorschub Optionen</string>
+    <string name="roadbook_controller_cat_title">CARPE Controller Optionen</string>
+    <string name="enable_controller_lock_also_disable_touch">Bildschirmberührung sperren wenn Controller im Sperr Modus</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
-        <item>Left Menu Show</item>
-        <item>Paper Roll Up</item>
-        <item>Paper Roll Down</item>
-        <item>Increase Total</item>
-        <item>Decrease Total</item>
-        <item>Increase Partial</item>
-        <item>Decrease Partial</item>
-        <item>Reset Total</item>
-        <item>Reset Partial</item>
-        <item>Invert Paper Color</item>
+        <item>Linkes Menü zeigen</item>
+        <item>Roadbook hoch</item>
+        <item>Roadbook runter</item>
+        <item>Gesamtstrecke erhöhen</item>
+        <item>Gesamtstrecke reduzieren</item>
+        <item>Teilstrecke erhöhen</item>
+        <item>Teilstrecke reduzieren</item>
+        <item>Gesamtstrecke zurücksetzen</item>
+        <item>Teilstrecke zurücksetzen</item>
+        <item>Roadbookfarbe umkehren</item>
         <item>Start / Pause Chrono</item>
-        <item>Reset Chrono</item>
-        <item>Controller Lock Mode</item>
-        <item>Do Nothing</item>
+        <item>Chrono zurücksetzen</item>
+        <item>Controller Sperrmodus</item>
+        <item>keine Funktion</item>
     </string-array>
-    <string name="roadbook_open_file">Open PDF File</string>
-    <string name="roadbook_total_partial_controller_instructions">Controller: Use Up/Down/Left/Right to select button. Enter/Center Click to select.</string>
-    <string name="roadbook_decimals_controller_instructions">Controller: Use Left/Right to select button. Enter/Center Click to select.</string>
-    <string name="roadbook_edit_values_guide">Controller: Up/Down changes by 0.01, ZoomIn/Out changes by 1, Center/Enter long press resets to zero, Left/Right for Cancel/Save</string>
+    <string name="roadbook_open_file">Öffne PDF Datei</string>
+    <string name="roadbook_total_partial_controller_instructions">Controller: Nutze Hoch/Runter/Links/Rechts um einen Knopf zu wählen. Enter/Mitte für Auswahl.</string>
+    <string name="roadbook_decimals_controller_instructions">Controller: Nutze Links/Rechts um einen Knopf zu wählen. Enter/Mitte für Auswahl.</string>
+    <string name="roadbook_edit_values_guide">Controller: Hoch/Runter verändert um 0.01, Zoom Rein/Raus verändert um 1, Enter/Mitte langer Druck zum Zurücksetzen, Links/Rechts für Abbrechen/Speichern</string>
 
 
 
     <!-- MapFragment View -->
-    <string name="offline_map_manager">Offline Maps Manager</string>
-    <string name="map_manager">Maps Manager</string>
-    <string name="europe">Europe</string>
-    <string name="north_america">North America</string>
-    <string name="central_america">Central America</string>
-    <string name="south_america">South America</string>
-    <string name="australia_oceania">Australia / Oceania</string>
-    <string name="russia">Russia</string>
-    <string name="asia">Asia</string>
-    <string name="africa">Africa</string>
-    <string name="download">Download</string>
-    <string name="downloading_map">Downloading map file for</string>
-    <string name="downloading_poi">Downloading additional POI file</string>
-    <string name="starting_download">Starting download…</string>
-    <string name="seconds">seconds</string>
-    <string name="minutes">minutes</string>
-    <string name="remaining">remaining</string>
-    <string name="load_map_switch">Always Load Map:  </string>
-    <string name="map_type">Map Type</string>
-    <string name="map_type_title">Select Map Type</string>
-    <string name="map_type_message">Our map can display standard OSM or Topographic OSM (with altitude lines) information. The standard is optimized for road navigation and the topographic for off-road exploration. Please select which do you want to use:</string>
-    <string name="standard">Standard (Road)</string>
-    <string name="topographic">Topographic (Off-Road)</string>
-    <string name="look_around_message">Use Up/Down/Left/Right to move the map. Long Press Enter/Center Click to exit.</string>
-    <string name="look_around_title">Look Around Mode</string>
-    <string name="online_layers">Additional Layers</string>
-    <string name="hill_shadding">Hill Shading</string>
-    <string name="hill_shadding_desc">Hillshading is a technique for creating relief maps, showing the topographical shape of hills and mountains using shading.</string>
-    <string name="data_type_online">Data Type: Online (Needs Internet Connection) will Create Offline Cache</string>
-    <string name="medium_power_increase">Power Usage: Increases Power Consumption by up to 20%!</string>
-    <string name="hillshading_switch_state">Show Hill Shading Layer:</string>
-    <string name="tilt_adjust_mode">Compass Tilt Adjust</string>
-    <string name="tilt_adjust_mode_message">Use Up/Down to change the map tilt. Press Enter/Center Click to save &amp; exit.</string>
+    <string name="offline_map_manager">Offline Landkarten verwalten</string>
+    <string name="map_manager">Landkarten verwalten</string>
+    <string name="europe">Europa</string>
+    <string name="north_america">Nord Amerika</string>
+    <string name="central_america">Mittel Amerika</string>
+    <string name="south_america">Süd Amerika</string>
+    <string name="australia_oceania">Australien / Oceania</string>
+    <string name="russia">Russland</string>
+    <string name="asia">Asien</string>
+    <string name="africa">Afrika</string>
+    <string name="download">Runterladen</string>
+    <string name="downloading_map">Landkarte runterladen für</string>
+    <string name="downloading_poi">Zusätzliche POI Daten runterladen</string>
+    <string name="starting_download">Starte download…</string>
+    <string name="seconds">sekunden</string>
+    <string name="minutes">minuten</string>
+    <string name="remaining">verbleiben</string>
+    <string name="load_map_switch">Landkarte immer laden:  </string>
+    <string name="map_type">Kartenstil</string>
+    <string name="map_type_title">Wähle Kartenstil</string>
+    <string name="map_type_message">Unser Landkarten können standard OSM oder topographische OSM (mit Höhenlinien) darstellen. Die standard Karten sind für Straßen Navigation optimiert. Topographische Karten sind für Erkundungen abseits befestigter Straßen. Treffe bitte eine Wahl:</string>
+    <string name="standard">Standard (Straße)</string>
+    <string name="topographic">Topographisch (abseits der Straße)</string>
+    <string name="look_around_message">Nutze Hoch/Runter/Links/Rechts um die Kartenansicht zu bewegen. Langes Halten Mitte/Enter zum schließen.</string>
+    <string name="look_around_title">Herumschauen Modus</string>
+    <string name="online_layers">Zusätzliche Ebenen</string>
+    <string name="hill_shadding">Geländeschattierung</string>
+    <string name="hill_shadding_desc">Geländeschattierung ist eine Technik um Reliefkarten darzustellen. Sie zeigt durch Schattierungen die topographische Gestalt von Hügel und Berge.</string>
+    <string name="data_type_online">Datentyp: Online (braucht eine Internet Verbindung), erstellt ein offline Zwischenspeicher</string>
+    <string name="medium_power_increase">Strom Verbrauch: Wird um ca. 20% erhöht!</string>
+    <string name="hillshading_switch_state">Zeige Geländeschattierungsebene:</string>
+    <string name="tilt_adjust_mode">Kartenneigung einstellen</string>
+    <string name="tilt_adjust_mode_message">Nutze Hoch/Runter um die Neigung der Karte einzustellen. Drücke Enter/Mitte zum Speichern &amp; Schließen.</string>
     <string name="manage_gpx_files">GPX Tracks</string>
-    <string name="waypoint_box_close">Close</string>
-    <string name="waypoint_box_navigate">Navigate</string>
-    <string name="waypoint_box_share">Share</string>
-    <string name="gpx_add_another">Add More</string>
-    <string name="gpx_close_all">Remove All</string>
-    <string name="imported_gpx_files">Imported GPX Files</string>
-    <string name="waypoints">Waypoints</string>
-    <string name="waypoint">Waypoint</string>
+    <string name="waypoint_box_close">Schließen</string>
+    <string name="waypoint_box_navigate">Navigieren</string>
+    <string name="waypoint_box_share">Teilen</string>
+    <string name="gpx_add_another">Weitere hinzufügen</string>
+    <string name="gpx_close_all">Alle entfernen</string>
+    <string name="imported_gpx_files">Importierte GPX Dateien</string>
+    <string name="waypoints">Wegpunkte</string>
+    <string name="waypoint">Wegpunkt</string>
     <string name="tracks">Tracks</string>
     <string name="track">Track</string>
-    <string name="set_to_hide_gpx">Hide GPX</string>
-    <string name="set_to_visible_gpx">Set GPX Visible</string>
-    <string name="set_to_hide_track">Set Track Hidden</string>
-    <string name="set_to_visible_track">Show Track</string>
-    <string name="track_is_hidden">Hide Track</string>
-    <string name="track_is_visible">Track is Visible</string>
-    <string name="remove">Remove</string>
-    <string name="no_waypoints_for_track">This track does not contain any waypoint!</string>
-    <string name="no_track_description">No track description.</string>
-    <string name="track_lenght">Length:</string>
-    <string name="set_color">Set Color</string>
-    <string name="track_color">Track Color:</string>
-    <string name="open_gpx">Open GPX</string>
-    <string name="remove_gpx">Remove GPX</string>
-    <string name="no_gpx_loaded">No GPX loaded yet!</string>
-    <string name="track_does_not_contain_waypoints">Track does not contain any waypoint.</string>
+    <string name="set_to_hide_gpx">GPX ausblenden</string>
+    <string name="set_to_visible_gpx">GPX anzeigen</string>
+    <string name="set_to_hide_track">Track ausblenden</string>
+    <string name="set_to_visible_track">Track anzeigen</string>
+    <string name="track_is_hidden">Track ausgeblendet</string>
+    <string name="track_is_visible">Track sichtbar</string>
+    <string name="remove">Entfernen</string>
+    <string name="no_waypoints_for_track">Dieses Track enthält keine Wegpunkte!</string>
+    <string name="no_track_description">Keine Track Beschreibung vorhanden.</string>
+    <string name="track_lenght">Länge:</string>
+    <string name="set_color">Farbe einstellenr</string>
+    <string name="track_color">Track Farbe:</string>
+    <string name="open_gpx">Öffne GPX</string>
+    <string name="remove_gpx">Enferne GPX</string>
+    <string name="no_gpx_loaded">Kein GPX geladen!</string>
+    <string name="track_does_not_contain_waypoints">Dieses Track enthält keine Wegpunkte!.</string>
     <string name="track_start_title">GPX Start</string>
-    <string name="track_start_description">This is the first point for this GPX</string>
-    <string name="track_end_title">GPX End</string>
-    <string name="track_end_description">This is the last point for this GPX</string>
-    <string name="select_navigation_app">Select Navigation App</string>
-    <string name="select_app">Select Application</string>
-    <string name="not_enough_space_title">ERROR: Not enough storage space!</string>
-    <string name="not_enough_space_progress_text">You need to free at least</string>
-    <string name="bad_map_detected_title">Bad Map File Detected</string>
-    <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
+    <string name="track_start_description">Dies ist der Startpunkt für dieses GPX</string>
+    <string name="track_end_title">GPX Ende</string>
+    <string name="track_end_description">Dies ist der Endpunkt für dieses GPX</string>
+    <string name="select_navigation_app">Wähle Navigations App</string>
+    <string name="select_app">Wähle eine App</string>
+    <string name="not_enough_space_title">FEHLER: Speicherplatz nicht ausreichend!</string>
+    <string name="not_enough_space_progress_text">Benötigter freier Speicherplatz:</string>
+    <string name="bad_map_detected_title">Beschädigte Landkarten Datei festgestellt</string>
+    <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
 
 
 
