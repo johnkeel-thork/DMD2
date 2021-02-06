@@ -53,28 +53,28 @@
         <item>Utilizar siempre sensor de rueda</item>
         <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
     </string-array>
-    <string name="terrain_odo_mode">Distances measure mode</string>
+    <string name="terrain_odo_mode">Modos medición distancia</string>
     <string-array name="terrain_odo_modes" translatable="true">
-        <item>Always GPS</item>
-        <item>Always wheel sensor</item>
-        <item>Wheel sensor only when low GPS Accuracy</item>
+        <item>Utilizar siempre GPS</item>
+        <item>Utilizar siempre sensor de rueda</item>
+        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
     </string-array>
-    <string name="dmd2_plugins">Plugins for DMD2</string>
-    <string name="get_roadbook_title">Roadbook View - Purchase</string>
-    <string name="get_roadbook_title_purchased">Roadbook - Purchased / Active</string>
-    <string name="get_roadbook_message">Open PDF Roadbook files, select up to 4 simultaneous instruments like Total, Partial, Heading, Speed and control it all with a handlebar controller.</string>
-    <string name="get_mapview_title">Map View (Early Access / Landscape Only) - Purchase</string>
-    <string name="get_mapview_title_purchased">Map View - Purchased / Active</string>
-    <string name="get_mapview_message">Offline map with topographic data, with worldwide topo maps, 3D buildings, hillshading (online), multiple-gpx manager. Turn-by-turn and POI search coming soon.</string>
-    <string name="connection_error">Cannot connect, make sure you are online / try restarting the app!</string>
-    <string name="auto_hide_left_menu_indicator">Auto-hide left menu indicator</string>
-    <string name="oem_registration">OEM Registration</string>
-    <string name="oem_check">Registration Process (needs internet connection)</string>
-    <string name="oem_check_summary">Only use if your motorcycle came equipped with an Android device with Drive Mode Dashboard 2 pre-installed.</string>
-    <string name="roadbook_plugin_missing_title">Roadbook Plugin Needed</string>
-    <string name="roadbook_plugin_missing_message">To view Roadbook PDF files you need to purchase the DMD2 Roadbook Plugin.</string>
-    <string name="map_plugin_missing_title">Map Plugin Needed</string>
-    <string name="map_plugin_missing_message">To view GPX files you need to purchase the DMD2 Map Plugin.</string>
+    <string name="dmd2_plugins">Plugins para DMD2</string>
+    <string name="get_roadbook_title">Visor Roadbook - Comprar</string>
+    <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
+    <string name="get_roadbook_message">Abrir archivos Roadbook PDF, selecciona simultáneamente hasta 4 instrumentos como, el Total, Parcial, Destino, Velocidad, maneja todo a través del controlador del manillar.</string>
+    <string name="get_mapview_title">Visor Mapa (Acceso temprano / sólo vista Horizontal) - Comprar</string>
+    <string name="get_mapview_title_purchased">Visor Mapa - Comprado / Activo</string>
+    <string name="get_mapview_message">Mapa sin conexión con información topográfica, mapas topográficos de todo el mundo, edificios 3D, sombreado (en línea), gestor de multiples GPX. Indicaciones de navegación paso a paso y búsqueda de puntos de interés (POI) en breves disponible.</string>
+    <string name="connection_error">No se puede conectar, asegúrate de estar en linea / intenta reiniciar la aplicación!</string>
+    <string name="auto_hide_left_menu_indicator">Ocultar automáticamente indicador del menú izquierdo</string>
+    <string name="oem_registration">Registro OEM</string>
+    <string name="oem_check">Proceso de Registro (se necesita conexión de Internet)</string>
+    <string name="oem_check_summary">Solo utilizar si tu motocicleta viene equipada con un dispositivo Android con Drive Mode Dashboard 2 preinstalado.</string>
+    <string name="roadbook_plugin_missing_title">Plugin para Roadbook necesario</string>
+    <string name="roadbook_plugin_missing_message">Para poder visualizar archivos Roadbook PDF necesitas comprar el DMD2 Roadbook Plugin.</string>
+    <string name="map_plugin_missing_title">Plugin de Mapa necesario</string>
+    <string name="map_plugin_missing_message">Para visualizar archivos GPX necesita comprar el DMD2 Map Plugin.</string>
 
 
     <!-- Widgets -->
