@@ -286,8 +286,8 @@
     <string name="track_end_description">Dies ist der Endpunkt für dieses GPX</string>
     <string name="select_navigation_app">Wähle Navigations App</string>
     <string name="select_app">Wähle eine App</string>
-    <string name="not_enough_space_title">ERROR: Speicherplatz nicht ausreichend!</string>
-    <string name="not_enough_space_progress_text">Benötigter freier Speicherplatz</string>
+    <string name="not_enough_space_title">FEHLER: Speicherplatz nicht ausreichend!</string>
+    <string name="not_enough_space_progress_text">Benötigter freier Speicherplatz:</string>
     <string name="bad_map_detected_title">Beschädigte Landkarten Datei festgestellt</string>
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
 
