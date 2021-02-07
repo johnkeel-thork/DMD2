@@ -78,60 +78,60 @@
 
 
     <!-- Widgets -->
-    <string name="none_empty_widget_desc">No Widget / Empty Area</string>
-    <string name="speed_widget_desc">Speed / Trip / Odo</string>
-    <string name="fav_apps_widgets">App Shortcuts</string>
-    <string name="trip_info">Trip Information</string>
-    <string name="digital_clock">Digital Clock</string>
-    <string name="compass_widget">Compass</string>
-    <string name="system_widget">Android System Widget</string>
-    <string name="logo_widget">Add a PNG logo</string>
+    <string name="none_empty_widget_desc">Widget No / Area Vacía</string>
+    <string name="speed_widget_desc">Velocidad / Trip / Odo</string>
+    <string name="fav_apps_widgets">Accesos directos aplicaciónes</string>
+    <string name="trip_info">Información Trip</string>
+    <string name="digital_clock">Reloj Digital</string>
+    <string name="compass_widget">Brújula</string>
+    <string name="system_widget">Widget Sistema Android</string>
+    <string name="logo_widget">Añadir logo PNG</string>
     <!-- Trip Widget -->
-    <string name="avg_speed">Avg Speed</string>
+    <string name="avg_speed">Vel Media</string>
     <!-- Logo Widget -->
     <string name="pixels">pixels</string>
-    <string name="tap_to_select_image">Tap to select image</string>
-    <string name="tap_to_edit_text">Tap to edit text</string>
-    <string name="write_logo_message">Write your logo message</string>
+    <string name="tap_to_select_image">Presionar para seleccionar imagen</string>
+    <string name="tap_to_edit_text">Presionar para editar texto</string>
+    <string name="write_logo_message">Escribe el mensaje de tu logo</string>
 
     <!-- GRID VIEW -->
-    <string name="option_show_grid">Layout Edit Mode</string>
+    <string name="option_show_grid">Modo Edición de Diseño</string>
     <string name="select_widget">Select Widget</string>
 
     <!-- Speedo View -->
-    <string name="distance">Distance</string>
-    <string name="total_time">Total Time</string>
-    <string name="travel_time">Travel Time</string>
-    <string name="stop_time">Stop Time</string>
-    <string name="avg_average">AVG</string>
+    <string name="distance">Distancia</string>
+    <string name="total_time">Tiempo Total</string>
+    <string name="travel_time">Tiempo de Viaje</string>
+    <string name="stop_time">Tiempo Parada</string>
+    <string name="avg_average">MED</string>
     <string name="max_maximum">MAX</string>
     <string name="odo_odometer">Odo</string>
     <string name="trip">Trip</string>
-    <string name="reset_trip">Reset Trip</string>
-    <string name="edit_odometer">Edit Odometer</string>
-    <string name="edit_odometer_message">Please insert new odometer value:</string>
-    <string name="edit_odometer_controller_guide">Controller: Up/Down changes by 1, ZoomIn/Out changes by 100, Center/Enter long press resets to zero, Left/Right for Cancel/Save</string>
-    <string name="hours">Hours</string>
+    <string name="reset_trip">Resetear Trip</string>
+    <string name="edit_odometer">Editar Odometro</string>
+    <string name="edit_odometer_message">Por favor insertar un nuevo valor en Odometro:</string>
+    <string name="edit_odometer_controller_guide">Controlador: Arriba/Abajo cambia por 1, Ampliar/Reducir cambia por 100, Centro/Enter pulsación larga resetea a cero, Izquierda/Derecha para Cancelar/Guardar</string>
+    <string name="hours">Horas</string>
 
 
 
     <!-- Control Station -->
-    <string name="brightness">Brightness</string>
-    <string name="set_max_bright_title">System Max Brightness Detection</string>
-    <string name="set_max_brightness">Detect Max Brightness</string>
-    <string name="set_max_bright_message">Since different devices use different values for the maximum brightness we need to get it first.
-    Please manually go to system menu and set your brightness to the maximum and then press SAVE</string>
-    <string name="bright_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change Auto/Manual</string>
+    <string name="brightness">Brillo</string>
+    <string name="set_max_bright_title"> Detección de Brillo Máxima del Sistema</string>
+    <string name="set_max_brightness">Detectar Brillo Máximo</string>
+    <string name="set_max_bright_message">Dado que cada dispositivo usa diferentes valores para el brillo máximo, primero debemos obtenerlo.
+     Vaya manualmente al menú del sistema y configure su brillo al máximo y luego presione GUARDAR</string>
+    <string name="bright_command_instruction">Controlador: Usar botones del Zoom para aumentar/reducir y Enter/Centro Presionar para cambiar Auto/Manual</string>
     <string name="auto_bright">Auto</string>
     <string name="manual_bright">Manual</string>
-    <string name="control_station_exit">Controller: Use Left or Right buttons to exit</string>
-    <string name="music_volume">Music Volume</string>
-    <string name="calls_volume">Calls Volume</string>
-    <string name="ring_volume">Ring Volume</string>
-    <string name="volume_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change source</string>
-    <string name="dnd_mode_title">DND Mode Permission</string>
-    <string name="dnd_mode_message">To fully adjust all volumes we need permission for DND Mode!</string>
-    <string name="controller_default_message">Controller: Press up to select a slider, press down to return to menu.</string>
+    <string name="control_station_exit">Controlador: Usar botón Izquierdo  o Derecho para salir</string>
+    <string name="music_volume">Volumen Música</string>
+    <string name="calls_volume">Volumen Llamadas</string>
+    <string name="ring_volume">Volumen Tono</string>
+    <string name="volume_command_instruction">Controlador: Usar botones zoom para aumentar/reducir y Enter/Centro Presionar para cambiar fuente</string>
+    <string name="dnd_mode_title">Permisos Modo DND</string>
+    <string name="dnd_mode_message">Para ajustar completamente el volumen necesitamos permisos para el Modo DND¡</string>
+    <string name="controller_default_message">Controlador: Presione arriba para seleccionar uno de los controles deslizantes, presione abajo para volver al menu.</string>
 
 
     <!-- Roadbook -->
