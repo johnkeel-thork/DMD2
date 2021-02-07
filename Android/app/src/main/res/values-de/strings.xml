@@ -19,7 +19,7 @@
     <string name="cancel">Abbrechen</string>
     <string name="close">Schließen</string>
     <string name="swipe_message">Einige Ansichten zeigen einen senkrechten blauen Balken am linken Bildschirm Rand. Dort gibt es ein linkes Menü, welches Du durch wischen von der linken Bildschirmseite erreichen kannst. Bei Verwendung des CARPE Controller kann das linke Menü in der Regel durch "hoch" oder "runter" erreicht werden.</string>
-    <string name="already_purchased">Plugin bereits gekauft</string>   
+    <string name="already_purchased">Plugin bereits gekauft</string>
     <string name="hide_menu">Menü verstecken</string>
     <string name="select">Auswählen</string>
     <string name="delete">Löschen</string>
@@ -65,7 +65,7 @@
     <string name="get_roadbook_message">öffnet PDF Roadbook Dateien und wähle bis zu 4 Anzeigen wie Gesamtstrecke, Teilstrecke, Kursrichtung, Geschwindigkeit und bediene alle mit der Lenkerfernbedienung.</string>
     <string name="get_mapview_title">Anzeige von Landkarten (vorab-Zugang / nur Querformat) - Kaufen</string>
     <string name="get_mapview_title_purchased">Anzeige von Landkarten  - gekauft / aktiviert</string>
-    <string name="get_mapview_message">Offline Landkarten mit topographischen Daten, weltweite Topo-Karten, 3D Gebaüde, Höhenschattierung (online), Multiple-gpx Manager. Routenführung and POI-Suche in Kürze.</string>
+    <string name="get_mapview_message">Offline Landkarten mit topographischen Daten, weltweite Topo-Karten, 3D Gebäude, Höhenschattierung (online), Multiple-gpx Manager. Routenführung and POI-Suche in Kürze.</string>
     <string name="connection_error">Kann nicht verbinden, stelle sicher, dass Du online bist / versuche ein Neustart!</string>
     <string name="auto_hide_left_menu_indicator">Auto-verstecke linkes Menü</string>
     <string name="oem_registration">OEM Anmeldung</string>
@@ -137,10 +137,10 @@
     <!-- Roadbook -->
     <string name="tap_to_open_file">Tippe hier um eine Datei zu öffnen</string>
     <string name="select_instrument">Anzeigen auswählen</string>
-    <string name="none_empty_instrument_desc">Keine Anzeige (wird nicht dargestellt)/string>
+    <string name="none_empty_instrument_desc">Keine Anzeige (wird nicht dargestellt)</string>
     <string name="total_instrument_desc">Gesamtstrecke</string>
     <string name="partial_instrument_desc">Teilstrecke</string>
-    <string name="heading_instrument_desc">Kurs in Grad/string>
+    <string name="heading_instrument_desc">Kurs in Grad</string>
     <string name="current_speed_instrument_desc">Momentan Geschwindigkeit</string>
     <string name="chronometer_instrument_desc">Chronometer</string>
     <string name="current_time_instrument_desc">Uhr (aktuelle Uhrzeit)</string>
@@ -162,7 +162,7 @@
     <string name="partial_distance_message">Tippen um Teilstreckenwert einzustellen:</string>
     <string name="total_options_dialog_title">Gesamtstrecke</string>
     <string name="total_options_dialog_message">Verfügbare Optionen für Gesamtstreckenzähler:</string>
-    <string name="total_options_reset_button">Zurückstellen/<string>
+    <string name="total_options_reset_button">Zurückstellen</string>
     <string name="total_options_input_button">Wert Eingeben</string>
     <string name="total_options_decimals_button">Dezimalstellen</string>
     <string name="total_decimals_dialog_title">Gesamtstrecke - Dezimalstellen</string>
@@ -290,7 +290,5 @@
     <string name="not_enough_space_progress_text">Benötigter freier Speicherplatz:</string>
     <string name="bad_map_detected_title">Beschädigte Landkarten Datei festgestellt</string>
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
-
-
-
+    
 </resources>
