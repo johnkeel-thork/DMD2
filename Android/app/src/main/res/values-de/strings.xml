@@ -291,7 +291,7 @@
     <string name="not_enough_space_progress_text">Benötigter freier Speicherplatz:</string>
     <string name="bad_map_detected_title">Beschädigte Landkarten Datei festgestellt</string>
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
-    <string name="error_loading_gpx_title">Fehler beim Laden des GPX/string>
+    <string name="error_loading_gpx_title">Fehler beim Laden des GPX</string>
     <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Anderer.</string>
     
 </resources>
