@@ -64,7 +64,7 @@
     <string name="get_roadbook_title">Roadbook  - Kaufen</string>
     <string name="get_roadbook_title_purchased">Roadbook - gekauft / aktiviert</string>
     <string name="get_roadbook_message">öffnet PDF Roadbook Dateien und wähle bis zu 4 Anzeigen wie Gesamtstrecke, Teilstrecke, Kursrichtung, Geschwindigkeit und bediene alle mit der Lenkerfernbedienung.</string>
-    <string name="get_mapview_title">Anzeige von Landkarten (vorab-Zugang / nur Querformat) - Kaufen</string>
+    <string name="get_mapview_title">Anzeige von Landkarten (vorab-Zugang) - Kaufen</string>
     <string name="get_mapview_title_purchased">Anzeige von Landkarten  - gekauft / aktiviert</string>
     <string name="get_mapview_message">Offline Landkarten mit topographischen Daten, weltweite Topo-Karten, 3D Gebäude, Höhenschattierung (online), Multiple-gpx Manager. Routenführung and POI-Suche in Kürze.</string>
     <string name="connection_error">Kann nicht verbinden, stelle sicher, dass Du online bist / versuche ein Neustart!</string>
@@ -293,5 +293,5 @@
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
     <string name="error_loading_gpx_title">Fehler beim Laden des GPX</string>
     <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Anderer.</string>
-    
+
 </resources>
