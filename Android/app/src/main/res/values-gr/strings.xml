@@ -63,7 +63,7 @@
     <string name="get_roadbook_title">Roadbook - Αγορά</string>
     <string name="get_roadbook_title_purchased">Roadbook - Αγορασμένο / Ενεργό</string>
     <string name="get_roadbook_message">Ανοίξτε αρχείο Roadbook PDF, επιλέξτε έως 4 ταυτόχρονα όργανα όπως Σύνολο, Μερικό, Επικεφαλίδα, Ταχύτητα και ελέγξτε τα όλα με χειριστήριο τιμονιού.</string>
-    <string name="get_mapview_title">Προβολή Χάρτη (Υπό Κατασκευή / Οριζόντια Προβολή) - Αγορά</string>
+    <string name="get_mapview_title">Προβολή Χάρτη (Υπό Κατασκευή) - Αγορά</string>
     <string name="get_mapview_title_purchased">Χάρτης - Αγορασμένος / Ενεργός</string>
     <string name="get_mapview_message">Χάρτης εκτός σύνδεσης με τοπογραφικά δεδομένα, παγκόσμιοι τοπογραφικοί χάρτες, τρισδιάστατα κτήρια, hillshading (χρειάζεται σύνδεση), διαχείριση πολλαπλών GPX. Αναμένεται Καθοδήγηση και POI.</string>
     <string name="connection_error">Αδυναμία σύνδεσης, σιγουρευτείτε πως είστε συνδεδεμένοι / δοκιμάστε επενεκίνηση εφορμογής!</string>
