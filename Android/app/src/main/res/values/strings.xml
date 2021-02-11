@@ -63,7 +63,7 @@
     <string name="get_roadbook_title">Roadbook View - Purchase</string>
     <string name="get_roadbook_title_purchased">Roadbook - Purchased / Active</string>
     <string name="get_roadbook_message">Open PDF Roadbook files, select up to 4 simultaneous instruments like Total, Partial, Heading, Speed and control it all with a handlebar controller.</string>
-    <string name="get_mapview_title">Map View (Early Access / Landscape Only) - Purchase</string>
+    <string name="get_mapview_title">Map View (Early Access) - Purchase</string>
     <string name="get_mapview_title_purchased">Map View - Purchased / Active</string>
     <string name="get_mapview_message">Offline map with topographic data, with worldwide topo maps, 3D buildings, hillshading (online), multiple-gpx manager. Turn-by-turn and POI search coming soon.</string>
     <string name="connection_error">Cannot connect, make sure you are online / try restarting the app!</string>
