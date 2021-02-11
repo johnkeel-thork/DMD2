@@ -72,7 +72,7 @@
     <string name="get_roadbook_title">Visor Roadbook - Comprar</string>
     <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
     <string name="get_roadbook_message">Abrir archivos Roadbook PDF, selecciona simultáneamente hasta 4 instrumentos como, el Total, Parcial, Destino, Velocidad, maneja todo a través del controlador del manillar.</string>
-    <string name="get_mapview_title">Visor Mapa (Acceso temprano / sólo vista Horizontal) - Comprar</string>
+    <string name="get_mapview_title">Visor Mapa (Acceso temprano) - Comprar</string>
     <string name="get_mapview_title_purchased">Visor Mapa - Comprado / Activo</string>
     <string name="get_mapview_message">Mapa sin conexión con información topográfica, mapas topográficos de todo el mundo, edificios 3D, sombreado (en línea), gestor de multiples GPX. Indicaciones de navegación paso a paso y búsqueda de puntos de interés (POI) en breves disponible.</string>
     <string name="connection_error">No se puede conectar, asegúrate de estar en linea / intenta reiniciar la aplicación!</string>
