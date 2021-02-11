@@ -63,7 +63,7 @@
     <string name="get_roadbook_title_purchased">Dérouleur de Roadbook - Acheté / Actif</string>
     <string name="get_roadbook_message">Utilise un Roadbook en PDF, sélectionne jusqu’à 4 instruments simultanés comme : Total, Partiel, CAP, Vitesse et contrôle les tous avec une commande au guidon.</string>
 
-    <string name="get_mapview_title">Cartographie (Accès anticipé / paysage seulement) - Acheter </string>
+    <string name="get_mapview_title">Cartographie (Accès anticipé) - Acheter </string>
     <string name="get_mapview_title_purchased">Cartographie - Acheté / Actif</string>
     <string name="get_mapview_message">Cartographie hors ligne avec affichage topographique mondiale, Batiments en 3D, courbes de niveaux (en ligne), gestion multi-GPX. Système de navigation et recherche par POI encours de développement.</string>
     <string name="connection_error">Connection impossible, vérifie ta connexion internet / essaye de redémarrer l’app!</string>
