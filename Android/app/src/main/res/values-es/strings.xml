@@ -5,6 +5,13 @@
     <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
     <!-- End of New / Not Translated -->
 
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+    
+    
+    
 
 
 
@@ -262,7 +269,6 @@
     <string name="hillshading_switch_state">Show Hill Shading Layer:</string>
     <string name="tilt_adjust_mode">Compass Tilt Adjust</string>
     <string name="tilt_adjust_mode_message">Use Up/Down to change the map tilt. Press Enter/Center Click to save &amp; exit.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
     <string name="waypoint_box_close">Close</string>
     <string name="waypoint_box_navigate">Navigate</string>
     <string name="waypoint_box_share">Share</string>
