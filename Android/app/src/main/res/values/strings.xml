@@ -253,7 +253,7 @@
     <string name="hillshading_switch_state">Show Hill Shading Layer:</string>
     <string name="tilt_adjust_mode">Compass Tilt Adjust</string>
     <string name="tilt_adjust_mode_message">Use Up/Down to change the map tilt. Press Enter/Center Click to save &amp; exit.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
+    <string name="manage_gpx_files">GPX Files</string>
     <string name="waypoint_box_close">Close</string>
     <string name="waypoint_box_navigate">Navigate</string>
     <string name="waypoint_box_share">Share</string>
