@@ -1,4 +1,12 @@
 <resources>
+    
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+    
+    
+    
 
     <string name="app_name">DMD2</string>
 
@@ -254,7 +262,6 @@
     <string name="hillshading_switch_state">Zeige Geländeschattierungsebene:</string>
     <string name="tilt_adjust_mode">Kartenneigung einstellen</string>
     <string name="tilt_adjust_mode_message">Nutze Hoch/Runter um die Neigung der Karte einzustellen. Drücke Enter/Mitte zum Speichern &amp; Schließen.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
     <string name="waypoint_box_close">Schließen</string>
     <string name="waypoint_box_navigate">Navigieren</string>
     <string name="waypoint_box_share">Teilen</string>
