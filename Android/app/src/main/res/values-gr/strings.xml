@@ -1,4 +1,14 @@
 <resources>
+    
+    
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+    
+    
+    
+    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -253,7 +263,6 @@
     <string name="hillshading_switch_state">Εμφάνιση επιπέδων Hill Shading:</string>
     <string name="tilt_adjust_mode">Ρύθμιση Κλίσης Πυξίδας</string>
     <string name="tilt_adjust_mode_message">Χρησιμοποιήστε το Πάνω/Κάτω για να αλλάξετε την κλήση του χάρτη. Πατήστε το Πλήκτρο Εισαγωής/Κεντρικό για αποθήκευση &amp; έξοδο.</string>
-    <string name="manage_gpx_files">GPX Διαδρομές</string>
     <string name="waypoint_box_close">Κλείσιμο</string>
     <string name="waypoint_box_navigate">Πλοηγηθείτε</string>
     <string name="waypoint_box_share">Κοινοποίηση</string>
