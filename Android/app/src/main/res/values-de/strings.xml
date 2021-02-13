@@ -237,7 +237,7 @@
     <string name="seconds">sekunden</string>
     <string name="minutes">minuten</string>
     <string name="remaining">verbleiben</string>
-    <string name="load_map_switch">Landkarte immer laden:  </string>
+    <string name="load_map_switch">Landkarte immer laden:</string>
     <string name="map_type">Kartenstil</string>
     <string name="map_type_title">Wähle Kartenstil</string>
     <string name="map_type_message">Unser Landkarten können standard OSM oder topographische OSM (mit Höhenlinien) darstellen. Die standard Karten sind für Straßen Navigation optimiert. Topographische Karten sind für Erkundungen abseits befestigter Straßen. Treffe bitte eine Wahl:</string>
@@ -253,7 +253,7 @@
     <string name="hillshading_switch_state">Zeige Geländeschattierungsebene:</string>
     <string name="tilt_adjust_mode">Kartenneigung einstellen</string>
     <string name="tilt_adjust_mode_message">Nutze Hoch/Runter um die Neigung der Karte einzustellen. Drücke Enter/Mitte zum Speichern &amp; Schließen.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
+    <string name="manage_gpx_files">GPX Dateien</string>
     <string name="waypoint_box_close">Schließen</string>
     <string name="waypoint_box_navigate">Navigieren</string>
     <string name="waypoint_box_share">Teilen</string>
