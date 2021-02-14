@@ -144,7 +144,7 @@
 
 <!-- Control Station -->
 
-<string name="brightness">Luminsité</string>
+<string name="brightness">Luminosité</string>
 <string name="set_max_bright_title">Détection luminosité automatique</string>
 <string name="set_max_brightness">Détection luminosité maximum</string>
 <string name="set_max_bright_message">Comme les appareils utilisent des valeurs différentes pour la luminosité maximal.
