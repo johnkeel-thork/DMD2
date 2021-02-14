@@ -145,10 +145,10 @@
 <!-- Control Station -->
 
 <string name="brightness">Luminosité</string>
-<string name="set_max_bright_title">Détection luminosité automatique</string>
+<string name="set_max_bright_title">Détection automatique de luminosité</string>
 <string name="set_max_brightness">Détection luminosité maximum</string>
-<string name="set_max_bright_message">Comme les appareils utilisent des valeurs différentes pour la luminosité maximal.
-Veuillez passer manuellement au menu système et régler votre luminosité au maximum, puis appuyez sur SAUVEGARDER</string>
+<string name="set_max_bright_message">Les appareils utilisent des valeurs différentes de luminosité,
+allez dans le menu système de l'appareil pour régler la luminosité au maximum, puis appuyez sur "Enregistrer"</string>
 <string name="bright_command_instruction">Controller: Boutons Zoom pour augmenter/réduire and Entrer/Annuler Click pour changer Auto/Manuel</string>
 <string name="auto_bright">Auto</string>
 <string name="manual_bright">Manuel</string>
