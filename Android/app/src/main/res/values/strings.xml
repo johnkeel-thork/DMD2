@@ -63,7 +63,7 @@
     <string name="get_roadbook_title">Roadbook View - Purchase</string>
     <string name="get_roadbook_title_purchased">Roadbook - Purchased / Active</string>
     <string name="get_roadbook_message">Open PDF Roadbook files, select up to 4 simultaneous instruments like Total, Partial, Heading, Speed and control it all with a handlebar controller.</string>
-    <string name="get_mapview_title">Map View (Early Access / Landscape Only) - Purchase</string>
+    <string name="get_mapview_title">Map View (Early Access) - Purchase</string>
     <string name="get_mapview_title_purchased">Map View - Purchased / Active</string>
     <string name="get_mapview_message">Offline map with topographic data, with worldwide topo maps, 3D buildings, hillshading (online), multiple-gpx manager. Turn-by-turn and POI search coming soon.</string>
     <string name="connection_error">Cannot connect, make sure you are online / try restarting the app!</string>
@@ -253,7 +253,7 @@
     <string name="hillshading_switch_state">Show Hill Shading Layer:</string>
     <string name="tilt_adjust_mode">Compass Tilt Adjust</string>
     <string name="tilt_adjust_mode_message">Use Up/Down to change the map tilt. Press Enter/Center Click to save &amp; exit.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
+    <string name="manage_gpx_files">GPX Files</string>
     <string name="waypoint_box_close">Close</string>
     <string name="waypoint_box_navigate">Navigate</string>
     <string name="waypoint_box_share">Share</string>
@@ -290,7 +290,8 @@
     <string name="not_enough_space_progress_text">You need to free at least</string>
     <string name="bad_map_detected_title">Bad Map File Detected</string>
     <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
-
+    <string name="error_loading_gpx_title">Error Loading GPX</string>
+    <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
 
 
 </resources>

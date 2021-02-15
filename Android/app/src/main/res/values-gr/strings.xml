@@ -1,0 +1,305 @@
+<resources>
+    
+    
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+    
+    
+    
+    
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="online_status">Συνδεδεμένος</string>
+    <string name="offline_status">Αποσυνδεδεμένος</string>
+
+
+    <!-- Common and Global -->
+    <string name="mi">Μίλια</string>
+    <string name="mph">Μίλια/Ω</string>
+    <string name="km">Χλ</string>
+    <string name="kmh">Χλ/ω</string>
+    <string name="meters">μέτρα</string>
+    <string name="back">Πίσω</string>
+    <string name="abort">Ακύρωση</string>
+    <string name="ok">Εντάξει</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="cancel">Ακύρωση</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="swipe_message">Οι περισσότερες επιλογές εμφανίζουν μια μπλε κάθετη γραμμή στα αριστερά της οθόνης. Αυτό σημαίνει πως υπάρχει διαθέσιμο ένα Μενού στα αριστερά, το οποίο μπορείται να το εμφανίζεται σύροντας από τα αριστερά. Εάν χρησιμποιείται το χειριστήριο CARPE, το αριστερό μενού συνήθως εμφανίζεται πατώντας το Πάνω ή το Κάτω.</string>
+    <string name="already_purchased">Το πρόσθετο έχει ήδη αγοραστεί</string>
+    <string name="hide_menu">Απόκρυψη μενού</string>
+    <string name="select">Επιλέξτε</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="update">Αναβάθμιση</string>
+
+
+    <!-- Bottom Menu -->
+    <string name="global_settings">Γενικές Επιλογές</string>
+    <string name="exit">Έξοδος</string>
+    <string name="dashboard">Πίνακας Οργάνων</string>
+    <string name="apps">Εφαρμογές</string>
+    <string name="speedometer">Ταχύμετρο</string>
+    <string name="control_station">Σταθμός Ελέγχου</string>
+    <string name="roadbook">Διαγράμματα Διαδρομής</string>
+    <string name="map">Χάρτης</string>
+
+    <!-- Global Settings -->
+    <string name="localization_options">Τοπικές Ρυθμίσεις</string>
+    <string name="hour_format">Εμφάνιση σε 24ωρη μορφή</string>
+    <string name="use_miles">Χρήση μιλίων αντί χιλιομέτρων</string>
+    <string name="ui_options">Διαχείριση Οθόνης</string>
+    <string name="hide_status_bar">Απόκρυψη γραμμής κατάστασης</string>
+    <string name="hide_bottom_menu">Αυτόματη απόκρυψη του κάτω μενού</string>
+    <string name="hide_odo">Απόκρυψη Οδόμετρου από παντού</string>
+    <string name="carpe_controller_options">Επιλογές Χειριστηρίου CARPE</string>
+    <string name="immidiate_bottom_menu">Κάτω μενού άμεσης λειτουργίας</string>
+    <string name="use_terrain_wheel_sensor">Χρησιμοποιήστε τον αισθητήρα του Terrain Command</string>
+    <string name="terrain_current_speed_mode">Τρέχουσα επιλογή ταχύτητας</string>
+    <string-array name="terrain_speed_modes" translatable="true">
+        <item>Πάντα από GPS</item>
+        <item>Πάντα από τον αισθητήρα τροχού</item>
+        <item>Από τον αισθητήρα τροχού μόνο εάν η ακρίβεια GPS είναι χαμηλή</item>
+    </string-array>
+    <string name="terrain_odo_mode">Μέτρηση διάνυσης απόστασης</string>
+    <string-array name="terrain_odo_modes" translatable="true">
+        <item>Πάντα από GPS</item>
+        <item>Πάντα από τον αισθητήρα τροχού</item>
+        <item>Από τον αισθητήρα τροχού μόνο εάν η ακρίβεια GPS είναι χαμηλή</item>
+    </string-array>
+    <string name="dmd2_plugins">Πρόσθετα για το DMD2</string>
+    <string name="get_roadbook_title">Roadbook - Αγορά</string>
+    <string name="get_roadbook_title_purchased">Roadbook - Αγορασμένο / Ενεργό</string>
+    <string name="get_roadbook_message">Ανοίξτε αρχείο Roadbook PDF, επιλέξτε έως 4 ταυτόχρονα όργανα όπως Σύνολο, Μερικό, Επικεφαλίδα, Ταχύτητα και ελέγξτε τα όλα με χειριστήριο τιμονιού.</string>
+    <string name="get_mapview_title">Προβολή Χάρτη (Υπό Κατασκευή) - Αγορά</string>
+    <string name="get_mapview_title_purchased">Χάρτης - Αγορασμένος / Ενεργός</string>
+    <string name="get_mapview_message">Χάρτης εκτός σύνδεσης με τοπογραφικά δεδομένα, παγκόσμιοι τοπογραφικοί χάρτες, τρισδιάστατα κτήρια, hillshading (χρειάζεται σύνδεση), διαχείριση πολλαπλών GPX. Αναμένεται Καθοδήγηση και POI.</string>
+    <string name="connection_error">Αδυναμία σύνδεσης, σιγουρευτείτε πως είστε συνδεδεμένοι / δοκιμάστε επενεκίνηση εφορμογής!</string>
+    <string name="auto_hide_left_menu_indicator">Αυτόματη απόκρυψη αριστερής σήμανσης μενού</string>
+    <string name="oem_registration">Εγγραφή OEM</string>
+    <string name="oem_check">Διαδικασία Εγγραφής (χρειάζεται σύνδεση στο διαδίκτυο)</string>
+    <string name="oem_check_summary">Χρησιμοποιήστε το μόνο εάν η μοτοσυκλέτα σας είναι εξοπλισμένη με συσκευή Android και το Drive Mode Dashboard 2 προεγκατεστημένο.</string>
+    <string name="roadbook_plugin_missing_title">Είναι απαραίτητο το πρόσθετο Roadbook</string>
+    <string name="roadbook_plugin_missing_message">Για να δείτε αρχεία, Roadbook PDF, θα πρέπει να αγοράσετε το πρόσθετο DMD2 Roadbook.</string>
+    <string name="map_plugin_missing_title">Είναι απαραίτητο το πρόσθετο Πλοήγησης</string>
+    <string name="map_plugin_missing_message">Για να δείτε αρχεία GPX θα πρέπει να αγοράσετε το πρόσθετο DMD2 Map.</string>
+
+
+    <!-- Widgets -->
+    <string name="none_empty_widget_desc">Κανένα Γραφικό Στοιχείο / Περιοχή Κενή</string>
+    <string name="speed_widget_desc">Ταχύτητα / Διαδρομή / Οδόμετρο</string>
+    <string name="fav_apps_widgets">Συντομεύσεις Εφαρμογών</string>
+    <string name="trip_info">Πληροφορίες Ταξιδίου</string>
+    <string name="digital_clock">Ψηφιακό Ρολόι</string>
+    <string name="compass_widget">Πυξίδα</string>
+    <string name="system_widget">Επιλογή Στοιχείου από το Android</string>
+    <string name="logo_widget">Επιλογή ενός λογότυπου PNG</string>
+    <!-- Trip Widget -->
+    <string name="avg_speed">Μέση Ταχύτητα</string>
+    <!-- Logo Widget -->
+    <string name="pixels">pixels</string>
+    <string name="tap_to_select_image">Πατήστε για να επιλέξετε εικόνα</string>
+    <string name="tap_to_edit_text">Πατήστε για να αλλάξετε το κείμενο</string>
+    <string name="write_logo_message">Γράψτε το λογότυπό σας</string>
+
+    <!-- GRID VIEW -->
+    <string name="option_show_grid">Επεξεργασία της Διάταξης</string>
+    <string name="select_widget">Επιλογή Γραφικού Στοιχείου</string>
+
+    <!-- Speedo View -->
+    <string name="distance">Απόσταση</string>
+    <string name="total_time">Συνολικός Χρόνος</string>
+    <string name="travel_time">Χρόνος Ταξιδιού</string>
+    <string name="stop_time">Χρόνος Στάσης</string>
+    <string name="avg_average">Μέση</string>
+    <string name="max_maximum">Μέγιστη</string>
+    <string name="odo_odometer">Οδόμετρο</string>
+    <string name="trip">Ταξίδι</string>
+    <string name="reset_trip">Επαναφορά Ταξιδιού</string>
+    <string name="edit_odometer">EπεξεργασίαEdit Οδόμετρου</string>
+    <string name="edit_odometer_message">Παρακαλώ εισάγεται νέα τιμή οδόμετρου:</string>
+    <string name="edit_odometer_controller_guide">Χειριστήριο: Πάνω/Κάτω αλλάζει ανά 1, Μεγέθυνση/Σμίκρυνση: αλλάζει ανά 100, Κεντρικό/Enter επαναφορά στο μηδέν με παραταιταμένο πάτημα, Αριστερό/Δεξί για Ακύρωση/Αποθήκευση</string>
+    <string name="hours">Ώρες</string>
+
+
+
+    <!-- Control Station -->
+    <string name="brightness">Φωτεινότητα</string>
+    <string name="set_max_bright_title">Ανίχνευση Μέγιστης Φωτεινότητας Συστήματος</string>
+    <string name="set_max_brightness">Επιλογή Αυτόματης Φωτεινότητας</string>
+    <string name="set_max_bright_message">Λόγο της διαφοράς τιμής της κάθε συσκευής για την μέγιστη φωτεινότητα, θα πρέπει πρώτα να οριστεί.
+    Παρακλώ, θέστε τη φωτεινότητα χειροκίνητα στο μέγιστο και πατήστε το πλήκτρο ΑΠΟΘΗΚΕΥΣΗ.</string>
+    <string name="bright_command_instruction">Χειριστήριο: Χρησιμοποιήστε το πλήκτρο Μεγέθυνσης για να αυξήση/μειώση και κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για αλλαγή σε Αυτόματο/Χειροκίνητο.</string>
+    <string name="auto_bright">Αυτόματα</string>
+    <string name="manual_bright">Χειροκίνητα</string>
+    <string name="control_station_exit">Χειριστήριο: Χρησιμοποιήστε τα κουμπιά Δεξιά ή Αριστερά για έξοδο</string>
+    <string name="music_volume">Ένταση Ήχου Μουσικής</string>
+    <string name="calls_volume">Ένταση Ήχου Κλήσης</string>
+    <string name="ring_volume">Ένταση Ήχου</string>
+    <string name="volume_command_instruction">Χειριστήριο: Χρησιμοποιήστε το πλήκτρο Μεγέθυνσης για να αυξήση/μειώση και κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για αλλαγή προέλευσης.</string>
+    <string name="dnd_mode_title">Δικαιώματα λειτουργίας DND</string>
+    <string name="dnd_mode_message">Η λειτουργία DND χρειάζεται δικαιώματα για την πλήρη προσαρμογή όλων των βαθμίδων!</string>
+    <string name="controller_default_message">Χειριστήριο: Πατήστε το επάνω για να επιλέξετε μια ρύθμιση, πατήστε το κάτω για να επιστρέψετε στο μενού.</string>
+
+
+    <!-- Roadbook -->
+    <string name="tap_to_open_file">Πατήστε για να ανοίξετε ένα αρχείο</string>
+    <string name="select_instrument">Επιλογή Οργάνου</string>
+    <string name="none_empty_instrument_desc">Κανένα, θα γίνει απόκρυψη του πλαισίου</string>
+    <string name="total_instrument_desc">Συνολική Απόσταση</string>
+    <string name="partial_instrument_desc">Μερική Απόσταση</string>
+    <string name="heading_instrument_desc">Heading Degrees</string>
+    <string name="current_speed_instrument_desc">Τρέχουσα Ταχύτητα</string>
+    <string name="chronometer_instrument_desc">Χρονόμετρο</string>
+    <string name="current_time_instrument_desc">Ρολόι (Τρέχουσα Ώρα)</string>
+    <string name="clock_title">Ρολόι</string>
+    <string name="speed_title">Ταχύτητα</string>
+    <string name="heading_title">Heading</string>
+    <string name="chrono_title">Χρονόμετρο</string>
+    <string name="total_distance_title">Σύνολο</string>
+    <string name="partial_distance_title">Μερική</string>
+    <string name="chrono_paused">ΔΙΑΚΟΠΗ</string>
+    <string name="edit_instruments">Επεξεργασία Οργάνων</string>
+    <string name="total_options">Επιλογές για Σύνολο</string>
+    <string name="partial_options">Επιλογές για Μερική</string>
+    <string name="invert_paper_color">Εναλλαγή Χρωματισμού</string>
+    <string name="reset_all_instruments">Επαναφορά όλων των οργάνων</string>
+    <string name="total_distance_edit_title">Συνολική Απόσταση</string>
+    <string name="total_distance_message">Αγγίξτε για αλλαγή της τιμής οργάνου Συνολική Απόσταση:</string>
+    <string name="partial_distance_edit_title">Μερική Απόσταση</string>
+    <string name="partial_distance_message">Αγγίξτε για αλλαγή της τιμής οργάνου Μερικής Απόστασης:</string>
+    <string name="total_options_dialog_title">Συνολική Απόσταση</string>
+    <string name="total_options_dialog_message">Διαθέσιμες επιλογές για το Όργανο Συνολικής Απόστασης:</string>
+    <string name="total_options_reset_button">Επαναφορά Τιμών</string>
+    <string name="total_options_input_button">Εισαγωγή Τιμής</string>
+    <string name="total_options_decimals_button">Δεκαδικά Ψηφία</string>
+    <string name="total_decimals_dialog_title">Σύνολο - Δεκαδικά Ψηφία</string>
+    <string name="total_decimals_dialog_message">Επιλέξτε το σύνολο των δεκαδικών ψηφίων που θα εμφανίζονται οι συνολικές τιμές:</string>
+    <string name="total_decimals_dialog_one_button">Ένα (0.0)</string>
+    <string name="total_decimals_dialog_two_button">Δύο (0.00)</string>
+    <string name="partial_options_dialog_title">Μερική Απόσταση</string>
+    <string name="partial_options_dialog_message">Διαθέσιμες επιλογές για το Όργανο Μερικής Απόστασης:</string>
+    <string name="partial_options_reset_button">Επαναφορά Τιμών</string>
+    <string name="partial_options_input_button">Εισαγωγή Τιμής</string>
+    <string name="partial_options_decimals_button">Δεκαδικά Ψηφία</string>
+    <string name="partial_decimals_dialog_title">Μερικά - Δεκαδικά Ψηφία</string>
+    <string name="partial_decimals_dialog_message">Επιλέξτε το σύνολο των δεκαδικών ψηφίων που θα εμφανίζονται οι μερικές τιμές:</string>
+    <string name="partial_decimals_dialog_one_button">Ένα (0.0)</string>
+    <string name="partial_decimals_dialog_two_button">Δύο (0.00)</string>
+    <string name="edit_hardware_controls">Ρύθμιση Χειριστηρίου</string>
+    <string name="controller_lock_mode">Κλείδωμα Χειριστηρίου</string>
+    <string name="controller_lock_mode_enabled">Ενεργοποίηση Κλειδώματος Χειριστηρίου</string>
+    <string name="controller_lock_mode_disabled">Απενεργοποίηση Κλειδώματος Χειριστηρίου</string>
+    <string name="roadbook_controller_setup_cat_title">Ρύθμιση Κουμπιών Χειριστηρίου CARPE</string>
+    <string name="roadbook_controller_button_up">Μοχλός Επάνω / Έδαφος Επάνω</string>
+    <string name="roadbook_controller_button_down">Μοχλός Κάτω / Έδαφος Κάτω</string>
+    <string name="roadbook_controller_button_left">Μοχλός Αριστερά / Έδαφος Αριστερά</string>
+    <string name="roadbook_controller_button_right">Μοχλός Δεξιά / Έδαφος Δεξιά</string>
+    <string name="roadbook_controller_button_enter">Μοχλός Κεντρικό Κλίκ / Έδαφος Κεντρικό Κλίκ</string>
+    <string name="roadbook_controller_button_enter_long">Παραταιταμένο κράτημα κεντρικού μοχλού / Εισαγωγή Εδάφους</string>
+    <string name="roadbook_controller_button_zoomin">Κουμπί A / Μεγέθυνση</string>
+    <string name="roadbook_controller_button_zoomout">Κουμπί B / Σμίκρυνση</string>
+    <string name="roadbook_controller_scroll_amount_title">Ποσότητα κύλισης ανά κλικ</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Κύλιση προς τα κάτω μόλις γίνει επαναφορά των μερικών</string>
+    <string name="roadbook_controller_paper_roll_options_cat_title">Επιλογές Κύλισης</string>
+    <string name="roadbook_controller_cat_title">Επιλογές Χειριστηρίου CARPE</string>
+    <string name="enable_controller_lock_also_disable_touch">Απενεργοποίηση της οθόνης αφής όταν είναι ενεργοποιημένο το κλείδωμα χειριστηρίου</string>
+    <string-array name="roadbook_controller_button_options" translatable="true">
+        <item>Εμφάνιση Αριστερού Μενού</item>
+        <item>Κύλιση Προς τα Πάνω</item>
+        <item>Κύλιση Προς τα Κάτω</item>
+        <item>Αύξηση Συνόλου</item>
+        <item>Μείωση Συνόλου</item>
+        <item>Αύξηση Μερικής</item>
+        <item>Μείωση Μερικής</item>
+        <item>Επαναφορά Συνόλου</item>
+        <item>Επαναφορά Μερικής</item>
+        <item>Εναλλαγή Χρωματισμού</item>
+        <item>Εκκίνηση / Διακοπή Χρονομέτρου</item>
+        <item>Επαναφορά Χρονόμετρου</item>
+        <item>Controller Lock Mode</item>
+        <item>Καμία Ενέργεια</item>
+    </string-array>
+    <string name="roadbook_open_file">Άνοιγμα αρχείου PDF</string>
+    <string name="roadbook_total_partial_controller_instructions">Χειριστήριο: Χρησιμοποιήστε τα Πάνω/Κάτω/Αριστερά/Δεξιά για να διαλέξετε ένα κουμπί. Κάντε κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για επιλογή.</string>
+    <string name="roadbook_decimals_controller_instructions">Χειριστήριο: Χρησιμοποιήστε τα Αριστερά/Δεξιά για να διαλέξετε ένα κουμπί. Κάντε κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για επιλογή.</string>
+    <string name="roadbook_edit_values_guide">Χειριστήριο: Πάνω/Κάτω αλλάζει ανά 0.01, Μεγέθυνση/Σμίκρυνση αλλάζει ανά 1, επαναφορά στο μηδέν πατώντας παραταιταμένα το κουμπί Πλήκτρο Εισαγωής/Κεντρικό, Δεξιά/Αριστερά για Ακύρωση/Αποθήκευση</string>
+
+
+
+    <!-- MapFragment View -->
+    <string name="offline_map_manager">Διαχείριση Χαρτών Εκτός Σύνδεσης</string>
+    <string name="map_manager">Διαχείριση Χαρτών</string>
+    <string name="europe">Ευρώπη</string>
+    <string name="north_america">Βόρεια Αμερική</string>
+    <string name="central_america">Κεντρική Αμερική</string>
+    <string name="south_america">Νότια Αμερική</string>
+    <string name="australia_oceania">Αυστραλία / Ωκεανία</string>
+    <string name="russia">Ρωσσία</string>
+    <string name="asia">Ασία</string>
+    <string name="africa">Αφρική</string>
+    <string name="download">Αποθήκευση</string>
+    <string name="downloading_map">Αποθήκευση αρχείου χάρτη για</string>
+    <string name="downloading_poi">Αποθήκευση επιπλέον αρχείου POI</string>
+    <string name="starting_download">Έναρξη λήψης…</string>
+    <string name="seconds">δευτερολεπτα</string>
+    <string name="minutes">λεπτά</string>
+    <string name="remaining">απομένουν</string>
+    <string name="load_map_switch">Να Γίνεται Πάντα Φόρτωση του Χάρτη: </string>
+    <string name="map_type">Τύπος Χάρτη</string>
+    <string name="map_type_title">Επιλέξτε Τύπο Χάρτη</string>
+    <string name="map_type_message">Ο χάρτης μας μπορεί να εμφανίσει τυπικές πληροφορίες OSM ή τοπογραφικού OSM (με γραμμές υψομέτρου). Το τυπικό είναι βελτιστοποιημένο για οδική πλοήγηση ενώ το τοπογραφικό για εκτός δρόμου διαδρομή. Επιλέξτε ποια θέλετε να χρησιμοποιήσετε:</string>
+    <string name="standard">Πρότυπο (Δρόμος)</string>
+    <string name="topographic">Τοπογραφικό (Εκτός-Δρόμου)</string>
+    <string name="look_around_message">Χρησιμοποιήστε τα Πάνω/Κάτω/Αριστερά/Δεξιά για να μετακινηθείτε στο χάρτη. Πιέστε παραταιταμένα το Enter/Κεντρικό για έξοδο.</string>
+    <string name="look_around_title">Λειτουργία Περιστροφής</string>
+    <string name="online_layers">Επιπλέον Επίπεδα</string>
+    <string name="hill_shadding">Hill Shading</string>
+    <string name="hill_shadding_desc">Το Hillshading, είναι μία τεχνική για δημιουργία ανάγλυφου χάρτη, η οποία δείχνει το τοπογραφικό σχήμα λόφων και βουνών χρησιμοποιώντας σκίαση.</string>
+    <string name="data_type_online">Τύπος Δεδομένων: Σε σύνδεση (χρειάζεται σύνδεση στο διαδίκτυο) θα δημιουργήσει μια προσωρινή αποθήκευση για εκτός σύνδεση.</string>
+    <string name="medium_power_increase">Χρήση ισχύος: Αυξάνει την κατανάλωση ενέργειας έως και 20%!</string>
+    <string name="hillshading_switch_state">Εμφάνιση επιπέδων Hill Shading:</string>
+    <string name="tilt_adjust_mode">Ρύθμιση Κλίσης Πυξίδας</string>
+    <string name="tilt_adjust_mode_message">Χρησιμοποιήστε το Πάνω/Κάτω για να αλλάξετε την κλήση του χάρτη. Πατήστε το Πλήκτρο Εισαγωής/Κεντρικό για αποθήκευση &amp; έξοδο.</string>
+    <string name="waypoint_box_close">Κλείσιμο</string>
+    <string name="waypoint_box_navigate">Πλοηγηθείτε</string>
+    <string name="waypoint_box_share">Κοινοποίηση</string>
+    <string name="gpx_add_another">Προσθήκη Περισσοτέρων</string>
+    <string name="gpx_close_all">Διαγραφή Όλων</string>
+    <string name="imported_gpx_files">Εισαγωγή αρχείων GPX</string>
+    <string name="waypoints">Σημεία Προορισμού</string>
+    <string name="waypoint">Σημείο Προορισμού</string>
+    <string name="tracks">Διαδρομές</string>
+    <string name="track">Διαδρομή</string>
+    <string name="set_to_hide_gpx">Απόκρυψη GPX</string>
+    <string name="set_to_visible_gpx">Εμφάνιση GPX</string>
+    <string name="set_to_hide_track">Απόκρυψη Διαδρομής</string>
+    <string name="set_to_visible_track">Εμφάνιση Διαδρομής</string>
+    <string name="track_is_hidden">Απόκρυψη Διαδρομής</string>
+    <string name="track_is_visible">Η διαδρομή είναι ορατή</string>
+    <string name="remove">Διαγραφή</string>
+    <string name="no_waypoints_for_track">Αυτή η διαδρομή δεν διαθέτει κανένα σημείο προορισμού!</string>
+    <string name="no_track_description">Καμιά περιγραφή διαδρομής.</string>
+    <string name="track_lenght">Απόσταση:</string>
+    <string name="set_color">Επιλογή Χρώματος</string>
+    <string name="track_color">Χρώμα Διαδρομής:</string>
+    <string name="open_gpx">Άνοιγμα GPX</string>
+    <string name="remove_gpx">Διαγραφή GPX</string>
+    <string name="no_gpx_loaded">Το GPX δεν έχει φορτωθεί!</string>
+    <string name="track_does_not_contain_waypoints">Η διαδρομή δεν περιέχει κανένα σημείο αναφοράς.</string>
+    <string name="track_start_title">Έναρξη GPX</string>
+    <string name="track_start_description">Αυτό είναι το πρώτο σημείο αναφοράς γι αυτό το GPX</string>
+    <string name="track_end_title">Τερματισμός GPX</string>
+    <string name="track_end_description">Αυτό είναι το τελευταίο σημείο αυτού του GPX</string>
+    <string name="select_navigation_app">Επιλέξτε Πρόγραμμα Πλοήγησης</string>
+    <string name="select_app">Επιλέξτε Εφαρμογή</string>
+    <string name="not_enough_space_title">ΜΥΝΗΜΑ ΛΑΘΟΥΣ: Δεν υπάρχει αρκετός αποθηκευτικός χώρος! ERROR: Not enough storage space!</string>
+    <string name="not_enough_space_progress_text">Πρέπει να ελευθερώσετε τουλάχιστον</string>
+    <string name="bad_map_detected_title">Εντοπίστηκε χαλασμένο αρχείο χάρτη</string>
+    <string name="bad_map_detected_message">Εντοπίστηκε χαλασμένο αρχείο, το αρχείο διαγράγηκε και θα πρέπει να το ξανά κατεβάσετε. Το χαλασμένο αρχείο είναι: </string>
+
+
+
+</resources>

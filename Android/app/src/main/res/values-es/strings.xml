@@ -1,4 +1,20 @@
 <resources>
+    
+    <!-- New / Not Translated -->
+    <string name="error_loading_gpx_title">Error Loading GPX</string>
+    <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
+    <!-- End of New / Not Translated -->
+
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+    
+    
+    
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -53,85 +69,85 @@
         <item>Utilizar siempre sensor de rueda</item>
         <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
     </string-array>
-    <string name="terrain_odo_mode">Distances measure mode</string>
+    <string name="terrain_odo_mode">Modos medición distancia</string>
     <string-array name="terrain_odo_modes" translatable="true">
-        <item>Always GPS</item>
-        <item>Always wheel sensor</item>
-        <item>Wheel sensor only when low GPS Accuracy</item>
+        <item>Utilizar siempre GPS</item>
+        <item>Utilizar siempre sensor de rueda</item>
+        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
     </string-array>
-    <string name="dmd2_plugins">Plugins for DMD2</string>
-    <string name="get_roadbook_title">Roadbook View - Purchase</string>
-    <string name="get_roadbook_title_purchased">Roadbook - Purchased / Active</string>
-    <string name="get_roadbook_message">Open PDF Roadbook files, select up to 4 simultaneous instruments like Total, Partial, Heading, Speed and control it all with a handlebar controller.</string>
-    <string name="get_mapview_title">Map View (Early Access / Landscape Only) - Purchase</string>
-    <string name="get_mapview_title_purchased">Map View - Purchased / Active</string>
-    <string name="get_mapview_message">Offline map with topographic data, with worldwide topo maps, 3D buildings, hillshading (online), multiple-gpx manager. Turn-by-turn and POI search coming soon.</string>
-    <string name="connection_error">Cannot connect, make sure you are online / try restarting the app!</string>
-    <string name="auto_hide_left_menu_indicator">Auto-hide left menu indicator</string>
-    <string name="oem_registration">OEM Registration</string>
-    <string name="oem_check">Registration Process (needs internet connection)</string>
-    <string name="oem_check_summary">Only use if your motorcycle came equipped with an Android device with Drive Mode Dashboard 2 pre-installed.</string>
-    <string name="roadbook_plugin_missing_title">Roadbook Plugin Needed</string>
-    <string name="roadbook_plugin_missing_message">To view Roadbook PDF files you need to purchase the DMD2 Roadbook Plugin.</string>
-    <string name="map_plugin_missing_title">Map Plugin Needed</string>
-    <string name="map_plugin_missing_message">To view GPX files you need to purchase the DMD2 Map Plugin.</string>
+    <string name="dmd2_plugins">Plugins para DMD2</string>
+    <string name="get_roadbook_title">Visor Roadbook - Comprar</string>
+    <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
+    <string name="get_roadbook_message">Abrir archivos Roadbook PDF, selecciona simultáneamente hasta 4 instrumentos como, el Total, Parcial, Destino, Velocidad, maneja todo a través del controlador del manillar.</string>
+    <string name="get_mapview_title">Visor Mapa (Acceso temprano) - Comprar</string>
+    <string name="get_mapview_title_purchased">Visor Mapa - Comprado / Activo</string>
+    <string name="get_mapview_message">Mapa sin conexión con información topográfica, mapas topográficos de todo el mundo, edificios 3D, sombreado (en línea), gestor de multiples GPX. Indicaciones de navegación paso a paso y búsqueda de puntos de interés (POI) en breves disponible.</string>
+    <string name="connection_error">No se puede conectar, asegúrate de estar en linea / intenta reiniciar la aplicación!</string>
+    <string name="auto_hide_left_menu_indicator">Ocultar automáticamente indicador del menú izquierdo</string>
+    <string name="oem_registration">Registro OEM</string>
+    <string name="oem_check">Proceso de Registro (se necesita conexión de Internet)</string>
+    <string name="oem_check_summary">Solo utilizar si tu motocicleta viene equipada con un dispositivo Android con Drive Mode Dashboard 2 preinstalado.</string>
+    <string name="roadbook_plugin_missing_title">Plugin para Roadbook necesario</string>
+    <string name="roadbook_plugin_missing_message">Para poder visualizar archivos Roadbook PDF necesitas comprar el DMD2 Roadbook Plugin.</string>
+    <string name="map_plugin_missing_title">Plugin de Mapa necesario</string>
+    <string name="map_plugin_missing_message">Para visualizar archivos GPX necesita comprar el DMD2 Map Plugin.</string>
 
 
     <!-- Widgets -->
-    <string name="none_empty_widget_desc">No Widget / Empty Area</string>
-    <string name="speed_widget_desc">Speed / Trip / Odo</string>
-    <string name="fav_apps_widgets">App Shortcuts</string>
-    <string name="trip_info">Trip Information</string>
-    <string name="digital_clock">Digital Clock</string>
-    <string name="compass_widget">Compass</string>
-    <string name="system_widget">Android System Widget</string>
-    <string name="logo_widget">Add a PNG logo</string>
+    <string name="none_empty_widget_desc">Widget No / Area Vacía</string>
+    <string name="speed_widget_desc">Velocidad / Trip / Odo</string>
+    <string name="fav_apps_widgets">Accesos directos aplicaciónes</string>
+    <string name="trip_info">Información Trip</string>
+    <string name="digital_clock">Reloj Digital</string>
+    <string name="compass_widget">Brújula</string>
+    <string name="system_widget">Widget Sistema Android</string>
+    <string name="logo_widget">Añadir logo PNG</string>
     <!-- Trip Widget -->
-    <string name="avg_speed">Avg Speed</string>
+    <string name="avg_speed">Vel Media</string>
     <!-- Logo Widget -->
     <string name="pixels">pixels</string>
-    <string name="tap_to_select_image">Tap to select image</string>
-    <string name="tap_to_edit_text">Tap to edit text</string>
-    <string name="write_logo_message">Write your logo message</string>
+    <string name="tap_to_select_image">Presionar para seleccionar imagen</string>
+    <string name="tap_to_edit_text">Presionar para editar texto</string>
+    <string name="write_logo_message">Escribe el mensaje de tu logo</string>
 
     <!-- GRID VIEW -->
-    <string name="option_show_grid">Layout Edit Mode</string>
+    <string name="option_show_grid">Modo Edición de Diseño</string>
     <string name="select_widget">Select Widget</string>
 
     <!-- Speedo View -->
-    <string name="distance">Distance</string>
-    <string name="total_time">Total Time</string>
-    <string name="travel_time">Travel Time</string>
-    <string name="stop_time">Stop Time</string>
-    <string name="avg_average">AVG</string>
+    <string name="distance">Distancia</string>
+    <string name="total_time">Tiempo Total</string>
+    <string name="travel_time">Tiempo de Viaje</string>
+    <string name="stop_time">Tiempo Parada</string>
+    <string name="avg_average">MED</string>
     <string name="max_maximum">MAX</string>
     <string name="odo_odometer">Odo</string>
     <string name="trip">Trip</string>
-    <string name="reset_trip">Reset Trip</string>
-    <string name="edit_odometer">Edit Odometer</string>
-    <string name="edit_odometer_message">Please insert new odometer value:</string>
-    <string name="edit_odometer_controller_guide">Controller: Up/Down changes by 1, ZoomIn/Out changes by 100, Center/Enter long press resets to zero, Left/Right for Cancel/Save</string>
-    <string name="hours">Hours</string>
+    <string name="reset_trip">Resetear Trip</string>
+    <string name="edit_odometer">Editar Odometro</string>
+    <string name="edit_odometer_message">Por favor insertar un nuevo valor en Odometro:</string>
+    <string name="edit_odometer_controller_guide">Controlador: Arriba/Abajo cambia por 1, Ampliar/Reducir cambia por 100, Centro/Enter pulsación larga resetea a cero, Izquierda/Derecha para Cancelar/Guardar</string>
+    <string name="hours">Horas</string>
 
 
 
     <!-- Control Station -->
-    <string name="brightness">Brightness</string>
-    <string name="set_max_bright_title">System Max Brightness Detection</string>
-    <string name="set_max_brightness">Detect Max Brightness</string>
-    <string name="set_max_bright_message">Since different devices use different values for the maximum brightness we need to get it first.
-    Please manually go to system menu and set your brightness to the maximum and then press SAVE</string>
-    <string name="bright_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change Auto/Manual</string>
+    <string name="brightness">Brillo</string>
+    <string name="set_max_bright_title"> Detección de Brillo Máxima del Sistema</string>
+    <string name="set_max_brightness">Detectar Brillo Máximo</string>
+    <string name="set_max_bright_message">Dado que cada dispositivo usa diferentes valores para el brillo máximo, primero debemos obtenerlo.
+     Vaya manualmente al menú del sistema y configure su brillo al máximo y luego presione GUARDAR</string>
+    <string name="bright_command_instruction">Controlador: Usar botones del Zoom para aumentar/reducir y Enter/Centro Presionar para cambiar Auto/Manual</string>
     <string name="auto_bright">Auto</string>
     <string name="manual_bright">Manual</string>
-    <string name="control_station_exit">Controller: Use Left or Right buttons to exit</string>
-    <string name="music_volume">Music Volume</string>
-    <string name="calls_volume">Calls Volume</string>
-    <string name="ring_volume">Ring Volume</string>
-    <string name="volume_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center Click to change source</string>
-    <string name="dnd_mode_title">DND Mode Permission</string>
-    <string name="dnd_mode_message">To fully adjust all volumes we need permission for DND Mode!</string>
-    <string name="controller_default_message">Controller: Press up to select a slider, press down to return to menu.</string>
+    <string name="control_station_exit">Controlador: Usar botón Izquierdo  o Derecho para salir</string>
+    <string name="music_volume">Volumen Música</string>
+    <string name="calls_volume">Volumen Llamadas</string>
+    <string name="ring_volume">Volumen Tono</string>
+    <string name="volume_command_instruction">Controlador: Usar botones zoom para aumentar/reducir y Enter/Centro Presionar para cambiar fuente</string>
+    <string name="dnd_mode_title">Permisos Modo DND</string>
+    <string name="dnd_mode_message">Para ajustar completamente el volumen necesitamos permisos para el Modo DND¡</string>
+    <string name="controller_default_message">Controlador: Presione arriba para seleccionar uno de los controles deslizantes, presione abajo para volver al menu.</string>
 
 
     <!-- Roadbook -->
@@ -253,7 +269,6 @@
     <string name="hillshading_switch_state">Show Hill Shading Layer:</string>
     <string name="tilt_adjust_mode">Compass Tilt Adjust</string>
     <string name="tilt_adjust_mode_message">Use Up/Down to change the map tilt. Press Enter/Center Click to save &amp; exit.</string>
-    <string name="manage_gpx_files">GPX Tracks</string>
     <string name="waypoint_box_close">Close</string>
     <string name="waypoint_box_navigate">Navigate</string>
     <string name="waypoint_box_share">Share</string>

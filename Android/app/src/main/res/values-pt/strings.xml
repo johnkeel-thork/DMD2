@@ -252,7 +252,7 @@
     <string name="hillshading_switch_state">Mostrar Camada de Sombreado de Relevo:</string>
     <string name="tilt_adjust_mode">Ajuste de Tilt</string>
     <string name="tilt_adjust_mode_message">Use Cima/Baixo para alterar o tilt do mapa. Pressione Joystick Click Centro / Enter para gravar e sair.</string>
-    <string name="manage_gpx_files">Pistas GPX</string>
+    <string name="manage_gpx_files">Ficheiros GPX</string>
     <string name="waypoint_box_close">Fechar</string>
     <string name="waypoint_box_navigate">Navegar</string>
     <string name="waypoint_box_share">Partilhar</string>
@@ -289,6 +289,7 @@
     <string name="not_enough_space_progress_text">Necessita libertar pelo menos</string>
     <string name="bad_map_detected_title">Ficheiro de Mapa Danificado</string>
     <string name="bad_map_detected_message">Foi detectado um ficheiro de mapa corrompido, o ficheiro foi apagado e será necessário descarregar novamente. O ficheiro danificado é: </string>
-
+    <string name="error_loading_gpx_title">Erro a carregar GPX</string>
+    <string name="error_loading_gpx_message">Não foi possível carregar este GPX, poderá não ser compativel com o DMD2, tente outro ficheiro.</string>
 
 </resources>
