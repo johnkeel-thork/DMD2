@@ -1,0 +1,323 @@
+<resources>
+
+
+<!—CORRECTION FROM V 10/02/2020-->
+
+<string name="app_name">DMD2</string>
+
+<!-- Status Bar -->
+
+<string name="online_status">En ligne</string>
+<string name="offline_status">Hors ligne</string>
+
+
+<!-- Common and Global -->
+
+<string name="mi">Mi</string>
+<string name="mph">Mph</string>
+<string name="km">Km</string>
+<string name="kmh">Km/h</string>
+<string name="meters">metres</string>
+<string name="back">Retour</string>
+<string name="abort">Interrompre</string>
+<string name="ok">OK</string>
+<string name="save">Enregistrer</string>
+<string name="cancel">Annuler</string>
+<string name="close">Fermer</string>
+<string name="swipe_message"> La plupart des vues affichent une barre verticale bleue à gauche de l’écran. Cela signifie qu’il y a un menu à gauche disponible, accessible en faisant glisser vers la droite de l’écran. Si vous utilisez un contrôleur CARPE, vous pouvez accéder au menu de gauche en appuyant sur Haut ou Bas.</string>
+<string name="already_purchased">Ce plugin est déjà acheté</string>
+<string name="hide_menu">Cacher le Menu</string>
+<string name="select">Valider</string>
+<string name="delete">Supprimer</string>
+<string name="update">Mettre à jour</string>
+
+
+<!-- Bottom Menu -->
+
+<string name="global_settings">Paramettres principaux</string>
+<string name="exit">Sortie</string>
+<string name="dashboard">Tableau de bord</string>
+<string name="apps">Applications</string>
+<string name="speedometer">Compteur de vitesse</string>
+<string name="control_station">Station de Contrôle</string>
+<string name="roadbook">Roadbook</string>
+<string name="map">Carte</string>
+
+
+
+<!-- Global Settings -->
+
+<string name="localization_options">Options de Localisation</string>
+<string name="hour_format">Format 24h</string>
+<string name="use_miles">Miles au lieu des kilometres</string>
+<string name="ui_options"> Options d’Interface</string>
+<string name="hide_status_bar">Cacher la barre d’état</string>
+<string name="hide_bottom_menu">Menu inférieur masqué automatiquement</string>
+<string name="hide_odo">Masquer le compteur kilométrique sur toutes les vues</string>
+<string name="carpe_controller_options">Options du CARPE Controller</string>
+<string name="immidiate_bottom_menu">Menu du bas mode immédiat</string>
+<string name="use_terrain_wheel_sensor">Utilisation du capteur de Vitesse du “Terrain Command”</string>
+<string name="terrain_current_speed_mode">Mode de lecture de vitesse</string>
+<string-array name="terrain_speed_modes" translatable="true">
+
+<item>Toujours GPS</item>
+
+<item>Toujours capteur de roue</item>
+<item>Capteur de roue uniquement quand mauvaise précision GPS</item>
+</string-array>
+<string name="terrain_odo_mode">Mode de mesure des Distances</string>
+<string-array name="terrain_odo_modes" translatable="true">
+<item>Toujours GPS </item>
+<item>Toujours capteur de roue </item>
+<item>Capteur de roue uniquement quand mauvaise précision GPS</item>
+</string-array>
+<string name="dmd2_plugins">Plugins pour DMD2</string>
+<string name="get_roadbook_title">Dérouleur de Roadbook - Acheter</string>
+<string name="get_roadbook_title_purchased">Dérouleur de Roadbook - Acquis / Actif</string>
+<string name="get_roadbook_message">Utilise un Roadbook en PDF et sélectionne jusqu’à 4 instruments simultanés : Total, Partiel, CAP, Vitesse. Contrôle l’ensemble avec une commande au guidon.</string>
+<string name="get_mapview_title">Cartographie (Version Beta) - Acheter </string>
+<string name="get_mapview_title_purchased">Cartographie - Acquis / Actif</string>
+<string name="get_mapview_message">Cartographie hors ligne avec affichage topographique mondiale, bâtiments en 3D, courbes de niveaux (par lignes), gestion multi-GPX. Système de navigation et recherche par POI en cours de développement.</string>
+<string name="connection_error">Connection impossible, vérifie ta connexion internet / essaye de redémarrer l’app!</string>
+<string name="auto_hide_left_menu_indicator">Menu de gauche masqué automatiquement</string>
+<string name="oem_registration">Enregistrement OEM</string>
+<string name="oem_check">Processus d’inscription (nécessite une connexion Internet)</string>
+<string name="oem_check_summary">Uniquement si votre moto est équipée d’un appareil Android avec Drive Mode Dashboard 2 préinstallé.</string>
+<string name="roadbook_plugin_missing_title">Nécessite le plugin Roadbook</string>
+<string name="roadbook_plugin_missing_message">Pour afficher le fichier PDF Roadbook tu dois acheter le plugin DMD2 Roadbook.</string>
+<string name="map_plugin_missing_title">Nécessite le Plugin de cartographie</string>
+<string name="map_plugin_missing_message">Pour afficher les fichiers GPX tu dois acheter le plugin DMD2 Cartographie.</string>
+
+
+
+<!-- Widgets -->
+
+<string name="none_empty_widget_desc">Pas de Widget / Zone vide</string>
+<string name="speed_widget_desc">Vitesse / Trip / Odo</string>
+<string name="fav_apps_widgets">Raccourcis App</string>
+<string name="trip_info">Compteurs journaliers</string>
+<string name="digital_clock">Horloge Digitale</string>
+<string name="compass_widget">Boussole</string>
+<string name="system_widget">Widget système Android </string>
+<string name="logo_widget">Ajoute ton logo en PNG</string>
+
+<!-- Trip Widget -->
+
+<string name="avg_speed">Vitesse Moy</string>
+
+<!-- Logo Widget -->
+<string name="pixels">pixels</string>
+<string name="tap_to_select_image">Appuie pour sélectionner une image</string>
+<string name="tap_to_edit_text">Appuie pour éditer le texte</string>
+<string name="write_logo_message">Ecrit ton message du logo</string>
+
+
+
+<!-- GRID VIEW -->
+
+<string name="option_show_grid">Edition du tableau de bord</string>
+<string name="select_widget">Sélectionne un Widget</string>
+
+
+
+<!-- Speedo View -->
+
+<string name="distance">Distance</string>
+<string name="total_time">Temps Total</string>
+<string name="travel_time">Temps Voyage</string>
+<string name="stop_time">Temps d’arrêt</string>
+<string name="avg_average">MOY</string>
+<string name="max_maximum">MAX</string>
+<string name="odo_odometer">Odo</string>
+<string name="trip">Trip</string>
+<string name="reset_trip">RaZ Compteurs Journaliers</string>
+<string name="edit_odometer">Edition Odomètre</string>
+<string name="edit_odometer_message">Nouvelle valeur de l’odomètre:</string>
+<string name="edit_odometer_controller_guide">Controller: Haut/Bas change de 1, Zoom In/Out change de 100, Centrer/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
+<string name="hours">Heure</string>
+
+
+<!-- Control Station -->
+
+<string name="brightness">Luminsité</string>
+<string name="set_max_bright_title">Détection luminosité automatique</string>
+<string name="set_max_brightness">Détection luminosité maximum</string>
+<string name="set_max_bright_message">Comme les appareils utilisent des valeurs différentes pour la luminosité maximal.
+Veuillez passer manuellement au menu système et régler votre luminosité au maximum, puis appuyez sur SAUVEGARDER</string>
+<string name="bright_command_instruction">Controller: Boutons Zoom pour augmenter/réduire and Entrer/Annuler Click pour changer Auto/Manuel</string>
+<string name="auto_bright">Auto</string>
+<string name="manual_bright">Manuel</string>
+<string name="control_station_exit">Controller: Bouton gauche ou droit pour sortir</string>
+<string name="music_volume">Volume Musique</string>
+<string name="calls_volume">Volume appels</string>
+<string name="ring_volume">Volume Sonneries</string>
+<string name="volume_command_instruction">Controller: Boutons Zoom buttons pour augmenter/réduire and Entrer/Annuler Click pour changer la source</string>
+<string name="dnd_mode_title">DND Mode de Permissions</string>
+<string name="dnd_mode_message">Pour ajuster le volume il faut les permissions pour DND Mode!</string>
+<string name="controller_default_message">Controller: Appuyer Haut pour sélectionner un  slider, appuyer bas pour retourner au menu.</string>
+
+
+
+<!-- Roadbook -->
+
+<string name="tap_to_open_file">Appuie ici pour ouvrir un fichier</string>
+<string name="select_instrument">Sélectionne un instrument</string>
+<string name="none_empty_instrument_desc">Aucun, masque la case</string>
+<string name="total_instrument_desc">Distance Totale</string>
+<string name="partial_instrument_desc">Distance Partielles</string>
+<string name="heading_instrument_desc">CAP degrés</string>
+<string name="current_speed_instrument_desc">Vitesse</string>
+<string name="chronometer_instrument_desc">Chronomètre</string>
+<string name="current_time_instrument_desc">Heure (heure actuelle)</string>
+<string name="clock_title">Heure</string>
+<string name="speed_title">Vitesse</string>
+<string name="heading_title">CAP</string>
+<string name="chrono_title">Chrono</string>
+<string name="total_distance_title">Total</string>
+<string name="partial_distance_title">Partiel</string>
+<string name="chrono_paused">PAUSE</string>
+<string name="edit_instruments">Edition Instruments</string>
+<string name="total_options">Options pour Total</string>
+<string name="partial_options">Options pour Partiel</string>
+<string name="invert_paper_color">Intervertir la couleur de Papier</string>
+<string name="reset_all_instruments">RaZ tout Instruments</string>
+<string name="total_distance_edit_title">Distance Totale</string>
+<string name="total_distance_message"> Appuyer pour éditer la valeur de Distance totale:</string>
+<string name="partial_distance_edit_title">Distance Partielle</string>
+<string name="partial_distance_message"> Appuyer pour éditer la valeur de Distance Partielle:</string>
+<string name="total_options_dialog_title">Distance Totale</string>
+<string name="total_options_dialog_message">Options disponibles pour la Distance Totale:</string>
+<string name="total_options_reset_button">Valeur de RaZ</string>
+<string name="total_options_input_button">Valeur d’entrée</string>
+<string name="total_options_decimals_button">Decimal Places</string>
+<string name="total_decimals_dialog_title">Total – Choix de la Décimale</string>
+<string name="total_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Total:</string>
+<string name="total_decimals_dialog_one_button">Une (0.0)</string>
+<string name="total_decimals_dialog_two_button">Deux (0.00)</string>
+<string name="partial_options_dialog_title">Distance Partielle</string>
+<string name="partial_options_dialog_message">Options disponibles pour la Distance Partielle:</string>
+<string name="partial_options_reset_button">Valeur de RaZ</string>
+<string name="partial_options_input_button">Valeur d’entrée</string>
+<string name="partial_options_decimals_button">Decimal Places</string>
+<string name="partial_decimals_dialog_title">Partiel - Choix de la Décimale</string>
+<string name="partial_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Partiel:</string>
+<string name="partial_decimals_dialog_one_button">Une (0.0)</string>
+<string name="partial_decimals_dialog_two_button">Deux (0.00)</string>
+<string name="edit_hardware_controls">Configuration Controller</string>
+<string name="controller_lock_mode">Mode verrouillage Controller</string>
+<string name="controller_lock_mode_enabled">Mode verrouillage Controller Actif</string>
+<string name="controller_lock_mode_disabled">Mode verrouillage Controller Inactif</string>
+<string name="roadbook_controller_setup_cat_title">Configuration des boutons CARPE Controller</string>
+<string name="roadbook_controller_button_up">Joystick Haut / Terrain Haut</string>
+<string name="roadbook_controller_button_down">Joystick Bas / Terrain Bas</string>
+<string name="roadbook_controller_button_left">Joystick Gauche / Terrain Gauche</string>
+<string name="roadbook_controller_button_right">Joystick Droit / Terrain Droit</string>
+<string name="roadbook_controller_button_enter">Joystick Centre Click / Terrain Entrer</string>
+<string name="roadbook_controller_button_enter_long">Pression longue Joystick Centre Click / Terrain Entrer</string>
+<string name="roadbook_controller_button_zoomin">Bouton A / Zoom In</string>
+<string name="roadbook_controller_button_zoomout">Bouton B / Zoom Out</string>
+<string name="roadbook_controller_scroll_amount_title">Défilement par click</string>
+<string name="roadbook_controller_paper_scroll_on_partial_reset">Défiler le Roadbook vers le bas une fois la réinitialisation Partielle terminée</string>
+<string name="roadbook_controller_paper_roll_options_cat_title">Options de Roadbook</string>
+<string name="roadbook_controller_cat_title">Options pour CARPE Controller</string>
+<string name="enable_controller_lock_also_disable_touch">Désactive l’écran tactile quand le verrouillage du Controller est Actif</string>
+<string-array name="roadbook_controller_button_options" translatable="true">
+<item>Affiche menu de gauche</item>
+<item>Roadbook Haut</item>
+<item>Roadbook Bas</item>
+<item>Augmente Total</item>
+<item>Diminue Total</item>
+<item>Augmente Partiel</item>
+<item>Diminue Partiel</item>
+<item>RaZ Total</item>
+<item>RaZ Partiel</item>
+<item>Intervertir Couleur Roadbook</item>
+<item>Démarrer / Pause Chrono</item>
+<item>RaZ Chrono</item>
+<item>Mode de verrouillage Controller</item>
+<item>Pas d’action</item>
+
+</string-array>
+<string name="roadbook_open_file">Ouvrir fichier PDF</string>
+<string name="roadbook_total_partial_controller_instructions">Controller: Haut/Bas/Gauche/Droit pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
+<string name="roadbook_decimals_controller_instructions">Controller: Gauche/Droite pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
+<string name="roadbook_edit_values_guide">Controller: Haut/Bas change de 0.01, ZoomIn/Out change de 1, Centre/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
+
+
+
+<!-- MapFragment View -->
+
+<string name="offline_map_manager">Gestion des cartes hors ligne</string>
+<string name="map_manager">Gestion des cartes</string>
+<string name="europe">Europe</string>
+<string name="north_america">Amérique du Nord</string>
+<string name="central_america">Amérique Centrale</string>
+<string name="south_america">Amérique du Sud</string>
+<string name="australia_oceania">Australie / Oceanie</string>
+<string name="russia">Russie</string>
+<string name="asia">Asie</string>
+<string name="africa">Afrique</string>
+<string name="download">Télécharger</string>
+<string name="downloading_map">Téléchargement de la carte pour</string>
+<string name="downloading_poi">Téléchargement de POI additionnels</string>
+<string name="starting_download">Départ du téléchargement…</string>
+<string name="seconds">secondes</string>
+<string name="minutes">minutes</string>
+<string name="remaining">reste</string>
+<string name="load_map_switch">Toujours charger la carte: </string>
+<string name="map_type">Type de carte</string>
+<string name="map_type_title">Sélectionne le type de carte</string>
+<string name="map_type_message">Nos cartes affichent des informations OSM standard ou OSM topographique (avec des lignes d’altitude). La carte standard est optimisée pour la navigation routière et la topographique pour la conduite hors routes. Veuillez sélectionner votre préférence:</string>
+<string name="standard">Standard (Route)</string>
+<string name="topographic">Topographique (Off-Road)</string>
+<string name="look_around_message">Haut/Bas/Gauche/Droit pour bouger la carte. Longue Pression Entrer/Centrer Click pour sortir.</string>
+<string name="look_around_title">Mode Look Around</string>
+<string name="online_layers">Couches Additionnelles</string>
+<string name="hill_shadding">Ombrage</string>
+<string name="hill_shadding_desc">L’ombrage est une technique pour créer du relief,  faisant apparaitre la forme topographique des collines et montagnes en ajoutant de l’ombre.</string>
+<string name="data_type_online">Type de datas: En Ligne (Nécessite une connexion Internet) création d’un cache hors ligne</string>
+<string name="medium_power_increase">Utilisation de la puissance: Augmente la consommation jusqu’à 20%!</string>
+<string name="hillshading_switch_state">Affiche les couches d’ombrage:</string>
+<string name="tilt_adjust_mode">Ajustement de l’inclinaison de la boussole</string>
+<string name="tilt_adjust_mode_message">Haut/Bas pour changer l’inclinaison de la carte. Entrer/Centrer Click pour enregistrer &amp; Sortir.</string>
+<string name="manage_gpx_files">Trace GPX</string>
+<string name="waypoint_box_close">Fermer</string>
+<string name="waypoint_box_navigate">Naviguer</string>
+<string name="waypoint_box_share">Partager</string>
+<string name="gpx_add_another">Ajouter</string>
+<string name="gpx_close_all">Retirer tout</string>
+<string name="imported_gpx_files">Importer fichier GPX</string>
+<string name="waypoints">Waypoints</string>
+<string name="waypoint">Waypoint</string>
+<string name="tracks">Traces</string>
+<string name="track">Trace</string>
+<string name="set_to_hide_gpx">Masquer GPX</string>
+<string name="set_to_visible_gpx">Rendre GPX Visible</string>
+<string name="set_to_hide_track">Masquer la Trace</string>
+<string name="set_to_visible_track">Afficher Trace</string>
+<string name="track_is_hidden">Afficher Trace</string>
+<string name="track_is_visible">Trace Visible</string>
+<string name="remove">Retirer</string>
+<string name="no_waypoints_for_track">Cette trace ne contient aucun waypoint!</string>
+<string name="no_track_description">Pas de description de trace.</string>
+<string name="track_lenght">Longueur:</string>
+<string name="set_color">Définir une Couleur</string>
+<string name="track_color">Couleur de la Trace:</string>
+<string name="open_gpx">Ouvrir GPX</string>
+<string name="remove_gpx">Retirer GPX</string>
+<string name="no_gpx_loaded">Pas de GPX chargé!</string>
+<string name="track_does_not_contain_waypoints">La trace ne contient aucun waypoint!</string>
+<string name="track_start_title">Départ GPX</string>
+<string name="track_start_description">Ceci est le premier point du GPX</string>
+<string name="track_end_title">Fin GPX</string>
+<string name="track_end_description">Ceci est le dernier point du GPX</string>
+<string name="select_navigation_app">Sélectionne une App de Navigation</string>
+<string name="select_app">Sélection Application</string>
+<string name="not_enough_space_title">ERREUR: PAS assez d’espace libre!</string>
+<string name="not_enough_space_progress_text">Tu dois libérer de l’espace de stockage</string>
+<string name="bad_map_detected_title">Mauvaise carte Détecté</string>
+<string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois le télécharger à nouveaux. Le mauvais fichier est : </string>
+
+
+
+</resources>
