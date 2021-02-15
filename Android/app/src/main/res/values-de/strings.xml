@@ -1,5 +1,5 @@
 <resources>
-    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -36,6 +36,7 @@
     <string name="control_station">Control Station</string>
     <string name="roadbook">Roadbook</string>
     <string name="map">Landkarte</string>
+
 
     <!-- Global Settings -->
     <string name="localization_options">Lokalisierungs Optionen</string>
@@ -95,9 +96,11 @@
     <string name="tap_to_edit_text">Tippen um Text zu editieren</string>
     <string name="write_logo_message">Schreibe Deine Bildunterschrift</string>
 
-    <!-- GRID VIEW -->
+
+    <!-- Grid View -->
     <string name="option_show_grid">Darstellung einstellen</string>
     <string name="select_widget">Widget auswählen</string>
+
 
     <!-- Speedo View -->
     <string name="distance">Fahrstrecke</string>
@@ -113,7 +116,6 @@
     <string name="edit_odometer_message">Bitte neuen Km-Zähler Wert eingeben:</string>
     <string name="edit_odometer_controller_guide">Controller: Hoch/Runter verändert um 1, Zoom rein/rausverändert um 100, Mitte/Enter lange drücken setzt zurück, links/rechts für Abbrechen/Speichern</string>
     <string name="hours">Stunden</string>
-
 
 
     <!-- Control Station -->
@@ -220,7 +222,7 @@
 
 
 
-    <!-- MapFragment View -->
+    <!-- Map View -->
     <string name="offline_map_manager">Offline Landkarten verwalten</string>
     <string name="map_manager">Landkarten verwalten</string>
     <string name="europe">Europa</string>
