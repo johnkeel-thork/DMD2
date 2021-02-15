@@ -298,6 +298,7 @@
     <string name="not_enough_space_progress_text">Tu dois libérer de l’espace de stockage</string>
     <string name="bad_map_detected_title">Mauvaise carte Détecté</string>
     <string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois le télécharger à nouveaux. Le mauvais fichier est : </string>
-
+    <string name="error_loading_gpx_title">Erreur chargement GPX</string>
+    <string name="error_loading_gpx_message">Erreur de chargement du fichier GPX, le fichier ne semble pas être compatible avec DMD2, essayez avec un fichier différent.</string>
 
 </resources>
