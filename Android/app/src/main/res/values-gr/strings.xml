@@ -1,20 +1,9 @@
 <resources>
+    <string name="error_loading_gpx_title">Σφάλμα κατά τη φόρτωση GPX</string>
+    <string name="error_loading_gpx_message">Παρουσιάστηκε σφάλμα κατά την φόρτωση του GPX, το αρχείο φαίνεται να μην είναι συμβατό με το DMD2, παρακαλώ δοκιμάστε ένα άλλο αρχείο.</string>
 
-    <!-- Not Translated Yet -->
-    <string name="error_loading_gpx_title">Error Loading GPX</string>
-    <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
-    <!-- End of Not Translated Yet -->
-
-    <!-- FOR CORRECTION -->
     <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
-    <string name="manage_gpx_files">GPX Files</string>
-    <!-- END FOR CORRECTION -->
-    
-    
-    
-    
-
-
+    <string name="manage_gpx_files">Αρχεία GPX</string>
 
     <string name="app_name">DMD2</string>
 
