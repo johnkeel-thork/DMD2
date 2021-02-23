@@ -1,9 +1,4 @@
 <resources>
-    <string name="error_loading_gpx_title">Σφάλμα κατά τη φόρτωση GPX</string>
-    <string name="error_loading_gpx_message">Παρουσιάστηκε σφάλμα κατά την φόρτωση του GPX, το αρχείο φαίνεται να μην είναι συμβατό με το DMD2, παρακαλώ δοκιμάστε ένα άλλο αρχείο.</string>
-
-    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
-    <string name="manage_gpx_files">Αρχεία GPX</string>
 
     <string name="app_name">DMD2</string>
 
@@ -295,6 +290,8 @@
     <string name="not_enough_space_progress_text">Πρέπει να ελευθερώσετε τουλάχιστον</string>
     <string name="bad_map_detected_title">Εντοπίστηκε χαλασμένο αρχείο χάρτη</string>
     <string name="bad_map_detected_message">Εντοπίστηκε χαλασμένο αρχείο, το αρχείο διαγράγηκε και θα πρέπει να το ξανά κατεβάσετε. Το χαλασμένο αρχείο είναι: </string>
-
+    <string name="manage_gpx_files">Αρχεία GPX</string>
+    <string name="error_loading_gpx_title">Σφάλμα κατά τη φόρτωση GPX</string>
+    <string name="error_loading_gpx_message">Παρουσιάστηκε σφάλμα κατά την φόρτωση του GPX, το αρχείο φαίνεται να μην είναι συμβατό με το DMD2, παρακαλώ δοκιμάστε ένα άλλο αρχείο.</string>
 
 </resources>
