@@ -1,5 +1,16 @@
 <resources>
 
+
+    <!-- NEW UNTRANSLATED STRINGS -->
+    <string name="map_delete_title">Are you sure you want to delete this map?</string>
+    <string name="yes">Yes</string>
+    <!-- END OF UNTRANSLATED STRINGS -->
+    
+    
+    
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
