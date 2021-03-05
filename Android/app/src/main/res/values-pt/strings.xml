@@ -18,6 +18,7 @@
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
     <string name="ok">OK</string>
+    <string name="yes">Sim</string>
     <string name="swipe_message">Ao iniciar algumas das secções é apresentado uma barra azul à esquerda do ecrã, isto quer dizer que existe um menu deslizante disponível. Para aceder ao menu basta deslizar da esquerda do ecra (Swipe). Se usar um controlador BT pode pressionar Cima ou Baixo para chamar o menu.</string>
     <string name="already_purchased">Já comprou este plugin</string>
     <string name="hide_menu">Esconder Menu</string>
@@ -291,5 +292,6 @@
     <string name="bad_map_detected_message">Foi detectado um ficheiro de mapa corrompido, o ficheiro foi apagado e será necessário descarregar novamente. O ficheiro danificado é: </string>
     <string name="error_loading_gpx_title">Erro a carregar GPX</string>
     <string name="error_loading_gpx_message">Não foi possível carregar este GPX, poderá não ser compativel com o DMD2, tente outro ficheiro.</string>
+    <string name="map_delete_title">Tem a certeza que pretende apagar este mapa?</string>
 
 </resources>
