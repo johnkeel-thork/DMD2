@@ -19,6 +19,8 @@
     <string name="close">Fechar</string>
     <string name="ok">OK</string>
     <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="hide">Esconder</string>
     <string name="swipe_message">Ao iniciar algumas das secções é apresentado uma barra azul à esquerda do ecrã, isto quer dizer que existe um menu deslizante disponível. Para aceder ao menu basta deslizar da esquerda do ecra (Swipe). Se usar um controlador BT pode pressionar Cima ou Baixo para chamar o menu.</string>
     <string name="already_purchased">Já comprou este plugin</string>
     <string name="hide_menu">Esconder Menu</string>
@@ -77,6 +79,15 @@
     <string name="roadbook_plugin_missing_message">Para visualizar ficheiros Roadbook PDF é necessário o plugin de Roadbook.</string>
     <string name="map_plugin_missing_title">Plugin de Mapa Necessário</string>
     <string name="map_plugin_missing_message">Para visualizar ficheiros GPX é necessário o plugin de Mapa.</string>
+    <string name="storage_options_category">Opções de Armazenamento</string>
+    <string name="save_maps_to_sd">Usar cartão SD para mapas offline</string>
+    <string name="sd_card_error">Erro ao aceder ao cartão SD, funcionalidade incompatível com dispositivo!</string>
+    <string name="no_sd_card_error">Nenhum cartão SD encontrado!</string>
+    <string name="move_files_to_sdcard">Mover todos os mapas para o cartão SD?</string>
+    <string name="move_files_to_internal_memory">Mover todos os mapas para a memória interna?</string>
+    <string name="moving_files_dialog_title">A mover ficheiros!</string>
+    <string name="moving_map_file">A mover</string>
+    <string name="moving_map_of">de</string>
 
 
     <!-- Widgets -->
