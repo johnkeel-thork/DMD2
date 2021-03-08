@@ -11,9 +11,7 @@ The app can be found here:
 ## Help Translate:
 
 Please Submit for the Android App Translation!
-
-https://github.com/johnkeel-thork/DMD2/tree/main/Android/app/src/main/res
-
+* [Translation Resources](https://github.com/johnkeel-thork/DMD2/tree/main/Android/app/src/main/res)
 
 Following the Android schemas:
 
