@@ -4,16 +4,8 @@
 **Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.**
 
 The app can be found here:
-
-https://play.google.com/store/apps/details?id=com.thorkracing.dmd2launcher
-
-
-
-The official website is here:
-
-https://www.drivemodedashboard.com/
-
-
+* [GET THE APP](https://play.google.com/store/apps/details?id=com.thorkracing.dmd2launcher) @ Google Play Store
+* [WEBSITE](https://www.drivemodedashboard.com/) - The Official Website
 
 
 ## Help Translate:
