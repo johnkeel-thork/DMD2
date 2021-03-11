@@ -15,6 +15,9 @@
     <string name="back">Back</string>
     <string name="abort">Abort</string>
     <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="hide">Hide</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
@@ -75,7 +78,16 @@
     <string name="roadbook_plugin_missing_message">To view Roadbook PDF files you need to purchase the DMD2 Roadbook Plugin.</string>
     <string name="map_plugin_missing_title">Map Plugin Needed</string>
     <string name="map_plugin_missing_message">To view GPX files you need to purchase the DMD2 Map Plugin.</string>
-
+    <string name="storage_options_category">Storage Options</string>
+    <string name="save_maps_to_sd">Use SD-Card for offline maps</string>
+    <string name="sd_card_error">Error while trying to use your SDCard, this will not work on this device!</string>
+    <string name="no_sd_card_error">No SDCard present or not compatible!</string>
+    <string name="move_files_to_sdcard">Move all your map files to the SDCard?</string>
+    <string name="move_files_to_internal_memory">Move all your map files to the Internal Memory?</string>
+    <string name="moving_files_dialog_title">Moving Files!</string>
+    <string name="moving_map_file">Moving</string>
+    <string name="moving_map_of">of</string>
+    <string name="moving_left_menu_to_right">Move the Left Menu to the right</string>
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">No Widget / Empty Area</string>
@@ -292,6 +304,7 @@
     <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
     <string name="error_loading_gpx_title">Error Loading GPX</string>
     <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
+    <string name="map_delete_title">Are you sure you want to delete this map?</string>
 
 
 </resources>
