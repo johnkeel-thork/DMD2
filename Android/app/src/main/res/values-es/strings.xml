@@ -7,94 +7,7 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="hide">Hide</string>
-    <!-- End of New / Not Translated -->
-
-    <!-- FOR CORRECTION -->
-    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
-    <string name="manage_gpx_files">GPX Files</string>
-    <!-- END FOR CORRECTION -->
-
-
-
-
-
-
-    <string name="app_name">DMD2</string>
-
-    <!-- Status Bar -->
-    <string name="online_status">Conectado</string>
-    <string name="offline_status">Sin Conexion</string>
-
-
-    <!-- Common and Global -->
-    <string name="mi">Mi</string>
-    <string name="mph">Mph</string>
-    <string name="km">Km</string>
-    <string name="kmh">Km/h</string>
-    <string name="meters">meters</string>
-    <string name="back">Atras</string>
-    <string name="abort">Abortar</string>
-    <string name="ok">Aceptar</string>
-    <string name="save">Guardar</string>
-    <string name="cancel">Cancelar</string>
-    <string name="close">Cerrar</string>
-    <string name="swipe_message">La mayoría de las vistas mostrarán una barra vertical azul a la izquierda de la pantalla. Eso significa que hay un menú izquierdo disponible al que puede acceder deslizando el dedo desde el borde izquierdo de la pantalla. Si está utilizando cualquier controlador CARPE, generalmente podrá acceder al menú de la izquierda presionando Arriba o Abajo.</string>
-    <string name="already_purchased">Este puglin ya ha sido comprado</string>
-    <string name="hide_menu">Ocultar Menu</string>
-    <string name="select">Seleccionar</string>
-    <string name="delete">Eliminar</string>
-    <string name="update">Actualizar</string>
-
-
-    <!-- Bottom Menu -->
-    <string name="global_settings">Ajustes Generales</string>
-    <string name="exit">Salir</string>
-    <string name="dashboard">Tablero de Instrumentos</string>
-    <string name="apps">Applicaciones</string>
-    <string name="speedometer">Velocimetro</string>
-    <string name="control_station">Estación de Control</string>
-    <string name="roadbook">Roadbook</string>
-    <string name="map">Mapa</string>
-
-    <!-- Global Settings -->
-    <string name="localization_options">Ajustes de Localización</string>
-    <string name="hour_format">Usar formato 24H</string>
-    <string name="use_miles">Usar millas en vez de kilometros</string>
-    <string name="ui_options">Ajustes de Interfaz</string>
-    <string name="hide_status_bar">Ocultar barra de estado</string>
-    <string name="hide_bottom_menu">Ocultar automaticamente el menu inferior</string>
-    <string name="hide_odo">Ocultar Odometro en todas las vistas</string>
-    <string name="carpe_controller_options">Ajustes Controllador CARPE</string>
-    <string name="immidiate_bottom_menu">Modo inmediato menu inferior</string>
-    <string name="use_terrain_wheel_sensor">Usar sensor de rueda Terrain Command</string>
-    <string name="terrain_current_speed_mode">Valores de velocidad actuales</string>
-    <string-array name="terrain_speed_modes" translatable="true">
-        <item>Utilizar siempre GPS</item>
-        <item>Utilizar siempre sensor de rueda</item>
-        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
-    </string-array>
-    <string name="terrain_odo_mode">Modos medición distancia</string>
-    <string-array name="terrain_odo_modes" translatable="true">
-        <item>Utilizar siempre GPS</item>
-        <item>Utilizar siempre sensor de rueda</item>
-        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
-    </string-array>
-    <string name="dmd2_plugins">Plugins para DMD2</string>
-    <string name="get_roadbook_title">Visor Roadbook - Comprar</string>
-    <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
-    <string name="get_roadbook_message">Abrir archivos Roadbook PDF, selecciona simultáneamente hasta 4 instrumentos como, el Total, Parcial, Destino, Velocidad, maneja todo a través del controlador del manillar.</string>
-    <string name="get_mapview_title">Visor Mapa (Acceso temprano) - Comprar</string>
-    <string name="get_mapview_title_purchased">Visor Mapa - Comprado / Activo</string>
-    <string name="get_mapview_message">Mapa sin conexión con información topográfica, mapas topográficos de todo el mundo, edificios 3D, sombreado (en línea), gestor de multiples GPX. Indicaciones de navegación paso a paso y búsqueda de puntos de interés (POI) en breves disponible.</string>
-    <string name="connection_error">No se puede conectar, asegúrate de estar en linea / intenta reiniciar la aplicación!</string>
-    <string name="auto_hide_left_menu_indicator">Ocultar automáticamente indicador del menú izquierdo</string>
-    <string name="oem_registration">Registro OEM</string>
-    <string name="oem_check">Proceso de Registro (se necesita conexión de Internet)</string>
-    <string name="oem_check_summary">Solo utilizar si tu motocicleta viene equipada con un dispositivo Android con Drive Mode Dashboard 2 preinstalado.</string>
-    <string name="roadbook_plugin_missing_title">Plugin para Roadbook necesario</string>
-    <string name="roadbook_plugin_missing_message">Para poder visualizar archivos Roadbook PDF necesitas comprar el DMD2 Roadbook Plugin.</string>
-    <string name="map_plugin_missing_title">Plugin de Mapa necesario</string>
-    <string name="map_plugin_missing_message">Para visualizar archivos GPX necesita comprar el DMD2 Map Plugin.</string>
+    <string name="moving_left_menu_to_right">Move the Left Menu to the right</string>
     <string name="storage_options_category">Storage Options</string>
     <string name="save_maps_to_sd">Use SD-Card for offline maps</string>
     <string name="sd_card_error">Error while trying to use your SDCard, this will not work on this device!</string>
@@ -104,64 +17,6 @@
     <string name="moving_files_dialog_title">Moving Files!</string>
     <string name="moving_map_file">Moving</string>
     <string name="moving_map_of">of</string>
-
-
-    <!-- Widgets -->
-    <string name="none_empty_widget_desc">Widget No / Area Vacía</string>
-    <string name="speed_widget_desc">Velocidad / Trip / Odo</string>
-    <string name="fav_apps_widgets">Accesos directos aplicaciónes</string>
-    <string name="trip_info">Información Trip</string>
-    <string name="digital_clock">Reloj Digital</string>
-    <string name="compass_widget">Brújula</string>
-    <string name="system_widget">Widget Sistema Android</string>
-    <string name="logo_widget">Añadir logo PNG</string>
-    <!-- Trip Widget -->
-    <string name="avg_speed">Vel Media</string>
-    <!-- Logo Widget -->
-    <string name="pixels">pixels</string>
-    <string name="tap_to_select_image">Presionar para seleccionar imagen</string>
-    <string name="tap_to_edit_text">Presionar para editar texto</string>
-    <string name="write_logo_message">Escribe el mensaje de tu logo</string>
-
-    <!-- GRID VIEW -->
-    <string name="option_show_grid">Modo Edición de Diseño</string>
-    <string name="select_widget">Select Widget</string>
-
-    <!-- Speedo View -->
-    <string name="distance">Distancia</string>
-    <string name="total_time">Tiempo Total</string>
-    <string name="travel_time">Tiempo de Viaje</string>
-    <string name="stop_time">Tiempo Parada</string>
-    <string name="avg_average">MED</string>
-    <string name="max_maximum">MAX</string>
-    <string name="odo_odometer">Odo</string>
-    <string name="trip">Trip</string>
-    <string name="reset_trip">Resetear Trip</string>
-    <string name="edit_odometer">Editar Odometro</string>
-    <string name="edit_odometer_message">Por favor insertar un nuevo valor en Odometro:</string>
-    <string name="edit_odometer_controller_guide">Controlador: Arriba/Abajo cambia por 1, Ampliar/Reducir cambia por 100, Centro/Enter pulsación larga resetea a cero, Izquierda/Derecha para Cancelar/Guardar</string>
-    <string name="hours">Horas</string>
-
-
-
-    <!-- Control Station -->
-    <string name="brightness">Brillo</string>
-    <string name="set_max_bright_title"> Detección de Brillo Máxima del Sistema</string>
-    <string name="set_max_brightness">Detectar Brillo Máximo</string>
-    <string name="set_max_bright_message">Dado que cada dispositivo usa diferentes valores para el brillo máximo, primero debemos obtenerlo.
-     Vaya manualmente al menú del sistema y configure su brillo al máximo y luego presione GUARDAR</string>
-    <string name="bright_command_instruction">Controlador: Usar botones del Zoom para aumentar/reducir y Enter/Centro Presionar para cambiar Auto/Manual</string>
-    <string name="auto_bright">Auto</string>
-    <string name="manual_bright">Manual</string>
-    <string name="control_station_exit">Controlador: Usar botón Izquierdo  o Derecho para salir</string>
-    <string name="music_volume">Volumen Música</string>
-    <string name="calls_volume">Volumen Llamadas</string>
-    <string name="ring_volume">Volumen Tono</string>
-    <string name="volume_command_instruction">Controlador: Usar botones zoom para aumentar/reducir y Enter/Centro Presionar para cambiar fuente</string>
-    <string name="dnd_mode_title">Permisos Modo DND</string>
-    <string name="dnd_mode_message">Para ajustar completamente el volumen necesitamos permisos para el Modo DND¡</string>
-    <string name="controller_default_message">Controlador: Presione arriba para seleccionar uno de los controles deslizantes, presione abajo para volver al menu.</string>
-
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Tap here to open file</string>
@@ -318,6 +173,155 @@
     <string name="not_enough_space_progress_text">You need to free at least</string>
     <string name="bad_map_detected_title">Bad Map File Detected</string>
     <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
+    <!-- End of New / Not Translated -->
+
+    <!-- FOR CORRECTION -->
+    <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
+    <string name="manage_gpx_files">GPX Files</string>
+    <!-- END FOR CORRECTION -->
+
+
+
+
+
+
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="online_status">Conectado</string>
+    <string name="offline_status">Sin Conexion</string>
+
+
+    <!-- Common and Global -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/h</string>
+    <string name="meters">meters</string>
+    <string name="back">Atras</string>
+    <string name="abort">Abortar</string>
+    <string name="ok">Aceptar</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="swipe_message">La mayoría de las vistas mostrarán una barra vertical azul a la izquierda de la pantalla. Eso significa que hay un menú izquierdo disponible al que puede acceder deslizando el dedo desde el borde izquierdo de la pantalla. Si está utilizando cualquier controlador CARPE, generalmente podrá acceder al menú de la izquierda presionando Arriba o Abajo.</string>
+    <string name="already_purchased">Este puglin ya ha sido comprado</string>
+    <string name="hide_menu">Ocultar Menu</string>
+    <string name="select">Seleccionar</string>
+    <string name="delete">Eliminar</string>
+    <string name="update">Actualizar</string>
+
+
+    <!-- Bottom Menu -->
+    <string name="global_settings">Ajustes Generales</string>
+    <string name="exit">Salir</string>
+    <string name="dashboard">Tablero de Instrumentos</string>
+    <string name="apps">Applicaciones</string>
+    <string name="speedometer">Velocimetro</string>
+    <string name="control_station">Estación de Control</string>
+    <string name="roadbook">Roadbook</string>
+    <string name="map">Mapa</string>
+
+    <!-- Global Settings -->
+    <string name="localization_options">Ajustes de Localización</string>
+    <string name="hour_format">Usar formato 24H</string>
+    <string name="use_miles">Usar millas en vez de kilometros</string>
+    <string name="ui_options">Ajustes de Interfaz</string>
+    <string name="hide_status_bar">Ocultar barra de estado</string>
+    <string name="hide_bottom_menu">Ocultar automaticamente el menu inferior</string>
+    <string name="hide_odo">Ocultar Odometro en todas las vistas</string>
+    <string name="carpe_controller_options">Ajustes Controllador CARPE</string>
+    <string name="immidiate_bottom_menu">Modo inmediato menu inferior</string>
+    <string name="use_terrain_wheel_sensor">Usar sensor de rueda Terrain Command</string>
+    <string name="terrain_current_speed_mode">Valores de velocidad actuales</string>
+    <string-array name="terrain_speed_modes" translatable="true">
+        <item>Utilizar siempre GPS</item>
+        <item>Utilizar siempre sensor de rueda</item>
+        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
+    </string-array>
+    <string name="terrain_odo_mode">Modos medición distancia</string>
+    <string-array name="terrain_odo_modes" translatable="true">
+        <item>Utilizar siempre GPS</item>
+        <item>Utilizar siempre sensor de rueda</item>
+        <item> Utilizar solo sensor de rueda cuando la precisión del GPS es baja</item>
+    </string-array>
+    <string name="dmd2_plugins">Plugins para DMD2</string>
+    <string name="get_roadbook_title">Visor Roadbook - Comprar</string>
+    <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
+    <string name="get_roadbook_message">Abrir archivos Roadbook PDF, selecciona simultáneamente hasta 4 instrumentos como, el Total, Parcial, Destino, Velocidad, maneja todo a través del controlador del manillar.</string>
+    <string name="get_mapview_title">Visor Mapa (Acceso temprano) - Comprar</string>
+    <string name="get_mapview_title_purchased">Visor Mapa - Comprado / Activo</string>
+    <string name="get_mapview_message">Mapa sin conexión con información topográfica, mapas topográficos de todo el mundo, edificios 3D, sombreado (en línea), gestor de multiples GPX. Indicaciones de navegación paso a paso y búsqueda de puntos de interés (POI) en breves disponible.</string>
+    <string name="connection_error">No se puede conectar, asegúrate de estar en linea / intenta reiniciar la aplicación!</string>
+    <string name="auto_hide_left_menu_indicator">Ocultar automáticamente indicador del menú izquierdo</string>
+    <string name="oem_registration">Registro OEM</string>
+    <string name="oem_check">Proceso de Registro (se necesita conexión de Internet)</string>
+    <string name="oem_check_summary">Solo utilizar si tu motocicleta viene equipada con un dispositivo Android con Drive Mode Dashboard 2 preinstalado.</string>
+    <string name="roadbook_plugin_missing_title">Plugin para Roadbook necesario</string>
+    <string name="roadbook_plugin_missing_message">Para poder visualizar archivos Roadbook PDF necesitas comprar el DMD2 Roadbook Plugin.</string>
+    <string name="map_plugin_missing_title">Plugin de Mapa necesario</string>
+    <string name="map_plugin_missing_message">Para visualizar archivos GPX necesita comprar el DMD2 Map Plugin.</string>
+
+
+
+    <!-- Widgets -->
+    <string name="none_empty_widget_desc">Widget No / Area Vacía</string>
+    <string name="speed_widget_desc">Velocidad / Trip / Odo</string>
+    <string name="fav_apps_widgets">Accesos directos aplicaciónes</string>
+    <string name="trip_info">Información Trip</string>
+    <string name="digital_clock">Reloj Digital</string>
+    <string name="compass_widget">Brújula</string>
+    <string name="system_widget">Widget Sistema Android</string>
+    <string name="logo_widget">Añadir logo PNG</string>
+    <!-- Trip Widget -->
+    <string name="avg_speed">Vel Media</string>
+    <!-- Logo Widget -->
+    <string name="pixels">pixels</string>
+    <string name="tap_to_select_image">Presionar para seleccionar imagen</string>
+    <string name="tap_to_edit_text">Presionar para editar texto</string>
+    <string name="write_logo_message">Escribe el mensaje de tu logo</string>
+
+    <!-- GRID VIEW -->
+    <string name="option_show_grid">Modo Edición de Diseño</string>
+    <string name="select_widget">Select Widget</string>
+
+    <!-- Speedo View -->
+    <string name="distance">Distancia</string>
+    <string name="total_time">Tiempo Total</string>
+    <string name="travel_time">Tiempo de Viaje</string>
+    <string name="stop_time">Tiempo Parada</string>
+    <string name="avg_average">MED</string>
+    <string name="max_maximum">MAX</string>
+    <string name="odo_odometer">Odo</string>
+    <string name="trip">Trip</string>
+    <string name="reset_trip">Resetear Trip</string>
+    <string name="edit_odometer">Editar Odometro</string>
+    <string name="edit_odometer_message">Por favor insertar un nuevo valor en Odometro:</string>
+    <string name="edit_odometer_controller_guide">Controlador: Arriba/Abajo cambia por 1, Ampliar/Reducir cambia por 100, Centro/Enter pulsación larga resetea a cero, Izquierda/Derecha para Cancelar/Guardar</string>
+    <string name="hours">Horas</string>
+
+
+
+    <!-- Control Station -->
+    <string name="brightness">Brillo</string>
+    <string name="set_max_bright_title"> Detección de Brillo Máxima del Sistema</string>
+    <string name="set_max_brightness">Detectar Brillo Máximo</string>
+    <string name="set_max_bright_message">Dado que cada dispositivo usa diferentes valores para el brillo máximo, primero debemos obtenerlo.
+     Vaya manualmente al menú del sistema y configure su brillo al máximo y luego presione GUARDAR</string>
+    <string name="bright_command_instruction">Controlador: Usar botones del Zoom para aumentar/reducir y Enter/Centro Presionar para cambiar Auto/Manual</string>
+    <string name="auto_bright">Auto</string>
+    <string name="manual_bright">Manual</string>
+    <string name="control_station_exit">Controlador: Usar botón Izquierdo  o Derecho para salir</string>
+    <string name="music_volume">Volumen Música</string>
+    <string name="calls_volume">Volumen Llamadas</string>
+    <string name="ring_volume">Volumen Tono</string>
+    <string name="volume_command_instruction">Controlador: Usar botones zoom para aumentar/reducir y Enter/Centro Presionar para cambiar fuente</string>
+    <string name="dnd_mode_title">Permisos Modo DND</string>
+    <string name="dnd_mode_message">Para ajustar completamente el volumen necesitamos permisos para el Modo DND¡</string>
+    <string name="controller_default_message">Controlador: Presione arriba para seleccionar uno de los controles deslizantes, presione abajo para volver al menu.</string>
+
+
+
 
 
 
