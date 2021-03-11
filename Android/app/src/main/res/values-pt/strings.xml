@@ -72,9 +72,9 @@
     <string name="get_mapview_message">Mapas topograficos offline, edificios 3D, sombreado de relevo (online), seguir / gravar GPX e muito mais. Navegação e pesquisa de POI para breve.</string>
     <string name="connection_error">Impossivel ligar, confirme que está online / tente reiniciar a app!</string>
     <string name="auto_hide_left_menu_indicator">Esconder indicador do menu esquerdo automaticamente</string>
-    <string name="oem_registration">OEM Registration</string>
-    <string name="oem_check">Registration Process (needs internet connection)</string>
-    <string name="oem_check_summary">Only use if your motorcycle came equipped with an Android device with Drive Mode Dashboard 2 pre-installed.</string>
+    <string name="oem_registration">Registo OEM</string>
+    <string name="oem_check">Registar App (necessita ligação internet)</string>
+    <string name="oem_check_summary">Usar apenas se a sua mota estava equipada de série com o DMD2.</string>
     <string name="roadbook_plugin_missing_title">Plugin de Roadbook Necessário</string>
     <string name="roadbook_plugin_missing_message">Para visualizar ficheiros Roadbook PDF é necessário o plugin de Roadbook.</string>
     <string name="map_plugin_missing_title">Plugin de Mapa Necessário</string>
@@ -88,6 +88,7 @@
     <string name="moving_files_dialog_title">A mover ficheiros!</string>
     <string name="moving_map_file">A mover</string>
     <string name="moving_map_of">de</string>
+    <string name="moving_left_menu_to_right">Mover menu esquerdo para a direita</string>
 
 
     <!-- Widgets -->
