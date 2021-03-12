@@ -304,7 +304,7 @@
     <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
     <string name="error_loading_gpx_title">Error Loading GPX</string>
     <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
-    <string name="map_delete_title">Are you sure you want to delete this map?</string>
+    <string name="map_delete_title">Are you sure you want to delete this map file?</string>
 
 
 </resources>
