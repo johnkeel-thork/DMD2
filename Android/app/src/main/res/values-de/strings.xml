@@ -1,28 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNTRANSLATED STRINGS -->
-    <string name="map_delete_title">Willst Du diese Karte wirklich löschen?</string>
-    <string name="yes">Ja</string>
-    <string name="no">Nein</string>
-    <string name="hide">Verstecken</string>
-    <string name="storage_options_category">Speicher Optionen</string>
-    <string name="save_maps_to_sd">Benutze SD-Karte zum Speichern von Offline-Maps</string>
-    <string name="sd_card_error">Fehler beim Speichern auf SD-Karte. Speichern auf SD-Karte funktioniert nicht auf diesem Gerät!</string>
-    <string name="no_sd_card_error">SD-Karte nicht vorhanden oder inkompatibel!</string>
-    <string name="move_files_to_sdcard">Alle Landkarten auf die SD-Karte verschiebn?</string>
-    <string name="move_files_to_internal_memory">Alle Landkarten auf den internen Speicher verschiebn?</string>
-    <string name="moving_files_dialog_title">Verschiebe Dateien!</string>
-    <string name="moving_map_file">Verschiebe</string>
-    <string name="moving_map_of">von</string>
-    <string name="moving_left_menu_to_right">Setze Menü von links nach rechts</string>
-    <!-- END OF UNTRANSLATED STRINGS -->
-
-
-
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -41,6 +18,9 @@
     <string name="ok">OK</string>
     <string name="save">Speichern</string>
     <string name="cancel">Abbrechen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="hide">Verstecken</string>
     <string name="close">Schließen</string>
     <string name="swipe_message">Einige Ansichten zeigen einen senkrechten blauen Balken am linken Bildschirm Rand. Dort gibt es ein linkes Menü, welches Du durch wischen von der linken Bildschirmseite erreichen kannst. Bei Verwendung des CARPE Controller kann das linke Menü in der Regel durch "hoch" oder "runter" erreicht werden.</string>
     <string name="already_purchased">Plugin bereits gekauft</string>
@@ -100,6 +80,16 @@
     <string name="roadbook_plugin_missing_message">Um Roadbook PDF Dateien zu nutzen musst Du das DMD2 Roadbook Plugin kaufen.</string>
     <string name="map_plugin_missing_title">Landkarten Plugin fehlt</string>
     <string name="map_plugin_missing_message">Um GPX Dateien zu nutzen musst Du das DMD2 Map Plugin kaufen.</string>
+    <string name="storage_options_category">Speicher Optionen</string>
+    <string name="save_maps_to_sd">Benutze SD-Karte zum Speichern von Offline-Maps</string>
+    <string name="sd_card_error">Fehler beim Speichern auf SD-Karte. Speichern auf SD-Karte funktioniert nicht auf diesem Gerät!</string>
+    <string name="no_sd_card_error">SD-Karte nicht vorhanden oder inkompatibel!</string>
+    <string name="move_files_to_sdcard">Alle Landkarten auf die SD-Karte verschiebn?</string>
+    <string name="move_files_to_internal_memory">Alle Landkarten auf den internen Speicher verschiebn?</string>
+    <string name="moving_files_dialog_title">Verschiebe Dateien!</string>
+    <string name="moving_map_file">Verschiebe</string>
+    <string name="moving_map_of">von</string>
+    <string name="moving_left_menu_to_right">Setze Menü von links nach rechts</string>
 
 
     <!-- Widgets -->
@@ -318,5 +308,6 @@
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
     <string name="error_loading_gpx_title">Fehler beim Laden des GPX</string>
     <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Anderer.</string>
+    <string name="map_delete_title">Willst Du diese Karte wirklich löschen?</string>
 
 </resources>
