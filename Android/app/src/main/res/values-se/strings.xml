@@ -46,7 +46,7 @@
     <string name="ui_options">Gränssnittsalternativ</string>
     <string name="hide_status_bar">Dölj statusfältet</string>
     <string name="hide_bottom_menu">Dölj undermenyn automatiskt</string>
-    <string name="hide_odo">Dölj Odometer i alla vyer</string>
+    <string name="hide_odo">Dölj ODOmeter i alla vyer</string>
     <string name="carpe_controller_options">CARPE Controller inställningar</string>
     <string name="immidiate_bottom_menu">Undermeny direktläge</string>
     <string name="use_terrain_wheel_sensor">Använd Terrain Command hjulsensor</string>
@@ -70,14 +70,14 @@
     <string name="get_mapview_title_purchased">Kartvy - Köpt / Aktiv</string>
     <string name="get_mapview_message">Offline-karta med topografisk data, globala Topo-kartor, 3D-byggnader, höjdskuggning (online), multiple-gpx manager. Vägledd navigering och POI-sökning kommer snart.</string>
     <string name="connection_error">Kan inte ansluta, kontrollera att du är online / försök starta om appen!</string>
-    <string name="auto_hide_left_menu_indicator">Auto-göm-indikator för vänstermeny</string>
+    <string name="auto_hide_left_menu_indicator">Göm indikator för vänstermeny automatiskt</string>
     <string name="oem_registration">OEM Registrering</string>
     <string name="oem_check">Registreringsprocess (kräver internetuppkoppling)</string>
     <string name="oem_check_summary">Använd endast om din motorcykel levererades med en Android-enhet med Drive Mode Dashboard 2 förinstallerad.</string>
     <string name="roadbook_plugin_missing_title">Roadbook Plugin behövs</string>
     <string name="roadbook_plugin_missing_message">För att visa Roadbook PDF-filer behöver du först köpa DMD2 Roadbook Plugin.</string>
     <string name="map_plugin_missing_title">Kart-plugin behövs</string>
-    <string name="map_plugin_missing_message">För att visa GPX-filer behöver du först köpa DMD2 Map Plugin.</string>
+    <string name="map_plugin_missing_message">För att visa GPX-filer behöver du först köpa DMD2 Kart-Plugin.</string>
     <string name="storage_options_category">Lagringsval</string>
     <string name="save_maps_to_sd">Använd SD-kort för offline-kartor</string>
     <string name="sd_card_error">Ditt SD-kort kunde inte läsas. Det fungerar inte på denna enheten!</string>
@@ -93,7 +93,7 @@
     <string name="none_empty_widget_desc">Ingen widget / Tom yta</string>
     <string name="speed_widget_desc">Hastighet / Tripp / Odo</string>
     <string name="fav_apps_widgets">App Genvägar</string>
-    <string name="trip_info">Tripinformation</string>
+    <string name="trip_info">Trippinformation</string>
     <string name="digital_clock">Digital klocka</string>
     <string name="compass_widget">Kompass</string>
     <string name="system_widget">Android System Widget</string>
@@ -117,30 +117,30 @@
     <string name="stop_time">Stopptid</string>
     <string name="avg_average">Medel</string>
     <string name="max_maximum">MAX</string>
-    <string name="odo_odometer">Odo</string>
+    <string name="odo_odometer">ODO</string>
     <string name="trip">Tripp</string>
     <string name="reset_trip">Nollställ Tripp</string>
-    <string name="edit_odometer">Redigera Odometer</string>
-    <string name="edit_odometer_message">Ange nytt värde för odometer:</string>
-    <string name="edit_odometer_controller_guide">Kontroll: Upp/Ner ändras med 1, ZoomIn/Ut ändras med 100, Center/Enter långt tryck återställer till noll, Vänster/Höger för Avbryt/Spara</string>
+    <string name="edit_odometer">Redigera ODOmeter</string>
+    <string name="edit_odometer_message">Ange nytt värde för ODOmeter:</string>
+    <string name="edit_odometer_controller_guide">Kontroll: Upp/Ner ändrar med 1, ZoomIn/Ut ändrar med 100, Center/Enter lång-tryck återställer till noll, Vänster/Höger för Avbryt/Spara</string>
     <string name="hours">Timmar</string>
 
 
 
     <!-- Control Station -->
     <string name="brightness">Ljusstyrka</string>
-    <string name="set_max_bright_title">Avläsning systemets max ljusstyrka</string>
+    <string name="set_max_bright_title">Avläsning av systemets max ljusstyrka</string>
     <string name="set_max_brightness">Läs av max ljusstyrka</string>
     <string name="set_max_bright_message">Eftersom olika system har olika värden för max ljusstyrka behöver vi läsa av det först.
-    Gå till system-menyn och sätt manuellt ljusstyrkan högsta möjliga och tryck sedan på SPARA</string>
-    <string name="bright_command_instruction">Kontroll: Använd Zoom-knapparna för att öka/minska och Enter/Center Click to change Auto/Manual</string>
+    Gå till system-menyn och sätt manuellt ljusstyrkan till högsta möjliga och tryck sedan på SPARA</string>
+    <string name="bright_command_instruction">Kontroll: Använd Zoom-knapparna för att öka/minska och Enter/Center klick för att växla Auto/Manuell</string>
     <string name="auto_bright">Auto</string>
-    <string name="manual_bright">Manual</string>
-    <string name="control_station_exit">Controller: Use Left or Right buttons to exit</string>
-    <string name="music_volume">Music Volume</string>
-    <string name="calls_volume">Calls Volume</string>
-    <string name="ring_volume">Ring Volume</string>
-    <string name="volume_command_instruction">Controller: Use Zoom buttons to increase/decrease and Enter/Center-klick för att ändra källa</string>
+    <string name="manual_bright">Manuell</string>
+    <string name="control_station_exit">Kontroll: Använd Vänster eller Höger knappar för att gå ur</string>
+    <string name="music_volume">Musik Volym</string>
+    <string name="calls_volume">Samtal Volym</string>
+    <string name="ring_volume">Ring Volym</string>
+    <string name="volume_command_instruction">Kontroll: Använd Zoom-knapparna för att öka/minska och Enter/Center-klick för att ändra källa</string>
     <string name="dnd_mode_title">DND Mode Godkännande</string>
     <string name="dnd_mode_message">För att kunna justera all volum behöver vi ditt godkännande till DND Mode!</string>
     <string name="controller_default_message">Kontroll: Tryck upp för att välja reglage, tryck ner för att återgå till menyn.</string>
@@ -149,14 +149,14 @@
     <!-- Roadbook -->
     <string name="tap_to_open_file">Tryck här för att öppna fil</string>
     <string name="select_instrument">Välj Instrument</string>
-    <string name="none_empty_instrument_desc">Ingen, gömmer boxen</string>
+    <string name="none_empty_instrument_desc">Inget, gömmer boxen</string>
     <string name="total_instrument_desc">Total Distans</string>
     <string name="partial_instrument_desc">Partiell Distans</string>
     <string name="heading_instrument_desc">Kurs Grader</string>
     <string name="current_speed_instrument_desc">Aktuell Hastighet</string>
     <string name="chronometer_instrument_desc">Chronometer</string>
-    <string name="current_time_instrument_desc">Klicka (Aktuell Tid)</string>
-    <string name="clock_title">klocka</string>
+    <string name="current_time_instrument_desc">Klocka (Aktuell Tid)</string>
+    <string name="clock_title">Klocka</string>
     <string name="speed_title">Hastighet</string>
     <string name="heading_title">Kurs</string>
     <string name="chrono_title">Chrono</string>
@@ -194,19 +194,19 @@
     <string name="controller_lock_mode">Kontroll låst läge</string>
     <string name="controller_lock_mode_enabled">Kontroll Låst Läge Aktiverat</string>
     <string name="controller_lock_mode_disabled">Kontroll Låst Läge Inaktiverat</string>
-    <string name="roadbook_controller_setup_cat_title">CARPE kontroll knappinställning</string>
+    <string name="roadbook_controller_setup_cat_title">CARPE Controller knappinställning</string>
     <string name="roadbook_controller_button_up">Joystick Upp / Terräng Up</string>
     <string name="roadbook_controller_button_down">Joystick Ner / Terräng Down</string>
     <string name="roadbook_controller_button_left">Joystick Vänster / Terräng Vänster</string>
     <string name="roadbook_controller_button_right">Joystick Höger / Terräng Höger</string>
-    <string name="roadbook_controller_button_enter">Joystick Center Klick / Terräng Center</string>
-    <string name="roadbook_controller_button_enter_long">Långt tryck Joystick Center / Terräng Center</string>
+    <string name="roadbook_controller_button_enter">Joystick Center Klick / Terräng Centrera</string>
+    <string name="roadbook_controller_button_enter_long">Lång-tryck Joystick Center / Terräng Center</string>
     <string name="roadbook_controller_button_zoomin">Knapp A / Zoom In</string>
     <string name="roadbook_controller_button_zoomout">Knapp B / Zoom Ut</string>
     <string name="roadbook_controller_scroll_amount_title">Scroll mängd per klick</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Scrolla papper ner ett steg vid nollställning av Partiell</string>
     <string name="roadbook_controller_paper_roll_options_cat_title">Pappersrulle Val</string>
-    <string name="roadbook_controller_cat_title">CARPE Kontroll val</string>
+    <string name="roadbook_controller_cat_title">CARPE Controller val</string>
     <string name="enable_controller_lock_also_disable_touch">Inaktivera även skärm-tryck när kontrollens låsläge är aktiverat</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
         <item>Visa sidomeny</item>
@@ -227,7 +227,7 @@
     <string name="roadbook_open_file">Öppna PDF-fil</string>
     <string name="roadbook_total_partial_controller_instructions">Kontroll: Använd Upp/Ner/Vänster/Höger för att välja knapp. Tryck Enter/Center för att välja.</string>
     <string name="roadbook_decimals_controller_instructions">Kontroll: Använd Vänster/Höger för att välja knapp. Tryck Enter/Center för att välja.</string>
-    <string name="roadbook_edit_values_guide">Kontroll: Upp/Ner justerar med 0.01, ZoomIn/Ut justerar med 1, Center/Enter långt tryck nollställer, Vänster/Höger för Avbryt/Spara</string>
+    <string name="roadbook_edit_values_guide">Kontroll: Upp/Ner justerar med 0.01, ZoomIn/Ut justerar med 1, Center/Enter lång-tryck nollställer, Vänster/Höger för Avbryt/Spara</string>
 
 
 
