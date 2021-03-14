@@ -1,63 +1,63 @@
 <resources>
 
     <!-- New / Not Translated -->
-    <string name="error_loading_gpx_title">Error Loading GPX</string>
-    <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
-    <string name="map_delete_title">Are you sure you want to delete this map?</string>
-    <string name="yes">Yes</string>
+    <string name="error_loading_gpx_title">Error al cargar GPX</string>
+    <string name="error_loading_gpx_message">Hubo un error al intentar cargar este GPX, parece que no es compatible con DMD2, por favor pruebe con uno distinto.</string>
+    <string name="map_delete_title">Esta seguro que quiere borrar este mapa?</string>
+    <string name="yes">Si</string>
     <string name="no">No</string>
-    <string name="hide">Hide</string>
-    <string name="moving_left_menu_to_right">Move the Left Menu to the right</string>
-    <string name="storage_options_category">Storage Options</string>
-    <string name="save_maps_to_sd">Use SD-Card for offline maps</string>
-    <string name="sd_card_error">Error while trying to use your SDCard, this will not work on this device!</string>
-    <string name="no_sd_card_error">No SDCard present or not compatible!</string>
-    <string name="move_files_to_sdcard">Move all your map files to the SDCard?</string>
-    <string name="move_files_to_internal_memory">Move all your map files to the Internal Memory?</string>
-    <string name="moving_files_dialog_title">Moving Files!</string>
-    <string name="moving_map_file">Moving</string>
-    <string name="moving_map_of">of</string>
+    <string name="hide">Ocultar</string>
+    <string name="moving_left_menu_to_right">Mover el Menú Izquierdo a la Derecha</string>
+    <string name="storage_options_category">Opciones de Almacenamiento </string>
+    <string name="save_maps_to_sd">Utilizar la SD para almacenar los mapas Offline</string>
+    <string name="sd_card_error">Hubo un Error al intentar utilizar tu SD, esto no funcionara en tu dispositivo¡</string>
+    <string name="no_sd_card_error">No se detecta ninguna SD o no es compatible¡</string>
+    <string name="move_files_to_sdcard">Mover todos tus Mapas a la tarjeta SD? </string>
+    <string name="move_files_to_internal_memory">Mover todos tus Mapas a la memoria interna del teléfono?</string>
+    <string name="moving_files_dialog_title">Moviendo Archivos¡</string>
+    <string name="moving_map_file">Moviendo</string>
+    <string name="moving_map_of">de</string>
 
     <!-- Roadbook -->
-    <string name="tap_to_open_file">Tap here to open file</string>
-    <string name="select_instrument">Select Instrument</string>
-    <string name="none_empty_instrument_desc">None, will hide box</string>
-    <string name="total_instrument_desc">Total Distance</string>
-    <string name="partial_instrument_desc">Partial Distance</string>
-    <string name="heading_instrument_desc">Heading Degrees</string>
-    <string name="current_speed_instrument_desc">Current Speed</string>
-    <string name="chronometer_instrument_desc">Chronometer</string>
-    <string name="current_time_instrument_desc">Clock (Current Time)</string>
-    <string name="clock_title">Clock</string>
-    <string name="speed_title">Speed</string>
-    <string name="heading_title">Heading</string>
-    <string name="chrono_title">Chrono</string>
+    <string name="tap_to_open_file">Pulsar para abrir el archivo</string>
+    <string name="select_instrument">Seleccionar Instrumento</string>
+    <string name="none_empty_instrument_desc">Ninguno, escondera el recuadro</string>
+    <string name="total_instrument_desc">Distancia Total</string>
+    <string name="partial_instrument_desc">Distancia Parcial</string>
+    <string name="heading_instrument_desc">Rumbo en Grados</string>
+    <string name="current_speed_instrument_desc">Velocidad Actual</string>
+    <string name="chronometer_instrument_desc">Cronómetro</string>
+    <string name="current_time_instrument_desc">Reloj (Tiempo Actual)</string>
+    <string name="clock_title">Reloj</string>
+    <string name="speed_title">Velocidad</string>
+    <string name="heading_title">Rumbo</string>
+    <string name="chrono_title">Crono</string>
     <string name="total_distance_title">Total</string>
-    <string name="partial_distance_title">Partial</string>
-    <string name="chrono_paused">PAUSED</string>
-    <string name="edit_instruments">Edit Instruments</string>
-    <string name="total_options">Options for Total</string>
-    <string name="partial_options">Options for Partial</string>
-    <string name="invert_paper_color">Invert Paper Color</string>
-    <string name="reset_all_instruments">Reset All Instruments</string>
-    <string name="total_distance_edit_title">Total Distance</string>
-    <string name="total_distance_message">Tap to edit the Total Distance instrument value:</string>
-    <string name="partial_distance_edit_title">Partial Distance</string>
+    <string name="partial_distance_title">Parcial</string>
+    <string name="chrono_paused">PAUSADO</string>
+    <string name="edit_instruments">Editar Instrumentos</string>
+    <string name="total_options">Ajustes para el Total</string>
+    <string name="partial_options">Ajustes para el Parcial </string>
+    <string name="invert_paper_color">Invertir Color del Papel</string>
+    <string name="reset_all_instruments">Reiniciar Todos los Instrumentos</string>
+    <string name="total_distance_edit_title">Distancia Total</string>
+    <string name="total_distance_message">Pulsar para editar la Distancia Total del valor del instrumento:</string>
+    <string name="partial_distance_edit_title">Distancia Parcial</string>
     <string name="partial_distance_message">Tap to edit the Partial Distance instrument value:</string>
     <string name="total_options_dialog_title">Total Distance</string>
-    <string name="total_options_dialog_message">Available options for the Total Distance Instrument:</string>
-    <string name="total_options_reset_button">Reset Value</string>
-    <string name="total_options_input_button">Input Value</string>
-    <string name="total_options_decimals_button">Decimal Places</string>
-    <string name="total_decimals_dialog_title">Total - Decimal Places</string>
-    <string name="total_decimals_dialog_message">Choose the amount of decimal places to show for the Total value:</string>
-    <string name="total_decimals_dialog_one_button">One (0.0)</string>
-    <string name="total_decimals_dialog_two_button">Two (0.00)</string>
-    <string name="partial_options_dialog_title">Partial Distance</string>
-    <string name="partial_options_dialog_message">Available options for the Partial Distance Instrument:</string>
-    <string name="partial_options_reset_button">Reset Value</string>
-    <string name="partial_options_input_button">Input Value</string>
-    <string name="partial_options_decimals_button">Decimal Places</string>
+    <string name="total_options_dialog_message">Pulsar para editar la Distancia Parcial del valor del instrumento:</string>
+    <string name="total_options_reset_button">Reiniciar Valor</string>
+    <string name="total_options_input_button">Valor de Entrada</string>
+    <string name="total_options_decimals_button">Lugares Decimales</string>
+    <string name="total_decimals_dialog_title">Total - Lugares Decimales</string>
+    <string name="total_decimals_dialog_message">Elige la cantidad de Puntos Decimales que quieres que se muestren en el Valor Total:</string>
+    <string name="total_decimals_dialog_one_button">Uno (0.0)</string>
+    <string name="total_decimals_dialog_two_button">Dos (0.00)</string>
+    <string name="partial_options_dialog_title">Distancia Parcial</string>
+    <string name="partial_options_dialog_message">Ajustes disponibles para el instrumento de Distancia Parcial:</string>
+    <string name="partial_options_reset_button">Reiniciar Valor</string>
+    <string name="partial_options_input_button">Valor de Entrada</string>
+    <string name="partial_options_decimals_button">Lugares Decimales</string>
     <string name="partial_decimals_dialog_title">Partial - Decimal Places</string>
     <string name="partial_decimals_dialog_message">Choose the amount of decimal places to show for the Partial value:</string>
     <string name="partial_decimals_dialog_one_button">One (0.0)</string>
@@ -177,7 +177,7 @@
 
     <!-- FOR CORRECTION -->
     <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
-    <string name="manage_gpx_files">GPX Files</string>
+    <string name="manage_gpx_files">Archivos GPX</string>
     <!-- END FOR CORRECTION -->
 
 
