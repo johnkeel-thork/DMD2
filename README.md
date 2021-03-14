@@ -31,6 +31,7 @@ Following the Android schemas:
 
 
 ## Acknowledgements
+* [KayDubbya](https://github.com/KayDubbya) : For being my Sponsor
 * [nezgrath](https://github.com/nezgrath) : For being my Sponsor
 * [raschaa](https://github.com/raschaa) : For being my Sponsor
 * [LongRideZone](https://www.facebook.com/longridezone) : For the beta testing and translations
