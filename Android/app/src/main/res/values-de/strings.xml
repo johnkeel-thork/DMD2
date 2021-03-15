@@ -294,12 +294,12 @@
     <string name="track_color">Track Farbe:</string>
     <string name="open_gpx">Öffne GPX</string>
     <string name="remove_gpx">Enferne GPX</string>
-    <string name="no_gpx_loaded">Kein GPX geladen!</string>
+    <string name="no_gpx_loaded">Keine GPX geladen!</string>
     <string name="track_does_not_contain_waypoints">Dieses Track enthält keine Wegpunkte!.</string>
     <string name="track_start_title">GPX Start</string>
-    <string name="track_start_description">Dies ist der Startpunkt für dieses GPX</string>
+    <string name="track_start_description">Dies ist der Startpunkt für diese GPX</string>
     <string name="track_end_title">GPX Ende</string>
-    <string name="track_end_description">Dies ist der Endpunkt für dieses GPX</string>
+    <string name="track_end_description">Dies ist der Endpunkt für diese GPX</string>
     <string name="select_navigation_app">Wähle Navigations App</string>
     <string name="select_app">Wähle eine App</string>
     <string name="not_enough_space_title">FEHLER: Speicherplatz nicht ausreichend!</string>
@@ -307,7 +307,7 @@
     <string name="bad_map_detected_title">Beschädigte Landkarten Datei festgestellt</string>
     <string name="bad_map_detected_message">Eine beschädigte Landkarten Datei wurde festgestellt, die Datei wurde gelöscht und muss erneut heruntergeladen werden. Die beschädigte Datei ist: </string>
     <string name="error_loading_gpx_title">Fehler beim Laden des GPX</string>
-    <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Anderer.</string>
+    <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Andere.</string>
     <string name="map_delete_title">Willst Du diese Karte wirklich löschen?</string>
 
 </resources>
