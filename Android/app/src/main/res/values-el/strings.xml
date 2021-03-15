@@ -1,20 +1,20 @@
 <resources>
 
     <!-- NEW UNTRANSLATED STRINGS -->
-    <string name="map_delete_title">Are you sure you want to delete this map?</string>
-    <string name="yes">Yes</string>
-    <string name="no">No</string>
-    <string name="hide">Hide</string>
-    <string name="storage_options_category">Storage Options</string>
-    <string name="save_maps_to_sd">Use SD-Card for offline maps</string>
-    <string name="sd_card_error">Error while trying to use your SDCard, this will not work on this device!</string>
-    <string name="no_sd_card_error">No SDCard present or not compatible!</string>
-    <string name="move_files_to_sdcard">Move all your map files to the SDCard?</string>
-    <string name="move_files_to_internal_memory">Move all your map files to the Internal Memory?</string>
-    <string name="moving_files_dialog_title">Moving Files!</string>
-    <string name="moving_map_file">Moving</string>
-    <string name="moving_map_of">of</string>
-    <string name="moving_left_menu_to_right">Move the Left Menu to the right</string>
+    <string name="map_delete_title">Είστε σίγουροι πως θέλετε να διαφράψετε αυτόν τον χάρτη?</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="hide">Απόκρυψη</string>
+    <string name="storage_options_category">Επιλογές Αποθήκευσης</string>
+    <string name="save_maps_to_sd">Χρησιμοποιήστε την κάρτα μνήμης για τους χάρτες εκτός σύνδεσης</string>
+    <string name="sd_card_error">Παρουσιάστηκε σφάλμα στην προσπάθεια χρήστης της κάτρας μνήμης, η επιλογή δεν θα λειτουργήσει σε αυτήν τη συσκευή!</string>
+    <string name="no_sd_card_error">Η κάρτα μνήμης δεν είναι διαθέσιμη ή δεν είναι συμβατή!</string>
+    <string name="move_files_to_sdcard">Μεταφορά όλων των αρχείων χάρτη στη κάρτα μνήμης?</string>
+    <string name="move_files_to_internal_memory">Μεταφορά όλων των αρχείων χάρτη στην μνήμη του τηλεφώνου?</string>
+    <string name="moving_files_dialog_title">Μεταφορά Αρχείων!</string>
+    <string name="moving_map_file">Μεταφορά</string>
+    <string name="moving_map_of">από</string>
+    <string name="moving_left_menu_to_right">Εμφάνιση του αριστερού μενού στη δεξιά πλευρά</string>
     <!-- END OF UNTRANSLATED STRINGS -->
 
 
