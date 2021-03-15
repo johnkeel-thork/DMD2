@@ -1,24 +1,4 @@
 <resources>
-
-    <!-- NEW UNTRANSLATED STRINGS -->
-    <string name="map_delete_title">Είστε σίγουροι πως θέλετε να διαφράψετε αυτόν τον χάρτη?</string>
-    <string name="yes">Ναι</string>
-    <string name="no">Όχι</string>
-    <string name="hide">Απόκρυψη</string>
-    <string name="storage_options_category">Επιλογές Αποθήκευσης</string>
-    <string name="save_maps_to_sd">Χρησιμοποιήστε την κάρτα μνήμης για τους χάρτες εκτός σύνδεσης</string>
-    <string name="sd_card_error">Παρουσιάστηκε σφάλμα στην προσπάθεια χρήστης της κάτρας μνήμης, η επιλογή δεν θα λειτουργήσει σε αυτήν τη συσκευή!</string>
-    <string name="no_sd_card_error">Η κάρτα μνήμης δεν είναι διαθέσιμη ή δεν είναι συμβατή!</string>
-    <string name="move_files_to_sdcard">Μεταφορά όλων των αρχείων χάρτη στη κάρτα μνήμης?</string>
-    <string name="move_files_to_internal_memory">Μεταφορά όλων των αρχείων χάρτη στην μνήμη του τηλεφώνου?</string>
-    <string name="moving_files_dialog_title">Μεταφορά Αρχείων!</string>
-    <string name="moving_map_file">Μεταφορά</string>
-    <string name="moving_map_of">από</string>
-    <string name="moving_left_menu_to_right">Εμφάνιση του αριστερού μενού στη δεξιά πλευρά</string>
-    <!-- END OF UNTRANSLATED STRINGS -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -44,6 +24,9 @@
     <string name="select">Επιλέξτε</string>
     <string name="delete">Διαγραφή</string>
     <string name="update">Αναβάθμιση</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="hide">Απόκρυψη</string>
 
 
     <!-- Bottom Menu -->
@@ -95,6 +78,16 @@
     <string name="roadbook_plugin_missing_message">Για να δείτε αρχεία, Roadbook PDF, θα πρέπει να αγοράσετε το πρόσθετο DMD2 Roadbook.</string>
     <string name="map_plugin_missing_title">Είναι απαραίτητο το πρόσθετο Πλοήγησης</string>
     <string name="map_plugin_missing_message">Για να δείτε αρχεία GPX θα πρέπει να αγοράσετε το πρόσθετο DMD2 Map.</string>
+    <string name="storage_options_category">Επιλογές Αποθήκευσης</string>
+    <string name="save_maps_to_sd">Χρησιμοποιήστε την κάρτα μνήμης για τους χάρτες εκτός σύνδεσης</string>
+    <string name="sd_card_error">Παρουσιάστηκε σφάλμα στην προσπάθεια χρήστης της κάτρας μνήμης, η επιλογή δεν θα λειτουργήσει σε αυτήν τη συσκευή!</string>
+    <string name="no_sd_card_error">Η κάρτα μνήμης δεν είναι διαθέσιμη ή δεν είναι συμβατή!</string>
+    <string name="move_files_to_sdcard">Μεταφορά όλων των αρχείων χάρτη στη κάρτα μνήμης?</string>
+    <string name="move_files_to_internal_memory">Μεταφορά όλων των αρχείων χάρτη στην μνήμη του τηλεφώνου?</string>
+    <string name="moving_files_dialog_title">Μεταφορά Αρχείων!</string>
+    <string name="moving_map_file">Μεταφορά</string>
+    <string name="moving_map_of">από</string>
+    <string name="moving_left_menu_to_right">Εμφάνιση του αριστερού μενού στη δεξιά πλευρά</string>
 
 
     <!-- Widgets -->
@@ -312,5 +305,6 @@
     <string name="manage_gpx_files">Αρχεία GPX</string>
     <string name="error_loading_gpx_title">Σφάλμα κατά τη φόρτωση GPX</string>
     <string name="error_loading_gpx_message">Παρουσιάστηκε σφάλμα κατά την φόρτωση του GPX, το αρχείο φαίνεται να μην είναι συμβατό με το DMD2, παρακαλώ δοκιμάστε ένα άλλο αρχείο.</string>
+    <string name="map_delete_title">Είστε σίγουροι πως θέλετε να διαφράψετε αυτόν τον χάρτη?</string>
 
 </resources>
