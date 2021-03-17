@@ -34,6 +34,7 @@ Following the Android schemas:
 * [KayDubbya](https://github.com/KayDubbya) : For being my Sponsor
 * [nezgrath](https://github.com/nezgrath) : For being my Sponsor
 * [raschaa](https://github.com/raschaa) : For being my Sponsor
+* [eMRobert](https://github.com/eMRobert) : For the beta testing and translations
 * [LongRideZone](https://www.facebook.com/longridezone) : For the beta testing and translations
 * [Thundinator](https://github.com/Thundinatorp) : For translations
 * [Minas Pachnis](https://github.com/mpachnis) : For translations
