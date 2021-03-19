@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -27,6 +28,8 @@
     <string name="select">Aplicar</string>
     <string name="delete">Apagar</string>
     <string name="update">Actualizar</string>
+    <string name="feet">feet</string>
+    <string name="unhide">Mostrar</string>
 
 
     <!-- Bottom Menu Entries -->
@@ -89,6 +92,14 @@
     <string name="moving_map_file">A mover</string>
     <string name="moving_map_of">de</string>
     <string name="moving_left_menu_to_right">Mover menu esquerdo para a direita</string>
+    <string name="info_and_links">Informação e Links</string>
+    <string name="app_version">Versão DMD2</string>
+    <string name="app_installed_version">Versão Instalada:</string>
+    <string name="dmd2_website">Visita o site oficial do Drive Mode Dashboard</string>
+    <string name="developer_website_title">Esta app é desenvolvida por:</string>
+    <string name="follow_us_facebook">Visita e segue a nossa página do Facebook para as últimas novidadades</string>
+    <string name="join_us_facebook">Junta-te ao nosso geupo do Facebook</string>
+    <string name="adv_rider_thread">Discute novas funcionalidades e reporta bugs</string>
 
 
     <!-- Widgets -->
@@ -305,5 +316,29 @@
     <string name="error_loading_gpx_title">Erro a carregar GPX</string>
     <string name="error_loading_gpx_message">Não foi possível carregar este GPX, poderá não ser compativel com o DMD2, tente outro ficheiro.</string>
     <string name="map_delete_title">Tem a certeza que pretende apagar este mapa?</string>
+    <string name="advanced_button">Avançado</string>
+    <string name="advanced_title">Opções Avançadas</string>
+    <string name="merge_visible_tracks">Unir Tracks Visiveis</string>
+    <string name="restore_split_tracks">Restaurar Tracks Únidas</string>
+    <string name="unmerge">Restaurar</string>
+    <string name="this_track_is_the_sum">Esta track representa a união de</string>
+    <string name="of_tracks">tracks</string>
+    <string name="merged_track">Track Visíveis Unidas</string>
+    <string name="track_merged_to_visible_tracks">Track será unida às tracks vísiveis</string>
+    <string name="dont_list_hidden_tracks">Não Listar Tracks Escondidas</string>
+    <string name="list_hidden_tracks">Listar Tracks Escondidas</string>
+    <string name="track_hidden_from_list">Track será removida da listagem</string>
+    <string name="tune_line">Configurar Aspecto do Traço</string>
+    <string name="clean_waypoints">Esconder Waypoints Distantes</string>
+    <string name="clean_waypoints_description">Esconder waypoints, que se encontram a uma distancia do track, superior a:</string>
+    <string name="processing_cleaning_waypoints">A processar waypoints, esta operação pode demorar!</string>
+    <string name="no_waypoint_was_hidden">Não foram encontrados waypoints com o criterio escolhido. Tente com uma distancia inferior.</string>
+    <string name="found_and_hidden_waypoint_a">Foram encontrados</string>
+    <string name="found_and_hidden_waypoint_b">waypoints com o criterio selecionado. Estes waypoints encontram-se agora escondidos!</string>
+    <string name="unlist_hidden_waypoints">Não Listar Waypoints Escondidos</string>
+    <string name="marker_removed_from_list">Waypoint será removido da lista</string>
+    <string name="list_hidden_waypoints">Listar Waypoints Escondidos</string>
+    <string name="invert_gpx_direction">Inverter Direcção GPX</string>
+    <string name="restore_gpx_direction">Restaurar Direcção GPX</string>
 
 </resources>
