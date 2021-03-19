@@ -1,4 +1,43 @@
 <resources>
+
+    <!-- NEW UNTRANSLATED -->
+    <string name="feet">feet</string>
+    <string name="unhide">Unhide</string>
+    <string name="info_and_links">Information and Links</string>
+    <string name="app_version">DMD2 Version</string>
+    <string name="app_installed_version">Installed version:</string>
+    <string name="dmd2_website">Visit the official Drive Mode Dashboard website</string>
+    <string name="developer_website_title">DMD2 is brought to you by</string>
+    <string name="follow_us_facebook">Visit and follow our Facebook page for the latest news</string>
+    <string name="join_us_facebook">Join our Facebook group</string>
+    <string name="adv_rider_thread">Join the discussion about new features, bugs and requests</string>
+    <string name="advanced_button">Advanced</string>
+    <string name="advanced_title">Advanced Options</string>
+    <string name="merge_visible_tracks">Merge Visible Tracks</string>
+    <string name="restore_split_tracks">Restore Merged Tracks</string>
+    <string name="unmerge">Unmerge Tracks</string>
+    <string name="this_track_is_the_sum">This track is the sum of</string>
+    <string name="of_tracks">merged tracks</string>
+    <string name="merged_track">Merged Visible Tracks</string>
+    <string name="track_merged_to_visible_tracks">Track will be merged with Visible Tracks</string>
+    <string name="dont_list_hidden_tracks">Unlist Hidden Tracks</string>
+    <string name="list_hidden_tracks">List Hidden Tracks</string>
+    <string name="track_hidden_from_list">Track will be hidden from List</string>
+    <string name="tune_line">Tune Line Appearance</string>
+    <string name="clean_waypoints">Hide Distant Waypoints</string>
+    <string name="clean_waypoints_description">Hide waypoints that are further away from the track for a distance superior to:</string>
+    <string name="processing_cleaning_waypoints">Processing Visible Waypoints… This can take a while!</string>
+    <string name="no_waypoint_was_hidden">Did not find any Waypoint matching the criteria. Maybe try a smaller distance.</string>
+    <string name="found_and_hidden_waypoint_a">Found</string>
+    <string name="found_and_hidden_waypoint_b">Waypoints matching your criteria. These Waypoints are now hidden!</string>
+    <string name="unlist_hidden_waypoints">Unlist Hidden Waypoints</string>
+    <string name="marker_removed_from_list">Waypoint will be removed from list</string>
+    <string name="list_hidden_waypoints">List Hidden Waypoints</string>
+    <string name="invert_gpx_direction">Invert Travel Direction</string>
+    <string name="restore_gpx_direction">Restore Travel Direction</string>
+    <!-- END OF NEW UNTRANSLATED -->
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
