@@ -38,5 +38,6 @@ Following the Android schemas:
 * [LongRideZone](https://www.facebook.com/longridezone) : For the beta testing and translations
 * [Thundinator](https://github.com/Thundinatorp) : For translations
 * [Minas Pachnis](https://github.com/mpachnis) : For translations
+* [samikokkonen](https://github.com/samikokkonen) : For translations
 
 
