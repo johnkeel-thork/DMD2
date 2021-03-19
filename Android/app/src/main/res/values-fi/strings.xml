@@ -20,10 +20,10 @@
     <string name="hide">Piilota</string>
     <string name="save">Tallenna</string>
     <string name="cancel">Peruuta</string>
-    <string name="close">Sule</string>
-    <string name="swipe_message">Useimmissa näkymissä on sininen pystysuuntainen palkki vasemmassa reunassa. Se tarkoittaa että käytettävissä on Vasen valikko jonka saat esille pyyhkäisemalla näytön vasemmasta reunasta keskelle. Jos käytät CARPE-ohjainta, Vasempaan valikkoon pääset yleensä painamalla ohjaimesta Ylös tai Alas.</string>
-    <string name="already_purchased">Olet jo hankkinut tämän liitännäisosan</string>
-    <string name="hide_menu">Piilota valikko</string>
+    <string name="close">Sulje</string>
+    <string name="swipe_message">Useimmissa näkymissä on sininen pystysuuntainen palkki vasemmassa reunassa. Se tarkoittaa että käytettävissä on sivuvalikko jonka saat esille pyyhkäisemalla näytön vasemmasta reunasta keskelle. Jos käytät CARPE-ohjainta, sivuvalikkoon pääset yleensä painamalla ohjaimesta Ylös tai Alas.</string>
+    <string name="already_purchased">Olet jo hankkinut tämän sovellusosan</string>
+    <string name="hide_menu">Sulje sivuvalikko</string>
     <string name="select">Valitse</string>
     <string name="delete">Poista</string>
     <string name="update">Päivitä</string>
@@ -44,12 +44,12 @@
     <string name="hour_format">Käytä 24 tunnin kelloa</string>
     <string name="use_miles">Käytä maileja kilometrien sijaan</string>
     <string name="ui_options">Käyttöliittymävalinnat</string>
-    <string name="hide_status_bar">Piilota Tilapalkki</string>
-    <string name="hide_bottom_menu">Piilota Alavalikko automaattisesti</string>
+    <string name="hide_status_bar">Piilota tilapalkki</string>
+    <string name="hide_bottom_menu">Piilota alavalikko automaattisesti</string>
     <string name="hide_odo">Piilota mittarilukema kaikissa näkymissä</string>
     <string name="carpe_controller_options">CARPE-ohjaimen valinnat</string>
     <string name="immidiate_bottom_menu">Alavalikon välitön tila</string>
-    <string name="use_terrain_wheel_sensor">Käytä Terrain Command -rengas-sensoreita</string>
+    <string name="use_terrain_wheel_sensor">Käytä Terrain Commandin rengas-sensoreita</string>
     <string name="terrain_current_speed_mode">Nykyisen nopeuden mittauksen lähde</string>
     <string-array name="terrain_speed_modes" translatable="true">
         <item>Aina GPS</item>
@@ -62,22 +62,22 @@
         <item>Aina rengas-sensori</item>
         <item>Rengas-sensori vain jos GPS-tarkkuus heikko</item>
     </string-array>
-    <string name="dmd2_plugins">DMD2 liitännäisosat</string>
+    <string name="dmd2_plugins">DMD2 sovellusosat</string>
     <string name="get_roadbook_title">Tiekarttanäkymä - Osta</string>
     <string name="get_roadbook_title_purchased">Tiekartta - Ostettu, Aktivoi</string>
-    <string name="get_roadbook_message">Avaa tiekarttoja, valitse enintään 4 samanaikaista komponenttia kuten Kokonaismatka, Osamatka, Suunta, Nopeus, ja hallitse kaikkea ohjaimella ohjaustangosta.</string>
+    <string name="get_roadbook_message">Avaa tiekarttoja, valitse enintään 4 samanaikaista komponenttia (kuten Kokonaismatka, Osamatka, Suunta, Nopeus) ja hallitse kaikkea ohjaimella ohjaustangosta.</string>
     <string name="get_mapview_title">Karttanäkymä (Kehitysversio) - Osta</string>
     <string name="get_mapview_title_purchased">Kartta - Ostettu, Aktivoi</string>
     <string name="get_mapview_message">Maailmaanlaajuinen offline-kartta topograafisin tiedoin sisältäen 3D rakennukset, rinnevarjostukset (vaatii verkkoyhteyden) ja monien GPX-tiedostojen tuen. Käännös-käännökseltä -opastus ja POI-pisteiden haku tulossa pian.</string>
     <string name="connection_error">Yhdistäminen ei onnistunut, varmista että verkkoyhteys on käytettävissä. Kokeile myös sovelluksen uudelleenkäynnistämistä.</string>
-    <string name="auto_hide_left_menu_indicator">Piilota Vasemman valikon indikaattori automaattisesti</string>
+    <string name="auto_hide_left_menu_indicator">Piilota vasemman valikon indikaattori automaattisesti</string>
     <string name="oem_registration">OEM rekisteröinti</string>
     <string name="oem_check">Rekisteröinti (verkkoyhteys vaaditaan)</string>
     <string name="oem_check_summary">Käytä vain mikäli moottoripyöräsi sisältää tehdasasenteisen Android-laitteen jossa Drive Mode Dashboard 2 on valmiiksi asennettuna.</string>
-    <string name="roadbook_plugin_missing_title">Tiekarttanäkymä-liitännäisosa vaaditaan</string>
-    <string name="roadbook_plugin_missing_message">Näyttääksesi tiekarttoja (PDF-tiedostoja), sinun täytyy ostaa Tiekarttanäkymä-liitännäisosa.</string>
-    <string name="map_plugin_missing_title">Karttanäkymä-liitännäisosa vaaditaan</string>
-    <string name="map_plugin_missing_message">Näyttääksesi reittejä/jälkiä (GPX-tiedostoja), sinun täytyy ostaa Karttanäkymä-liitännäisosa.</string>
+    <string name="roadbook_plugin_missing_title">Tiekarttanäkymä-sovellusosa vaaditaan</string>
+    <string name="roadbook_plugin_missing_message">Näyttääksesi tiekarttoja (PDF-tiedostoja), sinun täytyy ostaa Tiekarttanäkymä-sovellusosa.</string>
+    <string name="map_plugin_missing_title">Karttanäkymä-sovellusosa vaaditaan</string>
+    <string name="map_plugin_missing_message">Näyttääksesi reittejä/jälkiä (GPX-tiedostoja), sinun täytyy ostaa Karttanäkymä-sovellusosa.</string>
     <string name="storage_options_category">Tallennustilavalinnat</string>
     <string name="save_maps_to_sd">Käytä muistikorttia offline-kartoille</string>
     <string name="sd_card_error">Virhe käytettäessä muistikorttia, tämä ei toimi laitteessasi!</string>
@@ -87,7 +87,7 @@
     <string name="moving_files_dialog_title">Siirretään tiedostoja!</string>
     <string name="moving_map_file">Siirretään</string>
     <string name="moving_map_of">/</string>
-    <string name="moving_left_menu_to_right">Siirrä Vasen valikko oikealle</string>
+    <string name="moving_left_menu_to_right">Siirrä sivuvalikko vasemmalta oikealle</string>
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ei widgettiä / Tyhjä</string>
@@ -102,8 +102,8 @@
     <string name="avg_speed">Keskinopeus</string>
     <!-- Logo Widget -->
     <string name="pixels">pixelit</string>
-    <string name="tap_to_select_image">Klikkaa valitaksesi kuvan</string>
-    <string name="tap_to_edit_text">Klikkaa muokataksesi tekstiä</string>
+    <string name="tap_to_select_image">Kosketa valitaksesi kuvan</string>
+    <string name="tap_to_edit_text">Kosketa muokataksesi tekstiä</string>
     <string name="write_logo_message">Syötä logo-tekstisi</string>
 
     <!-- GRID VIEW -->
@@ -114,10 +114,10 @@
     <string name="distance">Matka</string>
     <string name="total_time">Kokonaisaika</string>
     <string name="travel_time">Matka-aika</string>
-    <string name="stop_time">Aika pysähdyksissä</string>
-    <string name="avg_average">KA.</string>
-    <string name="max_maximum">MAX</string>
-    <string name="odo_odometer">ML.</string>
+    <string name="stop_time">Pysähdyksissä</string>
+    <string name="avg_average">KESKINOPEUS</string>
+    <string name="max_maximum">HUIPPUNOPEUS</string>
+    <string name="odo_odometer">Mit.lukema</string>
     <string name="trip">Osamatka</string>
     <string name="reset_trip">Nollaa osamatka</string>
     <string name="edit_odometer">Muokkaa mittarilukemaa</string>
@@ -143,11 +143,11 @@
     <string name="volume_command_instruction">Ohjaimella: Käytä Zoom-painikkeita äänenvoimakkuuden lisäämiseen/vähentämiseen ja Keski/Enter-painiketta vaihtaaksesi lähdettä</string>
     <string name="dnd_mode_title">DND-tilan oikeudet</string>
     <string name="dnd_mode_message">Täydelliseen äänenvoimakkuuden hallintaan tarvitaan DND-tilan käyttöoikeus!</string>
-    <string name="controller_default_message">Ohjaimella: Paina Ylös valitaksesi liukusäätimen, Pana Alas palataksesi valikkoon.</string>
+    <string name="controller_default_message">Ohjaimella: Paina Ylös valitaksesi liukusäätimen, Paina Alas palataksesi valikkoon.</string>
 
 
     <!-- Roadbook -->
-    <string name="tap_to_open_file">Klikkaa avataksesi tiedoston</string>
+    <string name="tap_to_open_file">Kosketa avataksesi tiedoston</string>
     <string name="select_instrument">Valitse toiminto</string>
     <string name="none_empty_instrument_desc">Ei valintaa, piilottaa laatikon</string>
     <string name="total_instrument_desc">Kokonaismatka</string>
@@ -169,9 +169,9 @@
     <string name="invert_paper_color">Vaihda paperin väriä</string>
     <string name="reset_all_instruments">Nolla kaikki toiminnot</string>
     <string name="total_distance_edit_title">Kokonaismatka</string>
-    <string name="total_distance_message">Klikkaa kokonaismatkan arvoa:</string>
+    <string name="total_distance_message">Kosketa muokataksesi kokonaismatkan arvoa:</string>
     <string name="partial_distance_edit_title">Osamatka</string>
-    <string name="partial_distance_message">Klikkaa muokataksesi osamatkan arvoa:</string>
+    <string name="partial_distance_message">Kosketa muokataksesi osamatkan arvoa:</string>
     <string name="total_options_dialog_title">Kokonaismatka</string>
     <string name="total_options_dialog_message">Vaihtoehdot kokonaismatkan arvolle:</string>
     <string name="total_options_reset_button">Nollaa arvo</string>
@@ -209,12 +209,12 @@
     <string name="roadbook_controller_cat_title">CARPE-ohjaimen valinnat</string>
     <string name="enable_controller_lock_also_disable_touch">Estä myös näytön koskettaminen ohjaimen lukitustilan ollessa käytössä</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
-        <item>Vasen valikko näytä</item>
+        <item>Näytä sivuvalikko</item>
         <item>Paperirulla ylös</item>
         <item>Paperirulla alas</item>
-        <item>Kasvata kokonaismatkaa</item>
+        <item>Suurenna kokonaismatkaa</item>
         <item>Pienennä kokonaismatkaa</item>
-        <item>Kasvata osamatkaa</item>
+        <item>Suurenna osamatkaa</item>
         <item>Pienennä osamatkaa</item>
         <item>Nollaa kokonaismatka</item>
         <item>Nollaa osamatka</item>
@@ -225,9 +225,9 @@
         <item>Älä tee mitään</item>
     </string-array>
     <string name="roadbook_open_file">Avaa PDF-tiedosto</string>
-    <string name="roadbook_total_partial_controller_instructions">Ohjaimella: Käytä Ylös/Alas/Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter valitaksesi.</string>
-    <string name="roadbook_decimals_controller_instructions">Ohjaimella: Käytä Vasen/Oikea to select button. Enter/Center Click to select.</string>
-    <string name="roadbook_edit_values_guide">Ohjaimella: Ylös/Alas lisää/vähentää 0.01, Zoom Sisään/Ulos lisää/vähentää 1, Keski/Enter pitkä painallus asettaa 0, Vasen/Oikea peruuttaa/Tallentaa</string>
+    <string name="roadbook_total_partial_controller_instructions">Ohjaimella: Käytä Ylös/Alas/Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
+    <string name="roadbook_decimals_controller_instructions">Ohjaimella: Käytä Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
+    <string name="roadbook_edit_values_guide">Ohjaimella: Ylös/Alas lisää/vähentää 0.01, Zoom Sisään/Ulos lisää/vähentää 1, Keski/Enter pitkä painallus nollaa, Vasen/Oikea peruuttaa/Tallentaa</string>
 
 
 
