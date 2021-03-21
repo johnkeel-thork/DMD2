@@ -30,11 +30,11 @@
     <string name="no_waypoint_was_hidden">Konnte keinen passenden Wegpunkt finden, versuche eine geringere Entfernung.</string>
     <string name="found_and_hidden_waypoint_a">Habe</string>
     <string name="found_and_hidden_waypoint_b">passende Wegpunkte gefunden. Diese Wegpunkte sind nun versteckt!</string>
-    <string name="unlist_hidden_waypoints">Unlist Hidden Waypoints</string>
-    <string name="marker_removed_from_list">Waypoint will be removed from list</string>
-    <string name="list_hidden_waypoints">List Hidden Waypoints</string>
-    <string name="invert_gpx_direction">Invert Travel Direction</string>
-    <string name="restore_gpx_direction">Restore Travel Direction</string>
+    <string name="unlist_hidden_waypoints">Versteckte Wegpunkte aus Liste entfernen</string>
+    <string name="marker_removed_from_list">Wegpunkt wird aus der Liste entfernt</string>
+    <string name="list_hidden_waypoints">Versteckte Wegpunkte auflisten</string>
+    <string name="invert_gpx_direction">Fahrtrichtung umkehren</string>
+    <string name="restore_gpx_direction">Fahrtrichtung wiederherstellen</string>
     <!-- END OF NEW UNTRANSLATED -->
 
 
@@ -87,7 +87,7 @@
     <string name="ui_options">Benutzeroberfläche Optionen</string>
     <string name="hide_status_bar">Verstecke Statusleiste</string>
     <string name="hide_bottom_menu">Auto-Verstecken unteres Menü</string>
-    <string name="hide_odo">Kilometerzähler in allen Ansichten ausblenden</string>
+    <string name="hide_odo">Kilometerzähler in allen Ansichten verstecken</string>
     <string name="carpe_controller_options">CARPE Controller Optionen</string>
     <string name="immidiate_bottom_menu">Unteres Menü sofort Modus</string>
     <string name="use_terrain_wheel_sensor">Benutze Terrain Command Radsensor</string>
@@ -319,14 +319,14 @@
     <string name="waypoint">Wegpunkt</string>
     <string name="tracks">Tracks</string>
     <string name="track">Track</string>
-    <string name="set_to_hide_gpx">GPX ausblenden</string>
+    <string name="set_to_hide_gpx">GPX verstecken</string>
     <string name="set_to_visible_gpx">GPX anzeigen</string>
-    <string name="set_to_hide_track">Track ausblenden</string>
+    <string name="set_to_hide_track">Track verstecken</string>
     <string name="set_to_visible_track">Track anzeigen</string>
-    <string name="track_is_hidden">Track ausgeblendet</string>
+    <string name="track_is_hidden">Track versteckt</string>
     <string name="track_is_visible">Track sichtbar</string>
     <string name="remove">Entfernen</string>
-    <string name="no_waypoints_for_track">Dieses Track enthält keine Wegpunkte!</string>
+    <string name="no_waypoints_for_track">Dieser Track enthält keine Wegpunkte!</string>
     <string name="no_track_description">Keine Track Beschreibung vorhanden.</string>
     <string name="track_lenght">Länge:</string>
     <string name="set_color">Farbe einstellenr</string>
@@ -334,7 +334,7 @@
     <string name="open_gpx">Öffne GPX</string>
     <string name="remove_gpx">Enferne GPX</string>
     <string name="no_gpx_loaded">Keine GPX geladen!</string>
-    <string name="track_does_not_contain_waypoints">Dieses Track enthält keine Wegpunkte!.</string>
+    <string name="track_does_not_contain_waypoints">Dieser Track enthält keine Wegpunkte!.</string>
     <string name="track_start_title">GPX Start</string>
     <string name="track_start_description">Dies ist der Startpunkt für diese GPX</string>
     <string name="track_end_title">GPX Ende</string>
