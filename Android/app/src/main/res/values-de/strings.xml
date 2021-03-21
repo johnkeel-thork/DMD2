@@ -3,9 +3,9 @@
     <!-- NEW UNTRANSLATED -->
     <string name="feet">feet</string>
     <string name="unhide">Anzeigen</string>
-    <string name="info_and_links">Information and Links</string>
+    <string name="info_and_links">Information und Links</string>
     <string name="app_version">DMD2 Version</string>
-    <string name="app_installed_version">Installierte version:</string>
+    <string name="app_installed_version">Installierte Version:</string>
     <string name="dmd2_website">Offizielle Drive Mode Dashboard Website besuchen</string>
     <string name="developer_website_title">DMD2 wird präsentiert von:</string>
     <string name="follow_us_facebook">Besuche und folge unsere Facebookseite für neueste Nachrichten</string>
@@ -109,7 +109,7 @@
     <string name="get_roadbook_message">öffnet PDF Roadbook Dateien und wähle bis zu 4 Anzeigen wie Gesamtstrecke, Teilstrecke, Kursrichtung, Geschwindigkeit und bediene alle mit der Lenkerfernbedienung.</string>
     <string name="get_mapview_title">Anzeige von Landkarten (vorab-Zugang) - Kaufen</string>
     <string name="get_mapview_title_purchased">Anzeige von Landkarten  - gekauft / aktiviert</string>
-    <string name="get_mapview_message">Offline Landkarten mit topographischen Daten, weltweite Topo-Karten, 3D Gebäude, Höhenschattierung (online), Multiple-gpx Manager. Routenführung and POI-Suche in Kürze.</string>
+    <string name="get_mapview_message">Offline Landkarten mit topographischen Daten, weltweite Topo-Karten, 3D Gebäude, Höhenschattierung (online), Multiple-GPX Manager. Routenführung and POI-Suche in Kürze.</string>
     <string name="connection_error">Kann nicht verbinden, stelle sicher, dass Du online bist / versuche ein Neustart!</string>
     <string name="auto_hide_left_menu_indicator">Auto-Verstecke linkes Menü</string>
     <string name="oem_registration">OEM Anmeldung</string>
@@ -295,7 +295,7 @@
     <string name="load_map_switch">Landkarte immer laden:</string>
     <string name="map_type">Kartenstil</string>
     <string name="map_type_title">Wähle Kartenstil</string>
-    <string name="map_type_message">Unser Landkarten können standard OSM oder topographische OSM (mit Höhenlinien) darstellen. Die standard Karten sind für Straßen Navigation optimiert. Topographische Karten sind für Erkundungen abseits befestigter Straßen. Treffe bitte eine Wahl:</string>
+    <string name="map_type_message">Unser Landkarten können standard OSM oder topographische OSM (mit Höhenlinien) darstellen. Die standard Karten sind für Straßen Navigation optimiert. Topographische Karten sind für Erkundungen abseits befestigter Straßen. Treffe bitte eine Wahl.</string>
     <string name="standard">Standard (Straße)</string>
     <string name="topographic">Topographisch (abseits der Straße)</string>
     <string name="look_around_message">Nutze Hoch/Runter/Links/Rechts um die Kartenansicht zu bewegen. Langes Halten Mitte/Enter zum schließen.</string>
