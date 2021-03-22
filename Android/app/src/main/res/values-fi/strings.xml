@@ -1,44 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNTRANSLATED -->
-    <string name="feet">jalkaa</string>
-    <string name="unhide">Palauta</string>
-    <string name="info_and_links">Linkkejä ja informaatiota</string>
-    <string name="app_version">DMD2 Versio</string>
-    <string name="app_installed_version">Asennettu versio:</string>
-    <string name="dmd2_website">Vieraile virallisella Drive Mode Dashboard -verkkosivulla</string>
-    <string name="developer_website_title">DMD2 sovelluksesta vastaa</string>
-    <string name="follow_us_facebook">Vieraile ja seuraa Facebook-sivuamme josta löydät tuoreimmat uutiset</string>
-    <string name="join_us_facebook">Liity Facebook-ryhmäämme</string>
-    <string name="adv_rider_thread">Liity keskusteluun uusista ominaisuuksista, bugeista ja toiveista</string>
-    <string name="advanced_button">Lisää</string>
-    <string name="advanced_title">Lisäasetukset</string>
-    <string name="merge_visible_tracks">Yhdistä näkyvät reitit/jäljet</string>
-    <string name="restore_split_tracks">Palauta yhdistetyt reitit/jäljet</string>
-    <string name="unmerge">Erota yhdistetyt jäljet</string>
-    <string name="this_track_is_the_sum">Tämä reitti/jälki on yhdistelmä</string>
-    <string name="of_tracks">reiteistä/jäljistä</string>
-    <string name="merged_track">Yhdistetyt näkyvät reitit/jäljet</string>
-    <string name="track_merged_to_visible_tracks">Reitti/jälki yhdistetään näkyviin reitteihin/jälkiin</string>
-    <string name="dont_list_hidden_tracks">Poista piilotettujen reittien/jälkien lista</string>
-    <string name="list_hidden_tracks">Listaa piilotetut reitit/jäljet</string>
-    <string name="track_hidden_from_list">Reitti/jälki piilotetaan listasta</string>
-    <string name="tune_line">Muokkaa viivan ulkomuotoa</string>
-    <string name="clean_waypoints">Piilota etäiset reittipisteet</string>
-    <string name="clean_waypoints_description">Piilota reittipisteet jotka ovat reitistä/jäljestä etäämmällä kuin:</string>
-    <string name="processing_cleaning_waypoints">Käsitellään näkyviä reittipisteitä...tämä voi kestää jonkin aikaa!</string>
-    <string name="no_waypoint_was_hidden">Yhtään kriteereihin sopivaa reittipistettä ei löytynyt. Voit kokeilla pienempää etäisyyttä.</string>
-    <string name="found_and_hidden_waypoint_a">Löytyi</string>
-    <string name="found_and_hidden_waypoint_b">Kriteereihin sopivat reittipisteet. Nämä reittipisteet on nyt piilotettu!</string>
-    <string name="unlist_hidden_waypoints">Poista piilotettujen reittipisteiden lista</string>
-    <string name="marker_removed_from_list">Reittipiste poistetaan listalta</string>
-    <string name="list_hidden_waypoints">Listaa piilotetut reittipisteet</string>
-    <string name="invert_gpx_direction">Käännä reitin suunta</string>
-    <string name="restore_gpx_direction">Palauta reitin suunta</string>
-    <!-- END OF NEW UNTRANSLATED -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -67,6 +28,8 @@
     <string name="select">Valitse</string>
     <string name="delete">Poista</string>
     <string name="update">Päivitä</string>
+    <string name="feet">jalkaa</string>
+    <string name="unhide">Palauta</string>
 
 
     <!-- Bottom Menu -->
@@ -128,6 +91,15 @@
     <string name="moving_map_file">Siirretään</string>
     <string name="moving_map_of">/</string>
     <string name="moving_left_menu_to_right">Siirrä sivuvalikko vasemmalta oikealle</string>
+    <string name="info_and_links">Linkkejä ja informaatiota</string>
+    <string name="app_version">DMD2 Versio</string>
+    <string name="app_installed_version">Asennettu versio:</string>
+    <string name="dmd2_website">Vieraile virallisella Drive Mode Dashboard -verkkosivulla</string>
+    <string name="developer_website_title">DMD2 sovelluksesta vastaa</string>
+    <string name="follow_us_facebook">Vieraile ja seuraa Facebook-sivuamme josta löydät tuoreimmat uutiset</string>
+    <string name="join_us_facebook">Liity Facebook-ryhmäämme</string>
+    <string name="adv_rider_thread">Liity keskusteluun uusista ominaisuuksista, bugeista ja toiveista</string>
+
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ei widgettiä / Tyhjä</string>
@@ -345,6 +317,30 @@
     <string name="error_loading_gpx_title">Virhe GPX-latauksessa</string>
     <string name="error_loading_gpx_message">GPX-tiedostoa ladattaessa tapahtui virhe. Vaikuttaa siltä että GPX-tiedosto ei ole yhteensopiva DMD2 kanssa. Kokeile toista GPX-tiedostoa.</string>
     <string name="map_delete_title">Haluatko varmasti poistaa tämän karttatiedoston?</string>
+    <string name="advanced_button">Lisää</string>
+    <string name="advanced_title">Lisäasetukset</string>
+    <string name="merge_visible_tracks">Yhdistä näkyvät reitit/jäljet</string>
+    <string name="restore_split_tracks">Palauta yhdistetyt reitit/jäljet</string>
+    <string name="unmerge">Erota yhdistetyt jäljet</string>
+    <string name="this_track_is_the_sum">Tämä reitti/jälki on yhdistelmä</string>
+    <string name="of_tracks">reiteistä/jäljistä</string>
+    <string name="merged_track">Yhdistetyt näkyvät reitit/jäljet</string>
+    <string name="track_merged_to_visible_tracks">Reitti/jälki yhdistetään näkyviin reitteihin/jälkiin</string>
+    <string name="dont_list_hidden_tracks">Poista piilotettujen reittien/jälkien lista</string>
+    <string name="list_hidden_tracks">Listaa piilotetut reitit/jäljet</string>
+    <string name="track_hidden_from_list">Reitti/jälki piilotetaan listasta</string>
+    <string name="tune_line">Muokkaa viivan ulkomuotoa</string>
+    <string name="clean_waypoints">Piilota etäiset reittipisteet</string>
+    <string name="clean_waypoints_description">Piilota reittipisteet jotka ovat reitistä/jäljestä etäämmällä kuin:</string>
+    <string name="processing_cleaning_waypoints">Käsitellään näkyviä reittipisteitä…tämä voi kestää jonkin aikaa!</string>
+    <string name="no_waypoint_was_hidden">Yhtään kriteereihin sopivaa reittipistettä ei löytynyt. Voit kokeilla pienempää etäisyyttä.</string>
+    <string name="found_and_hidden_waypoint_a">Löytyi</string>
+    <string name="found_and_hidden_waypoint_b">Kriteereihin sopivat reittipisteet. Nämä reittipisteet on nyt piilotettu!</string>
+    <string name="unlist_hidden_waypoints">Poista piilotettujen reittipisteiden lista</string>
+    <string name="marker_removed_from_list">Reittipiste poistetaan listalta</string>
+    <string name="list_hidden_waypoints">Listaa piilotetut reittipisteet</string>
+    <string name="invert_gpx_direction">Käännä reitin suunta</string>
+    <string name="restore_gpx_direction">Palauta reitin suunta</string>
 
 
 </resources>
