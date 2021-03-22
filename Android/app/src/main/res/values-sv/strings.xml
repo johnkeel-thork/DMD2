@@ -1,48 +1,11 @@
 <resources>
 
-    <!-- NEW UNTRANSLATED -->
-    <string name="feet">fot</string>
-    <string name="unhide">Visa</string>
-    <string name="info_and_links">Information och länkar</string>
-    <string name="app_version">DMD2 Version</string>
-    <string name="app_installed_version">Installerad version:</string>
-    <string name="dmd2_website">Besök officiella webbsidan för Drive Mode Dashboard</string>
-    <string name="developer_website_title">DMD2 är skapad av</string>
-    <string name="follow_us_facebook">Besök och följ vår Facebook-sida för de senaste nyheterna</string>
-    <string name="join_us_facebook">Gå med i vår Facebook-grupp</string>
-    <string name="adv_rider_thread">Var med i diskussionen om nya funktioner, buggar och önskemål</string>
-    <string name="advanced_button">Avancerat</string>
-    <string name="advanced_title">Avancerade val</string>
-    <string name="merge_visible_tracks">Slå samman synliga spår</string>
-    <string name="restore_split_tracks">Återställ sammanslagna spår</string>
-    <string name="unmerge">Bryt upp spår</string>
-    <string name="this_track_is_the_sum">Detta spår består av</string>
-    <string name="of_tracks">sammanslagna spår</string>
-    <string name="merged_track">Slog samman synliga spår</string>
-    <string name="track_merged_to_visible_tracks">Spåret kommer slås samman med synliga spår</string>
-    <string name="dont_list_hidden_tracks">Avlista gömda spår</string>
-    <string name="list_hidden_tracks">Lista gömda spår</string>
-    <string name="track_hidden_from_list">Spåret kommer gömmas från listan</string>
-    <string name="tune_line">Justera linjens utseende</string>
-    <string name="clean_waypoints">Göm avlägsna brytpunkter</string>
-    <string name="clean_waypoints_description">Göm brytpunkter som är längre bort från spåret än:</string>
-    <string name="processing_cleaning_waypoints">Bearbetar synliga brytpunkter… Detta kan ta en stund!</string>
-    <string name="no_waypoint_was_hidden">Hittade ingen brytpunkt som matchade. Testa ett mindre avstånd.</string>
-    <string name="found_and_hidden_waypoint_a">Hittade</string>
-    <string name="found_and_hidden_waypoint_b">brytpunkter som matchade. Dessa är nu gömda!</string>
-    <string name="unlist_hidden_waypoints">Avlista gömda brytpunkter</string>
-    <string name="marker_removed_from_list">Brytpunkten kommer tas bort från listan</string>
-    <string name="list_hidden_waypoints">Lista gömda brytpunkter</string>
-    <string name="invert_gpx_direction">Byt riktning på spåret</string>
-    <string name="restore_gpx_direction">Återställ spårets riktning</string>
-    <!-- END OF NEW UNTRANSLATED -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
+
 
 
     <!-- Common and Global -->
@@ -66,6 +29,8 @@
     <string name="select">Välj</string>
     <string name="delete">Radera</string>
     <string name="update">Uppdatera</string>
+    <string name="feet">fot</string>
+    <string name="unhide">Visa</string>
 
 
     <!-- Bottom Menu -->
@@ -127,6 +92,14 @@
     <string name="moving_map_file">Flyttar</string>
     <string name="moving_map_of">av</string>
     <string name="moving_left_menu_to_right">Flytta menyn från vänster till höger</string>
+    <string name="info_and_links">Information och länkar</string>
+    <string name="app_version">DMD2 Version</string>
+    <string name="app_installed_version">Installerad version:</string>
+    <string name="dmd2_website">Besök officiella webbsidan för Drive Mode Dashboard</string>
+    <string name="developer_website_title">DMD2 är skapad av</string>
+    <string name="follow_us_facebook">Besök och följ vår Facebook-sida för de senaste nyheterna</string>
+    <string name="join_us_facebook">Gå med i vår Facebook-grupp</string>
+    <string name="adv_rider_thread">Var med i diskussionen om nya funktioner, buggar och önskemål</string>
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ingen widget / Tom yta</string>
@@ -344,6 +317,30 @@
     <string name="error_loading_gpx_title">Fel vid laddning av GPX</string>
     <string name="error_loading_gpx_message">Ett fel uppstod vid laddning av GPX. Den verkar inte kompatibel med DMD2. Försök med en annan fil.</string>
     <string name="map_delete_title">Vill du verkligen radera denna karta?</string>
+    <string name="advanced_button">Avancerat</string>
+    <string name="advanced_title">Avancerade val</string>
+    <string name="merge_visible_tracks">Slå samman synliga spår</string>
+    <string name="restore_split_tracks">Återställ sammanslagna spår</string>
+    <string name="unmerge">Bryt upp spår</string>
+    <string name="this_track_is_the_sum">Detta spår består av</string>
+    <string name="of_tracks">sammanslagna spår</string>
+    <string name="merged_track">Slog samman synliga spår</string>
+    <string name="track_merged_to_visible_tracks">Spåret kommer slås samman med synliga spår</string>
+    <string name="dont_list_hidden_tracks">Avlista gömda spår</string>
+    <string name="list_hidden_tracks">Lista gömda spår</string>
+    <string name="track_hidden_from_list">Spåret kommer gömmas från listan</string>
+    <string name="tune_line">Justera linjens utseende</string>
+    <string name="clean_waypoints">Göm avlägsna brytpunkter</string>
+    <string name="clean_waypoints_description">Göm brytpunkter som är längre bort från spåret än:</string>
+    <string name="processing_cleaning_waypoints">Bearbetar synliga brytpunkter… Detta kan ta en stund!</string>
+    <string name="no_waypoint_was_hidden">Hittade ingen brytpunkt som matchade. Testa ett mindre avstånd.</string>
+    <string name="found_and_hidden_waypoint_a">Hittade</string>
+    <string name="found_and_hidden_waypoint_b">brytpunkter som matchade. Dessa är nu gömda!</string>
+    <string name="unlist_hidden_waypoints">Avlista gömda brytpunkter</string>
+    <string name="marker_removed_from_list">Brytpunkten kommer tas bort från listan</string>
+    <string name="list_hidden_waypoints">Lista gömda brytpunkter</string>
+    <string name="invert_gpx_direction">Byt riktning på spåret</string>
+    <string name="restore_gpx_direction">Återställ spårets riktning</string>
 
 
 </resources>
