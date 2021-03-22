@@ -1,44 +1,5 @@
 <resources>
 
-    <!-- NEW UNTRANSLATED -->
-    <string name="feet">feet</string>
-    <string name="unhide">Anzeigen</string>
-    <string name="info_and_links">Information und Links</string>
-    <string name="app_version">DMD2 Version</string>
-    <string name="app_installed_version">Installierte Version:</string>
-    <string name="dmd2_website">Offizielle Drive Mode Dashboard Website besuchen</string>
-    <string name="developer_website_title">DMD2 wird präsentiert von:</string>
-    <string name="follow_us_facebook">Besuche und folge unsere Facebookseite für neueste Nachrichten</string>
-    <string name="join_us_facebook">Trete der Facebookgruppe bei</string>
-    <string name="adv_rider_thread">Beteilige Dich an der Diskussion über neue Funktionen, Fehler und Wünsche</string>
-    <string name="advanced_button">Fortgeschritten</string>
-    <string name="advanced_title">Fortgeschrittene Optionen</string>
-    <string name="merge_visible_tracks">Vereine sichtbare Tracks</string>
-    <string name="restore_split_tracks">Vereinte Tracks wiederherstellen</string>
-    <string name="unmerge">Tracks wiederaufteilen</string>
-    <string name="this_track_is_the_sum">Dieser Track ist die Summe von</string>
-    <string name="of_tracks">Vereinte Tracks</string>
-    <string name="merged_track">Vereinte sichtbare Tracks</string>
-    <string name="track_merged_to_visible_tracks">Track wird mit sichtbaren Tracks vereint</string>
-    <string name="dont_list_hidden_tracks">Versteckte Tracks nicht auflisten</string>
-    <string name="list_hidden_tracks">Versteckte Tracks wiederauflisten</string>
-    <string name="track_hidden_from_list">Track wird von Liste versteckt</string>
-    <string name="tune_line">Tune Line Appearance</string>
-    <string name="clean_waypoints">Verstecke entfernte Wegpunkte</string>
-    <string name="clean_waypoints_description">Verstecke Wegpunkte die von einem Track weiter entfernt sind als:</string>
-    <string name="processing_cleaning_waypoints">Verarbeite sichtbare Wegpunkte. Dies kann einen Augenblick dauern!</string>
-    <string name="no_waypoint_was_hidden">Konnte keinen passenden Wegpunkt finden, versuche eine geringere Entfernung.</string>
-    <string name="found_and_hidden_waypoint_a">Habe</string>
-    <string name="found_and_hidden_waypoint_b">passende Wegpunkte gefunden. Diese Wegpunkte sind nun versteckt!</string>
-    <string name="unlist_hidden_waypoints">Versteckte Wegpunkte aus Liste entfernen</string>
-    <string name="marker_removed_from_list">Wegpunkt wird aus der Liste entfernt</string>
-    <string name="list_hidden_waypoints">Versteckte Wegpunkte auflisten</string>
-    <string name="invert_gpx_direction">Fahrtrichtung umkehren</string>
-    <string name="restore_gpx_direction">Fahrtrichtung wiederherstellen</string>
-    <!-- END OF NEW UNTRANSLATED -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -67,6 +28,9 @@
     <string name="select">Auswählen</string>
     <string name="delete">Löschen</string>
     <string name="update">Aktualisieren</string>
+    <string name="feet">feet</string>
+    <string name="unhide">Anzeigen</string>
+    
 
 
     <!-- Bottom Menu -->
@@ -129,6 +93,14 @@
     <string name="moving_map_file">Verschiebe</string>
     <string name="moving_map_of">von</string>
     <string name="moving_left_menu_to_right">Setze Menü von links nach rechts</string>
+    <string name="info_and_links">Information und Links</string>
+    <string name="app_version">DMD2 Version</string>
+    <string name="app_installed_version">Installierte Version:</string>
+    <string name="dmd2_website">Offizielle Drive Mode Dashboard Website besuchen</string>
+    <string name="developer_website_title">DMD2 wird präsentiert von:</string>
+    <string name="follow_us_facebook">Besuche und folge unsere Facebookseite für neueste Nachrichten</string>
+    <string name="join_us_facebook">Trete der Facebookgruppe bei</string>
+    <string name="adv_rider_thread">Beteilige Dich an der Diskussion über neue Funktionen, Fehler und Wünsche</string>
 
 
     <!-- Widgets -->
@@ -348,5 +320,29 @@
     <string name="error_loading_gpx_title">Fehler beim Laden des GPX</string>
     <string name="error_loading_gpx_message">Es gab einen Fehler beim Laden des GPX. Es scheint nicht kompatibel mit DMD2 zu sein, bitte versuche eine Andere.</string>
     <string name="map_delete_title">Willst Du diese Karte wirklich löschen?</string>
+    <string name="advanced_button">Fortgeschritten</string>
+    <string name="advanced_title">Fortgeschrittene Optionen</string>
+    <string name="merge_visible_tracks">Vereine sichtbare Tracks</string>
+    <string name="restore_split_tracks">Vereinte Tracks wiederherstellen</string>
+    <string name="unmerge">Tracks wiederaufteilen</string>
+    <string name="this_track_is_the_sum">Dieser Track ist die Summe von</string>
+    <string name="of_tracks">Vereinte Tracks</string>
+    <string name="merged_track">Vereinte sichtbare Tracks</string>
+    <string name="track_merged_to_visible_tracks">Track wird mit sichtbaren Tracks vereint</string>
+    <string name="dont_list_hidden_tracks">Versteckte Tracks nicht auflisten</string>
+    <string name="list_hidden_tracks">Versteckte Tracks wiederauflisten</string>
+    <string name="track_hidden_from_list">Track wird von Liste versteckt</string>
+    <string name="tune_line">Tune Line Appearance</string>
+    <string name="clean_waypoints">Verstecke entfernte Wegpunkte</string>
+    <string name="clean_waypoints_description">Verstecke Wegpunkte die von einem Track weiter entfernt sind als:</string>
+    <string name="processing_cleaning_waypoints">Verarbeite sichtbare Wegpunkte. Dies kann einen Augenblick dauern!</string>
+    <string name="no_waypoint_was_hidden">Konnte keinen passenden Wegpunkt finden, versuche eine geringere Entfernung.</string>
+    <string name="found_and_hidden_waypoint_a">Habe</string>
+    <string name="found_and_hidden_waypoint_b">passende Wegpunkte gefunden. Diese Wegpunkte sind nun versteckt!</string>
+    <string name="unlist_hidden_waypoints">Versteckte Wegpunkte aus Liste entfernen</string>
+    <string name="marker_removed_from_list">Wegpunkt wird aus der Liste entfernt</string>
+    <string name="list_hidden_waypoints">Versteckte Wegpunkte auflisten</string>
+    <string name="invert_gpx_direction">Fahrtrichtung umkehren</string>
+    <string name="restore_gpx_direction">Fahrtrichtung wiederherstellen</string>
 
 </resources>
