@@ -1,44 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNTRANSLATED -->
-    <string name="feet">πόδια</string>
-    <string name="unhide">Εμφάνιση</string>
-    <string name="info_and_links">Πληροφορίες και σύνδεσμοι</string>
-    <string name="app_version">Έκδοση DMD2</string>
-    <string name="app_installed_version">Εγκατεστημένη έκδοση:</string>
-    <string name="dmd2_website">Επισκεφθείτε την επίσημη ιστοσελίδα του Drive Mode Dashboard</string>
-    <string name="developer_website_title">Το DMD2 δημιουργήθηκε από</string>
-    <string name="follow_us_facebook">Επισκεφθείτε και ακολουθήστε μας στο Facebook για όλα τα τελευταία νέα</string>
-    <string name="join_us_facebook">Γίνετε μέλος της ομάδας μας στο Facebook</string>
-    <string name="adv_rider_thread">Γίνετε μέλος της ομάδας συζητήσεων για να ενημερώνεστε για τις νέες δυνατότητες, προβλήματα και αιτήματα</string>
-    <string name="advanced_button">Για Προχωρημένους</string>
-    <string name="advanced_title">Επιλογές για προχωρημένους</string>
-    <string name="merge_visible_tracks">Συγχώνευση Ορατών Διαδρομών</string>
-    <string name="restore_split_tracks">Επαναφορά Συγχωνεμένων Διαδρομών</string>
-    <string name="unmerge">Κατάργηση Συγχωνεμένων Διαδρομών</string>
-    <string name="this_track_is_the_sum">Η διαδρομή είναι το άθροισμα των</string>
-    <string name="of_tracks">συγχώνευση διαδρομών merged tracks</string>
-    <string name="merged_track">Συγχωνευμένες Ορατές Διαδρομές</string>
-    <string name="track_merged_to_visible_tracks">Η διαδρομή θα συγχωνευτεί με τις ορατές διαδρομές</string>
-    <string name="dont_list_hidden_tracks">Απόκρυψη κρυμμένων διαδρομών από τη λίστα</string>
-    <string name="list_hidden_tracks">Εμφάνιση κρυμμένων διαδρομώνs στη λίστα</string>
-    <string name="track_hidden_from_list">Απόκρυψη της διαδρομής από τη λίστα</string>
-    <string name="tune_line">Εμφάνιση γραμμής συντονισμού</string>
-    <string name="clean_waypoints">Απόκρυψη Απόμακρων Σημείων</string>
-    <string name="clean_waypoints_description">Απόκρυψη σημείων που βρίσκονται μακρία από τη διαδρομή, για απόσταση μεγαλύτερη από:</string>
-    <string name="processing_cleaning_waypoints">Επεξεργασία ορατών σημείων... η διασικασία μπορεί να διαρκέσει μερικά λεπτά!</string>
-    <string name="no_waypoint_was_hidden">Δεν βρέθηκαν σημεία με αυτά τα κριτήρια. Δοκιμάστε μια εναλλακτική απόσταση.</string>
-    <string name="found_and_hidden_waypoint_a">Βρέθηκαν</string>
-    <string name="found_and_hidden_waypoint_b">Σημεία που ταιριάζουν στα κριτήρια. Τα σημεία αυτά, αποκρύφτηκαν!</string>
-    <string name="unlist_hidden_waypoints">Απόκρυψη κρυμμένων σημείων από τη λίστα</string>
-    <string name="marker_removed_from_list">Το σημείο θα αφαιρεθεί από τη λίστα</string>
-    <string name="list_hidden_waypoints">Εμφάνιση κρυμμένων σημείων στη λίστα</string>
-    <string name="invert_gpx_direction">Εναλλαγή Πορείας Ταξιδιού</string>
-    <string name="restore_gpx_direction">Επαναφορά Πορείας Ταξιδιού</string>
-    <!-- END OF NEW UNTRANSLATED -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -128,6 +89,16 @@
     <string name="moving_map_file">Μεταφορά</string>
     <string name="moving_map_of">από</string>
     <string name="moving_left_menu_to_right">Εμφάνιση του αριστερού μενού στη δεξιά πλευρά</string>
+    <string name="feet">πόδια</string>
+    <string name="unhide">Εμφάνιση</string>
+    <string name="info_and_links">Πληροφορίες και σύνδεσμοι</string>
+    <string name="app_version">Έκδοση DMD2</string>
+    <string name="app_installed_version">Εγκατεστημένη έκδοση:</string>
+    <string name="dmd2_website">Επισκεφθείτε την επίσημη ιστοσελίδα του Drive Mode Dashboard</string>
+    <string name="developer_website_title">Το DMD2 δημιουργήθηκε από</string>
+    <string name="follow_us_facebook">Επισκεφθείτε και ακολουθήστε μας στο Facebook για όλα τα τελευταία νέα</string>
+    <string name="join_us_facebook">Γίνετε μέλος της ομάδας μας στο Facebook</string>
+    <string name="adv_rider_thread">Γίνετε μέλος της ομάδας συζητήσεων για να ενημερώνεστε για τις νέες δυνατότητες, προβλήματα και αιτήματα</string>
 
 
     <!-- Widgets -->
@@ -346,5 +317,29 @@
     <string name="error_loading_gpx_title">Σφάλμα κατά τη φόρτωση GPX</string>
     <string name="error_loading_gpx_message">Παρουσιάστηκε σφάλμα κατά την φόρτωση του GPX, το αρχείο φαίνεται να μην είναι συμβατό με το DMD2, παρακαλώ δοκιμάστε ένα άλλο αρχείο.</string>
     <string name="map_delete_title">Είστε σίγουροι πως θέλετε να διαφράψετε αυτόν τον χάρτη?</string>
+    <string name="advanced_button">Για Προχωρημένους</string>
+    <string name="advanced_title">Επιλογές για προχωρημένους</string>
+    <string name="merge_visible_tracks">Συγχώνευση Ορατών Διαδρομών</string>
+    <string name="restore_split_tracks">Επαναφορά Συγχωνεμένων Διαδρομών</string>
+    <string name="unmerge">Κατάργηση Συγχωνεμένων Διαδρομών</string>
+    <string name="this_track_is_the_sum">Η διαδρομή είναι το άθροισμα των</string>
+    <string name="of_tracks">συγχώνευση διαδρομών merged tracks</string>
+    <string name="merged_track">Συγχωνευμένες Ορατές Διαδρομές</string>
+    <string name="track_merged_to_visible_tracks">Η διαδρομή θα συγχωνευτεί με τις ορατές διαδρομές</string>
+    <string name="dont_list_hidden_tracks">Απόκρυψη κρυμμένων διαδρομών από τη λίστα</string>
+    <string name="list_hidden_tracks">Εμφάνιση κρυμμένων διαδρομώνs στη λίστα</string>
+    <string name="track_hidden_from_list">Απόκρυψη της διαδρομής από τη λίστα</string>
+    <string name="tune_line">Εμφάνιση γραμμής συντονισμού</string>
+    <string name="clean_waypoints">Απόκρυψη Απόμακρων Σημείων</string>
+    <string name="clean_waypoints_description">Απόκρυψη σημείων που βρίσκονται μακρία από τη διαδρομή, για απόσταση μεγαλύτερη από:</string>
+    <string name="processing_cleaning_waypoints">Επεξεργασία ορατών σημείων… η διασικασία μπορεί να διαρκέσει μερικά λεπτά!</string>
+    <string name="no_waypoint_was_hidden">Δεν βρέθηκαν σημεία με αυτά τα κριτήρια. Δοκιμάστε μια εναλλακτική απόσταση.</string>
+    <string name="found_and_hidden_waypoint_a">Βρέθηκαν</string>
+    <string name="found_and_hidden_waypoint_b">Σημεία που ταιριάζουν στα κριτήρια. Τα σημεία αυτά, αποκρύφτηκαν!</string>
+    <string name="unlist_hidden_waypoints">Απόκρυψη κρυμμένων σημείων από τη λίστα</string>
+    <string name="marker_removed_from_list">Το σημείο θα αφαιρεθεί από τη λίστα</string>
+    <string name="list_hidden_waypoints">Εμφάνιση κρυμμένων σημείων στη λίστα</string>
+    <string name="invert_gpx_direction">Εναλλαγή Πορείας Ταξιδιού</string>
+    <string name="restore_gpx_direction">Επαναφορά Πορείας Ταξιδιού</string>
 
 </resources>
