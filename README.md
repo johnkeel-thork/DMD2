@@ -39,5 +39,6 @@ Following the Android schemas:
 * [Thundinator](https://github.com/Thundinatorp) : For translations
 * [Minas Pachnis](https://github.com/mpachnis) : For translations
 * [samikokkonen](https://github.com/samikokkonen) : For translations
+* [Psionic79](https://github.com/Psionic79) : For translations
 
 
