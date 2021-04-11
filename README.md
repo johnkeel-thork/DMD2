@@ -28,6 +28,8 @@ Following the Android schemas:
 * [ADV Rider Thread](https://advrider.com/f/threads/drive-mode-dashboard-for-android.1425433) : Discuss Development / Testing / Feature Request
 
 
+## Donate
+* [Buy Me a Coffee](https://www.buymeacoffee.com/johnkeelthork) : Contribute or thank me by paying me a coffee!
 
 
 ## Acknowledgements
