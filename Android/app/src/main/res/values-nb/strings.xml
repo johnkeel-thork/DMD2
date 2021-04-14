@@ -1,52 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNTRANSLATED STRINGS -->
-
-    <string name="feet">fot</string>
-    <string name="unhide">Vis</string>
-
-    <string name="info_and_links">Informasjon og koblinger</string>
-    <string name="app_version">DMD2 Versjon</string>
-    <string name="app_installed_version">Installert versjon:</string>
-    <string name="dmd2_website">Gå til Drive Mode Dashboards hjemmeside</string>
-    <string name="developer_website_title">DMD2 utvikles og leveres av:</string>
-    <string name="follow_us_facebook">Besøk vår Facebookside for å få de siste nyhetene</string>
-    <string name="join_us_facebook">Bli med i vår facebookgruppe</string>
-    <string name="adv_rider_thread">Bli med å diskutere nye funksjoner, feil og ønsker</string>
-
-
-    <string name="advanced_button">Avansert</string>
-    <string name="advanced_title">Avanserte innstillinger</string>
-    <string name="merge_visible_tracks">Slå sammen synlige spor</string>
-    <string name="restore_split_tracks">Gjenopprett sammenslåtte spor</string>
-    <string name="unmerge">Splitt spor</string>
-    <string name="this_track_is_the_sum">Dette sporet er sammenslått av</string>
-    <string name="of_tracks">sammenslåtte spor</string>
-    <string name="merged_track">Sammenslåtte synlige spor</string>
-    <string name="track_merged_to_visible_tracks">Valg spor vil bli slått sammen med synlige spor</string>
-    <string name="dont_list_hidden_tracks">Fjern skjulte spor fra listen</string>
-    <string name="list_hidden_tracks">Vis skjulte spor</string>
-    <string name="track_hidden_from_list">Spor vil bli skjult fra listen</string>
-    <string name="tune_line">Juster visning av spor</string>
-    <string name="clean_waypoints">Skjul veipunkt</string>
-    <string name="clean_waypoints_description">Skjul veipunkter som er lengre fra sporet enn:</string>
-    <string name="processing_cleaning_waypoints">Beregner synlige veipunkter... Dette kan ta noe tid!</string>
-    <string name="no_waypoint_was_hidden">Finner ingen passende veipunkter. Prøv medkortere avstand?</string>
-    <string name="found_and_hidden_waypoint_a">Funnet</string>
-    <string name="found_and_hidden_waypoint_b">Veipunkter som passer utvalget. Disse veipunktene er nå skjult!</string>
-    <string name="unlist_hidden_waypoints">Fjern skjulte veipunkter</string>
-    <string name="marker_removed_from_list">Veipunktene blir fjernet fra listen</string>
-    <string name="list_hidden_waypoints">List opp skjulte veipunkter</string>
-    <string name="invert_gpx_direction">Snu kjøreretning på spor</string>
-    <string name="restore_gpx_direction">Gjenopprett kjøreretning på spor</string>
-
-    <!-- END OF UNTRANSLATED STRINGS -->
-
-
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -75,6 +28,8 @@
     <string name="select">Velg</string>
     <string name="delete">Slett</string>
     <string name="update">Oppdater</string>
+    <string name="feet">fot</string>
+    <string name="unhide">Vis</string>
 
 
     <!-- Bottom Menu -->
@@ -136,6 +91,14 @@
     <string name="moving_map_file">Flytter</string>
     <string name="moving_map_of">av</string>
     <string name="moving_left_menu_to_right">Flytt venstremeny til høyre side</string>
+    <string name="info_and_links">Informasjon og koblinger</string>
+    <string name="app_version">DMD2 Versjon</string>
+    <string name="app_installed_version">Installert versjon:</string>
+    <string name="dmd2_website">Gå til Drive Mode Dashboards hjemmeside</string>
+    <string name="developer_website_title">DMD2 utvikles og leveres av:</string>
+    <string name="follow_us_facebook">Besøk vår Facebookside for å få de siste nyhetene</string>
+    <string name="join_us_facebook">Bli med i vår facebookgruppe</string>
+    <string name="adv_rider_thread">Bli med å diskutere nye funksjoner, feil og ønsker</string>
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ingen Widget / Tomt felt</string>
@@ -353,6 +316,30 @@
     <string name="error_loading_gpx_title">Lastefeil i GPX</string>
     <string name="error_loading_gpx_message">Feil oppdaget ved innlasting av GPX, den ser ikke ut til å være kompatibel med DMD2, vennligst prøv en annen.</string>
     <string name="map_delete_title">Er du sikker på at du vil slette denne kartfilen?</string>
+    <string name="advanced_button">Avansert</string>
+    <string name="advanced_title">Avanserte innstillinger</string>
+    <string name="merge_visible_tracks">Slå sammen synlige spor</string>
+    <string name="restore_split_tracks">Gjenopprett sammenslåtte spor</string>
+    <string name="unmerge">Splitt spor</string>
+    <string name="this_track_is_the_sum">Dette sporet er sammenslått av</string>
+    <string name="of_tracks">sammenslåtte spor</string>
+    <string name="merged_track">Sammenslåtte synlige spor</string>
+    <string name="track_merged_to_visible_tracks">Valg spor vil bli slått sammen med synlige spor</string>
+    <string name="dont_list_hidden_tracks">Fjern skjulte spor fra listen</string>
+    <string name="list_hidden_tracks">Vis skjulte spor</string>
+    <string name="track_hidden_from_list">Spor vil bli skjult fra listen</string>
+    <string name="tune_line">Juster visning av spor</string>
+    <string name="clean_waypoints">Skjul veipunkt</string>
+    <string name="clean_waypoints_description">Skjul veipunkter som er lengre fra sporet enn:</string>
+    <string name="processing_cleaning_waypoints">Beregner synlige veipunkter… Dette kan ta noe tid!</string>
+    <string name="no_waypoint_was_hidden">Finner ingen passende veipunkter. Prøv medkortere avstand?</string>
+    <string name="found_and_hidden_waypoint_a">Funnet</string>
+    <string name="found_and_hidden_waypoint_b">Veipunkter som passer utvalget. Disse veipunktene er nå skjult!</string>
+    <string name="unlist_hidden_waypoints">Fjern skjulte veipunkter</string>
+    <string name="marker_removed_from_list">Veipunktene blir fjernet fra listen</string>
+    <string name="list_hidden_waypoints">List opp skjulte veipunkter</string>
+    <string name="invert_gpx_direction">Snu kjøreretning på spor</string>
+    <string name="restore_gpx_direction">Gjenopprett kjøreretning på spor</string>
 
 
 </resources>
