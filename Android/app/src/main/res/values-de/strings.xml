@@ -1,5 +1,33 @@
 <resources>
 
+
+    <!-- UNTRANSLATED STRINGS -->
+    <string name="rotation_locked">Rotation Locked</string>
+    <string name="rotation_unlocked">Rotation Unlocked</string>
+
+    <string name="speedo_trip_options">Options</string>
+    <string name="trip_options">Trip Options</string>
+    <string name="trip_running_mode_title">Trip Always Running</string>
+    <string name="trip_running_mode_summary">If disabled you need to start the trip manually</string>
+    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
+    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
+    <string name="trip_auto_reset_time_title">Automatic Trip Reset Time</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>5 days</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Layout Options</string>
+    <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
+    <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
+    <string name="start_stop_trip">Start/Pause Trip</string>
+
+    <!-- END OF UNTRANSLATED -->
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -30,7 +58,7 @@
     <string name="update">Aktualisieren</string>
     <string name="feet">feet</string>
     <string name="unhide">Anzeigen</string>
-    
+
 
 
     <!-- Bottom Menu -->
