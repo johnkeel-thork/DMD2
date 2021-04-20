@@ -108,7 +108,7 @@
     <string name="fav_apps_widgets">Apps Favoritas</string>
     <string name="trip_info">Informações de Viagem</string>
     <string name="digital_clock">Relógio Digital</string>
-    <string name="compass_widget">Compasso</string>
+    <string name="compass_widget">Bússola</string>
     <string name="system_widget">Widget de Sistema Android</string>
     <string name="logo_widget">Logotipo PNG</string>
     <!-- Trip Widget -->
@@ -138,6 +138,24 @@
     <string name="edit_odometer">Editar Odómetro</string>
     <string name="edit_odometer_message">Insira o novo valor para o odómetro:</string>
     <string name="hours">Horas</string>
+    <string name="speedo_trip_options">Opções</string>
+    <string name="trip_options">Opções de Viagem</string>
+    <string name="trip_running_mode_title">Contador Viagem Sempre Activo</string>
+    <string name="trip_running_mode_summary">Se desactivado terá que iniciar a Viagem manualmente</string>
+    <string name="trip_auto_reset_title">Reset Automático de Viagem</string>
+    <string name="trip_auto_reset_summary">Se a aplicação não for usada por um período superior ao definidio será feito um reset a todos os valores de Viagem</string>
+    <string name="trip_auto_reset_time_title">Período para Reset Automático</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 horas</item>
+        <item>12 horas</item>
+        <item>1 dia</item>
+        <item>2 dias</item>
+        <item>5 dias</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Opções do Layout</string>
+    <string name="trip_hide_speed_title">Esconder Velocidade e Odómetro</string>
+    <string name="trip_hide_speed_summary">Esconder Velocidade e Odometro (útil para tornar o layout com valores de viagem maior)</string>
+    <string name="start_stop_trip">Iniciar/Pausar Viagem</string>
 
 
     <!-- Control Station -->
@@ -157,6 +175,8 @@
     <string name="dnd_mode_message">Para ajustar todos os volumes é necessário a permissão DND.</string>
     <string name="controller_default_message">Controlador: Use o botão Cima para selectionar um controlo, Baixo para voltar ao menu</string>
     <string name="edit_odometer_controller_guide">Controlador: Cima/Baixo altera 1, ZoomIn/Out altera 100, Enter/Click Centro Longo para reset zero, Esquerda/Direita para botões Cancelar/Guardar</string>
+    <string name="rotation_locked">Rotação Bloqueada</string>
+    <string name="rotation_unlocked">Rotação Desbloqueada</string>
 
 
     <!-- Roadbook -->
@@ -282,7 +302,7 @@
     <string name="waypoint_box_share">Partilhar</string>
     <string name="gpx_add_another">Adicionar</string>
     <string name="gpx_close_all">Remover Todos</string>
-    <string name="imported_gpx_files">Importar Ficheiro GPX</string>
+    <string name="imported_gpx_files">Ficheiros GPX</string>
     <string name="waypoints">Waypoints</string>
     <string name="waypoint">Waypoint</string>
     <string name="tracks">Pistas</string>
@@ -329,7 +349,7 @@
     <string name="list_hidden_tracks">Listar Tracks Escondidas</string>
     <string name="track_hidden_from_list">Track será removida da listagem</string>
     <string name="tune_line">Configurar Aspecto do Traço</string>
-    <string name="clean_waypoints">Esconder Waypoints Distantes</string>
+    <string name="clean_waypoints">Filtrar Wpts Distantes</string>
     <string name="clean_waypoints_description">Esconder waypoints, que se encontram a uma distancia do track, superior a:</string>
     <string name="processing_cleaning_waypoints">A processar waypoints, esta operação pode demorar!</string>
     <string name="no_waypoint_was_hidden">Não foram encontrados waypoints com o criterio escolhido. Tente com uma distancia inferior.</string>
