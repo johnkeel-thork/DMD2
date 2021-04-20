@@ -12,6 +12,7 @@
     <string name="km">Km</string>
     <string name="kmh">Km/h</string>
     <string name="meters">meters</string>
+    <string name="feet">feet</string>
     <string name="back">Back</string>
     <string name="abort">Abort</string>
     <string name="ok">OK</string>
@@ -27,6 +28,7 @@
     <string name="select">Select</string>
     <string name="delete">Delete</string>
     <string name="update">Update</string>
+    <string name="unhide">Unhide</string>
 
 
     <!-- Bottom Menu -->
@@ -88,6 +90,15 @@
     <string name="moving_map_file">Moving</string>
     <string name="moving_map_of">of</string>
     <string name="moving_left_menu_to_right">Move the Left Menu to the right</string>
+    <string name="info_and_links">Information and Links</string>
+    <string name="app_version">DMD2 Version</string>
+    <string name="app_installed_version">Installed version:</string>
+    <string name="dmd2_website">Visit the official Drive Mode Dashboard website</string>
+    <string name="developer_website_title">DMD2 is brought to you by</string>
+    <string name="follow_us_facebook">Visit and follow our Facebook page for the latest news</string>
+    <string name="join_us_facebook">Join our Facebook group</string>
+    <string name="adv_rider_thread">Join the discussion about new features, bugs and requests</string>
+
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">No Widget / Empty Area</string>
@@ -124,7 +135,24 @@
     <string name="edit_odometer_message">Please insert new odometer value:</string>
     <string name="edit_odometer_controller_guide">Controller: Up/Down changes by 1, ZoomIn/Out changes by 100, Center/Enter long press resets to zero, Left/Right for Cancel/Save</string>
     <string name="hours">Hours</string>
-
+    <string name="speedo_trip_options">Options</string>
+    <string name="trip_options">Trip Options</string>
+    <string name="trip_running_mode_title">Trip Always Running</string>
+    <string name="trip_running_mode_summary">If disabled you need to start the trip manually</string>
+    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
+    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
+    <string name="trip_auto_reset_time_title">Automatic Trip Reset Time</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>2 days</item>
+        <item>5 days</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Layout Options</string>
+    <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
+    <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
+    <string name="start_stop_trip">Start/Pause Trip</string>
 
 
     <!-- Control Station -->
@@ -144,6 +172,8 @@
     <string name="dnd_mode_title">DND Mode Permission</string>
     <string name="dnd_mode_message">To fully adjust all volumes we need permission for DND Mode!</string>
     <string name="controller_default_message">Controller: Press up to select a slider, press down to return to menu.</string>
+    <string name="rotation_locked">Rotation Locked</string>
+    <string name="rotation_unlocked">Rotation Unlocked</string>
 
 
     <!-- Roadbook -->
@@ -305,6 +335,58 @@
     <string name="error_loading_gpx_title">Error Loading GPX</string>
     <string name="error_loading_gpx_message">There was an error loading this GPX, it seems it is not compatible with DMD2, please try a different one.</string>
     <string name="map_delete_title">Are you sure you want to delete this map file?</string>
+    <string name="advanced_button">Advanced</string>
+    <string name="advanced_title">Advanced Options</string>
+    <string name="merge_visible_tracks">Merge Visible Tracks</string>
+    <string name="restore_split_tracks">Restore Merged Tracks</string>
+    <string name="unmerge">Unmerge Tracks</string>
+    <string name="this_track_is_the_sum">This track is the sum of</string>
+    <string name="of_tracks">merged tracks</string>
+    <string name="merged_track">Merged Visible Tracks</string>
+    <string name="track_merged_to_visible_tracks">Track will be merged with Visible Tracks</string>
+    <string name="dont_list_hidden_tracks">Unlist Hidden Tracks</string>
+    <string name="list_hidden_tracks">List Hidden Tracks</string>
+    <string name="track_hidden_from_list">Track will be hidden from List</string>
+    <string name="tune_line">Tune Line Appearance</string>
+    <string name="clean_waypoints">Hide Distant Waypoints</string>
+    <string name="clean_waypoints_description">Hide waypoints that are further away from the track for a distance superior to:</string>
+    <string name="processing_cleaning_waypoints">Processing Visible Waypoints… This can take a while!</string>
+    <string name="no_waypoint_was_hidden">Did not find any Waypoint matching the criteria. Maybe try a smaller distance.</string>
+    <string name="found_and_hidden_waypoint_a">Found</string>
+    <string name="found_and_hidden_waypoint_b">Waypoints matching your criteria. These Waypoints are now hidden!</string>
+    <string name="unlist_hidden_waypoints">Unlist Hidden Waypoints</string>
+    <string name="marker_removed_from_list">Waypoint will be removed from list</string>
+    <string name="list_hidden_waypoints">List Hidden Waypoints</string>
+    <string name="invert_gpx_direction">Invert Travel Direction</string>
+    <string name="restore_gpx_direction">Restore Travel Direction</string>
+    <!-- Map Options View -->
+    <string name="map_view_options">Map View Settings</string>
+    <string name="map_options_interface_cat_title">Interface Settings</string>
+    <string name="show_zoom_button">Show Zoom Buttons</string>
+    <string name="map_options_location_cat_title">Location Settings</string>
+    <string name="use_compass_when_stop">When stopped use Compass sensor for heading (if available)</string>
 
+
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD Sensors</string>
+    <string name="obd_setup">OBD Setup</string>
+    <string name="device_setup">OBD Bluetooth Device Setup</string>
+    <string name="select_device_title">Select OBD Device</string>
+    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices</string>
+    <string name="obd_bluetooth_list_devices_title">Available Bluetooth Devices</string>
+    <string name="obd_cat_title_pref">OBD Preferences</string>
+    <string name="pref_obd_protocols_title">OBD Protocol</string>
+    <string name="pref_obd_protocols_summary">Select which OBD Protocol to use</string>
+    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
+    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
+    <string name="pref_reader_config_title">Reader Config Commands</string>
+    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
+
+    <string name="notification_action">Tap to open OBD-Reader</string>
+    <string name="service_starting">Starting OBD connection..</string>
+    <string name="service_started">OBD connection has started.</string>
+    <string name="service_stopped">OBD connection has stopped.</string>
+    <string name="status_obd_no_support">NA</string>
 
 </resources>
