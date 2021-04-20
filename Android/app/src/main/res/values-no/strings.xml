@@ -1,6 +1,5 @@
 <resources>
 
-
     <!-- UNTRANSLATED STRINGS -->
     <string name="rotation_locked">Rotation Locked</string>
     <string name="rotation_unlocked">Rotation Unlocked</string>
@@ -24,9 +23,7 @@
     <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
     <string name="start_stop_trip">Start/Pause Trip</string>
     <!-- END OF UNTRANSLATED -->
-    
-    
-    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
