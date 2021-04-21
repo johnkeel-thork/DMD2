@@ -33,6 +33,8 @@ Following the Android schemas:
 
 
 ## Acknowledgements
+* [Joaoha](https://github.com/Joaoha) : For being my Sponsor
+* [Korath](https://github.com/Korath) : For being my Sponsor
 * [KayDubbya](https://github.com/KayDubbya) : For being my Sponsor
 * [nezgrath](https://github.com/nezgrath) : For being my Sponsor
 * [raschaa](https://github.com/raschaa) : For being my Sponsor
