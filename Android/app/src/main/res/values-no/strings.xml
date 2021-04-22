@@ -1,28 +1,13 @@
 <resources>
 
-    <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Rotation Locked</string>
-    <string name="rotation_unlocked">Rotation Unlocked</string>
 
-    <string name="speedo_trip_options">Options</string>
-    <string name="trip_options">Trip Options</string>
-    <string name="trip_running_mode_title">Trip Always Running</string>
-    <string name="trip_running_mode_summary">If disabled you need to start the trip manually</string>
-    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
-    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
-    <string name="trip_auto_reset_time_title">Automatic Trip Reset Time</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>2 days</item>
-        <item>5 days</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Layout Options</string>
-    <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
-    <string name="start_stop_trip">Start/Pause Trip</string>
+    <!-- UNTRANSLATED STRINGS -->
+    
+
+    
     <!-- END OF UNTRANSLATED -->
+
+
 
     <string name="app_name">DMD2</string>
 
@@ -159,6 +144,24 @@
     <string name="edit_odometer_message">Legg inn ny kjørelengde:</string>
     <string name="edit_odometer_controller_guide">Kontroller: Opp/Ned = +/- 1, ZoomInn/Ut = +/- 100, Enter langt trykk nullstiller, Venstre/Høyre = Avbryt/Lagre</string>
     <string name="hours">Timer</string>
+    <string name="speedo_trip_options">Alternativer</string>
+    <string name="trip_options">Tripalternativer</string>
+    <string name="trip_running_mode_title">Tripteller alltid på</string>
+    <string name="trip_running_mode_summary">Då må selv starte triptelleren hvis denne deaktiverers.</string>
+    <string name="trip_auto_reset_title">Automatisk Nullstilling av tripteller</string>
+    <string name="trip_auto_reset_summary">Triptelleren blir nullstilt hvsi DMD2 lukkes lengre enn valgt tidsvindu.</string>
+    <string name="trip_auto_reset_time_title">Tid før nullstilling av tripteller</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 timer</item>
+        <item>12 timer</item>
+        <item>1 dag</item>
+        <item>2 dager</item>
+        <item>5 dager</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Visningsinnstillinger</string>
+    <string name="trip_hide_speed_title">Skjul Fart &amp; Odo</string>
+    <string name="trip_hide_speed_summary">Skjulte farts og kjørelendetellere vil gjøre triptelleren større og mer synlig.</string>
+    <string name="start_stop_trip">Start/Stopp Tripteller</string>
 
 
 
@@ -179,7 +182,9 @@
     <string name="dnd_mode_title">DND Modus tllatelser</string>
     <string name="dnd_mode_message">For å kunne endre alle lydstyrke må vi ha tilgang til DND modus!</string>
     <string name="controller_default_message">Controller: Trykk opp for å velge et rullefelt, trykk ned for å gå tilbake til menyen.</string>
-
+    <string name="rotation_locked">Skjermrotering låst</string>
+    <string name="rotation_unlocked">Skjermrotering åpen</string>
+    
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Trykk her for å åpne en fil</string>
