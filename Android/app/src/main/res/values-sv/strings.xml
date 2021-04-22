@@ -1,31 +1,5 @@
 <resources>
 
-    <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Rotation låst</string>
-    <string name="rotation_unlocked">Rotation upplåst</string>
-
-    <string name="speedo_trip_options">Inställningar</string>
-    <string name="trip_options">Trippinställningar</string>
-    <string name="trip_running_mode_title">Trippmätare alltid på</string>
-    <string name="trip_running_mode_summary">Om avstängd behöver du starta trippen manuellt</string>
-    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
-    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
-    <string name="trip_auto_reset_time_title">Automatisk nollställning av trippmätaren</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 timmar</item>
-        <item>12 timmar</item>
-        <item>1 dag</item>
-        <item>2 dagar</item>
-        <item>5 dagar</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Layoutinställningar</string>
-    <string name="trip_hide_speed_title">Göm Hastighet &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Göm hastighet &amp; Odo om du vill att trippvärdena ska bli större</string>
-    <string name="start_stop_trip">Starta/Pausa Tripp</string>
-    <!-- END OF UNTRANSLATED -->
-
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -162,6 +136,24 @@
     <string name="edit_odometer_message">Ange nytt värde för ODOmeter:</string>
     <string name="edit_odometer_controller_guide">Kontroll: Upp/Ner ändrar med 1, ZoomIn/Ut ändrar med 100, Center/Enter lång-tryck återställer till noll, Vänster/Höger för Avbryt/Spara</string>
     <string name="hours">Timmar</string>
+    <string name="speedo_trip_options">Inställningar</string>
+    <string name="trip_options">Trippinställningar</string>
+    <string name="trip_running_mode_title">Trippmätare alltid på</string>
+    <string name="trip_running_mode_summary">Om avstängd behöver du starta trippen manuellt</string>
+    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
+    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
+    <string name="trip_auto_reset_time_title">Automatisk nollställning av trippmätaren</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 timmar</item>
+        <item>12 timmar</item>
+        <item>1 dag</item>
+        <item>2 dagar</item>
+        <item>5 dagar</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Layoutinställningar</string>
+    <string name="trip_hide_speed_title">Göm Hastighet &amp; Odo</string>
+    <string name="trip_hide_speed_summary">Göm hastighet &amp; Odo om du vill att trippvärdena ska bli större</string>
+    <string name="start_stop_trip">Starta/Pausa Tripp</string>
 
 
 
@@ -182,7 +174,9 @@
     <string name="dnd_mode_title">DND Mode Godkännande</string>
     <string name="dnd_mode_message">För att kunna justera all volum behöver vi ditt godkännande till DND Mode!</string>
     <string name="controller_default_message">Kontroll: Tryck upp för att välja reglage, tryck ner för att återgå till menyn.</string>
-
+    <string name="rotation_locked">Rotation låst</string>
+    <string name="rotation_unlocked">Rotation upplåst</string>
+    
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Tryck här för att öppna fil</string>
