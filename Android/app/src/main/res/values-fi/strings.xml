@@ -1,32 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Autom. kierto estetty</string>
-    <string name="rotation_unlocked">Autom. kierto sallittu</string>
-
-    <string name="speedo_trip_options">Asetukset</string>
-    <string name="trip_options">Matka-valinnat</string>
-    <string name="trip_running_mode_title">Jatkuva matkan mittaus</string>
-    <string name="trip_running_mode_summary">Jos pois päältä, sinun tulee käynnistää matka manuaalisesti</string>
-    <string name="trip_auto_reset_title">Automaattinen matkan nollaus</string>
-    <string name="trip_auto_reset_summary">Matka nollataan automaattisesti jos DMD2 on suljettuna asetettua aikarajaa kauemmin</string>
-    <string name="trip_auto_reset_time_title">Matkan automaattisen nollauksen aikaraja</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 tuntia</item>
-        <item>12 tuntia</item>
-        <item>1 päivä</item>
-        <item>2 päivää</item>
-        <item>5 päivää</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Nopeusmittarinäkymän valinnat</string>
-    <string name="trip_hide_speed_title">Piilota nopeus &amp; mittarilukema</string>
-    <string name="trip_hide_speed_summary">Piilottamalla nopeuden ja mittarilukeman saat Matkatiedot näkymään suurempana</string>
-    <string name="start_stop_trip">Käynnistä/Pysäytä matkan mittaus</string>
-    <!-- END OF UNTRANSLATED -->
-
-
-    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -163,6 +136,24 @@
     <string name="edit_odometer_message">Syötä uusi mittarilukema:</string>
     <string name="edit_odometer_controller_guide">Ohjaimella: Ylös/Alas lisää/vähentää 1, Zoom sisään/ulos lisää/vähentää 100, Keski/Enter pitkä painallus asettaa 0, Vasen/Oikea peruuttaa/Tallentaa</string>
     <string name="hours">Tuntia</string>
+    <string name="speedo_trip_options">Asetukset</string>
+    <string name="trip_options">Matka-valinnat</string>
+    <string name="trip_running_mode_title">Jatkuva matkan mittaus</string>
+    <string name="trip_running_mode_summary">Jos pois päältä, sinun tulee käynnistää matka manuaalisesti</string>
+    <string name="trip_auto_reset_title">Automaattinen matkan nollaus</string>
+    <string name="trip_auto_reset_summary">Matka nollataan automaattisesti jos DMD2 on suljettuna asetettua aikarajaa kauemmin</string>
+    <string name="trip_auto_reset_time_title">Matkan automaattisen nollauksen aikaraja</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 tuntia</item>
+        <item>12 tuntia</item>
+        <item>1 päivä</item>
+        <item>2 päivää</item>
+        <item>5 päivää</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Nopeusmittarinäkymän valinnat</string>
+    <string name="trip_hide_speed_title">Piilota nopeus &amp; mittarilukema</string>
+    <string name="trip_hide_speed_summary">Piilottamalla nopeuden ja mittarilukeman saat Matkatiedot näkymään suurempana</string>
+    <string name="start_stop_trip">Käynnistä/Pysäytä matkan mittaus</string>
 
 
 
@@ -183,7 +174,8 @@
     <string name="dnd_mode_title">DND-tilan oikeudet</string>
     <string name="dnd_mode_message">Täydelliseen äänenvoimakkuuden hallintaan tarvitaan DND-tilan käyttöoikeus!</string>
     <string name="controller_default_message">Ohjaimella: Paina Ylös valitaksesi liukusäätimen, Paina Alas palataksesi valikkoon.</string>
-
+    <string name="rotation_locked">Autom. kierto estetty</string>
+    <string name="rotation_unlocked">Autom. kierto sallittu</string>
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Kosketa avataksesi tiedoston</string>
