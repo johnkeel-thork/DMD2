@@ -2,31 +2,31 @@
 
 
     <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Rotation Locked</string>
-    <string name="rotation_unlocked">Rotation Unlocked</string>
+    <string name="rotation_locked">Κλείδωμα Περιστροφής</string>
+    <string name="rotation_unlocked">Ξεκλείδωμα Περιστροφής</string>
 
-    <string name="speedo_trip_options">Options</string>
-    <string name="trip_options">Trip Options</string>
-    <string name="trip_running_mode_title">Trip Always Running</string>
-    <string name="trip_running_mode_summary">If disabled you need to start the trip manually</string>
-    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
-    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
-    <string name="trip_auto_reset_time_title">Automatic Trip Reset Time</string>
+    <string name="speedo_trip_options">Επιλογές</string>
+    <string name="trip_options">Επιλογές Ταξιδίου</string>
+    <string name="trip_running_mode_title">Το Ταξίδι Είναι Πάντα Σε Λειτουργία</string>
+    <string name="trip_running_mode_summary">Εάν απενεργοποιηθεί, θα πρέπει να εκκινείται το ταξίδι χειροκίνητα</string>
+    <string name="trip_auto_reset_title">Αυτόματη Επαναφορά Ταξιδίου</string>
+    <string name="trip_auto_reset_summary">Θα γίνει αυτόματη επαναφορά του ταξιδίου εάν το DMD2 παραμείνει κλειστό για περισσότερο χρονικό διάστημα</string>
+    <string name="trip_auto_reset_time_title">Αυτόματη Επαναφορά Χρόνου Ταξιδίου</string>
     <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>2 days</item>
-        <item>5 days</item>
+        <item>6 ώρες</item>
+        <item>12 ώρες</item>
+        <item>1 ημέρα</item>
+        <item>2 ημέρες</item>
+        <item>5 ημέρες</item>
     </string-array>
-    <string name="trip_options_layout_cat">Layout Options</string>
-    <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
-    <string name="start_stop_trip">Start/Pause Trip</string>
+    <string name="trip_options_layout_cat">Επιλογές Εμφάνισης</string>
+    <string name="trip_hide_speed_title">Απόκρυψη Ταχύτητας &amp; Οδόμετρου</string>
+    <string name="trip_hide_speed_summary">Αποκρύβοντας την ταχύτητα και το οδόμετρο χρησιμεύει στο αν θέλετε να μεγαλώσετε τις τιμές του Ταξιδίου</string>
+    <string name="start_stop_trip">Εκκίνηση/Παύση Ταξιδίου</string>
     <!-- END OF UNTRANSLATED -->
-    
-    
-    
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
