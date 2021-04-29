@@ -1,82 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNTRANSLATED STRINGS -->
-    <string name="map_delete_title">Voulez-vous supprimer cette carte?</string>
-    <string name="yes">Oui</string>
-    <string name="no">Non</string>
-    <string name="hide">Masquer</string>
-    <string name="storage_options_category">Options de stockage</string>
-    <string name="save_maps_to_sd">Utilisation de carte-SD pour les cartes hors-ligne</string>
-    <string name="sd_card_error">Erreur d'accès à la carte-SD, celà ne fonctiopnne pas sur cet appereil!</string>
-    <string name="no_sd_card_error">Pas de carte-SD ou non compatible!</string>
-    <string name="move_files_to_sdcard">Transférer tous les fichiers sur la carte-SD?</string>
-    <string name="move_files_to_internal_memory">Transférer toutes les cartes dans la mémoire interne?</string>
-    <string name="moving_files_dialog_title">Transfert des fichiers!</string>
-    <string name="moving_map_file">Transfert</string>
-    <string name="moving_map_of">de</string>
-    <string name="moving_left_menu_to_right">Déplacer le Menu de gauche à droite</string>
-    <string name="feet">pieds</string>
-    <string name="unhide">Afficher</string>
-    <string name="info_and_links">Information et Liens</string>
-    <string name="app_version">Version DMD2</string>
-    <string name="app_installed_version">Version installée version:</string>
-    <string name="dmd2_website">Visite le site internet Drive Mode Dashboard officiel</string>
-    <string name="developer_website_title">DMD2 vous est présenté par</string>
-    <string name="follow_us_facebook">Visite et suit notre Facebook pour les dernières infos</string>
-    <string name="join_us_facebook">Joindre notre groupe Facebook</string>
-    <string name="adv_rider_thread">Joindre la discussion  the discussion des nouvelles fonctionnalités, bugs et requêtes</string>
-    <string name="advanced_button">Avancé</string>
-    <string name="advanced_title">Options avancées</string>
-    <string name="merge_visible_tracks">Grouper les traces visibles</string>
-    <string name="restore_split_tracks">Restaurer les traces groupées</string>
-    <string name="unmerge">Dégrouper les traces</string>
-    <string name="this_track_is_the_sum">Cette trace est la fusion de</string>
-    <string name="of_tracks">Traces groupé</string>
-    <string name="merged_track">Traces groupés visibles</string>
-    <string name="track_merged_to_visible_tracks">Les traces seront groupées avec une trace visible</string>
-    <string name="dont_list_hidden_tracks">Délister les traces masqués</string>
-    <string name="list_hidden_tracks">Lister les traces masqués</string>
-    <string name="track_hidden_from_list">Les traces seront masqués de la liste</string>
-    <string name="tune_line">Réglage de l'aspect de ligne</string>
-    <string name="clean_waypoints">Masquer les Waypoints distants</string>
-    <string name="clean_waypoints_description">Masque les waypoints éloignés de la trace d'une distance supérieur à:</string>
-    <string name="processing_cleaning_waypoints">Traitement des Waypoints Visible… Celà peut prendre du temps!</string>
-    <string name="no_waypoint_was_hidden">Ne trouve pas de Waypoint correspondant aux critères. Essayez avec une plus courte distance.</string>
-    <string name="found_and_hidden_waypoint_a">Trouvé</string>
-    <string name="found_and_hidden_waypoint_b">Waypoints correspondant à vos critères. Ces Waypoints sont maintenant masqués!</string>
-    <string name="unlist_hidden_waypoints">Délister les Waypoints masqués</string>
-    <string name="marker_removed_from_list">Les Waypoints seront retirés de la liste</string>
-    <string name="list_hidden_waypoints">Lister les Waypoints masqués</string>
-    <string name="invert_gpx_direction">Inverser la direction de voyage</string>
-    <string name="restore_gpx_direction">Retablir la direction de voyage</string>
-
-    <string name="rotation_locked">Rotation vérouillée</string>
-    <string name="rotation_unlocked">Rotation dévérouillée</string>
-
-    <string name="speedo_trip_options">Options</string>
-    <string name="trip_options">Options du Trip</string>
-    <string name="trip_running_mode_title">Trip toujours actif</string>
-    <string name="trip_running_mode_summary">Si déactivé tu dois réactiver le Trip manuellement</string>
-    <string name="trip_auto_reset_title">RaZ Trip Automatique</string>
-    <string name="trip_auto_reset_summary">le Trip sera Remis à Zero automatiquement si le DMD2 est fermé pendant plus d’une période configurable.</string>
-    <string name="trip_auto_reset_time_title">Temps du RaZ Trip automatique</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 heures</item>
-        <item>12 heures</item>
-        <item>1 jour</item>
-        <item>2 jours</item>
-        <item>5 jours</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Options de disposition</string>
-    <string name="trip_hide_speed_title">Masquer vitesse &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Masquer la vitesse et l’ ODO sont utiles si vous voulez augmenter les valeurs du Trip</string>
-    <string name="start_stop_trip">Démarrer/Pause Trip</string>
-    
-    <!-- END OF UNTRANSLATED STRINGS -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -102,6 +25,11 @@
     <string name="select">Valider</string>
     <string name="delete">Supprimer</string>
     <string name="update">Mettre à jour</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="hide">Masquer</string>
+    <string name="feet">pieds</string>
+    <string name="unhide">Afficher</string>
 
 
     <!-- Bottom Menu -->
@@ -155,6 +83,24 @@
     <string name="roadbook_plugin_missing_message">Pour afficher le fichier PDF Roadbook tu dois acheter le plugin DMD2 Roadbook.</string>
     <string name="map_plugin_missing_title">Nécessite le Plugin de cartographie</string>
     <string name="map_plugin_missing_message">Pour afficher les fichiers GPX tu dois acheter le plugin DMD2 Cartographie.</string>
+    <string name="storage_options_category">Options de stockage</string>
+    <string name="save_maps_to_sd">Utilisation de carte-SD pour les cartes hors-ligne</string>
+    <string name="sd_card_error">Erreur d\'accès à la carte-SD, celà ne fonctiopnne pas sur cet appereil!</string>
+    <string name="no_sd_card_error">Pas de carte-SD ou non compatible!</string>
+    <string name="move_files_to_sdcard">Transférer tous les fichiers sur la carte-SD?</string>
+    <string name="move_files_to_internal_memory">Transférer toutes les cartes dans la mémoire interne?</string>
+    <string name="moving_files_dialog_title">Transfert des fichiers!</string>
+    <string name="moving_map_file">Transfert</string>
+    <string name="moving_map_of">de</string>
+    <string name="moving_left_menu_to_right">Déplacer le Menu de gauche à droite</string>
+    <string name="info_and_links">Information et Liens</string>
+    <string name="app_version">Version DMD2</string>
+    <string name="app_installed_version">Version installée version:</string>
+    <string name="dmd2_website">Visite le site internet Drive Mode Dashboard officiel</string>
+    <string name="developer_website_title">DMD2 vous est présenté par</string>
+    <string name="follow_us_facebook">Visite et suit notre Facebook pour les dernières infos</string>
+    <string name="join_us_facebook">Joindre notre groupe Facebook</string>
+    <string name="adv_rider_thread">Joindre la discussion  the discussion des nouvelles fonctionnalités, bugs et requêtes</string>
 
 
     <!-- Widgets -->
@@ -197,6 +143,24 @@
     <string name="edit_odometer_message">Nouvelle valeur de l’odomètre:</string>
     <string name="edit_odometer_controller_guide">Controller: Haut/Bas change de 1, Zoom In/Out change de 100, Centrer/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
     <string name="hours">Heure</string>
+    <string name="speedo_trip_options">Options</string>
+    <string name="trip_options">Options du Trip</string>
+    <string name="trip_running_mode_title">Trip toujours actif</string>
+    <string name="trip_running_mode_summary">Si déactivé tu dois réactiver le Trip manuellement</string>
+    <string name="trip_auto_reset_title">RaZ Trip Automatique</string>
+    <string name="trip_auto_reset_summary">le Trip sera Remis à Zero automatiquement si le DMD2 est fermé pendant plus d’une période configurable.</string>
+    <string name="trip_auto_reset_time_title">Temps du RaZ Trip automatique</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 heures</item>
+        <item>12 heures</item>
+        <item>1 jour</item>
+        <item>2 jours</item>
+        <item>5 jours</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Options de disposition</string>
+    <string name="trip_hide_speed_title">Masquer vitesse &amp; Odo</string>
+    <string name="trip_hide_speed_summary">Masquer la vitesse et l’ ODO sont utiles si vous voulez augmenter les valeurs du Trip</string>
+    <string name="start_stop_trip">Démarrer/Pause Trip</string>
 
 
     <!-- Control Station -->
@@ -216,7 +180,8 @@
     <string name="dnd_mode_title">DND Mode de Permissions</string>
     <string name="dnd_mode_message">Pour ajuster le volume il faut les permissions pour DND Mode!</string>
     <string name="controller_default_message">Controller: Appuyer Haut pour sélectionner un  slider, appuyer bas pour retourner au menu.</string>
-
+    <string name="rotation_locked">Rotation vérouillée</string>
+    <string name="rotation_unlocked">Rotation dévérouillée</string>
 
 
     <!-- Roadbook -->
@@ -377,5 +342,31 @@
     <string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois le télécharger à nouveaux. Le mauvais fichier est : </string>
     <string name="error_loading_gpx_title">Erreur chargement GPX</string>
     <string name="error_loading_gpx_message">Erreur de chargement du fichier GPX, le fichier ne semble pas être compatible avec DMD2, essayez avec un fichier différent.</string>
+    <string name="map_delete_title">Voulez-vous supprimer cette carte?</string>
+    <string name="advanced_button">Avancé</string>
+    <string name="advanced_title">Options avancées</string>
+    <string name="merge_visible_tracks">Grouper les traces visibles</string>
+    <string name="restore_split_tracks">Restaurer les traces groupées</string>
+    <string name="unmerge">Dégrouper les traces</string>
+    <string name="this_track_is_the_sum">Cette trace est la fusion de</string>
+    <string name="of_tracks">Traces groupé</string>
+    <string name="merged_track">Traces groupés visibles</string>
+    <string name="track_merged_to_visible_tracks">Les traces seront groupées avec une trace visible</string>
+    <string name="dont_list_hidden_tracks">Délister les traces masqués</string>
+    <string name="list_hidden_tracks">Lister les traces masqués</string>
+    <string name="track_hidden_from_list">Les traces seront masqués de la liste</string>
+    <string name="tune_line">Réglage de l\'aspect de ligne</string>
+    <string name="clean_waypoints">Masquer les Waypoints distants</string>
+    <string name="clean_waypoints_description">Masque les waypoints éloignés de la trace d\'une distance supérieur à:</string>
+    <string name="processing_cleaning_waypoints">Traitement des Waypoints Visible… Celà peut prendre du temps!</string>
+    <string name="no_waypoint_was_hidden">Ne trouve pas de Waypoint correspondant aux critères. Essayez avec une plus courte distance.</string>
+    <string name="found_and_hidden_waypoint_a">Trouvé</string>
+    <string name="found_and_hidden_waypoint_b">Waypoints correspondant à vos critères. Ces Waypoints sont maintenant masqués!</string>
+    <string name="unlist_hidden_waypoints">Délister les Waypoints masqués</string>
+    <string name="marker_removed_from_list">Les Waypoints seront retirés de la liste</string>
+    <string name="list_hidden_waypoints">Lister les Waypoints masqués</string>
+    <string name="invert_gpx_direction">Inverser la direction de voyage</string>
+    <string name="restore_gpx_direction">Retablir la direction de voyage</string>
+
 
 </resources>
