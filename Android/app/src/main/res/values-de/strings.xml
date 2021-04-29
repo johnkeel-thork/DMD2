@@ -1,33 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Bildschirm-Drehen gesperrt</string>
-    <string name="rotation_unlocked">Bildschirm-Drehen entsperrt</string>
-
-    <string name="speedo_trip_options">Optionen</string>
-    <string name="trip_options">Trip-Zähler Optionen</string>
-    <string name="trip_running_mode_title">Trip-Zähler läuft immer/string>
-    <string name="trip_running_mode_summary">Wenn ausgeschaltet muss der Trip-Zähler manuell gestartet werden.</string>
-    <string name="trip_auto_reset_title">Automatische Trip-Zähler Rückstellung</string>
-    <string name="trip_auto_reset_summary">Trip-Zähler wird automatisch zurückgestellt wenn DMD2 länger als die eingestellte Zeit beendet wird</string>
-    <string name="trip_auto_reset_time_title">Zeit für automatische Trip-Zähler Rückstellung</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 Stunden</item>
-        <item>12 Stunden</item>
-        <item>1 Tag</item>
-        <item>2 Tage</item>
-        <item>5 Tage</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Darstellungsoptionen</string>
-    <string name="trip_hide_speed_title">Verstecke Tacho &amp; KM-Zähler</string>
-    <string name="trip_hide_speed_summary">Tacho und KM-Zähler zu verstecken ist sinnvoll um die Trip-Zähler Darstellung zu vergrössern</string>
-    <string name="start_stop_trip">Starte/Pausiere Trip_Zähler</string>
-
-    <!-- END OF UNTRANSLATED -->
-    
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -168,6 +140,24 @@
     <string name="edit_odometer_message">Bitte neuen Km-Zähler Wert eingeben:</string>
     <string name="edit_odometer_controller_guide">Controller: Hoch/Runter verändert um 1, Zoom rein/rausverändert um 100, Mitte/Enter lange drücken setzt zurück, links/rechts für Abbrechen/Speichern</string>
     <string name="hours">Stunden</string>
+    <string name="speedo_trip_options">Optionen</string>
+    <string name="trip_options">Trip-Zähler Optionen</string>
+    <string name="trip_running_mode_title">Trip-Zähler läuft immer</string>
+    <string name="trip_running_mode_summary">Wenn ausgeschaltet muss der Trip-Zähler manuell gestartet werden.</string>
+    <string name="trip_auto_reset_title">Automatische Trip-Zähler Rückstellung</string>
+    <string name="trip_auto_reset_summary">Trip-Zähler wird automatisch zurückgestellt wenn DMD2 länger als die eingestellte Zeit beendet wird</string>
+    <string name="trip_auto_reset_time_title">Zeit für automatische Trip-Zähler Rückstellung</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 Stunden</item>
+        <item>12 Stunden</item>
+        <item>1 Tag</item>
+        <item>2 Tage</item>
+        <item>5 Tage</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Darstellungsoptionen</string>
+    <string name="trip_hide_speed_title">Verstecke Tacho &amp; KM-Zähler</string>
+    <string name="trip_hide_speed_summary">Tacho und KM-Zähler zu verstecken ist sinnvoll um die Trip-Zähler Darstellung zu vergrößern</string>
+    <string name="start_stop_trip">Starte/Pausiere Trip_Zähler</string>
 
 
     <!-- Control Station -->
@@ -187,6 +177,8 @@
     <string name="dnd_mode_title">Rechte für "Bitte nicht Stören" Modus</string>
     <string name="dnd_mode_message">Um alle Lautstärke Pegel einzustellen brauchen wir Rechte für "Bitte nicht Stören"!</string>
     <string name="controller_default_message">Carpe Controller: Drücke Hoch um einen Regler zu wählen, Runter um zum Menü zurückzukehren.</string>
+    <string name="rotation_locked">Bildschirm-Drehen gesperrt</string>
+    <string name="rotation_unlocked">Bildschirm-Drehen entsperrt</string>
 
 
     <!-- Roadbook -->
