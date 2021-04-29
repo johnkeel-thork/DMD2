@@ -1,32 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED STRINGS -->
-    <string name="rotation_locked">Κλείδωμα Περιστροφής</string>
-    <string name="rotation_unlocked">Ξεκλείδωμα Περιστροφής</string>
-
-    <string name="speedo_trip_options">Επιλογές</string>
-    <string name="trip_options">Επιλογές Ταξιδίου</string>
-    <string name="trip_running_mode_title">Το Ταξίδι Είναι Πάντα Σε Λειτουργία</string>
-    <string name="trip_running_mode_summary">Εάν απενεργοποιηθεί, θα πρέπει να εκκινείται το ταξίδι χειροκίνητα</string>
-    <string name="trip_auto_reset_title">Αυτόματη Επαναφορά Ταξιδίου</string>
-    <string name="trip_auto_reset_summary">Θα γίνει αυτόματη επαναφορά του ταξιδίου εάν το DMD2 παραμείνει κλειστό για περισσότερο χρονικό διάστημα</string>
-    <string name="trip_auto_reset_time_title">Αυτόματη Επαναφορά Χρόνου Ταξιδίου</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 ώρες</item>
-        <item>12 ώρες</item>
-        <item>1 ημέρα</item>
-        <item>2 ημέρες</item>
-        <item>5 ημέρες</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Επιλογές Εμφάνισης</string>
-    <string name="trip_hide_speed_title">Απόκρυψη Ταχύτητας &amp; Οδόμετρου</string>
-    <string name="trip_hide_speed_summary">Αποκρύβοντας την ταχύτητα και το οδόμετρο χρησιμεύει στο αν θέλετε να μεγαλώσετε τις τιμές του Ταξιδίου</string>
-    <string name="start_stop_trip">Εκκίνηση/Παύση Ταξιδίου</string>
-    <!-- END OF UNTRANSLATED -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -163,6 +136,24 @@
     <string name="edit_odometer_message">Παρακαλώ εισάγεται νέα τιμή οδόμετρου:</string>
     <string name="edit_odometer_controller_guide">Χειριστήριο: Πάνω/Κάτω αλλάζει ανά 1, Μεγέθυνση/Σμίκρυνση: αλλάζει ανά 100, Κεντρικό/Enter επαναφορά στο μηδέν με παραταιταμένο πάτημα, Αριστερό/Δεξί για Ακύρωση/Αποθήκευση</string>
     <string name="hours">Ώρες</string>
+    <string name="speedo_trip_options">Επιλογές</string>
+    <string name="trip_options">Επιλογές Ταξιδίου</string>
+    <string name="trip_running_mode_title">Το Ταξίδι Είναι Πάντα Σε Λειτουργία</string>
+    <string name="trip_running_mode_summary">Εάν απενεργοποιηθεί, θα πρέπει να εκκινείται το ταξίδι χειροκίνητα</string>
+    <string name="trip_auto_reset_title">Αυτόματη Επαναφορά Ταξιδίου</string>
+    <string name="trip_auto_reset_summary">Θα γίνει αυτόματη επαναφορά του ταξιδίου εάν το DMD2 παραμείνει κλειστό για περισσότερο χρονικό διάστημα</string>
+    <string name="trip_auto_reset_time_title">Αυτόματη Επαναφορά Χρόνου Ταξιδίου</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 ώρες</item>
+        <item>12 ώρες</item>
+        <item>1 ημέρα</item>
+        <item>2 ημέρες</item>
+        <item>5 ημέρες</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Επιλογές Εμφάνισης</string>
+    <string name="trip_hide_speed_title">Απόκρυψη Ταχύτητας &amp; Οδόμετρου</string>
+    <string name="trip_hide_speed_summary">Αποκρύβοντας την ταχύτητα και το οδόμετρο χρησιμεύει στο αν θέλετε να μεγαλώσετε τις τιμές του Ταξιδίου</string>
+    <string name="start_stop_trip">Εκκίνηση/Παύση Ταξιδίου</string>
 
 
 
@@ -183,7 +174,8 @@
     <string name="dnd_mode_title">Δικαιώματα λειτουργίας DND</string>
     <string name="dnd_mode_message">Η λειτουργία DND χρειάζεται δικαιώματα για την πλήρη προσαρμογή όλων των βαθμίδων!</string>
     <string name="controller_default_message">Χειριστήριο: Πατήστε το επάνω για να επιλέξετε μια ρύθμιση, πατήστε το κάτω για να επιστρέψετε στο μενού.</string>
-
+    <string name="rotation_locked">Κλείδωμα Περιστροφής</string>
+    <string name="rotation_unlocked">Ξεκλείδωμα Περιστροφής</string>
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Πατήστε για να ανοίξετε ένα αρχείο</string>
