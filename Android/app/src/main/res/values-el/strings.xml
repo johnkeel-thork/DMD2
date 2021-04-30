@@ -1,5 +1,81 @@
 <resources>
 
+    <!-- UNTRANSLATED -->
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD Sensors</string>
+    <string name="obd_setup">OBD View Setup</string>
+    <string name="device_setup">OBD Bluetooth Device Setup</string>
+    <string name="select_device_title">Choose Paired OBD Device</string>
+    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
+    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
+    <string name="obd_cat_title_pref">OBD Preferences</string>
+    <string name="pref_obd_protocols_title">OBD Protocol</string>
+    <string name="pref_obd_protocols_summary">Select which OBD Protocol to use</string>
+    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
+    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
+    <string name="pref_reader_config_title">Reader Config Commands</string>
+    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
+    <string name="speed_rpm_options">Speed and RPM Options</string>
+    <string name="speed_value_source_title">GPS Speed Value Source</string>
+    <string name="speed_value_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
+    <string name="max_rpm_title">Set Maximum RPM</string>
+    <string name="max_rpm_summary">Set your vehicle maximum RPM value</string>
+    <string name="redline_rpm_title">Set Redline RPM</string>
+    <string name="redline_rpm_summary">Set your Redline value (will turn on Red circle warning)</string>
+    <string name="shift_rpm_title">Set Gear Shift RPM</string>
+    <string name="shift_rpm_summary">Set your ideal Gear Shift RPM value (will turn on Green circle warning)</string>
+    <string name="show_hide_sensors_cat">Full View - Hide / Show Sensors</string>
+    <string name="show_hide_maf_title">Show M.A.F. Sensor</string>
+    <string name="show_hide_maf_summary">This sensor is not available on all vehicles</string>
+    <string name="show_hide_oil_temp_title">Show Oil Temperature Sensor</string>
+    <string name="show_hide_voltage_title">Show Voltage Sensor</string>
+    <string name="show_engine_load_title">Show Engine Load Sensor</string>
+    <string name="show_fuel_level_title">Show Fuel Level Sensor</string>
+    <string name="record_vals_title">Record Values</string>
+    <string name="max_liquid_temp">Max Coolant Temp:</string>
+    <string name="max_rpm">Max RPM:</string>
+    <string name="max_throttle">Max Throttle:</string>
+    <string name="min_voltage">Min Voltage:</string>
+    <string name="no_dtc_error">No DTC Errors</string>
+    <string name="dtc_error">DTC Errors Found!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle Disconnected (Controller: Press Joystick Center / Terrain Enter to connect)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle Connected</string>
+    <string name="bt_dongle_connect">Start OBD Connection</string>
+    <string name="bt_dongle_already_connected">OBD Dongle Already Connected</string>
+    <string name="reset_record_values">Reset Record Values</string>
+    <string name="auto_start_obd_connection_title">Auto Start OBD Connection</string>
+    <string name="auto_start_obd_connection_summary">If enabled will attempt to connect to OBD Dongle on app start</string>
+    <string name="coolant_temp_label">Coolant T.</string>
+    <string name="oil_temp_label">Oil T.</string>
+    <string name="intake_temp_label">Intake T.</string>
+    <string name="intake_pressure_label">Intake P.</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Throttle Position</string>
+    <string name="engine_load">Engine Load</string>
+    <string name="voltage">Voltage</string>
+    <string name="fuel_level">Fuel Level</string>
+    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
+    <string name="obd_service_obd_connected">Connected to dongle!</string>
+    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
+    <string name="reset_dtc_errors">Reset DTC Errors</string>
+    <string name="throttle_options">Throttle Options</string>
+    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
+    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
+    <string name="calibrate_throttle_title">Calibrate Throttle Position</string>
+    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
+    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
+    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
+    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
+    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
+    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
+    <!-- END OF UNTRANSLATED -->
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
