@@ -1,80 +1,5 @@
 <resources>
 
-    <!-- UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD Sensorit</string>
-    <string name="obd_setup">OBD-näkymän valinnat</string>
-    <string name="device_setup">OBD Bluetooth-laitehallinta</string>
-    <string name="select_device_title">Valitse yhdistetty OBD-laite</string>
-    <string name="obd_bluetooth_list_devices_summary">Valitse yhdistetyistä bluetooth-laitteista. Varmista että "dongle" on yhdistetty ensin!</string>
-    <string name="obd_bluetooth_list_devices_title">Valitse ELM327 Bluetooth -laite</string>
-    <string name="obd_cat_title_pref">OBD Valinnat</string>
-    <string name="pref_obd_protocols_title">OBD protokolla</string>
-    <string name="pref_obd_protocols_summary">Valitse käytettävä OBD-protokolla</string>
-    <string name="pref_obd_update_period_title">Päivitysväli sekunteina</string>
-    <string name="pref_obd_update_period_summary">Aikaväli ajoneuvon tietojen hakujen välillä sekunteina</string>
-    <string name="pref_reader_config_title">Lukijan komentoasetukset</string>
-    <string name="pref_reader_config_summary">Komennot bluetooth-lukijan konfiguroimiseksi, erota komennot omille riveilleen</string>
-    <string name="speed_rpm_options">Nopeuden ja Kierrosluvun valinnat</string>
-    <string name="speed_value_source_title">GPS-nopeuden lähde</string>
-    <string name="speed_value_source_summary">Käytä OBD-nopeustiedon (joka ei aina saatavilla) sijaan nopeustietoa GPS:tä / Terrain Commandin Rengas-sensorilta</string>
-    <string name="max_rpm_title">Aseta maksimikierrosluku</string>
-    <string name="max_rpm_summary">Aseta ajoneuvosi maksimikierrosluku</string>
-    <string name="redline_rpm_title">Aseta kierrosluvun "punaraja"</string>
-    <string name="redline_rpm_summary">Aseta "punaraja" kierrosluku (Punainen kierroslukuvaroitus)</string>
-    <string name="shift_rpm_title">Aseta vaihteenvaidon kierrosluku</string>
-    <string name="shift_rpm_summary">Aseta vaihteenvaihdon ideaalisen kierrosluvun yläraja (Vihreä kierroslukuvaroitus)</string>
-    <string name="show_hide_sensors_cat">Näytä/Piilota sensorit</string>
-    <string name="show_hide_maf_title">Näytä M.A.F.</string>
-    <string name="show_hide_maf_summary">Tämä sensori ei ole käytettävissä kaikissa ajoneuvoissa</string>
-    <string name="show_hide_oil_temp_title">Näytä öljyn lämpötila</string>
-    <string name="show_hide_voltage_title">Näytä jännite</string>
-    <string name="show_engine_load_title">Näytä moottorin kuorma</string>
-    <string name="show_fuel_level_title">Näytä polttoaineen määrä</string>
-    <string name="record_vals_title">Tallentuneet huippuarvot</string>
-    <string name="max_liquid_temp">Jäähd.nesteen lämpötila max:</string>
-    <string name="max_rpm">Kierrosluku max:</string>
-    <string name="max_throttle">Kaasukahvan asento max:</string>
-    <string name="min_voltage">Jännite min:</string>
-    <string name="no_dtc_error">Ei DTC-virheilmoituksia</string>
-    <string name="dtc_error">Havaittu DTC-virheilmoituksia!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle ei yhdistetty (Ohjaimella: Paina Keski/Enter-painiketta yhdistääksesi)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle yhdistetty</string>
-    <string name="bt_dongle_connect">Muodosta OBD-yhteys</string>
-    <string name="bt_dongle_already_connected">OBD Dongle on jo yhdistetty</string>
-    <string name="reset_record_values">Nollaa huippuarvot</string>
-    <string name="auto_start_obd_connection_title">Muodosta OBD-yhteys automaattisesti</string>
-    <string name="auto_start_obd_connection_summary">Jos valittuna, yhdistetään OBD Dongle automaattisesti sovelluksen käynnistyessä</string>
-    <string name="coolant_temp_label">Jäähd.nesteen lämpötila</string>
-    <string name="oil_temp_label">Öljyn lämpötila</string>
-    <string name="intake_temp_label">Imuilman lämpötila</string>
-    <string name="intake_pressure_label">Imuilman paine</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Kaasukahvan asento</string>
-    <string name="engine_load">Moottorin kuorma</string>
-    <string name="voltage">Jännite</string>
-    <string name="fuel_level">Polttoaineen määrä</string>
-    <string name="obd_service_notification_title">OBD-seuranta päällä</string>
-    <string name="obd_service_obd_connected">Dongle yhdistetty!</string>
-    <string name="obd_service_obd_disconnected">Dongle-yhteys katkaistu!</string>
-    <string name="reset_dtc_errors">Tyhjennä DTC-virheilmoitukset</string>
-    <string name="throttle_options">Kaasukahvan asennon valinnat</string>
-    <string name="use_raw_throttle_title">Käytä kaasukahvan asennon mitattua arvoa</string>
-    <string name="use_raw_throttle_message">Käytä mitattua arvoa sellaisenaan tai kalibroi kaasukahvan ääriasennot</string>
-    <string name="calibrate_throttle_title">Kalibroi kaasukahvan ääriasennot</string>
-    <string name="calibrate_throttle_message">Avaa ohjatun dialogin kaasukahvan ääriasentojen kalibroimiseksi. Edellyttää että moottorinohjainyksikkö on päällä ja OBD dongle yhdistettynä, moottorin tulisi olla sammutettuna. Tämä ei muuta mitään arvoja moottorinohjainyksikössä!</string>
-    <string name="min_throttle_calib_dialog_title">Kaasukahvan minimi-kohdan kalibrointi </string>
-    <string name="min_throttle_calib_dialog_message">KÄYNNISTÄ MOOTTORI! Varmista että moottori on lämmin ja käy normaalia tyhjäkäyntiä! Kaasukahvan tulee olla minimiasennossa (tyhjäkäynnillä/kokonaan pois -asennossa). Paina ASETA-painiketta kun valmista.</string>
-    <string name="throttle_calib_set_minimum">Aseta minimi</string>
-    <string name="max_throttle_calib_dialog_title">Kaasukahvan maksimi-kohdan kalibrointi</string>
-    <string name="max_throttle_calib_dialog_message">SAMMUTA MOOTTORI MUTTA JÄTÄ VIRTA PÄÄLLE! Varmista että kaasukahva on maksimiasennossa (täyskaasu). Paina ASETA-painiketta kun valmista.</string>
-    <string name="throttle_calib_set_maximum">Aseta maksimi</string>
-    <string name="throttle_calib_finished">Kaasukahvan ääriasennot asetettu</string>
-    <string name="cant_calib_obd_disconnected">Yhdistä ensin OBD Dongle!</string>
-    <string name="error_dongle_not_configurable">Määritä ensin BT OBD Dongle!</string>
-    <!-- END OF UNTRANSLATED -->
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -228,7 +153,7 @@
     <string name="trip_options_layout_cat">Nopeusmittarinäkymän valinnat</string>
     <string name="trip_hide_speed_title">Piilota nopeus &amp; mittarilukema</string>
     <string name="trip_hide_speed_summary">Piilottamalla nopeuden ja mittarilukeman saat Matkatiedot näkymään suurempana</string>
-    <string name="start_stop_trip">Käynnistä/Pysäytä matka</string>
+    <string name="start_stop_trip">Käynnistä/Pysäytä matkan mittaus</string>
 
 
 
@@ -435,6 +360,79 @@
     <string name="list_hidden_waypoints">Listaa piilotetut reittipisteet</string>
     <string name="invert_gpx_direction">Käännä reitin suunta</string>
     <string name="restore_gpx_direction">Palauta reitin suunta</string>
+
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD Sensorit</string>
+    <string name="obd_setup">OBD-näkymän valinnat</string>
+    <string name="device_setup">OBD Bluetooth-laitehallinta</string>
+    <string name="select_device_title">Valitse yhdistetty OBD-laite</string>
+    <string name="obd_bluetooth_list_devices_summary">Valitse yhdistetyistä bluetooth-laitteista. Varmista että "dongle" on yhdistetty ensin!</string>
+    <string name="obd_bluetooth_list_devices_title">Valitse ELM327 Bluetooth -laite</string>
+    <string name="obd_cat_title_pref">OBD Valinnat</string>
+    <string name="pref_obd_protocols_title">OBD protokolla</string>
+    <string name="pref_obd_protocols_summary">Valitse käytettävä OBD-protokolla</string>
+    <string name="pref_obd_update_period_title">Päivitysväli sekunteina</string>
+    <string name="pref_obd_update_period_summary">Aikaväli ajoneuvon tietojen hakujen välillä sekunteina</string>
+    <string name="pref_reader_config_title">Lukijan komentoasetukset</string>
+    <string name="pref_reader_config_summary">Komennot bluetooth-lukijan konfiguroimiseksi, erota komennot omille riveilleen</string>
+    <string name="speed_rpm_options">Nopeuden ja Kierrosluvun valinnat</string>
+    <string name="speed_value_source_title">GPS-nopeuden lähde</string>
+    <string name="speed_value_source_summary">Käytä OBD-nopeustiedon (joka ei aina saatavilla) sijaan nopeustietoa GPS:tä / Terrain Commandin Rengas-sensorilta</string>
+    <string name="max_rpm_title">Aseta maksimikierrosluku</string>
+    <string name="max_rpm_summary">Aseta ajoneuvosi maksimikierrosluku</string>
+    <string name="redline_rpm_title">Aseta kierrosluvun "punaraja"</string>
+    <string name="redline_rpm_summary">Aseta "punaraja" kierrosluku (Punainen kierroslukuvaroitus)</string>
+    <string name="shift_rpm_title">Aseta vaihteenvaidon kierrosluku</string>
+    <string name="shift_rpm_summary">Aseta vaihteenvaihdon ideaalisen kierrosluvun yläraja (Vihreä kierroslukuvaroitus)</string>
+    <string name="show_hide_sensors_cat">Näytä/Piilota sensorit</string>
+    <string name="show_hide_maf_title">Näytä M.A.F.</string>
+    <string name="show_hide_maf_summary">Tämä sensori ei ole käytettävissä kaikissa ajoneuvoissa</string>
+    <string name="show_hide_oil_temp_title">Näytä öljyn lämpötila</string>
+    <string name="show_hide_voltage_title">Näytä jännite</string>
+    <string name="show_engine_load_title">Näytä moottorin kuorma</string>
+    <string name="show_fuel_level_title">Näytä polttoaineen määrä</string>
+    <string name="record_vals_title">Tallentuneet huippuarvot</string>
+    <string name="max_liquid_temp">Jäähd.nesteen lämpötila max:</string>
+    <string name="max_rpm">Kierrosluku max:</string>
+    <string name="max_throttle">Kaasukahvan asento max:</string>
+    <string name="min_voltage">Jännite min:</string>
+    <string name="no_dtc_error">Ei DTC-virheilmoituksia</string>
+    <string name="dtc_error">Havaittu DTC-virheilmoituksia!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle ei yhdistetty (Ohjaimella: Paina Keski/Enter-painiketta yhdistääksesi)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle yhdistetty</string>
+    <string name="bt_dongle_connect">Muodosta OBD-yhteys</string>
+    <string name="bt_dongle_already_connected">OBD Dongle on jo yhdistetty</string>
+    <string name="reset_record_values">Nollaa huippuarvot</string>
+    <string name="auto_start_obd_connection_title">Muodosta OBD-yhteys automaattisesti</string>
+    <string name="auto_start_obd_connection_summary">Jos valittuna, yhdistetään OBD Dongle automaattisesti sovelluksen käynnistyessä</string>
+    <string name="coolant_temp_label">Jäähd.nesteen lämpötila</string>
+    <string name="oil_temp_label">Öljyn lämpötila</string>
+    <string name="intake_temp_label">Imuilman lämpötila</string>
+    <string name="intake_pressure_label">Imuilman paine</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Kaasukahvan asento</string>
+    <string name="engine_load">Moottorin kuorma</string>
+    <string name="voltage">Jännite</string>
+    <string name="fuel_level">Polttoaineen määrä</string>
+    <string name="obd_service_notification_title">OBD-seuranta päällä</string>
+    <string name="obd_service_obd_connected">Dongle yhdistetty!</string>
+    <string name="obd_service_obd_disconnected">Dongle-yhteys katkaistu!</string>
+    <string name="reset_dtc_errors">Tyhjennä DTC-virheilmoitukset</string>
+    <string name="throttle_options">Kaasukahvan asennon valinnat</string>
+    <string name="use_raw_throttle_title">Käytä kaasukahvan asennon mitattua arvoa</string>
+    <string name="use_raw_throttle_message">Käytä mitattua arvoa sellaisenaan tai kalibroi kaasukahvan ääriasennot</string>
+    <string name="calibrate_throttle_title">Kalibroi kaasukahvan ääriasennot</string>
+    <string name="calibrate_throttle_message">Avaa ohjatun dialogin kaasukahvan ääriasentojen kalibroimiseksi. Edellyttää että moottorinohjainyksikkö on päällä ja OBD dongle yhdistettynä, moottorin tulisi olla sammutettuna. Tämä ei muuta mitään arvoja moottorinohjainyksikössä!</string>
+    <string name="min_throttle_calib_dialog_title">Kaasukahvan minimi-kohdan kalibrointi </string>
+    <string name="min_throttle_calib_dialog_message">KÄYNNISTÄ MOOTTORI! Varmista että moottori on lämmin ja käy normaalia tyhjäkäyntiä! Kaasukahvan tulee olla minimiasennossa (tyhjäkäynnillä/kokonaan pois -asennossa). Paina ASETA-painiketta kun valmista.</string>
+    <string name="throttle_calib_set_minimum">Aseta minimi</string>
+    <string name="max_throttle_calib_dialog_title">Kaasukahvan maksimi-kohdan kalibrointi</string>
+    <string name="max_throttle_calib_dialog_message">SAMMUTA MOOTTORI MUTTA JÄTÄ VIRTA PÄÄLLE! Varmista että kaasukahva on maksimiasennossa (täyskaasu). Paina ASETA-painiketta kun valmista.</string>
+    <string name="throttle_calib_set_maximum">Aseta maksimi</string>
+    <string name="throttle_calib_finished">Kaasukahvan ääriasennot asetettu</string>
+    <string name="cant_calib_obd_disconnected">Yhdistä ensin OBD Dongle!</string>
+    <string name="error_dongle_not_configurable">Määritä ensin BT OBD Dongle!</string>
 
 
 </resources>
