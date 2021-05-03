@@ -1,82 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD Følere</string>
-    <string name="obd_setup">OBD Visning</string>
-    <string name="device_setup">Innstillinger for OBD bluetooth</string>
-    <string name="select_device_title">Velg tilkoblet OBDenhet</string>
-    <string name="obd_bluetooth_list_devices_summary">Velg en tilkoblet enhet. Kontroller at OBDenheten er parret!</string>
-    <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetooth enhet</string>
-    <string name="obd_cat_title_pref">OBD Innstillinger</string>
-    <string name="pref_obd_protocols_title">OBD Protokoll</string>
-    <string name="pref_obd_protocols_summary">Velg OBD Protokoll</string>
-    <string name="pref_obd_update_period_title">Oppdateringsintervall i sekunder</string>
-    <string name="pref_obd_update_period_summary">Antall sekunder mellom hver spørring mot kjøretøydata via ODB</string>
-    <string name="pref_reader_config_title">Bluetoothleser oppsett</string>
-    <string name="pref_reader_config_summary">Kommandoer for å stille inn bluetoothleser, del med ny linje</string>
-    <string name="speed_rpm_options">Fart og turtall</string>
-    <string name="speed_value_source_title">GPS fartkilde</string>
-    <string name="speed_value_source_summary">Bruk GSP/Hjulsensor i stedet for OBD data for fart (OBDdata kan vær utilgjengelig)</string>
-    <string name="max_rpm_title">Høyeste turtall</string>
-    <string name="max_rpm_summary">Still inn kjøretøyets høyeste turtall</string>
-    <string name="redline_rpm_title">Rød grenseverdi for turtall</string>
-    <string name="redline_rpm_summary">Still inn rød grenseverdi for turtall (Rød varselsirkel)</string>
-    <string name="shift_rpm_title">Optimalt girskiftsturtall</string>
-    <string name="shift_rpm_summary">Still inn optimalt turtall for girskift (Grønn varselsirkel)</string>
-    <string name="show_hide_sensors_cat">Sensorvisning - Skjul / vis følere</string>
-    <string name="show_hide_maf_title">Vis M.A.F. føler</string>
-    <string name="show_hide_maf_summary">Dene føleren er ikke tilgjengelig på alle kjøretøy</string>
-    <string name="show_hide_oil_temp_title">Vis oljetemperatur</string>
-    <string name="show_hide_voltage_title">Vis ladespenning</string>
-    <string name="show_engine_load_title">Vis motorlast</string>
-    <string name="show_fuel_level_title">Vis drivstoffnivå</string>
-    <string name="record_vals_title">Registrer verdier</string>
-    <string name="max_liquid_temp">Høyeste kjølevannstemperatur:</string>
-    <string name="max_rpm">Høyeste turtall:</string>
-    <string name="max_throttle">Høyeste gasspådrag:</string>
-    <string name="min_voltage">Laveste ladespenning:</string>
-    <string name="no_dtc_error">Ingen feilkoder (DTC)</string>
-    <string name="dtc_error">Feilkode registrert(DTC)!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle frakoblet (Controller: Trykk Joystick Senter / Enter for å koble til)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle tilkoblet</string>
-    <string name="bt_dongle_connect">Start OBD tilkobling</string>
-    <string name="bt_dongle_already_connected">OBD Dongle allerede tilkoblet</string>
-    <string name="reset_record_values">Nullstill registrerte vewrdier</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD tilkobling</string>
-    <string name="auto_start_obd_connection_summary">Når valgt vil DMD forsøke å koble til OBD Dongle ved oppstart</string>
-    <string name="coolant_temp_label">Kjølevannstemp.</string>
-    <string name="oil_temp_label">Oljetemp.</string>
-    <string name="intake_temp_label">Innsugstemp.</string>
-    <string name="intake_pressure_label">Innsugstrykk.</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Gasspådrag</string>
-    <string name="engine_load">Motorlast</string>
-    <string name="voltage">Ladespenning</string>
-    <string name="fuel_level">Drivstoffnivå</string>
-    <string name="obd_service_notification_title">OBD overvåkning kjører</string>
-    <string name="obd_service_obd_connected">Tilkoblet dongle!</string>
-    <string name="obd_service_obd_disconnected">Frakoblet fra dongle!</string>
-    <string name="reset_dtc_errors">Nullstill feilkodeer (DTC)</string>
-    <string name="throttle_options">Instillinger for gasspådrag</string>
-    <string name="use_raw_throttle_title">Bruk ufiltret gasspådragsposisjon</string>
-    <string name="use_raw_throttle_message">Bruk ufiltrert OBD2 rådata eller still inn maks og min. posisjon.</string>
-    <string name="calibrate_throttle_title">Kalibrer gasspådragsposisjon</string>
-    <string name="calibrate_throttle_message">Dette vil starte en dialog med instruksjoner for å kalibrere gasspådragssposisjon. ECU må være PÅ og OBD dongle tilkloblet, motoren bør IKKE gå. Dette vil IKKE endre noen verdier i ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Kalibrer laveste gasspådrag</string>
-    <string name="min_throttle_calib_dialog_message">START MOTOREN! Motoren skal gå på normal oppvarmet tomgang!!! Gasshåndtaket bør være uten pådrag (tomgang / ingen pådrag). Trykk LAGRE når klar.</string>
-    <string name="throttle_calib_set_minimum">LAGRE LAVESTE</string>
-    <string name="max_throttle_calib_dialog_title">Kalibrer høyeste gasspådrag</string>
-    <string name="max_throttle_calib_dialog_message">STANS MOTOREN OG LA TENNINGEN VÆRE PÅ! Vri gasshåndtaket til fullt pådrag. Trykk LAGRE når klar.</string>
-    <string name="throttle_calib_set_maximum">LAGRE HØYESTE</string>
-    <string name="throttle_calib_finished">Laveste og høyeste gasspådrag lagret</string>
-    <string name="cant_calib_obd_disconnected">Vennligst koble til OBD Dongle først!</string>
-    <string name="error_dongle_not_configurable">Vennligst konigurer BT OBD Dongle først!</string>
-    <!-- END OF UNTRANSLATED -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -438,5 +361,77 @@
     <string name="invert_gpx_direction">Snu kjøreretning på spor</string>
     <string name="restore_gpx_direction">Gjenopprett kjøreretning på spor</string>
 
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD Følere</string>
+    <string name="obd_setup">OBD Visning</string>
+    <string name="device_setup">Innstillinger for OBD bluetooth</string>
+    <string name="select_device_title">Velg tilkoblet OBDenhet</string>
+    <string name="obd_bluetooth_list_devices_summary">Velg en tilkoblet enhet. Kontroller at OBDenheten er parret!</string>
+    <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetooth enhet</string>
+    <string name="obd_cat_title_pref">OBD Innstillinger</string>
+    <string name="pref_obd_protocols_title">OBD Protokoll</string>
+    <string name="pref_obd_protocols_summary">Velg OBD Protokoll</string>
+    <string name="pref_obd_update_period_title">Oppdateringsintervall i sekunder</string>
+    <string name="pref_obd_update_period_summary">Antall sekunder mellom hver spørring mot kjøretøydata via ODB</string>
+    <string name="pref_reader_config_title">Bluetoothleser oppsett</string>
+    <string name="pref_reader_config_summary">Kommandoer for å stille inn bluetoothleser, del med ny linje</string>
+    <string name="speed_rpm_options">Fart og turtall</string>
+    <string name="speed_value_source_title">GPS fartkilde</string>
+    <string name="speed_value_source_summary">Bruk GSP/Hjulsensor i stedet for OBD data for fart (OBDdata kan vær utilgjengelig)</string>
+    <string name="max_rpm_title">Høyeste turtall</string>
+    <string name="max_rpm_summary">Still inn kjøretøyets høyeste turtall</string>
+    <string name="redline_rpm_title">Rød grenseverdi for turtall</string>
+    <string name="redline_rpm_summary">Still inn rød grenseverdi for turtall (Rød varselsirkel)</string>
+    <string name="shift_rpm_title">Optimalt girskiftsturtall</string>
+    <string name="shift_rpm_summary">Still inn optimalt turtall for girskift (Grønn varselsirkel)</string>
+    <string name="show_hide_sensors_cat">Sensorvisning - Skjul / vis følere</string>
+    <string name="show_hide_maf_title">Vis M.A.F. føler</string>
+    <string name="show_hide_maf_summary">Dene føleren er ikke tilgjengelig på alle kjøretøy</string>
+    <string name="show_hide_oil_temp_title">Vis oljetemperatur</string>
+    <string name="show_hide_voltage_title">Vis ladespenning</string>
+    <string name="show_engine_load_title">Vis motorlast</string>
+    <string name="show_fuel_level_title">Vis drivstoffnivå</string>
+    <string name="record_vals_title">Registrer verdier</string>
+    <string name="max_liquid_temp">Høyeste kjølevannstemperatur:</string>
+    <string name="max_rpm">Høyeste turtall:</string>
+    <string name="max_throttle">Høyeste gasspådrag:</string>
+    <string name="min_voltage">Laveste ladespenning:</string>
+    <string name="no_dtc_error">Ingen feilkoder (DTC)</string>
+    <string name="dtc_error">Feilkode registrert(DTC)!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle frakoblet (Controller: Trykk Joystick Senter / Enter for å koble til)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle tilkoblet</string>
+    <string name="bt_dongle_connect">Start OBD tilkobling</string>
+    <string name="bt_dongle_already_connected">OBD Dongle allerede tilkoblet</string>
+    <string name="reset_record_values">Nullstill registrerte vewrdier</string>
+    <string name="auto_start_obd_connection_title">Auto Start OBD tilkobling</string>
+    <string name="auto_start_obd_connection_summary">Når valgt vil DMD forsøke å koble til OBD Dongle ved oppstart</string>
+    <string name="coolant_temp_label">Kjølevannstemp.</string>
+    <string name="oil_temp_label">Oljetemp.</string>
+    <string name="intake_temp_label">Innsugstemp.</string>
+    <string name="intake_pressure_label">Innsugstrykk.</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Gasspådrag</string>
+    <string name="engine_load">Motorlast</string>
+    <string name="voltage">Ladespenning</string>
+    <string name="fuel_level">Drivstoffnivå</string>
+    <string name="obd_service_notification_title">OBD overvåkning kjører</string>
+    <string name="obd_service_obd_connected">Tilkoblet dongle!</string>
+    <string name="obd_service_obd_disconnected">Frakoblet fra dongle!</string>
+    <string name="reset_dtc_errors">Nullstill feilkodeer (DTC)</string>
+    <string name="throttle_options">Instillinger for gasspådrag</string>
+    <string name="use_raw_throttle_title">Bruk ufiltret gasspådragsposisjon</string>
+    <string name="use_raw_throttle_message">Bruk ufiltrert OBD2 rådata eller still inn maks og min. posisjon.</string>
+    <string name="calibrate_throttle_title">Kalibrer gasspådragsposisjon</string>
+    <string name="calibrate_throttle_message">Dette vil starte en dialog med instruksjoner for å kalibrere gasspådragssposisjon. ECU må være PÅ og OBD dongle tilkloblet, motoren bør IKKE gå. Dette vil IKKE endre noen verdier i ECU!</string>
+    <string name="min_throttle_calib_dialog_title">Kalibrer laveste gasspådrag</string>
+    <string name="min_throttle_calib_dialog_message">START MOTOREN! Motoren skal gå på normal oppvarmet tomgang!!! Gasshåndtaket bør være uten pådrag (tomgang / ingen pådrag). Trykk LAGRE når klar.</string>
+    <string name="throttle_calib_set_minimum">LAGRE LAVESTE</string>
+    <string name="max_throttle_calib_dialog_title">Kalibrer høyeste gasspådrag</string>
+    <string name="max_throttle_calib_dialog_message">STANS MOTOREN OG LA TENNINGEN VÆRE PÅ! Vri gasshåndtaket til fullt pådrag. Trykk LAGRE når klar.</string>
+    <string name="throttle_calib_set_maximum">LAGRE HØYESTE</string>
+    <string name="throttle_calib_finished">Laveste og høyeste gasspådrag lagret</string>
+    <string name="cant_calib_obd_disconnected">Vennligst koble til OBD Dongle først!</string>
+    <string name="error_dongle_not_configurable">Vennligst konigurer BT OBD Dongle først!</string>
 
 </resources>
