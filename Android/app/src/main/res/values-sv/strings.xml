@@ -1,87 +1,10 @@
 <resources>
 
-
-    <!-- UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD-sensorer</string>
-    <string name="obd_setup">OBD layoutval</string>
-    <string name="device_setup">OBD ställ in Bluetooth-enhet</string>
-    <string name="select_device_title">Välj parkopplad OBD-enhet</string>
-    <string name="obd_bluetooth_list_devices_summary">Välj parkopplad ODB-enhet. Se till att dongeln är parkopplad först!</string>
-    <string name="obd_bluetooth_list_devices_title">Välj ELM327 Bluetooth-enhet</string>
-    <string name="obd_cat_title_pref">OBD-inställningar</string>
-    <string name="pref_obd_protocols_title">OBD-protokoll</string>
-    <string name="pref_obd_protocols_summary">Välj vilket OBD-protokoll som ska användas</string>
-    <string name="pref_obd_update_period_title">Uppdateringsfrekvens i sekunder</string>
-    <string name="pref_obd_update_period_summary">Tid i sekunder mellan inhämtning av fordonsdata</string>
-    <string name="pref_reader_config_title">Inställningskommandon för läsare</string>
-    <string name="pref_reader_config_summary">Kommandon för inställning av bluetoothläsaren, avdelade med ny rad.</string>
-    <string name="speed_rpm_options">Fart och varvtal</string>
-    <string name="speed_value_source_title">Källa för GPS hastigetsvärde</string>
-    <string name="speed_value_source_summary">Använd GPS/Terrain hjulsensor istället för OBD hastighetsvärde (som kanske inte är tillgängligt)</string>
-    <string name="max_rpm_title">Sätt högsta varvtal</string>
-    <string name="max_rpm_summary">Sätt det högsta varvtalet för din MC</string>
-    <string name="redline_rpm_title">Sätt varvtal för röd linje</string>
-    <string name="redline_rpm_summary">Sätt värde för röd linje (röd lampa kommer lysa när värdet passeras)</string>
-    <string name="shift_rpm_title">Sätt varvtal för växling</string>
-    <string name="shift_rpm_summary">Sätt ditt optmiala varvtal för växling (grön cirkel visas när satt varval uppnås)</string>
-    <string name="show_hide_sensors_cat">Full vy - Göm / visa sensorer</string>
-    <string name="show_hide_maf_title">Visa sensorer för luftmassa (MAF)</string>
-    <string name="show_hide_maf_summary">Denna sensor finns inte på alla mc</string>
-    <string name="show_hide_oil_temp_title">Visa sensor för oljetemp</string>
-    <string name="show_hide_voltage_title">Visa sensor för spänning(V)</string>
-    <string name="show_engine_load_title">Visa sensor för motorbelastning</string>
-    <string name="show_fuel_level_title">Visa sensor för bränslemängd</string>
-    <string name="record_vals_title">Inläsning av värden</string>
-    <string name="max_liquid_temp">Max kylmedium temp:</string>
-    <string name="max_rpm">Max varvtal:</string>
-    <string name="max_throttle">Max gaspådrag:</string>
-    <string name="min_voltage">Minsta spänning:</string>
-    <string name="no_dtc_error">Inga DTC felkoder</string>
-    <string name="dtc_error">DTC felkoder hittades!</string>
-    <string name="bt_dongle_disconnected">BT OBD-dongel frånkopplad (Fjärrkontroll: tryck Joystick Center / Terrain Enter för att ansluta)</string>
-    <string name="bt_dongle_connected">Bluetooth OBD-dongel ansluten</string>
-    <string name="bt_dongle_connect">Starta OBD-anslutning</string>
-    <string name="bt_dongle_already_connected">OBD-dongel redan ansluten</string>
-    <string name="reset_record_values">Återställ inlästa värden</string>
-    <string name="auto_start_obd_connection_title">Starta OBD-anslutning automatiskt</string>
-    <string name="auto_start_obd_connection_summary">ODB-dongeln kommer försöka anslutas vid uppstart</string>
-    <string name="coolant_temp_label">Kylmedium Temp.</string>
-    <string name="oil_temp_label">Olja Temp.</string>
-    <string name="intake_temp_label">Insug Temp.</string>
-    <string name="intake_pressure_label">Insug Tryck</string>
-    <string name="mass_air_flow">Luftmassa</string>
-    <string name="throttle_position">Gasreglage position</string>
-    <string name="engine_load">Motorbelastning</string>
-    <string name="voltage">Spänning</string>
-    <string name="fuel_level">Bränslenivå</string>
-    <string name="obd_service_notification_title">OBD inläsningsservice igång</string>
-    <string name="obd_service_obd_connected">Ansluten till dongel!</string>
-    <string name="obd_service_obd_disconnected">OCD-dongel frånkopplad!</string>
-    <string name="reset_dtc_errors">Återställ DTC felkoder</string>
-    <string name="throttle_options">Gasreglage val</string>
-    <string name="use_raw_throttle_title">Använd rådata för gasreglage postition</string>
-    <string name="use_raw_throttle_message">Använd faktiska OBD2 värden eller kalibrera start och stoppläge</string>
-    <string name="calibrate_throttle_title">Kalibrera lägen för gasreglage</string>
-    <string name="calibrate_throttle_message">Detta öppnar en dialog med instruktioner för gasreglagets högsta och lägsta läge. Detta kräver att ECU är påslagen och ODB-dongeln är ansluten. Motorn skall vara avstängd. Detta ändrar inga värden i din ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Kalibrering av lägsta värde för gasreglage</string>
-    <string name="min_throttle_calib_dialog_message">STARTA MOTORN! Se till att motorn är på varmkörd tomgång!! Gasreglaget skall vara på lägsta värde (tomgång). Klicka på SÄTT-knappen när du är redo.</string>
-    <string name="throttle_calib_set_minimum">SÄTT LÄGSTA</string>
-    <string name="max_throttle_calib_dialog_title">Kalibrering av högsta värde för gasreglage</string>
-    <string name="max_throttle_calib_dialog_message">STÄNG AV MOTORN MEN HA TÄNDNINGEN PÅ! Vrid gasreglaget till högsta utslag (fullt öppen gas). Klicka på SÄTT-knappen när du är redo.</string>
-    <string name="throttle_calib_set_maximum">SÄTT HÖGSTA</string>
-    <string name="throttle_calib_finished">Högsta och lägsta gasvärden sparade</string>
-    <string name="cant_calib_obd_disconnected">Anslut till ODB-dongeln först!</string>
-    <string name="error_dongle_not_configurable">Ställ in ODB-dongeln först!</string>
-    <!-- END OF UNTRANSLATED -->
-    
-    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
-
 
 
     <!-- Common and Global -->
@@ -437,6 +360,79 @@
     <string name="list_hidden_waypoints">Lista gömda brytpunkter</string>
     <string name="invert_gpx_direction">Byt riktning på spåret</string>
     <string name="restore_gpx_direction">Återställ spårets riktning</string>
+
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD-sensorer</string>
+    <string name="obd_setup">OBD layoutval</string>
+    <string name="device_setup">OBD ställ in Bluetooth-enhet</string>
+    <string name="select_device_title">Välj parkopplad OBD-enhet</string>
+    <string name="obd_bluetooth_list_devices_summary">Välj parkopplad ODB-enhet. Se till att dongeln är parkopplad först!</string>
+    <string name="obd_bluetooth_list_devices_title">Välj ELM327 Bluetooth-enhet</string>
+    <string name="obd_cat_title_pref">OBD-inställningar</string>
+    <string name="pref_obd_protocols_title">OBD-protokoll</string>
+    <string name="pref_obd_protocols_summary">Välj vilket OBD-protokoll som ska användas</string>
+    <string name="pref_obd_update_period_title">Uppdateringsfrekvens i sekunder</string>
+    <string name="pref_obd_update_period_summary">Tid i sekunder mellan inhämtning av fordonsdata</string>
+    <string name="pref_reader_config_title">Inställningskommandon för läsare</string>
+    <string name="pref_reader_config_summary">Kommandon för inställning av bluetoothläsaren, avdelade med ny rad.</string>
+    <string name="speed_rpm_options">Fart och varvtal</string>
+    <string name="speed_value_source_title">Källa för GPS hastigetsvärde</string>
+    <string name="speed_value_source_summary">Använd GPS/Terrain hjulsensor istället för OBD hastighetsvärde (som kanske inte är tillgängligt)</string>
+    <string name="max_rpm_title">Sätt högsta varvtal</string>
+    <string name="max_rpm_summary">Sätt det högsta varvtalet för din MC</string>
+    <string name="redline_rpm_title">Sätt varvtal för röd linje</string>
+    <string name="redline_rpm_summary">Sätt värde för röd linje (röd lampa kommer lysa när värdet passeras)</string>
+    <string name="shift_rpm_title">Sätt varvtal för växling</string>
+    <string name="shift_rpm_summary">Sätt ditt optmiala varvtal för växling (grön cirkel visas när satt varval uppnås)</string>
+    <string name="show_hide_sensors_cat">Full vy - Göm / visa sensorer</string>
+    <string name="show_hide_maf_title">Visa sensorer för luftmassa (MAF)</string>
+    <string name="show_hide_maf_summary">Denna sensor finns inte på alla mc</string>
+    <string name="show_hide_oil_temp_title">Visa sensor för oljetemp</string>
+    <string name="show_hide_voltage_title">Visa sensor för spänning(V)</string>
+    <string name="show_engine_load_title">Visa sensor för motorbelastning</string>
+    <string name="show_fuel_level_title">Visa sensor för bränslemängd</string>
+    <string name="record_vals_title">Inläsning av värden</string>
+    <string name="max_liquid_temp">Max kylmedium temp:</string>
+    <string name="max_rpm">Max varvtal:</string>
+    <string name="max_throttle">Max gaspådrag:</string>
+    <string name="min_voltage">Minsta spänning:</string>
+    <string name="no_dtc_error">Inga DTC felkoder</string>
+    <string name="dtc_error">DTC felkoder hittades!</string>
+    <string name="bt_dongle_disconnected">BT OBD-dongel frånkopplad (Fjärrkontroll: tryck Joystick Center / Terrain Enter för att ansluta)</string>
+    <string name="bt_dongle_connected">Bluetooth OBD-dongel ansluten</string>
+    <string name="bt_dongle_connect">Starta OBD-anslutning</string>
+    <string name="bt_dongle_already_connected">OBD-dongel redan ansluten</string>
+    <string name="reset_record_values">Återställ inlästa värden</string>
+    <string name="auto_start_obd_connection_title">Starta OBD-anslutning automatiskt</string>
+    <string name="auto_start_obd_connection_summary">ODB-dongeln kommer försöka anslutas vid uppstart</string>
+    <string name="coolant_temp_label">Kylmedium Temp.</string>
+    <string name="oil_temp_label">Olja Temp.</string>
+    <string name="intake_temp_label">Insug Temp.</string>
+    <string name="intake_pressure_label">Insug Tryck</string>
+    <string name="mass_air_flow">Luftmassa</string>
+    <string name="throttle_position">Gasreglage position</string>
+    <string name="engine_load">Motorbelastning</string>
+    <string name="voltage">Spänning</string>
+    <string name="fuel_level">Bränslenivå</string>
+    <string name="obd_service_notification_title">OBD inläsningsservice igång</string>
+    <string name="obd_service_obd_connected">Ansluten till dongel!</string>
+    <string name="obd_service_obd_disconnected">OCD-dongel frånkopplad!</string>
+    <string name="reset_dtc_errors">Återställ DTC felkoder</string>
+    <string name="throttle_options">Gasreglage val</string>
+    <string name="use_raw_throttle_title">Använd rådata för gasreglage postition</string>
+    <string name="use_raw_throttle_message">Använd faktiska OBD2 värden eller kalibrera start och stoppläge</string>
+    <string name="calibrate_throttle_title">Kalibrera lägen för gasreglage</string>
+    <string name="calibrate_throttle_message">Detta öppnar en dialog med instruktioner för gasreglagets högsta och lägsta läge. Detta kräver att ECU är påslagen och ODB-dongeln är ansluten. Motorn skall vara avstängd. Detta ändrar inga värden i din ECU!</string>
+    <string name="min_throttle_calib_dialog_title">Kalibrering av lägsta värde för gasreglage</string>
+    <string name="min_throttle_calib_dialog_message">STARTA MOTORN! Se till att motorn är på varmkörd tomgång!! Gasreglaget skall vara på lägsta värde (tomgång). Klicka på SÄTT-knappen när du är redo.</string>
+    <string name="throttle_calib_set_minimum">SÄTT LÄGSTA</string>
+    <string name="max_throttle_calib_dialog_title">Kalibrering av högsta värde för gasreglage</string>
+    <string name="max_throttle_calib_dialog_message">STÄNG AV MOTORN MEN HA TÄNDNINGEN PÅ! Vrid gasreglaget till högsta utslag (fullt öppen gas). Klicka på SÄTT-knappen när du är redo.</string>
+    <string name="throttle_calib_set_maximum">SÄTT HÖGSTA</string>
+    <string name="throttle_calib_finished">Högsta och lägsta gasvärden sparade</string>
+    <string name="cant_calib_obd_disconnected">Anslut till ODB-dongeln först!</string>
+    <string name="error_dongle_not_configurable">Ställ in ODB-dongeln först!</string>
 
 
 </resources>
