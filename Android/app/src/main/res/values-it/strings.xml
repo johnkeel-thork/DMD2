@@ -1,141 +1,5 @@
 <resources>
 
-    <!-- NEW UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD Sensors</string>
-    <string name="obd_setup">OBD View Setup</string>
-    <string name="device_setup">OBD Bluetooth Device Setup</string>
-    <string name="select_device_title">Choose Paired OBD Device</string>
-    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
-    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
-    <string name="obd_cat_title_pref">OBD Preferences</string>
-    <string name="pref_obd_protocols_title">OBD Protocol</string>
-    <string name="pref_obd_protocols_summary">Select which OBD Protocol to use</string>
-    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
-    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
-    <string name="pref_reader_config_title">Reader Config Commands</string>
-    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
-    <string name="speed_rpm_options">Speed and RPM Options</string>
-    <string name="speed_value_source_title">GPS Speed Value Source</string>
-    <string name="speed_value_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
-    <string name="max_rpm_title">Set Maximum RPM</string>
-    <string name="max_rpm_summary">Set your vehicle maximum RPM value</string>
-    <string name="redline_rpm_title">Set Redline RPM</string>
-    <string name="redline_rpm_summary">Set your Redline value (will turn on Red circle warning)</string>
-    <string name="shift_rpm_title">Set Gear Shift RPM</string>
-    <string name="shift_rpm_summary">Set your ideal Gear Shift RPM value (will turn on Green circle warning)</string>
-    <string name="show_hide_sensors_cat">Full View - Hide / Show Sensors</string>
-    <string name="show_hide_maf_title">Show M.A.F. Sensor</string>
-    <string name="show_hide_maf_summary">This sensor is not available on all vehicles</string>
-    <string name="show_hide_oil_temp_title">Show Oil Temperature Sensor</string>
-    <string name="show_hide_voltage_title">Show Voltage Sensor</string>
-    <string name="show_engine_load_title">Show Engine Load Sensor</string>
-    <string name="show_fuel_level_title">Show Fuel Level Sensor</string>
-    <string name="record_vals_title">Record Values</string>
-    <string name="max_liquid_temp">Max Coolant Temp:</string>
-    <string name="max_rpm">Max RPM:</string>
-    <string name="max_throttle">Max Throttle:</string>
-    <string name="min_voltage">Min Voltage:</string>
-    <string name="no_dtc_error">No DTC Errors</string>
-    <string name="dtc_error">DTC Errors Found!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle Disconnected (Controller: Press Joystick Center / Terrain Enter to connect)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle Connected</string>
-    <string name="bt_dongle_connect">Start OBD Connection</string>
-    <string name="bt_dongle_already_connected">OBD Dongle Already Connected</string>
-    <string name="reset_record_values">Reset Record Values</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD Connection</string>
-    <string name="auto_start_obd_connection_summary">If enabled will attempt to connect to OBD Dongle on app start</string>
-    <string name="coolant_temp_label">Coolant T.</string>
-    <string name="oil_temp_label">Oil T.</string>
-    <string name="intake_temp_label">Intake T.</string>
-    <string name="intake_pressure_label">Intake P.</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Throttle Position</string>
-    <string name="engine_load">Engine Load</string>
-    <string name="voltage">Voltage</string>
-    <string name="fuel_level">Fuel Level</string>
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
-    <string name="reset_dtc_errors">Reset DTC Errors</string>
-    <string name="throttle_options">Throttle Options</string>
-    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
-    
-    <string name="feet">feet</string>
-    <string name="unhide">Unhide</string>
-
-    <string name="info_and_links">Information and Links</string>
-    <string name="app_version">DMD2 Version</string>
-    <string name="app_installed_version">Installed version:</string>
-    <string name="dmd2_website">Visit the official Drive Mode Dashboard website</string>
-    <string name="developer_website_title">DMD2 is brought to you by</string>
-    <string name="follow_us_facebook">Visit and follow our Facebook page for the latest news</string>
-    <string name="join_us_facebook">Join our Facebook group</string>
-    <string name="adv_rider_thread">Join the discussion about new features, bugs and requests</string>
-
-    <string name="advanced_button">Advanced</string>
-    <string name="advanced_title">Advanced Options</string>
-    <string name="merge_visible_tracks">Merge Visible Tracks</string>
-    <string name="restore_split_tracks">Restore Merged Tracks</string>
-    <string name="unmerge">Unmerge Tracks</string>
-    <string name="this_track_is_the_sum">This track is the sum of</string>
-    <string name="of_tracks">merged tracks</string>
-    <string name="merged_track">Merged Visible Tracks</string>
-    <string name="track_merged_to_visible_tracks">Track will be merged with Visible Tracks</string>
-    <string name="dont_list_hidden_tracks">Unlist Hidden Tracks</string>
-    <string name="list_hidden_tracks">List Hidden Tracks</string>
-    <string name="track_hidden_from_list">Track will be hidden from List</string>
-    <string name="tune_line">Tune Line Appearance</string>
-    <string name="clean_waypoints">Hide Distant Waypoints</string>
-    <string name="clean_waypoints_description">Hide waypoints that are further away from the track for a distance superior to:</string>
-    <string name="processing_cleaning_waypoints">Processing Visible Waypoints… This can take a while!</string>
-    <string name="no_waypoint_was_hidden">Did not find any Waypoint matching the criteria. Maybe try a smaller distance.</string>
-    <string name="found_and_hidden_waypoint_a">Found</string>
-    <string name="found_and_hidden_waypoint_b">Waypoints matching your criteria. These Waypoints are now hidden!</string>
-    <string name="unlist_hidden_waypoints">Unlist Hidden Waypoints</string>
-    <string name="marker_removed_from_list">Waypoint will be removed from list</string>
-    <string name="list_hidden_waypoints">List Hidden Waypoints</string>
-    <string name="invert_gpx_direction">Invert Travel Direction</string>
-    <string name="restore_gpx_direction">Restore Travel Direction</string>
-
-    <string name="rotation_locked">Rotation Locked</string>
-    <string name="rotation_unlocked">Rotation Unlocked</string>
-
-    <string name="speedo_trip_options">Options</string>
-    <string name="trip_options">Trip Options</string>
-    <string name="trip_running_mode_title">Trip Always Running</string>
-    <string name="trip_running_mode_summary">If disabled you need to start the trip manually</string>
-    <string name="trip_auto_reset_title">Automatic Trip Reset</string>
-    <string name="trip_auto_reset_summary">Trip will automatically reset if DMD2 is closed for more than a configurable amount of time</string>
-    <string name="trip_auto_reset_time_title">Automatic Trip Reset Time</string>
-    <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 hours</item>
-        <item>12 hours</item>
-        <item>1 day</item>
-        <item>2 days</item>
-        <item>5 days</item>
-    </string-array>
-    <string name="trip_options_layout_cat">Layout Options</string>
-    <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
-    <string name="start_stop_trip">Start/Pause Trip</string>
-
-    <!-- END OF UNTRANSLATED -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -444,5 +308,132 @@ Controller: Su/Giù varia di 0,01, Zoom +/- varia di 1, una lunga pressione del 
     <string name="error_loading_gpx_message">C’è stato un errore mentre caricavo il file GPX, sembra che non sia compatibile con DMD2, per favore prova con un altro.</string>
     <string name="map_delete_title">Sei sicuro di volere cancellare il file di questa mappa?</string>
 
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">Sensori OBD</string>
+    <string name="obd_setup">Impostazione vista OBD </string>
+    <string name="device_setup">Impostazioni Bluetooth del dispositivo OBD</string>
+    <string name="select_device_title">Scegli il dispositivo ODB</string>
+    <string name="obd_bluetooth_list_devices_summary">Scegli tra i dispositivi disponibili. Assicurati che il dispositivo sia connesso!</string>
+    <string name="obd_bluetooth_list_devices_title">Scegli il dispositivo Bluetooth ELM327</string>
+    <string name="obd_cat_title_pref">Impostazioni OBD</string>
+    <string name="pref_obd_protocols_title">Protocollo OBD</string>
+    <string name="pref_obd_protocols_summary">Seleziona quale protocollo ODB usare</string>
+    <string name="pref_obd_update_period_title">Frequenza di aggiornamento in secondi</string>
+    <string name="pref_obd_update_period_summary">Il periodo di aggiornamento dei dati del veicolo in secondi</string>
+    <string name="pref_reader_config_title">Comandi di configurazione dispositivo</string>
+    <string name="pref_reader_config_summary">Comandi per configurare il lettore ODB Bluetotth, uno per riga</string>
+    <string name="speed_rpm_options">Opzioni per velocità e giri motore</string>
+    <string name="speed_value_source_title">Sorgente della velocità GPS</string>
+    <string name="speed_value_source_summary">Usa il GPS o il sensore ruota invece della velocità ODB (che potrebbe non essere disponibile)</string>
+    <string name="max_rpm_title">Imposta i giri motore massimi</string>
+    <string name="max_rpm_summary">Imposta i giri motore massimi del tuo veicolo</string>
+    <string name="redline_rpm_title">Imposta i giri motore della linea rossa</string>
+    <string name="redline_rpm_summary">Imposta i giri motore della linea rossa (questo attiverà l\'allarme rosso del limitatore)</string>
+    <string name="shift_rpm_title">Imposta il numero di giri per il cambio marcia</string>
+    <string name="shift_rpm_summary">Imposta il numero di giri ottimale per il cambio marcia (questo attiverà l\'allarme verde)</string>
+    <string name="show_hide_sensors_cat">Nascondi/Mostra la vista dei sendori</string>
+    <string name="show_hide_maf_title">Mostra il sensore M.A.F.</string>
+    <string name="show_hide_maf_summary">Questo sensore non è disponibile su tutti i veicoli</string>
+    <string name="show_hide_oil_temp_title">Mostra il sensore della temperatura dell\'olio</string>
+    <string name="show_hide_voltage_title">Mostra il sensore del Voltaggio</string>
+    <string name="show_engine_load_title">Mostra il sensore del carico motore</string>
+    <string name="show_fuel_level_title">Mostra il sensore del livello carburante</string>
+    <string name="record_vals_title">Registra i valori</string>
+    <string name="max_liquid_temp">Temperatura massima del liquido di raffreddamento:</string>
+    <string name="max_rpm">Nr. max giri motore:</string>
+    <string name="max_throttle">Massima apertura del gas:</string>
+    <string name="min_voltage">Voltaggio minimo:</string>
+    <string name="no_dtc_error">Nessun errore DTC</string>
+    <string name="dtc_error">Trovati errori DTC!</string>
+    <string name="bt_dongle_disconnected">Dispositivo BT ODB sconnesso (Controller: premi il joystick al centro / Premi Enter sul Terrain per riconnettere)</string>
+    <string name="bt_dongle_connected">Dispositivo BT ODB connesso</string>
+    <string name="bt_dongle_connect">Avvia connessione ODB</string>
+    <string name="bt_dongle_already_connected">Dispositivo OBD già connesso</string>
+    <string name="reset_record_values">Azzera i valori registrati</string>
+    <string name="auto_start_obd_connection_title">Avvio automatico connessione OBD Connection</string>
+    <string name="auto_start_obd_connection_summary">Se attivato cercherò di connettermi al dispositivo OBD al lancio dell\'app</string>
+    <string name="coolant_temp_label">Temp. liquido refr.</string>
+    <string name="oil_temp_label">Temp. olio</string>
+    <string name="intake_temp_label">Temp. aspirazione</string>
+    <string name="intake_pressure_label">Press. aspirazione</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Posiz. acceleratore</string>
+    <string name="engine_load">Carico motore</string>
+    <string name="voltage">Voltaggio</string>
+    <string name="fuel_level">Livello carburante</string>
+    <string name="obd_service_notification_title">Servizio Monitor OBD attivo</string>
+    <string name="obd_service_obd_connected">Connesso al dispositivo!</string>
+    <string name="obd_service_obd_disconnected">Disconnesso dal dispositivo!</string>
+    <string name="reset_dtc_errors">Azzera errori DTC</string>
+    <string name="throttle_options">Opzioni acceleratore</string>
+    <string name="use_raw_throttle_title">Usa il valore grezzo della posizione dell\'acceleratore</string>
+    <string name="use_raw_throttle_message">Usa il valore corrente OBD2 o calibra le posizioni minima e massima</string>
+    <string name="calibrate_throttle_title">Calibra la posizione dell\'acceleratore</string>
+    <string name="calibrate_throttle_message">Apparirà una schermata con le istruzioni della calibrazione delle posizioni minima/massima dell\'acceleratore. Richiede che il quadro sia acceso, il dispositivo OBD sia connesso e che il motore sia spento. Questo non varierà alcun parametro della centralina motore!</string>
+    <string name="min_throttle_calib_dialog_title">Calibrazione della posizione minima dell\'acceleratore</string>
+    <string name="min_throttle_calib_dialog_message">PER FAVORE ACCENDI IL MOTORE! Assicurati che il motore sia caldo ed al minimo!!! L\'acceleratore deve essere nella posizione minima (motore al minimo/gas totalmente chiuso). Premi il tasto IMPOSTA MINIMO quando sei pronto.</string>
+    <string name="throttle_calib_set_minimum">IMPOSTA MINIMO</string>
+    <string name="max_throttle_calib_dialog_title">Calibrazione della posizione massima dell\'acceleratore</string>
+    <string name="max_throttle_calib_dialog_message">PER FAVORE SPEGNI IL MOTORE MA LASCIA IL QUADRO ACCESO! Assicurati che l\'acceleratore sia al massimo (gas tutto aperto). Premi il pulsante IMPOSTA MASSIMO quando sei pronto.</string>
+    <string name="throttle_calib_set_maximum">IMPOSTA MASSIMO</string>
+    <string name="throttle_calib_finished">Massimo e minimo dell\'acceleratotre impostati</string>
+    <string name="cant_calib_obd_disconnected">Per favore connetti il dispositivo OBD!</string>
+    <string name="error_dongle_not_configurable">Per favore configura il dispositivo BT!</string>
+    <string name="feet">piedi</string>
+    <string name="unhide">Mostra</string>
+    <string name="info_and_links">Informazioni e link</string>
+    <string name="app_version">Versione DMD2</string>
+    <string name="app_installed_version">Versione installata:</string>
+    <string name="dmd2_website">Visita il sito web ufficiale di Drive Mode Dashboard</string>
+    <string name="developer_website_title">DMD2 è offerto da</string>
+    <string name="follow_us_facebook">Visita e segui la nostra pagina Facebook per le ultime novità</string>
+    <string name="join_us_facebook">Iscriviti al nostro gruppo Facebook</string>
+    <string name="adv_rider_thread">Segui la discussione sulle nuove funzionalità, errori e richieste</string>
+    <string name="advanced_button">Avanzate</string>
+    <string name="advanced_title">Opzioni avanzate</string>
+    <string name="merge_visible_tracks">Unisci le tracce visibili</string>
+    <string name="restore_split_tracks">Rirpistina le tracce unite</string>
+    <string name="unmerge">Separa le tracce</string>
+    <string name="this_track_is_the_sum">Questa traccia è l\'unione di</string>
+    <string name="of_tracks">tracce unite</string>
+    <string name="merged_track">Ho unito le tracce visibili</string>
+    <string name="track_merged_to_visible_tracks">La traccia sarà unita alle tracce visibili</string>
+    <string name="dont_list_hidden_tracks">Non elencare le tracce nascoste</string>
+    <string name="list_hidden_tracks">Lista delle tracce nascoste</string>
+    <string name="track_hidden_from_list">La traccia sarà esclusa dalla lista</string>
+    <string name="tune_line">Definisci l\'aspetto della traccia</string>
+    <string name="clean_waypoints">Nascondi i Waypoint lontani</string>
+    <string name="clean_waypoints_description">Nascondi i Waupoint che sono più distanti dalla traccia per una distanza superiore a:</string>
+    <string name="processing_cleaning_waypoints">Sto elaborando i Waypoint visibili, potrebbe volerci un po di tempo!</string>
+    <string name="no_waypoint_was_hidden">Non ho trovato alcun Waypoint che soddisfano i criteri. Prova con una distanza inferiore.</string>
+    <string name="found_and_hidden_waypoint_a">Trovati</string>
+    <string name="found_and_hidden_waypoint_b">Waypoint che soddisfano i tuoi criteri. Questi Waypoint ora sono nascosti!</string>
+    <string name="unlist_hidden_waypoints">Non elencare i Waypoint nascosti</string>
+    <string name="marker_removed_from_list">I Waypoint saranno esclusi dalla lista</string>
+    <string name="list_hidden_waypoints">Elenca i Waypoint nascosti</string>
+    <string name="invert_gpx_direction">Inverti la direzione di marcia</string>
+    <string name="restore_gpx_direction">Ripristina la direzione di marcia</string>
+    <string name="rotation_locked">Rotazione bloccata</string>
+    <string name="rotation_unlocked">Rotazione sbloccata</string>
+    <string name="speedo_trip_options">Opzioni</string>
+    <string name="trip_options">Opzioni Trip</string>
+    <string name="trip_running_mode_title">Trip sempre in funzione</string>
+    <string name="trip_running_mode_summary">Se disabilitato dovrai avviare il Trip manualmente</string>
+    <string name="trip_auto_reset_title">Azzeramento automatico del Trip</string>
+    <string name="trip_auto_reset_summary">Il Trip sarà azzerato automaticamente se DMD2 non è in funzione per un periodo di tempo configurabile</string>
+    <string name="trip_auto_reset_time_title">Tempo di azzeramento automatico del Trip</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 ore</item>
+        <item>12 ore</item>
+        <item>1 giorno</item>
+        <item>2 giorni</item>
+        <item>5 giorni</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Opzioni schermata</string>
+    <string name="trip_hide_speed_title">Nascondi Velocità e Odometro</string>
+    <string name="trip_hide_speed_summary">Nascondere la velocità e l\'odometro è utile se vuoi i valori del Trip più visibili</string>
+    <string name="start_stop_trip">Avvio/Pausa Trip</string>
+
 
 </resources>
+
