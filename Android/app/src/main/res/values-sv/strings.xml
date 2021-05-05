@@ -392,11 +392,11 @@
     <string name="show_hide_voltage_title">Visa sensor för spänning(V)</string>
     <string name="show_engine_load_title">Visa sensor för motorbelastning</string>
     <string name="show_fuel_level_title">Visa sensor för bränslemängd</string>
-    <string name="record_vals_title">Inläsning av värden</string>
-    <string name="max_liquid_temp">Max kylmedium temp:</string>
+    <string name="record_vals_title">Avlästa av värden</string>
+    <string name="max_liquid_temp">Max kylmedium T:</string>
     <string name="max_rpm">Max varvtal:</string>
     <string name="max_throttle">Max gaspådrag:</string>
-    <string name="min_voltage">Minsta spänning:</string>
+    <string name="min_voltage">Lägsta spänning:</string>
     <string name="no_dtc_error">Inga DTC felkoder</string>
     <string name="dtc_error">DTC felkoder hittades!</string>
     <string name="bt_dongle_disconnected">BT OBD-dongel frånkopplad (Fjärrkontroll: tryck Joystick Center / Terrain Enter för att ansluta)</string>
@@ -406,7 +406,7 @@
     <string name="reset_record_values">Återställ inlästa värden</string>
     <string name="auto_start_obd_connection_title">Starta OBD-anslutning automatiskt</string>
     <string name="auto_start_obd_connection_summary">ODB-dongeln kommer försöka anslutas vid uppstart</string>
-    <string name="coolant_temp_label">Kylmedium Temp.</string>
+    <string name="coolant_temp_label">Kylmedium T.</string>
     <string name="oil_temp_label">Olja Temp.</string>
     <string name="intake_temp_label">Insug Temp.</string>
     <string name="intake_pressure_label">Insug Tryck</string>
@@ -415,7 +415,7 @@
     <string name="engine_load">Motorbelastning</string>
     <string name="voltage">Spänning</string>
     <string name="fuel_level">Bränslenivå</string>
-    <string name="obd_service_notification_title">OBD inläsningsservice igång</string>
+    <string name="obd_service_notification_title">OBD avläsning igång</string>
     <string name="obd_service_obd_connected">Ansluten till dongel!</string>
     <string name="obd_service_obd_disconnected">OCD-dongel frånkopplad!</string>
     <string name="reset_dtc_errors">Återställ DTC felkoder</string>
