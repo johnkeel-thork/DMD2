@@ -1,81 +1,5 @@
 <resources>
 
-    <!-- UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">Αισθητήρας OBD</string>
-    <string name="obd_setup">Ρυθμίσεις OBD</string>
-    <string name="device_setup">Εγκατάσταση OBD Bluetooth συσκευής</string>
-    <string name="select_device_title">Επιλέξτε συζευγμένη OBD συσκευή</string>
-    <string name="obd_bluetooth_list_devices_summary">Επιλέξτε από τις συζευγμένες συσκευές. Σιγουρευτείτε ότι η dongle είναι συζευγμένη πρώτα!</string>
-    <string name="obd_bluetooth_list_devices_title">Επιλέξτε ELM327 Bluetooth Συσκευή</string>
-    <string name="obd_cat_title_pref">Προτιμήσεις OBD</string>
-    <string name="pref_obd_protocols_title">Πρωτόκολλο OBD</string>
-    <string name="pref_obd_protocols_summary">Επιλέξτε πιο OBD πρωτόκολλο θα χρησιμοποιηθεί</string>
-    <string name="pref_obd_update_period_title">Ενημέρωση Περιόσου σε Δευτερόλεπτα Update Period in Seconds</string>
-    <string name="pref_obd_update_period_summary">Το χρονικό διάστημα μεταξύ ερωτημάτων οχήματος σε δευτερολεπτα</string>
-    <string name="pref_reader_config_title">Εντολές Διαμόρφωσης Ανάγνωσης</string>
-    <string name="pref_reader_config_summary">Εντολές για τη διαμόρφωση της συσκευής ανάγνωσης bluetooth, χωρισμένες σε νέα γραμμή</string>
-    <string name="speed_rpm_options">Επιλογές Ταχύτητας και Στροφών</string>
-    <string name="speed_value_source_title">Πηγή τιμής ταχύτητας το GPS</string>
-    <string name="speed_value_source_summary">Χρησιμοποιήστε GPS/Αισθητήρα Τροχού Εδάφους αντί της ταχύτητας τιμής OBD (η οποία μπορεί να μην είναι διαθέσιμη)</string>
-    <string name="max_rpm_title">Ορίστε Μέγιστες Στροφές</string>
-    <string name="max_rpm_summary">Ορίστε τις μέγιστες στροφές του οχήματος σας</string>
-    <string name="redline_rpm_title">Ορίστε τα όρια των Στροφών</string>
-    <string name="redline_rpm_summary">Ορίστε την τιμή ορίου (ο προειδοποιητικός κύκλος θα γίνει κόκκινος)</string>
-    <string name="shift_rpm_title">Ορίστε στροφές αλλαγής ταχύτητας</string>
-    <string name="shift_rpm_summary">Ορίστε την ιδανική τιμή στροφών αλλαγής ταχύτητας (ο προειδοποιητικός κύκλος θα γίνει πράσινος)</string>
-    <string name="show_hide_sensors_cat">Πλήρη οθόνη Εμφάνιση - Απόκρυψη Αισθητήρα</string>
-    <string name="show_hide_maf_title">Εμφάνιση Αισθητήρα M.A.F.</string>
-    <string name="show_hide_maf_summary">Αυτός ο αισθητήρας δεν είναι διαθέσιμος σε όλα τα οχήματα</string>
-    <string name="show_hide_oil_temp_title">Εμφάνιση Αισθητήρα Θερμοκρασίας Λαδιού</string>
-    <string name="show_hide_voltage_title">Εμφάνιση Αισθητήρα Τάσης</string>
-    <string name="show_engine_load_title">Εμφάνιση Αισθητήρα Φορτίου Κινητήρα</string>
-    <string name="show_fuel_level_title">Εμφάνιση Αισθητήρα Στάθμης Καυσίμου</string>
-    <string name="record_vals_title">Εγγεγραμμένες Τιμές</string>
-    <string name="max_liquid_temp">Μέγιστη Θερμ. Ψυκτικού:</string>
-    <string name="max_rpm">Μέγιστες Στροφές:</string>
-    <string name="max_throttle">Μέγιστη Ροπή:</string>
-    <string name="min_voltage">Ελάχιστη Τάση:</string>
-    <string name="no_dtc_error">Δεν Υπάρχουν DTC Σφάλμα</string>
-    <string name="dtc_error">Βρέθηκαν DTC σφάλματα!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle Αποσυνδεδεμένο (Ελεγκτής: Πιέστε το κέντρο του χειριστηρίου / Terrain Enter για σύνδεση)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle Συνδεδεμένο</string>
-    <string name="bt_dongle_connect">Εκκίνηση OBD Σύνδεσης</string>
-    <string name="bt_dongle_already_connected">OBD Dongle Είναι Ήδη Συνδεδεμένο</string>
-    <string name="reset_record_values">Επανφορά Τιμών Εγγραφής</string>
-    <string name="auto_start_obd_connection_title">Αυτόματη Σύνδεση OBD</string>
-    <string name="auto_start_obd_connection_summary">Εάν είναι ενεργοποημένο θα γίνει προσπάθεια συνδεσης με το OBD Dongle κατά την εκκίνηση</string>
-    <string name="coolant_temp_label">Ψυκτικό Θερμ.</string>
-    <string name="oil_temp_label">Λάδι Θερμ.</string>
-    <string name="intake_temp_label">Intake T.</string>
-    <string name="intake_pressure_label">Intake P.</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Θέση Ροπής</string>
-    <string name="engine_load">Φορτίο Κινητήρα</string>
-    <string name="voltage">Τάση</string>
-    <string name="fuel_level">Στάθμη Καυσίμου</string>
-    <string name="obd_service_notification_title">Η Υπηρεσία Επίβλεψης OBD Εκτελείται</string>
-    <string name="obd_service_obd_connected">Το dongle συνδέθηκε!</string>
-    <string name="obd_service_obd_disconnected">Αποσύνδεση από το dongle!</string>
-    <string name="reset_dtc_errors">Επαναφορά DTC Σφαλμάτων</string>
-    <string name="throttle_options">Επιλογές Ροπής</string>
-    <string name="use_raw_throttle_title">Χρησιμοποιήστε την RAW τιμή του γκαζιού</string>
-    <string name="use_raw_throttle_message">Χρησιμοποιήστε την πραγματική OBD2 raw τιμή για την βαθμονόμηση της μέγιστης και ελάχιστης θέσης</string>
-    <string name="calibrate_throttle_title">Βαθμονόμηση θέσης γκαζιού</string>
-    <string name="calibrate_throttle_message">Θα ανοίξει ένα παράθυρο με οδηγίες για την βαθμονόμηση της ελάχιστης/μέγιστης θέσης γκαζιού. Απαραίτητο είναι το ECU να είναι ανοιχτό και το OBD dongle συνδεδεμένο, ο κινητήρας πρέπει να είναι σβηστός. Αυτό ΔΕΝ θα αλλάξει καμία τιμή στο ECU σας!</string>
-    <string name="min_throttle_calib_dialog_title">Ελάχιστη Βαθμονόμηση Θέσης Γκαζιού</string>
-    <string name="min_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΩ ΑΝΑΨΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ! Βεβαιωθείτε πως το όχημα βρίσκεται σε σταθερή θέση μετά την προθέρμανση!!! Η θέση γκαζιού πρέπει να βρίσκεται την ελάχιστη θέση (ρελατντί / εντελώς κλειστό). Πατήστε το κουμπί ορίσματος (SET) όταν είστε έτοιμοι.</string>
-    <string name="throttle_calib_set_minimum">ΟΡΙΣΤΕ ΕΛΑΧΙΣΤΗ</string>
-    <string name="max_throttle_calib_dialog_title">Μέγιστη Βαθμονόμηση Θέσης Γκαζιού</string>
-    <string name="max_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΩ ΣΒΗΣΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ ΚΑΙ ΑΦΗΣΤΕ ΤΟΝ ΔΙΑΚΟΠΤΗ ΑΝΟΙΧΤΟ! Βεβαιωθείτε ότι η θέση του γκαζιού βρίσκεται στη μέγιστη θέση (πλήρης άνοιγμα γκαζιού). Πατήστε το κουμπί ορίσματος (SET) όταν είστε έτοιμοι.</string>
-    <string name="throttle_calib_set_maximum">ΟΡΙΣΤΕ ΜΕΓΙΣΤΗ</string>
-    <string name="throttle_calib_finished">Μέγιστη και Ελάχιστη  Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Παρακαλώ Συνδέστε το OBD Dongle Πρώτα!</string>
-    <string name="error_dongle_not_configurable">Παρακαλώ Ρυθμίστε τη συσκευή OBD Dongle Πρώτα!</string>
-    <!-- END OF UNTRANSLATED -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -436,5 +360,77 @@
     <string name="list_hidden_waypoints">Εμφάνιση κρυμμένων σημείων στη λίστα</string>
     <string name="invert_gpx_direction">Εναλλαγή Πορείας Ταξιδιού</string>
     <string name="restore_gpx_direction">Επαναφορά Πορείας Ταξιδιού</string>
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">Αισθητήρας OBD</string>
+    <string name="obd_setup">Ρυθμίσεις OBD</string>
+    <string name="device_setup">Εγκατάσταση OBD Bluetooth συσκευής</string>
+    <string name="select_device_title">Επιλέξτε συζευγμένη OBD συσκευή</string>
+    <string name="obd_bluetooth_list_devices_summary">Επιλέξτε από τις συζευγμένες συσκευές. Σιγουρευτείτε ότι η dongle είναι συζευγμένη πρώτα!</string>
+    <string name="obd_bluetooth_list_devices_title">Επιλέξτε ELM327 Bluetooth Συσκευή</string>
+    <string name="obd_cat_title_pref">Προτιμήσεις OBD</string>
+    <string name="pref_obd_protocols_title">Πρωτόκολλο OBD</string>
+    <string name="pref_obd_protocols_summary">Επιλέξτε πιο OBD πρωτόκολλο θα χρησιμοποιηθεί</string>
+    <string name="pref_obd_update_period_title">Ενημέρωση Περιόσου σε Δευτερόλεπτα Update Period in Seconds</string>
+    <string name="pref_obd_update_period_summary">Το χρονικό διάστημα μεταξύ ερωτημάτων οχήματος σε δευτερολεπτα</string>
+    <string name="pref_reader_config_title">Εντολές Διαμόρφωσης Ανάγνωσης</string>
+    <string name="pref_reader_config_summary">Εντολές για τη διαμόρφωση της συσκευής ανάγνωσης bluetooth, χωρισμένες σε νέα γραμμή</string>
+    <string name="speed_rpm_options">Επιλογές Ταχύτητας και Στροφών</string>
+    <string name="speed_value_source_title">Πηγή τιμής ταχύτητας το GPS</string>
+    <string name="speed_value_source_summary">Χρησιμοποιήστε GPS/Αισθητήρα Τροχού Εδάφους αντί της ταχύτητας τιμής OBD (η οποία μπορεί να μην είναι διαθέσιμη)</string>
+    <string name="max_rpm_title">Ορίστε Μέγιστες Στροφές</string>
+    <string name="max_rpm_summary">Ορίστε τις μέγιστες στροφές του οχήματος σας</string>
+    <string name="redline_rpm_title">Ορίστε τα όρια των Στροφών</string>
+    <string name="redline_rpm_summary">Ορίστε την τιμή ορίου (ο προειδοποιητικός κύκλος θα γίνει κόκκινος)</string>
+    <string name="shift_rpm_title">Ορίστε στροφές αλλαγής ταχύτητας</string>
+    <string name="shift_rpm_summary">Ορίστε την ιδανική τιμή στροφών αλλαγής ταχύτητας (ο προειδοποιητικός κύκλος θα γίνει πράσινος)</string>
+    <string name="show_hide_sensors_cat">Πλήρη οθόνη Εμφάνιση - Απόκρυψη Αισθητήρα</string>
+    <string name="show_hide_maf_title">Εμφάνιση Αισθητήρα M.A.F.</string>
+    <string name="show_hide_maf_summary">Αυτός ο αισθητήρας δεν είναι διαθέσιμος σε όλα τα οχήματα</string>
+    <string name="show_hide_oil_temp_title">Εμφάνιση Αισθητήρα Θερμοκρασίας Λαδιού</string>
+    <string name="show_hide_voltage_title">Εμφάνιση Αισθητήρα Τάσης</string>
+    <string name="show_engine_load_title">Εμφάνιση Αισθητήρα Φορτίου Κινητήρα</string>
+    <string name="show_fuel_level_title">Εμφάνιση Αισθητήρα Στάθμης Καυσίμου</string>
+    <string name="record_vals_title">Εγγεγραμμένες Τιμές</string>
+    <string name="max_liquid_temp">Μέγιστη Θερμ. Ψυκτικού:</string>
+    <string name="max_rpm">Μέγιστες Στροφές:</string>
+    <string name="max_throttle">Μέγιστη Ροπή:</string>
+    <string name="min_voltage">Ελάχιστη Τάση:</string>
+    <string name="no_dtc_error">Δεν Υπάρχουν DTC Σφάλμα</string>
+    <string name="dtc_error">Βρέθηκαν DTC σφάλματα!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle Αποσυνδεδεμένο (Ελεγκτής: Πιέστε το κέντρο του χειριστηρίου / Terrain Enter για σύνδεση)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle Συνδεδεμένο</string>
+    <string name="bt_dongle_connect">Εκκίνηση OBD Σύνδεσης</string>
+    <string name="bt_dongle_already_connected">OBD Dongle Είναι Ήδη Συνδεδεμένο</string>
+    <string name="reset_record_values">Επανφορά Τιμών Εγγραφής</string>
+    <string name="auto_start_obd_connection_title">Αυτόματη Σύνδεση OBD</string>
+    <string name="auto_start_obd_connection_summary">Εάν είναι ενεργοποημένο θα γίνει προσπάθεια συνδεσης με το OBD Dongle κατά την εκκίνηση</string>
+    <string name="coolant_temp_label">Ψυκτικό Θερμ.</string>
+    <string name="oil_temp_label">Λάδι Θερμ.</string>
+    <string name="intake_temp_label">Intake T.</string>
+    <string name="intake_pressure_label">Intake P.</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Θέση Ροπής</string>
+    <string name="engine_load">Φορτίο Κινητήρα</string>
+    <string name="voltage">Τάση</string>
+    <string name="fuel_level">Στάθμη Καυσίμου</string>
+    <string name="obd_service_notification_title">Η Υπηρεσία Επίβλεψης OBD Εκτελείται</string>
+    <string name="obd_service_obd_connected">Το dongle συνδέθηκε!</string>
+    <string name="obd_service_obd_disconnected">Αποσύνδεση από το dongle!</string>
+    <string name="reset_dtc_errors">Επαναφορά DTC Σφαλμάτων</string>
+    <string name="throttle_options">Επιλογές Ροπής</string>
+    <string name="use_raw_throttle_title">Χρησιμοποιήστε την RAW τιμή του γκαζιού</string>
+    <string name="use_raw_throttle_message">Χρησιμοποιήστε την πραγματική OBD2 raw τιμή για την βαθμονόμηση της μέγιστης και ελάχιστης θέσης</string>
+    <string name="calibrate_throttle_title">Βαθμονόμηση θέσης γκαζιού</string>
+    <string name="calibrate_throttle_message">Θα ανοίξει ένα παράθυρο με οδηγίες για την βαθμονόμηση της ελάχιστης/μέγιστης θέσης γκαζιού. Απαραίτητο είναι το ECU να είναι ανοιχτό και το OBD dongle συνδεδεμένο, ο κινητήρας πρέπει να είναι σβηστός. Αυτό ΔΕΝ θα αλλάξει καμία τιμή στο ECU σας!</string>
+    <string name="min_throttle_calib_dialog_title">Ελάχιστη Βαθμονόμηση Θέσης Γκαζιού</string>
+    <string name="min_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΩ ΑΝΑΨΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ! Βεβαιωθείτε πως το όχημα βρίσκεται σε σταθερή θέση μετά την προθέρμανση!!! Η θέση γκαζιού πρέπει να βρίσκεται την ελάχιστη θέση (ρελατντί / εντελώς κλειστό). Πατήστε το κουμπί ορίσματος (SET) όταν είστε έτοιμοι.</string>
+    <string name="throttle_calib_set_minimum">ΟΡΙΣΤΕ ΕΛΑΧΙΣΤΗ</string>
+    <string name="max_throttle_calib_dialog_title">Μέγιστη Βαθμονόμηση Θέσης Γκαζιού</string>
+    <string name="max_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΩ ΣΒΗΣΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ ΚΑΙ ΑΦΗΣΤΕ ΤΟΝ ΔΙΑΚΟΠΤΗ ΑΝΟΙΧΤΟ! Βεβαιωθείτε ότι η θέση του γκαζιού βρίσκεται στη μέγιστη θέση (πλήρης άνοιγμα γκαζιού). Πατήστε το κουμπί ορίσματος (SET) όταν είστε έτοιμοι.</string>
+    <string name="throttle_calib_set_maximum">ΟΡΙΣΤΕ ΜΕΓΙΣΤΗ</string>
+    <string name="throttle_calib_finished">Μέγιστη και Ελάχιστη  Maximum and Minimum Throttle Set</string>
+    <string name="cant_calib_obd_disconnected">Παρακαλώ Συνδέστε το OBD Dongle Πρώτα!</string>
+    <string name="error_dongle_not_configurable">Παρακαλώ Ρυθμίστε τη συσκευή OBD Dongle Πρώτα!</string>
 
 </resources>
