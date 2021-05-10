@@ -1,83 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED -->
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD Sensoren</string>
-    <string name="obd_setup">OBD Anzeige Einstellungen</string>
-    <string name="device_setup">OBD Bluetooth-Geräte Einstellungen</string>
-    <string name="select_device_title">Wähle zu koppelendes OBD Gerät</string>
-    <string name="obd_bluetooth_list_devices_summary">Wähle aus gekoppelte Bluetooth-Geräte. Stelle sicher, dass ein OBD-Dongle bereits systemseitig gekoppelt ist!</string>
-    <string name="obd_bluetooth_list_devices_title">Wähle ELM327 Bluetooth-Gerät</string>
-    <string name="obd_cat_title_pref">OBD Einstellungen</string>
-    <string name="pref_obd_protocols_title">OBD-Protokolle</string>
-    <string name="pref_obd_protocols_summary">Wähle welches OBD-Protokoll benutzt werden soll</string>
-    <string name="pref_obd_update_period_title">Aktualisierungsintervall in Sekunden</string>
-    <string name="pref_obd_update_period_summary">Die Zeitdauer zwischen Abfragen der Fahrzeugdaten in Sekunden.</string>
-    <string name="pref_reader_config_title">Spezielle OBD-Dongle Befehle</string>
-    <string name="pref_reader_config_summary">Befehle zur Konfiguration des OBD-Dongle. Trenne Befehle durch neue Zeile.</string>
-    <string name="speed_rpm_options">Geschwindigkeits und Drehzahl Optionen</string>
-    <string name="speed_value_source_title">Quelle für Geschwindigkeitsanzeige</string>
-    <string name="speed_value_source_summary">Nutze GPS/Terrain Wheel Sensor anstatt dem OBD Wert für die Geschwindigkeit (welcher u.U. nicht im OBD des Fahrzeugs enthalten ist)</string>
-    <string name="max_rpm_title">Maximal Drehzahl</string>
-    <string name="max_rpm_summary">Höchstdrehzahl des Fahrzeugs einstellen</string>
-    <string name="redline_rpm_title">Drehzahl roter Bereich</string>
-    <string name="redline_rpm_summary">Wert für roter Bereich einstellen (Schaltindikator Symbol wird rot)</string>
-    <string name="shift_rpm_title">Optimale Schaltdrehzahl</string>
-    <string name="shift_rpm_summary">Wert für optimale Schaltdrehzahl einstellen (Schaltindikator Symbol wird grün)</string>
-    <string name="show_hide_sensors_cat">Gesamtansicht - verstecke/zeige alle Sensoren</string>
-    <string name="show_hide_maf_title">Zeige M.A.F. Sensor (Luftmassensensor)</string>
-    <string name="show_hide_maf_summary">Dieser Sensor ist nicht bei allen Fahrzeugen vorhanden</string>
-    <string name="show_hide_oil_temp_title">Zeige Öltemperatur Sensor</string>
-    <string name="show_hide_voltage_title">Zeige Bordspannung Sensor</string>
-    <string name="show_engine_load_title">Zeige Motorlast Sensor</string>
-    <string name="show_fuel_level_title">Zeige Benzinstand Sensor</string>
-    <string name="record_vals_title">Werte aufzeichnen</string>
-    <string name="max_liquid_temp">Max Kühlwasser Temp:</string>
-    <string name="max_rpm">Max Drehzahl:</string>
-    <string name="max_throttle">Max Drosselklappe:</string>
-    <string name="min_voltage">Min Spannung:</string>
-    <string name="no_dtc_error">Keine DTC Fehlercodes</string>
-    <string name="dtc_error">DTC Fehlercodes gefunden!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle getrennt (Controller: Drücke Joystick Center / Terrain Enter um zu verbinden)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle verbunden</string>
-    <string name="bt_dongle_connect">Starte OBD Verbindung</string>
-    <string name="bt_dongle_already_connected">OBD Dongle bereits verbunden</string>
-    <string name="reset_record_values">Aufgezeichnete Werte zurückstellen</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD Verbindung</string>
-    <string name="auto_start_obd_connection_summary">Wenn eingeschaltet wird bei App Start versucht die Verbindung zum OBD Dongle wiederherzustellen</string>
-    <string name="coolant_temp_label">Kühlwasser Temp</string>
-    <string name="oil_temp_label">Öl Temp</string>
-    <string name="intake_temp_label">Ansaug Temp</string>
-    <string name="intake_pressure_label">Ansaugdruck</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Drosselklappe Position</string>
-    <string name="engine_load">Motorlast</string>
-    <string name="voltage">Spannung</string>
-    <string name="fuel_level">Benzinstand</string>
-    <string name="obd_service_notification_title">OBD Monitor Dienst läuft</string>
-    <string name="obd_service_obd_connected">Mit OBD Dongle verbunden!</string>
-    <string name="obd_service_obd_disconnected">Verbindung zum OBD Dongle getrennt!</string>
-    <string name="reset_dtc_errors">DTC Fehlercodes zurückstellen</string>
-    <string name="throttle_options">Drosselklappe Optionen</string>
-    <string name="use_raw_throttle_title">Benutze RAW Werte für Drosselklappenstellung</string>
-    <string name="use_raw_throttle_message">Benutze RAW Werte für Drosselklappenstellung oder min und max Stellungen manuell Kalibrieren</string>
-    <string name="calibrate_throttle_title">Drosselklappenstellung kalibrieren</string>
-    <string name="calibrate_throttle_message">Hiermit beginnt eine Anleitung zum kalibrieren der min/max Positionen der Drosselklappe. ECU(Zündung) an, Motor aus, OBD-Dongle angeschlossen. Dieser Vorgang schreibt keine Werte in das ECU(Motorsteuergerät)!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Drosselklappen Kalibrierung</string>
-    <string name="min_throttle_calib_dialog_message">BITTE MOTOR ANLASSEN! Fahrzeug sollte warm sein und einen stabilen Leerlauf haben!!! Drosselklappe bei minimum Position(Gasdrehgriff geschlossen). SET Knopf drücken wenn bereit.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Minimum Drosselklappen Kalibrierung</string>
-    <string name="max_throttle_calib_dialog_message">BITTE MOTOR AUS UND ZÜNDUNG EINGESCHALTET LASSEN! Drosselklappe bei maximaler Position(Gasdrehgriff voll offen). SET Knopf drücken wenn bereit..</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Positionen gesetzt</string>
-    <string name="cant_calib_obd_disconnected">Bitte zuerst mit dem OBD Dongle verbinden!</string>
-    <string name="error_dongle_not_configurable">Bitte zuerst das OBD Dongle konfigurieren!</string>
-    <!-- END OF UNTRANSLATED -->
-    
-    
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -442,5 +364,77 @@
     <string name="list_hidden_waypoints">Versteckte Wegpunkte auflisten</string>
     <string name="invert_gpx_direction">Fahrtrichtung umkehren</string>
     <string name="restore_gpx_direction">Fahrtrichtung wiederherstellen</string>
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">OBD Sensoren</string>
+    <string name="obd_setup">OBD Anzeige Einstellungen</string>
+    <string name="device_setup">OBD Bluetooth-Geräte Einstellungen</string>
+    <string name="select_device_title">Wähle zu koppelendes OBD Gerät</string>
+    <string name="obd_bluetooth_list_devices_summary">Wähle aus gekoppelte Bluetooth-Geräte. Stelle sicher, dass ein OBD-Dongle bereits systemseitig gekoppelt ist!</string>
+    <string name="obd_bluetooth_list_devices_title">Wähle ELM327 Bluetooth-Gerät</string>
+    <string name="obd_cat_title_pref">OBD Einstellungen</string>
+    <string name="pref_obd_protocols_title">OBD-Protokolle</string>
+    <string name="pref_obd_protocols_summary">Wähle welches OBD-Protokoll benutzt werden soll</string>
+    <string name="pref_obd_update_period_title">Aktualisierungsintervall in Sekunden</string>
+    <string name="pref_obd_update_period_summary">Die Zeitdauer zwischen Abfragen der Fahrzeugdaten in Sekunden.</string>
+    <string name="pref_reader_config_title">Spezielle OBD-Dongle Befehle</string>
+    <string name="pref_reader_config_summary">Befehle zur Konfiguration des OBD-Dongle. Trenne Befehle durch neue Zeile.</string>
+    <string name="speed_rpm_options">Geschwindigkeits und Drehzahl Optionen</string>
+    <string name="speed_value_source_title">Quelle für Geschwindigkeitsanzeige</string>
+    <string name="speed_value_source_summary">Nutze GPS/Terrain Wheel Sensor anstatt dem OBD Wert für die Geschwindigkeit (welcher u.U. nicht im OBD des Fahrzeugs enthalten ist)</string>
+    <string name="max_rpm_title">Maximal Drehzahl</string>
+    <string name="max_rpm_summary">Höchstdrehzahl des Fahrzeugs einstellen</string>
+    <string name="redline_rpm_title">Drehzahl roter Bereich</string>
+    <string name="redline_rpm_summary">Wert für roter Bereich einstellen (Schaltindikator Symbol wird rot)</string>
+    <string name="shift_rpm_title">Optimale Schaltdrehzahl</string>
+    <string name="shift_rpm_summary">Wert für optimale Schaltdrehzahl einstellen (Schaltindikator Symbol wird grün)</string>
+    <string name="show_hide_sensors_cat">Gesamtansicht - verstecke/zeige alle Sensoren</string>
+    <string name="show_hide_maf_title">Zeige M.A.F. Sensor (Luftmassensensor)</string>
+    <string name="show_hide_maf_summary">Dieser Sensor ist nicht bei allen Fahrzeugen vorhanden</string>
+    <string name="show_hide_oil_temp_title">Zeige Öltemperatur Sensor</string>
+    <string name="show_hide_voltage_title">Zeige Bordspannung Sensor</string>
+    <string name="show_engine_load_title">Zeige Motorlast Sensor</string>
+    <string name="show_fuel_level_title">Zeige Benzinstand Sensor</string>
+    <string name="record_vals_title">Werte aufzeichnen</string>
+    <string name="max_liquid_temp">Max Kühlwasser Temp:</string>
+    <string name="max_rpm">Max Drehzahl:</string>
+    <string name="max_throttle">Max Drosselklappe:</string>
+    <string name="min_voltage">Min Spannung:</string>
+    <string name="no_dtc_error">Keine DTC Fehlercodes</string>
+    <string name="dtc_error">DTC Fehlercodes gefunden!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle getrennt (Controller: Drücke Joystick Center / Terrain Enter um zu verbinden)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle verbunden</string>
+    <string name="bt_dongle_connect">Starte OBD Verbindung</string>
+    <string name="bt_dongle_already_connected">OBD Dongle bereits verbunden</string>
+    <string name="reset_record_values">Aufgezeichnete Werte zurückstellen</string>
+    <string name="auto_start_obd_connection_title">Auto Start OBD Verbindung</string>
+    <string name="auto_start_obd_connection_summary">Wenn eingeschaltet wird bei App Start versucht die Verbindung zum OBD Dongle wiederherzustellen</string>
+    <string name="coolant_temp_label">Kühlwasser Temp</string>
+    <string name="oil_temp_label">Öl Temp</string>
+    <string name="intake_temp_label">Ansaug Temp</string>
+    <string name="intake_pressure_label">Ansaugdruck</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Drosselklappe Position</string>
+    <string name="engine_load">Motorlast</string>
+    <string name="voltage">Spannung</string>
+    <string name="fuel_level">Benzinstand</string>
+    <string name="obd_service_notification_title">OBD Monitor Dienst läuft</string>
+    <string name="obd_service_obd_connected">Mit OBD Dongle verbunden!</string>
+    <string name="obd_service_obd_disconnected">Verbindung zum OBD Dongle getrennt!</string>
+    <string name="reset_dtc_errors">DTC Fehlercodes zurückstellen</string>
+    <string name="throttle_options">Drosselklappe Optionen</string>
+    <string name="use_raw_throttle_title">Benutze RAW Werte für Drosselklappenstellung</string>
+    <string name="use_raw_throttle_message">Benutze RAW Werte für Drosselklappenstellung oder min und max Stellungen manuell Kalibrieren</string>
+    <string name="calibrate_throttle_title">Drosselklappenstellung kalibrieren</string>
+    <string name="calibrate_throttle_message">Hiermit beginnt eine Anleitung zum kalibrieren der min/max Positionen der Drosselklappe. ECU(Zündung) an, Motor aus, OBD-Dongle angeschlossen. Dieser Vorgang schreibt keine Werte in das ECU(Motorsteuergerät)!</string>
+    <string name="min_throttle_calib_dialog_title">Minimum Drosselklappen Kalibrierung</string>
+    <string name="min_throttle_calib_dialog_message">BITTE MOTOR ANLASSEN! Fahrzeug sollte warm sein und einen stabilen Leerlauf haben!!! Drosselklappe bei minimum Position(Gasdrehgriff geschlossen). SET Knopf drücken wenn bereit.</string>
+    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
+    <string name="max_throttle_calib_dialog_title">Minimum Drosselklappen Kalibrierung</string>
+    <string name="max_throttle_calib_dialog_message">BITTE MOTOR AUS UND ZÜNDUNG EINGESCHALTET LASSEN! Drosselklappe bei maximaler Position(Gasdrehgriff voll offen). SET Knopf drücken wenn bereit..</string>
+    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
+    <string name="throttle_calib_finished">Maximum and Minimum Positionen gesetzt</string>
+    <string name="cant_calib_obd_disconnected">Bitte zuerst mit dem OBD Dongle verbinden!</string>
+    <string name="error_dongle_not_configurable">Bitte zuerst das OBD Dongle konfigurieren!</string>
 
 </resources>
