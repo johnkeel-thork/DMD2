@@ -12,8 +12,6 @@
     <string name="obd_cat_title_pref">OBD Preferences</string>
     <string name="pref_obd_protocols_title">OBD Protocol</string>
     <string name="pref_obd_protocols_summary">Select which OBD Protocol to use</string>
-    <string name="pref_obd_update_period_title">Update Period in Seconds</string>
-    <string name="pref_obd_update_period_summary">The length of time between querying vehicle data in seconds</string>
     <string name="pref_reader_config_title">Reader Config Commands</string>
     <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
     <string name="speed_rpm_options">Speed and RPM Options</string>
@@ -73,7 +71,7 @@
     <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
     <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
     <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
-    
+
     <string name="feet">feet</string>
     <string name="unhide">Unhide</string>
     <string name="info_and_links">Information and Links</string>
@@ -283,8 +281,6 @@
     <string name="bad_map_detected_title">Bad Map File Detected</string>
     <string name="bad_map_detected_message">A corrupted map file was detected, the file was deleted and you need to download it again. The bad file is: </string>
 
-
-    <!-- UNTRANSLATED STRINGS -->
     <string name="rotation_locked">Rotation Locked</string>
     <string name="rotation_unlocked">Rotation Unlocked</string>
 
@@ -306,7 +302,22 @@
     <string name="trip_hide_speed_title">Hide Speed &amp; Odo</string>
     <string name="trip_hide_speed_summary">Hiding speed and odo is useful if you want to make Trip Values bigger</string>
     <string name="start_stop_trip">Start/Pause Trip</string>
-    <!-- END OF UNTRANSLATED -->
+
+
+    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
+
+    <string name="measure_correction_factor">Measures Correction</string>
+    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
+    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
+
+    <string name="select_share_app">Select App for Share</string>
+
+
+    <string name="map_view_options">Map Settings</string>
+    <string name="map_options_interface_cat_title">Interface Settings</string>
+    <string name="show_zoom_button">Show Zoom Buttons</string>
+    <string name="map_options_location_cat_title">Location Settings</string>
+    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
 
     <!-- End of New / Not Translated -->
 
