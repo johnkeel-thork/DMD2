@@ -1,35 +1,12 @@
 <resources>
 
-
-    <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
-
-    <string name="measure_correction_factor">Measures Correction</string>
-    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
-
-    <string name="select_share_app">Select App for Share</string>
-
-
-    <string name="map_view_options">Map Settings</string>
-    <string name="map_options_interface_cat_title">Interface Settings</string>
-    <string name="show_zoom_button">Show Zoom Buttons</string>
-    <string name="map_options_location_cat_title">Location Settings</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
-    <!-- END OF UNSTRANSLATED -->
-    
-    
-    
-    
-
-    <string name="app_name">DMD2</string>
-
-    <!-- Status Bar -->
+    <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
 
 
-    <!-- Common and Global -->
+    <!-- COMMON / GLOBAL -->
+    <string name="app_name">DMD2</string>
     <string name="mi">Mi</string>
     <string name="mph">Mph</string>
     <string name="km">Km</string>
@@ -54,7 +31,7 @@
     <string name="unhide">Vis</string>
 
 
-    <!-- Bottom Menu -->
+    <!-- BOTTOM MENU -->
     <string name="global_settings">Globale Innstillinger</string>
     <string name="exit">Forlat</string>
     <string name="dashboard">Instrumentpanel</string>
@@ -64,7 +41,8 @@
     <string name="roadbook">Roadbook</string>
     <string name="map">Kart</string>
 
-    <!-- Global Settings -->
+
+    <!-- GLOBAL SETTINGS -->
     <string name="localization_options">Regionsvalg</string>
     <string name="hour_format">Bruk 24t klokke</string>
     <string name="use_miles">Bruk miles i stedet for kilometer</string>
@@ -121,7 +99,12 @@
     <string name="follow_us_facebook">Besøk vår Facebookside for å få de siste nyhetene</string>
     <string name="join_us_facebook">Bli med i vår facebookgruppe</string>
     <string name="adv_rider_thread">Bli med å diskutere nye funksjoner, feil og ønsker</string>
+    <string name="use_fahrenheit">Bruk Fahrenheit i stedet for Celsius</string>
 
+
+    <!-- HOME / DASHBOARD -->
+    <string name="option_show_grid">Tilpasse skjermoppsett</string>
+    <string name="select_widget">Velg Widget</string>
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ingen Widget / Tomt felt</string>
     <string name="speed_widget_desc">Hastighet / Trip / Odo</string>
@@ -139,11 +122,8 @@
     <string name="tap_to_edit_text">Trykk for å endre tekst</string>
     <string name="write_logo_message">Egen logomelding</string>
 
-    <!-- GRID VIEW -->
-    <string name="option_show_grid">Tilpasse skjermoppsett</string>
-    <string name="select_widget">Velg Widget</string>
 
-    <!-- Speedo View -->
+    <!-- SPEEDO -->
     <string name="distance">Avstand</string>
     <string name="total_time">Total Tid</string>
     <string name="travel_time">Kjøretid</string>
@@ -177,8 +157,7 @@
     <string name="start_stop_trip">Start/Stopp Tripteller</string>
 
 
-
-    <!-- Control Station -->
+    <!-- CONTROL STATION -->
     <string name="brightness">Lysstyrke</string>
     <string name="set_max_bright_title">Tilpass sensor for lysstyrke</string>
     <string name="set_max_brightness">Finn høyeste lysstyrke</string>
@@ -199,7 +178,7 @@
     <string name="rotation_unlocked">Skjermrotering åpen</string>
 
 
-    <!-- Roadbook -->
+    <!-- ROADBOOK -->
     <string name="tap_to_open_file">Trykk her for å åpne en fil</string>
     <string name="select_instrument">Instrumentvalg</string>
     <string name="none_empty_instrument_desc">Ingen, vil skjule feltet!</string>
@@ -281,10 +260,12 @@
     <string name="roadbook_total_partial_controller_instructions">Controller: Bruk Opp/Ned/Venstre/Høyre for å flytte til rett knapp. Enter/Senter for å velge.</string>
     <string name="roadbook_decimals_controller_instructions">Controller: Bruk Venstre/Høyre for å flytte til rett knapp. Enter/Senter for å velge.</string>
     <string name="roadbook_edit_values_guide">Controller: Opp/ned = +/- 0.01, ZoomInn/Ut = +/- 1, Senter/Enter langt trykk nullstiller, Venstre/Høyre for Angre/Lagre</string>
+    <string name="measure_correction_factor">Korrigere målinger</string>
+    <string name="distance_measure_correction_title">Faktor for avstandsmåling</string>
+    <string name="distance_measure_correction_message">Avstandsmålingen vil multipliseres med verdien du setter her. Bruk dette som korrigeringsfaktor for å tilpasse til avstandsverdiene i Roadbook.</string>
 
 
-
-    <!-- MapFragment View -->
+    <!-- MAP -->
     <string name="offline_map_manager">Håndtere Offlinekart</string>
     <string name="map_manager">Karthåndtering</string>
     <string name="europe">Europa</string>
@@ -382,9 +363,15 @@
     <string name="list_hidden_waypoints">List opp skjulte veipunkter</string>
     <string name="invert_gpx_direction">Snu kjøreretning på spor</string>
     <string name="restore_gpx_direction">Gjenopprett kjøreretning på spor</string>
+    <string name="map_view_options">Kartinnstillinger</string>
+    <string name="map_options_interface_cat_title">Grensesnitt</string>
+    <string name="show_zoom_button">Vis Zoomknapper</string>
+    <string name="map_options_location_cat_title">Stedsinstillinger</string>
+    <string name="use_compass_when_stop">Bruk kompass for å indikere marsjretning når sykkelen står i ro.(Hvis mulig)</string>
+    <string name="select_share_app">Velg App for deling</string>
 
 
-    <!-- OBD SENSORS -->
+    <!-- OBD -->
     <string name="obd_bottom_menu_name">OBD Følere</string>
     <string name="obd_setup">OBD Visning</string>
     <string name="device_setup">Innstillinger for OBD bluetooth</string>
