@@ -1,5 +1,25 @@
 <resources>
 
+    <!-- NEW UNSTRANSLATED -->
+    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
+
+    <string name="measure_correction_factor">Measures Correction</string>
+    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
+    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
+
+    <string name="select_share_app">Select App for Share</string>
+
+    
+    <string name="map_view_options">Map Settings</string>
+    <string name="map_options_interface_cat_title">Interface Settings</string>
+    <string name="show_zoom_button">Show Zoom Buttons</string>
+    <string name="map_options_location_cat_title">Location Settings</string>
+    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
+    <!-- END OF UNSTRANSLATED -->
+
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -375,8 +395,6 @@
     <string name="obd_cat_title_pref">OBD Einstellungen</string>
     <string name="pref_obd_protocols_title">OBD-Protokolle</string>
     <string name="pref_obd_protocols_summary">Wähle welches OBD-Protokoll benutzt werden soll</string>
-    <string name="pref_obd_update_period_title">Aktualisierungsintervall in Sekunden</string>
-    <string name="pref_obd_update_period_summary">Die Zeitdauer zwischen Abfragen der Fahrzeugdaten in Sekunden.</string>
     <string name="pref_reader_config_title">Spezielle OBD-Dongle Befehle</string>
     <string name="pref_reader_config_summary">Befehle zur Konfiguration des OBD-Dongle. Trenne Befehle durch neue Zeile.</string>
     <string name="speed_rpm_options">Geschwindigkeits und Drehzahl Optionen</string>
