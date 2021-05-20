@@ -1,13 +1,13 @@
 <resources>
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
+    <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
 
     <string name="measure_correction_factor">Measures Correction</string>
     <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
     <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
 
-    <string name="select_share_app">Select App for Share</string>
+    <string name="select_share_app">Wähle eine App zum Teilen</string>
 
     
     <string name="map_view_options">Map Settings</string>
