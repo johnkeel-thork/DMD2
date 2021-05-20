@@ -2,20 +2,20 @@
 
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
+    <string name="use_fahrenheit">Använd Fahrenheit istället för Celsius</string>
 
-    <string name="measure_correction_factor">Measures Correction</string>
-    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
+    <string name="measure_correction_factor">Korrigering av mätvärden</string>
+    <string name="distance_measure_correction_title">Korrigeringsfaktor distansvärde</string>
+    <string name="distance_measure_correction_message">Distansvärdet kommer multipliceras med värdet du anger här. Använd detta som korrigeringsfaktor för att att matcha Roadbookens distanser.</string>
 
-    <string name="select_share_app">Select App for Share</string>
+    <string name="select_share_app">Välj app att dela med</string>
 
 
-    <string name="map_view_options">Map Settings</string>
-    <string name="map_options_interface_cat_title">Interface Settings</string>
-    <string name="show_zoom_button">Show Zoom Buttons</string>
-    <string name="map_options_location_cat_title">Location Settings</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
+    <string name="map_view_options">Inställningar för karta</string>
+    <string name="map_options_interface_cat_title">Inställningar för kartvyn</string>
+    <string name="show_zoom_button">Visa Zoom-knappar</string>
+    <string name="map_options_location_cat_title">Inställingar för position</string>
+    <string name="use_compass_when_stop">Använd enhetens kompass vid stillastående (om tillgänglig)</string>
     <!-- END OF UNSTRANSLATED -->
 
     
