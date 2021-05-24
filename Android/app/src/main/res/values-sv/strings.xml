@@ -1,25 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Använd Fahrenheit istället för Celsius</string>
-
-    <string name="measure_correction_factor">Korrigering av mätvärden</string>
-    <string name="distance_measure_correction_title">Korrigeringsfaktor distansvärde</string>
-    <string name="distance_measure_correction_message">Distansvärdet kommer multipliceras med värdet du anger här. Använd detta som korrigeringsfaktor för att att matcha Roadbookens distanser.</string>
-
-    <string name="select_share_app">Välj app att dela med</string>
-
-
-    <string name="map_view_options">Inställningar för karta</string>
-    <string name="map_options_interface_cat_title">Inställningar för kartvyn</string>
-    <string name="show_zoom_button">Visa Zoom-knappar</string>
-    <string name="map_options_location_cat_title">Inställingar för position</string>
-    <string name="use_compass_when_stop">Använd enhetens kompass vid stillastående (om tillgänglig)</string>
-    <!-- END OF UNSTRANSLATED -->
-
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -119,6 +99,8 @@
     <string name="follow_us_facebook">Besök och följ vår Facebook-sida för de senaste nyheterna</string>
     <string name="join_us_facebook">Gå med i vår Facebook-grupp</string>
     <string name="adv_rider_thread">Var med i diskussionen om nya funktioner, buggar och önskemål</string>
+    <string name="use_fahrenheit">Använd Fahrenheit istället för Celsius</string>
+    
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ingen widget / Tom yta</string>
@@ -279,7 +261,9 @@
     <string name="roadbook_total_partial_controller_instructions">Kontroll: Använd Upp/Ner/Vänster/Höger för att välja knapp. Tryck Enter/Center för att välja.</string>
     <string name="roadbook_decimals_controller_instructions">Kontroll: Använd Vänster/Höger för att välja knapp. Tryck Enter/Center för att välja.</string>
     <string name="roadbook_edit_values_guide">Kontroll: Upp/Ner justerar med 0.01, ZoomIn/Ut justerar med 1, Center/Enter lång-tryck nollställer, Vänster/Höger för Avbryt/Spara</string>
-
+    <string name="measure_correction_factor">Korrigering av mätvärden</string>
+    <string name="distance_measure_correction_title">Korrigeringsfaktor distansvärde</string>
+    <string name="distance_measure_correction_message">Distansvärdet kommer multipliceras med värdet du anger här. Använd detta som korrigeringsfaktor för att att matcha Roadbookens distanser.</string>
 
 
     <!-- MapFragment View -->
@@ -380,6 +364,12 @@
     <string name="list_hidden_waypoints">Lista gömda brytpunkter</string>
     <string name="invert_gpx_direction">Byt riktning på spåret</string>
     <string name="restore_gpx_direction">Återställ spårets riktning</string>
+    <string name="select_share_app">Välj app att dela med</string>
+    <string name="map_view_options">Inställningar för karta</string>
+    <string name="map_options_interface_cat_title">Inställningar för kartvyn</string>
+    <string name="show_zoom_button">Visa Zoom-knappar</string>
+    <string name="map_options_location_cat_title">Inställingar för position</string>
+    <string name="use_compass_when_stop">Använd enhetens kompass vid stillastående (om tillgänglig)</string>
 
 
     <!-- OBD SENSORS -->
