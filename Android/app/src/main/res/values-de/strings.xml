@@ -1,20 +1,20 @@
 <resources>
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
+    <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
 
-    <string name="measure_correction_factor">Measures Correction</string>
-    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
+    <string name="measure_correction_factor">Entfernungskorrektur</string>
+    <string name="distance_measure_correction_title">Faktor für Entfernungskorrektur</string>
+    <string name="distance_measure_correction_message">Deine Wegstreckenwerte werden mit dem Faktor multipliziert den Du hier eingibst. Nutze diesen Faktor um die Wegstreckenzähler mit den Entfernungsangaben im Roadbook abzugleichen.</string>
 
-    <string name="select_share_app">Select App for Share</string>
+    <string name="select_share_app">Wähle eine App zum Teilen</string>
 
     
-    <string name="map_view_options">Map Settings</string>
-    <string name="map_options_interface_cat_title">Interface Settings</string>
-    <string name="show_zoom_button">Show Zoom Buttons</string>
-    <string name="map_options_location_cat_title">Location Settings</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
+    <string name="map_view_options">Karteneinstellungen</string>
+    <string name="map_options_interface_cat_title">Einstellungen Benutzeroberfläche</string>
+    <string name="show_zoom_button">Zeige Zoom Knöpfe</string>
+    <string name="map_options_location_cat_title">Standort Einstellungen</string>
+    <string name="use_compass_when_stop">Bei Stillstand den Compass Sensor (falls vorhanden) nutzen um den Kurs anzuzeigen</string>
     <!-- END OF UNSTRANSLATED -->
 
 
@@ -107,8 +107,8 @@
     <string name="save_maps_to_sd">Benutze SD-Karte zum Speichern von Offline-Maps</string>
     <string name="sd_card_error">Fehler beim Speichern auf SD-Karte. Speichern auf SD-Karte funktioniert nicht auf diesem Gerät!</string>
     <string name="no_sd_card_error">SD-Karte nicht vorhanden oder inkompatibel!</string>
-    <string name="move_files_to_sdcard">Alle Landkarten auf die SD-Karte verschiebn?</string>
-    <string name="move_files_to_internal_memory">Alle Landkarten auf den internen Speicher verschiebn?</string>
+    <string name="move_files_to_sdcard">Alle Landkarten auf die SD-Karte verschieben?</string>
+    <string name="move_files_to_internal_memory">Alle Landkarten auf den internen Speicher verschieben?</string>
     <string name="moving_files_dialog_title">Verschiebe Dateien!</string>
     <string name="moving_map_file">Verschiebe</string>
     <string name="moving_map_of">von</string>
@@ -158,7 +158,7 @@
     <string name="reset_trip">Trip zurückstellen</string>
     <string name="edit_odometer">Km-Zähler einstellen</string>
     <string name="edit_odometer_message">Bitte neuen Km-Zähler Wert eingeben:</string>
-    <string name="edit_odometer_controller_guide">Controller: Hoch/Runter verändert um 1, Zoom rein/rausverändert um 100, Mitte/Enter lange drücken setzt zurück, links/rechts für Abbrechen/Speichern</string>
+    <string name="edit_odometer_controller_guide">Controller: Hoch/Runter verändert um 1, Zoom rein/raus verändert um 100, Mitte/Enter lange drücken setzt zurück, links/rechts für Abbrechen/Speichern</string>
     <string name="hours">Stunden</string>
     <string name="speedo_trip_options">Optionen</string>
     <string name="trip_options">Trip-Zähler Optionen</string>
@@ -262,7 +262,7 @@
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Roadbook Vorschub einmal runter wenn Teilstrecke zurückgestellt wird.</string>
     <string name="roadbook_controller_paper_roll_options_cat_title">Roadbook Vorschub Optionen</string>
     <string name="roadbook_controller_cat_title">CARPE Controller Optionen</string>
-    <string name="enable_controller_lock_also_disable_touch">Bildschirmberührung sperren wenn Controller im Sperr Modus</string>
+    <string name="enable_controller_lock_also_disable_touch">Bildschirmberührung (Touch) sperren wenn Controller im Sperr Modus</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
         <item>Linkes Menü zeigen</item>
         <item>Roadbook hoch</item>
@@ -420,7 +420,7 @@
     <string name="min_voltage">Min Spannung:</string>
     <string name="no_dtc_error">Keine DTC Fehlercodes</string>
     <string name="dtc_error">DTC Fehlercodes gefunden!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle getrennt (Controller: Drücke Joystick Center / Terrain Enter um zu verbinden)</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle getrennt (Controller: Drücke Joystick Mitte/Terrain:Enter um zu verbinden)</string>
     <string name="bt_dongle_connected">BT OBD Dongle verbunden</string>
     <string name="bt_dongle_connect">Starte OBD Verbindung</string>
     <string name="bt_dongle_already_connected">OBD Dongle bereits verbunden</string>
