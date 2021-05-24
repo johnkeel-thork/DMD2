@@ -1,25 +1,5 @@
 <resources>
 
-    <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
-
-    <string name="measure_correction_factor">Entfernungskorrektur</string>
-    <string name="distance_measure_correction_title">Faktor für Entfernungskorrektur</string>
-    <string name="distance_measure_correction_message">Deine Wegstreckenwerte werden mit dem Faktor multipliziert den Du hier eingibst. Nutze diesen Faktor um die Wegstreckenzähler mit den Entfernungsangaben im Roadbook abzugleichen.</string>
-
-    <string name="select_share_app">Wähle eine App zum Teilen</string>
-
-    
-    <string name="map_view_options">Karteneinstellungen</string>
-    <string name="map_options_interface_cat_title">Einstellungen Benutzeroberfläche</string>
-    <string name="show_zoom_button">Zeige Zoom Knöpfe</string>
-    <string name="map_options_location_cat_title">Standort Einstellungen</string>
-    <string name="use_compass_when_stop">Bei Stillstand den Compass Sensor (falls vorhanden) nutzen um den Kurs anzuzeigen</string>
-    <!-- END OF UNSTRANSLATED -->
-
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -121,6 +101,7 @@
     <string name="follow_us_facebook">Besuche und folge unsere Facebookseite für neueste Nachrichten</string>
     <string name="join_us_facebook">Trete der Facebookgruppe bei</string>
     <string name="adv_rider_thread">Beteilige Dich an der Diskussion über neue Funktionen, Fehler und Wünsche</string>
+    <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
 
 
     <!-- Widgets -->
@@ -283,7 +264,9 @@
     <string name="roadbook_total_partial_controller_instructions">Controller: Nutze Hoch/Runter/Links/Rechts um einen Knopf zu wählen. Enter/Mitte für Auswahl.</string>
     <string name="roadbook_decimals_controller_instructions">Controller: Nutze Links/Rechts um einen Knopf zu wählen. Enter/Mitte für Auswahl.</string>
     <string name="roadbook_edit_values_guide">Controller: Hoch/Runter verändert um 0.01, Zoom Rein/Raus verändert um 1, Enter/Mitte langer Druck zum Zurücksetzen, Links/Rechts für Abbrechen/Speichern</string>
-
+    <string name="measure_correction_factor">Entfernungskorrektur</string>
+    <string name="distance_measure_correction_title">Faktor für Entfernungskorrektur</string>
+    <string name="distance_measure_correction_message">Deine Wegstreckenwerte werden mit dem Faktor multipliziert den Du hier eingibst. Nutze diesen Faktor um die Wegstreckenzähler mit den Entfernungsangaben im Roadbook abzugleichen.</string>
 
 
     <!-- Map View -->
@@ -384,6 +367,12 @@
     <string name="list_hidden_waypoints">Versteckte Wegpunkte auflisten</string>
     <string name="invert_gpx_direction">Fahrtrichtung umkehren</string>
     <string name="restore_gpx_direction">Fahrtrichtung wiederherstellen</string>
+    <string name="select_share_app">Wähle eine App zum Teilen</string>
+    <string name="map_view_options">Karteneinstellungen</string>
+    <string name="map_options_interface_cat_title">Einstellungen Benutzeroberfläche</string>
+    <string name="show_zoom_button">Zeige Zoom Knöpfe</string>
+    <string name="map_options_location_cat_title">Standort Einstellungen</string>
+    <string name="use_compass_when_stop">Bei Stillstand den Compass Sensor (falls vorhanden) nutzen um den Kurs anzuzeigen</string>
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">OBD Sensoren</string>
