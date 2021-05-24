@@ -2,24 +2,13 @@
 
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Käytä Fahrenheit-asteita Celsius-asteiden sijaan</string>
-
-    <string name="measure_correction_factor">Mittakorjaus</string>
-    <string name="distance_measure_correction_title">Kokonais- ja osamatkan mittakorjauskerroin</string>
-    <string name="distance_measure_correction_message">Kokonaismatkan ja Osamatkan arvot kerrotaan alle syötetyllä kertoimella. Käytä kerrointa korjaamaan mahdollinen ero tiekirjan arvoihin.</string>
 
     <string name="select_share_app">Select App for Share</string>
 
-
-    <string name="map_view_options">Kartta-asetukset</string>
-    <string name="map_options_interface_cat_title">Käyttöliittymäasetukset</string>
-    <string name="show_zoom_button">Näytä zoomaus-painikkeet</string>
-    <string name="map_options_location_cat_title">Sijaintiasetukset</string>
-    <string name="use_compass_when_stop">Käytä pysähdyksissä kompassi-anturin suuntaa (jos käytettävissä).</string>
     <!-- END OF UNSTRANSLATED -->
-    
-    
-    
+
+
+
 
     <string name="app_name">DMD2</string>
 
@@ -120,6 +109,7 @@
     <string name="follow_us_facebook">Vieraile ja seuraa Facebook-sivuamme josta löydät tuoreimmat uutiset</string>
     <string name="join_us_facebook">Liity Facebook-ryhmäämme</string>
     <string name="adv_rider_thread">Liity keskusteluun uusista ominaisuuksista, bugeista ja toiveista</string>
+    <string name="use_fahrenheit">Käytä Fahrenheit-asteita Celsius-asteiden sijaan</string>
 
 
     <!-- Widgets -->
@@ -280,7 +270,9 @@
     <string name="roadbook_total_partial_controller_instructions">Ohjaimella: Käytä Ylös/Alas/Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
     <string name="roadbook_decimals_controller_instructions">Ohjaimella: Käytä Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
     <string name="roadbook_edit_values_guide">Ohjaimella: Ylös/Alas lisää/vähentää 0.01, Zoom Sisään/Ulos lisää/vähentää 1, Keski/Enter pitkä painallus nollaa, Vasen/Oikea peruuttaa/Tallentaa</string>
-
+    <string name="measure_correction_factor">Mittakorjaus</string>
+    <string name="distance_measure_correction_title">Kokonais- ja osamatkan mittakorjauskerroin</string>
+    <string name="distance_measure_correction_message">Kokonaismatkan ja Osamatkan arvot kerrotaan alle syötetyllä kertoimella. Käytä kerrointa korjaamaan mahdollinen ero tiekirjan arvoihin.</string>
 
 
     <!-- MapFragment View -->
@@ -381,6 +373,11 @@
     <string name="list_hidden_waypoints">Listaa piilotetut reittipisteet</string>
     <string name="invert_gpx_direction">Käännä reitin suunta</string>
     <string name="restore_gpx_direction">Palauta reitin suunta</string>
+    <string name="map_view_options">Kartta-asetukset</string>
+    <string name="map_options_interface_cat_title">Käyttöliittymäasetukset</string>
+    <string name="show_zoom_button">Näytä zoomaus-painikkeet</string>
+    <string name="map_options_location_cat_title">Sijaintiasetukset</string>
+    <string name="use_compass_when_stop">Käytä pysähdyksissä kompassi-anturin suuntaa (jos käytettävissä).</string>
 
 
     <!-- OBD SENSORS -->
