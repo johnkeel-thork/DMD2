@@ -3,7 +3,7 @@
 
     <!-- NEW UNSTRANSLATED -->
 
-    <string name="select_share_app">Select App for Share</string>
+    <string name="select_share_app">Valitse sovellus</string>
 
     <!-- END OF UNSTRANSLATED -->
 
@@ -377,7 +377,7 @@
     <string name="map_options_interface_cat_title">Käyttöliittymäasetukset</string>
     <string name="show_zoom_button">Näytä zoomaus-painikkeet</string>
     <string name="map_options_location_cat_title">Sijaintiasetukset</string>
-    <string name="use_compass_when_stop">Käytä pysähdyksissä kompassi-anturin suuntaa (jos käytettävissä).</string>
+    <string name="use_compass_when_stop">Käytä pysähdyksissä laitteen kompassia(jos käytettävissä).</string>
 
 
     <!-- OBD SENSORS -->
