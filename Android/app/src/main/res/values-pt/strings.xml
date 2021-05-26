@@ -101,6 +101,53 @@
     <string name="join_us_facebook">Junta-te ao nosso geupo do Facebook</string>
     <string name="adv_rider_thread">Discute novas funcionalidades e reporta bugs</string>
     <string name="use_fahrenheit">Usar Fahrenheit em vez de Celsius</string>
+    <string name="gps_measure_precision">Precisão das medições de GPS</string>
+    <string name="gps_minimum_distance">Distância miníma para validar</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 metros</item>
+        <item>0.5 metros</item>
+        <item>0.8 metros</item>
+        <item>1 metro</item>
+        <item>1.5 metro</item>
+        <item>2 metro</item>
+        <item>3 metro</item>
+        <item>4 metro</item>
+        <item>5 metro</item>
+        <item>6 metro</item>
+        <item>7 metro</item>
+        <item>8 metro</item>
+        <item>9 metro</item>
+        <item>10 metro</item>
+    </string-array>
+    <string name="gps_minimum_speed">Velocidade miníma para validar</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/h</item>
+        <item>1 Km/h</item>
+        <item>2 Km/h</item>
+        <item>3 Km/h</item>
+        <item>4 Km/h</item>
+        <item>5 Km/h</item>
+        <item>6 Km/h</item>
+        <item>7 Km/h</item>
+        <item>8 Km/h</item>
+        <item>9 Km/h</item>
+        <item>10 Km/h</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">Máximo de precisão para validar</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 metros</item>
+        <item>5 metros</item>
+        <item>10 metros</item>
+        <item>15 metros</item>
+        <item>20 metros</item>
+        <item>25 metros</item>
+        <item>30 metros</item>
+        <item>50 metros</item>
+        <item>100 metros</item>
+        <item>500 metros</item>
+        <item>1000 metros</item>
+        <item>2000 metros</item>
+    </string-array>
 
 
     <!-- Widgets -->
@@ -365,6 +412,19 @@
     <string name="invert_gpx_direction">Inverter Direcção GPX</string>
     <string name="restore_gpx_direction">Restaurar Direcção GPX</string>
     <string name="select_share_app">Selecionar App</string>
+    <string name="edit_widgets_layout">Edita Widgets</string>
+    <string name="edit_widgets_toast">Toque no widget para editar</string>
+    <string name="select_widget_for_slot">Selecionar Widget</string>
+    <string name="no_widget_empty">Nenhum - Espaço vazio</string>
+    <string name="speed_widget">VELOCIDADE - GPS ou Sensor</string>
+    <string name="altitude_widget">ALTITUDE - GPS</string>
+    <string name="heading_widget">RUMO - Rumo GPS em graus</string>
+    <string name="trip_widget">TRIP - Distância da Viagem</string>
+    <string name="obd_temperature_widget">OBD - Temperatura Água</string>
+    <string name="obd_rpm_widget">OBD - RPMs do Motor</string>
+    <string name="obd_throttle_widget">OBD - Percentagem Acelerador</string>
+    <string name="obd_bat_widget">OBD - Voltagem Bateria</string>
+    <string name="obd_errors_widget">OBD - Número Erros DTC</string>
     <!-- Map Options View -->
     <string name="map_view_options">Configuração</string>
     <string name="map_options_interface_cat_title">Opções de Interface</string>
