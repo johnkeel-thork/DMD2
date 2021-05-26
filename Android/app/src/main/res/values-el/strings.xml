@@ -15,10 +15,76 @@
     <string name="show_zoom_button">Show Zoom Buttons</string>
     <string name="map_options_location_cat_title">Location Settings</string>
     <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
+
+    <string name="gps_measure_precision">GPS Measures Precision</string>
+    <string name="gps_minimum_distance">GPS Update Minimum Distance</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 meters</item>
+        <item>0.5 meters</item>
+        <item>0.8 meters</item>
+        <item>1 meter</item>
+        <item>1.5 meters</item>
+        <item>2 meters</item>
+        <item>3 meters</item>
+        <item>4 meters</item>
+        <item>5 meters</item>
+        <item>6 meters</item>
+        <item>7 meters</item>
+        <item>8 meters</item>
+        <item>9 meters</item>
+        <item>10 meters</item>
+    </string-array>
+    <string name="gps_minimum_speed">GPS Update Minimum Speed</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/h</item>
+        <item>1 Km/h</item>
+        <item>2 Km/h</item>
+        <item>3 Km/h</item>
+        <item>4 Km/h</item>
+        <item>5 Km/h</item>
+        <item>6 Km/h</item>
+        <item>7 Km/h</item>
+        <item>8 Km/h</item>
+        <item>9 Km/h</item>
+        <item>10 Km/h</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">GPS Update Minimum Accuracy</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 meters</item>
+        <item>5 meters</item>
+        <item>10 meters</item>
+        <item>15 meters</item>
+        <item>20 meters</item>
+        <item>25 meters</item>
+        <item>30 meters</item>
+        <item>50 meters</item>
+        <item>100 meters</item>
+        <item>500 meters</item>
+        <item>1000 meters</item>
+        <item>2000 meters</item>
+    </string-array>
+
+
+
+    <string name="edit_widgets_layout">Edit Widgets</string>
+    <string name="edit_widgets_toast">Tap the widget to edit</string>
+    <string name="select_widget_for_slot">Select Widget</string>
+    <string name="no_widget_empty">NONE - Empty space</string>
+    <string name="speed_widget">SPEED - Your travel speed</string>
+    <string name="altitude_widget">ALTITUDE - How high are you</string>
+    <string name="heading_widget">BEARING - GPS Bearing degrees</string>
+    <string name="trip_widget">TRIP - Trip total distance</string>
+    <string name="obd_temperature_widget">OBD - Liquid Temperature</string>
+    <string name="obd_rpm_widget">OBD - Engine RPM</string>
+    <string name="obd_throttle_widget">OBD - Throttle Percentage</string>
+    <string name="obd_bat_widget">OBD - Battery Voltage</string>
+    <string name="obd_errors_widget">OBD - DTC Error Count</string>
+    
     <!-- END OF UNSTRANSLATED -->
-    
-    
-    
+
+
+
+
 
     <string name="app_name">DMD2</string>
 
