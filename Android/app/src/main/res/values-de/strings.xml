@@ -13,7 +13,7 @@
         <item>2 meter</item>
         <item>3 meter</item>
         <item>4 meter</item>
-        <item>5 meters/item>
+        <item>5 meter</item>
         <item>6 meter</item>
         <item>7 meter</item>
         <item>8 meter</item>
@@ -56,7 +56,7 @@
     <string name="edit_widgets_toast">Tippe auf Widget zum editieren</string>
     <string name="select_widget_for_slot">Wähle Widget</string>
     <string name="no_widget_empty">KEINS - Leeres Feld</string>
-    <string name="speed_widget">Geschwindigkeit - Deine gefahrene Geschwindigkeit</string>
+    <string name="speed_widget">GESCHWINDIGKEIT - Deine gefahrene Geschwindigkeit</string>
     <string name="altitude_widget">HÖHENMESSER - Wie hoch Du gerade bist</string>
     <string name="heading_widget">KURS - GPS Kurs in Grad</string>
     <string name="trip_widget">TRIP - Trip gefahrene Strecke</string>
