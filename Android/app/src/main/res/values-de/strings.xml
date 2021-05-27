@@ -2,8 +2,8 @@
 
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="gps_measure_precision">GPS Measures Precision</string>
-    <string name="gps_minimum_distance">GPS Update Minimum Distance</string>
+    <string name="gps_measure_precision">GPS Messgenauigkeit</string>
+    <string name="gps_minimum_distance">GPS Update Mindestentfernung</string>
     <string-array name="gps_minimum_displacement" translatable="true">
         <item>0 meters</item>
         <item>0.5 meters</item>
