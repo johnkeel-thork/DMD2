@@ -2,69 +2,69 @@
 
 
     <!-- NEW UNSTRANSLATED -->
-    <string name="gps_measure_precision">GPS Measures Precision</string>
-    <string name="gps_minimum_distance">GPS Update Minimum Distance</string>
+    <string name="gps_measure_precision">GPS Nøyaktighet</string>
+    <string name="gps_minimum_distance">Minste avstand for oppdatering av GPS</string>
     <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 meters</item>
-        <item>0.5 meters</item>
-        <item>0.8 meters</item>
+        <item>0 meter</item>
+        <item>0.5 meter</item>
+        <item>0.8 meter</item>
         <item>1 meter</item>
-        <item>1.5 meters</item>
-        <item>2 meters</item>
-        <item>3 meters</item>
-        <item>4 meters</item>
-        <item>5 meters</item>
-        <item>6 meters</item>
-        <item>7 meters</item>
-        <item>8 meters</item>
-        <item>9 meters</item>
-        <item>10 meters</item>
+        <item>1.5 meter</item>
+        <item>2 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>5 meter</item>
+        <item>6 meter</item>
+        <item>7 meter</item>
+        <item>8 meter</item>
+        <item>9 meter</item>
+        <item>10 meter</item>
     </string-array>
-    <string name="gps_minimum_speed">GPS Update Minimum Speed</string>
+    <string name="gps_minimum_speed">Laveste hastighet for GPS oppdatering</string>
     <string-array name="gps_minimum_speed" translatable="true">
-        <item>0 Km/h</item>
-        <item>1 Km/h</item>
-        <item>2 Km/h</item>
-        <item>3 Km/h</item>
-        <item>4 Km/h</item>
-        <item>5 Km/h</item>
-        <item>6 Km/h</item>
-        <item>7 Km/h</item>
-        <item>8 Km/h</item>
-        <item>9 Km/h</item>
-        <item>10 Km/h</item>
+        <item>0 Km/t</item>
+        <item>1 Km/t</item>
+        <item>2 Km/t</item>
+        <item>3 Km/t</item>
+        <item>4 Km/t</item>
+        <item>5 Km/t</item>
+        <item>6 Km/t</item>
+        <item>7 Km/t</item>
+        <item>8 Km/t</item>
+        <item>9 Km/t</item>
+        <item>10 Km/t</item>
     </string-array>
-    <string name="gps_minimum_accuracy">GPS Update Minimum Accuracy</string>
+    <string name="gps_minimum_accuracy">Laveste nøyaktighet for oppdatering av GPS</string>
     <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 meters</item>
-        <item>5 meters</item>
-        <item>10 meters</item>
-        <item>15 meters</item>
-        <item>20 meters</item>
-        <item>25 meters</item>
-        <item>30 meters</item>
-        <item>50 meters</item>
-        <item>100 meters</item>
-        <item>500 meters</item>
-        <item>1000 meters</item>
-        <item>2000 meters</item>
+        <item>3 meter</item>
+        <item>5 meter</item>
+        <item>10 meter</item>
+        <item>15 meter</item>
+        <item>20 meter</item>
+        <item>25 meter</item>
+        <item>30 meter</item>
+        <item>50 meter</item>
+        <item>100 meter</item>
+        <item>500 meter</item>
+        <item>1000 meter</item>
+        <item>2000 meter</item>
     </string-array>
 
 
 
-    <string name="edit_widgets_layout">Edit Widgets</string>
-    <string name="edit_widgets_toast">Tap the widget to edit</string>
-    <string name="select_widget_for_slot">Select Widget</string>
-    <string name="no_widget_empty">NONE - Empty space</string>
-    <string name="speed_widget">SPEED - Your travel speed</string>
-    <string name="altitude_widget">ALTITUDE - How high are you</string>
-    <string name="heading_widget">BEARING - GPS Bearing degrees</string>
-    <string name="trip_widget">TRIP - Trip total distance</string>
-    <string name="obd_temperature_widget">OBD - Liquid Temperature</string>
-    <string name="obd_rpm_widget">OBD - Engine RPM</string>
-    <string name="obd_throttle_widget">OBD - Throttle Percentage</string>
-    <string name="obd_bat_widget">OBD - Battery Voltage</string>
-    <string name="obd_errors_widget">OBD - DTC Error Count</string>
+    <string name="edit_widgets_layout">Endre oppsett for programfliser</string>
+    <string name="edit_widgets_toast">Trykk på flisen du vil endre</string>
+    <string name="select_widget_for_slot">Velg innhold</string>
+    <string name="no_widget_empty">INGEN - Åpen plass</string>
+    <string name="speed_widget">HASTIGHET - Kjørehastighet</string>
+    <string name="altitude_widget">HØYDE - Høyde over havet</string>
+    <string name="heading_widget">RETNING - Kompasskurs i grader (GPS)</string>
+    <string name="trip_widget">TRIP - Trip total kjørelengde</string>
+    <string name="obd_temperature_widget">OBD - Kjølevesketemperatur</string>
+    <string name="obd_rpm_widget">OBD - Turtall</string>
+    <string name="obd_throttle_widget">OBD - Gasspådrag i %</string>
+    <string name="obd_bat_widget">OBD - Ladespenning</string>
+    <string name="obd_errors_widget">OBD - DTC Feilteller</string>
 
 
     <!-- END OF UNSTRANSLATED -->
@@ -112,7 +112,7 @@
 
 
     <!-- GLOBAL SETTINGS -->
-    <string name="localization_options">Regionsvalg</string>
+    <string name="localization_options">Visningsenheter</string>
     <string name="hour_format">Bruk 24t klokke</string>
     <string name="use_miles">Bruk miles i stedet for kilometer</string>
     <string name="ui_options">Grensesnittsalternativ</string>
@@ -173,23 +173,23 @@
 
     <!-- HOME / DASHBOARD -->
     <string name="option_show_grid">Tilpasse skjermoppsett</string>
-    <string name="select_widget">Velg Widget</string>
+    <string name="select_widget">Velg programflis</string>
     <!-- Widgets -->
-    <string name="none_empty_widget_desc">Ingen Widget / Tomt felt</string>
+    <string name="none_empty_widget_desc">Ingen flis / Tomt felt</string>
     <string name="speed_widget_desc">Hastighet / Trip / Odo</string>
     <string name="fav_apps_widgets">App-snarveier</string>
     <string name="trip_info">Tripinformasjon</string>
     <string name="digital_clock">Digitalt ur</string>
     <string name="compass_widget">Kompass</string>
-    <string name="system_widget">Android System Widget</string>
+    <string name="system_widget">Android System Programmer</string>
     <string name="logo_widget">Legg til PNG logo</string>
     <!-- Trip Widget -->
-    <string name="avg_speed">Gj.snitt hastighet</string>
+    <string name="avg_speed">Snittfart</string>
     <!-- Logo Widget -->
-    <string name="pixels">pixeler</string>
+    <string name="pixels">pixler</string>
     <string name="tap_to_select_image">Trykk for å velge bilde</string>
     <string name="tap_to_edit_text">Trykk for å endre tekst</string>
-    <string name="write_logo_message">Egen logomelding</string>
+    <string name="write_logo_message">Egen logotekst</string>
 
 
     <!-- SPEEDO -->
@@ -197,7 +197,7 @@
     <string name="total_time">Total Tid</string>
     <string name="travel_time">Kjøretid</string>
     <string name="stop_time">Stopptid</string>
-    <string name="avg_average">GJ.SNITT</string>
+    <string name="avg_average">GJENNOMSNITT</string>
     <string name="max_maximum">HØYESTE</string>
     <string name="odo_odometer">Odo</string>
     <string name="trip">Trip</string>
@@ -209,9 +209,9 @@
     <string name="speedo_trip_options">Alternativer</string>
     <string name="trip_options">Tripalternativer</string>
     <string name="trip_running_mode_title">Tripteller alltid på</string>
-    <string name="trip_running_mode_summary">Då må selv starte triptelleren hvis denne deaktiverers.</string>
+    <string name="trip_running_mode_summary">Du må selv starte triptelleren hvis denne deaktiveres.</string>
     <string name="trip_auto_reset_title">Automatisk Nullstilling av tripteller</string>
-    <string name="trip_auto_reset_summary">Triptelleren blir nullstilt hvsi DMD2 lukkes lengre enn valgt tidsvindu.</string>
+    <string name="trip_auto_reset_summary">Triptelleren blir nullstilt hvis DMD2 lukkes lengre enn valgt tidsvindu.</string>
     <string name="trip_auto_reset_time_title">Tid før nullstilling av tripteller</string>
     <string-array name="trip_reset_time_entries" translatable="true">
         <item>6 timer</item>
@@ -222,7 +222,7 @@
     </string-array>
     <string name="trip_options_layout_cat">Visningsinnstillinger</string>
     <string name="trip_hide_speed_title">Skjul Fart &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Skjulte farts og kjørelendetellere vil gjøre triptelleren større og mer synlig.</string>
+    <string name="trip_hide_speed_summary">Skjulte farts og kjørelendgetellere vil gjøre triptelleren større og mer synlig.</string>
     <string name="start_stop_trip">Start/Stopp Tripteller</string>
 
 
@@ -454,7 +454,7 @@
     <string name="pref_reader_config_summary">Kommandoer for å stille inn bluetoothleser, del med ny linje</string>
     <string name="speed_rpm_options">Fart og turtall</string>
     <string name="speed_value_source_title">GPS fartkilde</string>
-    <string name="speed_value_source_summary">Bruk GSP/Hjulsensor i stedet for OBD data for fart (OBDdata kan vær utilgjengelig)</string>
+    <string name="speed_value_source_summary">Bruk GPS/Hjulsensor i stedet for OBD-data for hastighet(OBDdata kan være utilgjengelig)</string>
     <string name="max_rpm_title">Høyeste turtall</string>
     <string name="max_rpm_summary">Still inn kjøretøyets høyeste turtall</string>
     <string name="redline_rpm_title">Rød grenseverdi for turtall</string>
@@ -463,23 +463,23 @@
     <string name="shift_rpm_summary">Still inn optimalt turtall for girskift (Grønn varselsirkel)</string>
     <string name="show_hide_sensors_cat">Sensorvisning - Skjul / vis følere</string>
     <string name="show_hide_maf_title">Vis M.A.F. føler</string>
-    <string name="show_hide_maf_summary">Dene føleren er ikke tilgjengelig på alle kjøretøy</string>
+    <string name="show_hide_maf_summary">Denne føleren er ikke tilgjengelig på alle kjøretøy</string>
     <string name="show_hide_oil_temp_title">Vis oljetemperatur</string>
     <string name="show_hide_voltage_title">Vis ladespenning</string>
     <string name="show_engine_load_title">Vis motorlast</string>
     <string name="show_fuel_level_title">Vis drivstoffnivå</string>
-    <string name="record_vals_title">Registrer verdier</string>
+    <string name="record_vals_title">Registrerte verdier</string>
     <string name="max_liquid_temp">Høyeste kjølevannstemperatur:</string>
     <string name="max_rpm">Høyeste turtall:</string>
     <string name="max_throttle">Høyeste gasspådrag:</string>
     <string name="min_voltage">Laveste ladespenning:</string>
     <string name="no_dtc_error">Ingen feilkoder (DTC)</string>
-    <string name="dtc_error">Feilkode registrert(DTC)!</string>
+    <string name="dtc_error">Feilkode registrert! (DTC)</string>
     <string name="bt_dongle_disconnected">BT OBD Dongle frakoblet (Controller: Trykk Joystick Senter / Enter for å koble til)</string>
     <string name="bt_dongle_connected">BT OBD Dongle tilkoblet</string>
     <string name="bt_dongle_connect">Start OBD tilkobling</string>
     <string name="bt_dongle_already_connected">OBD Dongle allerede tilkoblet</string>
-    <string name="reset_record_values">Nullstill registrerte vewrdier</string>
+    <string name="reset_record_values">Nullstill registrerte verdier</string>
     <string name="auto_start_obd_connection_title">Auto Start OBD tilkobling</string>
     <string name="auto_start_obd_connection_summary">Når valgt vil DMD forsøke å koble til OBD Dongle ved oppstart</string>
     <string name="coolant_temp_label">Kjølevannstemp.</string>
@@ -494,7 +494,7 @@
     <string name="obd_service_notification_title">OBD overvåkning kjører</string>
     <string name="obd_service_obd_connected">Tilkoblet dongle!</string>
     <string name="obd_service_obd_disconnected">Frakoblet fra dongle!</string>
-    <string name="reset_dtc_errors">Nullstill feilkodeer (DTC)</string>
+    <string name="reset_dtc_errors">Nullstill feilkoder (DTC)</string>
     <string name="throttle_options">Instillinger for gasspådrag</string>
     <string name="use_raw_throttle_title">Bruk ufiltret gasspådragsposisjon</string>
     <string name="use_raw_throttle_message">Bruk ufiltrert OBD2 rådata eller still inn maks og min. posisjon.</string>
