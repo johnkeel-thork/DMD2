@@ -1,90 +1,5 @@
 <resources>
 
-    <!-- NEW UNSTRANSLATED -->
-    <string name="use_fahrenheit">Χρησιμοποιήστε βαθμούς Φαρενάιτ αντί Κελσίου</string>
-
-    <string name="measure_correction_factor">Διόρθωση Μέτρων</string>
-    <string name="distance_measure_correction_title">Συντελεστής Διόρθωσης Μέτρησης Απόστασης</string>
-    <string name="distance_measure_correction_message">Η απόσταση μέτρησης θα πολλάπλασιαστή με την τιμή που θα βάλετε εδώ. Χρησιμοποιήστε το ως συντελεστή διόρθωσης για να ταιριάξετε τις τιμές απόστασης στο Roadbook.</string>
-
-    <string name="select_share_app">Επιλέξτε Εφαρμογή για Κοινή Χρήση</string>
-
-
-    <string name="map_view_options">Επιλογές Χάρτη</string>
-    <string name="map_options_interface_cat_title">Ρυθμίσεις Διεπαφής</string>
-    <string name="show_zoom_button">Εμφάνιση Κουμπιών Μεγέθυνσης</string>
-    <string name="map_options_location_cat_title">Ρυθμίσεις Τοποθεσίας</string>
-    <string name="use_compass_when_stop">Σε στάση χρησιμοποιήστε τον Αισθητήρα Πυξίδας για (εάν είναι διαθέσιμος)</string>
-
-    <string name="gps_measure_precision">Ρυθμίσεις Ακριβείας GPS</string>
-    <string name="gps_minimum_distance">Ενημέρωση Ελάχιστης Απόστασης GPS</string>
-    <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 μέτρα</item>
-        <item>0.5 μέτρα</item>
-        <item>0.8 μέτρα</item>
-        <item>1 μέτρο</item>
-        <item>1.5 μέτρα</item>
-        <item>2 μέτρα</item>
-        <item>3 μέτρα</item>
-        <item>4 μέτρα</item>
-        <item>5 μέτρα</item>
-        <item>6 μέτρα</item>
-        <item>7 μέτρα</item>
-        <item>8 μέτρα</item>
-        <item>9 μέτρα</item>
-        <item>10 μέτρα</item>
-    </string-array>
-    <string name="gps_minimum_speed">Ενημέρωση Ελάχιστης Ταχύτητας GPS</string>
-    <string-array name="gps_minimum_speed" translatable="true">
-        <item>0 Km/h</item>
-        <item>1 Km/h</item>
-        <item>2 Km/h</item>
-        <item>3 Km/h</item>
-        <item>4 Km/h</item>
-        <item>5 Km/h</item>
-        <item>6 Km/h</item>
-        <item>7 Km/h</item>
-        <item>8 Km/h</item>
-        <item>9 Km/h</item>
-        <item>10 Km/h</item>
-    </string-array>
-    <string name="gps_minimum_accuracy">Ενημέρωση Ελάχιστης Ακρίβειας GPS</string>
-    <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 μέτρα</item>
-        <item>5 μέτρα</item>
-        <item>10 μέτρα</item>
-        <item>15 μέτρα</item>
-        <item>20 μέτρα</item>
-        <item>25 μέτρα</item>
-        <item>30 μέτρα</item>
-        <item>50 μέτρα</item>
-        <item>100 μέτρα</item>
-        <item>500 μέτρα</item>
-        <item>1000 μέτρα</item>
-        <item>2000 μέτρα</item>
-    </string-array>
-
-
-
-    <string name="edit_widgets_layout">Επεξεργασία Γραφικών Στοιχείων</string>
-    <string name="edit_widgets_toast">Πατήστε για ενημέρωση του γραφικού στοιχείου</string>
-    <string name="select_widget_for_slot">Επιλογή Γραφικού Στοιχείου</string>
-    <string name="no_widget_empty">ΚΑΝΕΝΑ - Κενό</string>
-    <string name="speed_widget">ΤΑΧΥΤΗΤΑ - Η ταχύτητα που ταξιδεύετε</string>
-    <string name="altitude_widget">ΥΨΟΜΕΤΡΟ - Σε πιο ύψος βρίσκεστε</string>
-    <string name="heading_widget">ΑΠΟΚΛΗΣΗ - Απόκληση μοιρών GPS</string>
-    <string name="trip_widget">ΤΑΞΙΔΙ - Συνολική απόσταση ταξιδίου</string>
-    <string name="obd_temperature_widget">OBD - Θερμοκρασία Λαδιού</string>
-    <string name="obd_rpm_widget">OBD - Στροφές Κινητήρα</string>
-    <string name="obd_throttle_widget">OBD - Ποσοστό Ροπής</string>
-    <string name="obd_bat_widget">OBD - Τάση Μπαταρίας</string>
-    <string name="obd_errors_widget">OBD - DTC Σφάλμα Μέτρησης</string>
-
-    <!-- END OF UNSTRANSLATED -->
-
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -184,6 +99,54 @@
     <string name="follow_us_facebook">Επισκεφθείτε και ακολουθήστε μας στο Facebook για όλα τα τελευταία νέα</string>
     <string name="join_us_facebook">Γίνετε μέλος της ομάδας μας στο Facebook</string>
     <string name="adv_rider_thread">Γίνετε μέλος της ομάδας συζητήσεων για να ενημερώνεστε για τις νέες δυνατότητες, προβλήματα και αιτήματα</string>
+    <string name="use_fahrenheit">Χρησιμοποιήστε βαθμούς Φαρενάιτ αντί Κελσίου</string>
+    <string name="gps_measure_precision">Ρυθμίσεις Ακριβείας GPS</string>
+    <string name="gps_minimum_distance">Ενημέρωση Ελάχιστης Απόστασης GPS</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 μέτρα</item>
+        <item>0.5 μέτρα</item>
+        <item>0.8 μέτρα</item>
+        <item>1 μέτρο</item>
+        <item>1.5 μέτρα</item>
+        <item>2 μέτρα</item>
+        <item>3 μέτρα</item>
+        <item>4 μέτρα</item>
+        <item>5 μέτρα</item>
+        <item>6 μέτρα</item>
+        <item>7 μέτρα</item>
+        <item>8 μέτρα</item>
+        <item>9 μέτρα</item>
+        <item>10 μέτρα</item>
+    </string-array>
+    <string name="gps_minimum_speed">Ενημέρωση Ελάχιστης Ταχύτητας GPS</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/h</item>
+        <item>1 Km/h</item>
+        <item>2 Km/h</item>
+        <item>3 Km/h</item>
+        <item>4 Km/h</item>
+        <item>5 Km/h</item>
+        <item>6 Km/h</item>
+        <item>7 Km/h</item>
+        <item>8 Km/h</item>
+        <item>9 Km/h</item>
+        <item>10 Km/h</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">Ενημέρωση Ελάχιστης Ακρίβειας GPS</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 μέτρα</item>
+        <item>5 μέτρα</item>
+        <item>10 μέτρα</item>
+        <item>15 μέτρα</item>
+        <item>20 μέτρα</item>
+        <item>25 μέτρα</item>
+        <item>30 μέτρα</item>
+        <item>50 μέτρα</item>
+        <item>100 μέτρα</item>
+        <item>500 μέτρα</item>
+        <item>1000 μέτρα</item>
+        <item>2000 μέτρα</item>
+    </string-array>
 
 
     <!-- Widgets -->
@@ -344,6 +307,9 @@
     <string name="roadbook_total_partial_controller_instructions">Χειριστήριο: Χρησιμοποιήστε τα Πάνω/Κάτω/Αριστερά/Δεξιά για να διαλέξετε ένα κουμπί. Κάντε κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για επιλογή.</string>
     <string name="roadbook_decimals_controller_instructions">Χειριστήριο: Χρησιμοποιήστε τα Αριστερά/Δεξιά για να διαλέξετε ένα κουμπί. Κάντε κλικ στο Πλήκτρο Εισαγωής/Κεντρικό για επιλογή.</string>
     <string name="roadbook_edit_values_guide">Χειριστήριο: Πάνω/Κάτω αλλάζει ανά 0.01, Μεγέθυνση/Σμίκρυνση αλλάζει ανά 1, επαναφορά στο μηδέν πατώντας παραταιταμένα το κουμπί Πλήκτρο Εισαγωής/Κεντρικό, Δεξιά/Αριστερά για Ακύρωση/Αποθήκευση</string>
+    <string name="measure_correction_factor">Διόρθωση Μέτρων</string>
+    <string name="distance_measure_correction_title">Συντελεστής Διόρθωσης Μέτρησης Απόστασης</string>
+    <string name="distance_measure_correction_message">Η απόσταση μέτρησης θα πολλάπλασιαστή με την τιμή που θα βάλετε εδώ. Χρησιμοποιήστε το ως συντελεστή διόρθωσης για να ταιριάξετε τις τιμές απόστασης στο Roadbook.</string>
 
 
 
@@ -445,6 +411,26 @@
     <string name="list_hidden_waypoints">Εμφάνιση κρυμμένων σημείων στη λίστα</string>
     <string name="invert_gpx_direction">Εναλλαγή Πορείας Ταξιδιού</string>
     <string name="restore_gpx_direction">Επαναφορά Πορείας Ταξιδιού</string>
+    <string name="select_share_app">Επιλέξτε Εφαρμογή για Κοινή Χρήση</string>
+    <string name="map_view_options">Επιλογές Χάρτη</string>
+    <string name="map_options_interface_cat_title">Ρυθμίσεις Διεπαφής</string>
+    <string name="show_zoom_button">Εμφάνιση Κουμπιών Μεγέθυνσης</string>
+    <string name="map_options_location_cat_title">Ρυθμίσεις Τοποθεσίας</string>
+    <string name="use_compass_when_stop">Σε στάση χρησιμοποιήστε τον Αισθητήρα Πυξίδας για (εάν είναι διαθέσιμος)</string>
+    <string name="edit_widgets_layout">Επεξεργασία Γραφικών Στοιχείων</string>
+    <string name="edit_widgets_toast">Πατήστε για ενημέρωση του γραφικού στοιχείου</string>
+    <string name="select_widget_for_slot">Επιλογή Γραφικού Στοιχείου</string>
+    <string name="no_widget_empty">ΚΑΝΕΝΑ - Κενό</string>
+    <string name="speed_widget">ΤΑΧΥΤΗΤΑ - Η ταχύτητα που ταξιδεύετε</string>
+    <string name="altitude_widget">ΥΨΟΜΕΤΡΟ - Σε πιο ύψος βρίσκεστε</string>
+    <string name="heading_widget">ΑΠΟΚΛΗΣΗ - Απόκληση μοιρών GPS</string>
+    <string name="trip_widget">ΤΑΞΙΔΙ - Συνολική απόσταση ταξιδίου</string>
+    <string name="obd_temperature_widget">OBD - Θερμοκρασία Λαδιού</string>
+    <string name="obd_rpm_widget">OBD - Στροφές Κινητήρα</string>
+    <string name="obd_throttle_widget">OBD - Ποσοστό Ροπής</string>
+    <string name="obd_bat_widget">OBD - Τάση Μπαταρίας</string>
+    <string name="obd_errors_widget">OBD - DTC Σφάλμα Μέτρησης</string>
+
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">Αισθητήρας OBD</string>
