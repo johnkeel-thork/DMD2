@@ -1,74 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNSTRANSLATED -->
-    <string name="gps_measure_precision">GPS Nøyaktighet</string>
-    <string name="gps_minimum_distance">Minste avstand for oppdatering av GPS</string>
-    <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 meter</item>
-        <item>0.5 meter</item>
-        <item>0.8 meter</item>
-        <item>1 meter</item>
-        <item>1.5 meter</item>
-        <item>2 meter</item>
-        <item>3 meter</item>
-        <item>4 meter</item>
-        <item>5 meter</item>
-        <item>6 meter</item>
-        <item>7 meter</item>
-        <item>8 meter</item>
-        <item>9 meter</item>
-        <item>10 meter</item>
-    </string-array>
-    <string name="gps_minimum_speed">Laveste hastighet for GPS oppdatering</string>
-    <string-array name="gps_minimum_speed" translatable="true">
-        <item>0 Km/t</item>
-        <item>1 Km/t</item>
-        <item>2 Km/t</item>
-        <item>3 Km/t</item>
-        <item>4 Km/t</item>
-        <item>5 Km/t</item>
-        <item>6 Km/t</item>
-        <item>7 Km/t</item>
-        <item>8 Km/t</item>
-        <item>9 Km/t</item>
-        <item>10 Km/t</item>
-    </string-array>
-    <string name="gps_minimum_accuracy">Laveste nøyaktighet for oppdatering av GPS</string>
-    <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 meter</item>
-        <item>5 meter</item>
-        <item>10 meter</item>
-        <item>15 meter</item>
-        <item>20 meter</item>
-        <item>25 meter</item>
-        <item>30 meter</item>
-        <item>50 meter</item>
-        <item>100 meter</item>
-        <item>500 meter</item>
-        <item>1000 meter</item>
-        <item>2000 meter</item>
-    </string-array>
-
-
-
-    <string name="edit_widgets_layout">Endre oppsett for programfliser</string>
-    <string name="edit_widgets_toast">Trykk på flisen du vil endre</string>
-    <string name="select_widget_for_slot">Velg innhold</string>
-    <string name="no_widget_empty">INGEN - Åpen plass</string>
-    <string name="speed_widget">HASTIGHET - Kjørehastighet</string>
-    <string name="altitude_widget">HØYDE - Høyde over havet</string>
-    <string name="heading_widget">RETNING - Kompasskurs i grader (GPS)</string>
-    <string name="trip_widget">TRIP - Trip total kjørelengde</string>
-    <string name="obd_temperature_widget">OBD - Kjølevesketemperatur</string>
-    <string name="obd_rpm_widget">OBD - Turtall</string>
-    <string name="obd_throttle_widget">OBD - Gasspådrag i %</string>
-    <string name="obd_bat_widget">OBD - Ladespenning</string>
-    <string name="obd_errors_widget">OBD - DTC Feilteller</string>
-
-
-    <!-- END OF UNSTRANSLATED -->
-    
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
@@ -169,6 +100,53 @@
     <string name="join_us_facebook">Bli med i vår facebookgruppe</string>
     <string name="adv_rider_thread">Bli med å diskutere nye funksjoner, feil og ønsker</string>
     <string name="use_fahrenheit">Bruk Fahrenheit i stedet for Celsius</string>
+    <string name="gps_measure_precision">GPS Nøyaktighet</string>
+    <string name="gps_minimum_distance">Minste avstand for oppdatering av GPS</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 meter</item>
+        <item>0.5 meter</item>
+        <item>0.8 meter</item>
+        <item>1 meter</item>
+        <item>1.5 meter</item>
+        <item>2 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>5 meter</item>
+        <item>6 meter</item>
+        <item>7 meter</item>
+        <item>8 meter</item>
+        <item>9 meter</item>
+        <item>10 meter</item>
+    </string-array>
+    <string name="gps_minimum_speed">Laveste hastighet for GPS oppdatering</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/t</item>
+        <item>1 Km/t</item>
+        <item>2 Km/t</item>
+        <item>3 Km/t</item>
+        <item>4 Km/t</item>
+        <item>5 Km/t</item>
+        <item>6 Km/t</item>
+        <item>7 Km/t</item>
+        <item>8 Km/t</item>
+        <item>9 Km/t</item>
+        <item>10 Km/t</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">Laveste nøyaktighet for oppdatering av GPS</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 meter</item>
+        <item>5 meter</item>
+        <item>10 meter</item>
+        <item>15 meter</item>
+        <item>20 meter</item>
+        <item>25 meter</item>
+        <item>30 meter</item>
+        <item>50 meter</item>
+        <item>100 meter</item>
+        <item>500 meter</item>
+        <item>1000 meter</item>
+        <item>2000 meter</item>
+    </string-array>
 
 
     <!-- HOME / DASHBOARD -->
@@ -438,6 +416,19 @@
     <string name="map_options_location_cat_title">Stedsinstillinger</string>
     <string name="use_compass_when_stop">Bruk kompass for å indikere marsjretning når sykkelen står i ro.(Hvis mulig)</string>
     <string name="select_share_app">Velg App for deling</string>
+    <string name="edit_widgets_layout">Endre oppsett for programfliser</string>
+    <string name="edit_widgets_toast">Trykk på flisen du vil endre</string>
+    <string name="select_widget_for_slot">Velg innhold</string>
+    <string name="no_widget_empty">INGEN - Åpen plass</string>
+    <string name="speed_widget">HASTIGHET - Kjørehastighet</string>
+    <string name="altitude_widget">HØYDE - Høyde over havet</string>
+    <string name="heading_widget">RETNING - Kompasskurs i grader (GPS)</string>
+    <string name="trip_widget">TRIP - Trip total kjørelengde</string>
+    <string name="obd_temperature_widget">OBD - Kjølevesketemperatur</string>
+    <string name="obd_rpm_widget">OBD - Turtall</string>
+    <string name="obd_throttle_widget">OBD - Gasspådrag i %</string>
+    <string name="obd_bat_widget">OBD - Ladespenning</string>
+    <string name="obd_errors_widget">OBD - DTC Feilteller</string>
 
 
     <!-- OBD -->
