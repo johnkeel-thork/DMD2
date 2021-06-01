@@ -1,75 +1,5 @@
 <resources>
 
-
-    <!-- NEW UNSTRANSLATED -->
-    <string name="gps_measure_precision">GPS Messgenauigkeit</string>
-    <string name="gps_minimum_distance">GPS Update Mindestentfernung</string>
-    <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 meter</item>
-        <item>0.5 meter</item>
-        <item>0.8 meter</item>
-        <item>1 meter</item>
-        <item>1.5 meter</item>
-        <item>2 meter</item>
-        <item>3 meter</item>
-        <item>4 meter</item>
-        <item>5 meter</item>
-        <item>6 meter</item>
-        <item>7 meter</item>
-        <item>8 meter</item>
-        <item>9 meter</item>
-        <item>10 meter</item>
-    </string-array>
-    <string name="gps_minimum_speed">GPS Update Mindestgeschwindigkeit</string>
-    <string-array name="gps_minimum_speed" translatable="true">
-        <item>0 Km/h</item>
-        <item>1 Km/h</item>
-        <item>2 Km/h</item>
-        <item>3 Km/h</item>
-        <item>4 Km/h</item>
-        <item>5 Km/h</item>
-        <item>6 Km/h</item>
-        <item>7 Km/h</item>
-        <item>8 Km/h</item>
-        <item>9 Km/h</item>
-        <item>10 Km/h</item>
-    </string-array>
-    <string name="gps_minimum_accuracy">GPS Update Mindestgenauigkeit</string>
-    <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 meter</item>
-        <item>5 meter</item>
-        <item>10 meter</item>
-        <item>15 meter</item>
-        <item>20 meter</item>
-        <item>25 meter</item>
-        <item>30 meter</item>
-        <item>50 meter</item>
-        <item>100 meter</item>
-        <item>500 meter</item>
-        <item>1000 meter</item>
-        <item>2000 meter</item>
-    </string-array>
-
-
-
-    <string name="edit_widgets_layout">Widgets editieren</string>
-    <string name="edit_widgets_toast">Tippe auf Widget zum editieren</string>
-    <string name="select_widget_for_slot">Wähle Widget</string>
-    <string name="no_widget_empty">KEINS - Leeres Feld</string>
-    <string name="speed_widget">GESCHWINDIGKEIT - Deine gefahrene Geschwindigkeit</string>
-    <string name="altitude_widget">HÖHENMESSER - Wie hoch Du gerade bist</string>
-    <string name="heading_widget">KURS - GPS Kurs in Grad</string>
-    <string name="trip_widget">TRIP - Trip gefahrene Strecke</string>
-    <string name="obd_temperature_widget">OBD - Flüssigkeitstemperatur</string>
-    <string name="obd_rpm_widget">OBD - Motordrehzahl</string>
-    <string name="obd_throttle_widget">OBD - Drosselklappe in %</string>
-    <string name="obd_bat_widget">OBD - Batteriespannung</string>
-    <string name="obd_errors_widget">OBD - DTC Fehlerzähler</string>
-
-
-    <!-- END OF UNSTRANSLATED -->
-    
-    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -172,6 +102,53 @@
     <string name="join_us_facebook">Trete der Facebookgruppe bei</string>
     <string name="adv_rider_thread">Beteilige Dich an der Diskussion über neue Funktionen, Fehler und Wünsche</string>
     <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
+    <string name="gps_measure_precision">GPS Messgenauigkeit</string>
+    <string name="gps_minimum_distance">GPS Update Mindestentfernung</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 meter</item>
+        <item>0.5 meter</item>
+        <item>0.8 meter</item>
+        <item>1 meter</item>
+        <item>1.5 meter</item>
+        <item>2 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>5 meter</item>
+        <item>6 meter</item>
+        <item>7 meter</item>
+        <item>8 meter</item>
+        <item>9 meter</item>
+        <item>10 meter</item>
+    </string-array>
+    <string name="gps_minimum_speed">GPS Update Mindestgeschwindigkeit</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/h</item>
+        <item>1 Km/h</item>
+        <item>2 Km/h</item>
+        <item>3 Km/h</item>
+        <item>4 Km/h</item>
+        <item>5 Km/h</item>
+        <item>6 Km/h</item>
+        <item>7 Km/h</item>
+        <item>8 Km/h</item>
+        <item>9 Km/h</item>
+        <item>10 Km/h</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">GPS Update Mindestgenauigkeit</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 meter</item>
+        <item>5 meter</item>
+        <item>10 meter</item>
+        <item>15 meter</item>
+        <item>20 meter</item>
+        <item>25 meter</item>
+        <item>30 meter</item>
+        <item>50 meter</item>
+        <item>100 meter</item>
+        <item>500 meter</item>
+        <item>1000 meter</item>
+        <item>2000 meter</item>
+    </string-array>
 
 
     <!-- Widgets -->
@@ -443,6 +420,20 @@
     <string name="show_zoom_button">Zeige Zoom Knöpfe</string>
     <string name="map_options_location_cat_title">Standort Einstellungen</string>
     <string name="use_compass_when_stop">Bei Stillstand den Compass Sensor (falls vorhanden) nutzen um den Kurs anzuzeigen</string>
+    <string name="edit_widgets_layout">Widgets editieren</string>
+    <string name="edit_widgets_toast">Tippe auf Widget zum editieren</string>
+    <string name="select_widget_for_slot">Wähle Widget</string>
+    <string name="no_widget_empty">KEINS - Leeres Feld</string>
+    <string name="speed_widget">GESCHWINDIGKEIT - Deine gefahrene Geschwindigkeit</string>
+    <string name="altitude_widget">HÖHENMESSER - Wie hoch Du gerade bist</string>
+    <string name="heading_widget">KURS - GPS Kurs in Grad</string>
+    <string name="trip_widget">TRIP - Trip gefahrene Strecke</string>
+    <string name="obd_temperature_widget">OBD - Flüssigkeitstemperatur</string>
+    <string name="obd_rpm_widget">OBD - Motordrehzahl</string>
+    <string name="obd_throttle_widget">OBD - Drosselklappe in %</string>
+    <string name="obd_bat_widget">OBD - Batteriespannung</string>
+    <string name="obd_errors_widget">OBD - DTC Fehlerzähler</string>
+    
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">OBD Sensoren</string>
