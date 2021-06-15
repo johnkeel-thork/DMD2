@@ -1,23 +1,5 @@
 <resources>
 
-    <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Redigera bottenmeny</string>
-    <string name="edit_bottom_menu_message">Arrangera menyvalen och visa/göm dem</string>
-    <string name="menu_sorter_title">Tryck och håll för att flytta. Använd reglaget för att visa/gömma.</string>
-
-    <string name="control_station_options">Inställningar</string>
-    <string name="lock_rotation_system_wide_title">Lås rotation i hela systemet</string>
-    <string name="lock_rotation_system_wide_summary">Istället för att bara låsa rotation i DMD2 så låses rotation i alla appar även när DMD2 ligger i bakgrunden.</string>
-
-    <string name="map_point_title">Långtryck kartposition</string>
-    <string name="controller_cat_title">CARPE Kontrollerval</string>
-    <string name="enable_long_press_enter_title">Långtryck för att låsa kartvyn</string>
-    <string name="enable_long_press_enter_message">Om aktiverad så låser du kartvyn genom att långtrycka enter/joystick-center. Upp/ner/höger/vänster används för att panorera kartan. Långtryck igen för att gå ur låsta läget.</string>
-
-    <!-- End of New / Not Translated -->
-    
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -165,6 +147,9 @@
         <item>1000 meter</item>
         <item>2000 meter</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Redigera bottenmeny</string>
+    <string name="edit_bottom_menu_message">Arrangera menyvalen och visa/göm dem</string>
+    <string name="menu_sorter_title">Tryck och håll för att flytta. Använd reglaget för att visa/gömma.</string>
 
 
     <!-- Widgets -->
@@ -242,6 +227,10 @@
     <string name="controller_default_message">Kontroll: Tryck upp för att välja reglage, tryck ner för att återgå till menyn.</string>
     <string name="rotation_locked">Rotation låst</string>
     <string name="rotation_unlocked">Rotation upplåst</string>
+    <string name="control_station_options">Inställningar</string>
+    <string name="lock_rotation_system_wide_title">Lås rotation i hela systemet</string>
+    <string name="lock_rotation_system_wide_summary">Istället för att bara låsa rotation i DMD2 så låses rotation i alla appar även när DMD2 ligger i bakgrunden.</string>
+
 
 
     <!-- Roadbook -->
@@ -448,6 +437,11 @@
     <string name="obd_throttle_widget">OBD - Gasreglage procent</string>
     <string name="obd_bat_widget">OBD - Batteri Volt</string>
     <string name="obd_errors_widget">OBD - DTC antal felkoder</string>
+    <string name="map_point_title">Långtryck kartposition</string>
+    <string name="controller_cat_title">CARPE Kontrollerval</string>
+    <string name="enable_long_press_enter_title">Långtryck för att låsa kartvyn</string>
+    <string name="enable_long_press_enter_message">Om aktiverad så låser du kartvyn genom att långtrycka enter/joystick-center. Upp/ner/höger/vänster används för att panorera kartan. Långtryck igen för att gå ur låsta läget.</string>
+
 
 
     <!-- OBD SENSORS -->
