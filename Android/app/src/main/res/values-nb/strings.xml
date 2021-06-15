@@ -2,18 +2,18 @@
 
 
     <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
-    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
+    <string name="edit_bottom_menu_title">Tilpasse nedre meny</string>
+    <string name="edit_bottom_menu_message">Sortere og De-/Aktivere menydeler</string>
+    <string name="menu_sorter_title">Trykk og hold for å flytte. Bruk knappen for å vise/skjule.</string>
 
-    <string name="control_station_options">Options</string>
-    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
-    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
+    <string name="control_station_options">Alternativer</string>
+    <string name="lock_rotation_system_wide_title">Lås skjermrotasjon (For hele operativsystemet)</string>
+    <string name="lock_rotation_system_wide_summary">Vil låse skjermrotasjon for alle programmer, selv om DMD2 kun er i bakgrunnen.</string>
 
-    <string name="map_point_title">Long Press Map Location</string>
-    <string name="controller_cat_title">CARPE Controller Options</string>
-    <string name="enable_long_press_enter_title">Long press Enter lock</string>
-    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
+    <string name="map_point_title">Trykk og hold for posisjon</string>
+    <string name="controller_cat_title">Tilpass CARPE Controller</string>
+    <string name="enable_long_press_enter_title">Kartlåsmodus</string>
+    <string name="enable_long_press_enter_message">Når aktivert vil trykk og hold på senter joystick låse kartvisningen. Opp/Ned/Venstre/Høyre vil flytte kartet. Trykk og hold igjen for å gå ut av kartlåsmodus.</string>
 
     <!-- End of New / Not Translated -->
     
