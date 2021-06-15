@@ -1,24 +1,6 @@
 <resources>
 
 
-    <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Tilpasse nedre meny</string>
-    <string name="edit_bottom_menu_message">Sortere og De-/Aktivere menydeler</string>
-    <string name="menu_sorter_title">Trykk og hold for å flytte. Bruk knappen for å vise/skjule.</string>
-
-    <string name="control_station_options">Alternativer</string>
-    <string name="lock_rotation_system_wide_title">Lås skjermrotasjon (For hele operativsystemet)</string>
-    <string name="lock_rotation_system_wide_summary">Vil låse skjermrotasjon for alle programmer, selv om DMD2 kun er i bakgrunnen.</string>
-
-    <string name="map_point_title">Trykk og hold for posisjon</string>
-    <string name="controller_cat_title">Tilpass CARPE Controller</string>
-    <string name="enable_long_press_enter_title">Kartlåsmodus</string>
-    <string name="enable_long_press_enter_message">Når aktivert vil trykk og hold på senter joystick låse kartvisningen. Opp/Ned/Venstre/Høyre vil flytte kartet. Trykk og hold igjen for å gå ut av kartlåsmodus.</string>
-
-    <!-- End of New / Not Translated -->
-    
-    
-
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
@@ -166,6 +148,9 @@
         <item>1000 meter</item>
         <item>2000 meter</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Tilpasse nedre meny</string>
+    <string name="edit_bottom_menu_message">Sortere og De-/Aktivere menydeler</string>
+    <string name="menu_sorter_title">Trykk og hold for å flytte. Bruk knappen for å vise/skjule.</string>
 
 
     <!-- HOME / DASHBOARD -->
@@ -242,6 +227,9 @@
     <string name="controller_default_message">Controller: Trykk opp for å velge et rullefelt, trykk ned for å gå tilbake til menyen.</string>
     <string name="rotation_locked">Skjermrotering låst</string>
     <string name="rotation_unlocked">Skjermrotering åpen</string>
+    <string name="control_station_options">Alternativer</string>
+    <string name="lock_rotation_system_wide_title">Lås skjermrotasjon (For hele operativsystemet)</string>
+    <string name="lock_rotation_system_wide_summary">Vil låse skjermrotasjon for alle programmer, selv om DMD2 kun er i bakgrunnen.</string>
 
 
     <!-- ROADBOOK -->
@@ -448,6 +436,11 @@
     <string name="obd_throttle_widget">OBD - Gasspådrag i %</string>
     <string name="obd_bat_widget">OBD - Ladespenning</string>
     <string name="obd_errors_widget">OBD - DTC Feilteller</string>
+    <string name="map_point_title">Trykk og hold for posisjon</string>
+    <string name="controller_cat_title">Tilpass CARPE Controller</string>
+    <string name="enable_long_press_enter_title">Kartlåsmodus</string>
+    <string name="enable_long_press_enter_message">Når aktivert vil trykk og hold på senter joystick låse kartvisningen. Opp/Ned/Venstre/Høyre vil flytte kartet. Trykk og hold igjen for å gå ut av kartlåsmodus.</string>
+
 
 
     <!-- OBD -->
