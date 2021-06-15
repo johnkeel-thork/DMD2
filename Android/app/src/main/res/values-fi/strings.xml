@@ -1,24 +1,6 @@
 <resources>
 
 
-    <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Muokkaa alavalikkoa</string>
-    <string name="edit_bottom_menu_message">Järjestele tai poista käytöstä valikon kohteita.</string>
-    <string name="menu_sorter_title">Paina pitkään siirtääksesi kohteita. Piilota/näytä kytkimestä.</string>
-
-    <string name="control_station_options">Valinnat</string>
-    <string name="lock_rotation_system_wide_title">Järjestelmänlaajuinen näytönkierron lukitus</string>
-    <string name="lock_rotation_system_wide_summary">Lukitsee näytönkierron laitteellasi myös silloin kun DMD2 on käynnissä taustalla.</string>
-
-    <string name="map_point_title">Long Press Map Location</string>
-    <string name="controller_cat_title">CARPE-ohjaimen valinnat</string>
-    <string name="enable_long_press_enter_title">Lukitus Keski/Enter-napin pitkällä painalluksella</string>
-    <string name="enable_long_press_enter_message">Kytke/Poista karttatilan lukitus Keski/Enter-napin pitkällä painalluksella. Ylös/Alas/Vasen/Oikea siirtää karttaa.</string>
-
-    <!-- End of New / Not Translated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -166,6 +148,9 @@
         <item>1000 metriä</item>
         <item>2000 metriä</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Muokkaa alavalikkoa</string>
+    <string name="edit_bottom_menu_message">Järjestele tai poista käytöstä valikon kohteita.</string>
+    <string name="menu_sorter_title">Paina pitkään siirtääksesi kohteita. Piilota/näytä kytkimestä.</string>
 
 
     <!-- HOME / GRID VIEW-->
@@ -242,6 +227,10 @@
     <string name="controller_default_message">Ohjaimella: Paina Ylös valitaksesi liukusäätimen, Paina Alas palataksesi valikkoon.</string>
     <string name="rotation_locked">Autom. kierto estetty</string>
     <string name="rotation_unlocked">Autom. kierto sallittu</string>
+    <string name="control_station_options">Valinnat</string>
+    <string name="lock_rotation_system_wide_title">Järjestelmänlaajuinen näytönkierron lukitus</string>
+    <string name="lock_rotation_system_wide_summary">Lukitsee näytönkierron laitteellasi myös silloin kun DMD2 on käynnissä taustalla.</string>
+
 
     <!-- Roadbook -->
     <string name="tap_to_open_file">Kosketa avataksesi tiedoston</string>
@@ -434,6 +423,11 @@
     <string name="map_options_location_cat_title">Sijaintiasetukset</string>
     <string name="use_compass_when_stop">Käytä pysähdyksissä laitteen kompassia (jos käytettävissä).</string>
     <string name="select_share_app">Valitse sovellus</string>
+    <string name="map_point_title">Long Press Map Location</string>
+    <string name="controller_cat_title">CARPE-ohjaimen valinnat</string>
+    <string name="enable_long_press_enter_title">Lukitus Keski/Enter-napin pitkällä painalluksella</string>
+    <string name="enable_long_press_enter_message">Kytke/Poista karttatilan lukitus Keski/Enter-napin pitkällä painalluksella. Ylös/Alas/Vasen/Oikea siirtää karttaa.</string>
+
 
 
     <!-- OBD SENSORS -->
