@@ -152,6 +152,21 @@
     <string name="map_options_location_cat_title">Location Settings</string>
     <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
 
+
+    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
+    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
+    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
+
+    <string name="control_station_options">Options</string>
+    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
+    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
+
+    <string name="map_point_title">Long Press Map Location</string>
+    <string name="controller_cat_title">CARPE Controller Options</string>
+    <string name="enable_long_press_enter_title">Long press Enter lock</string>
+    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
+
+
     <!-- END OF UNTRANSLATED -->
 
 
