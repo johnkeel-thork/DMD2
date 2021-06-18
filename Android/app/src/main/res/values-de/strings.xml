@@ -2,23 +2,20 @@
 
 
     <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Unteres Menü anpassen</string>
-    <string name="edit_bottom_menu_message">Menü Einträge umsortieren und ein-/ausschalten</string>
-    <string name="menu_sorter_title">Antippen und halten um Eintrag zu ziehen. Schalter nutzen um Eintrag anzuzeigen bzw. auszublenden.</string>
+    <string name="map_point_title">Long Press Map Location</string>
+    <string name="gpx_options">GPX Options</string>
+    <string name="gpx_options_box_title">GPX Track Options</string>
+    <string name="track_line_width">Line Width:</string>
+    <string name="track_transparency">Line Transparency:</string>
+    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
 
-    <string name="control_station_options">Optionen</string>
-    <string name="lock_rotation_system_wide_title">Bildschirmdrehung systemweit verhindern</string>
-    <string name="lock_rotation_system_wide_summary">Statt nur in DMD2 die Bildschirmdrehung festzustellen, wird diese auf dem gesamten System verhindert, auch wenn DMD2 im Hintergrund weiterläuft.</string>
-
-    <string name="map_point_title">Langer Druck auf der Landkarte (Touch)</string>
-    <string name="controller_cat_title">CARPE Controller Optionen</string>
-    <string name="enable_long_press_enter_title">Auf Kartenansicht feststellen</string>
-    <string name="enable_long_press_enter_message">Mit einem langen Druck auf Enter/Joystick-Mitte wird DMD2 in der Kartenansicht verriegelt. Hoch/Runter/Links/Rechts verschiebt dann den Karteausschnitt. Mit einem langen Druck auf Enter/Joystick-Mitte wird die Kartenansicht wieder entriegelt.</string>
-
+    <string name="controller_cat_title">CARPE Controller Options</string>
+    <string name="enable_long_press_enter_title">Long press Enter lock</string>
+    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
     <!-- End of New / Not Translated -->
-    
-    
-    
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -168,6 +165,9 @@
         <item>1000 meter</item>
         <item>2000 meter</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Unteres Menü anpassen</string>
+    <string name="edit_bottom_menu_message">Menü Einträge umsortieren und ein-/ausschalten</string>
+    <string name="menu_sorter_title">Antippen und halten um Eintrag zu ziehen. Schalter nutzen um Eintrag anzuzeigen bzw. auszublenden.</string>
 
 
     <!-- Widgets -->
@@ -246,6 +246,9 @@
     <string name="controller_default_message">Carpe Controller: Drücke Hoch um einen Regler zu wählen, Runter um zum Menü zurückzukehren.</string>
     <string name="rotation_locked">Bildschirm-Drehen gesperrt</string>
     <string name="rotation_unlocked">Bildschirm-Drehen entsperrt</string>
+    <string name="control_station_options">Optionen</string>
+    <string name="lock_rotation_system_wide_title">Bildschirmdrehung systemweit verhindern</string>
+    <string name="lock_rotation_system_wide_summary">Statt nur in DMD2 die Bildschirmdrehung festzustellen, wird diese auf dem gesamten System verhindert, auch wenn DMD2 im Hintergrund weiterläuft.</string>
 
 
     <!-- Roadbook -->
