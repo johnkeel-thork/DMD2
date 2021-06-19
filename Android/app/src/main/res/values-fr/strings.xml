@@ -34,7 +34,7 @@
         <item>9 Km/h</item>
         <item>10 Km/h</item>
     </string-array>
-    <string name="gps_minimum_accuracy">GPS Update Minimum Accuracy</string>
+    <string name="gps_minimum_accuracy">Précision minimum de mise à jour GPS</string>
     <string-array name="gps_minimum_accuracy_array" translatable="true">
         <item>3 meters</item>
         <item>5 meters</item>
@@ -52,19 +52,19 @@
 
 
 
-    <string name="edit_widgets_layout">Edit Widgets</string>
-    <string name="edit_widgets_toast">Tap the widget to edit</string>
-    <string name="select_widget_for_slot">Select Widget</string>
-    <string name="no_widget_empty">NONE - Empty space</string>
-    <string name="speed_widget">SPEED - Your travel speed</string>
-    <string name="altitude_widget">ALTITUDE - How high are you</string>
-    <string name="heading_widget">BEARING - GPS Bearing degrees</string>
-    <string name="trip_widget">TRIP - Trip total distance</string>
-    <string name="obd_temperature_widget">OBD - Liquid Temperature</string>
-    <string name="obd_rpm_widget">OBD - Engine RPM</string>
-    <string name="obd_throttle_widget">OBD - Throttle Percentage</string>
-    <string name="obd_bat_widget">OBD - Battery Voltage</string>
-    <string name="obd_errors_widget">OBD - DTC Error Count</string>
+    <string name="edit_widgets_layout">Modifier les Widgets</string>
+    <string name="edit_widgets_toast">Cliquer sur le widget pour modifier</string>
+    <string name="select_widget_for_slot">Sélectionner le Widget à ajouter</string>
+    <string name="no_widget_empty">AUCUN - Emplacement vide</string>
+    <string name="speed_widget">VITESSE - Vitesse instantanée</string>
+    <string name="altitude_widget">ALTITUDE - Altitude instantanée</string>
+    <string name="heading_widget">AZIMUTH - Azimuth GPS (angle)</string>
+    <string name="trip_widget">TRIP - Totalisateur de distance</string>
+    <string name="obd_temperature_widget">OBD - Température moteur</string>
+    <string name="obd_rpm_widget">OBD - Régime moteur</string>
+    <string name="obd_throttle_widget">OBD - Pourcentage accélérateur</string>
+    <string name="obd_bat_widget">OBD - Tension batterie</string>
+    <string name="obd_errors_widget">OBD - Compteur d'erreurs DTC</string>
 
 
     <!-- OBD SENSORS -->
