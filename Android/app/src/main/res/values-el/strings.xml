@@ -15,11 +15,11 @@
     <string name="enable_long_press_enter_title">Παρατεταμένο πάτημα για κλείδωμα</string>
     <string name="enable_long_press_enter_message">Εάν ενεργοποιηθεί πατώντας παραταιταμένα το κεντρικό/χειριστήριο θα κλειδώσει το DMD2 στην επιλογή του χάρτη. Τα Πάνω/Κάτω/Δεξιά/Αριστερά θα μετακινήσουν τον χάρτη. Πατώντας παραταιταμένα ξανά, θα ξεκλειδωθεί.</string>
 
-    <string name="gpx_options">GPX Options</string>
-    <string name="gpx_options_box_title">GPX Track Options</string>
-    <string name="track_line_width">Line Width:</string>
-    <string name="track_transparency">Line Transparency:</string>
-    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
+    <string name="gpx_options">Επιλογές GPX</string>
+    <string name="gpx_options_box_title">Επιλογές Διαφρομής GPX</string>
+    <string name="track_line_width">Πάχος Γραμμής:</string>
+    <string name="track_transparency">Διαφάνεια Γραμμής:</string>
+    <string name="track_orientation_arrow">Μέγεθος Βέλους Προσανατολισμού:</string>
 
     <!-- End of New / Not Translated -->
 
