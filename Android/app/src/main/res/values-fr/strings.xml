@@ -2,8 +2,8 @@
 
     <!-- UNTRANSLATED -->
 
-    <string name="gps_measure_precision">GPS Measures Precision</string>
-    <string name="gps_minimum_distance">GPS Update Minimum Distance</string>
+    <string name="gps_measure_precision">Précision des mesures GPS</string>
+    <string name="gps_minimum_distance">Distance minimum de mise à jour GPS</string>
     <string-array name="gps_minimum_displacement" translatable="true">
         <item>0 meters</item>
         <item>0.5 meters</item>
@@ -20,7 +20,7 @@
         <item>9 meters</item>
         <item>10 meters</item>
     </string-array>
-    <string name="gps_minimum_speed">GPS Update Minimum Speed</string>
+    <string name="gps_minimum_speed">Vitesse minimum pour mise à jour GPS</string>
     <string-array name="gps_minimum_speed" translatable="true">
         <item>0 Km/h</item>
         <item>1 Km/h</item>
