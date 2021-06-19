@@ -148,6 +148,9 @@
         <item>1000 metros</item>
         <item>2000 metros</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Editar Menu Principal</string>
+    <string name="edit_bottom_menu_message">Reordenar e activar/desactivar items do menu inferior</string>
+    <string name="menu_sorter_title">Toque e segure para mover items. Use o switch para mostrar / esconder.</string>
 
 
     <!-- Widgets -->
@@ -225,6 +228,9 @@
     <string name="edit_odometer_controller_guide">Controlador: Cima/Baixo altera 1, ZoomIn/Out altera 100, Enter/Click Centro Longo para reset zero, Esquerda/Direita para botões Cancelar/Guardar</string>
     <string name="rotation_locked">Rotação Bloqueada</string>
     <string name="rotation_unlocked">Rotação Desbloqueada</string>
+    <string name="control_station_options">Opções</string>
+    <string name="lock_rotation_system_wide_title">Bloquar rotação para todo o sistem</string>
+    <string name="lock_rotation_system_wide_summary">Em vez de apenas bloquear rotação no DMD2, esta opção ira bloquear a rotação para todo o sistem, mesmo quando o DMD2 está a correr de fundo.</string>
 
 
     <!-- Roadbook -->
@@ -425,12 +431,21 @@
     <string name="obd_throttle_widget">OBD - Percentagem Acelerador</string>
     <string name="obd_bat_widget">OBD - Voltagem Bateria</string>
     <string name="obd_errors_widget">OBD - Número Erros DTC</string>
+    <string name="map_point_title">Opções para esta localização</string>
+    <string name="gpx_options">Opções GPX</string>
+    <string name="gpx_options_box_title">Opções Traço GPX</string>
+    <string name="track_line_width">Espessura da Linha:</string>
+    <string name="track_transparency">Transparência:</string>
+    <string name="track_orientation_arrow">Tamanho Setas Direcção:</string>
     <!-- Map Options View -->
     <string name="map_view_options">Configuração</string>
     <string name="map_options_interface_cat_title">Opções de Interface</string>
     <string name="show_zoom_button">Mostrar Botões de Zoom</string>
     <string name="map_options_location_cat_title">Opções de Localização</string>
     <string name="use_compass_when_stop">Usar sensor de bússola para rodar mapa quando parado.</string>
+    <string name="controller_cat_title">Opções para controlador CARPE</string>
+    <string name="enable_long_press_enter_title">Pressionar Longo no Joystick / Enter alterna modo bloqueio de mapa</string>
+    <string name="enable_long_press_enter_message">Se activada esta opção vai bloquear o mapa em modo de pan. Os botões Cima/Baixo/Esquerda/Direita vão sempre fazer PAN do mapa.</string>
 
 
 

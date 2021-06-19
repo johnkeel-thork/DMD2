@@ -1,5 +1,14 @@
 <resources>
 
+    <!-- New / Not Translated -->
+    <string name="gpx_options">GPX Options</string>
+    <string name="gpx_options_box_title">GPX Track Options</string>
+    <string name="track_line_width">Line Width:</string>
+    <string name="track_transparency">Line Transparency:</string>
+    <string name="track_orientation_arrow">Orientation Arrow Size:</string>    
+    <!-- End of New / Not Translated -->
+    
+    
 
     <string name="app_name">DMD2</string>
 
