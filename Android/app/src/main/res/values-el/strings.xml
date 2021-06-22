@@ -1,30 +1,6 @@
 <resources>
 
 
-    <!-- New / Not Translated -->
-    <string name="edit_bottom_menu_title">Eπεξεργασία Μενού Εργαλείων</string>
-    <string name="edit_bottom_menu_message">Επανατοποθέτηση του μενού επιλογών και ενεργοποίηση/απενεργοποίηση αυτών.</string>
-    <string name="menu_sorter_title">Πατήστε και κρατήστε για να μετακινήση. Χρησιμοποιήστε το διακόπτη για εμφάνιση/απόκρυψη.</string>
-
-    <string name="control_station_options">Επιλογές</string>
-    <string name="lock_rotation_system_wide_title">Ολικό Κλείδωμα Περιστροφής</string>
-    <string name="lock_rotation_system_wide_summary">Εκτός από το κλείδωμα περιστροφής του DMD2, θα κλειδωθεί και η περιστροφή του συστήματος ακόμη και όταν το DMD2 τρέχει στο παρασκήνιο.</string>
-
-    <string name="map_point_title">Παρατεταμένο Πάτημα Θέση Χάρτη</string>
-    <string name="controller_cat_title">Επιλογές Χειριστηρίου CARPE</string>
-    <string name="enable_long_press_enter_title">Παρατεταμένο πάτημα για κλείδωμα</string>
-    <string name="enable_long_press_enter_message">Εάν ενεργοποιηθεί πατώντας παραταιταμένα το κεντρικό/χειριστήριο θα κλειδώσει το DMD2 στην επιλογή του χάρτη. Τα Πάνω/Κάτω/Δεξιά/Αριστερά θα μετακινήσουν τον χάρτη. Πατώντας παραταιταμένα ξανά, θα ξεκλειδωθεί.</string>
-
-    <string name="gpx_options">Επιλογές GPX</string>
-    <string name="gpx_options_box_title">Επιλογές Διαφρομής GPX</string>
-    <string name="track_line_width">Πάχος Γραμμής:</string>
-    <string name="track_transparency">Διαφάνεια Γραμμής:</string>
-    <string name="track_orientation_arrow">Μέγεθος Βέλους Προσανατολισμού:</string>
-
-    <!-- End of New / Not Translated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -172,6 +148,9 @@
         <item>1000 μέτρα</item>
         <item>2000 μέτρα</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Eπεξεργασία Μενού Εργαλείων</string>
+    <string name="edit_bottom_menu_message">Επανατοποθέτηση του μενού επιλογών και ενεργοποίηση/απενεργοποίηση αυτών.</string>
+    <string name="menu_sorter_title">Πατήστε και κρατήστε για να μετακινήση. Χρησιμοποιήστε το διακόπτη για εμφάνιση/απόκρυψη.</string>
 
 
     <!-- Widgets -->
@@ -325,7 +304,6 @@
         <item>Εναλλαγή Χρωματισμού</item>
         <item>Εκκίνηση / Διακοπή Χρονομέτρου</item>
         <item>Επαναφορά Χρονόμετρου</item>
-        <item>Κλείδωμα Χειριστηρίου</item>
         <item>Καμία Ενέργεια</item>
     </string-array>
     <string name="roadbook_open_file">Άνοιγμα αρχείου PDF</string>
@@ -455,6 +433,18 @@
     <string name="obd_throttle_widget">OBD - Ποσοστό Ροπής</string>
     <string name="obd_bat_widget">OBD - Τάση Μπαταρίας</string>
     <string name="obd_errors_widget">OBD - DTC Σφάλμα Μέτρησης</string>
+    <string name="control_station_options">Επιλογές</string>
+    <string name="lock_rotation_system_wide_title">Ολικό Κλείδωμα Περιστροφής</string>
+    <string name="lock_rotation_system_wide_summary">Εκτός από το κλείδωμα περιστροφής του DMD2, θα κλειδωθεί και η περιστροφή του συστήματος ακόμη και όταν το DMD2 τρέχει στο παρασκήνιο.</string>
+    <string name="map_point_title">Παρατεταμένο Πάτημα Θέση Χάρτη</string>
+    <string name="controller_cat_title">Επιλογές Χειριστηρίου CARPE</string>
+    <string name="enable_long_press_enter_title">Παρατεταμένο πάτημα για κλείδωμα</string>
+    <string name="enable_long_press_enter_message">Εάν ενεργοποιηθεί πατώντας παραταιταμένα το κεντρικό/χειριστήριο θα κλειδώσει το DMD2 στην επιλογή του χάρτη. Τα Πάνω/Κάτω/Δεξιά/Αριστερά θα μετακινήσουν τον χάρτη. Πατώντας παραταιταμένα ξανά, θα ξεκλειδωθεί.</string>
+    <string name="gpx_options">Επιλογές GPX</string>
+    <string name="gpx_options_box_title">Επιλογές Διαφρομής GPX</string>
+    <string name="track_line_width">Πάχος Γραμμής:</string>
+    <string name="track_transparency">Διαφάνεια Γραμμής:</string>
+    <string name="track_orientation_arrow">Μέγεθος Βέλους Προσανατολισμού:</string>
 
 
     <!-- OBD SENSORS -->
