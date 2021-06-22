@@ -319,7 +319,6 @@
         <item>Invertera Pappersfärg</item>
         <item>Start / Pause Chrono</item>
         <item>Nollställ Chrono</item>
-        <item>Kontroll Låst Läge</item>
         <item>Gör ingenting</item>
     </string-array>
     <string name="roadbook_open_file">Öppna PDF-fil</string>
