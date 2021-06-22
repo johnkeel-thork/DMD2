@@ -329,7 +329,6 @@ Per favore vai manualmente al menu di Sistema e imposta la luminosità al Massim
         <item>Inverti il colore della ‘carta’</item>
         <item>Avvia / Interrompi il cronometro</item>
         <item>Azzera il cronometro</item>
-        <item>Modalità Controller Lock</item>
         <item>Annulla</item>
     </string-array>
     <string name="roadbook_open_file">Apri un file PDF</string>
