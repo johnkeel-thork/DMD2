@@ -3,15 +3,15 @@
 
     <!-- New / Not Translated -->
     <string name="map_point_title">Long Press Map Location</string>
-    <string name="gpx_options">GPX Options</string>
-    <string name="gpx_options_box_title">GPX Track Options</string>
-    <string name="track_line_width">Line Width:</string>
-    <string name="track_transparency">Line Transparency:</string>
-    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
+    <string name="gpx_options">GPX Optionen</string>
+    <string name="gpx_options_box_title">GPX Track Optionen</string>
+    <string name="track_line_width">Linien Breite:</string>
+    <string name="track_transparency">Linien Transparenz:</string>
+    <string name="track_orientation_arrow">Größe Orientierungs-Pfeil:</string>
 
-    <string name="controller_cat_title">CARPE Controller Options</string>
-    <string name="enable_long_press_enter_title">Long press Enter lock</string>
-    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
+    <string name="controller_cat_title">CARPE Controller Optionen</string>
+    <string name="enable_long_press_enter_title">Langer Druck sperrt Ansicht</string>
+    <string name="enable_long_press_enter_message">Mit einem langen Druck auf Enter/Joystick-Mitte wird DMD2 in der Kartenansicht gesperrt. Hoch/Runter/Links/Rechts verschiebt den Karteausschnitt. Mit einem langen Druck auf Enter/Joystick-Mitte wird die Kartenansicht wieder entsperrt.</string>
     <!-- End of New / Not Translated -->
 
 
@@ -66,7 +66,7 @@
     <string name="use_miles">Benutze Miles statt Kilometer</string>
     <string name="ui_options">Benutzeroberfläche Optionen</string>
     <string name="hide_status_bar">Verstecke Statusleiste</string>
-    <string name="hide_bottom_menu">Auto-Verstecken unteres Menü</string>
+    <string name="hide_bottom_menu">Auto-Verstecke unteres Menü</string>
     <string name="hide_odo">Kilometerzähler in allen Ansichten verstecken</string>
     <string name="carpe_controller_options">CARPE Controller Optionen</string>
     <string name="immidiate_bottom_menu">Unteres Menü sofort Modus</string>
@@ -117,7 +117,7 @@
     <string name="follow_us_facebook">Besuche und folge unsere Facebookseite für neueste Nachrichten</string>
     <string name="join_us_facebook">Trete der Facebookgruppe bei</string>
     <string name="adv_rider_thread">Beteilige Dich an der Diskussion über neue Funktionen, Fehler und Wünsche</string>
-    <string name="use_fahrenheit">Nutze Fahrenheit anstatt Celsius</string>
+    <string name="use_fahrenheit">Benutze Fahrenheit anstatt Celsius</string>
     <string name="gps_measure_precision">GPS Messgenauigkeit</string>
     <string name="gps_minimum_distance">GPS Update Mindestentfernung</string>
     <string-array name="gps_minimum_displacement" translatable="true">
