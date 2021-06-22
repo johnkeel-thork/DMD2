@@ -8,7 +8,7 @@
     <string name="track_transparency">Line Transparency:</string>
     <string name="track_orientation_arrow">Orientation Arrow Size:</string>
     <!-- End of New / Not Translated -->
-    
+
     
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
@@ -316,7 +316,6 @@
         <item>Invert Paper Color</item>
         <item>Start / Pause Chrono</item>
         <item>Reset Chrono</item>
-        <item>Controller Lock Mode</item>
         <item>Do Nothing</item>
     </string-array>
     <string name="roadbook_open_file">Åpne PDF</string>
