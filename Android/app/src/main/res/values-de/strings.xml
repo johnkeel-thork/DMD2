@@ -1,21 +1,5 @@
 <resources>
 
-
-    <!-- New / Not Translated -->
-    <string name="map_point_title">Long Press Map Location</string>
-    <string name="gpx_options">GPX Optionen</string>
-    <string name="gpx_options_box_title">GPX Track Optionen</string>
-    <string name="track_line_width">Linien Breite:</string>
-    <string name="track_transparency">Linien Transparenz:</string>
-    <string name="track_orientation_arrow">Größe Orientierungs-Pfeil:</string>
-
-    <string name="controller_cat_title">CARPE Controller Optionen</string>
-    <string name="enable_long_press_enter_title">Langer Druck sperrt Ansicht</string>
-    <string name="enable_long_press_enter_message">Mit einem langen Druck auf Enter/Joystick-Mitte wird DMD2 in der Kartenansicht gesperrt. Hoch/Runter/Links/Rechts verschiebt den Karteausschnitt. Mit einem langen Druck auf Enter/Joystick-Mitte wird die Kartenansicht wieder entsperrt.</string>
-    <!-- End of New / Not Translated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -326,7 +310,6 @@
         <item>Roadbookfarbe umkehren</item>
         <item>Start / Pause Chrono</item>
         <item>Chrono zurücksetzen</item>
-        <item>Controller Sperrmodus</item>
         <item>keine Funktion</item>
     </string-array>
     <string name="roadbook_open_file">Öffne PDF Datei</string>
@@ -455,6 +438,15 @@
     <string name="obd_throttle_widget">OBD - Drosselklappe in %</string>
     <string name="obd_bat_widget">OBD - Batteriespannung</string>
     <string name="obd_errors_widget">OBD - DTC Fehlerzähler</string>
+    <string name="map_point_title">Long Press Map Location</string>
+    <string name="gpx_options">GPX Optionen</string>
+    <string name="gpx_options_box_title">GPX Track Optionen</string>
+    <string name="track_line_width">Linien Breite:</string>
+    <string name="track_transparency">Linien Transparenz:</string>
+    <string name="track_orientation_arrow">Größe Orientierungs-Pfeil:</string>
+    <string name="controller_cat_title">CARPE Controller Optionen</string>
+    <string name="enable_long_press_enter_title">Langer Druck sperrt Ansicht</string>
+    <string name="enable_long_press_enter_message">Mit einem langen Druck auf Enter/Joystick-Mitte wird DMD2 in der Kartenansicht gesperrt. Hoch/Runter/Links/Rechts verschiebt den Karteausschnitt. Mit einem langen Druck auf Enter/Joystick-Mitte wird die Kartenansicht wieder entsperrt.</string>
 
 
     <!-- OBD SENSORS -->
