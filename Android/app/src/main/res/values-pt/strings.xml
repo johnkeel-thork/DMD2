@@ -308,7 +308,6 @@
         <item>Inverter cores do papel</item>
         <item>Iniciar / Pausar Chrono</item>
         <item>Reset do Chrono</item>
-        <item>Alternar Modo de Controlador</item>
         <item>Não fazer nada</item>
     </string-array>
     <string name="roadbook_open_file">Abrir ficheiro PDF</string>
