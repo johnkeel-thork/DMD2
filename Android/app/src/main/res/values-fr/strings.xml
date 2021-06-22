@@ -68,21 +68,21 @@
 
 
     <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">OBD Sensors</string>
-    <string name="obd_setup">OBD View Setup</string>
-    <string name="device_setup">OBD Bluetooth Device Setup</string>
-    <string name="select_device_title">Choose Paired OBD Device</string>
-    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
-    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
-    <string name="obd_cat_title_pref">OBD Preferences</string>
-    <string name="pref_obd_protocols_title">OBD Protocol</string>
-    <string name="pref_obd_protocols_summary">Select which OBD Protocol to use</string>
-    <string name="pref_reader_config_title">Reader Config Commands</string>
-    <string name="pref_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
-    <string name="speed_rpm_options">Speed and RPM Options</string>
-    <string name="speed_value_source_title">GPS Speed Value Source</string>
-    <string name="speed_value_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
-    <string name="max_rpm_title">Set Maximum RPM</string>
+    <string name="obd_bottom_menu_name">Capteurs OBD</string>
+    <string name="obd_setup">Ecran de réglage OBD</string>
+    <string name="device_setup">Réglage connecteur OBD Bluetooth</string>
+    <string name="select_device_title">Sélection du connecteur OBD appairé</string>
+    <string name="obd_bluetooth_list_devices_summary">Selectionner un connecteur bluetooth appairé. Assurez vous d'abord que le connecteur est appairé!</string>
+    <string name="obd_bluetooth_list_devices_title">Selection du connecteur Bluetooth ELM327</string>
+    <string name="obd_cat_title_pref">Préférences OBD</string>
+    <string name="pref_obd_protocols_title">Protocole OBD</string>
+    <string name="pref_obd_protocols_summary">Sélectionner le protocole OBD à utiliser</string>
+    <string name="pref_reader_config_title">Commandes de configuration du lecteur</string>
+    <string name="pref_reader_config_summary">Commandes pour configurer le lecteur bluetooth, séparer par un retour à la ligne</string>
+    <string name="speed_rpm_options">Options de vitesse and régime moteur</string>
+    <string name="speed_value_source_title">Source de valeur de vitesse GPS</string>
+    <string name="speed_value_source_summary">Utiliser le capteur de roue/GPS au lieu de la valeur de vitesse OBD (qui n'est peut être pas disponnible)</string>
+    <string name="max_rpm_title">Réglage du régime moteur maximum</string>
     <string name="max_rpm_summary">Set your vehicle maximum RPM value</string>
     <string name="redline_rpm_title">Set Redline RPM</string>
     <string name="redline_rpm_summary">Set your Redline value (will turn on Red circle warning)</string>
