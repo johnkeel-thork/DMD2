@@ -438,7 +438,6 @@
         <item>Intervertir Couleur Roadbook</item>
         <item>Démarrer / Pause Chrono</item>
         <item>RaZ Chrono</item>
-        <item>Mode de verrouillage Controller</item>
         <item>Pas d’action</item>
     </string-array>
     <string name="roadbook_open_file">Ouvrir fichier PDF</string>
