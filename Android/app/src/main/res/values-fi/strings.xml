@@ -1,15 +1,5 @@
 <resources>
 
-    <!-- New / Not Translated -->
-    <string name="gpx_options">GPX-valinnat</string>
-    <string name="gpx_options_box_title">Reitin/jäljen valinnat</string>
-    <string name="track_line_width">Viivan leveys:</string>
-    <string name="track_transparency">Viivan läpinäkyvyys:</string>
-    <string name="track_orientation_arrow">Suuntanuolen koko:</string>    
-    <!-- End of New / Not Translated -->
-    
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -316,7 +306,6 @@
         <item>Vaihda paperin väri</item>
         <item>Käynnistä/Keskeytä aika</item>
         <item>Nollaa aika</item>
-        <item>Ohjaimen lukitustila</item>
         <item>Älä tee mitään</item>
     </string-array>
     <string name="roadbook_open_file">Avaa PDF-tiedosto</string>
@@ -436,7 +425,11 @@
     <string name="controller_cat_title">CARPE-ohjaimen valinnat</string>
     <string name="enable_long_press_enter_title">Lukitus Keski/Enter-napin pitkällä painalluksella</string>
     <string name="enable_long_press_enter_message">Kytke/Poista karttatilan lukitus Keski/Enter-napin pitkällä painalluksella. Ylös/Alas/Vasen/Oikea siirtää karttaa.</string>
-
+    <string name="gpx_options">GPX-valinnat</string>
+    <string name="gpx_options_box_title">Reitin/jäljen valinnat</string>
+    <string name="track_line_width">Viivan leveys:</string>
+    <string name="track_transparency">Viivan läpinäkyvyys:</string>
+    <string name="track_orientation_arrow">Suuntanuolen koko:</string>
 
 
     <!-- OBD SENSORS -->
@@ -521,6 +514,5 @@
     <string name="obd_throttle_widget">OBD - Kaasun asento %</string>
     <string name="obd_bat_widget">OBD - Latausjännite</string>
     <string name="obd_errors_widget">OBD - DTC virheiden lukumäärä</string>
-
 
 </resources>
