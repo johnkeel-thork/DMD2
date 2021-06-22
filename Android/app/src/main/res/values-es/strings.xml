@@ -280,7 +280,6 @@
         <item>Invert Paper Color</item>
         <item>Start / Pause Chrono</item>
         <item>Reset Chrono</item>
-        <item>Controller Lock Mode</item>
         <item>Do Nothing</item>
     </string-array>
     <string name="roadbook_open_file">Open PDF File</string>
