@@ -1,15 +1,5 @@
 <resources>
 
-
-    <!-- New / Not Translated -->
-    <string name="gpx_options">GPX Options</string>
-    <string name="gpx_options_box_title">GPX Track Options</string>
-    <string name="track_line_width">Line Width:</string>
-    <string name="track_transparency">Line Transparency:</string>
-    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
-    <!-- End of New / Not Translated -->
-
-    
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
@@ -448,7 +438,11 @@
     <string name="controller_cat_title">Tilpass CARPE Controller</string>
     <string name="enable_long_press_enter_title">Kartlåsmodus</string>
     <string name="enable_long_press_enter_message">Når aktivert vil trykk og hold på senter joystick låse kartvisningen. Opp/Ned/Venstre/Høyre vil flytte kartet. Trykk og hold igjen for å gå ut av kartlåsmodus.</string>
-
+    <string name="gpx_options">GPX Instillinger</string>
+    <string name="gpx_options_box_title">Alternativer for GPX-spor</string>
+    <string name="track_line_width">Sporbredde:</string>
+    <string name="track_transparency">Gjennomsiktighet:</string>
+    <string name="track_orientation_arrow">Størrelse på retningspil:</string>
 
 
     <!-- OBD -->
