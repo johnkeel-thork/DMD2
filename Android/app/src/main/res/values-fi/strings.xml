@@ -1,7 +1,27 @@
 <resources>
 
-    <!-- UNTRANSLATED -->
+    <!-- New / Not Translated -->
 
+    <string name="shop_title">DMD2 Shop</string>
+    <string name="plugin_shop">Plugins Shop</string>
+    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
+    <string name="map_view_plugin_title">Map Plugin</string>
+    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
+    <string name="six_month">6 Month</string>
+    <string name="one_year">Year</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
+    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
+    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
+    <string name="unsubscribe">Yes Unsubscribe Active</string>
+    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
+    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
+    <string name="roadbook_plugin_title">Roadbook Plugin</string>
+    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
+
+    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
+
+    <!-- ADS VIEW -->
     <string name="support_project">Support DMD2</string>
     <string name="ads_title">Hello There!</string>
     <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
@@ -12,93 +32,16 @@
     <string name="visit_shop">Visit Shop</string>
     <string name="no_ads_plugin">No Ads Plugin</string>
     <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-
-
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
-
-
-    <string name="bt_dongle_disconnected">BT OBD Dongle Disconnected (Controller: Press Joystick Center / Terrain Enter to connect)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle Connected</string>
-    <string name="bt_dongle_connect">Start OBD Connection</string>
-    <string name="bt_dongle_already_connected">OBD Dongle Already Connected</string>
-    <string name="reset_record_values">Reset Record Values</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD Connection</string>
-    <string name="auto_start_obd_connection_summary">If enabled will attempt to connect to OBD Dongle on app start</string>
-    <string name="coolant_temp_label">Coolant T.</string>
-    <string name="oil_temp_label">Oil T.</string>
-    <string name="intake_temp_label">Intake T.</string>
-    <string name="intake_pressure_label">Intake P.</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Throttle Position</string>
-    <string name="engine_load">Engine Load</string>
-    <string name="voltage">Voltage</string>
-    <string name="fuel_level">Fuel Level</string>
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
-    <string name="reset_dtc_errors">Reset DTC Errors</string>
-    <string name="throttle_options">Throttle Options</string>
-    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
-
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
-
-    <string name="measure_correction_factor">Measures Correction</string>
-    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
-
-    <string name="select_share_app">Select App for Share</string>
-
-
-    <string name="map_view_options">Map Settings</string>
-    <string name="map_options_interface_cat_title">Interface Settings</string>
-    <string name="show_zoom_button">Show Zoom Buttons</string>
-    <string name="map_options_location_cat_title">Location Settings</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
-
-
-    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
-    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
-
-    <string name="control_station_options">Options</string>
-    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
-    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
-
-    <string name="map_point_title">Long Press Map Location</string>
-    <string name="controller_cat_title">CARPE Controller Options</string>
-    <string name="enable_long_press_enter_title">Long press Enter lock</string>
-    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
-
-
-    <string name="gpx_options">GPX Options</string>
-    <string name="gpx_options_box_title">GPX Track Options</string>
-    <string name="track_line_width">Line Width:</string>
-    <string name="track_transparency">Line Transparency:</string>
-    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
-
-
-    <!-- END OF UNTRANSLATED -->
-
+    
+    <!-- End of New / Not Translated -->
 
 
 
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
-    <string name="online_status">En ligne</string>
-    <string name="offline_status">Hors ligne</string>
+    <string name="online_status">Online</string>
+    <string name="offline_status">Offline</string>
 
 
     <!-- Common and Global -->
@@ -106,108 +49,107 @@
     <string name="mph">Mph</string>
     <string name="km">Km</string>
     <string name="kmh">Km/h</string>
-    <string name="meters">metres</string>
-    <string name="back">Retour</string>
-    <string name="abort">Interrompre</string>
+    <string name="meters">metriä</string>
+    <string name="back">Takaisin</string>
+    <string name="abort">Keskeytä</string>
     <string name="ok">OK</string>
-    <string name="save">Enregistrer</string>
-    <string name="cancel">Annuler</string>
-    <string name="close">Fermer</string>
-    <string name="swipe_message"> La plupart des vues affichent une barre verticale bleue à gauche de l’écran. Cela signifie qu’il y a un menu à gauche disponible, accessible en faisant glisser vers la droite de l’écran. Si vous utilisez un contrôleur CARPE, vous pouvez accéder au menu de gauche en appuyant sur Haut ou Bas.</string>
-    <string name="already_purchased">Ce plugin est déjà acheté</string>
-    <string name="hide_menu">Masquer le Menu</string>
-    <string name="select">Valider</string>
-    <string name="delete">Supprimer</string>
-    <string name="update">Mettre à jour</string>
-    <string name="yes">Oui</string>
-    <string name="no">Non</string>
-    <string name="hide">Masquer</string>
-    <string name="feet">pieds</string>
-    <string name="unhide">Afficher</string>
+    <string name="yes">Kyllä</string>
+    <string name="no">Ei</string>
+    <string name="hide">Piilota</string>
+    <string name="save">Tallenna</string>
+    <string name="cancel">Peruuta</string>
+    <string name="close">Sulje</string>
+    <string name="swipe_message">Useimmissa näkymissä on sininen pystysuuntainen palkki vasemmassa reunassa. Se tarkoittaa että käytettävissä on sivuvalikko jonka saat esille pyyhkäisemalla näytön vasemmasta reunasta keskelle. Jos käytät CARPE-ohjainta, sivuvalikkoon pääset yleensä painamalla ohjaimesta Ylös tai Alas.</string>
+    <string name="already_purchased">Olet jo hankkinut tämän sovellusosan</string>
+    <string name="hide_menu">Sulje sivuvalikko</string>
+    <string name="select">Valitse</string>
+    <string name="delete">Poista</string>
+    <string name="update">Päivitä</string>
+    <string name="feet">jalkaa</string>
+    <string name="unhide">Palauta</string>
 
 
     <!-- Bottom Menu -->
-    <string name="global_settings">Paramettres principaux</string>
-    <string name="exit">Sortie</string>
-    <string name="dashboard">Tableau de bord</string>
-    <string name="apps">Applications</string>
-    <string name="speedometer">Compteur de vitesse</string>
-    <string name="control_station">Station de Contrôle</string>
-    <string name="roadbook">Roadbook</string>
-    <string name="map">Carte</string>
-
-
+    <string name="global_settings">Yleiset asetukset</string>
+    <string name="exit">Poistu</string>
+    <string name="dashboard">Kojelauta</string>
+    <string name="apps">Sovellukset</string>
+    <string name="speedometer">Nopeusmittari</string>
+    <string name="control_station">Pika-asetukset</string>
+    <string name="roadbook">Tiekirja</string>
+    <string name="map">Kartta</string>
 
     <!-- Global Settings -->
-    <string name="localization_options">Options de Localisation</string>
-    <string name="hour_format">Format 24h</string>
-    <string name="use_miles">Miles au lieu des kilometres</string>
-    <string name="ui_options"> Options d’Interface</string>
-    <string name="hide_status_bar">Cacher la barre d’état</string>
-    <string name="hide_bottom_menu">Menu inférieur masqué automatiquement</string>
-    <string name="hide_odo">Masquer le compteur kilométrique sur toutes les vues</string>
-    <string name="carpe_controller_options">Options du CARPE Controller</string>
-    <string name="immidiate_bottom_menu">Menu du bas mode immédiat</string>
-    <string name="use_terrain_wheel_sensor">Utilisation du capteur de Vitesse du “Terrain Command”</string>
-    <string name="terrain_current_speed_mode">Mode de lecture de vitesse</string>
+    <string name="localization_options">Alueelliset valinnat</string>
+    <string name="hour_format">Käytä 24 tunnin kelloa</string>
+    <string name="use_miles">Käytä maileja kilometrien sijaan</string>
+    <string name="ui_options">Käyttöliittymävalinnat</string>
+    <string name="hide_status_bar">Piilota tilapalkki</string>
+    <string name="hide_bottom_menu">Piilota alavalikko automaattisesti</string>
+    <string name="hide_odo">Piilota mittarilukema kaikissa näkymissä</string>
+    <string name="carpe_controller_options">CARPE-ohjaimen valinnat</string>
+    <string name="immidiate_bottom_menu">Alavalikon välitön tila</string>
+    <string name="use_terrain_wheel_sensor">Käytä Terrain Commandin rengas-sensoreita</string>
+    <string name="terrain_current_speed_mode">Nykyisen nopeuden mittauksen lähde</string>
     <string-array name="terrain_speed_modes" translatable="true">
-        <item>Toujours GPS</item>
-        <item>Toujours capteur de roue</item>
-        <item>Capteur de roue uniquement quand mauvaise précision GPS</item>
+        <item>Aina GPS</item>
+        <item>Aina rengas-sensori</item>
+        <item>Rengas-sensori vain jos GPS-tarkkuus heikko</item>
     </string-array>
-    <string name="terrain_odo_mode">Mode de mesure des Distances</string>
+    <string name="terrain_odo_mode">Etäisyyden mittauksen lähde</string>
     <string-array name="terrain_odo_modes" translatable="true">
-        <item>Toujours GPS </item>
-        <item>Toujours capteur de roue </item>
-        <item>Capteur de roue uniquement quand mauvaise précision GPS</item>
+        <item>Aina GPS</item>
+        <item>Aina rengas-sensori</item>
+        <item>Rengas-sensori vain jos GPS-tarkkuus heikko</item>
     </string-array>
-    <string name="dmd2_plugins">Plugins pour DMD2</string>
-    <string name="connection_error">Connection impossible, vérifie ta connexion internet / essaye de redémarrer l’app!</string>
-    <string name="auto_hide_left_menu_indicator">Menu de gauche masqué automatiquement</string>
-    <string name="oem_registration">Enregistrement OEM</string>
-    <string name="oem_check">Processus d’inscription (nécessite une connexion Internet)</string>
-    <string name="oem_check_summary">Uniquement si votre moto est équipée d’un appareil Android avec Drive Mode Dashboard 2 préinstallé.</string>
-    <string name="roadbook_plugin_missing_title">Nécessite le plugin Roadbook</string>
-    <string name="roadbook_plugin_missing_message">Pour afficher le fichier PDF Roadbook tu dois acheter le plugin DMD2 Roadbook.</string>
-    <string name="map_plugin_missing_title">Nécessite le Plugin de cartographie</string>
-    <string name="map_plugin_missing_message">Pour afficher les fichiers GPX tu dois acheter le plugin DMD2 Cartographie.</string>
-    <string name="storage_options_category">Options de stockage</string>
-    <string name="save_maps_to_sd">Utilisation de carte-SD pour les cartes hors-ligne</string>
-    <string name="sd_card_error">Erreur d\'accès à la carte-SD, celà ne fonctiopnne pas sur cet appereil!</string>
-    <string name="no_sd_card_error">Pas de carte-SD ou non compatible!</string>
-    <string name="move_files_to_sdcard">Transférer tous les fichiers sur la carte-SD?</string>
-    <string name="move_files_to_internal_memory">Transférer toutes les cartes dans la mémoire interne?</string>
-    <string name="moving_files_dialog_title">Transfert des fichiers!</string>
-    <string name="moving_map_file">Transfert</string>
-    <string name="moving_map_of">de</string>
-    <string name="moving_left_menu_to_right">Déplacer le Menu de gauche à droite</string>
-    <string name="info_and_links">Information et Liens</string>
-    <string name="app_version">Version DMD2</string>
-    <string name="app_installed_version">Version installée version:</string>
-    <string name="dmd2_website">Visite le site internet Drive Mode Dashboard officiel</string>
-    <string name="developer_website_title">DMD2 vous est présenté par</string>
-    <string name="follow_us_facebook">Visite et suit notre Facebook pour les dernières infos</string>
-    <string name="join_us_facebook">Joindre notre groupe Facebook</string>
-    <string name="adv_rider_thread">Joindre la discussion  the discussion des nouvelles fonctionnalités, bugs et requêtes</string>
-    <string name="gps_measure_precision">Précision des mesures GPS</string>
-    <string name="gps_minimum_distance">Distance minimum de mise à jour GPS</string>
+    <string name="dmd2_plugins">DMD2 sovellusosat</string>    
+    <string name="connection_error">Yhdistäminen ei onnistunut, varmista että verkkoyhteys on käytettävissä. Kokeile myös sovelluksen uudelleenkäynnistämistä.</string>
+    <string name="auto_hide_left_menu_indicator">Piilota vasemman valikon indikaattori automaattisesti</string>
+    <string name="oem_registration">OEM rekisteröinti</string>
+    <string name="oem_check">Rekisteröinti (verkkoyhteys vaaditaan)</string>
+    <string name="oem_check_summary">Käytä vain mikäli moottoripyöräsi sisältää tehdasasenteisen Android-laitteen jossa Drive Mode Dashboard 2 on valmiiksi asennettuna.</string>
+    <string name="roadbook_plugin_missing_title">Tiekarttanäkymä-sovellusosa vaaditaan</string>
+    <string name="roadbook_plugin_missing_message">Näyttääksesi tiekarttoja (PDF-tiedostoja), sinun täytyy ostaa Tiekarttanäkymä-sovellusosa.</string>
+    <string name="map_plugin_missing_title">Karttanäkymä-sovellusosa vaaditaan</string>
+    <string name="map_plugin_missing_message">Näyttääksesi reittejä/jälkiä (GPX-tiedostoja), sinun täytyy ostaa Karttanäkymä-sovellusosa.</string>
+    <string name="storage_options_category">Tallennustilavalinnat</string>
+    <string name="save_maps_to_sd">Käytä muistikorttia offline-kartoille</string>
+    <string name="sd_card_error">Virhe käytettäessä muistikorttia, tämä ei toimi laitteessasi!</string>
+    <string name="no_sd_card_error">Ei muistikorttia tai muistikortti ei ole yhteensopiva!</string>
+    <string name="move_files_to_sdcard">Siirrä kaikki karttatiedostosi muistikortille?</string>
+    <string name="move_files_to_internal_memory">Siirrä kaikki karttatiedostosi sisäiseen muistiin?</string>
+    <string name="moving_files_dialog_title">Siirretään tiedostoja!</string>
+    <string name="moving_map_file">Siirretään</string>
+    <string name="moving_map_of">/</string>
+    <string name="moving_left_menu_to_right">Siirrä sivuvalikko vasemmalta oikealle</string>
+    <string name="info_and_links">Linkkejä ja informaatiota</string>
+    <string name="app_version">DMD2 Versio</string>
+    <string name="app_installed_version">Asennettu versio:</string>
+    <string name="dmd2_website">Vieraile virallisella Drive Mode Dashboard -verkkosivulla</string>
+    <string name="developer_website_title">DMD2 sovelluksesta vastaa</string>
+    <string name="follow_us_facebook">Vieraile ja seuraa Facebook-sivuamme josta löydät tuoreimmat uutiset</string>
+    <string name="join_us_facebook">Liity Facebook-ryhmäämme</string>
+    <string name="adv_rider_thread">Liity keskusteluun uusista ominaisuuksista, bugeista ja toiveista</string>
+    <string name="use_fahrenheit">Käytä Fahrenheit-asteita Celsius-asteiden sijaan</string>
+    <string name="gps_measure_precision">GPS Mittauksen tarkkuus</string>
+    <string name="gps_minimum_distance">GPS päivityksen minimietäisyys</string>
     <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 meters</item>
-        <item>0.5 meters</item>
-        <item>0.8 meters</item>
-        <item>1 meter</item>
-        <item>1.5 meters</item>
-        <item>2 meters</item>
-        <item>3 meters</item>
-        <item>4 meters</item>
-        <item>5 meters</item>
-        <item>6 meters</item>
-        <item>7 meters</item>
-        <item>8 meters</item>
-        <item>9 meters</item>
-        <item>10 meters</item>
+        <item>0 metriä</item>
+        <item>0,5 metriä</item>
+        <item>0,8 metriä</item>
+        <item>1 metri</item>
+        <item>1,5 metriä</item>
+        <item>2 metriä</item>
+        <item>3 metriä</item>
+        <item>4 metriä</item>
+        <item>5 metriä</item>
+        <item>6 metriä</item>
+        <item>7 metriä</item>
+        <item>8 metriä</item>
+        <item>9 metriä</item>
+        <item>10 metriä</item>
     </string-array>
-    <string name="gps_minimum_speed">Vitesse minimum pour mise à jour GPS</string>
+    <string name="gps_minimum_speed">GPS päivityksen miniminopeus</string>
     <string-array name="gps_minimum_speed" translatable="true">
         <item>0 Km/h</item>
         <item>1 Km/h</item>
@@ -221,334 +163,389 @@
         <item>9 Km/h</item>
         <item>10 Km/h</item>
     </string-array>
-    <string name="gps_minimum_accuracy">Précision minimum de mise à jour GPS</string>
+    <string name="gps_minimum_accuracy">GPS päivityksen minimitarkkuus</string>
     <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 meters</item>
-        <item>5 meters</item>
-        <item>10 meters</item>
-        <item>15 meters</item>
-        <item>20 meters</item>
-        <item>25 meters</item>
-        <item>30 meters</item>
-        <item>50 meters</item>
-        <item>100 meters</item>
-        <item>500 meters</item>
-        <item>1000 meters</item>
-        <item>2000 meters</item>
+        <item>3 metriä</item>
+        <item>5 metriä</item>
+        <item>10 metriä</item>
+        <item>15 metriä</item>
+        <item>20 metriä</item>
+        <item>25 metriä</item>
+        <item>30 metriä</item>
+        <item>50 metriä</item>
+        <item>100 metriä</item>
+        <item>500 metriä</item>
+        <item>1000 metriä</item>
+        <item>2000 metriä</item>
     </string-array>
+    <string name="edit_bottom_menu_title">Muokkaa alavalikkoa</string>
+    <string name="edit_bottom_menu_message">Järjestele tai poista käytöstä valikon kohteita.</string>
+    <string name="menu_sorter_title">Paina pitkään siirtääksesi kohteita. Piilota/näytä kytkimestä.</string>
 
 
+    <!-- HOME / GRID VIEW-->
+    <string name="option_show_grid">Muokkaustila</string>
+    <string name="select_widget">Valitse widgetti</string>
     <!-- Widgets -->
-    <string name="none_empty_widget_desc">Pas de Widget / Zone vide</string>
-    <string name="speed_widget_desc">Vitesse / Trip / Odo</string>
-    <string name="fav_apps_widgets">Raccourcis App</string>
-    <string name="trip_info">Compteurs journaliers</string>
-    <string name="digital_clock">Horloge Digitale</string>
-    <string name="compass_widget">Boussole</string>
-    <string name="system_widget">Widget système Android </string>
-    <string name="logo_widget">Ajoute ton logo en PNG</string>
-
+    <string name="none_empty_widget_desc">Ei widgettiä / Tyhjä</string>
+    <string name="speed_widget_desc">Nopeus / Osamatka / Matka</string>
+    <string name="fav_apps_widgets">Sovelluslinkit</string>
+    <string name="trip_info">Matkan tiedot</string>
+    <string name="digital_clock">Digitaalinen kello</string>
+    <string name="compass_widget">Kompassi</string>
+    <string name="system_widget">Android järjestelmäwidgetti</string>
+    <string name="logo_widget">Lisää PNG logo</string>
     <!-- Trip Widget -->
-    <string name="avg_speed">Vitesse Moy</string>
-
+    <string name="avg_speed">Keskinopeus</string>
     <!-- Logo Widget -->
-    <string name="pixels">pixels</string>
-    <string name="tap_to_select_image">Appuie pour sélectionner une image</string>
-    <string name="tap_to_edit_text">Appuie pour éditer le texte</string>
-    <string name="write_logo_message">Ecrit ton message du logo</string>
-
-
-
-    <!-- GRID VIEW -->
-    <string name="option_show_grid">Edition du tableau de bord</string>
-    <string name="select_widget">Sélectionne un Widget</string>
-
+    <string name="pixels">pixelit</string>
+    <string name="tap_to_select_image">Kosketa valitaksesi kuvan</string>
+    <string name="tap_to_edit_text">Kosketa muokataksesi tekstiä</string>
+    <string name="write_logo_message">Syötä logo-tekstisi</string>
 
     <!-- Speedo View -->
-    <string name="distance">Distance</string>
-    <string name="total_time">Temps Total</string>
-    <string name="travel_time">Temps Voyage</string>
-    <string name="stop_time">Temps d’arrêt</string>
-    <string name="avg_average">MOY</string>
-    <string name="max_maximum">MAX</string>
-    <string name="odo_odometer">Odo</string>
-    <string name="trip">Trip</string>
-    <string name="reset_trip">RaZ Compteurs Journaliers</string>
-    <string name="edit_odometer">Edition Odomètre</string>
-    <string name="edit_odometer_message">Nouvelle valeur de l’odomètre:</string>
-    <string name="edit_odometer_controller_guide">Controller: Haut/Bas change de 1, Zoom In/Out change de 100, Centrer/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
-    <string name="hours">Heure</string>
-    <string name="speedo_trip_options">Options</string>
-    <string name="trip_options">Options du Trip</string>
-    <string name="trip_running_mode_title">Trip toujours actif</string>
-    <string name="trip_running_mode_summary">Si déactivé tu dois réactiver le Trip manuellement</string>
-    <string name="trip_auto_reset_title">RaZ Trip Automatique</string>
-    <string name="trip_auto_reset_summary">le Trip sera Remis à Zero automatiquement si le DMD2 est fermé pendant plus d’une période configurable.</string>
-    <string name="trip_auto_reset_time_title">Temps du RaZ Trip automatique</string>
+    <string name="distance">Matka</string>
+    <string name="total_time">Kokonaisaika</string>
+    <string name="travel_time">Matka-aika</string>
+    <string name="stop_time">Pysähdyksissä</string>
+    <string name="avg_average">KESKINOPEUS</string>
+    <string name="max_maximum">HUIPPUNOPEUS</string>
+    <string name="odo_odometer">Mit.lukema</string>
+    <string name="trip">Matkatiedot</string>
+    <string name="reset_trip">Nollaa matkatiedot</string>
+    <string name="edit_odometer">Muokkaa mittarilukemaa</string>
+    <string name="edit_odometer_message">Syötä uusi mittarilukema:</string>
+    <string name="edit_odometer_controller_guide">Ohjaimella: Ylös/Alas lisää/vähentää 1, Zoom sisään/ulos lisää/vähentää 100, Keski/Enter pitkä painallus asettaa 0, Vasen/Oikea peruuttaa/Tallentaa</string>
+    <string name="hours">Tuntia</string>
+    <string name="speedo_trip_options">Asetukset</string>
+    <string name="trip_options">Matka-valinnat</string>
+    <string name="trip_running_mode_title">Jatkuva matkan mittaus</string>
+    <string name="trip_running_mode_summary">Jos pois päältä, sinun tulee käynnistää matka manuaalisesti</string>
+    <string name="trip_auto_reset_title">Automaattinen matkan nollaus</string>
+    <string name="trip_auto_reset_summary">Matka nollataan automaattisesti jos DMD2 on suljettuna asetettua aikarajaa kauemmin</string>
+    <string name="trip_auto_reset_time_title">Matkan automaattisen nollauksen aikaraja</string>
     <string-array name="trip_reset_time_entries" translatable="true">
-        <item>6 heures</item>
-        <item>12 heures</item>
-        <item>1 jour</item>
-        <item>2 jours</item>
-        <item>5 jours</item>
+        <item>6 tuntia</item>
+        <item>12 tuntia</item>
+        <item>1 päivä</item>
+        <item>2 päivää</item>
+        <item>5 päivää</item>
     </string-array>
-    <string name="trip_options_layout_cat">Options de disposition</string>
-    <string name="trip_hide_speed_title">Masquer vitesse &amp; Odo</string>
-    <string name="trip_hide_speed_summary">Masquer la vitesse et l’ ODO sont utiles si vous voulez augmenter les valeurs du Trip</string>
-    <string name="start_stop_trip">Démarrer/Pause Trip</string>
+    <string name="trip_options_layout_cat">Nopeusmittarinäkymän valinnat</string>
+    <string name="trip_hide_speed_title">Piilota nopeus &amp; mittarilukema</string>
+    <string name="trip_hide_speed_summary">Piilottamalla nopeuden ja mittarilukeman saat Matkatiedot näkymään suurempana</string>
+    <string name="start_stop_trip">Käynnistä/Pysäytä matka</string>
+
 
 
     <!-- Control Station -->
-    <string name="brightness">Luminosité</string>
-    <string name="set_max_bright_title">Détection automatique de luminosité</string>
-    <string name="set_max_brightness">Détection luminosité maximum</string>
-    <string name="set_max_bright_message">Les appareils utilisent des valeurs différentes de luminosité,
-  allez dans le menu système de l\'appareil pour régler la luminosité au maximum, puis appuyez sur "Enregistrer"</string>
-    <string name="bright_command_instruction">Controller: Boutons Zoom pour augmenter/réduire and Entrer/Annuler Click pour changer Auto/Manuel</string>
-    <string name="auto_bright">Auto</string>
-    <string name="manual_bright">Manuel</string>
-    <string name="control_station_exit">Controller: Bouton gauche ou droit pour sortir</string>
-    <string name="music_volume">Volume Musique</string>
-    <string name="calls_volume">Volume appels</string>
-    <string name="ring_volume">Volume Sonneries</string>
-    <string name="volume_command_instruction">Controller: Boutons Zoom buttons pour augmenter/réduire and Entrer/Annuler Click pour changer la source</string>
-    <string name="dnd_mode_title">DND Mode de Permissions</string>
-    <string name="dnd_mode_message">Pour ajuster le volume il faut les permissions pour DND Mode!</string>
-    <string name="controller_default_message">Controller: Appuyer Haut pour sélectionner un  slider, appuyer bas pour retourner au menu.</string>
-    <string name="rotation_locked">Rotation vérouillée</string>
-    <string name="rotation_unlocked">Rotation dévérouillée</string>
+    <string name="brightness">Kirkkaus</string>
+    <string name="set_max_bright_title">Järjestelmän maksimaalisen kirkkauden tarkastus</string>
+    <string name="set_max_brightness">Tarkasta maksimaalinen kirkkaus</string>
+    <string name="set_max_bright_message">Koska eri laitteet käyttävät erilaisia arvoja maksimaaliselle kirkkaudelle, meidän täytyy selvittää laitteesi arvo.
+    Aseta manuaalisesti laitteen näytön kirkkaus maksimiin ja sen jälkeen palaa tähän näyttöön ja paina Tallenna</string>
+    <string name="bright_command_instruction">Ohjaimella: Käytä Zoom-painikkeita kirkkauden lisäämiseen/vähentämiseen ja Keski/Enter-painiketta vaihtaaksesi Automaattinen/Manuaalinen</string>
+    <string name="auto_bright">Automaatinen</string>
+    <string name="manual_bright">Manuaalinen</string>
+    <string name="control_station_exit">Ohjaimella: Käytä Vasen/Oikea-painikkeita poistuaksesi</string>
+    <string name="music_volume">Äänenvoimakkuus</string>
+    <string name="calls_volume">Puheluiden äänenvoimakkuus</string>
+    <string name="ring_volume">Soittoäänen äänenvoimakkuus</string>
+    <string name="volume_command_instruction">Ohjaimella: Käytä Zoom-painikkeita äänenvoimakkuuden lisäämiseen/vähentämiseen ja Keski/Enter-painiketta vaihtaaksesi lähdettä</string>
+    <string name="dnd_mode_title">DND-tilan oikeudet</string>
+    <string name="dnd_mode_message">Täydelliseen äänenvoimakkuuden hallintaan tarvitaan DND-tilan käyttöoikeus!</string>
+    <string name="controller_default_message">Ohjaimella: Paina Ylös valitaksesi liukusäätimen, Paina Alas palataksesi valikkoon.</string>
+    <string name="rotation_locked">Autom. kierto estetty</string>
+    <string name="rotation_unlocked">Autom. kierto sallittu</string>
+    <string name="control_station_options">Valinnat</string>
+    <string name="lock_rotation_system_wide_title">Järjestelmänlaajuinen näytönkierron lukitus</string>
+    <string name="lock_rotation_system_wide_summary">Lukitsee näytönkierron laitteellasi myös silloin kun DMD2 on käynnissä taustalla.</string>
 
 
     <!-- Roadbook -->
-    <string name="tap_to_open_file">Appuie ici pour ouvrir un fichier</string>
-    <string name="select_instrument">Sélectionne un instrument</string>
-    <string name="none_empty_instrument_desc">Aucun, masque la case</string>
-    <string name="total_instrument_desc">Distance Totale</string>
-    <string name="partial_instrument_desc">Distance Partielles</string>
-    <string name="heading_instrument_desc">CAP degrés</string>
-    <string name="current_speed_instrument_desc">Vitesse</string>
-    <string name="chronometer_instrument_desc">Chronomètre</string>
-    <string name="current_time_instrument_desc">Heure (heure actuelle)</string>
-    <string name="clock_title">Heure</string>
-    <string name="speed_title">Vitesse</string>
-    <string name="heading_title">CAP</string>
-    <string name="chrono_title">Chrono</string>
-    <string name="total_distance_title">Total</string>
-    <string name="partial_distance_title">Partiel</string>
-    <string name="chrono_paused">PAUSE</string>
-    <string name="edit_instruments">Edition Instruments</string>
-    <string name="total_options">Options pour Total</string>
-    <string name="partial_options">Options pour Partiel</string>
-    <string name="invert_paper_color">Intervertir la couleur de Papier</string>
-    <string name="reset_all_instruments">RaZ tout Instruments</string>
-    <string name="total_distance_edit_title">Distance Totale</string>
-    <string name="total_distance_message"> Appuyer pour éditer la valeur de Distance totale:</string>
-    <string name="partial_distance_edit_title">Distance Partielle</string>
-    <string name="partial_distance_message"> Appuyer pour éditer la valeur de Distance Partielle:</string>
-    <string name="total_options_dialog_title">Distance Totale</string>
-    <string name="total_options_dialog_message">Options disponibles pour la Distance Totale:</string>
-    <string name="total_options_reset_button">Valeur de RaZ</string>
-    <string name="total_options_input_button">Valeur d’entrée</string>
-    <string name="total_options_decimals_button">Decimal Places</string>
-    <string name="total_decimals_dialog_title">Total – Choix de la Décimale</string>
-    <string name="total_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Total:</string>
-    <string name="total_decimals_dialog_one_button">Une (0.0)</string>
-    <string name="total_decimals_dialog_two_button">Deux (0.00)</string>
-    <string name="partial_options_dialog_title">Distance Partielle</string>
-    <string name="partial_options_dialog_message">Options disponibles pour la Distance Partielle:</string>
-    <string name="partial_options_reset_button">Valeur de RaZ</string>
-    <string name="partial_options_input_button">Valeur d’entrée</string>
-    <string name="partial_options_decimals_button">Decimal Places</string>
-    <string name="partial_decimals_dialog_title">Partiel - Choix de la Décimale</string>
-    <string name="partial_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Partiel:</string>
-    <string name="partial_decimals_dialog_one_button">Une (0.0)</string>
-    <string name="partial_decimals_dialog_two_button">Deux (0.00)</string>
-    <string name="edit_hardware_controls">Configuration Controller</string>
-    <string name="controller_lock_mode">Mode verrouillage Controller</string>
-    <string name="controller_lock_mode_enabled">Mode verrouillage Controller Actif</string>
-    <string name="controller_lock_mode_disabled">Mode verrouillage Controller Inactif</string>
-    <string name="roadbook_controller_setup_cat_title">Configuration des boutons CARPE Controller</string>
-    <string name="roadbook_controller_button_up">Joystick Haut / Terrain Haut</string>
-    <string name="roadbook_controller_button_down">Joystick Bas / Terrain Bas</string>
-    <string name="roadbook_controller_button_left">Joystick Gauche / Terrain Gauche</string>
-    <string name="roadbook_controller_button_right">Joystick Droit / Terrain Droit</string>
-    <string name="roadbook_controller_button_enter">Joystick Centre Click / Terrain Entrer</string>
-    <string name="roadbook_controller_button_enter_long">Pression longue Joystick Centre Click / Terrain Entrer</string>
-    <string name="roadbook_controller_button_zoomin">Bouton A / Zoom In</string>
-    <string name="roadbook_controller_button_zoomout">Bouton B / Zoom Out</string>
-    <string name="roadbook_controller_scroll_amount_title">Défilement par click</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Défiler le Roadbook vers le bas une fois la réinitialisation Partielle terminée</string>
-    <string name="roadbook_controller_paper_roll_options_cat_title">Options de Roadbook</string>
-    <string name="roadbook_controller_cat_title">Options pour CARPE Controller</string>
-    <string name="enable_controller_lock_also_disable_touch">Désactive l’écran tactile quand le verrouillage du Controller est Actif</string>
+    <string name="tap_to_open_file">Kosketa avataksesi tiedoston</string>
+    <string name="select_instrument">Valitse toiminto</string>
+    <string name="none_empty_instrument_desc">Ei valintaa, piilottaa laatikon</string>
+    <string name="total_instrument_desc">Kokonaismatka</string>
+    <string name="partial_instrument_desc">Osamatka</string>
+    <string name="heading_instrument_desc">Suunta asteina</string>
+    <string name="current_speed_instrument_desc">Nykyinen nopeus</string>
+    <string name="chronometer_instrument_desc">Aika</string>
+    <string name="current_time_instrument_desc">Kellonaika</string>
+    <string name="clock_title">Kello</string>
+    <string name="speed_title">Nopeus</string>
+    <string name="heading_title">Suunta</string>
+    <string name="chrono_title">Aika</string>
+    <string name="total_distance_title">Kokonais</string>
+    <string name="partial_distance_title">Osa</string>
+    <string name="chrono_paused">PYSÄYTETTY</string>
+    <string name="edit_instruments">Muokkaa toimintoja</string>
+    <string name="total_options">Kokonaismatkan valinnat</string>
+    <string name="partial_options">Osamatkan valinnat</string>
+    <string name="invert_paper_color">Vaihda paperin väriä</string>
+    <string name="reset_all_instruments">Nolla kaikki toiminnot</string>
+    <string name="total_distance_edit_title">Kokonaismatka</string>
+    <string name="total_distance_message">Kosketa muokataksesi kokonaismatkan arvoa:</string>
+    <string name="partial_distance_edit_title">Osamatka</string>
+    <string name="partial_distance_message">Kosketa muokataksesi osamatkan arvoa:</string>
+    <string name="total_options_dialog_title">Kokonaismatka</string>
+    <string name="total_options_dialog_message">Vaihtoehdot kokonaismatkan arvolle:</string>
+    <string name="total_options_reset_button">Nollaa arvo</string>
+    <string name="total_options_input_button">Syötä arvo</string>
+    <string name="total_options_decimals_button">Desimaalien määrä</string>
+    <string name="total_decimals_dialog_title">Kokonaismatka - Desimaalien määrä</string>
+    <string name="total_decimals_dialog_message">Valitse käytettävien desimaalien määrä kokonaismatkalle:</string>
+    <string name="total_decimals_dialog_one_button">Yksi (0.0)</string>
+    <string name="total_decimals_dialog_two_button">Kaksi (0.00)</string>
+    <string name="partial_options_dialog_title">Osamatka</string>
+    <string name="partial_options_dialog_message">Vaihtoehdot osamatkan arvolle:</string>
+    <string name="partial_options_reset_button">Nollaa arvo</string>
+    <string name="partial_options_input_button">Syötä arvo</string>
+    <string name="partial_options_decimals_button">Desimaalien määrä</string>
+    <string name="partial_decimals_dialog_title">Osamatka - Desimaalien määrä</string>
+    <string name="partial_decimals_dialog_message">Valitse käytettävien desimaalien määrä osamatkalle:</string>
+    <string name="partial_decimals_dialog_one_button">Yksi (0.0)</string>
+    <string name="partial_decimals_dialog_two_button">Kaksi (0.00)</string>
+    <string name="edit_hardware_controls">Ohjaimen määritykset</string>
+    <string name="controller_lock_mode">Ohjaimen Lukitustila</string>
+    <string name="controller_lock_mode_enabled">Ohjaimen Lukitustila käytössä</string>
+    <string name="controller_lock_mode_disabled">Ohjaimen Lukitustila pois käytöstä</string>
+    <string name="roadbook_controller_setup_cat_title">CARPE-ohjaimen painikkeiden määritys</string>
+    <string name="roadbook_controller_button_up">Joystick Ylös / Terrain Ylös</string>
+    <string name="roadbook_controller_button_down">Joystick Alas / Terrain Alas</string>
+    <string name="roadbook_controller_button_left">Joystick Vasen / Terrain Vasen</string>
+    <string name="roadbook_controller_button_right">Joystick Oikea / Terrain Oikea</string>
+    <string name="roadbook_controller_button_enter">Joystick Keski / Terrain Enter</string>
+    <string name="roadbook_controller_button_enter_long">Pitkä painallus Joystick Keski / Terrain Enter</string>
+    <string name="roadbook_controller_button_zoomin">Painike A / Zoom Sisään</string>
+    <string name="roadbook_controller_button_zoomout">Painike B / Zoom Ulos</string>
+    <string name="roadbook_controller_scroll_amount_title">Vierityksen rivimäärä</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Vieritä paperia alas kerran osamatkan nollauksessa</string>
+    <string name="roadbook_controller_paper_roll_options_cat_title">Tiekartan paperirullan asetukset</string>
+    <string name="roadbook_controller_cat_title">CARPE-ohjaimen valinnat</string>
+    <string name="enable_controller_lock_also_disable_touch">Estä myös näytön koskettaminen ohjaimen lukitustilan ollessa käytössä</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
-        <item>Affiche menu de gauche</item>
-        <item>Roadbook Haut</item>
-        <item>Roadbook Bas</item>
-        <item>Augmente Total</item>
-        <item>Diminue Total</item>
-        <item>Augmente Partiel</item>
-        <item>Diminue Partiel</item>
-        <item>RaZ Total</item>
-        <item>RaZ Partiel</item>
-        <item>Intervertir Couleur Roadbook</item>
-        <item>Démarrer / Pause Chrono</item>
-        <item>RaZ Chrono</item>
-        <item>Pas d’action</item>
+        <item>Näytä sivuvalikko</item>
+        <item>Paperirulla ylös</item>
+        <item>Paperirulla alas</item>
+        <item>Suurenna kokonaismatkaa</item>
+        <item>Pienennä kokonaismatkaa</item>
+        <item>Suurenna osamatkaa</item>
+        <item>Pienennä osamatkaa</item>
+        <item>Nollaa kokonaismatka</item>
+        <item>Nollaa osamatka</item>
+        <item>Vaihda paperin väri</item>
+        <item>Käynnistä/Keskeytä aika</item>
+        <item>Nollaa aika</item>
+        <item>Älä tee mitään</item>
     </string-array>
-    <string name="roadbook_open_file">Ouvrir fichier PDF</string>
-    <string name="roadbook_total_partial_controller_instructions">Controller: Haut/Bas/Gauche/Droit pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
-    <string name="roadbook_decimals_controller_instructions">Controller: Gauche/Droite pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
-    <string name="roadbook_edit_values_guide">Controller: Haut/Bas change de 0.01, ZoomIn/Out change de 1, Centre/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
+    <string name="roadbook_open_file">Avaa PDF-tiedosto</string>
+    <string name="roadbook_total_partial_controller_instructions">Ohjaimella: Käytä Ylös/Alas/Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
+    <string name="roadbook_decimals_controller_instructions">Ohjaimella: Käytä Vasen/Oikea valitaksesi painikkeen. Paina Keski/Enter vahvistaaksesi.</string>
+    <string name="roadbook_edit_values_guide">Ohjaimella: Ylös/Alas lisää/vähentää 0.01, Zoom Sisään/Ulos lisää/vähentää 1, Keski/Enter pitkä painallus nollaa, Vasen/Oikea peruuttaa/Tallentaa</string>
+    <string name="measure_correction_factor">Mittakorjaus</string>
+    <string name="distance_measure_correction_title">Kokonais- ja osamatkan mittakorjauskerroin</string>
+    <string name="distance_measure_correction_message">Kokonaismatkan ja Osamatkan arvot kerrotaan alle syötetyllä kertoimella. Käytä kerrointa korjaamaan mahdollinen ero tiekirjan arvoihin.</string>
 
 
+    <!-- MapFragment View -->
+    <string name="offline_map_manager">Offline-karttojen hallinta</string>
+    <string name="map_manager">Karttojen hallinta</string>
+    <string name="europe">Eurooppa</string>
+    <string name="north_america">Pohjois-Amerikka</string>
+    <string name="central_america">Keski-Amerikka</string>
+    <string name="south_america">Etelä-Amerikka</string>
+    <string name="australia_oceania">Australia / Oseania</string>
+    <string name="russia">Venäjä</string>
+    <string name="asia">Aasia</string>
+    <string name="africa">Afrikka</string>
+    <string name="download">Lataa</string>
+    <string name="downloading_map">Ladataan karttatiedostoa</string>
+    <string name="downloading_poi">Ladataan POI-tiedostoa</string>
+    <string name="starting_download">Aloitetaan lataus…</string>
+    <string name="seconds">sekuntia</string>
+    <string name="minutes">minuuttia</string>
+    <string name="remaining">jäljellä</string>
+    <string name="load_map_switch">Lataa aina kartta:  </string>
+    <string name="map_type">Kartan tyyppi</string>
+    <string name="map_type_title">Valitse kartan tyyppi</string>
+    <string name="map_type_message">Karttanäkymä voi näyttää tavallisia OSM-tietoja tai topograafisia (jossa korkeusviivat) OSM-tietoja. Tavalliset on optimoitu tienavigointiin ja topograafiset off-road seikkailuun. Valitse kumpaa haluat käyttää:</string>
+    <string name="standard">Tavallinen</string>
+    <string name="topographic">Topograafinen (Off-Road)</string>
+    <string name="look_around_message">Käytä Ylös/Alas/Vasen/Oikea -painikkeita liikkuaksesi kartalla. Pitkä painallus Keski/Enter poistuaksesi.</string>
+    <string name="look_around_title">Katsele ympärille -tila</string>
+    <string name="online_layers">Kartan kerrokset</string>
+    <string name="hill_shadding">Rinnevarjostukset</string>
+    <string name="hill_shadding_desc">Rinnevarjostusten avulla kartalla näytetään rinteiden topograafinen muoto.</string>
+    <string name="data_type_online">Datatyyppi: Online (verkkoyhteys vaaditaan) luo offline-kopion</string>
+    <string name="medium_power_increase">Virrankulutus: Lisää virrankulutusta jopa 20%!</string>
+    <string name="hillshading_switch_state">Näytä rinnevarjostus:</string>
+    <string name="tilt_adjust_mode">Kompassin pohjoiskorjaus</string>
+    <string name="tilt_adjust_mode_message">Käytä Ylös/Alas muuttaaksesi pohjoiskorjausta. Paina Keski/Enter Click tallentaaksesi.</string>
+    <string name="manage_gpx_files">GPX-tiedostot</string>
+    <string name="waypoint_box_close">Sulje</string>
+    <string name="waypoint_box_navigate">Navigoi</string>
+    <string name="waypoint_box_share">Jaa</string>
+    <string name="gpx_add_another">Lisää GPX</string>
+    <string name="gpx_close_all">Poista kaikki</string>
+    <string name="imported_gpx_files">Tuodut GPX-tiedostot</string>
+    <string name="waypoints">Reittipisteet</string>
+    <string name="waypoint">Reittipiste</string>
+    <string name="tracks">Reitit/Jäljet</string>
+    <string name="track">Reitti/Jälki</string>
+    <string name="set_to_hide_gpx">Piilota GPX</string>
+    <string name="set_to_visible_gpx">Näytä GPX</string>
+    <string name="set_to_hide_track">Piilota reitti/jälki</string>
+    <string name="set_to_visible_track">Näytä reitti/jälki</string>
+    <string name="track_is_hidden">Reitti/jälki piilotettu</string>
+    <string name="track_is_visible">Reitti/jälki näkyvillä</string>
+    <string name="remove">Poista</string>
+    <string name="no_waypoints_for_track">Tämä reitti/jälki ei sisällä yhtään reittipistettä!</string>
+    <string name="no_track_description">Ei reitin/jäljen kuvausta.</string>
+    <string name="track_lenght">Pituus:</string>
+    <string name="set_color">Aseta väri</string>
+    <string name="track_color">Reitin/jäljen väri:</string>
+    <string name="open_gpx">Avaa GPX</string>
+    <string name="remove_gpx">Poista GPX</string>
+    <string name="no_gpx_loaded">GPX-tiedostoa ei ole vielä ladattu!</string>
+    <string name="track_does_not_contain_waypoints">Tämä reitti/jälki ei sisällä yhtään reittipistettä.</string>
+    <string name="track_start_title">GPX alkaa</string>
+    <string name="track_start_description">Tämä on GPX:n ensimmäinen reittipiste</string>
+    <string name="track_end_title">GPX päättyy</string>
+    <string name="track_end_description">Tämä on GPX:n viimeinen reittipiste</string>
+    <string name="select_navigation_app">Valitse navigointisovellus</string>
+    <string name="select_app">Valitse sovellus</string>
+    <string name="not_enough_space_title">VIRHE: Ei riittävästi tallennustilaa!</string>
+    <string name="not_enough_space_progress_text">Vapauta ainakin</string>
+    <string name="bad_map_detected_title">Virheellinen karttatiedosto havaittu</string>
+    <string name="bad_map_detected_message">Havaittiin korruptoitunut karttatiedosto, tiedosto poistettiin ja sinun täytyy ladata se uudelleen. Kyseinen tiedosto on: </string>
+    <string name="error_loading_gpx_title">Virhe GPX-latauksessa</string>
+    <string name="error_loading_gpx_message">GPX-tiedostoa ladattaessa tapahtui virhe. Vaikuttaa siltä että GPX-tiedosto ei ole yhteensopiva DMD2 kanssa. Kokeile toista GPX-tiedostoa.</string>
+    <string name="map_delete_title">Haluatko varmasti poistaa tämän karttatiedoston?</string>
+    <string name="advanced_button">Lisäasetukset</string>
+    <string name="advanced_title">Lisäasetukset</string>
+    <string name="merge_visible_tracks">Yhdistä näkyvät reitit/jäljet</string>
+    <string name="restore_split_tracks">Palauta yhdistetyt reitit/jäljet</string>
+    <string name="unmerge">Erota yhdistetyt jäljet</string>
+    <string name="this_track_is_the_sum">Tämä reitti/jälki on yhdistelmä</string>
+    <string name="of_tracks">reiteistä/jäljistä</string>
+    <string name="merged_track">Yhdistetyt näkyvät reitit/jäljet</string>
+    <string name="track_merged_to_visible_tracks">Reitti/jälki yhdistetään näkyviin reitteihin/jälkiin</string>
+    <string name="dont_list_hidden_tracks">Älä listaa piilotettuja reittiä/jälkiä</string>
+    <string name="list_hidden_tracks">Listaa piilotetut reitit/jäljet</string>
+    <string name="track_hidden_from_list">Reitti/jälki piilotetaan listasta</string>
+    <string name="tune_line">Muokkaa viivan ulkomuotoa</string>
+    <string name="clean_waypoints">Piilota etäiset reittipisteet</string>
+    <string name="clean_waypoints_description">Piilota reittipisteet jotka ovat reitistä/jäljestä kauempana kuin:</string>
+    <string name="processing_cleaning_waypoints">Käsitellään näkyviä reittipisteitä…tämä voi kestää jonkin aikaa!</string>
+    <string name="no_waypoint_was_hidden">Yhtään kriteereihin sopivaa reittipistettä ei löytynyt. Voit kokeilla pienempää etäisyyttä.</string>
+    <string name="found_and_hidden_waypoint_a">Löytyi</string>
+    <string name="found_and_hidden_waypoint_b">kriteereihin sopivaa reittipistettä. Nämä reittipisteet on nyt piilotettu!</string>
+    <string name="unlist_hidden_waypoints">Poista piilotettujen reittipisteiden lista</string>
+    <string name="marker_removed_from_list">Reittipiste poistetaan listalta</string>
+    <string name="list_hidden_waypoints">Listaa piilotetut reittipisteet</string>
+    <string name="invert_gpx_direction">Käännä reitin suunta</string>
+    <string name="restore_gpx_direction">Palauta reitin suunta</string>
+    <string name="map_view_options">Kartta-asetukset</string>
+    <string name="map_options_interface_cat_title">Käyttöliittymäasetukset</string>
+    <string name="show_zoom_button">Näytä zoomaus-painikkeet</string>
+    <string name="map_options_location_cat_title">Sijaintiasetukset</string>
+    <string name="use_compass_when_stop">Käytä pysähdyksissä laitteen kompassia (jos käytettävissä).</string>
+    <string name="select_share_app">Valitse sovellus</string>
+    <string name="map_point_title">Long Press Map Location</string>
+    <string name="controller_cat_title">CARPE-ohjaimen valinnat</string>
+    <string name="enable_long_press_enter_title">Lukitus Keski/Enter-napin pitkällä painalluksella</string>
+    <string name="enable_long_press_enter_message">Kytke/Poista karttatilan lukitus Keski/Enter-napin pitkällä painalluksella. Ylös/Alas/Vasen/Oikea siirtää karttaa.</string>
+    <string name="gpx_options">GPX-valinnat</string>
+    <string name="gpx_options_box_title">Reitin/jäljen valinnat</string>
+    <string name="track_line_width">Viivan leveys:</string>
+    <string name="track_transparency">Viivan läpinäkyvyys:</string>
+    <string name="track_orientation_arrow">Suuntanuolen koko:</string>
 
-    <!-- Map View -->
-    <string name="offline_map_manager">Gestion des cartes hors ligne</string>
-    <string name="map_manager">Gestion des cartes</string>
-    <string name="europe">Europe</string>
-    <string name="north_america">Amérique du Nord</string>
-    <string name="central_america">Amérique Centrale</string>
-    <string name="south_america">Amérique du Sud</string>
-    <string name="australia_oceania">Australie / Oceanie</string>
-    <string name="russia">Russie</string>
-    <string name="asia">Asie</string>
-    <string name="africa">Afrique</string>
-    <string name="download">Télécharger</string>
-    <string name="downloading_map">Téléchargement de la carte pour</string>
-    <string name="downloading_poi">Téléchargement de POI additionnels</string>
-    <string name="starting_download">Départ du téléchargement…</string>
-    <string name="seconds">secondes</string>
-    <string name="minutes">minutes</string>
-    <string name="remaining">reste</string>
-    <string name="load_map_switch">Toujours charger la carte: </string>
-    <string name="map_type">Type de carte</string>
-    <string name="map_type_title">Sélectionne le type de carte</string>
-    <string name="map_type_message">Nos cartes affichent des informations OSM standard ou OSM topographique (avec des lignes d’altitude). La carte standard est optimisée pour la navigation routière et la topographique pour la conduite hors routes. Veuillez sélectionner votre préférence:</string>
-    <string name="standard">Standard (Route)</string>
-    <string name="topographic">Topographique (Off-Road)</string>
-    <string name="look_around_message">Haut/Bas/Gauche/Droit pour bouger la carte. Longue Pression Entrer/Centrer Click pour sortir.</string>
-    <string name="look_around_title">Mode Look Around</string>
-    <string name="online_layers">Couches Additionnelles</string>
-    <string name="hill_shadding">Ombrage</string>
-    <string name="hill_shadding_desc">L’ombrage est une technique pour créer du relief,  faisant apparaitre la forme topographique des collines et montagnes en ajoutant de l’ombre.</string>
-    <string name="data_type_online">Type de datas: En Ligne (Nécessite une connexion Internet) création d’un cache hors ligne</string>
-    <string name="medium_power_increase">Utilisation de la puissance: Augmente la consommation jusqu’à 20%!</string>
-    <string name="hillshading_switch_state">Affichage de l’ombrage:</string>
-    <string name="tilt_adjust_mode">Ajustement de l’inclinaison de la boussole</string>
-    <string name="tilt_adjust_mode_message">Haut/Bas pour changer l’inclinaison de la carte. Entrer/Centrer Click pour enregistrer &amp; Sortir.</string>
-    <string name="manage_gpx_files">Fichier GPX</string>
-    <string name="waypoint_box_close">Fermer</string>
-    <string name="waypoint_box_navigate">Naviguer</string>
-    <string name="waypoint_box_share">Partager</string>
-    <string name="gpx_add_another">Ajouter</string>
-    <string name="gpx_close_all">Retirer tout</string>
-    <string name="imported_gpx_files">Importer fichier GPX</string>
-    <string name="waypoints">Waypoints</string>
-    <string name="waypoint">Waypoint</string>
-    <string name="tracks">Traces</string>
-    <string name="track">Trace</string>
-    <string name="set_to_hide_gpx">Masquer GPX</string>
-    <string name="set_to_visible_gpx">Rendre GPX Visible</string>
-    <string name="set_to_hide_track">Masquer la Trace</string>
-    <string name="set_to_visible_track">Afficher Trace</string>
-    <string name="track_is_hidden">Afficher Trace</string>
-    <string name="track_is_visible">Trace Visible</string>
-    <string name="remove">Retirer</string>
-    <string name="no_waypoints_for_track">Cette trace ne contient aucun waypoint!</string>
-    <string name="no_track_description">Pas de description de trace.</string>
-    <string name="track_lenght">Longueur:</string>
-    <string name="set_color">Définir une Couleur</string>
-    <string name="track_color">Couleur de la Trace:</string>
-    <string name="open_gpx">Ouvrir GPX</string>
-    <string name="remove_gpx">Retirer GPX</string>
-    <string name="no_gpx_loaded">Pas de GPX chargé!</string>
-    <string name="track_does_not_contain_waypoints">La trace ne contient aucun waypoint!</string>
-    <string name="track_start_title">Départ GPX</string>
-    <string name="track_start_description">Ceci est le premier point du GPX</string>
-    <string name="track_end_title">Fin GPX</string>
-    <string name="track_end_description">Ceci est le dernier point du GPX</string>
-    <string name="select_navigation_app">Sélectionne une App de Navigation</string>
-    <string name="select_app">Sélection Application</string>
-    <string name="not_enough_space_title">ERREUR: PAS assez d’espace libre!</string>
-    <string name="not_enough_space_progress_text">Tu dois libérer de l’espace de stockage</string>
-    <string name="bad_map_detected_title">Mauvaise carte Détecté</string>
-    <string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois le télécharger à nouveaux. Le mauvais fichier est : </string>
-    <string name="error_loading_gpx_title">Erreur chargement GPX</string>
-    <string name="error_loading_gpx_message">Erreur de chargement du fichier GPX, le fichier ne semble pas être compatible avec DMD2, essayez avec un fichier différent.</string>
-    <string name="map_delete_title">Voulez-vous supprimer cette carte?</string>
-    <string name="advanced_button">Avancé</string>
-    <string name="advanced_title">Options avancées</string>
-    <string name="merge_visible_tracks">Grouper les traces visibles</string>
-    <string name="restore_split_tracks">Restaurer les traces groupées</string>
-    <string name="unmerge">Dégrouper les traces</string>
-    <string name="this_track_is_the_sum">Cette trace est la fusion de</string>
-    <string name="of_tracks">Traces groupé</string>
-    <string name="merged_track">Traces groupés visibles</string>
-    <string name="track_merged_to_visible_tracks">Les traces seront groupées avec une trace visible</string>
-    <string name="dont_list_hidden_tracks">Délister les traces masqués</string>
-    <string name="list_hidden_tracks">Lister les traces masqués</string>
-    <string name="track_hidden_from_list">Les traces seront masqués de la liste</string>
-    <string name="tune_line">Réglage de l\'aspect de ligne</string>
-    <string name="clean_waypoints">Masquer les Waypoints distants</string>
-    <string name="clean_waypoints_description">Masque les waypoints éloignés de la trace d\'une distance supérieur à:</string>
-    <string name="processing_cleaning_waypoints">Traitement des Waypoints Visible… Celà peut prendre du temps!</string>
-    <string name="no_waypoint_was_hidden">Ne trouve pas de Waypoint correspondant aux critères. Essayez avec une plus courte distance.</string>
-    <string name="found_and_hidden_waypoint_a">Trouvé</string>
-    <string name="found_and_hidden_waypoint_b">Waypoints correspondant à vos critères. Ces Waypoints sont maintenant masqués!</string>
-    <string name="unlist_hidden_waypoints">Délister les Waypoints masqués</string>
-    <string name="marker_removed_from_list">Les Waypoints seront retirés de la liste</string>
-    <string name="list_hidden_waypoints">Lister les Waypoints masqués</string>
-    <string name="invert_gpx_direction">Inverser la direction de voyage</string>
-    <string name="restore_gpx_direction">Retablir la direction de voyage</string>
-    <string name="edit_widgets_layout">Modifier les Widgets</string>
-    <string name="edit_widgets_toast">Cliquer sur le widget pour modifier</string>
-    <string name="select_widget_for_slot">Sélectionner le Widget à ajouter</string>
-    <string name="no_widget_empty">AUCUN - Emplacement vide</string>
-    <string name="speed_widget">VITESSE - Vitesse instantanée</string>
-    <string name="altitude_widget">ALTITUDE - Altitude instantanée</string>
-    <string name="heading_widget">AZIMUTH - Azimuth GPS (angle)</string>
-    <string name="trip_widget">TRIP - Totalisateur de distance</string>
-    <string name="obd_temperature_widget">OBD - Température moteur</string>
-    <string name="obd_rpm_widget">OBD - Régime moteur</string>
-    <string name="obd_throttle_widget">OBD - Pourcentage accélérateur</string>
-    <string name="obd_bat_widget">OBD - Tension batterie</string>
-    <string name="obd_errors_widget">OBD - Compteur d\'erreurs DTC</string>
+
 
     <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">Capteurs OBD</string>
-    <string name="obd_setup">Ecran de réglage OBD</string>
-    <string name="device_setup">Réglage connecteur OBD Bluetooth</string>
-    <string name="select_device_title">Sélection du connecteur OBD appairé</string>
-    <string name="obd_bluetooth_list_devices_summary">Selectionner un connecteur bluetooth appairé. Assurez vous d\'abord que le connecteur est appairé!</string>
-    <string name="obd_bluetooth_list_devices_title">Selection du connecteur Bluetooth ELM327</string>
-    <string name="obd_cat_title_pref">Préférences OBD</string>
-    <string name="pref_obd_protocols_title">Protocole OBD</string>
-    <string name="pref_obd_protocols_summary">Sélectionner le protocole OBD à utiliser</string>
-    <string name="pref_reader_config_title">Commandes de configuration du lecteur</string>
-    <string name="pref_reader_config_summary">Commandes pour configurer le lecteur bluetooth, séparer par un retour à la ligne</string>
-    <string name="speed_rpm_options">Options de vitesse and régime moteur</string>
-    <string name="speed_value_source_title">Source de valeur de vitesse GPS</string>
-    <string name="speed_value_source_summary">Utiliser le capteur de roue/GPS au lieu de la valeur de vitesse OBD (qui n\'est peut être pas disponnible)</string>
-    <string name="max_rpm_title">Réglage du régime moteur maximum</string>
-    <string name="max_rpm_summary">Réglez la valeur maxi du régime moteur de votre véhicule</string>
-    <string name="redline_rpm_title">Réglage de la zone rouge</string>
-    <string name="redline_rpm_summary">Régler le régime de la zone rouge (affichera un cercle rouge d\'alerte)</string>
-    <string name="shift_rpm_title">Réglage du régime de changement de vitesse</string>
-    <string name="shift_rpm_summary">Réglez le régime de passage de vitesse idéal (affichera un cercle vert d\'alerte)</string>
-    <string name="show_hide_sensors_cat">Vue complète - Cacher/Montrer capteurs</string>
-    <string name="show_hide_maf_title">Afficher capteur M.A.F.</string>
-    <string name="show_hide_maf_summary">Ce capteur n\'est pas disponnible sur tous les véhicules</string>
-    <string name="show_hide_oil_temp_title">Affichage du capteur de température d\'huile</string>
-    <string name="show_hide_voltage_title">Affichage du capteur de tension batterie</string>
-    <string name="show_engine_load_title">Affichage du capteur de charge moteur</string>
-    <string name="show_fuel_level_title">Affichage du capteur de niveau d\'essence</string>
-    <string name="record_vals_title">Enregistrement des valeurs</string>
-    <string name="max_liquid_temp">Température max du liquide de refroidissement:</string>
-    <string name="max_rpm">Régime moteur max:</string>
-    <string name="max_throttle">Accélérateur max:</string>
-    <string name="min_voltage">Tension min:</string>
-    <string name="no_dtc_error">Pas d\'erreur DTC</string>
-    <string name="dtc_error">Erreurs DTC détectées!</string>
+    <string name="obd_bottom_menu_name">OBD Sensorit</string>
+    <string name="obd_setup">OBD-näkymän valinnat</string>
+    <string name="device_setup">OBD Bluetooth-laitehallinta</string>
+    <string name="select_device_title">Valitse yhdistetty OBD-laite</string>
+    <string name="obd_bluetooth_list_devices_summary">Valitse yhdistetyistä bluetooth-laitteista. Varmista että "dongle" on yhdistetty ensin!</string>
+    <string name="obd_bluetooth_list_devices_title">Valitse ELM327 Bluetooth -laite</string>
+    <string name="obd_cat_title_pref">OBD Valinnat</string>
+    <string name="pref_obd_protocols_title">OBD protokolla</string>
+    <string name="pref_obd_protocols_summary">Valitse käytettävä OBD-protokolla</string>
+    <string name="pref_reader_config_title">Bluetooth-lukijan ohjauskomennot</string>
+    <string name="pref_reader_config_summary">Komennot bluetooth-lukijan konfiguroimiseksi, erota komennot omille riveilleen</string>
+    <string name="speed_rpm_options">Nopeuden ja Kierrosluvun valinnat</string>
+    <string name="speed_value_source_title">GPS-nopeuden lähde</string>
+    <string name="speed_value_source_summary">Käytä OBD-nopeustiedon (joka ei aina saatavilla) sijaan nopeustietoa GPS:tä / Terrain Commandin Rengas-sensorilta</string>
+    <string name="max_rpm_title">Aseta maksimikierrosluku</string>
+    <string name="max_rpm_summary">Aseta ajoneuvosi maksimikierrosluku</string>
+    <string name="redline_rpm_title">Aseta kierrosluvun "punaraja"</string>
+    <string name="redline_rpm_summary">Aseta "punaraja" kierrosluku (Punainen kierroslukuvaroitus)</string>
+    <string name="shift_rpm_title">Aseta vaihteenvaidon kierrosluku</string>
+    <string name="shift_rpm_summary">Aseta vaihteenvaihdon ideaalisen kierrosluvun yläraja (Vihreä kierroslukuvaroitus)</string>
+    <string name="show_hide_sensors_cat">Näytä/Piilota sensorit</string>
+    <string name="show_hide_maf_title">Näytä ilmamäärämittari (M.A.F.)</string>
+    <string name="show_hide_maf_summary">Tämä sensori ei ole käytettävissä kaikissa ajoneuvoissa</string>
+    <string name="show_hide_oil_temp_title">Näytä öljyn lämpötila</string>
+    <string name="show_hide_voltage_title">Näytä jännite</string>
+    <string name="show_engine_load_title">Näytä moottorin kuorma</string>
+    <string name="show_fuel_level_title">Näytä polttoaineen määrä</string>
+    <string name="record_vals_title">Tallentuneet huippuarvot</string>
+    <string name="max_liquid_temp">Jäähd.nesteen lämpötila max:</string>
+    <string name="max_rpm">Kierrosluku max:</string>
+    <string name="max_throttle">Kaasukahvan asento max:</string>
+    <string name="min_voltage">Jännite min:</string>
+    <string name="no_dtc_error">Ei DTC-virheilmoituksia</string>
+    <string name="dtc_error">Havaittu DTC-virheilmoituksia!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle ei yhdistetty (Ohjaimella: Paina Keski/Enter-painiketta yhdistääksesi)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle yhdistetty</string>
+    <string name="bt_dongle_connect">Muodosta OBD-yhteys</string>
+    <string name="bt_dongle_already_connected">OBD Dongle on jo yhdistetty</string>
+    <string name="reset_record_values">Nollaa huippuarvot</string>
+    <string name="auto_start_obd_connection_title">Muodosta OBD-yhteys automaattisesti</string>
+    <string name="auto_start_obd_connection_summary">Jos valittuna, yhdistetään OBD Dongle automaattisesti sovelluksen käynnistyessä</string>
+    <string name="coolant_temp_label">Jäähd.nesteen lämpötila</string>
+    <string name="oil_temp_label">Öljyn lämpötila</string>
+    <string name="intake_temp_label">Imuilman lämpötila</string>
+    <string name="intake_pressure_label">Imuilman paine</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Kaasukahvan asento</string>
+    <string name="engine_load">Moottorin kuorma</string>
+    <string name="voltage">Jännite</string>
+    <string name="fuel_level">Polttoaineen määrä</string>
+    <string name="obd_service_notification_title">OBD-seuranta päällä</string>
+    <string name="obd_service_obd_connected">Dongle yhdistetty!</string>
+    <string name="obd_service_obd_disconnected">Dongle-yhteys katkaistu!</string>
+    <string name="reset_dtc_errors">Tyhjennä DTC-virheilmoitukset</string>
+    <string name="throttle_options">Kaasukahvan asennon valinnat</string>
+    <string name="use_raw_throttle_title">Käytä kaasukahvan asennon mitattua arvoa</string>
+    <string name="use_raw_throttle_message">Käytä mitattua arvoa sellaisenaan tai kalibroi kaasukahvan ääriasennot</string>
+    <string name="calibrate_throttle_title">Kalibroi kaasukahvan ääriasennot</string>
+    <string name="calibrate_throttle_message">Avaa ohjatun dialogin kaasukahvan ääriasentojen kalibroimiseksi. Edellyttää että moottorinohjainyksikkö on päällä ja OBD dongle yhdistettynä, moottorin tulisi olla sammutettuna. Tämä ei muuta mitään arvoja moottorinohjainyksikössä!</string>
+    <string name="min_throttle_calib_dialog_title">Kaasukahvan minimi-kohdan kalibrointi </string>
+    <string name="min_throttle_calib_dialog_message">KÄYNNISTÄ MOOTTORI! Varmista että moottori on lämmin ja käy normaalia tyhjäkäyntiä! Kaasukahvan tulee olla minimiasennossa (tyhjäkäynnillä/kokonaan pois -asennossa). Paina ASETA-painiketta kun valmista.</string>
+    <string name="throttle_calib_set_minimum">Aseta minimi</string>
+    <string name="max_throttle_calib_dialog_title">Kaasukahvan maksimi-kohdan kalibrointi</string>
+    <string name="max_throttle_calib_dialog_message">SAMMUTA MOOTTORI MUTTA JÄTÄ VIRTA PÄÄLLE! Varmista että kaasukahva on maksimiasennossa (täyskaasu). Paina ASETA-painiketta kun valmista.</string>
+    <string name="throttle_calib_set_maximum">Aseta maksimi</string>
+    <string name="throttle_calib_finished">Kaasukahvan ääriasennot asetettu</string>
+    <string name="cant_calib_obd_disconnected">Yhdistä ensin OBD Dongle!</string>
+    <string name="error_dongle_not_configurable">Määritä ensin BT OBD Dongle!</string>
+    <string name="edit_widgets_layout">Muokkaa widgettejä</string>
+    <string name="edit_widgets_toast">Muokkaa koskettamalla widgettiä</string>
+    <string name="select_widget_for_slot">Valitse widgetti</string>
+    <string name="no_widget_empty">TYHJÄ - Ei widgettiä</string>
+    <string name="speed_widget">NOPEUS - Nopeutesi</string>
+    <string name="altitude_widget">KORKEUS - Kuinka korkealla olet</string>
+    <string name="heading_widget">SUUNTA - GPS-suunta asteina</string>
+    <string name="trip_widget">MATKA - Matkan kokonaispituus</string>
+    <string name="obd_temperature_widget">OBD - Jäähdytysnesteen lämpötila</string>
+    <string name="obd_rpm_widget">OBD - Moottorin kierrosluku</string>
+    <string name="obd_throttle_widget">OBD - Kaasun asento %</string>
+    <string name="obd_bat_widget">OBD - Latausjännite</string>
+    <string name="obd_errors_widget">OBD - DTC virheiden lukumäärä</string>
+
 
 </resources>
