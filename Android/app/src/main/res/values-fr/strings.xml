@@ -1,107 +1,44 @@
 <resources>
 
     <!-- UNTRANSLATED -->
+    <string name="shop_title">DMD2 Shop</string>
+    <string name="plugin_shop">Plugins Shop</string>
+    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
+    <string name="map_view_plugin_title">Map Plugin</string>
+    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
+    <string name="six_month">6 Month</string>
+    <string name="one_year">Year</string>
+    <string name="lifetime">Lifetime</string>
+    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
+    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
+    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
+    <string name="unsubscribe">Yes Unsubscribe Active</string>
+    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
+    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
+    <string name="roadbook_plugin_title">Roadbook Plugin</string>
+    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
 
-    <string name="gps_measure_precision">Précision des mesures GPS</string>
-    <string name="gps_minimum_distance">Distance minimum de mise à jour GPS</string>
-    <string-array name="gps_minimum_displacement" translatable="true">
-        <item>0 meters</item>
-        <item>0.5 meters</item>
-        <item>0.8 meters</item>
-        <item>1 meter</item>
-        <item>1.5 meters</item>
-        <item>2 meters</item>
-        <item>3 meters</item>
-        <item>4 meters</item>
-        <item>5 meters</item>
-        <item>6 meters</item>
-        <item>7 meters</item>
-        <item>8 meters</item>
-        <item>9 meters</item>
-        <item>10 meters</item>
-    </string-array>
-    <string name="gps_minimum_speed">Vitesse minimum pour mise à jour GPS</string>
-    <string-array name="gps_minimum_speed" translatable="true">
-        <item>0 Km/h</item>
-        <item>1 Km/h</item>
-        <item>2 Km/h</item>
-        <item>3 Km/h</item>
-        <item>4 Km/h</item>
-        <item>5 Km/h</item>
-        <item>6 Km/h</item>
-        <item>7 Km/h</item>
-        <item>8 Km/h</item>
-        <item>9 Km/h</item>
-        <item>10 Km/h</item>
-    </string-array>
-    <string name="gps_minimum_accuracy">Précision minimum de mise à jour GPS</string>
-    <string-array name="gps_minimum_accuracy_array" translatable="true">
-        <item>3 meters</item>
-        <item>5 meters</item>
-        <item>10 meters</item>
-        <item>15 meters</item>
-        <item>20 meters</item>
-        <item>25 meters</item>
-        <item>30 meters</item>
-        <item>50 meters</item>
-        <item>100 meters</item>
-        <item>500 meters</item>
-        <item>1000 meters</item>
-        <item>2000 meters</item>
-    </string-array>
+    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
 
-
-
-    <string name="edit_widgets_layout">Modifier les Widgets</string>
-    <string name="edit_widgets_toast">Cliquer sur le widget pour modifier</string>
-    <string name="select_widget_for_slot">Sélectionner le Widget à ajouter</string>
-    <string name="no_widget_empty">AUCUN - Emplacement vide</string>
-    <string name="speed_widget">VITESSE - Vitesse instantanée</string>
-    <string name="altitude_widget">ALTITUDE - Altitude instantanée</string>
-    <string name="heading_widget">AZIMUTH - Azimuth GPS (angle)</string>
-    <string name="trip_widget">TRIP - Totalisateur de distance</string>
-    <string name="obd_temperature_widget">OBD - Température moteur</string>
-    <string name="obd_rpm_widget">OBD - Régime moteur</string>
-    <string name="obd_throttle_widget">OBD - Pourcentage accélérateur</string>
-    <string name="obd_bat_widget">OBD - Tension batterie</string>
-    <string name="obd_errors_widget">OBD - Compteur d'erreurs DTC</string>
-
-
-    <!-- OBD SENSORS -->
-    <string name="obd_bottom_menu_name">Capteurs OBD</string>
-    <string name="obd_setup">Ecran de réglage OBD</string>
-    <string name="device_setup">Réglage connecteur OBD Bluetooth</string>
-    <string name="select_device_title">Sélection du connecteur OBD appairé</string>
-    <string name="obd_bluetooth_list_devices_summary">Selectionner un connecteur bluetooth appairé. Assurez vous d'abord que le connecteur est appairé!</string>
-    <string name="obd_bluetooth_list_devices_title">Selection du connecteur Bluetooth ELM327</string>
-    <string name="obd_cat_title_pref">Préférences OBD</string>
-    <string name="pref_obd_protocols_title">Protocole OBD</string>
-    <string name="pref_obd_protocols_summary">Sélectionner le protocole OBD à utiliser</string>
-    <string name="pref_reader_config_title">Commandes de configuration du lecteur</string>
-    <string name="pref_reader_config_summary">Commandes pour configurer le lecteur bluetooth, séparer par un retour à la ligne</string>
-    <string name="speed_rpm_options">Options de vitesse and régime moteur</string>
-    <string name="speed_value_source_title">Source de valeur de vitesse GPS</string>
-    <string name="speed_value_source_summary">Utiliser le capteur de roue/GPS au lieu de la valeur de vitesse OBD (qui n'est peut être pas disponnible)</string>
-    <string name="max_rpm_title">Réglage du régime moteur maximum</string>
-    <string name="max_rpm_summary">Réglez la valeur maxi du régime moteur de votre véhicule</string>
-    <string name="redline_rpm_title">Réglage de la zone rouge</string>
-    <string name="redline_rpm_summary">Régler le régime de la zone rouge (affichera un cercle rouge d'alerte)</string>
-    <string name="shift_rpm_title">Réglage du régime de changement de vitesse</string>
-    <string name="shift_rpm_summary">Réglez le régime de passage de vitesse idéal (affichera un cercle vert d'alerte)</string>
-    <string name="show_hide_sensors_cat">Vue complète - Cacher/Montrer capteurs</string>
-    <string name="show_hide_maf_title">Afficher capteur M.A.F.</string>
-    <string name="show_hide_maf_summary">Ce capteur n'est pas disponnible sur tous les véhicules</string>
-    <string name="show_hide_oil_temp_title">Affichage du capteur de température d'huile</string>
-    <string name="show_hide_voltage_title">Affichage du capteur de tension batterie</string>
-    <string name="show_engine_load_title">Affichage du capteur de charge moteur</string>
-    <string name="show_fuel_level_title">Affichage du capteur de niveau d'essence</string>
-    <string name="record_vals_title">Enregistrement des valeurs</string>
-    <string name="max_liquid_temp">Température max du liquide de refroidissement:</string>
-    <string name="max_rpm">Régime moteur max:</string>
-    <string name="max_throttle">Accélérateur max:</string>
-    <string name="min_voltage">Tension min:</string>
-    <string name="no_dtc_error">Pas d'erreur DTC</string>
-    <string name="dtc_error">Erreurs DTC détectées!</string>
+    <string name="max_rpm_summary">Set your vehicle maximum RPM value</string>
+    <string name="redline_rpm_title">Set Redline RPM</string>
+    <string name="redline_rpm_summary">Set your Redline value (will turn on Red circle warning)</string>
+    <string name="shift_rpm_title">Set Gear Shift RPM</string>
+    <string name="shift_rpm_summary">Set your ideal Gear Shift RPM value (will turn on Green circle warning)</string>
+    <string name="show_hide_sensors_cat">Full View - Hide / Show Sensors</string>
+    <string name="show_hide_maf_title">Show M.A.F. Sensor</string>
+    <string name="show_hide_maf_summary">This sensor is not available on all vehicles</string>
+    <string name="show_hide_oil_temp_title">Show Oil Temperature Sensor</string>
+    <string name="show_hide_voltage_title">Show Voltage Sensor</string>
+    <string name="show_engine_load_title">Show Engine Load Sensor</string>
+    <string name="show_fuel_level_title">Show Fuel Level Sensor</string>
+    <string name="record_vals_title">Record Values</string>
+    <string name="max_liquid_temp">Max Coolant Temp:</string>
+    <string name="max_rpm">Max RPM:</string>
+    <string name="max_throttle">Max Throttle:</string>
+    <string name="min_voltage">Min Voltage:</string>
+    <string name="no_dtc_error">No DTC Errors</string>
+    <string name="dtc_error">DTC Errors Found!</string>
     <string name="bt_dongle_disconnected">BT OBD Dongle Disconnected (Controller: Press Joystick Center / Terrain Enter to connect)</string>
     <string name="bt_dongle_connected">BT OBD Dongle Connected</string>
     <string name="bt_dongle_connect">Start OBD Connection</string>
@@ -172,6 +109,17 @@
     <string name="track_line_width">Line Width:</string>
     <string name="track_transparency">Line Transparency:</string>
     <string name="track_orientation_arrow">Orientation Arrow Size:</string>
+
+    <string name="support_project">Support DMD2</string>
+    <string name="ads_title">Hello There!</string>
+    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
+        \n\nWe are constantly working on this project to bring you new features!
+        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
+        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    </string>
+    <string name="visit_shop">Visit Shop</string>
+    <string name="no_ads_plugin">No Ads Plugin</string>
+    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
 
 
     <!-- END OF UNTRANSLATED -->
@@ -247,12 +195,6 @@
         <item>Capteur de roue uniquement quand mauvaise précision GPS</item>
     </string-array>
     <string name="dmd2_plugins">Plugins pour DMD2</string>
-    <string name="get_roadbook_title">Dérouleur de Roadbook - Acheter</string>
-    <string name="get_roadbook_title_purchased">Dérouleur de Roadbook - Acquis / Actif</string>
-    <string name="get_roadbook_message">Utilise un Roadbook en PDF et sélectionne jusqu’à 4 instruments simultanés : Total, Partiel, CAP, Vitesse. Contrôle l’ensemble avec une commande au guidon.</string>
-    <string name="get_mapview_title">Cartographie (Version Beta) - Acheter </string>
-    <string name="get_mapview_title_purchased">Cartographie - Acquis / Actif</string>
-    <string name="get_mapview_message">Cartographie hors ligne avec affichage topographique mondiale, bâtiments en 3D, courbes de niveaux (par lignes), gestion multi-GPX. Système de navigation et recherche par POI en cours de développement.</string>
     <string name="connection_error">Connection impossible, vérifie ta connexion internet / essaye de redémarrer l’app!</string>
     <string name="auto_hide_left_menu_indicator">Menu de gauche masqué automatiquement</string>
     <string name="oem_registration">Enregistrement OEM</string>
@@ -280,6 +222,53 @@
     <string name="follow_us_facebook">Visite et suit notre Facebook pour les dernières infos</string>
     <string name="join_us_facebook">Joindre notre groupe Facebook</string>
     <string name="adv_rider_thread">Joindre la discussion  the discussion des nouvelles fonctionnalités, bugs et requêtes</string>
+    <string name="gps_measure_precision">Précision des mesures GPS</string>
+    <string name="gps_minimum_distance">Distance minimum de mise à jour GPS</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 meters</item>
+        <item>0.5 meters</item>
+        <item>0.8 meters</item>
+        <item>1 meter</item>
+        <item>1.5 meters</item>
+        <item>2 meters</item>
+        <item>3 meters</item>
+        <item>4 meters</item>
+        <item>5 meters</item>
+        <item>6 meters</item>
+        <item>7 meters</item>
+        <item>8 meters</item>
+        <item>9 meters</item>
+        <item>10 meters</item>
+    </string-array>
+    <string name="gps_minimum_speed">Vitesse minimum pour mise à jour GPS</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/h</item>
+        <item>1 Km/h</item>
+        <item>2 Km/h</item>
+        <item>3 Km/h</item>
+        <item>4 Km/h</item>
+        <item>5 Km/h</item>
+        <item>6 Km/h</item>
+        <item>7 Km/h</item>
+        <item>8 Km/h</item>
+        <item>9 Km/h</item>
+        <item>10 Km/h</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">Précision minimum de mise à jour GPS</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 meters</item>
+        <item>5 meters</item>
+        <item>10 meters</item>
+        <item>15 meters</item>
+        <item>20 meters</item>
+        <item>25 meters</item>
+        <item>30 meters</item>
+        <item>50 meters</item>
+        <item>100 meters</item>
+        <item>500 meters</item>
+        <item>1000 meters</item>
+        <item>2000 meters</item>
+    </string-array>
 
 
     <!-- Widgets -->
@@ -545,6 +534,36 @@
     <string name="list_hidden_waypoints">Lister les Waypoints masqués</string>
     <string name="invert_gpx_direction">Inverser la direction de voyage</string>
     <string name="restore_gpx_direction">Retablir la direction de voyage</string>
+    <string name="edit_widgets_layout">Modifier les Widgets</string>
+    <string name="edit_widgets_toast">Cliquer sur le widget pour modifier</string>
+    <string name="select_widget_for_slot">Sélectionner le Widget à ajouter</string>
+    <string name="no_widget_empty">AUCUN - Emplacement vide</string>
+    <string name="speed_widget">VITESSE - Vitesse instantanée</string>
+    <string name="altitude_widget">ALTITUDE - Altitude instantanée</string>
+    <string name="heading_widget">AZIMUTH - Azimuth GPS (angle)</string>
+    <string name="trip_widget">TRIP - Totalisateur de distance</string>
+    <string name="obd_temperature_widget">OBD - Température moteur</string>
+    <string name="obd_rpm_widget">OBD - Régime moteur</string>
+    <string name="obd_throttle_widget">OBD - Pourcentage accélérateur</string>
+    <string name="obd_bat_widget">OBD - Tension batterie</string>
+    <string name="obd_errors_widget">OBD - Compteur d\'erreurs DTC</string>
+
+    <!-- OBD SENSORS -->
+    <string name="obd_bottom_menu_name">Capteurs OBD</string>
+    <string name="obd_setup">Ecran de réglage OBD</string>
+    <string name="device_setup">Réglage connecteur OBD Bluetooth</string>
+    <string name="select_device_title">Sélection du connecteur OBD appairé</string>
+    <string name="obd_bluetooth_list_devices_summary">Selectionner un connecteur bluetooth appairé. Assurez vous d\'abord que le connecteur est appairé!</string>
+    <string name="obd_bluetooth_list_devices_title">Selection du connecteur Bluetooth ELM327</string>
+    <string name="obd_cat_title_pref">Préférences OBD</string>
+    <string name="pref_obd_protocols_title">Protocole OBD</string>
+    <string name="pref_obd_protocols_summary">Sélectionner le protocole OBD à utiliser</string>
+    <string name="pref_reader_config_title">Commandes de configuration du lecteur</string>
+    <string name="pref_reader_config_summary">Commandes pour configurer le lecteur bluetooth, séparer par un retour à la ligne</string>
+    <string name="speed_rpm_options">Options de vitesse and régime moteur</string>
+    <string name="speed_value_source_title">Source de valeur de vitesse GPS</string>
+    <string name="speed_value_source_summary">Utiliser le capteur de roue/GPS au lieu de la valeur de vitesse OBD (qui n\'est peut être pas disponnible)</string>
+    <string name="max_rpm_title">Réglage du régime moteur maximum</string>
 
 
 </resources>
