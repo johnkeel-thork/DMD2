@@ -6,7 +6,7 @@
     <string name="plugin_shop">Plugins Shop</string>
     <string name="shop_description">Entdecke verfügbare Plugins für DMD2. Kaufe und verwalte deine Abos!</string>
     <string name="map_view_plugin_title">Landkarten Plugin</string>
-    <string name="map_view_plugin_description">Das Landkarten Plugin fügt eine 3D modellierte Kartenansicht zu DMD2. Es beinhaltet topografische offline Karten, Fahrbahn-Untergrund Bewertung, die Möglichkeit mehrere GPX-Dateien zu laden und weitere GPX-Optionen (Track Farbe/Breite/Transparenz) sowie Widgets für die Anzeige von Geschwindigkeit, Compass-Richtung, Höhenmesser oder OBD-Werte.</string>
+    <string name="map_view_plugin_description">Das Landkarten Plugin fügt eine 3D modellierte Kartenansicht zu DMD2. Es beinhaltet topografische offline Karten, Fahrbahn-Untergrund Bewertung, die Möglichkeit mehrere GPX-Dateien zu laden und weitere GPX-Optionen (Track Farbe/Breite/Transparenz) sowie Widgets für die Anzeige von Geschwindigkeit, Kompass-Richtung, Höhenmesser oder OBD-Werte.</string>
     <string name="six_month">6 Monate</string>
     <string name="one_year">Jahr</string>
     <string name="lifetime">Lebenslang</string>
