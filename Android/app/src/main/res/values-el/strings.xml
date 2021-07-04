@@ -2,22 +2,7 @@
 
     <!-- Untranslated -->
 
-    <string name="shop_title">Κατάστημα DMD2</string>
-    <string name="plugin_shop">Κατάστημα Προσθέτων</string>
-    <string name="shop_description">Ανακαλύψτε τα διαθέσιμα πρόσθετα για το DMD2. Αγοράστε και διαχειριστείτε τις συνδρομές σας!</string>
-    <string name="map_view_plugin_title">Χάρτης</string>
-    <string name="map_view_plugin_description">Το πρόσθετο χάρτη θα προσθέσει μια τρισδιάστατη απεικόνιση χάρτη στο DMD2. ΠΕριλαμβάνει τοπογραφικούς εκτός σύνδεσης χάρτες, graded ground type, δυνατότητα φόρτωσης πολλαπλών αρχείων GPX με επιλογές όπως χρώμα διαδρομής, μέγεθος, διαφάνεια και συντομεύσεις για την ταχύτητα, heading, υψόμετρο ή τιμές από το OBD.</string>
-    <string name="six_month">6 Μήνες</string>
-    <string name="one_year">Χρόνο</string>
-    <string name="lifetime">Εφ' όρου ζωής</string>
-    <string name="purchased_already">Το πρόσθετο είναι ήδη αγορασμένο και εγκατεστημένο, δεν απαιτείται καμία άλλη ενέργεια.</string>
-    <string name="lifetime_owned">Έχετε ήδη αγοράσει το προϊόν για πάντα. Δεν χρειάζεστε κάποια επιπλέον συνδρομή.</string>
-    <string name="sub_already_owned">Έχετε ήδη μια συνδρομή ενεργή, θέλετε να την διακόψετε?</string>
-    <string name="unsubscribe">Ναι, Κατάργηση Εγγραφής Ενεργών</string>
-    <string name="subscribe_new">Είναι ήδη κατηργημένα, κάντε νέα συνδρομή</string>
-    <string name="no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο! Για να διαχειριστείτε τις αγορές και τις συνδρομές θα πρέπει υπάρχει σύνδεση στο διαδίκτυο.</string>
-    <string name="roadbook_plugin_title">Πρόσθετο Roadbook</string>
-    <string name="roadbook_plugin_description">Το πρόσθετο roadbook δίνει τη δυνατότητα να φορτωθούν αρχεία PDF roadbook. Δυνατότητα παραμετροποίησης έως και 4 οργάνων όπως συνολική και μερική απόσταση, heading, ταχύτητα και χρονόμετρο με δυνατότητα διαχείρισης μέσω του Bluetooth CARPE Controller.</string>
+    
 
     <string name="roadbook_long_press_enter_summary">Παρατεταμένο πάτημα του κεντρικού κουμπιού στο χειριστήριο /  Long press joystick center click / Terrain Enter, θα γίνεται πάντα εναλλαγή του κλειδώματος χειριστηρίου</string>
 
@@ -180,7 +165,24 @@
     <string name="edit_bottom_menu_title">Eπεξεργασία Μενού Εργαλείων</string>
     <string name="edit_bottom_menu_message">Επανατοποθέτηση του μενού επιλογών και ενεργοποίηση/απενεργοποίηση αυτών.</string>
     <string name="menu_sorter_title">Πατήστε και κρατήστε για να μετακινήση. Χρησιμοποιήστε το διακόπτη για εμφάνιση/απόκρυψη.</string>
-
+    <!-- Shop -->
+    <string name="shop_title">Κατάστημα DMD2</string>
+    <string name="plugin_shop">Κατάστημα Προσθέτων</string>
+    <string name="shop_description">Ανακαλύψτε τα διαθέσιμα πρόσθετα για το DMD2. Αγοράστε και διαχειριστείτε τις συνδρομές σας!</string>
+    <string name="map_view_plugin_title">Χάρτης</string>
+    <string name="map_view_plugin_description">Το πρόσθετο χάρτη θα προσθέσει μια τρισδιάστατη απεικόνιση χάρτη στο DMD2. ΠΕριλαμβάνει τοπογραφικούς εκτός σύνδεσης χάρτες, graded ground type, δυνατότητα φόρτωσης πολλαπλών αρχείων GPX με επιλογές όπως χρώμα διαδρομής, μέγεθος, διαφάνεια και συντομεύσεις για την ταχύτητα, heading, υψόμετρο ή τιμές από το OBD.</string>
+    <string name="six_month">6 Μήνες</string>
+    <string name="one_year">Χρόνο</string>
+    <string name="lifetime">Εφ\' όρου ζωής</string>
+    <string name="purchased_already">Το πρόσθετο είναι ήδη αγορασμένο και εγκατεστημένο, δεν απαιτείται καμία άλλη ενέργεια.</string>
+    <string name="lifetime_owned">Έχετε ήδη αγοράσει το προϊόν για πάντα. Δεν χρειάζεστε κάποια επιπλέον συνδρομή.</string>
+    <string name="sub_already_owned">Έχετε ήδη μια συνδρομή ενεργή, θέλετε να την διακόψετε?</string>
+    <string name="unsubscribe">Ναι, Κατάργηση Εγγραφής Ενεργών</string>
+    <string name="subscribe_new">Είναι ήδη κατηργημένα, κάντε νέα συνδρομή</string>
+    <string name="no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο! Για να διαχειριστείτε τις αγορές και τις συνδρομές θα πρέπει υπάρχει σύνδεση στο διαδίκτυο.</string>
+    <string name="roadbook_plugin_title">Πρόσθετο Roadbook</string>
+    <string name="roadbook_plugin_description">Το πρόσθετο roadbook δίνει τη δυνατότητα να φορτωθούν αρχεία PDF roadbook. Δυνατότητα παραμετροποίησης έως και 4 οργάνων όπως συνολική και μερική απόσταση, heading, ταχύτητα και χρονόμετρο με δυνατότητα διαχείρισης μέσω του Bluetooth CARPE Controller.</string>
+    
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Κανένα Γραφικό Στοιχείο / Περιοχή Κενή</string>
