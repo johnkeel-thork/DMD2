@@ -1,39 +1,5 @@
 <resources>
 
-    <!-- Untranslated -->
-    <string name="shop_title">DMD2 Shop</string>
-    <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
-    <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
-
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
-
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
-    </string>
-    <string name="visit_shop">Visit Shop</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-    <!-- End of Untranslated -->
-
-
-
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
@@ -178,6 +144,34 @@
     <string name="edit_bottom_menu_title">Tilpasse nedre meny</string>
     <string name="edit_bottom_menu_message">Sortere og De-/Aktivere menydeler</string>
     <string name="menu_sorter_title">Trykk og hold for å flytte. Bruk knappen for å vise/skjule.</string>
+    <!-- Shop -->
+    <string name="support_project">Støtt  DMD2</string>
+    <string name="ads_title">Hei!</string>
+    <string name="ads_thank_you_message">Takk for at du bruker DMD2, vi håper du liker programmet!
+        \n\nVi jobber fortløpende for å inkludere nye utvidelser og funksjoner!
+        \n\nHvis du vil støtte utviklingen, kjøp en av utvidelsene i butikken. Det vil også fjerne denne reklamen!
+        \nNoe av det vi jobber med er: navigasjonsberegning/ruteberegning, turn by turn navigasjon, POI søk, værmelding, synkronisering mot flere enheter og online filhåndtering, brukerkontoer og posisjonsdeling (se alle i gruppen på kartet)!
+    </string>
+    <string name="visit_shop">Besøk butikken</string>
+    <string name="no_ads_plugin">Ingen reklame</string>
+    <string name="no_ads_plugin_description">Fjerner Støtt DMD2-reklamen og all reklame fra programmet. Kjøp denne KUN hvis du ønsker å fjerne reklame, men ikke ønsker å kjøpe noen utvidelser. Alle kjøp av utvidelser inkludere reklamefri bruk (DMD2 må restartes etter kjøp).</string>
+    <string name="shop_title">DMD2-butikk</string>
+    <string name="plugin_shop">Programtillegg og utvidelser</string>
+    <string name="shop_description">Oppdag tilgjngelige utvidelser for DMD2. Kjøp og håndter dine abonnement!</string>
+    <string name="map_view_plugin_title">Kartutvidelse</string>
+    <string name="map_view_plugin_description">Kartutvidelsen omfatter en 3D-rendret kartvisning for DMD2. Den inkluderer topografiske offline kart, gradert underlagstype, mulighet for å laste inn GPX-filer med flere tilpasninger (e.g. farge/bredde/gjennomsiktighet) og programfliser for fart, retning, høyde o.h. eller OBD-verdier.</string>
+    <string name="six_month">6 Måneder</string>
+    <string name="one_year">År</string>
+    <string name="lifetime">Livstid</string>
+    <string name="purchased_already">Denne funksjonen er allered betalt og aktiv!</string>
+    <string name="lifetime_owned">Du har kjøpt livstidsabonnement, ekstra abonnement er unødvendig.</string>
+    <string name="sub_already_owned">Du har allerede et aktivt abonnement, ønsker du å avbestille dette først?</string>
+    <string name="unsubscribe">Ja! Avbestill aktivt abonnement.</string>
+    <string name="subscribe_new">Har avbestilt! Bestill nytt abonnement.</string>
+    <string name="no_internet">Ingen tilkobling til internet! For åhåndtere kjøp og abonnement må du være online.</string>
+    <string name="roadbook_plugin_title">Roadbookutvidelse</string>
+    <string name="roadbook_plugin_description">Roadbookutvidelsen omfatter mulighet til å laste inn PDF roadbook filer. Du kan sette opp inntil 4 instrumenter (e.g. total and delvis kjørelengde, retning, hastighet og tidtaker. Alt kan kontrolleres med en Bluetooth CARPE Controller.</string>
+
 
 
     <!-- HOME / DASHBOARD -->
@@ -343,6 +337,8 @@
     <string name="measure_correction_factor">Korrigere målinger</string>
     <string name="distance_measure_correction_title">Faktor for avstandsmåling</string>
     <string name="distance_measure_correction_message">Avstandsmålingen vil multipliseres med verdien du setter her. Bruk dette som korrigeringsfaktor for å tilpasse til avstandsverdiene i Roadbook.</string>
+    <string name="roadbook_long_press_enter_summary">Lang trykk joystick center / Terrain Enter vil alltid skifte controller låst/ulåst</string>
+
 
 
     <!-- MAP -->
