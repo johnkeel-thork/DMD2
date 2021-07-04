@@ -4,33 +4,33 @@
     <!-- Untranslated -->
     <string name="shop_title">DMD2 Shop</string>
     <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
+    <string name="shop_description">Entdecke verfügbare Plugins für DMD2. Kaufe und verwalte deine Abos!</string>
+    <string name="map_view_plugin_title">Landkarten Plugin</string>
+    <string name="map_view_plugin_description">Das Landkarten Plugin fügt eine 3D modellierte Kartenansicht zu DMD2. Es beinhaltet topografische offline Karten, Fahrbahn-Untergrund Bewertung, die Möglichkeit mehrere GPX-Dateien zu laden und weitere GPX-Optionen (Track Farbe/Breite/Transparenz) sowie Widgets für die Anzeige von Geschwindigkeit, Kompass-Richtung, Höhenmesser oder OBD-Werte.</string>
+    <string name="six_month">6 Monate</string>
+    <string name="one_year">Jahr</string>
+    <string name="lifetime">Lebenslang</string>
+    <string name="purchased_already">Diese Funktion wurde bereits gekauft und ist aktiv. Es ist keine weitere Aktion notwendig.</string>
+    <string name="lifetime_owned">Du hast bereits ein lebenslanges Abonnenment, weitere sind nicht notwendig.</string>
+    <string name="sub_already_owned">Du hast bereits ein aktives Abo, möchtest Du es vorher beenden?</string>
+    <string name="unsubscribe">JA, beende aktive Abos</string>
+    <string name="subscribe_new">Schon geschehen. Neues Abo?</string>
+    <string name="no_internet">Keine Internet-Verbindung! Um Käufe und Abos zu verwalten brauchst Du eine aktive Internet-Verbindung.</string>
     <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
+    <string name="roadbook_plugin_description">Mit dem Roadbook Plugin kannst Du eine PDF Roadbook Datei laden. Du kannst 4 verschiedene Anzeigen konfigurieren, wie Gesamt- und Teil-Kilometer, Kompass-Richtung, Geschwindigkeit oder Chronometer und alles per Fernbedienung nutzen mit dem Bluetooth CARPE Controller.</string>
 
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
+    <string name="roadbook_long_press_enter_summary">Langer Druck auf Joystick-Mitte / Terrain Enter schaltet den Controller Lock-Modus an/aus (Unteres Menü wird gesperrt).</string>
 
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    <string name="support_project">Unterstütze DMD2</string>
+    <string name="ads_title">Hallo Du!</string>
+    <string name="ads_thank_you_message">Danke, dass Du DMD2 nutzt, wir hoffen, dass es Dir gefällt!
+        \n\nWir arbeiten ständig an diesem Projekt um Dir neue Funktionen zu bringen!
+        \n\nSolltest Du dieses Projekt unterstützen wollen, denke bitte darüber nach etwas in unserem Shop zu kaufen. Es wird auch diese Einblendung entfernen!
+        \nEinige der Dinge an die wir arbeiten wären: Routen Berechnung, Abbiege-Navigation, POI Suche, Wetter Infos, Multi-Geräte Synchronisation und online Datei-Verwaltung, Benutzer-Konten und  and Standort-Sharing (andere Nutzer auf der Karte sehen), und vieles mehr!
     </string>
-    <string name="visit_shop">Visit Shop</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
+    <string name="visit_shop">Shop besuchen</string>
+    <string name="no_ads_plugin">Keine-Werbung Plugin</string>
+    <string name="no_ads_plugin_description">Entfernt den "Unterstütze DMD2" Menü-Eintrag und sämtlich Werbung aus der App. Bitte dieses Plugin NUR kaufen, wenn Du keine andere Plugins brauchst, denn der Kauf irgendeines Plugins wird ebenfalls die Werbung entfernen. (App muss neu gestartet werden nach dem Kauf)</string>
     <!-- End of Untranslated -->
 
 
@@ -518,7 +518,7 @@
     <string name="bt_dongle_connect">Starte OBD Verbindung</string>
     <string name="bt_dongle_already_connected">OBD Dongle bereits verbunden</string>
     <string name="reset_record_values">Aufgezeichnete Werte zurückstellen</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD Verbindung</string>
+    <string name="auto_start_obd_connection_title">Autostart OBD Verbindung</string>
     <string name="auto_start_obd_connection_summary">Wenn eingeschaltet wird bei App Start versucht die Verbindung zum OBD Dongle wiederherzustellen</string>
     <string name="coolant_temp_label">Kühlwasser Temp</string>
     <string name="oil_temp_label">Öl Temp</string>
