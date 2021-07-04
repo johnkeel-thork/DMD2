@@ -1,37 +1,37 @@
 <resources>
 
     <!-- Untranslated -->
-    
-    <string name="shop_title">DMD2 Shop</string>
-    <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
-    <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
 
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
+    <string name="shop_title">Κατάστημα DMD2</string>
+    <string name="plugin_shop">Κατάστημα Προσθέτων</string>
+    <string name="shop_description">Ανακαλύψτε τα διαθέσιμα πρόσθετα για το DMD2. Αγοράστε και διαχειριστείτε τις συνδρομές σας!</string>
+    <string name="map_view_plugin_title">Χάρτης</string>
+    <string name="map_view_plugin_description">Το πρόσθετο χάρτη θα προσθέσει μια τρισδιάστατη απεικόνιση χάρτη στο DMD2. ΠΕριλαμβάνει τοπογραφικούς εκτός σύνδεσης χάρτες, graded ground type, δυνατότητα φόρτωσης πολλαπλών αρχείων GPX με επιλογές όπως χρώμα διαδρομής, μέγεθος, διαφάνεια και συντομεύσεις για την ταχύτητα, heading, υψόμετρο ή τιμές από το OBD.</string>
+    <string name="six_month">6 Μήνες</string>
+    <string name="one_year">Χρόνο</string>
+    <string name="lifetime">Εφ' όρου ζωής</string>
+    <string name="purchased_already">Το πρόσθετο είναι ήδη αγορασμένο και εγκατεστημένο, δεν απαιτείται καμία άλλη ενέργεια.</string>
+    <string name="lifetime_owned">Έχετε ήδη αγοράσει το προϊόν για πάντα. Δεν χρειάζεστε κάποια επιπλέον συνδρομή.</string>
+    <string name="sub_already_owned">Έχετε ήδη μια συνδρομή ενεργή, θέλετε να την διακόψετε?</string>
+    <string name="unsubscribe">Ναι, Κατάργηση Εγγραφής Ενεργών</string>
+    <string name="subscribe_new">Είναι ήδη κατηργημένα, κάντε νέα συνδρομή</string>
+    <string name="no_internet">Δεν υπάρχει σύνδεση στο διαδίκτυο! Για να διαχειριστείτε τις αγορές και τις συνδρομές θα πρέπει υπάρχει σύνδεση στο διαδίκτυο.</string>
+    <string name="roadbook_plugin_title">Πρόσθετο Roadbook</string>
+    <string name="roadbook_plugin_description">Το πρόσθετο roadbook δίνει τη δυνατότητα να φορτωθούν αρχεία PDF roadbook. Δυνατότητα παραμετροποίησης έως και 4 οργάνων όπως συνολική και μερική απόσταση, heading, ταχύτητα και χρονόμετρο με δυνατότητα διαχείρισης μέσω του Bluetooth CARPE Controller.</string>
 
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    <string name="roadbook_long_press_enter_summary">Παρατεταμένο πάτημα του κεντρικού κουμπιού στο χειριστήριο /  Long press joystick center click / Terrain Enter, θα γίνεται πάντα εναλλαγή του κλειδώματος χειριστηρίου</string>
+
+    <string name="support_project">Υποστηρίξτε το DMD2</string>
+    <string name="ads_title">Γειά σας!</string>
+    <string name="ads_thank_you_message">Ευχαριστούμε που χρησιμοποιείται το DMD2, ελπίζουμε να σας αρέσει!
+        \n\nΕργαζόμαστε συνχεχώς για να παρέχουμε νέες δυνατότητες!
+        \n\nΕάν θέλετε να μας υποστηρίξετε, μπορείται να αγοράσετε κάποιο πρόσθετο από το κατάστημα. Αγοράζοντας κάποιο πρόσθετο θα αφαιρεθούν και οι διαφημίσεις!
+        \nΚάποια από τα πράγματα στα οποία εργαζόμαστε περιλαμβάνουν, υπολογισμός διαδρομής, πλοήγηση (turn by turn), αναζήτηση σημείων ενδιαφέροντος, πληροφορίες καιρού, συγχρονισμός πολλαπλών συσκευών και διαχείριση αρχείων σε σύνδεση, λογαριασμό χρήστη και κοινοποίηση θέσης (εμφανίζοντας τους πάντες στον χάρτη) μεταξύ πολλών ακόμη χαρακτηριστικών!
     </string>
-    <string name="visit_shop">Visit Shop</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-    
+    <string name="visit_shop">Επισκεφθείτε το Κατάστημα</string>
+    <string name="no_ads_plugin">Πρόσθετο No Ads</string>
+    <string name="no_ads_plugin_description">Αφαιρέστε το μενού υποστίριξης του DMD2 και όλες τις διαφημίσεις απο την εφαρμογή. Αγοράστε αυτό το πρόσθερο μόνο εάν δεν επιθυμείτε κανένα άλλο πρσόσθετο. Αφοράζοντας οποιδήποτε άλλο πρόσθετο το μενού αυτό και οι διαφημίσεις θα αφαιρεθούν (χρειάζεται επενεκίνηση μετά την αγορά).</string>
+
     <!-- End of Untranslated -->
 
 
@@ -55,7 +55,7 @@
     <string name="save">Αποθήκευση</string>
     <string name="cancel">Ακύρωση</string>
     <string name="close">Κλείσιμο</string>
-    <string name="swipe_message">Οι περισσότερες επιλογές εμφανίζουν μια μπλε κάθετη γραμμή στα αριστερά της οθόνης. Αυτό σημαίνει πως υπάρχει διαθέσιμο ένα Μενού στα αριστερά, το οποίο μπορείται να το εμφανίζεται σύροντας από τα αριστερά. Εάν χρησιμποιείται το χειριστήριο CARPE, το αριστερό μενού συνήθως εμφανίζεται πατώντας το Πάνω ή το Κάτω.</string>
+    <string name="swipe_message">Οι περισσότερες επιλογές εμφανίζουν μια μπλε κάθετη γραμμή στα αριστερά της οθόνης. Αυτό σημαίνει πως υπάρχει διαθέσιμο ένα Μενού στα αριστερά, το οποίο μπορείται να το εμφανίζεται σύροντας από τα αριστερά. Εάν χρησιμοποιείται το χειριστήριο CARPE, το αριστερό μενού συνήθως εμφανίζεται πατώντας το Πάνω ή το Κάτω.</string>
     <string name="already_purchased">Το πρόσθετο έχει ήδη αγοραστεί</string>
     <string name="hide_menu">Απόκρυψη μενού</string>
     <string name="select">Επιλέξτε</string>
