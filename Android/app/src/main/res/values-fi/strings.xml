@@ -2,36 +2,36 @@
 
     <!-- New / Not Translated -->
 
-    <string name="shop_title">DMD2 Shop</string>
-    <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
-    <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
+    <string name="shop_title">DMD2 Kauppa</string>
+    <string name="plugin_shop">Sovellusosakauppa</string>
+    <string name="shop_description">Löydä saatavissa olevat sovellusosat DMD2:een. Hanki ja hallinnoi tilauksiasi!</string>
+    <string name="map_view_plugin_title">Kartta-sovellusosat</string>
+    <string name="map_view_plugin_description">Kartta-sovellusosa lisää 3D-renderöidyn kartan DMD2:een. Se sisältää topograafiset offline-kartat, luokitellun maastotyypin, mahdollisuuden ladata useita GPX-tiedostoja (viivan väri, leveys ja läpinäkyvyys muokattavissa). ja jopa widgetit nopeudelle, kompassisuunnalle, korkeudelle ja OBD-tiedoille.</string>
+    <string name="six_month">6 kuukautta</string>
+    <string name="one_year">Vuosi</string>
+    <string name="lifetime">Elinikäinen</string>
+    <string name="purchased_already">Tämä sovellusosa on jo hankittu ja käytössä.</string>
+    <string name="lifetime_owned">Olet jo hankkinut elinikäisen tilauksen.</string>
+    <string name="sub_already_owned">Sinulla on jo aktiivinen tilaus, haluatko perua sen ensin?</string>
+    <string name="unsubscribe">Kyllä, peru aktiivinen tilaus.</string>
+    <string name="subscribe_new">Peruin jo, hankitaan uusi!</string>
+    <string name="no_internet">Ei internet-yhteyttä! Hallinnoidaksesi tilauksia tarvitset internet-yhteyden.</string>
+    <string name="roadbook_plugin_title">Tiekirja-sovellusosa</string>
+    <string name="roadbook_plugin_description">Tiekirja-sovellusosa lisää mahdollisuuden ladata Tiekirjan (Roadbook) PDF-tiedostosta. Voit määrittää jopa 4 toimintoa kuten Kokonaismatka, Osamatka, Kompassisuunta, Nopeus, Kronometri ja hallinnoida kaikkea Bluetooth CARPE -ohjaimella.</string>
 
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
+    <string name="roadbook_long_press_enter_summary">Pitkä painallus Joystick Keski / Terrain Enter asettaa aina Ohjaimen lukitustilaan.</string>
 
     <!-- ADS VIEW -->
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    <string name="support_project">Tue DMD2-kehitystä</string>
+    <string name="ads_title">Hei!</string>
+    <string name="ads_thank_you_message">Kiitos DMD2:n käyttämisestä, toivottavasti nautit siitä!
+        \n\nTyöskentelemme jatkuvasti tarjotaksemme sinulle uusia ominaisuuksia!
+        \n\nJos haluat tukea työtämme, harkitse ostosten tekemistä kaupastamme. Ostoksen tekeminen myös poistaa mainokset sovelluksesta!
+        \nTyöskentelemme mm. seuraavien toimintojen parissa: reittien laskeminen, käännös-käännökseltä -opastus, POI-haku, säätiedot, useamman laitteen synkronointi ja online-tiedostojenhallinta, käyttäjätilit ja sijainnin jakaminen (muiden näkeminen kartalla), monien muiden lisäksi!
     </string>
-    <string name="visit_shop">Visit Shop</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
+    <string name="visit_shop">Vieraile kaupassa</string>
+    <string name="no_ads_plugin">Ei mainiksia -sovellusosa</string>
+    <string name="no_ads_plugin_description">Poista "Tue DMD2-kehitystä" -toiminto ja kaikki mainokset sovelluksesta. Hanki tämä sovellusosa vain jos et halua muita sovellusosia sillä minkä tahansa sovellusosan hankinta sisältää tämän. (Edellyttää sovelluksen uudelleenkäynnistystä oston jälkeen!)</string>
     
     <!-- End of New / Not Translated -->
 
@@ -103,10 +103,10 @@
         <item>Rengas-sensori vain jos GPS-tarkkuus heikko</item>
     </string-array>
     <string name="dmd2_plugins">DMD2 sovellusosat</string>    
-    <string name="connection_error">Yhdistäminen ei onnistunut, varmista että verkkoyhteys on käytettävissä. Kokeile myös sovelluksen uudelleenkäynnistämistä.</string>
+    <string name="connection_error">Yhdistäminen ei onnistunut, varmista että internet-yhteys on käytettävissä. Kokeile myös sovelluksen uudelleenkäynnistämistä.</string>
     <string name="auto_hide_left_menu_indicator">Piilota vasemman valikon indikaattori automaattisesti</string>
     <string name="oem_registration">OEM rekisteröinti</string>
-    <string name="oem_check">Rekisteröinti (verkkoyhteys vaaditaan)</string>
+    <string name="oem_check">Rekisteröinti (internet-yhteys vaaditaan)</string>
     <string name="oem_check_summary">Käytä vain mikäli moottoripyöräsi sisältää tehdasasenteisen Android-laitteen jossa Drive Mode Dashboard 2 on valmiiksi asennettuna.</string>
     <string name="roadbook_plugin_missing_title">Tiekarttanäkymä-sovellusosa vaaditaan</string>
     <string name="roadbook_plugin_missing_message">Näyttääksesi tiekarttoja (PDF-tiedostoja), sinun täytyy ostaa Tiekarttanäkymä-sovellusosa.</string>
@@ -377,7 +377,7 @@
     <string name="online_layers">Kartan kerrokset</string>
     <string name="hill_shadding">Rinnevarjostukset</string>
     <string name="hill_shadding_desc">Rinnevarjostusten avulla kartalla näytetään rinteiden topograafinen muoto.</string>
-    <string name="data_type_online">Datatyyppi: Online (verkkoyhteys vaaditaan) luo offline-kopion</string>
+    <string name="data_type_online">Datatyyppi: Online (internet-yhteys vaaditaan) luo offline-kopion</string>
     <string name="medium_power_increase">Virrankulutus: Lisää virrankulutusta jopa 20%!</string>
     <string name="hillshading_switch_state">Näytä rinnevarjostus:</string>
     <string name="tilt_adjust_mode">Kompassin pohjoiskorjaus</string>
