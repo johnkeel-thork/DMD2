@@ -1,41 +1,5 @@
 <resources>
 
-    <!-- New / Not Translated -->
-
-    <string name="shop_title">DMD2 Kauppa</string>
-    <string name="plugin_shop">Sovellusosakauppa</string>
-    <string name="shop_description">Löydä saatavissa olevat sovellusosat DMD2:een. Hanki ja hallinnoi tilauksiasi!</string>
-    <string name="map_view_plugin_title">Kartta-sovellusosat</string>
-    <string name="map_view_plugin_description">Kartta-sovellusosa lisää 3D-renderöidyn kartan DMD2:een. Se sisältää topograafiset offline-kartat, luokitellun maastotyypin, mahdollisuuden ladata useita GPX-tiedostoja (viivan väri, leveys ja läpinäkyvyys muokattavissa). ja jopa widgetit nopeudelle, kompassisuunnalle, korkeudelle ja OBD-tiedoille.</string>
-    <string name="six_month">6 kuukautta</string>
-    <string name="one_year">Vuosi</string>
-    <string name="lifetime">Elinikäinen</string>
-    <string name="purchased_already">Tämä sovellusosa on jo hankittu ja käytössä.</string>
-    <string name="lifetime_owned">Olet jo hankkinut elinikäisen tilauksen.</string>
-    <string name="sub_already_owned">Sinulla on jo aktiivinen tilaus, haluatko perua sen ensin?</string>
-    <string name="unsubscribe">Kyllä, peru aktiivinen tilaus.</string>
-    <string name="subscribe_new">Peruin jo, hankitaan uusi!</string>
-    <string name="no_internet">Ei internet-yhteyttä! Hallinnoidaksesi tilauksia tarvitset internet-yhteyden.</string>
-    <string name="roadbook_plugin_title">Tiekirja-sovellusosa</string>
-    <string name="roadbook_plugin_description">Tiekirja-sovellusosa lisää mahdollisuuden ladata Tiekirjan (Roadbook) PDF-tiedostosta. Voit määrittää jopa 4 toimintoa kuten Kokonaismatka, Osamatka, Kompassisuunta, Nopeus, Kronometri ja hallinnoida kaikkea Bluetooth CARPE -ohjaimella.</string>
-
-    <string name="roadbook_long_press_enter_summary">Pitkä painallus Joystick Keski / Terrain Enter asettaa aina Ohjaimen lukitustilaan.</string>
-
-    <!-- ADS VIEW -->
-    <string name="support_project">Tue DMD2-kehitystä</string>
-    <string name="ads_title">Hei!</string>
-    <string name="ads_thank_you_message">Kiitos DMD2:n käyttämisestä, toivottavasti nautit siitä!
-        \n\nTyöskentelemme jatkuvasti tarjotaksemme sinulle uusia ominaisuuksia!
-        \n\nJos haluat tukea työtämme, harkitse ostosten tekemistä kaupastamme. Ostoksen tekeminen myös poistaa mainokset sovelluksesta!
-        \nTyöskentelemme mm. seuraavien toimintojen parissa: reittien laskeminen, käännös-käännökseltä -opastus, POI-haku, säätiedot, useamman laitteen synkronointi ja online-tiedostojenhallinta, käyttäjätilit ja sijainnin jakaminen (muiden näkeminen kartalla), monien muiden lisäksi!
-    </string>
-    <string name="visit_shop">Vieraile kaupassa</string>
-    <string name="no_ads_plugin">Ei mainiksia -sovellusosa</string>
-    <string name="no_ads_plugin_description">Poista "Tue DMD2-kehitystä" -toiminto ja kaikki mainokset sovelluksesta. Hanki tämä sovellusosa vain jos et halua muita sovellusosia sillä minkä tahansa sovellusosan hankinta sisältää tämän. (Edellyttää sovelluksen uudelleenkäynnistystä oston jälkeen!)</string>
-    
-    <!-- End of New / Not Translated -->
-
-
 
     <string name="app_name">DMD2</string>
 
@@ -102,7 +66,7 @@
         <item>Aina rengas-sensori</item>
         <item>Rengas-sensori vain jos GPS-tarkkuus heikko</item>
     </string-array>
-    <string name="dmd2_plugins">DMD2 sovellusosat</string>    
+    <string name="dmd2_plugins">DMD2 sovellusosat</string>
     <string name="connection_error">Yhdistäminen ei onnistunut, varmista että internet-yhteys on käytettävissä. Kokeile myös sovelluksen uudelleenkäynnistämistä.</string>
     <string name="auto_hide_left_menu_indicator">Piilota vasemman valikon indikaattori automaattisesti</string>
     <string name="oem_registration">OEM rekisteröinti</string>
@@ -181,6 +145,34 @@
     <string name="edit_bottom_menu_title">Muokkaa alavalikkoa</string>
     <string name="edit_bottom_menu_message">Järjestele tai poista käytöstä valikon kohteita.</string>
     <string name="menu_sorter_title">Paina pitkään siirtääksesi kohteita. Piilota/näytä kytkimestä.</string>
+    <!-- Shop -->
+    <string name="shop_title">DMD2 Kauppa</string>
+    <string name="plugin_shop">Sovellusosakauppa</string>
+    <string name="shop_description">Löydä saatavissa olevat sovellusosat DMD2:een. Hanki ja hallinnoi tilauksiasi!</string>
+    <string name="map_view_plugin_title">Kartta-sovellusosat</string>
+    <string name="map_view_plugin_description">Kartta-sovellusosa lisää 3D-renderöidyn kartan DMD2:een. Se sisältää topograafiset offline-kartat, luokitellun maastotyypin, mahdollisuuden ladata useita GPX-tiedostoja (viivan väri, leveys ja läpinäkyvyys muokattavissa). ja jopa widgetit nopeudelle, kompassisuunnalle, korkeudelle ja OBD-tiedoille.</string>
+    <string name="six_month">6 kuukautta</string>
+    <string name="one_year">Vuosi</string>
+    <string name="lifetime">Elinikäinen</string>
+    <string name="purchased_already">Tämä sovellusosa on jo hankittu ja käytössä.</string>
+    <string name="lifetime_owned">Olet jo hankkinut elinikäisen tilauksen.</string>
+    <string name="sub_already_owned">Sinulla on jo aktiivinen tilaus, haluatko perua sen ensin?</string>
+    <string name="unsubscribe">Kyllä, peru aktiivinen tilaus.</string>
+    <string name="subscribe_new">Peruin jo, hankitaan uusi!</string>
+    <string name="no_internet">Ei internet-yhteyttä! Hallinnoidaksesi tilauksia tarvitset internet-yhteyden.</string>
+    <string name="roadbook_plugin_title">Tiekirja-sovellusosa</string>
+    <string name="roadbook_plugin_description">Tiekirja-sovellusosa lisää mahdollisuuden ladata Tiekirjan (Roadbook) PDF-tiedostosta. Voit määrittää jopa 4 toimintoa kuten Kokonaismatka, Osamatka, Kompassisuunta, Nopeus, Kronometri ja hallinnoida kaikkea Bluetooth CARPE -ohjaimella.</string>
+    <!-- Ads View -->
+    <string name="support_project">Tue DMD2-kehitystä</string>
+    <string name="ads_title">Hei!</string>
+    <string name="ads_thank_you_message">Kiitos DMD2:n käyttämisestä, toivottavasti nautit siitä!
+        \n\nTyöskentelemme jatkuvasti tarjotaksemme sinulle uusia ominaisuuksia!
+        \n\nJos haluat tukea työtämme, harkitse ostosten tekemistä kaupastamme. Ostoksen tekeminen myös poistaa mainokset sovelluksesta!
+        \nTyöskentelemme mm. seuraavien toimintojen parissa: reittien laskeminen, käännös-käännökseltä -opastus, POI-haku, säätiedot, useamman laitteen synkronointi ja online-tiedostojenhallinta, käyttäjätilit ja sijainnin jakaminen (muiden näkeminen kartalla), monien muiden lisäksi!
+    </string>
+    <string name="visit_shop">Vieraile kaupassa</string>
+    <string name="no_ads_plugin">Ei mainiksia -sovellusosa</string>
+    <string name="no_ads_plugin_description">Poista "Tue DMD2-kehitystä" -toiminto ja kaikki mainokset sovelluksesta. Hanki tämä sovellusosa vain jos et halua muita sovellusosia sillä minkä tahansa sovellusosan hankinta sisältää tämän. (Edellyttää sovelluksen uudelleenkäynnistystä oston jälkeen!)</string>
 
 
     <!-- HOME / GRID VIEW-->
@@ -202,6 +194,7 @@
     <string name="tap_to_select_image">Kosketa valitaksesi kuvan</string>
     <string name="tap_to_edit_text">Kosketa muokataksesi tekstiä</string>
     <string name="write_logo_message">Syötä logo-tekstisi</string>
+
 
     <!-- Speedo View -->
     <string name="distance">Matka</string>
@@ -235,7 +228,6 @@
     <string name="trip_hide_speed_title">Piilota nopeus &amp; mittarilukema</string>
     <string name="trip_hide_speed_summary">Piilottamalla nopeuden ja mittarilukeman saat Matkatiedot näkymään suurempana</string>
     <string name="start_stop_trip">Käynnistä/Pysäytä matka</string>
-
 
 
     <!-- Control Station -->
@@ -346,9 +338,10 @@
     <string name="measure_correction_factor">Mittakorjaus</string>
     <string name="distance_measure_correction_title">Kokonais- ja osamatkan mittakorjauskerroin</string>
     <string name="distance_measure_correction_message">Kokonaismatkan ja Osamatkan arvot kerrotaan alle syötetyllä kertoimella. Käytä kerrointa korjaamaan mahdollinen ero tiekirjan arvoihin.</string>
+    <string name="roadbook_long_press_enter_summary">Pitkä painallus Joystick Keski / Terrain Enter asettaa aina Ohjaimen lukitustilaan.</string>
 
 
-    <!-- MapFragment View -->
+    <!-- Map View -->
     <string name="offline_map_manager">Offline-karttojen hallinta</string>
     <string name="map_manager">Karttojen hallinta</string>
     <string name="europe">Eurooppa</string>
@@ -461,7 +454,6 @@
     <string name="track_line_width">Viivan leveys:</string>
     <string name="track_transparency">Viivan läpinäkyvyys:</string>
     <string name="track_orientation_arrow">Suuntanuolen koko:</string>
-
 
 
     <!-- OBD SENSORS -->
