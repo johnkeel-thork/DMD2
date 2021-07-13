@@ -147,10 +147,10 @@
     <string name="menu_sorter_title">Paina pitkään siirtääksesi kohteita. Piilota/näytä kytkimestä.</string>
     <!-- Shop -->
     <string name="shop_title">DMD2 Kauppa</string>
-    <string name="plugin_shop">Sovellusosakauppa</string>
+    <string name="plugin_shop">DMD2 kauppa</string>
     <string name="shop_description">Löydä saatavissa olevat sovellusosat DMD2:een. Hanki ja hallinnoi tilauksiasi!</string>
     <string name="map_view_plugin_title">Kartta-sovellusosat</string>
-    <string name="map_view_plugin_description">Kartta-sovellusosa lisää 3D-renderöidyn kartan DMD2:een. Se sisältää topograafiset offline-kartat, luokitellun maastotyypin, mahdollisuuden ladata useita GPX-tiedostoja (viivan väri, leveys ja läpinäkyvyys muokattavissa). ja jopa widgetit nopeudelle, kompassisuunnalle, korkeudelle ja OBD-tiedoille.</string>
+    <string name="map_view_plugin_description">Kartta-sovellusosa lisää 3D-renderöidyn kartan DMD2:een. Se sisältää topograafiset offline-kartat, luokitellun maastotyypin, mahdollisuuden ladata useita GPX-tiedostoja (viivan väri, leveys ja läpinäkyvyys muokattavissa) ja jopa widgetit nopeudelle, kompassisuunnalle, korkeudelle ja OBD-tiedoille.</string>
     <string name="six_month">6 kuukautta</string>
     <string name="one_year">Vuosi</string>
     <string name="lifetime">Elinikäinen</string>
@@ -275,7 +275,7 @@
     <string name="total_options">Kokonaismatkan valinnat</string>
     <string name="partial_options">Osamatkan valinnat</string>
     <string name="invert_paper_color">Vaihda paperin väriä</string>
-    <string name="reset_all_instruments">Nolla kaikki toiminnot</string>
+    <string name="reset_all_instruments">Nollaa kaikki toiminnot</string>
     <string name="total_distance_edit_title">Kokonaismatka</string>
     <string name="total_distance_message">Kosketa muokataksesi kokonaismatkan arvoa:</string>
     <string name="partial_distance_edit_title">Osamatka</string>
