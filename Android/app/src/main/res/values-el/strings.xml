@@ -1,5 +1,15 @@
 <resources>
+
+    <!-- UNTRANSLATED -->
+    <string name="next_multiple">Connects to multiple tracks</string>
+    <string name="last_no_connection">Last GPX track / No connection to other</string>
+    <string name="next_section">Next:</string>
+    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
+    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
+    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
+    <!-- END OF UNTRANSLATED -->
     
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -172,7 +182,7 @@
     <string name="no_ads_plugin">Πρόσθετο No Ads</string>
     <string name="no_ads_plugin_description">Αφαιρέστε το μενού υποστίριξης του DMD2 και όλες τις διαφημίσεις απο την εφαρμογή. Αγοράστε αυτό το πρόσθερο μόνο εάν δεν επιθυμείτε κανένα άλλο πρσόσθετο. Αφοράζοντας οποιδήποτε άλλο πρόσθετο το μενού αυτό και οι διαφημίσεις θα αφαιρεθούν (χρειάζεται επενεκίνηση μετά την αγορά).</string>
 
-    
+
 
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Κανένα Γραφικό Στοιχείο / Περιοχή Κενή</string>
@@ -194,7 +204,7 @@
     <!-- GRID VIEW -->
     <string name="option_show_grid">Επεξεργασία της Διάταξης</string>
     <string name="select_widget">Επιλογή Γραφικού Στοιχείου</string>
-    
+
 
     <!-- Speedo View -->
     <string name="distance">Απόσταση</string>
