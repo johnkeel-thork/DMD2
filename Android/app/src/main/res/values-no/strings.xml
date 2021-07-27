@@ -1,5 +1,16 @@
 <resources>
 
+    <!-- UNTRANSLATED -->
+    <string name="next_multiple">Connects to multiple tracks</string>
+    <string name="last_no_connection">Last GPX track / No connection to other</string>
+    <string name="next_section">Next:</string>
+    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
+    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
+    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
+    <!-- END OF UNTRANSLATED -->
+    
+    
+
     <!-- STATUS BAR -->
     <string name="online_status">Online</string>
     <string name="offline_status">Offline</string>
