@@ -3,6 +3,13 @@
 
     <!-- NEW UNSTRANSLATED -->
 
+    <string name="next_multiple">Connects to multiple tracks</string>
+    <string name="last_no_connection">Last GPX track / No connection to other</string>
+    <string name="next_section">Next:</string>
+    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
+    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
+    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
+
     <string name="shop_title">DMD2 Shop</string>
     <string name="plugin_shop">Plugins Shop</string>
     <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
