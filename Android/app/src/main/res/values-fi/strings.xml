@@ -2,12 +2,12 @@
 
 
     <!-- UNTRANSLATED -->
-    <string name="next_multiple">Connects to multiple tracks</string>
-    <string name="last_no_connection">Last GPX track / No connection to other</string>
-    <string name="next_section">Next:</string>
-    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
-    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
-    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
+    <string name="next_multiple">Yhdistyy useaan jälkeen/reittiin</string>
+    <string name="last_no_connection">Viimeinen GPX jälki/reitti - Ei yhteyttä muihin</string>
+    <string name="next_section">Seuraava:</string>
+    <string name="show_gpx_track_progress">Näytä GPX-jäljen/reitin edistyminen</string>
+    <string name="show_gpx_nextwaypoint">Näytä seuraava GPX-reittipiste</string>
+    <string name="show_gpx_nextwaypoint2">Näytä kaksi seuraavaa GPX-reittipistettä</string>
     <!-- END OF UNTRANSLATED -->
     
 
