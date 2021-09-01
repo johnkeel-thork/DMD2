@@ -1,16 +1,5 @@
 <resources>
 
-    <!-- UNTRANSLATED -->
-    <string name="next_multiple">Verbindet mehrere GPX-Tracks</string>
-    <string name="last_no_connection">Letztes GPX-Track / Keine weiteren verbunden</string>
-    <string name="next_section">Nächstes:</string>
-    <string name="show_gpx_track_progress">Zeige GPX-Track Fortschritts Box</string>
-    <string name="show_gpx_nextwaypoint">Zeige GPX-Track nächster Wegpunkt Box</string>
-    <string name="show_gpx_nextwaypoint2">Zeige nächste zwei Wegpunkte</string>
-    <!-- END OF UNTRANSLATED -->
-    
-    
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -480,7 +469,13 @@
     <string name="controller_cat_title">CARPE Controller Optionen</string>
     <string name="enable_long_press_enter_title">Langer Druck sperrt Ansicht</string>
     <string name="enable_long_press_enter_message">Mit einem langen Druck auf Enter/Joystick-Mitte wird DMD2 in der Kartenansicht gesperrt. Hoch/Runter/Links/Rechts verschiebt den Karteausschnitt. Mit einem langen Druck auf Enter/Joystick-Mitte wird die Kartenansicht wieder entsperrt.</string>
-
+    <string name="next_multiple">Verbindet mehrere GPX-Tracks</string>
+    <string name="last_no_connection">Letztes GPX-Track / Keine weiteren verbunden</string>
+    <string name="next_section">Nächstes:</string>
+    <string name="show_gpx_track_progress">Zeige GPX-Track Fortschritts Box</string>
+    <string name="show_gpx_nextwaypoint">Zeige GPX-Track nächster Wegpunkt Box</string>
+    <string name="show_gpx_nextwaypoint2">Zeige nächste zwei Wegpunkte</string>
+    
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">OBD Sensoren</string>
