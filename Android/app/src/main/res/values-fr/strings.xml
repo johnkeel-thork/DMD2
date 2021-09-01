@@ -1,270 +1,4 @@
 <resources>
-<!-- NEW TRANSLATION -->
-
-    <string name="next_multiple">Connects to multiple tracks</string>
-    <string name="last_no_connection">Last GPX track / No connection to other</string>
-    <string name="next_section">Suivant:</string>
-    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
-    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
-    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
-    
-    <string name="shop_title">Magasin DMD2</string>
-    <string name="plugin_shop">Magasin des Plugins</string>
-    <string name="shop_description">Découvre les plugins disponibles pour DMD2. Achete et gére ton abonnement!</string>
-    <string name="map_view_plugin_title">Plugin de cartes</string>
-    <string name="map_view_plugin_description">Le plugin de cartes ajoute un rendu 3D à DMD2. Il inclue les cartes topographiques Horsligne, des courbes de niveau, la possibilité de charger plusieurs fichiers GPX avec des options de filtre (Couleur de tracé/longeur/transparence) et des widgets pour la vitesse, l'orientation, l'altidute ou les valeur OBD.</string>
-    <string name="six_month">6 Mois/string>
-    <string name="one_year">Année</string>
-    <string name="lifetime">Illimité</string>
-    <string name="purchased_already">Cet article a été acheté et il est actif, aucune action n’est nécessaire.</string>
-    <string name="lifetime_owned">Tu as déjà la version Illimité. Il n'y a pas d'abonnement suplémentaire.</string>
-    <string name="sub_already_owned">Tu as déjà un abonnement actif, veux-tu l'annuler?</string>
-    <string name="unsubscribe">Oui dé-inscrire l'abonnement actif</string>
-    <string name="subscribe_new">Déjà fait, souscrire à un nouveau</string>
-    <string name="no_internet">Pas de connection internet! Pour gérer les abonnements tu dois avoir une connection internet avtive.</string>
-    <string name="roadbook_plugin_title">Plugin de Roabook</string>
-    <string name="roadbook_plugin_description">Le plugin permet de charger un roadbook en fichier PDF. Tu peux choisir de faire afficher 4 instruments comme les trips total ou partiel, l'orientiation, la vitesse et le chronomètre. Tu peux gérer les instruments avec les accessoires Bluetooth CARPE Controller.</string>
-
-    <string name="roadbook_long_press_enter_summary">Appui long sur le click central du joystick / Terrain Enter will always toggle Controller Lock Mode</string>
-
-    <string name="max_rpm_summary">Indique les valeurs max de tours/minute</string>
-    <string name="redline_rpm_title">Indique la zone rouge de tours/minute</string>
-    <string name="redline_rpm_summary">Indique la vateur de zone rouge (Affichera un cercle d'avertissement rouge)</string>
-    <string name="shift_rpm_title">Indique une valeur de shifter Tr/mn</string>
-    <string name="shift_rpm_summary">Indique ta valeur idéale de shifter en tr/mn (Affichera un cercle d'avertissement vert)</string>
-    <string name="show_hide_sensors_cat">Vue complete - Masquer / affiche capteurs</string>
-    <string name="show_hide_maf_title">Affiche capteur M.A.F.</string>
-    <string name="show_hide_maf_summary">Ce capteur n'est pas disponible sur tous les véhicules</string>
-    <string name="show_hide_oil_temp_title">Affichier la température d'huile</string>
-    <string name="show_hide_voltage_title">Affcher la tension batterie</string>
-    <string name="show_engine_load_title">Afficher la charge moteur</string>
-    <string name="show_fuel_level_title">Afficher le niveau d'essence</string>
-    <string name="record_vals_title">Enregistrer les valeurs</string>
-    <string name="max_liquid_temp">Temparature eau Max:</string>
-    <string name="max_rpm">Tr/mn Max:</string>
-    <string name="max_throttle">Accélérateur Max:</string>
-    <string name="min_voltage">Tension Min:</string>
-    <string name="no_dtc_error">Pas d'erreur DTC</string>
-    <string name="dtc_error">Erreurs DTC trouvés!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle déconnecté (Controller: Appuie sur le centre du Joystick / Terrain Enter pour connecter)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle Connecté</string>
-    <string name="bt_dongle_connect">SDémarrer la connection OBD</string>
-    <string name="bt_dongle_already_connected">OBD Dongle déjà Connecté</string>
-    <string name="reset_record_values">RAZ valeurs enregistrés</string>
-    <string name="auto_start_obd_connection_title">Auto démarrage OBD Connection</string>
-    <string name="auto_start_obd_connection_summary">Si activé connection à l'OBD Dongle au démarage de l'APP</string>
-    <string name="coolant_temp_label">T. Eau</string>
-    <string name="oil_temp_label">T. Huile</string>
-    <string name="intake_temp_label">T. Admission</string>
-    <string name="intake_pressure_label">P. Admission</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Position Accélérateur</string>
-    <string name="engine_load">Charge moteur</string>
-    <string name="voltage">Tension</string>
-    <string name="fuel_level">Niveau d'essence</string>
-    <string name="obd_service_notification_title">Gestion OBD en fonctionnement</string>
-    <string name="obd_service_obd_connected">Connecté au dongle!</string>
-    <string name="obd_service_obd_disconnected">Déconnecté du dongle!</string>
-    <string name="reset_dtc_errors">RAZ Erreurs DTC</string>
-    <string name="throttle_options">Options Accélérateur</string>
-    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="calibrate_throttle_title">Calibrer la position de l'accélerateur</string>
-    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
-
-    <string name="use_fahrenheit">Fahrenheit à la place de Celsius</string>
-
-    <string name="measure_correction_factor">Corrections de mesures</string>
-    <string name="distance_measure_correction_title">Coéficient de Corrections de mesures</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
-
-    <string name="select_share_app">Select App for Share</string>
-
-
-    <string name="map_view_options">Paramettres de carte</string>
-    <string name="map_options_interface_cat_title">Paramètres de l'interface</string>
-    <string name="show_zoom_button">Afficher les boutons de Zoom</string>
-    <string name="map_options_location_cat_title">Paramètres de Location</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (Si disponible)</string>
-
-
-    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
-    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
-
-    <string name="control_station_options">Options</string>
-    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
-    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
-
-    <string name="map_point_title">Appui long Orientation de carte</string>
-    <string name="controller_cat_title">Options CARPE Controller</string>
-    <string name="enable_long_press_enter_title">Appui long "Enter" verrouillage</string>
-    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
-
-
-    <string name="gpx_options">Options GPX</string>
-    <string name="gpx_options_box_title">Options de trace GPX</string>
-    <string name="track_line_width">Epaisseur de la Ligne:</string>
-    <string name="track_transparency">Transparence de la Ligne:</string>
-    <string name="track_orientation_arrow">Dimension de la flêche d'Orientation:</string>
-
-    <string name="support_project">Supportez DMD2</string>
-    <string name="ads_title">Bonjour!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
-    </string>
-    <string name="visit_shop">Visitez le magasin/string>
-    <string name="no_ads_plugin">Pas de plugin plubicitaire</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-
-
-    <!-- END OF TRANSLATED -->
-    
-    <!-- UNTRANSLATED -->
-
-    <string name="next_multiple">Connects to multiple tracks</string>
-    <string name="last_no_connection">Last GPX track / No connection to other</string>
-    <string name="next_section">Next:</string>
-    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
-    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
-    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
-    
-    <string name="shop_title">DMD2 Shop</string>
-    <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
-    <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
-
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
-
-    <string name="max_rpm_summary">Set your vehicle maximum RPM value</string>
-    <string name="redline_rpm_title">Set Redline RPM</string>
-    <string name="redline_rpm_summary">Set your Redline value (will turn on Red circle warning)</string>
-    <string name="shift_rpm_title">Set Gear Shift RPM</string>
-    <string name="shift_rpm_summary">Set your ideal Gear Shift RPM value (will turn on Green circle warning)</string>
-    <string name="show_hide_sensors_cat">Full View - Hide / Show Sensors</string>
-    <string name="show_hide_maf_title">Show M.A.F. Sensor</string>
-    <string name="show_hide_maf_summary">This sensor is not available on all vehicles</string>
-    <string name="show_hide_oil_temp_title">Show Oil Temperature Sensor</string>
-    <string name="show_hide_voltage_title">Show Voltage Sensor</string>
-    <string name="show_engine_load_title">Show Engine Load Sensor</string>
-    <string name="show_fuel_level_title">Show Fuel Level Sensor</string>
-    <string name="record_vals_title">Record Values</string>
-    <string name="max_liquid_temp">Max Coolant Temp:</string>
-    <string name="max_rpm">Max RPM:</string>
-    <string name="max_throttle">Max Throttle:</string>
-    <string name="min_voltage">Min Voltage:</string>
-    <string name="no_dtc_error">No DTC Errors</string>
-    <string name="dtc_error">DTC Errors Found!</string>
-    <string name="bt_dongle_disconnected">BT OBD Dongle Disconnected (Controller: Press Joystick Center / Terrain Enter to connect)</string>
-    <string name="bt_dongle_connected">BT OBD Dongle Connected</string>
-    <string name="bt_dongle_connect">Start OBD Connection</string>
-    <string name="bt_dongle_already_connected">OBD Dongle Already Connected</string>
-    <string name="reset_record_values">Reset Record Values</string>
-    <string name="auto_start_obd_connection_title">Auto Start OBD Connection</string>
-    <string name="auto_start_obd_connection_summary">If enabled will attempt to connect to OBD Dongle on app start</string>
-    <string name="coolant_temp_label">Coolant T.</string>
-    <string name="oil_temp_label">Oil T.</string>
-    <string name="intake_temp_label">Intake T.</string>
-    <string name="intake_pressure_label">Intake P.</string>
-    <string name="mass_air_flow">M.A.F.</string>
-    <string name="throttle_position">Throttle Position</string>
-    <string name="engine_load">Engine Load</string>
-    <string name="voltage">Voltage</string>
-    <string name="fuel_level">Fuel Level</string>
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
-    <string name="reset_dtc_errors">Reset DTC Errors</string>
-    <string name="throttle_options">Throttle Options</string>
-    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
-
-    <string name="use_fahrenheit">Use Fahrenheit instead of Celsius</string>
-
-    <string name="measure_correction_factor">Measures Correction</string>
-    <string name="distance_measure_correction_title">Distance Measure Correction Factor</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
-
-    <string name="select_share_app">Select App for Share</string>
-
-
-    <string name="map_view_options">Map Settings</string>
-    <string name="map_options_interface_cat_title">Interface Settings</string>
-    <string name="show_zoom_button">Show Zoom Buttons</string>
-    <string name="map_options_location_cat_title">Location Settings</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (if available)</string>
-
-
-    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
-    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
-
-    <string name="control_station_options">Options</string>
-    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
-    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
-
-    <string name="map_point_title">Long Press Map Location</string>
-    <string name="controller_cat_title">CARPE Controller Options</string>
-    <string name="enable_long_press_enter_title">Long press Enter lock</string>
-    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
-
-
-    <string name="gpx_options">GPX Options</string>
-    <string name="gpx_options_box_title">GPX Track Options</string>
-    <string name="track_line_width">Line Width:</string>
-    <string name="track_transparency">Line Transparency:</string>
-    <string name="track_orientation_arrow">Orientation Arrow Size:</string>
-
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
-    </string>
-    <string name="visit_shop">Visit Shop</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-
-
-    <!-- END OF UNTRANSLATED -->
-
-
-
 
     <string name="app_name">DMD2</string>
 
@@ -286,7 +20,7 @@
     <string name="cancel">Annuler</string>
     <string name="close">Fermer</string>
     <string name="swipe_message"> La plupart des vues affichent une barre verticale bleue à gauche de l’écran. Cela signifie qu’il y a un menu à gauche disponible, accessible en faisant glisser vers la droite de l’écran. Si vous utilisez un contrôleur CARPE, vous pouvez accéder au menu de gauche en appuyant sur Haut ou Bas.</string>
-    <string name="already_purchased">Ce plugin est déjà acheté</string>
+
     <string name="hide_menu">Masquer le Menu</string>
     <string name="select">Valider</string>
     <string name="delete">Supprimer</string>
@@ -296,6 +30,7 @@
     <string name="hide">Masquer</string>
     <string name="feet">pieds</string>
     <string name="unhide">Afficher</string>
+    <string name="select_share_app">Select App for Share</string>
 
 
     <!-- Bottom Menu -->
@@ -408,6 +143,10 @@
         <item>1000 meters</item>
         <item>2000 meters</item>
     </string-array>
+    <string name="use_fahrenheit">Fahrenheit à la place de Celsius</string>
+    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
+    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
+    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
 
 
     <!-- Widgets -->
@@ -489,6 +228,9 @@
     <string name="controller_default_message">Controller: Appuyer Haut pour sélectionner un  slider, appuyer bas pour retourner au menu.</string>
     <string name="rotation_locked">Rotation vérouillée</string>
     <string name="rotation_unlocked">Rotation dévérouillée</string>
+    <string name="control_station_options">Options</string>
+    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
+    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
 
 
     <!-- Roadbook -->
@@ -572,7 +314,10 @@
     <string name="roadbook_total_partial_controller_instructions">Controller: Haut/Bas/Gauche/Droit pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
     <string name="roadbook_decimals_controller_instructions">Controller: Gauche/Droite pour sélectionner un bouton. Entrer/Centre Click pour sélectionner.</string>
     <string name="roadbook_edit_values_guide">Controller: Haut/Bas change de 0.01, ZoomIn/Out change de 1, Centre/Entrer longue pression remise à zéro, Gauche/Droite pour Annuler/Sauvegarder</string>
-
+    <string name="roadbook_long_press_enter_summary">Appui long sur le click central du joystick / Terrain Enter will always toggle Controller Lock Mode</string>
+    <string name="measure_correction_factor">Corrections de mesures</string>
+    <string name="distance_measure_correction_title">Coéficient de Corrections de mesures</string>
+    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
 
 
     <!-- Map View -->
@@ -686,6 +431,27 @@
     <string name="obd_throttle_widget">OBD - Pourcentage accélérateur</string>
     <string name="obd_bat_widget">OBD - Tension batterie</string>
     <string name="obd_errors_widget">OBD - Compteur d\'erreurs DTC</string>
+    <string name="next_multiple">Connects to multiple tracks</string>
+    <string name="last_no_connection">Last GPX track / No connection to other</string>
+    <string name="next_section">Suivant:</string>
+    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
+    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
+    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
+    <string name="map_view_options">Paramettres de carte</string>
+    <string name="map_options_interface_cat_title">Paramètres de l\'interface</string>
+    <string name="show_zoom_button">Afficher les boutons de Zoom</string>
+    <string name="map_options_location_cat_title">Paramètres de Location</string>
+    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (Si disponible)</string>
+    <string name="gpx_options">Options GPX</string>
+    <string name="gpx_options_box_title">Options de trace GPX</string>
+    <string name="track_line_width">Epaisseur de la Ligne:</string>
+    <string name="track_transparency">Transparence de la Ligne:</string>
+    <string name="track_orientation_arrow">Dimension de la flêche d\'Orientation:</string>
+    <string name="map_point_title">Appui long Orientation de carte</string>
+    <string name="controller_cat_title">Options CARPE Controller</string>
+    <string name="enable_long_press_enter_title">Appui long "Enter" verrouillage</string>
+    <string name="enable_long_press_enter_message">If enabled when you long press enter/joystick center it will lock DMD2 in map view. Up/Down/Left/Right will pan the map. Long Press enter again to exist lock mode.</string>
+
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">Capteurs OBD</string>
@@ -703,6 +469,89 @@
     <string name="speed_value_source_title">Source de valeur de vitesse GPS</string>
     <string name="speed_value_source_summary">Utiliser le capteur de roue/GPS au lieu de la valeur de vitesse OBD (qui n\'est peut être pas disponnible)</string>
     <string name="max_rpm_title">Réglage du régime moteur maximum</string>
+    <string name="max_rpm_summary">Indique les valeurs max de tours/minute</string>
+    <string name="redline_rpm_title">Indique la zone rouge de tours/minute</string>
+    <string name="redline_rpm_summary">Indique la vateur de zone rouge (Affichera un cercle d\'avertissement rouge)</string>
+    <string name="shift_rpm_title">Indique une valeur de shifter Tr/mn</string>
+    <string name="shift_rpm_summary">Indique ta valeur idéale de shifter en tr/mn (Affichera un cercle d\'avertissement vert)</string>
+    <string name="show_hide_sensors_cat">Vue complete - Masquer / affiche capteurs</string>
+    <string name="show_hide_maf_title">Affiche capteur M.A.F.</string>
+    <string name="show_hide_maf_summary">Ce capteur n\'est pas disponible sur tous les véhicules</string>
+    <string name="show_hide_oil_temp_title">Affichier la température d\'huile</string>
+    <string name="show_hide_voltage_title">Affcher la tension batterie</string>
+    <string name="show_engine_load_title">Afficher la charge moteur</string>
+    <string name="show_fuel_level_title">Afficher le niveau d\'essence</string>
+    <string name="record_vals_title">Enregistrer les valeurs</string>
+    <string name="max_liquid_temp">Temparature eau Max:</string>
+    <string name="max_rpm">Tr/mn Max:</string>
+    <string name="max_throttle">Accélérateur Max:</string>
+    <string name="min_voltage">Tension Min:</string>
+    <string name="no_dtc_error">Pas d\'erreur DTC</string>
+    <string name="dtc_error">Erreurs DTC trouvés!</string>
+    <string name="bt_dongle_disconnected">BT OBD Dongle déconnecté (Controller: Appuie sur le centre du Joystick / Terrain Enter pour connecter)</string>
+    <string name="bt_dongle_connected">BT OBD Dongle Connecté</string>
+    <string name="bt_dongle_connect">SDémarrer la connection OBD</string>
+    <string name="bt_dongle_already_connected">OBD Dongle déjà Connecté</string>
+    <string name="reset_record_values">RAZ valeurs enregistrés</string>
+    <string name="auto_start_obd_connection_title">Auto démarrage OBD Connection</string>
+    <string name="auto_start_obd_connection_summary">Si activé connection à l\'OBD Dongle au démarage de l\'APP</string>
+    <string name="coolant_temp_label">T. Eau</string>
+    <string name="oil_temp_label">T. Huile</string>
+    <string name="intake_temp_label">T. Admission</string>
+    <string name="intake_pressure_label">P. Admission</string>
+    <string name="mass_air_flow">M.A.F.</string>
+    <string name="throttle_position">Position Accélérateur</string>
+    <string name="engine_load">Charge moteur</string>
+    <string name="voltage">Tension</string>
+    <string name="fuel_level">Niveau d\'essence</string>
+    <string name="obd_service_notification_title">Gestion OBD en fonctionnement</string>
+    <string name="obd_service_obd_connected">Connecté au dongle!</string>
+    <string name="obd_service_obd_disconnected">Déconnecté du dongle!</string>
+    <string name="reset_dtc_errors">RAZ Erreurs DTC</string>
+    <string name="throttle_options">Options Accélérateur</string>
+    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
+    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
+    <string name="calibrate_throttle_title">Calibrer la position de l\'accélerateur</string>
+    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
+    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
+    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
+    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
+    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
+    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
+
+    <!-- SHOP -->
+    <string name="shop_title">Magasin DMD2</string>
+    <string name="plugin_shop">Magasin des Plugins</string>
+    <string name="shop_description">Découvre les plugins disponibles pour DMD2. Achete et gére ton abonnement!</string>
+    <string name="map_view_plugin_title">Plugin de cartes</string>
+    <string name="map_view_plugin_description">Le plugin de cartes ajoute un rendu 3D à DMD2. Il inclue les cartes topographiques Horsligne, des courbes de niveau, la possibilité de charger plusieurs fichiers GPX avec des options de filtre (Couleur de tracé/longeur/transparence) et des widgets pour la vitesse, l\'orientation, l'altidute ou les valeur OBD.</string>
+    <string name="six_month">6 Mois</string>
+    <string name="one_year">Année</string>
+    <string name="lifetime">Illimité</string>
+    <string name="purchased_already">Cet article a été acheté et il est actif, aucune action n’est nécessaire.</string>
+    <string name="lifetime_owned">Tu as déjà la version Illimité. Il n\'y a pas d\'abonnement suplémentaire.</string>
+    <string name="sub_already_owned">Tu as déjà un abonnement actif, veux-tu l\'annuler?</string>
+    <string name="unsubscribe">Oui dé-inscrire l\'abonnement actif</string>
+    <string name="subscribe_new">Déjà fait, souscrire à un nouveau</string>
+    <string name="no_internet">Pas de connection internet! Pour gérer les abonnements tu dois avoir une connection internet avtive.</string>
+    <string name="roadbook_plugin_title">Plugin de Roabook</string>
+    <string name="roadbook_plugin_description">Le plugin permet de charger un roadbook en fichier PDF. Tu peux choisir de faire afficher 4 instruments comme les trips total ou partiel, l\'orientiation, la vitesse et le chronomètre. Tu peux gérer les instruments avec les accessoires Bluetooth CARPE Controller.</string>
+    <string name="already_purchased">Ce plugin est déjà acheté</string>
+    <string name="support_project">Supportez DMD2</string>
+    <string name="ads_title">Bonjour!</string>
+    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
+        \n\nWe are constantly working on this project to bring you new features!
+        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
+        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    </string>
+    <string name="visit_shop">Visitez le magasin</string>
+    <string name="no_ads_plugin">Pas de plugin plubicitaire</string>
+    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
+
 
 
 </resources>
