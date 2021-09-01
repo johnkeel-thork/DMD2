@@ -1,48 +1,5 @@
 <resources>
 
-    <!-- Untranslated -->
-
-    <string name="next_multiple">Ansluter till flera spår</string>
-    <string name="last_no_connection">Senaste GPX-spår / Ingen anslutning till andra</string>
-    <string name="next_section">Nästa:</string>
-    <string name="show_gpx_track_progress">Visa GPX-spår förlopp</string>
-    <string name="show_gpx_nextwaypoint">Visa GPX-spår nästa vägpunkt</string>
-    <string name="show_gpx_nextwaypoint2">Visa två nästa vägpunkter (två boxar)</string>   
-    
-
-    <string name="shop_title">DMD2 Shop</string>
-    <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Upptäck tillgängliga plugins för DMD2. Köp och hantera dina prenumerationer!</string>
-    <string name="map_view_plugin_title">Kart-plugin</string>
-    <string name="map_view_plugin_description">Kart-plugin ger dig en 3D-karta i DMD2. Den inkluderar topografiska offlinekartor, marktyper, möjlighet att ladda multipla GPX-filer med många val (färger/linjebredd/genomskinlighet) och även widgets för hastighet, riktning, höjd eller OBD-värden.</string>
-    <string name="six_month">6 månader</string>
-    <string name="one_year">År</string>
-    <string name="lifetime">Livstid</string>
-    <string name="purchased_already">Denna artikel är redan köpt, ingen åtgärd krävs.</string>
-    <string name="lifetime_owned">Du har redan köpt artikeln på livstid. Du behöver ingen mer prenumeration.</string>
-    <string name="sub_already_owned">Du har redan en aktiv prenumeration, vill du avsluta den först?</string>
-    <string name="unsubscribe">Ja, avsluta min aktiva prenumeration</string>
-    <string name="subscribe_new">Redan avslutad, jag vill skapa ny prenumeration</string>
-    <string name="no_internet">Ingen internetanslutning! För att hantera köp och prenumerationer behöver du vara uppkopplad till internet..</string>
-    <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">Roadbook-plugin låter dig ladda en PDF-fil som roadbook. Du kan konfigurera 4 instrument som total och partiell distans, kompassriktning, hastighet och chronometer och styra allt med en Bluetooth CARPE Controller.</string>
-
-    <string name="roadbook_long_press_enter_summary">Lång-tryck joystick center eller Terrain Enter styr alltid kontrollerns låsläge.</string>
-
-    <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hejsan!</string>
-    <string name="ads_thank_you_message">Tack för att du använder DMD2, vi hoppas du gillar det!
-        \n\nVi arbetar nu på detta projekt för att introducera ny funktionalitet!
-        \n\nOm du vill stödja detta projekt så köper du något från vår shop. Det tar även bort denna annonsplats!
-        \nNågra av de saker vi arbetar med är ruttkalylering, steg-för-steg navigation, POI-sök, väderinformation, multi-enhet sync och online filhantering, användarkonton och platsdelning (se dina vänner på kartan), bland mycket annat!
-    </string>
-    <string name="visit_shop">Besök shoppen</string>
-    <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Ta bort "Stötta DMD2" från menyvalen och ta bort annonser. OBS! Köper du någon annan plugin så försvinner anonnserna också. Detta är bara om du inte vill ha någon annan plugin. (Lräver omstart efter köp)</string>
-
-    <!-- End of Untranslated -->
-
-
 
     <!-- New / Not Translated -->
     <string name="gpx_options">GPX Options</string>
@@ -53,7 +10,6 @@
     <!-- End of New / Not Translated -->
 
 
-    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -198,6 +154,7 @@
     <string name="edit_bottom_menu_title">Redigera bottenmeny</string>
     <string name="edit_bottom_menu_message">Arrangera menyvalen och visa/göm dem</string>
     <string name="menu_sorter_title">Tryck och håll för att flytta. Använd reglaget för att visa/gömma.</string>
+    
 
 
     <!-- Widgets -->
@@ -365,6 +322,7 @@
     <string name="measure_correction_factor">Korrigering av mätvärden</string>
     <string name="distance_measure_correction_title">Korrigeringsfaktor distansvärde</string>
     <string name="distance_measure_correction_message">Distansvärdet kommer multipliceras med värdet du anger här. Använd detta som korrigeringsfaktor för att att matcha Roadbookens distanser.</string>
+    <string name="roadbook_long_press_enter_summary">Lång-tryck joystick center eller Terrain Enter styr alltid kontrollerns låsläge.</string>
 
 
     <!-- MapFragment View -->
@@ -488,7 +446,12 @@
     <string name="controller_cat_title">CARPE Kontrollerval</string>
     <string name="enable_long_press_enter_title">Långtryck för att låsa kartvyn</string>
     <string name="enable_long_press_enter_message">Om aktiverad så låser du kartvyn genom att långtrycka enter/joystick-center. Upp/ner/höger/vänster används för att panorera kartan. Långtryck igen för att gå ur låsta läget.</string>
-
+    <string name="next_multiple">Ansluter till flera spår</string>
+    <string name="last_no_connection">Senaste GPX-spår / Ingen anslutning till andra</string>
+    <string name="next_section">Nästa:</string>
+    <string name="show_gpx_track_progress">Visa GPX-spår förlopp</string>
+    <string name="show_gpx_nextwaypoint">Visa GPX-spår nästa vägpunkt</string>
+    <string name="show_gpx_nextwaypoint2">Visa två nästa vägpunkter (två boxar)</string>
 
 
     <!-- OBD SENSORS -->
@@ -560,6 +523,35 @@
     <string name="throttle_calib_finished">Högsta och lägsta gasvärden sparade</string>
     <string name="cant_calib_obd_disconnected">Anslut till ODB-dongeln först!</string>
     <string name="error_dongle_not_configurable">Ställ in ODB-dongeln först!</string>
+
+
+    <!-- ADS VIEW -->
+    <string name="support_project">Support DMD2</string>
+    <string name="ads_title">Hejsan!</string>
+    <string name="ads_thank_you_message">Tack för att du använder DMD2, vi hoppas du gillar det!
+        \n\nVi arbetar nu på detta projekt för att introducera ny funktionalitet!
+        \n\nOm du vill stödja detta projekt så köper du något från vår shop. Det tar även bort denna annonsplats!
+        \nNågra av de saker vi arbetar med är ruttkalylering, steg-för-steg navigation, POI-sök, väderinformation, multi-enhet sync och online filhantering, användarkonton och platsdelning (se dina vänner på kartan), bland mycket annat!
+    </string>
+    <string name="visit_shop">Besök shoppen</string>
+    <string name="shop_title">DMD2 Shop</string>
+    <string name="plugin_shop">Plugins Shop</string>
+    <string name="shop_description">Upptäck tillgängliga plugins för DMD2. Köp och hantera dina prenumerationer!</string>
+    <string name="map_view_plugin_title">Kart-plugin</string>
+    <string name="map_view_plugin_description">Kart-plugin ger dig en 3D-karta i DMD2. Den inkluderar topografiska offlinekartor, marktyper, möjlighet att ladda multipla GPX-filer med många val (färger/linjebredd/genomskinlighet) och även widgets för hastighet, riktning, höjd eller OBD-värden.</string>
+    <string name="six_month">6 månader</string>
+    <string name="one_year">År</string>
+    <string name="lifetime">Livstid</string>
+    <string name="purchased_already">Denna artikel är redan köpt, ingen åtgärd krävs.</string>
+    <string name="lifetime_owned">Du har redan köpt artikeln på livstid. Du behöver ingen mer prenumeration.</string>
+    <string name="sub_already_owned">Du har redan en aktiv prenumeration, vill du avsluta den först?</string>
+    <string name="unsubscribe">Ja, avsluta min aktiva prenumeration</string>
+    <string name="subscribe_new">Redan avslutad, jag vill skapa ny prenumeration</string>
+    <string name="no_internet">Ingen internetanslutning! För att hantera köp och prenumerationer behöver du vara uppkopplad till internet..</string>
+    <string name="roadbook_plugin_title">Roadbook Plugin</string>
+    <string name="roadbook_plugin_description">Roadbook-plugin låter dig ladda en PDF-fil som roadbook. Du kan konfigurera 4 instrument som total och partiell distans, kompassriktning, hastighet och chronometer och styra allt med en Bluetooth CARPE Controller.</string>
+    <string name="no_ads_plugin">No Ads Plugin</string>
+    <string name="no_ads_plugin_description">Ta bort "Stötta DMD2" från menyvalen och ta bort annonser. OBS! Köper du någon annan plugin så försvinner anonnserna också. Detta är bara om du inte vill ha någon annan plugin. (Lräver omstart efter köp)</string>
 
 
 </resources>
