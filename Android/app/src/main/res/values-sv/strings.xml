@@ -2,43 +2,43 @@
 
     <!-- Untranslated -->
 
-    <string name="next_multiple">Connects to multiple tracks</string>
-    <string name="last_no_connection">Last GPX track / No connection to other</string>
-    <string name="next_section">Next:</string>
-    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
-    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
-    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>   
+    <string name="next_multiple">Ansluter till flera spår</string>
+    <string name="last_no_connection">Senaste GPX-spår / Ingen anslutning till andra</string>
+    <string name="next_section">Nästa:</string>
+    <string name="show_gpx_track_progress">Visa GPX-spår förlopp</string>
+    <string name="show_gpx_nextwaypoint">Visa GPX-spår nästa vägpunkt</string>
+    <string name="show_gpx_nextwaypoint2">Visa två nästa vägpunkter (två boxar)</string>   
     
 
     <string name="shop_title">DMD2 Shop</string>
     <string name="plugin_shop">Plugins Shop</string>
-    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
-    <string name="map_view_plugin_title">Map Plugin</string>
-    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
-    <string name="six_month">6 Month</string>
-    <string name="one_year">Year</string>
-    <string name="lifetime">Lifetime</string>
-    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
-    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
-    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
-    <string name="unsubscribe">Yes Unsubscribe Active</string>
-    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
-    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
+    <string name="shop_description">Upptäck tillgängliga plugins för DMD2. Köp och hantera dina prenumerationer!</string>
+    <string name="map_view_plugin_title">Kart-plugin</string>
+    <string name="map_view_plugin_description">Kart-plugin ger dig en 3D-karta i DMD2. Den inkluderar topografiska offlinekartor, marktyper, möjlighet att ladda multipla GPX-filer med många val (färger/linjebredd/genomskinlighet) och även widgets för hastighet, riktning, höjd eller OBD-värden.</string>
+    <string name="six_month">6 månader</string>
+    <string name="one_year">År</string>
+    <string name="lifetime">Livstid</string>
+    <string name="purchased_already">Denna artikel är redan köpt, ingen åtgärd krävs.</string>
+    <string name="lifetime_owned">Du har redan köpt artikeln på livstid. Du behöver ingen mer prenumeration.</string>
+    <string name="sub_already_owned">Du har redan en aktiv prenumeration, vill du avsluta den först?</string>
+    <string name="unsubscribe">Ja, avsluta min aktiva prenumeration</string>
+    <string name="subscribe_new">Redan avslutad, jag vill skapa ny prenumeration</string>
+    <string name="no_internet">Ingen internetanslutning! För att hantera köp och prenumerationer behöver du vara uppkopplad till internet..</string>
     <string name="roadbook_plugin_title">Roadbook Plugin</string>
-    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
+    <string name="roadbook_plugin_description">Roadbook-plugin låter dig ladda en PDF-fil som roadbook. Du kan konfigurera 4 instrument som total och partiell distans, kompassriktning, hastighet och chronometer och styra allt med en Bluetooth CARPE Controller.</string>
 
-    <string name="roadbook_long_press_enter_summary">Long press joystick center click / Terrain Enter will always toggle Controller Lock Mode</string>
+    <string name="roadbook_long_press_enter_summary">Lång-tryck joystick center eller Terrain Enter styr alltid kontrollerns låsläge.</string>
 
     <string name="support_project">Support DMD2</string>
-    <string name="ads_title">Hello There!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    <string name="ads_title">Hejsan!</string>
+    <string name="ads_thank_you_message">Tack för att du använder DMD2, vi hoppas du gillar det!
+        \n\nVi arbetar nu på detta projekt för att introducera ny funktionalitet!
+        \n\nOm du vill stödja detta projekt så köper du något från vår shop. Det tar även bort denna annonsplats!
+        \nNågra av de saker vi arbetar med är ruttkalylering, steg-för-steg navigation, POI-sök, väderinformation, multi-enhet sync och online filhantering, användarkonton och platsdelning (se dina vänner på kartan), bland mycket annat!
     </string>
-    <string name="visit_shop">Visit Shop</string>
+    <string name="visit_shop">Besök shoppen</string>
     <string name="no_ads_plugin">No Ads Plugin</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
+    <string name="no_ads_plugin_description">Ta bort "Stötta DMD2" från menyvalen och ta bort annonser. OBS! Köper du någon annan plugin så försvinner anonnserna också. Detta är bara om du inte vill ha någon annan plugin. (Lräver omstart efter köp)</string>
 
     <!-- End of Untranslated -->
 
