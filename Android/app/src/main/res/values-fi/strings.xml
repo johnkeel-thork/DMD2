@@ -1,17 +1,5 @@
 <resources>
 
-
-    <!-- UNTRANSLATED -->
-    <string name="next_multiple">Yhdistyy useaan jälkeen/reittiin</string>
-    <string name="last_no_connection">Viimeinen GPX jälki/reitti - Ei yhteyttä muihin</string>
-    <string name="next_section">Seuraava:</string>
-    <string name="show_gpx_track_progress">Näytä GPX-jäljen/reitin edistyminen</string>
-    <string name="show_gpx_nextwaypoint">Näytä seuraava GPX-reittipiste</string>
-    <string name="show_gpx_nextwaypoint2">Näytä kaksi seuraavaa GPX-reittipistettä</string>
-    <!-- END OF UNTRANSLATED -->
-    
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -465,6 +453,12 @@
     <string name="track_line_width">Viivan leveys:</string>
     <string name="track_transparency">Viivan läpinäkyvyys:</string>
     <string name="track_orientation_arrow">Suuntanuolen koko:</string>
+    <string name="next_multiple">Yhdistyy useaan jälkeen/reittiin</string>
+    <string name="last_no_connection">Viimeinen GPX jälki/reitti - Ei yhteyttä muihin</string>
+    <string name="next_section">Seuraava:</string>
+    <string name="show_gpx_track_progress">Näytä GPX-jäljen/reitin edistyminen</string>
+    <string name="show_gpx_nextwaypoint">Näytä seuraava GPX-reittipiste</string>
+    <string name="show_gpx_nextwaypoint2">Näytä kaksi seuraavaa GPX-reittipistettä</string>
 
 
     <!-- OBD SENSORS -->
