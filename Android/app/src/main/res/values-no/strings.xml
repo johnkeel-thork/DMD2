@@ -1,21 +1,5 @@
 <resources>
 
-    <!-- UNTRANSLATED -->
-    <string name="next_multiple">Connects to multiple tracks</string>
-    <string name="last_no_connection">Last GPX track / No connection to other</string>
-    <string name="next_section">Next:</string>
-    <string name="show_gpx_track_progress">Show GPX Track Progress box</string>
-    <string name="show_gpx_nextwaypoint">Show GPX Track Next Waypoint box</string>
-    <string name="show_gpx_nextwaypoint2">Show next two waypoints (two boxes)</string>
-    <!-- END OF UNTRANSLATED -->
-    
-    
-
-    <!-- STATUS BAR -->
-    <string name="online_status">Online</string>
-    <string name="offline_status">Offline</string>
-
-
     <!-- COMMON / GLOBAL -->
     <string name="app_name">DMD2</string>
     <string name="mi">Mi</string>
@@ -32,14 +16,17 @@
     <string name="save">Lagre</string>
     <string name="cancel">Avbryt</string>
     <string name="close">Lukk</string>
-    <string name="swipe_message">Et blått vertikalt felt på venstre side av skjermen indikerer at venstre meny er tilgjengelig ved å sveipe inn fra venstre. Hvis du vruker en CARPE Controller vil menyen vises ved å trykke Opp eller Ned.</string>
-    <string name="already_purchased">Utvidelse kjøpt tidligere</string>
     <string name="hide_menu">Skjul meny</string>
     <string name="select">Velg</string>
     <string name="delete">Slett</string>
     <string name="update">Oppdater</string>
     <string name="feet">fot</string>
     <string name="unhide">Vis</string>
+
+
+    <!-- STATUS BAR -->
+    <string name="online_status">Online</string>
+    <string name="offline_status">Offline</string>
 
 
     <!-- BOTTOM MENU -->
@@ -182,12 +169,13 @@
     <string name="no_internet">Ingen tilkobling til internet! For åhåndtere kjøp og abonnement må du være online.</string>
     <string name="roadbook_plugin_title">Roadbookutvidelse</string>
     <string name="roadbook_plugin_description">Roadbookutvidelsen omfatter mulighet til å laste inn PDF roadbook filer. Du kan sette opp inntil 4 instrumenter (e.g. total and delvis kjørelengde, retning, hastighet og tidtaker. Alt kan kontrolleres med en Bluetooth CARPE Controller.</string>
-
+    <string name="already_purchased">Utvidelse kjøpt tidligere</string>
 
 
     <!-- HOME / DASHBOARD -->
     <string name="option_show_grid">Tilpasse skjermoppsett</string>
     <string name="select_widget">Velg programflis</string>
+    <string name="swipe_message">Et blått vertikalt felt på venstre side av skjermen indikerer at venstre meny er tilgjengelig ved å sveipe inn fra venstre. Hvis du vruker en CARPE Controller vil menyen vises ved å trykke Opp eller Ned.</string>
     <!-- Widgets -->
     <string name="none_empty_widget_desc">Ingen flis / Tomt felt</string>
     <string name="speed_widget_desc">Hastighet / Trip / Odo</string>
@@ -204,6 +192,7 @@
     <string name="tap_to_select_image">Trykk for å velge bilde</string>
     <string name="tap_to_edit_text">Trykk for å endre tekst</string>
     <string name="write_logo_message">Egen logotekst</string>
+    
 
 
     <!-- SPEEDO -->
@@ -478,6 +467,12 @@
     <string name="track_line_width">Sporbredde:</string>
     <string name="track_transparency">Gjennomsiktighet:</string>
     <string name="track_orientation_arrow">Størrelse på retningspil:</string>
+    <string name="next_multiple">Kobler til flere spor</string>
+    <string name="last_no_connection">Siste GPX markering / Ingen kobling til annet spor</string>
+    <string name="next_section">Neste:</string>
+    <string name="show_gpx_track_progress">Vis fremdrift på spor (GPX)</string>
+    <string name="show_gpx_nextwaypoint">Vis neste veipunkt (GPX)</string>
+    <string name="show_gpx_nextwaypoint2">Vis de to neste veipunkter (2 bokser)</string>
 
 
     <!-- OBD -->
