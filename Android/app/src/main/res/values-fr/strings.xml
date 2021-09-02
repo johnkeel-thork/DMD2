@@ -1,5 +1,44 @@
 <resources>
 
+    <!-- NOT TRANSLATED -->
+    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
+    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
+        \n\nWe are constantly working on this project to bring you new features!
+        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
+        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    </string>
+    
+    
+    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (Si disponible)</string>
+    
+    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
+    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
+    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
+    
+    
+    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
+    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
+    
+    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
+
+    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
+    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
+    <string name="calibrate_throttle_title">Calibrer la position de l\'accélerateur</string>
+    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
+    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
+    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
+    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
+    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
+    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
+    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
+
+    <!-- NOT TRANSLATED -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -144,9 +183,7 @@
         <item>2000 meters</item>
     </string-array>
     <string name="use_fahrenheit">Fahrenheit à la place de Celsius</string>
-    <string name="edit_bottom_menu_title">Edit Bottom Menu</string>
-    <string name="edit_bottom_menu_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_title">Touch and hold to move item. Use the switch to show or hide.</string>
+    
 
 
     <!-- Widgets -->
@@ -229,8 +266,7 @@
     <string name="rotation_locked">Rotation vérouillée</string>
     <string name="rotation_unlocked">Rotation dévérouillée</string>
     <string name="control_station_options">Options</string>
-    <string name="lock_rotation_system_wide_title">Lock Rotation System Wide</string>
-    <string name="lock_rotation_system_wide_summary">Instead of just locking rotation in DMD2 it will lock system wide even when DMD2 is running in the background</string>
+    
 
 
     <!-- Roadbook -->
@@ -317,9 +353,7 @@
     <string name="roadbook_long_press_enter_summary">Appui long sur le click central du joystick / Terrain Enter will always toggle Controller Lock Mode</string>
     <string name="measure_correction_factor">Corrections de mesures</string>
     <string name="distance_measure_correction_title">Coéficient de Corrections de mesures</string>
-    <string name="distance_measure_correction_message">Your distance measures will be multiplied by the value inserted here. Use this as a correction factor to match the Roadbook distance values.</string>
-
-
+    
     <!-- Map View -->
     <string name="offline_map_manager">Gestion des cartes hors ligne</string>
     <string name="map_manager">Gestion des cartes</string>
@@ -441,7 +475,6 @@
     <string name="map_options_interface_cat_title">Paramètres de l\'interface</string>
     <string name="show_zoom_button">Afficher les boutons de Zoom</string>
     <string name="map_options_location_cat_title">Paramètres de Location</string>
-    <string name="use_compass_when_stop">When stopped use Compass Sensor for heading (Si disponible)</string>
     <string name="gpx_options">Options GPX</string>
     <string name="gpx_options_box_title">Options de trace GPX</string>
     <string name="track_line_width">Epaisseur de la Ligne:</string>
@@ -509,26 +542,14 @@
     <string name="obd_service_obd_disconnected">Déconnecté du dongle!</string>
     <string name="reset_dtc_errors">RAZ Erreurs DTC</string>
     <string name="throttle_options">Options Accélérateur</string>
-    <string name="use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="calibrate_throttle_title">Calibrer la position de l\'accélerateur</string>
-    <string name="calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <string name="min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_minimum">SET MINIMUM</string>
-    <string name="max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE AND LEAVE IGNITION ON! Make sure your throttle position is in the maximum position (full open throttle). Press the SET button when ready.</string>
-    <string name="throttle_calib_set_maximum">SET MAXIMUM</string>
-    <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
-    <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
+    
 
     <!-- SHOP -->
     <string name="shop_title">Magasin DMD2</string>
     <string name="plugin_shop">Magasin des Plugins</string>
     <string name="shop_description">Découvre les plugins disponibles pour DMD2. Achete et gére ton abonnement!</string>
     <string name="map_view_plugin_title">Plugin de cartes</string>
-    <string name="map_view_plugin_description">Le plugin de cartes ajoute un rendu 3D à DMD2. Il inclue les cartes topographiques Horsligne, des courbes de niveau, la possibilité de charger plusieurs fichiers GPX avec des options de filtre (Couleur de tracé/longeur/transparence) et des widgets pour la vitesse, l\'orientation, l'altidute ou les valeur OBD.</string>
+    <string name="map_view_plugin_description">Le plugin de cartes ajoute un rendu 3D à DMD2. Il inclue les cartes topographiques Horsligne, des courbes de niveau, la possibilité de charger plusieurs fichiers GPX avec des options de filtre (Couleur de tracé/longeur/transparence) et des widgets pour la vitesse, l\'orientation, l\'altidute ou les valeur OBD.</string>
     <string name="six_month">6 Mois</string>
     <string name="one_year">Année</string>
     <string name="lifetime">Illimité</string>
@@ -543,15 +564,8 @@
     <string name="already_purchased">Ce plugin est déjà acheté</string>
     <string name="support_project">Supportez DMD2</string>
     <string name="ads_title">Bonjour!</string>
-    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
-        \n\nWe are constantly working on this project to bring you new features!
-        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
-        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
-    </string>
+
     <string name="visit_shop">Visitez le magasin</string>
     <string name="no_ads_plugin">Pas de plugin plubicitaire</string>
-    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
-
-
 
 </resources>
