@@ -67,21 +67,15 @@
         <item>Sensor de roda apenas quando precisão de GPS for baixa</item>
     </string-array>
     <string name="dmd2_plugins">Plugins para DMD2</string>
-    <string name="get_roadbook_title">Roadbook - Comprar</string>
-    <string name="get_roadbook_title_purchased">Roadbook - Comprado / Activo</string>
-    <string name="get_roadbook_message">Abre ficheiros de Roadbook em formato PDF, configura até quatro instrumentos como Total, Parcial, Rumo e Velocidade. Controla tudo com um Controlador Remoto BT de guiador.</string>
-    <string name="get_mapview_title">Mapa (Accesso Antecipado) - Comprar</string>
-    <string name="get_mapview_title_purchased">Mapa - Comprado / Activo</string>
-    <string name="get_mapview_message">Mapas topograficos offline, edificios 3D, sombreado de relevo (online), seguir / gravar GPX e muito mais. Navegação e pesquisa de POI para breve.</string>
     <string name="connection_error">Impossivel ligar, confirme que está online / tente reiniciar a app!</string>
     <string name="auto_hide_left_menu_indicator">Esconder indicador do menu esquerdo automaticamente</string>
     <string name="oem_registration">Registo OEM</string>
     <string name="oem_check">Registar App (necessita ligação internet)</string>
     <string name="oem_check_summary">Usar apenas se a sua mota estava equipada de série com o DMD2.</string>
     <string name="roadbook_plugin_missing_title">Plugin de Roadbook Necessário</string>
-    <string name="roadbook_plugin_missing_message">Para visualizar ficheiros Roadbook PDF é necessário o plugin de Roadbook.</string>
+    <string name="roadbook_plugin_missing_message">Para usar o Roadbook é necessário o plugin de Roadbook. Actualmente em modo demo de uma hora.</string>
     <string name="map_plugin_missing_title">Plugin de Mapa Necessário</string>
-    <string name="map_plugin_missing_message">Para visualizar ficheiros GPX é necessário o plugin de Mapa.</string>
+    <string name="map_plugin_missing_message">Para usar o mapa é necessário o plugin de Mapa. Actualmente em modo demo de uma hora.</string>
     <string name="storage_options_category">Opções de Armazenamento</string>
     <string name="save_maps_to_sd">Usar cartão SD para mapas offline</string>
     <string name="sd_card_error">Erro ao aceder ao cartão SD, funcionalidade incompatível com dispositivo!</string>
@@ -151,6 +145,22 @@
     <string name="edit_bottom_menu_title">Editar Menu Principal</string>
     <string name="edit_bottom_menu_message">Reordenar e activar/desactivar items do menu inferior</string>
     <string name="menu_sorter_title">Toque e segure para mover items. Use o switch para mostrar / esconder.</string>
+    <string name="shop_title">DMD2 Shop</string>
+    <string name="plugin_shop">Plugins Shop</string>
+    <string name="shop_description">Discover the available plugins for DMD2. Purchase and manage your subscriptions!</string>
+    <string name="map_view_plugin_title">Map Plugin</string>
+    <string name="map_view_plugin_description">The map plugin adds a 3D rendered map view to DMD2. It includes Topographic offline maps, graded ground type, ability to load multiple GPX files with many GPX options like (track color/width/transparency) and even widgets for speed, heading, altitude or OBD values.</string>
+    <string name="six_month">6 Meses</string>
+    <string name="one_year">Ano</string>
+    <string name="lifetime">Vitalicio</string>
+    <string name="purchased_already">This item is purchased and active, no further action needed.</string>
+    <string name="lifetime_owned">You already purchased the lifetime version. There is no need for extra subscriptions.</string>
+    <string name="sub_already_owned">You already have an active subscription, do you want to cancel it first?</string>
+    <string name="unsubscribe">Yes Unsubscribe Active</string>
+    <string name="subscribe_new">Already Did Let´s Subscribe New</string>
+    <string name="no_internet">No Internet connection! To manage purchases and subscriptions you need an active internet connection.</string>
+    <string name="roadbook_plugin_title">Roadbook Plugin</string>
+    <string name="roadbook_plugin_description">The roadbook plugin adds the ability to load a PDF roadbook file. You can configure up to 4 instruments like total and partial distances, heading, speed and chronometer and control everything using a Bluetooth CARPE Controller.</string>
 
 
     <!-- Widgets -->
@@ -288,6 +298,7 @@
     <string name="roadbook_controller_button_right">Joystick Direita / Terrain Direita</string>
     <string name="roadbook_controller_button_enter">Joystick Click Centro / Terrain Enter</string>
     <string name="roadbook_controller_button_enter_long">Pressionar Longo - Joystick Click Centro / Terrain Enter</string>
+    <string name="roadbook_long_press_enter_summary">Este botão activa e desactiva o modo de bloqueio de Controllador</string>
     <string name="roadbook_controller_button_zoomin">Botão A / Zoom In</string>
     <string name="roadbook_controller_button_zoomout">Botão B / Zoom Out</string>
     <string name="roadbook_controller_scroll_amount_title">Quantidade de scroll por click</string>
@@ -436,6 +447,119 @@
     <string name="track_line_width">Espessura da Linha:</string>
     <string name="track_transparency">Transparência:</string>
     <string name="track_orientation_arrow">Tamanho Setas Direcção:</string>
+    <string name="next_multiple">Com ligação a multiplas tracks</string>
+    <string name="last_no_connection">Última track / Sem conecção</string>
+    <string name="next_section">Próximo:</string>
+    <string name="show_gpx_track_progress">Mostrar caixa de progresso do GPX</string>
+    <string name="show_gpx_nextwaypoint">Mostrar caixa de informação do próximo waypoint</string>
+    <string name="show_gpx_nextwaypoint2">Mostrar próximos dois waypoits (duas caixas)</string>
+    <string name="file_browser_title">Ficheiros</string>
+    <string name="gpx_files">Ficheiros GPX</string>
+    <string name="locations">Localizações</string>
+    <string name="open_folder">Abrir</string>
+    <string name="new_folder">Nova Pasta</string>
+    <string name="delete_folder">Apagar</string>
+    <string name="rename_folder">Renomear</string>
+    <string name="select_folder_first">Selecione uma pasta primeiro!</string>
+    <string name="imported_folder_delete_error">Imported folder cannot be deleted!</string>
+    <string name="recording_folder_delete_error">Recordings folder cannot be deleted!</string>
+    <string name="imported_folder_name">Imported Loaded Files</string>
+    <string name="recordings_folder_name">Recordings</string>
+    <string name="imported_folder_rename_error">Imported folder cannot be renamed!</string>
+    <string name="recordings_folder_rename_error">Recordings folder cannot be renamed!</string>
+    <string name="type_renamed_folder_name">Rename folder to:</string>
+    <string name="not_allowed_folder_name">You cannot name a folder Recordings or Imported!</string>
+    <string name="folder_already_exists">A folder with that name already exists, try another name!</string>
+    <string name="error_renaming_folder">Error renaming folder!</string>
+    <string name="type_new_folder_name">Type the new folder name:</string>
+    <string name="new_folder_default_name">New Folder</string>
+    <string name="error_creating_new_folder">Error creating new folder!</string>
+    <string name="open_gpx_file">Abrir</string>
+    <string name="delete_gpx_file">Apagar</string>
+    <string name="import_gpx_file">Importar</string>
+    <string name="rename_gpx_file">Renomear</string>
+    <string name="move_gpx_file">Mover Para</string>
+    <string name="move_gpx_file_move_here">Mover Aqui</string>
+    <string name="move_gpx_file_copy_here">Copiar Aqui</string>
+    <string name="cannot_copy_to_this_folder">You cannot copy to this folder, select another!</string>
+    <string name="select_folder_first_error">Click on the folder where you want to place the file!</string>
+    <string name="copy_gpx_file">Copiar Para</string>
+    <string name="share_gpx_file">Partilhar</string>
+    <string name="share_using">Choose how to share the file</string>
+    <string name="file_already_loaded">This file is already loaded!</string>
+    <string name="file_delete_error_imported">You cannot delete files from Imported folder!</string>
+    <string name="file_delete_error_select_first">Select a file first!</string>
+    <string name="file_rename_imported_error">You cannot rename a file in this directory!</string>
+    <string name="file_rename_dialog_title">Type new filename:</string>
+    <string name="file_rename_error_already_exist">A file with the same name already exists!</string>
+    <string name="file_rename_error_other">There was an error renaming the file!</string>
+    <string name="file_import_not_allowed_here">You cannot import files here!</string>
+    <string name="file_import_error">Error importing file!</string>
+    <string name="save_location">Guardar</string>
+    <string name="share_location">Partilhar</string>
+    <string name="edit_location">Editar</string>
+    <string name="location_action_error_select_first">Please select a location first!</string>
+    <string name="location_default_title">Localização</string>
+    <string name="location_default_description">Saved location at</string>
+    <string name="save_location_title">Guardar Localização</string>
+    <string name="location_title_input_label">Nome:</string>
+    <string name="location_description_input_label">Descrição:</string>
+    <string name="clear_button">Limpar</string>
+    <string name="map_pin_icon">Category Pin Icon / Photo:</string>
+    <string name="select_pin_icon_title">Select Category (Pin Icon)</string>
+    <string name="location_view_cats">Category Filter</string>
+    <string name="all_categories">Todos</string>
+    <string name="location_show">Mostrar No Mapa</string>
+    <string name="all_pins_loaded_on_map">Visible on Map</string>
+    <string name="category_filter_error">No locations match the filter!</string>
+    <string name="save_new_location">Add New</string>
+    <string name="save_location_error_no_location_yet">No GPS location acquired yet!</string>
+
+    <string name="Default">Default</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Bar">Bar</string>
+    <string name="GasStation">Gas Station</string>
+    <string name="Summit">Summit</string>
+    <string name="Lodging">Lodging</string>
+    <string name="Civil">Civil Building</string>
+    <string name="Campground">Campground</string>
+    <string name="ScenicArea">Scenic Area</string>
+    <string name="ATV">ATV</string>
+    <string name="CarRepair">Repair</string>
+    <string name="Church">Church</string>
+    <string name="RestrictedArea">Restricted Area</string>
+    <string name="Information">Information</string>
+    <string name="FishingArea">Fishing Area</string>
+    <string name="ShoppingCenter">Shopping / Store</string>
+    <string name="FlagRed">Red Flag</string>
+    <string name="FlagGreen">Green Flag</string>
+    <string name="FlagBlue">Blue Flag</string>
+    <string name="DrinkingWater">Drinking Water</string>
+    <string name="Park">Natural Park</string>
+    <string name="Residence">Residential Area</string>
+    <string name="Military">Military Area</string>
+    <string name="Crossing">Crossing</string>
+    <string name="Cave">Cave or Mine</string>
+    <string name="DangerArea">Danger</string>
+    <string name="Ferry">Ferry</string>
+    <string name="Cemetery">Cemetery</string>
+    <string name="Anchor">Anchor</string>
+    <string name="AmusementPark">Amusement Park</string>
+    <string name="PicnicArea">Picnic Area</string>
+    <string name="Bank">Bank or ATM</string>
+    <string name="Hospital">Hospital</string>
+    <string name="Pharmacy">Pharmacy</string>
+    <string name="Telephone">Telephone</string>
+    <string name="Airport">Airport</string>
+    <string name="Restrooms">Restrooms</string>
+    <string name="SwimmingArea">Swimming Area</string>
+    <string name="Parking">Parking Space</string>
+    <string name="RVPark">RV Parking</string>
+    <string name="Dam">Dam</string>
+    <string name="Police">Police</string>
+    <string name="TollBooth">Toll Booth</string>
+    <string name="End">Checkered Flag</string>
+
     <!-- Map Options View -->
     <string name="map_view_options">Configuração</string>
     <string name="map_options_interface_cat_title">Opções de Interface</string>
@@ -517,5 +641,17 @@
     <string name="throttle_calib_finished">Maximum and Minimum Throttle Set</string>
     <string name="cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
     <string name="error_dongle_not_configurable">Please Configure BT OBD Dongle First!</string>
+
+    <!-- ADS VIEW -->
+    <string name="support_project">Support DMD2</string>
+    <string name="ads_title">Hello There!</string>
+    <string name="ads_thank_you_message">Thank you for using DMD2, we hope you are enjoying it!
+        \n\nWe are constantly working on this project to bring you new features!
+        \n\nIf you want to support this project please consider purchasing anything from our shop, It will also remove this Ads view!
+        \nSome of the stuff we are working on includes, route calculation, turn by turn navigation, POI search, weather information, multi-device sync and online file management, user accounts and location sharing (viewing everyone on the map), among many other features!
+    </string>
+    <string name="visit_shop">Visit Shop</string>
+    <string name="no_ads_plugin">No Ads Plugin</string>
+    <string name="no_ads_plugin_description">Remove the Support DMD2 menu entry and all adds from the app. Only buy this plugin if you do not want any other plugin since buying any other plugin will also remove the view and adds. (Requires app restart after purchase)</string>
 
 </resources>
