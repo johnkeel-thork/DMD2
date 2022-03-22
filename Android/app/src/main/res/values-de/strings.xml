@@ -1,113 +1,107 @@
 <resources>
 
     <!-- NOT TRANSLATED -->
-    
-    <string name="file_browser_title">Datei Browser</string>
-    <string name="gpx_files">GPX Dateien</string>
-    <string name="locations">Orte</string>
-    <string name="open_folder">Öffnen</string>
-    <string name="new_folder">Neuer Ordner</string>
-    <string name="delete_folder">Löschen</string>
-    <string name="rename_folder">Umbenennen</string>
-    <string name="select_folder_first">Ordner auswählen!</string>
-    <string name="imported_folder_delete_error">Ordner kann nicht gelöscht werden!</string>
-    <string name="recording_folder_delete_error">Ordner kann nicht gelöscht werden!</string>
-    <string name="imported_folder_name">Geladene importierte Dateien</string>
-    <string name="recordings_folder_name">Aufzeichnungen</string>
-    <string name="imported_folder_rename_error">Ordner kann nicht umbenannt werden!</string>
-    <string name="recordings_folder_rename_error">Ordner kann nicht umbenannt werden!</string>
-    <string name="type_renamed_folder_name">Ordner umbenennen in:</string>
-    <string name="not_allowed_folder_name">Ordner-Name nicht erlaubt!</string>
-    <string name="folder_already_exists">Es existiert bereits ein Ordner mit diesem Namen!</string>
-    <string name="error_renaming_folder">Fehler beim Umbenennen!</string>
-    <string name="type_new_folder_name">Neuen Ordner-Namen eingeben:</string>
-    <string name="new_folder_default_name">Neuer Ordner</string>
-    <string name="error_creating_new_folder"Fehler beim Anlegen des neuen Ordners!</string>
-    <string name="open_gpx_file">Öffnen</string>
-    <string name="delete_gpx_file">Löschen</string>
-    <string name="import_gpx_file">Importieren</string>
-    <string name="rename_gpx_file">Umbenennen</string>
-    <string name="move_gpx_file">Verschiebe in</string>
-    <string name="move_gpx_file_move_here">Verschiebe hierher</string>
-    <string name="move_gpx_file_copy_here">Kopiere hierher</string>
-    <string name="cannot_copy_to_this_folder">In diesen Ordner kopieren nicht gestattet!</string>
-    <string name="select_folder_first_error">Ordner auswählen zu dem die Datei soll!</string>
-    <string name="copy_gpx_file">Kopiere in</string>
-    <string name="share_gpx_file">Teilen</string>
-    <string name="share_using">Wie soll geteilt werden?</string>
-    <string name="file_already_loaded">Datei bereits geladen!</string>
-    <string name="file_delete_error_imported">In diesem Ordner können Dateien nicht gelöscht werden!</string>
-    <string name="file_delete_error_select_first">Datei auswählen!</string>
-    <string name="file_rename_imported_error">In diesem Ordner können Dateien nicht umbenannt werden!</string>
-    <string name="file_rename_dialog_title">Neuer Dateiname:</string>
-    <string name="file_rename_error_already_exist">Eine Datei mit diesem Namen gibt es bereits!</string>
-    <string name="file_rename_error_other">Fehler beim umbenennen!</string>
-    <string name="file_import_not_allowed_here">Dateien können nicht hierher importiert werden!</string>
-    <string name="file_import_error">Fehler beim Importieren!</string>
-    <string name="save_location">Speichern</string>
-    <string name="share_location">Teilen</string>
-    <string name="edit_location">Bearbeiten</string>
-    <string name="location_action_error_select_first">Bitte erst einen Ort wählen!</string>
-    <string name="location_default_title">Ort</string>
-    <string name="location_default_description">Ort gespeichert in</string>
-    <string name="save_location_title">Ort speichern</string>
-    <string name="location_title_input_label">Titel:</string>
-    <string name="location_description_input_label">Beschreibung:</string>
-    <string name="clear_button">Clear</string>
-    <string name="map_pin_icon">Kategorie für Stecknadel Symbol / Foto:</string>
-    <string name="select_pin_icon_title">Wähle Kategorie (Stecknadel Symbol)</string>
-    <string name="location_view_cats">Kategorie Filter</string>
-    <string name="all_categories">Alle</string>
-    <string name="location_show">Auf der Karte anzeigen</string>
-    <string name="all_pins_loaded_on_map">Sichtbar auf der Karte</string>
-    <string name="category_filter_error">Keine passende Orte zum Filter!</string>
-    <string name="save_new_location">Hinzufügen</string>
-    <string name="save_location_error_no_location_yet">Keine GPS Ortsbestimmung möglich!</string>
 
-    <string name="Default">Standard</string>
-    <string name="Restaurant">Restaurant</string>
-    <string name="Bar">Bar</string>
-    <string name="GasStation">Tankstelle</string>
-    <string name="Summit">Gipfel</string>
-    <string name="Lodging">Unterkunft</string>
-    <string name="Civil">Öffentliches Gebäude</string>
-    <string name="Campground">Campingplatz</string>
-    <string name="ScenicArea">Szenische Gegend</string>
-    <string name="ATV">ATV</string>
-    <string name="CarRepair">Werkstatt</string>
-    <string name="Church">Kirche</string>
-    <string name="RestrictedArea">Verbotener Bereich</string>
-    <string name="Information">Information</string>
-    <string name="FishingArea">Angeln</string>
-    <string name="ShoppingCenter">Einkaufen / Geschäft</string>
-    <string name="FlagRed">Rote Fahne</string>
-    <string name="FlagGreen">Grüne Fahne</string>
-    <string name="FlagBlue">Blaue Fahne</string>
-    <string name="DrinkingWater">Trinkwasser</string>
-    <string name="Park">Park</string>
-    <string name="Residence">Wohngebiet</string>
-    <string name="Military">Militärgebiet</string>
-    <string name="Crossing">Kreuzung</string>
-    <string name="Cave">Höhle / Mine</string>
-    <string name="DangerArea">Gefahrengebiet</string>
-    <string name="Ferry">Fähre</string>
-    <string name="Cemetery">Friedhof</string>
-    <string name="Anchor">Zuflucht</string>
-    <string name="AmusementPark">Freizeitpark</string>
-    <string name="PicnicArea">Rastplatz</string>
-    <string name="Bank">Bank / Geldautomat</string>
-    <string name="Hospital">Krankenhaus</string>
-    <string name="Pharmacy">Aptheke</string>
-    <string name="Telephone">Telefon</string>
-    <string name="Airport">Flughafen</string>
-    <string name="Restrooms">Toilette</string>
-    <string name="SwimmingArea">Schwimmgebiet</string>
-    <string name="Parking">Parkplatz</string>
-    <string name="RVPark">Wohnmobil Parken</string>
-    <string name="Dam">Damm</string>
-    <string name="Police">Polizei</string>
-    <string name="TollBooth">Mautstelle</string>
-    <string name="End">Zielflagge</string>
+    <string name="gpx_recorder_cat_title_precision">Recorder Precision</string>
+    <string name="gpx_recorder_cat_title_automation">Automation</string>
+    <string name="gps_record_minimum_distance">Minimum distance between points</string>
+    <string name="gpx_record_maximum_accuracy">Maximum allowed accuracy in meters (lower accuracy is more precise but might skip points)</string>
+    <string name="auto_record_gpx_title">Automatically Start Recording</string>
+    <string name="file_split_rule">Automatic recording file split rule</string>
+    <string-array name="gpx_auto_record_reason" translatable="true">
+        <item>Date Based - 1 file per day (Changes at 00:00)</item>
+        <item>Time Stopped - Starts new file after at least 6h stopped</item>
+        <item>Time Stopped - Starts new file after at least 8h stopped</item>
+        <item>Time Stopped - Starts new file after at least 12h stopped</item>
+        <item>Time Stopped - Starts new file after at least 24h stopped</item>
+    </string-array>
+    <string name="auto_track_maker">Automatically Split into Tracks</string>
+    <string-array name="auto_track_maker_reason" translatable="true">
+        <item>Do not create tracks automatically</item>
+        <item>Distance - 10 (Km / Miles)</item>
+        <item>Distance - 20 (Km / Miles)</item>
+        <item>Distance - 30 (Km / Miles)</item>
+        <item>Distance - 50 (Km / Miles)</item>
+        <item>Distance - 100 (Km / Miles)</item>
+        <item>Distance - 200 (Km / Miles)</item>
+        <item>Distance - 300 (Km / Miles)</item>
+        <item>Distance - 500 (Km / Miles)</item>
+        <item>Time - 30 minutes</item>
+        <item>Time - 1 hour</item>
+        <item>Time - 2 hours</item>
+        <item>Time - 3 hours</item>
+        <item>Time - 5 hours</item>
+        <item>Time - 8 hours</item>
+        <item>Time - 12 hours</item>
+        <item>Time - 24 hours</item>
+    </string-array>
+
+    <string name="auto_waypoint_maker">Automatically Create Waypoints</string>
+    <string-array name="auto_waypoint_maker_reason" translatable="true">
+        <item>Do not create waypoints automatically</item>
+        <item>Distance - 10 (Km / Miles)</item>
+        <item>Distance - 15 (Km / Miles)</item>
+        <item>Distance - 20 (Km / Miles)</item>
+        <item>Distance - 25 (Km / Miles)</item>
+        <item>Distance - 30 (Km / Miles)</item>
+        <item>Distance - 35 (Km / Miles)</item>
+        <item>Distance - 50 (Km / Miles)</item>
+        <item>Distance - 100 (Km / Miles)</item>
+        <item>Distance - 150 (Km / Miles)</item>
+        <item>Distance - 200 (Km / Miles)</item>
+        <item>Distance - 250 (Km / Miles)</item>
+        <item>Distance - 500 (Km / Miles)</item>
+        <item>Time - 30 minutes</item>
+        <item>Time - 1 hour</item>
+        <item>Time - 2 hours</item>
+        <item>Time - 3 hours</item>
+        <item>Time - 5 hours</item>
+        <item>Time - 8 hours</item>
+        <item>Time - 12 hours</item>
+        <item>Time - 24 hours</item>
+    </string-array>
+    <string name="gpx_recorder_title">GPX Recorder</string>
+    <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
+    <string name="gpx_recorder_state_recording">Recording (Press to Pause)</string>
+    <string name="gpx_recorder_state_paused">Paused (Press to Resume)</string>
+    <string name="gpx_recorder_manage_tracks">Tracks</string>
+    <string name="gpx_recorder_manage_waypoints">Waypoints</string>
+    <string name="gpx_recorder_manage_finish">Finish</string>
+    <string name="gpx_recorder_manage_options">Settings</string>
+    <string name="gpx_recorder_finish_confirmation">Are you sure you want to finish the recording? This cannot be undone!</string>
+    <string name="gpx_recorder_finish_name">Set the GPX file name</string>
+    <string name="gpx_recorder_empty_error">GPX Recording is empty, no file created!</string>
+    <string name="gpx_recorder_already_exists_error">A file with that name already exists, please choose a different name!</string>
+    <string name="gpx_recorder_tracks_label">Tracks:</string>
+    <string name="gpx_recorder_waypoints_label">Waypoints:</string>
+    <string name="gpx_recorder_points_label">Points:</string>
+    <string name="gpx_recorder_distance_label">Distance:</string>
+    <string name="gpx_recorder_time_label">Time:</string>
+    <string name="gpx_recorder_started_label">Date:</string>
+    <string name="gpx_not_recording_error">GPX not recording. Start recording first!</string>
+    <string name="gpx_recorder_discard">Discard GPX</string>
+    <string name="gpx_recorder_advanced_options">Advanced</string>
+    <string name="gpx_recorder_manual_mode">Manual Mode</string>
+    <string name="gpx_recorder_automatic_mode">Automatic Mode</string>
+    <string name="gpx_recorder_error_no_points_yet">You have not recorded any point yet!</string>
+    <string name="gpx_recorder_waypoint_error_no_location">No valid location yet, try again after you get a valid location update!</string>
+    <string name="gpx_recorder_layout_done">Done</string>
+    <string name="gpx_recorder_layout_show_track_lines">Show lines on map:</string>
+    <string name="gpx_recorder_layout_show_waypoints_lines">Show waypoints on map:</string>
+    <string name="gpx_recorder_layout_default_track_color">Line color (overwrites current):</string>
+    <string name="gpx_recorder_layout_set_waypoint_name">Set the Waypoint title:</string>
+    <string name="gpx_recorder_layout_set_track_name">Set the Track title:</string>
+    <string name="gpx_recorder_controls_name">Controls</string>
+    <string name="gpx_recorder_no_tracks_yet_error">No tracks yet!</string>
+    <string name="gpx_recorder_no_waypoints_yet_error">No waypoints yet!</string>
+    <string name="gpx_recorder_track_edit_title">Track Title:</string>
+    <string name="gpx_recorder_track_edit_description">Track Description:</string>
+    <string name="gpx_recorder_track_edit_save_done">Done</string>
+    <string name="gpx_recorder_waypoint_edit_title">Waypoint Title:</string>
+    <string name="gpx_recorder_waypoint_edit_description">Waypoint Description:</string>
+    <string name="gpx_recorder_rewind_error_not_recording">Recorder is stopped, nothing to edit!</string>
+    <string name="gpx_recorder_rewind_instructions">Tap anywhere on the track to cut back to that point, use the crosshair button above to cut to your current location, or use the controls to move in time:</string>
+
 
     <!-- END OF NOT TRANSLATED -->
 
@@ -586,6 +580,113 @@
     <string name="show_gpx_track_progress">Zeige GPX-Track Fortschritts Box</string>
     <string name="show_gpx_nextwaypoint">Zeige GPX-Track nächster Wegpunkt Box</string>
     <string name="show_gpx_nextwaypoint2">Zeige nächste zwei Wegpunkte</string>
+    <string name="file_browser_title">Datei Browser</string>
+    <string name="gpx_files">GPX Dateien</string>
+    <string name="locations">Orte</string>
+    <string name="open_folder">Öffnen</string>
+    <string name="new_folder">Neuer Ordner</string>
+    <string name="delete_folder">Löschen</string>
+    <string name="rename_folder">Umbenennen</string>
+    <string name="select_folder_first">Ordner auswählen!</string>
+    <string name="imported_folder_delete_error">Ordner kann nicht gelöscht werden!</string>
+    <string name="recording_folder_delete_error">Ordner kann nicht gelöscht werden!</string>
+    <string name="imported_folder_name">Geladene importierte Dateien</string>
+    <string name="recordings_folder_name">Aufzeichnungen</string>
+    <string name="imported_folder_rename_error">Ordner kann nicht umbenannt werden!</string>
+    <string name="recordings_folder_rename_error">Ordner kann nicht umbenannt werden!</string>
+    <string name="type_renamed_folder_name">Ordner umbenennen in:</string>
+    <string name="not_allowed_folder_name">Ordner-Name nicht erlaubt!</string>
+    <string name="folder_already_exists">Es existiert bereits ein Ordner mit diesem Namen!</string>
+    <string name="error_renaming_folder">Fehler beim Umbenennen!</string>
+    <string name="type_new_folder_name">Neuen Ordner-Namen eingeben:</string>
+    <string name="new_folder_default_name">Neuer Ordner</string>
+    <string name="error_creating_new_folder">Fehler beim Anlegen des neuen Ordners!</string>
+    <string name="open_gpx_file">Öffnen</string>
+    <string name="delete_gpx_file">Löschen</string>
+    <string name="import_gpx_file">Importieren</string>
+    <string name="rename_gpx_file">Umbenennen</string>
+    <string name="move_gpx_file">Verschiebe in</string>
+    <string name="move_gpx_file_move_here">Verschiebe hierher</string>
+    <string name="move_gpx_file_copy_here">Kopiere hierher</string>
+    <string name="cannot_copy_to_this_folder">In diesen Ordner kopieren nicht gestattet!</string>
+    <string name="select_folder_first_error">Ordner auswählen zu dem die Datei soll!</string>
+    <string name="copy_gpx_file">Kopiere in</string>
+    <string name="share_gpx_file">Teilen</string>
+    <string name="share_using">Wie soll geteilt werden?</string>
+    <string name="file_already_loaded">Datei bereits geladen!</string>
+    <string name="file_delete_error_imported">In diesem Ordner können Dateien nicht gelöscht werden!</string>
+    <string name="file_delete_error_select_first">Datei auswählen!</string>
+    <string name="file_rename_imported_error">In diesem Ordner können Dateien nicht umbenannt werden!</string>
+    <string name="file_rename_dialog_title">Neuer Dateiname:</string>
+    <string name="file_rename_error_already_exist">Eine Datei mit diesem Namen gibt es bereits!</string>
+    <string name="file_rename_error_other">Fehler beim umbenennen!</string>
+    <string name="file_import_not_allowed_here">Dateien können nicht hierher importiert werden!</string>
+    <string name="file_import_error">Fehler beim Importieren!</string>
+    <string name="save_location">Speichern</string>
+    <string name="share_location">Teilen</string>
+    <string name="edit_location">Bearbeiten</string>
+    <string name="location_action_error_select_first">Bitte erst einen Ort wählen!</string>
+    <string name="location_default_title">Ort</string>
+    <string name="location_default_description">Ort gespeichert in</string>
+    <string name="save_location_title">Ort speichern</string>
+    <string name="location_title_input_label">Titel:</string>
+    <string name="location_description_input_label">Beschreibung:</string>
+    <string name="clear_button">Clear</string>
+    <string name="map_pin_icon">Kategorie für Stecknadel Symbol / Foto:</string>
+    <string name="select_pin_icon_title">Wähle Kategorie (Stecknadel Symbol)</string>
+    <string name="location_view_cats">Kategorie Filter</string>
+    <string name="all_categories">Alle</string>
+    <string name="location_show">Auf der Karte anzeigen</string>
+    <string name="all_pins_loaded_on_map">Sichtbar auf der Karte</string>
+    <string name="category_filter_error">Keine passende Orte zum Filter!</string>
+    <string name="save_new_location">Hinzufügen</string>
+    <string name="save_location_error_no_location_yet">Keine GPS Ortsbestimmung möglich!</string>
+
+    <string name="Default">Standard</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Bar">Bar</string>
+    <string name="GasStation">Tankstelle</string>
+    <string name="Summit">Gipfel</string>
+    <string name="Lodging">Unterkunft</string>
+    <string name="Civil">Öffentliches Gebäude</string>
+    <string name="Campground">Campingplatz</string>
+    <string name="ScenicArea">Szenische Gegend</string>
+    <string name="ATV">ATV</string>
+    <string name="CarRepair">Werkstatt</string>
+    <string name="Church">Kirche</string>
+    <string name="RestrictedArea">Verbotener Bereich</string>
+    <string name="Information">Information</string>
+    <string name="FishingArea">Angeln</string>
+    <string name="ShoppingCenter">Einkaufen / Geschäft</string>
+    <string name="FlagRed">Rote Fahne</string>
+    <string name="FlagGreen">Grüne Fahne</string>
+    <string name="FlagBlue">Blaue Fahne</string>
+    <string name="DrinkingWater">Trinkwasser</string>
+    <string name="Park">Park</string>
+    <string name="Residence">Wohngebiet</string>
+    <string name="Military">Militärgebiet</string>
+    <string name="Crossing">Kreuzung</string>
+    <string name="Cave">Höhle / Mine</string>
+    <string name="DangerArea">Gefahrengebiet</string>
+    <string name="Ferry">Fähre</string>
+    <string name="Cemetery">Friedhof</string>
+    <string name="Anchor">Zuflucht</string>
+    <string name="AmusementPark">Freizeitpark</string>
+    <string name="PicnicArea">Rastplatz</string>
+    <string name="Bank">Bank / Geldautomat</string>
+    <string name="Hospital">Krankenhaus</string>
+    <string name="Pharmacy">Aptheke</string>
+    <string name="Telephone">Telefon</string>
+    <string name="Airport">Flughafen</string>
+    <string name="Restrooms">Toilette</string>
+    <string name="SwimmingArea">Schwimmgebiet</string>
+    <string name="Parking">Parkplatz</string>
+    <string name="RVPark">Wohnmobil Parken</string>
+    <string name="Dam">Damm</string>
+    <string name="Police">Polizei</string>
+    <string name="TollBooth">Mautstelle</string>
+    <string name="End">Zielflagge</string>
+
 
 
     <!-- OBD SENSORS -->
