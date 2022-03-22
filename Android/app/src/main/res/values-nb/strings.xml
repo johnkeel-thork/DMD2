@@ -1,116 +1,108 @@
 <resources>
 
     <!-- NOT TRANSLATED -->
+    <string name="gpx_recorder_cat_title_precision">Recorder Precision</string>
+    <string name="gpx_recorder_cat_title_automation">Automation</string>
+    <string name="gps_record_minimum_distance">Minimum distance between points</string>
+    <string name="gpx_record_maximum_accuracy">Maximum allowed accuracy in meters (lower accuracy is more precise but might skip points)</string>
+    <string name="auto_record_gpx_title">Automatically Start Recording</string>
+    <string name="file_split_rule">Automatic recording file split rule</string>
+    <string-array name="gpx_auto_record_reason" translatable="true">
+        <item>Date Based - 1 file per day (Changes at 00:00)</item>
+        <item>Time Stopped - Starts new file after at least 6h stopped</item>
+        <item>Time Stopped - Starts new file after at least 8h stopped</item>
+        <item>Time Stopped - Starts new file after at least 12h stopped</item>
+        <item>Time Stopped - Starts new file after at least 24h stopped</item>
+    </string-array>
+    <string name="auto_track_maker">Automatically Split into Tracks</string>
+    <string-array name="auto_track_maker_reason" translatable="true">
+        <item>Do not create tracks automatically</item>
+        <item>Distance - 10 (Km / Miles)</item>
+        <item>Distance - 20 (Km / Miles)</item>
+        <item>Distance - 30 (Km / Miles)</item>
+        <item>Distance - 50 (Km / Miles)</item>
+        <item>Distance - 100 (Km / Miles)</item>
+        <item>Distance - 200 (Km / Miles)</item>
+        <item>Distance - 300 (Km / Miles)</item>
+        <item>Distance - 500 (Km / Miles)</item>
+        <item>Time - 30 minutes</item>
+        <item>Time - 1 hour</item>
+        <item>Time - 2 hours</item>
+        <item>Time - 3 hours</item>
+        <item>Time - 5 hours</item>
+        <item>Time - 8 hours</item>
+        <item>Time - 12 hours</item>
+        <item>Time - 24 hours</item>
+    </string-array>
 
-    <string name="file_browser_title">Filutforsker</string>
-    <string name="gpx_files">GPX Filer</string>
-    <string name="locations">Steder</string>
-    <string name="open_folder">Åpne</string>
-    <string name="new_folder">Ny Mappe</string>
-    <string name="delete_folder">Slette</string>
-    <string name="rename_folder">Gi nytt navn</string>
-    <string name="select_folder_first">Velg mappe først!</string>
-    <string name="imported_folder_delete_error">Importert-mappe kan ikke slettes!</string>
-    <string name="recording_folder_delete_error">Opptaksmappe kan ikke slettes!</string>
-    <string name="imported_folder_name">Importert</string>
-    <string name="recordings_folder_name">Turopptak</string>
-    <string name="imported_folder_rename_error">Importert-mappe kan ikke endre navn!</string>
-    <string name="recordings_folder_rename_error">Opptaksmappe kan ikke endre navn!</string>
-    <string name="type_renamed_folder_name">Nytt navn:</string>
-    <string name="not_allowed_folder_name">Mappen kan ikke kalles Importert eller Turopptak!</string>
-    <string name="folder_already_exists">En mappe med det navner finnes allerede!</string>
-    <string name="error_renaming_folder">Feil ved endring av navn!</string>
-    <string name="type_new_folder_name">Navn for ny mappe:</string>
-    <string name="new_folder_default_name">Ny Mappe</string>
-    <string name="error_creating_new_folder">Feil ved oppretting av ny mappe!</string>
-    <string name="open_gpx_file">Åpne</string>
-    <string name="delete_gpx_file">Slett</string>
-    <string name="import_gpx_file">Importer</string>
-    <string name="rename_gpx_file">Gi nytt navn</string>
-    <string name="move_gpx_file">Flytt til</string>
-    <string name="move_gpx_file_move_here">Flytt hit</string>
-    <string name="move_gpx_file_copy_here">Kopier hit</string>
-    <string name="cannot_copy_to_this_folder">Kopiering umulig. Velg en annen mappe!</string>
-    <string name="select_folder_first_error">Velg mappen du vil benytte!</string>
-    <string name="copy_gpx_file">Kopier til</string>
-    <string name="share_gpx_file">Del</string>
-    <string name="share_using">Velg hvordan du vil dele filen</string>
-    <string name="file_already_loaded">Filen er allerede lastet inn!</string>
-    <string name="file_delete_error_imported">Du kan ikke slette filer fra Importet-mappen!</string>
-    <string name="file_delete_error_select_first">Velg en fil først!</string>
-    <string name="file_rename_imported_error">Du kan ikke endre navn på filer i denne mappen!</string>
-    <string name="file_rename_dialog_title">Nytt filnavn:</string>
-    <string name="file_rename_error_already_exist">En fil med det navnet finnes allerede!</string>
-    <string name="file_rename_error_other">Feil ved endring av navn!</string>
-    <string name="file_import_not_allowed_here">Du kan ikke importere filer hit!</string>
-    <string name="file_import_error">Feil ved import av fil!</string>
-    <string name="save_location">Lagre</string>
-    <string name="share_location">Del</string>
-    <string name="edit_location">Endre</string>
-    <string name="location_action_error_select_first">Velg et sted først!</string>
-    <string name="location_default_title">Steder</string>
-    <string name="location_default_description">Lagre stedet ved</string>
-    <string name="save_location_title">Lagre sted</string>
-    <string name="location_title_input_label">Tittel:</string>
-    <string name="location_description_input_label">Beskrivelse:</string>
-    <string name="clear_button">Fjern</string>
-    <string name="map_pin_icon">Piktogram / Foto:</string>
-    <string name="select_pin_icon_title">Velg kategori (Piktogram)</string>
-    <string name="location_view_cats">Kategorifilter</string>
-    <string name="all_categories">Alle</string>
-    <string name="location_show">Vis på kart</string>
-    <string name="all_pins_loaded_on_map">Synlig på kart</string>
-    <string name="category_filter_error">Ingen steder passer med filteret!</string>
-    <string name="save_new_location">Legg til sted</string>
-    <string name="save_location_error_no_location_yet">Venter på GPS!</string>
-
-    <string name="Default">Standard</string>
-    <string name="Restaurant">Restaurant</string>
-    <string name="Bar">Bar</string>
-    <string name="GasStation">Bensinstasjon</string>
-    <string name="Summit">Topp</string>
-    <string name="Lodging">Overnatting</string>
-    <string name="Civil">Kommunal bygning</string>
-    <string name="Campground">Teltplass</string>
-    <string name="ScenicArea">Utsiktspunkt</string>
-    <string name="ATV">ATV</string>
-    <string name="CarRepair">Verksted</string>
-    <string name="Church">Kirke</string>
-    <string name="RestrictedArea">Begrenset adgang</string>
-    <string name="Information">Informasjon</string>
-    <string name="FishingArea">Fiskeplass</string>
-    <string name="ShoppingCenter">Shopping</string>
-    <string name="FlagRed">Rædt flagg</string>
-    <string name="FlagGreen">Grænt flagg</string>
-    <string name="FlagBlue">Blått flagg</string>
-    <string name="DrinkingWater">Drikkevann</string>
-    <string name="Park">Park</string>
-    <string name="Residence">Boligfelt</string>
-    <string name="Military">Militært område</string>
-    <string name="Crossing">Krysningspunkt</string>
-    <string name="Cave">Hule/Grotte/Gruve</string>
-    <string name="DangerArea">Fare</string>
-    <string name="Ferry">Ferge</string>
-    <string name="Cemetery">Gravplass</string>
-    <string name="Anchor">Anker</string>
-    <string name="AmusementPark">Fornøyelsespark</string>
-    <string name="PicnicArea">Rasteplass</string>
-    <string name="Bank">Bank/Minibank</string>
-    <string name="Hospital">Sykehus</string>
-    <string name="Pharmacy">Apotek</string>
-    <string name="Telephone">Telefonkiosk</string>
-    <string name="Airport">Flyplass</string>
-    <string name="Restrooms">Off. toalett</string>
-    <string name="SwimmingArea">Badeplass</string>
-    <string name="Parking">Parkering</string>
-    <string name="RVPark">Bobilparkering</string>
-    <string name="Dam">Demning</string>
-    <string name="Police">Politi</string>
-    <string name="TollBooth">Bomstasjon</string>
-    <string name="End">Målflagg</string>
+    <string name="auto_waypoint_maker">Automatically Create Waypoints</string>
+    <string-array name="auto_waypoint_maker_reason" translatable="true">
+        <item>Do not create waypoints automatically</item>
+        <item>Distance - 10 (Km / Miles)</item>
+        <item>Distance - 15 (Km / Miles)</item>
+        <item>Distance - 20 (Km / Miles)</item>
+        <item>Distance - 25 (Km / Miles)</item>
+        <item>Distance - 30 (Km / Miles)</item>
+        <item>Distance - 35 (Km / Miles)</item>
+        <item>Distance - 50 (Km / Miles)</item>
+        <item>Distance - 100 (Km / Miles)</item>
+        <item>Distance - 150 (Km / Miles)</item>
+        <item>Distance - 200 (Km / Miles)</item>
+        <item>Distance - 250 (Km / Miles)</item>
+        <item>Distance - 500 (Km / Miles)</item>
+        <item>Time - 30 minutes</item>
+        <item>Time - 1 hour</item>
+        <item>Time - 2 hours</item>
+        <item>Time - 3 hours</item>
+        <item>Time - 5 hours</item>
+        <item>Time - 8 hours</item>
+        <item>Time - 12 hours</item>
+        <item>Time - 24 hours</item>
+    </string-array>
+    <string name="gpx_recorder_title">GPX Recorder</string>
+    <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
+    <string name="gpx_recorder_state_recording">Recording (Press to Pause)</string>
+    <string name="gpx_recorder_state_paused">Paused (Press to Resume)</string>
+    <string name="gpx_recorder_manage_tracks">Tracks</string>
+    <string name="gpx_recorder_manage_waypoints">Waypoints</string>
+    <string name="gpx_recorder_manage_finish">Finish</string>
+    <string name="gpx_recorder_manage_options">Settings</string>
+    <string name="gpx_recorder_finish_confirmation">Are you sure you want to finish the recording? This cannot be undone!</string>
+    <string name="gpx_recorder_finish_name">Set the GPX file name</string>
+    <string name="gpx_recorder_empty_error">GPX Recording is empty, no file created!</string>
+    <string name="gpx_recorder_already_exists_error">A file with that name already exists, please choose a different name!</string>
+    <string name="gpx_recorder_tracks_label">Tracks:</string>
+    <string name="gpx_recorder_waypoints_label">Waypoints:</string>
+    <string name="gpx_recorder_points_label">Points:</string>
+    <string name="gpx_recorder_distance_label">Distance:</string>
+    <string name="gpx_recorder_time_label">Time:</string>
+    <string name="gpx_recorder_started_label">Date:</string>
+    <string name="gpx_not_recording_error">GPX not recording. Start recording first!</string>
+    <string name="gpx_recorder_discard">Discard GPX</string>
+    <string name="gpx_recorder_advanced_options">Advanced</string>
+    <string name="gpx_recorder_manual_mode">Manual Mode</string>
+    <string name="gpx_recorder_automatic_mode">Automatic Mode</string>
+    <string name="gpx_recorder_error_no_points_yet">You have not recorded any point yet!</string>
+    <string name="gpx_recorder_waypoint_error_no_location">No valid location yet, try again after you get a valid location update!</string>
+    <string name="gpx_recorder_layout_done">Done</string>
+    <string name="gpx_recorder_layout_show_track_lines">Show lines on map:</string>
+    <string name="gpx_recorder_layout_show_waypoints_lines">Show waypoints on map:</string>
+    <string name="gpx_recorder_layout_default_track_color">Line color (overwrites current):</string>
+    <string name="gpx_recorder_layout_set_waypoint_name">Set the Waypoint title:</string>
+    <string name="gpx_recorder_layout_set_track_name">Set the Track title:</string>
+    <string name="gpx_recorder_controls_name">Controls</string>
+    <string name="gpx_recorder_no_tracks_yet_error">No tracks yet!</string>
+    <string name="gpx_recorder_no_waypoints_yet_error">No waypoints yet!</string>
+    <string name="gpx_recorder_track_edit_title">Track Title:</string>
+    <string name="gpx_recorder_track_edit_description">Track Description:</string>
+    <string name="gpx_recorder_track_edit_save_done">Done</string>
+    <string name="gpx_recorder_waypoint_edit_title">Waypoint Title:</string>
+    <string name="gpx_recorder_waypoint_edit_description">Waypoint Description:</string>
+    <string name="gpx_recorder_rewind_error_not_recording">Recorder is stopped, nothing to edit!</string>
+    <string name="gpx_recorder_rewind_instructions">Tap anywhere on the track to cut back to that point, use the crosshair button above to cut to your current location, or use the controls to move in time:</string>
 
     <!-- END OF NOT TRANSLATED -->
-    
+
 
     <!-- COMMON / GLOBAL -->
     <string name="app_name">DMD2</string>
@@ -585,6 +577,112 @@
     <string name="show_gpx_track_progress">Vis fremdrift på spor (GPX)</string>
     <string name="show_gpx_nextwaypoint">Vis neste veipunkt (GPX)</string>
     <string name="show_gpx_nextwaypoint2">Vis de to neste veipunkter (2 bokser)</string>
+    <string name="file_browser_title">Filutforsker</string>
+    <string name="gpx_files">GPX Filer</string>
+    <string name="locations">Steder</string>
+    <string name="open_folder">Åpne</string>
+    <string name="new_folder">Ny Mappe</string>
+    <string name="delete_folder">Slette</string>
+    <string name="rename_folder">Gi nytt navn</string>
+    <string name="select_folder_first">Velg mappe først!</string>
+    <string name="imported_folder_delete_error">Importert-mappe kan ikke slettes!</string>
+    <string name="recording_folder_delete_error">Opptaksmappe kan ikke slettes!</string>
+    <string name="imported_folder_name">Importert</string>
+    <string name="recordings_folder_name">Turopptak</string>
+    <string name="imported_folder_rename_error">Importert-mappe kan ikke endre navn!</string>
+    <string name="recordings_folder_rename_error">Opptaksmappe kan ikke endre navn!</string>
+    <string name="type_renamed_folder_name">Nytt navn:</string>
+    <string name="not_allowed_folder_name">Mappen kan ikke kalles Importert eller Turopptak!</string>
+    <string name="folder_already_exists">En mappe med det navner finnes allerede!</string>
+    <string name="error_renaming_folder">Feil ved endring av navn!</string>
+    <string name="type_new_folder_name">Navn for ny mappe:</string>
+    <string name="new_folder_default_name">Ny Mappe</string>
+    <string name="error_creating_new_folder">Feil ved oppretting av ny mappe!</string>
+    <string name="open_gpx_file">Åpne</string>
+    <string name="delete_gpx_file">Slett</string>
+    <string name="import_gpx_file">Importer</string>
+    <string name="rename_gpx_file">Gi nytt navn</string>
+    <string name="move_gpx_file">Flytt til</string>
+    <string name="move_gpx_file_move_here">Flytt hit</string>
+    <string name="move_gpx_file_copy_here">Kopier hit</string>
+    <string name="cannot_copy_to_this_folder">Kopiering umulig. Velg en annen mappe!</string>
+    <string name="select_folder_first_error">Velg mappen du vil benytte!</string>
+    <string name="copy_gpx_file">Kopier til</string>
+    <string name="share_gpx_file">Del</string>
+    <string name="share_using">Velg hvordan du vil dele filen</string>
+    <string name="file_already_loaded">Filen er allerede lastet inn!</string>
+    <string name="file_delete_error_imported">Du kan ikke slette filer fra Importet-mappen!</string>
+    <string name="file_delete_error_select_first">Velg en fil først!</string>
+    <string name="file_rename_imported_error">Du kan ikke endre navn på filer i denne mappen!</string>
+    <string name="file_rename_dialog_title">Nytt filnavn:</string>
+    <string name="file_rename_error_already_exist">En fil med det navnet finnes allerede!</string>
+    <string name="file_rename_error_other">Feil ved endring av navn!</string>
+    <string name="file_import_not_allowed_here">Du kan ikke importere filer hit!</string>
+    <string name="file_import_error">Feil ved import av fil!</string>
+    <string name="save_location">Lagre</string>
+    <string name="share_location">Del</string>
+    <string name="edit_location">Endre</string>
+    <string name="location_action_error_select_first">Velg et sted først!</string>
+    <string name="location_default_title">Steder</string>
+    <string name="location_default_description">Lagre stedet ved</string>
+    <string name="save_location_title">Lagre sted</string>
+    <string name="location_title_input_label">Tittel:</string>
+    <string name="location_description_input_label">Beskrivelse:</string>
+    <string name="clear_button">Fjern</string>
+    <string name="map_pin_icon">Piktogram / Foto:</string>
+    <string name="select_pin_icon_title">Velg kategori (Piktogram)</string>
+    <string name="location_view_cats">Kategorifilter</string>
+    <string name="all_categories">Alle</string>
+    <string name="location_show">Vis på kart</string>
+    <string name="all_pins_loaded_on_map">Synlig på kart</string>
+    <string name="category_filter_error">Ingen steder passer med filteret!</string>
+    <string name="save_new_location">Legg til sted</string>
+    <string name="save_location_error_no_location_yet">Venter på GPS!</string>
+
+    <string name="Default">Standard</string>
+    <string name="Restaurant">Restaurant</string>
+    <string name="Bar">Bar</string>
+    <string name="GasStation">Bensinstasjon</string>
+    <string name="Summit">Topp</string>
+    <string name="Lodging">Overnatting</string>
+    <string name="Civil">Kommunal bygning</string>
+    <string name="Campground">Teltplass</string>
+    <string name="ScenicArea">Utsiktspunkt</string>
+    <string name="ATV">ATV</string>
+    <string name="CarRepair">Verksted</string>
+    <string name="Church">Kirke</string>
+    <string name="RestrictedArea">Begrenset adgang</string>
+    <string name="Information">Informasjon</string>
+    <string name="FishingArea">Fiskeplass</string>
+    <string name="ShoppingCenter">Shopping</string>
+    <string name="FlagRed">Rædt flagg</string>
+    <string name="FlagGreen">Grænt flagg</string>
+    <string name="FlagBlue">Blått flagg</string>
+    <string name="DrinkingWater">Drikkevann</string>
+    <string name="Park">Park</string>
+    <string name="Residence">Boligfelt</string>
+    <string name="Military">Militært område</string>
+    <string name="Crossing">Krysningspunkt</string>
+    <string name="Cave">Hule/Grotte/Gruve</string>
+    <string name="DangerArea">Fare</string>
+    <string name="Ferry">Ferge</string>
+    <string name="Cemetery">Gravplass</string>
+    <string name="Anchor">Anker</string>
+    <string name="AmusementPark">Fornøyelsespark</string>
+    <string name="PicnicArea">Rasteplass</string>
+    <string name="Bank">Bank/Minibank</string>
+    <string name="Hospital">Sykehus</string>
+    <string name="Pharmacy">Apotek</string>
+    <string name="Telephone">Telefonkiosk</string>
+    <string name="Airport">Flyplass</string>
+    <string name="Restrooms">Off. toalett</string>
+    <string name="SwimmingArea">Badeplass</string>
+    <string name="Parking">Parkering</string>
+    <string name="RVPark">Bobilparkering</string>
+    <string name="Dam">Demning</string>
+    <string name="Police">Politi</string>
+    <string name="TollBooth">Bomstasjon</string>
+    <string name="End">Målflagg</string>
 
 
     <!-- OBD -->
