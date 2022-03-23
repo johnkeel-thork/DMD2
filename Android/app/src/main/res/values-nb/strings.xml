@@ -1,108 +1,5 @@
 <resources>
 
-    <!-- NOT TRANSLATED -->
-    <string name="gpx_recorder_cat_title_precision">Detaljnivå for turopptak</string>
-    <string name="gpx_recorder_cat_title_automation">Automatisering</string>
-    <string name="gps_record_minimum_distance">Minste avstand mellom punkter</string>
-    <string name="gpx_record_maximum_accuracy">Høyeste tillatte GPS-nøyaktighet i meter (Lav verdi er mer nøyaktig, men kan hoppe over punkter)</string>
-    <string name="auto_record_gpx_title">Automatisk ruteopptak</string>
-    <string name="file_split_rule">Deling av atomatiske ruter</string>
-    <string-array name="gpx_auto_record_reason" translatable="true">
-        <item>Datobasert - 1 fil per dag (Fornyes 00:00)</item>
-        <item>Tid i ro - Starter ny fil etter 6 timer i ro</item>
-        <item>Tid i ro - Starter ny fil etter 8 timer i ro</item>
-        <item>Tid i ro - Starter ny fil etter 12 timer i ro</item>
-        <item>Tid i ro - Starter ny fil etter 24 timer i ro</item>
-    </string-array>
-    <string name="auto_track_maker">Automatisk oppdeling av spor</string>
-    <string-array name="auto_track_maker_reason" translatable="true">
-        <item>Ingen automatisk oppdeling</item>
-        <item>Avstand - 10 (Km / Miles)</item>
-        <item>Avstand - 20 (Km / Miles)</item>
-        <item>Avstand - 30 (Km / Miles)</item>
-        <item>Avstand - 50 (Km / Miles)</item>
-        <item>Avstand - 100 (Km / Miles)</item>
-        <item>Avstand - 200 (Km / Miles)</item>
-        <item>Avstand - 300 (Km / Miles)</item>
-        <item>Avstand - 500 (Km / Miles)</item>
-        <item>Tid - 30 min</item>
-        <item>Tid - 1 time</item>
-        <item>Tid - 2 timer</item>
-        <item>Tid - 3 timer</item>
-        <item>Tid - 5 timer</item>
-        <item>Tid - 8 timer</item>
-        <item>Tid - 12 timer</item>
-        <item>Tid - 24 timer</item>
-    </string-array>
-
-    <string name="auto_waypoint_maker">Automatisk oppretting av veipunkter</string>
-    <string-array name="auto_waypoint_maker_reason" translatable="true">
-        <item>Ingen automatisk oppretting</item>
-        <item>Avstand - 10 (Km / Miles)</item>
-        <item>Avstand - 15 (Km / Miles)</item>
-        <item>Avstand - 20 (Km / Miles)</item>
-        <item>Avstand - 25 (Km / Miles)</item>
-        <item>Avstand - 30 (Km / Miles)</item>
-        <item>Avstand - 35 (Km / Miles)</item>
-        <item>Avstand - 50 (Km / Miles)</item>
-        <item>Avstand - 100 (Km / Miles)</item>
-        <item>Avstand - 150 (Km / Miles)</item>
-        <item>Avstand - 200 (Km / Miles)</item>
-        <item>Avstand - 250 (Km / Miles)</item>
-        <item>Avstand - 500 (Km / Miles)</item>
-        <item>Tid - 30 minutes</item>
-        <item>Tid - 1 time</item>
-        <item>Tid - 2 timer</item>
-        <item>Tid - 3 timer</item>
-        <item>Tid - 5 timer</item>
-        <item>Tid - 8 timer</item>
-        <item>Tid - 12 timer</item>
-        <item>Tid - 24 timer</item>
-    </string-array>
-    <string name="gpx_recorder_title">GPX Opptak</string>
-    <string name="gpx_recorder_state_stopped">Deaktivert (Trykk for å starte)</string>
-    <string name="gpx_recorder_state_recording">Opptak pågår (Trykk for pause)</string>
-    <string name="gpx_recorder_state_paused">Stoppet (Trykk for å starte)</string>
-    <string name="gpx_recorder_manage_tracks">Spor</string>
-    <string name="gpx_recorder_manage_waypoints">Veipunkter</string>
-    <string name="gpx_recorder_manage_finish">Avslutt opptak</string>
-    <string name="gpx_recorder_manage_options">Innstillinger</string>
-    <string name="gpx_recorder_finish_confirmation">Er du sikker på at du vil avslutte opptaket? Dette kan ikke angres! </string>
-    <string name="gpx_recorder_finish_name">Oppgi GPX filnavn</string>
-    <string name="gpx_recorder_empty_error">GPX Opptaket er tomt, ingen fil opprettet!</string>
-    <string name="gpx_recorder_already_exists_error">En fil med det navnet eksisterer, prøv et annet navn.</string>
-    <string name="gpx_recorder_tracks_label">Spor:</string>
-    <string name="gpx_recorder_waypoints_label">Veipunkter:</string>
-    <string name="gpx_recorder_points_label">Punkter:</string>
-    <string name="gpx_recorder_distance_label">Avstand:</string>
-    <string name="gpx_recorder_time_label">Tid:</string>
-    <string name="gpx_recorder_started_label">Dato:</string>
-    <string name="gpx_not_recording_error">GPX tar ikke opp! Start opptak først!</string>
-    <string name="gpx_recorder_discard">Forkast GPX</string>
-    <string name="gpx_recorder_advanced_options">Avansert</string>
-    <string name="gpx_recorder_manual_mode">Manuell Modus</string>
-    <string name="gpx_recorder_automatic_mode">Automatisk Modus</string>
-    <string name="gpx_recorder_error_no_points_yet">Ingen punkter tapp oppennå!</string>
-    <string name="gpx_recorder_waypoint_error_no_location">Nøyaktig posisjon kan ikke fastsettes, vent på GPS!</string>
-    <string name="gpx_recorder_layout_done">Ferdig</string>
-    <string name="gpx_recorder_layout_show_track_lines">Vis spor på kart:</string>
-    <string name="gpx_recorder_layout_show_waypoints_lines">Vis veipunkter på kart:</string>
-    <string name="gpx_recorder_layout_default_track_color">Sporfarge:</string>
-    <string name="gpx_recorder_layout_set_waypoint_name">Oppgi navn på veipunkt:</string>
-    <string name="gpx_recorder_layout_set_track_name">Oppgi navn på spor:</string>
-    <string name="gpx_recorder_controls_name">Kontroller</string>
-    <string name="gpx_recorder_no_tracks_yet_error">Ingen spor ennå!</string>
-    <string name="gpx_recorder_no_waypoints_yet_error">Ingen veipunkter ennå!</string>
-    <string name="gpx_recorder_track_edit_title">Spornavn:</string>
-    <string name="gpx_recorder_track_edit_description">Sporbeskrivelse:</string>
-    <string name="gpx_recorder_track_edit_save_done">Ferdig</string>
-    <string name="gpx_recorder_waypoint_edit_title">Veipunktnavn:</string>
-    <string name="gpx_recorder_waypoint_edit_description">Veipunktbeskrivelse:</string>
-    <string name="gpx_recorder_rewind_error_not_recording">Opptak stanset. Ingenting å redigere!</string>
-    <string name="gpx_recorder_rewind_instructions">Trykk på et punkt på sporet for å fjerne alt etter punktet, bruk sikteknappen over for å kutte frem til nåværende posisjojn, eller bruk kontrollene til å flytte langs tidsaksen:</string>
-
-    <!-- END OF NOT TRANSLATED -->
-
 
     <!-- COMMON / GLOBAL -->
     <string name="app_name">DMD2</string>
@@ -683,6 +580,106 @@
     <string name="Police">Politi</string>
     <string name="TollBooth">Bomstasjon</string>
     <string name="End">Målflagg</string>
+    <string name="gpx_recorder_cat_title_precision">Detaljnivå for turopptak</string>
+    <string name="gpx_recorder_cat_title_automation">Automatisering</string>
+    <string name="gps_record_minimum_distance">Minste avstand mellom punkter</string>
+    <string name="gpx_record_maximum_accuracy">Høyeste tillatte GPS-nøyaktighet i meter (Lav verdi er mer nøyaktig, men kan hoppe over punkter)</string>
+    <string name="auto_record_gpx_title">Automatisk ruteopptak</string>
+    <string name="file_split_rule">Deling av atomatiske ruter</string>
+    <string-array name="gpx_auto_record_reason" translatable="true">
+        <item>Datobasert - 1 fil per dag (Fornyes 00:00)</item>
+        <item>Tid i ro - Starter ny fil etter 6 timer i ro</item>
+        <item>Tid i ro - Starter ny fil etter 8 timer i ro</item>
+        <item>Tid i ro - Starter ny fil etter 12 timer i ro</item>
+        <item>Tid i ro - Starter ny fil etter 24 timer i ro</item>
+    </string-array>
+    <string name="auto_track_maker">Automatisk oppdeling av spor</string>
+    <string-array name="auto_track_maker_reason" translatable="true">
+        <item>Ingen automatisk oppdeling</item>
+        <item>Avstand - 10 (Km / Miles)</item>
+        <item>Avstand - 20 (Km / Miles)</item>
+        <item>Avstand - 30 (Km / Miles)</item>
+        <item>Avstand - 50 (Km / Miles)</item>
+        <item>Avstand - 100 (Km / Miles)</item>
+        <item>Avstand - 200 (Km / Miles)</item>
+        <item>Avstand - 300 (Km / Miles)</item>
+        <item>Avstand - 500 (Km / Miles)</item>
+        <item>Tid - 30 min</item>
+        <item>Tid - 1 time</item>
+        <item>Tid - 2 timer</item>
+        <item>Tid - 3 timer</item>
+        <item>Tid - 5 timer</item>
+        <item>Tid - 8 timer</item>
+        <item>Tid - 12 timer</item>
+        <item>Tid - 24 timer</item>
+    </string-array>
+
+    <string name="auto_waypoint_maker">Automatisk oppretting av veipunkter</string>
+    <string-array name="auto_waypoint_maker_reason" translatable="true">
+        <item>Ingen automatisk oppretting</item>
+        <item>Avstand - 10 (Km / Miles)</item>
+        <item>Avstand - 15 (Km / Miles)</item>
+        <item>Avstand - 20 (Km / Miles)</item>
+        <item>Avstand - 25 (Km / Miles)</item>
+        <item>Avstand - 30 (Km / Miles)</item>
+        <item>Avstand - 35 (Km / Miles)</item>
+        <item>Avstand - 50 (Km / Miles)</item>
+        <item>Avstand - 100 (Km / Miles)</item>
+        <item>Avstand - 150 (Km / Miles)</item>
+        <item>Avstand - 200 (Km / Miles)</item>
+        <item>Avstand - 250 (Km / Miles)</item>
+        <item>Avstand - 500 (Km / Miles)</item>
+        <item>Tid - 30 minutes</item>
+        <item>Tid - 1 time</item>
+        <item>Tid - 2 timer</item>
+        <item>Tid - 3 timer</item>
+        <item>Tid - 5 timer</item>
+        <item>Tid - 8 timer</item>
+        <item>Tid - 12 timer</item>
+        <item>Tid - 24 timer</item>
+    </string-array>
+    <string name="gpx_recorder_title">GPX Opptak</string>
+    <string name="gpx_recorder_state_stopped">Deaktivert (Trykk for å starte)</string>
+    <string name="gpx_recorder_state_recording">Opptak pågår (Trykk for pause)</string>
+    <string name="gpx_recorder_state_paused">Stoppet (Trykk for å starte)</string>
+    <string name="gpx_recorder_manage_tracks">Spor</string>
+    <string name="gpx_recorder_manage_waypoints">Veipunkter</string>
+    <string name="gpx_recorder_manage_finish">Avslutt opptak</string>
+    <string name="gpx_recorder_manage_options">Innstillinger</string>
+    <string name="gpx_recorder_finish_confirmation">Er du sikker på at du vil avslutte opptaket? Dette kan ikke angres! </string>
+    <string name="gpx_recorder_finish_name">Oppgi GPX filnavn</string>
+    <string name="gpx_recorder_empty_error">GPX Opptaket er tomt, ingen fil opprettet!</string>
+    <string name="gpx_recorder_already_exists_error">En fil med det navnet eksisterer, prøv et annet navn.</string>
+    <string name="gpx_recorder_tracks_label">Spor:</string>
+    <string name="gpx_recorder_waypoints_label">Veipunkter:</string>
+    <string name="gpx_recorder_points_label">Punkter:</string>
+    <string name="gpx_recorder_distance_label">Avstand:</string>
+    <string name="gpx_recorder_time_label">Tid:</string>
+    <string name="gpx_recorder_started_label">Dato:</string>
+    <string name="gpx_not_recording_error">GPX tar ikke opp! Start opptak først!</string>
+    <string name="gpx_recorder_discard">Forkast GPX</string>
+    <string name="gpx_recorder_advanced_options">Avansert</string>
+    <string name="gpx_recorder_manual_mode">Manuell Modus</string>
+    <string name="gpx_recorder_automatic_mode">Automatisk Modus</string>
+    <string name="gpx_recorder_error_no_points_yet">Ingen punkter tapp oppennå!</string>
+    <string name="gpx_recorder_waypoint_error_no_location">Nøyaktig posisjon kan ikke fastsettes, vent på GPS!</string>
+    <string name="gpx_recorder_layout_done">Ferdig</string>
+    <string name="gpx_recorder_layout_show_track_lines">Vis spor på kart:</string>
+    <string name="gpx_recorder_layout_show_waypoints_lines">Vis veipunkter på kart:</string>
+    <string name="gpx_recorder_layout_default_track_color">Sporfarge:</string>
+    <string name="gpx_recorder_layout_set_waypoint_name">Oppgi navn på veipunkt:</string>
+    <string name="gpx_recorder_layout_set_track_name">Oppgi navn på spor:</string>
+    <string name="gpx_recorder_controls_name">Kontroller</string>
+    <string name="gpx_recorder_no_tracks_yet_error">Ingen spor ennå!</string>
+    <string name="gpx_recorder_no_waypoints_yet_error">Ingen veipunkter ennå!</string>
+    <string name="gpx_recorder_track_edit_title">Spornavn:</string>
+    <string name="gpx_recorder_track_edit_description">Sporbeskrivelse:</string>
+    <string name="gpx_recorder_track_edit_save_done">Ferdig</string>
+    <string name="gpx_recorder_waypoint_edit_title">Veipunktnavn:</string>
+    <string name="gpx_recorder_waypoint_edit_description">Veipunktbeskrivelse:</string>
+    <string name="gpx_recorder_rewind_error_not_recording">Opptak stanset. Ingenting å redigere!</string>
+    <string name="gpx_recorder_rewind_instructions">Trykk på et punkt på sporet for å fjerne alt etter punktet, bruk sikteknappen over for å kutte frem til nåværende posisjojn, eller bruk kontrollene til å flytte langs tidsaksen:</string>
+
 
 
     <!-- OBD -->
