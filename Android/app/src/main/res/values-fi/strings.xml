@@ -1,110 +1,5 @@
 <resources>
 
-    <!-- NOT TRANSLATED -->
-
-    <string name="gpx_recorder_cat_title_precision">Tallennuksen tarkkuus</string>
-    <string name="gpx_recorder_cat_title_automation">Automation</string>
-    <string name="gps_record_minimum_distance">Pienin etäisyys pisteiden välillä</string>
-    <string name="gpx_record_maximum_accuracy">Suurin sallittu tarkkuus metreinä (Matalampi on paremmin paikkansapitävä mutta voi jättää pisteitä huomioimatta)</string>
-    <string name="auto_record_gpx_title">Aloita tallennus automaattisesti</string>
-    <string name="file_split_rule">Automaattisen tallennuksen jako tiedostoihin</string>
-    <string-array name="gpx_auto_record_reason" translatable="true">
-        <item>Päivämäärä - Aloita uusi tiedosto joka päivä (Vaihtuu klo 00:00)</item>
-        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 6h</item>
-        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 8h</item>
-        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 12h</item>
-        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 24h</item>
-    </string-array>
-    <string name="auto_track_maker">Jaa automaattisesti reitteihin/jälkiin</string>
-    <string-array name="auto_track_maker_reason" translatable="true">
-        <item>Älä luo reittejä/jälkiä automaattisesti</item>
-        <item>Etäisyys - 10 (Km / Mailia)</item>
-        <item>Etäisyys - 20 (Km / Mailia)</item>
-        <item>Etäisyys - 30 (Km / Mailia)</item>
-        <item>Etäisyys - 50 (Km / Mailia)</item>
-        <item>Etäisyys - 100 (Km / Mailia)</item>
-        <item>Etäisyys - 200 (Km / Mailia)</item>
-        <item>Etäisyys - 300 (Km / Mailia)</item>
-        <item>Etäisyys - 500 (Km / Mailia)</item>
-        <item>Aika - 30 minuuttia</item>
-        <item>Aika - 1 tunti</item>
-        <item>Aika - 2 tuntia</item>
-        <item>Aika - 3 tuntia</item>
-        <item>Aika - 5 tuntia</item>
-        <item>Aika - 8 tuntia</item>
-        <item>Aika - 12 tuntia</item>
-        <item>Aika - 24 tuntia</item>
-    </string-array>
-
-    <string name="auto_waypoint_maker">Luo automaattisesti reittipisteitä</string>
-    <string-array name="auto_waypoint_maker_reason" translatable="true">
-        <item>Alä luo reittipisteitä automaattisesti</item>
-        <item>Etäisyys - 10 (Km / Mailia)</item>
-        <item>Etäisyys - 15 (Km / Mailia)</item>
-        <item>Etäisyys - 20 (Km / Mailia)</item>
-        <item>Etäisyys - 25 (Km / Mailia)</item>
-        <item>Etäisyys - 30 (Km / Mailia)</item>
-        <item>Etäisyys - 35 (Km / Mailia)</item>
-        <item>Etäisyys - 50 (Km / Mailia)</item>
-        <item>Etäisyys - 100 (Km / Mailia)</item>
-        <item>Etäisyys - 150 (Km / Mailia)</item>
-        <item>Etäisyys - 200 (Km / Mailia)</item>
-        <item>Etäisyys - 250 (Km / Mailia)</item>
-        <item>Etäisyys - 500 (Km / Mailia)</item>
-        <item>Aika - 30 minuuttia</item>
-        <item>Aika - 1 tunti</item>
-        <item>Aika - 2 tuntia</item>
-        <item>Aika - 3 tuntia</item>
-        <item>Aika - 5 tuntia</item>
-        <item>Aika - 8 tuntia</item>
-        <item>Aika - 12 tuntia</item>
-        <item>Aika - 24 tuntia</item>
-    </string-array>
-    <string name="gpx_recorder_title">GPX Tallennus</string>
-    <string name="gpx_recorder_state_stopped">Pois päältä (Paina tallentaaksesi)</string>
-    <string name="gpx_recorder_state_recording">Tallentaa (Paina pysäyttääksesi)</string>
-    <string name="gpx_recorder_state_paused">Pysäytetty (Paina jatkaaksesi)</string>
-    <string name="gpx_recorder_manage_tracks">Reitit/Jäljet</string>
-    <string name="gpx_recorder_manage_waypoints">Reittipisteet</string>
-    <string name="gpx_recorder_manage_finish">Lopeta</string>
-    <string name="gpx_recorder_manage_options">Asetukset</string>
-    <string name="gpx_recorder_finish_confirmation">Haluatko varmasti päättää tallennuksen? Sitä ei voi perua!</string>
-    <string name="gpx_recorder_finish_name">Aseta GPX-tiedoston nimi</string>
-    <string name="gpx_recorder_empty_error">GPX-tallenne on tyhjä, tiedostoa ei luotu!</string>
-    <string name="gpx_recorder_already_exists_error">Samanniminen tiedosto on jo olemassa, valitse eri nimi!</string>
-    <string name="gpx_recorder_tracks_label">Reitit/Jäljet:</string>
-    <string name="gpx_recorder_waypoints_label">Reittipisteet:</string>
-    <string name="gpx_recorder_points_label">Pisteet:</string>
-    <string name="gpx_recorder_distance_label">Etäisyys:</string>
-    <string name="gpx_recorder_time_label">Aika:</string>
-    <string name="gpx_recorder_started_label">Pvm:</string>
-    <string name="gpx_not_recording_error">Tallennus ei käynnissä. Aloita tallennus ensin!</string>
-    <string name="gpx_recorder_discard">Hylkää GPX</string>
-    <string name="gpx_recorder_advanced_options">Lisäasetukset</string>
-    <string name="gpx_recorder_manual_mode">Manuaalinen tila</string>
-    <string name="gpx_recorder_automatic_mode">Automaattinen tila</string>
-    <string name="gpx_recorder_error_no_points_yet">Et ole vielä tallentanut yhtään pistettä!</string>
-    <string name="gpx_recorder_waypoint_error_no_location">Sijainti ei käytettävissä, yritä uudelleen kun sijainti käytettävissä!</string>
-    <string name="gpx_recorder_layout_done">Valmis</string>
-    <string name="gpx_recorder_layout_show_track_lines">Näytä reitti/jälki kartalla:</string>
-    <string name="gpx_recorder_layout_show_waypoints_lines">Näytä reittipiste kartalla:</string>
-    <string name="gpx_recorder_layout_default_track_color">Viivan väri (korvaa nykyisen):</string>
-    <string name="gpx_recorder_layout_set_waypoint_name">Aseta reittipisteen nimi:</string>
-    <string name="gpx_recorder_layout_set_track_name">Aseta reitin/jäljen nimi:</string>
-    <string name="gpx_recorder_controls_name">Hallinta</string>
-    <string name="gpx_recorder_no_tracks_yet_error">Ei vielä reittejä/jälkiä!</string>
-    <string name="gpx_recorder_no_waypoints_yet_error">Ei vielä reittipisteitä!</string>
-    <string name="gpx_recorder_track_edit_title">Reitin/Jäljen nimi:</string>
-    <string name="gpx_recorder_track_edit_description">Reitin/Jäljen kuvaus:</string>
-    <string name="gpx_recorder_track_edit_save_done">Valmis</string>
-    <string name="gpx_recorder_waypoint_edit_title">Reittipisteen nimi:</string>
-    <string name="gpx_recorder_waypoint_edit_description">Reittipisteen kuvaus:</string>
-    <string name="gpx_recorder_rewind_error_not_recording">Tallennus ei käynnissä, ei mitään muokattavaa!</string>
-    <string name="gpx_recorder_rewind_instructions">Kosketa missä tahansa reitillä hypätäksesi siihen kohtaan, Kosketa "tähtäin-painiketta" hypätäksesi nykyiseen sijaintiisi, tai käytä painikkeita liikkuaksesi ajan mukaan:</string>
-
-
-    <!-- END OF NOT TRANSLATED -->
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -625,7 +520,6 @@
     <string name="category_filter_error">Ei rajauksiin sopivia sijainteja!</string>
     <string name="save_new_location">Lisää uusi</string>
     <string name="save_location_error_no_location_yet">GPS-signaalia ei vielä käytettävissä!</string>
-
     <string name="Default">Oletus</string>
     <string name="Restaurant">Ravintola</string>
     <string name="Bar">Baari</string>
@@ -670,6 +564,106 @@
     <string name="Police">Poliisi</string>
     <string name="TollBooth">Tietulli</string>
     <string name="End">Ruutulippu</string>
+    <string name="gpx_recorder_cat_title_precision">Tallennuksen tarkkuus</string>
+    <string name="gpx_recorder_cat_title_automation">Automation</string>
+    <string name="gps_record_minimum_distance">Pienin etäisyys pisteiden välillä</string>
+    <string name="gpx_record_maximum_accuracy">Suurin sallittu tarkkuus metreinä (Matalampi on paremmin paikkansapitävä mutta voi jättää pisteitä huomioimatta)</string>
+    <string name="auto_record_gpx_title">Aloita tallennus automaattisesti</string>
+    <string name="file_split_rule">Automaattisen tallennuksen jako tiedostoihin</string>
+    <string-array name="gpx_auto_record_reason" translatable="true">
+        <item>Päivämäärä - Aloita uusi tiedosto joka päivä (Vaihtuu klo 00:00)</item>
+        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 6h</item>
+        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 8h</item>
+        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 12h</item>
+        <item>Aika pysähdyksissä - Aloita uusi tiedosto kun pysähdyksissä vähintään 24h</item>
+    </string-array>
+    <string name="auto_track_maker">Jaa automaattisesti reitteihin/jälkiin</string>
+    <string-array name="auto_track_maker_reason" translatable="true">
+        <item>Älä luo reittejä/jälkiä automaattisesti</item>
+        <item>Etäisyys - 10 (Km / Mailia)</item>
+        <item>Etäisyys - 20 (Km / Mailia)</item>
+        <item>Etäisyys - 30 (Km / Mailia)</item>
+        <item>Etäisyys - 50 (Km / Mailia)</item>
+        <item>Etäisyys - 100 (Km / Mailia)</item>
+        <item>Etäisyys - 200 (Km / Mailia)</item>
+        <item>Etäisyys - 300 (Km / Mailia)</item>
+        <item>Etäisyys - 500 (Km / Mailia)</item>
+        <item>Aika - 30 minuuttia</item>
+        <item>Aika - 1 tunti</item>
+        <item>Aika - 2 tuntia</item>
+        <item>Aika - 3 tuntia</item>
+        <item>Aika - 5 tuntia</item>
+        <item>Aika - 8 tuntia</item>
+        <item>Aika - 12 tuntia</item>
+        <item>Aika - 24 tuntia</item>
+    </string-array>
+
+    <string name="auto_waypoint_maker">Luo automaattisesti reittipisteitä</string>
+    <string-array name="auto_waypoint_maker_reason" translatable="true">
+        <item>Alä luo reittipisteitä automaattisesti</item>
+        <item>Etäisyys - 10 (Km / Mailia)</item>
+        <item>Etäisyys - 15 (Km / Mailia)</item>
+        <item>Etäisyys - 20 (Km / Mailia)</item>
+        <item>Etäisyys - 25 (Km / Mailia)</item>
+        <item>Etäisyys - 30 (Km / Mailia)</item>
+        <item>Etäisyys - 35 (Km / Mailia)</item>
+        <item>Etäisyys - 50 (Km / Mailia)</item>
+        <item>Etäisyys - 100 (Km / Mailia)</item>
+        <item>Etäisyys - 150 (Km / Mailia)</item>
+        <item>Etäisyys - 200 (Km / Mailia)</item>
+        <item>Etäisyys - 250 (Km / Mailia)</item>
+        <item>Etäisyys - 500 (Km / Mailia)</item>
+        <item>Aika - 30 minuuttia</item>
+        <item>Aika - 1 tunti</item>
+        <item>Aika - 2 tuntia</item>
+        <item>Aika - 3 tuntia</item>
+        <item>Aika - 5 tuntia</item>
+        <item>Aika - 8 tuntia</item>
+        <item>Aika - 12 tuntia</item>
+        <item>Aika - 24 tuntia</item>
+    </string-array>
+    <string name="gpx_recorder_title">GPX Tallennus</string>
+    <string name="gpx_recorder_state_stopped">Pois päältä (Paina tallentaaksesi)</string>
+    <string name="gpx_recorder_state_recording">Tallentaa (Paina pysäyttääksesi)</string>
+    <string name="gpx_recorder_state_paused">Pysäytetty (Paina jatkaaksesi)</string>
+    <string name="gpx_recorder_manage_tracks">Reitit/Jäljet</string>
+    <string name="gpx_recorder_manage_waypoints">Reittipisteet</string>
+    <string name="gpx_recorder_manage_finish">Lopeta</string>
+    <string name="gpx_recorder_manage_options">Asetukset</string>
+    <string name="gpx_recorder_finish_confirmation">Haluatko varmasti päättää tallennuksen? Sitä ei voi perua!</string>
+    <string name="gpx_recorder_finish_name">Aseta GPX-tiedoston nimi</string>
+    <string name="gpx_recorder_empty_error">GPX-tallenne on tyhjä, tiedostoa ei luotu!</string>
+    <string name="gpx_recorder_already_exists_error">Samanniminen tiedosto on jo olemassa, valitse eri nimi!</string>
+    <string name="gpx_recorder_tracks_label">Reitit/Jäljet:</string>
+    <string name="gpx_recorder_waypoints_label">Reittipisteet:</string>
+    <string name="gpx_recorder_points_label">Pisteet:</string>
+    <string name="gpx_recorder_distance_label">Etäisyys:</string>
+    <string name="gpx_recorder_time_label">Aika:</string>
+    <string name="gpx_recorder_started_label">Pvm:</string>
+    <string name="gpx_not_recording_error">Tallennus ei käynnissä. Aloita tallennus ensin!</string>
+    <string name="gpx_recorder_discard">Hylkää GPX</string>
+    <string name="gpx_recorder_advanced_options">Lisäasetukset</string>
+    <string name="gpx_recorder_manual_mode">Manuaalinen tila</string>
+    <string name="gpx_recorder_automatic_mode">Automaattinen tila</string>
+    <string name="gpx_recorder_error_no_points_yet">Et ole vielä tallentanut yhtään pistettä!</string>
+    <string name="gpx_recorder_waypoint_error_no_location">Sijainti ei käytettävissä, yritä uudelleen kun sijainti käytettävissä!</string>
+    <string name="gpx_recorder_layout_done">Valmis</string>
+    <string name="gpx_recorder_layout_show_track_lines">Näytä reitti/jälki kartalla:</string>
+    <string name="gpx_recorder_layout_show_waypoints_lines">Näytä reittipiste kartalla:</string>
+    <string name="gpx_recorder_layout_default_track_color">Viivan väri (korvaa nykyisen):</string>
+    <string name="gpx_recorder_layout_set_waypoint_name">Aseta reittipisteen nimi:</string>
+    <string name="gpx_recorder_layout_set_track_name">Aseta reitin/jäljen nimi:</string>
+    <string name="gpx_recorder_controls_name">Hallinta</string>
+    <string name="gpx_recorder_no_tracks_yet_error">Ei vielä reittejä/jälkiä!</string>
+    <string name="gpx_recorder_no_waypoints_yet_error">Ei vielä reittipisteitä!</string>
+    <string name="gpx_recorder_track_edit_title">Reitin/Jäljen nimi:</string>
+    <string name="gpx_recorder_track_edit_description">Reitin/Jäljen kuvaus:</string>
+    <string name="gpx_recorder_track_edit_save_done">Valmis</string>
+    <string name="gpx_recorder_waypoint_edit_title">Reittipisteen nimi:</string>
+    <string name="gpx_recorder_waypoint_edit_description">Reittipisteen kuvaus:</string>
+    <string name="gpx_recorder_rewind_error_not_recording">Tallennus ei käynnissä, ei mitään muokattavaa!</string>
+    <string name="gpx_recorder_rewind_instructions">Kosketa missä tahansa reitillä hypätäksesi siihen kohtaan, Kosketa "tähtäin-painiketta" hypätäksesi nykyiseen sijaintiisi, tai käytä painikkeita liikkuaksesi ajan mukaan:</string>
+
 
 
     <!-- OBD SENSORS -->
