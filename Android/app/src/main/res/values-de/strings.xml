@@ -60,47 +60,6 @@
         <item>Time - 12 hours</item>
         <item>Time - 24 hours</item>
     </string-array>
-    <string name="gpx_recorder_title">GPX Recorder</string>
-    <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
-    <string name="gpx_recorder_state_recording">Recording (Press to Pause)</string>
-    <string name="gpx_recorder_state_paused">Paused (Press to Resume)</string>
-    <string name="gpx_recorder_manage_tracks">Tracks</string>
-    <string name="gpx_recorder_manage_waypoints">Waypoints</string>
-    <string name="gpx_recorder_manage_finish">Finish</string>
-    <string name="gpx_recorder_manage_options">Settings</string>
-    <string name="gpx_recorder_finish_confirmation">Are you sure you want to finish the recording? This cannot be undone!</string>
-    <string name="gpx_recorder_finish_name">Set the GPX file name</string>
-    <string name="gpx_recorder_empty_error">GPX Recording is empty, no file created!</string>
-    <string name="gpx_recorder_already_exists_error">A file with that name already exists, please choose a different name!</string>
-    <string name="gpx_recorder_tracks_label">Tracks:</string>
-    <string name="gpx_recorder_waypoints_label">Waypoints:</string>
-    <string name="gpx_recorder_points_label">Points:</string>
-    <string name="gpx_recorder_distance_label">Distance:</string>
-    <string name="gpx_recorder_time_label">Time:</string>
-    <string name="gpx_recorder_started_label">Date:</string>
-    <string name="gpx_not_recording_error">GPX not recording. Start recording first!</string>
-    <string name="gpx_recorder_discard">Discard GPX</string>
-    <string name="gpx_recorder_advanced_options">Advanced</string>
-    <string name="gpx_recorder_manual_mode">Manual Mode</string>
-    <string name="gpx_recorder_automatic_mode">Automatic Mode</string>
-    <string name="gpx_recorder_error_no_points_yet">You have not recorded any point yet!</string>
-    <string name="gpx_recorder_waypoint_error_no_location">No valid location yet, try again after you get a valid location update!</string>
-    <string name="gpx_recorder_layout_done">Done</string>
-    <string name="gpx_recorder_layout_show_track_lines">Show lines on map:</string>
-    <string name="gpx_recorder_layout_show_waypoints_lines">Show waypoints on map:</string>
-    <string name="gpx_recorder_layout_default_track_color">Line color (overwrites current):</string>
-    <string name="gpx_recorder_layout_set_waypoint_name">Set the Waypoint title:</string>
-    <string name="gpx_recorder_layout_set_track_name">Set the Track title:</string>
-    <string name="gpx_recorder_controls_name">Controls</string>
-    <string name="gpx_recorder_no_tracks_yet_error">No tracks yet!</string>
-    <string name="gpx_recorder_no_waypoints_yet_error">No waypoints yet!</string>
-    <string name="gpx_recorder_track_edit_title">Track Title:</string>
-    <string name="gpx_recorder_track_edit_description">Track Description:</string>
-    <string name="gpx_recorder_track_edit_save_done">Done</string>
-    <string name="gpx_recorder_waypoint_edit_title">Waypoint Title:</string>
-    <string name="gpx_recorder_waypoint_edit_description">Waypoint Description:</string>
-    <string name="gpx_recorder_rewind_error_not_recording">Recorder is stopped, nothing to edit!</string>
-    <string name="gpx_recorder_rewind_instructions">Tap anywhere on the track to cut back to that point, use the crosshair button above to cut to your current location, or use the controls to move in time:</string>
 
 
     <string name="roadbook_settings">Settings</string>
@@ -112,17 +71,7 @@
     <string name="obd_fuel_widget">OBD - Fuel Level</string>
     <string name="obd_gear_widget">OBD - Gear Indicator</string>
     <string name="obd_afr_widget">OBD - O2 Sensor AFR</string>
-
-    <string name="gpx_recorder_cat_title_precision">Recorder Precision</string>
-    <string name="gpx_recorder_cat_title_automation">Automation</string>
-    <string name="gps_record_minimum_distance">Minimum distance between points</string>
-    <string name="gpx_record_maximum_accuracy">Maximum allowed accuracy in meters (lower accuracy is more precise but might skip points)</string>
-    <string name="auto_record_gpx_title">Automatically Start Recording</string>
-    <string name="file_split_rule">Automatic recording file split rule</string>
-
-    <string name="auto_track_maker">Automatically Split into Tracks</string>
-
-    <string name="auto_waypoint_maker">Automatically Create Waypoints</string>
+    
 
     <string name="gpx_recorder_title">GPX Recorder</string>
     <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
@@ -236,7 +185,7 @@
     <string name="gear_assist_finished_toast">Gear Ratio Assistant Completed</string>
     <string name="gear_assist_instruction">Ride at a steady speed with the indicated gear engaged and when the ratio value stabilizes press NEXT.</string>
     <string name="gear_assist_ratio_error">Ratio cannot be 0</string>
-    
+
     <!-- END OF NOT TRANSLATED -->
 
     <string name="app_name">DMD2</string>
