@@ -215,6 +215,22 @@
     <string name="obd_bat_widget">OBD - Battery Voltage</string>
     <string name="obd_errors_widget">OBD - DTC Error Count</string>
 
+    <string name="gpx_recorder_cat_title_precision">Recorder Precision</string>
+    <string name="gpx_recorder_cat_title_automation">Automation</string>
+    <string name="gps_record_minimum_distance">Minimum distance between points</string>
+    <string name="gpx_record_maximum_accuracy">Maximum allowed accuracy in meters (lower accuracy is more precise but might skip points)</string>
+    <string name="auto_record_gpx_title">Automatically Start Recording</string>
+    <string name="file_split_rule">Automatic recording file split rule</string>
+    <string-array name="gpx_auto_record_reason" translatable="true">
+        <item>Date Based - 1 file per day (Changes at 00:00)</item>
+        <item>Time Stopped - Starts new file after at least 6h stopped</item>
+        <item>Time Stopped - Starts new file after at least 8h stopped</item>
+        <item>Time Stopped - Starts new file after at least 12h stopped</item>
+        <item>Time Stopped - Starts new file after at least 24h stopped</item>
+    </string-array>
+    <string name="auto_track_maker">Automatically Split into Tracks</string>
+
+    <string name="auto_waypoint_maker">Automatically Create Waypoints</string>
 
     <!-- OBD SENSORS -->
     <string name="obd_bottom_menu_name">OBD Sensors</string>
@@ -560,6 +576,7 @@
     <string name="obd_afr_widget">OBD - O2 Sensor AFR</string>
 
 
+
     <string name="gpx_recorder_title">GPX Recorder</string>
     <string name="gpx_recorder_state_stopped">Inactive (Press to Record)</string>
     <string name="gpx_recorder_state_recording">Recording (Press to Pause)</string>
@@ -672,8 +689,8 @@
     <string name="gear_assist_finished_toast">Gear Ratio Assistant Completed</string>
     <string name="gear_assist_instruction">Ride at a steady speed with the indicated gear engaged and when the ratio value stabilizes press NEXT.</string>
     <string name="gear_assist_ratio_error">Ratio cannot be 0</string>
-    
-    
+
+
     <!-- End of New / Not Translated -->
 
     <!-- FOR CORRECTION -->
