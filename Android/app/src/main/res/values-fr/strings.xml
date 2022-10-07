@@ -62,16 +62,16 @@
     <string name="Crossing">Crossing</string>
     <string name="Cave">Cave or Mine</string>
 
-     <string name="file_browser_title">Navigateur de fichiers</string>
+    <string name="file_browser_title">Navigateur de fichiers</string>
     <string name="gpx_files">Fichiers GPX</string>
     <string name="locations">Emplacements</string>
     <string name="open_folder">Ouvrir</string>
     <string name="new_folder">Nouveau dossier</string>
     <string name="delete_folder">Supprimer</string>
     <string name="rename_folder">Renommer</string>
-    <string name="select_folder_first">Sélectionner un dossier d'abort !</string>
-    <string name="imported_folder_delete_error">Le dossier importé ne peut pas être supprimé !</string>
-    <string name="recording_folder_delete_error">Le dossier enregistré ne peut pas être supprimé !</string>
+    <string name="select_folder_first">Sélectionner un dossier d\'abort!</string>
+    <string name="imported_folder_delete_error">Le dossier importé ne peut pas être supprimé!</string>
+    <string name="recording_folder_delete_error">Le dossier enregistré ne peut pas être supprimé!</string>
     <string name="Default">Défaut</string>
     <string name="Restaurant">Restaurant</string>
     <string name="Bar">Bar</string>
@@ -328,7 +328,7 @@
     <string name="gear_assist_finished_toast">Gear Ratio Assistant Completed</string>
     <string name="gear_assist_instruction">Ride at a steady speed with the indicated gear engaged and when the ratio value stabilizes press NEXT.</string>
     <string name="gear_assist_ratio_error">Ratio cannot be 0</string>
-    
+
 
     <!-- NOT TRANSLATED -->
 
