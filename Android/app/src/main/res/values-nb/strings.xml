@@ -5,7 +5,7 @@
     <string name="roadbook_settings">Innstillinger</string>
     <string name="roadbook_interface_settings">Brukergrensesnitt</string>
     <string name="roadbook_show_instruments">Vis instrumentpanel</string>
-    <string name="roadbook_show_compass">Vis grafisknplot for retning</string>
+    <string name="roadbook_show_compass">Vis grafisk plot for retning</string>
     <string name="roadbook_use_magnetic_sensor">Bruk magnetisk sensor for retning når i ro</string>
 
     <string name="obd_fuel_widget">OBD - Drivstoffnivå</string>
