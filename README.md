@@ -1,4 +1,3 @@
-![DMD2 LOGO](drivemode_logo.png)
 
 ## DMD2
 **Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.**
