@@ -185,6 +185,9 @@
     <string name="map_storage_sd_card_missing_error_message">Previous used SDCard is missing, please insert it!</string>
     <string name="map_storage_sd_card_missing_switch_retry">Retry</string>
     <string name="map_storage_sd_card_missing_switch_internal">Use Internal Memory</string>
+    <string name="map_storage_sd_card_mounting_title">Waiting for SD Card to Mount</string>
+    <string name="map_storage_sd_card_mounting_message">Please wait for the SD Card mount to finish…</string>
+    <string name="map_storage_sd_card_mounting_button">Abort &amp; Switch to Internal Memory</string>
     <string name="map_storage_sd_card_different_error_title">Different SD Card!</string>
     <string name="map_storage_sd_card_different_error_message">It seems you have replaced your SD Card, do you want to use this card? If not please put back the correct card!</string>
     <string name="map_storage_sd_card_different_error_recheck">Re-Check</string>
@@ -794,12 +797,13 @@
     <!-- Route Planner -->
     <string name="map_route_planner_dialog_root_title">Route Planner</string>
     <string name="map_route_planner_road_fast">Road Fast</string>
-    <string name="map_route_planner_road_short">Road Fun</string>
+    <string name="map_route_planner_road_fun">Road Fun</string>
     <string name="map_route_planner_offroad">Off-Road</string>
-    <string name="map_route_planner_mixed">Mixed</string>
     <string name="map_route_planner_avoid_tolls">Avoid Tolls</string>
     <string name="map_route_planner_avoid_motorways">Avoid Motorways</string>
-    <string name="map_route_planner_avoid_unpaved">Avoid Unpaved</string>
+    <string name="map_route_planner_offroad_easy">Easy</string>
+    <string name="map_route_planner_offroad_medium">Medium</string>
+    <string name="map_route_planner_offroad_hard">Hard</string>
     <string name="map_route_planner_profile_label">Select Profile</string>
     <string name="map_route_planner_profile_option">Select Profile Options</string>
     <string name="map_route_calculating_message">Calculating route…</string>
