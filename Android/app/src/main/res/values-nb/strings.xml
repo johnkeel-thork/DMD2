@@ -338,7 +338,7 @@
     <string name="obd_fuel_level_avg_mileage">Gjennomsnittlig forbruk</string>
     <string name="obd_fuel_level_avg_mileage_summary">Hvor langt kommer du normalt på en full tank?</string>
     <string name="obd_speed_rpm_cat_title">Hastighet og omdreininger</string>
-    <string name="obd_speed_gps_source_title">Kilde for GPS hestighet</string>
+    <string name="obd_speed_gps_source_title">Kilde for GPS hastighet</string>
     <string name="obd_speed_gps_source_summary">Bruk GPS/hjulsensor i stedet for OBD hastighet.</string>
     <string name="obd_max_rpm_title">Sett maks RPM</string>
     <string name="obd_max_rpm_summary">Sett maks RPM for kjøretøyet</string>
@@ -399,67 +399,67 @@
     <string name="obd_service_obd_disconnected">IKKE tilkoblet dongle!</string>
     <!-- License -->
     <string name="obd_license_title">OBD2 Demo</string>
-    <string name="obd_license_message">DEMOmodus er begrenset til 15 min bruk per gang. Kjøp OBD Plugin for full tilgang!</string>
+    <string name="obd_license_message">DEMO-modus er begrenset til 15 min bruk per gang. Kjøp OBD Plugin for full tilgang!</string>
     <string name="obd_buy_button">Kjøp plugin</string>
 
     <!-- Roadbook -->
     <!-- Settings -->
-    <string name="roadbook_settings_instrumets_cat_title">Instruments Settings</string>
-    <string name="roadbook_settings_totals_single_decimal_title">Total Distance - Single Decimal Place</string>
-    <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
-    <string name="roadbook_settings_partial_single_decimal_summary">Will show the Partial distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_visual_settings_cat_title">Visual Settings</string>
-    <string name="roadbook_settings_invert_paper_color_title">Invert PDF Colors</string>
-    <string name="roadbook_settings_invert_paper_color_message">Inverts the paper color, might be useful for riding during the night.</string>
-    <string name="roadbook_settings_locker_cat_title">Lock Settings</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_title">Lock also disables paper touch</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled the paper touch is ignored, useful to prevent accidental movements or rain drop actions.</string>
-    <string name="roadbook_settings_locker_disable_instruments_title">Lock also disables instruments</string>
-    <string name="roadbook_settings_locker_disable_instruments_message">When lock is enabled the instruments tap actions will also be disabled.</string>
-    <string name="roadbook_settings_locker_disable_topmenu_title">Lock also disables top menu</string>
-    <string name="roadbook_settings_locker_disable_topmenu_message">When lock is enabled the top menu will also be disabled, only the lock button will work.</string>
-    <string name="roadbook_settings_locker_play_pause_title">Sync lock with play/pause</string>
-    <string name="roadbook_settings_locker_play_pause_message">Locking will also trigger play and unlocking will trigger pause.</string>
-    <string name="roadbook_settings_adjustment_cat_title">Adjustments</string>
-    <string name="roadbook_settings_distance_multi_factor_title">Distance Multiplier</string>
-    <string name="roadbook_settings_distance_multi_factor_message">Add a correction factor to Total and Partial distance (in case you need to match to Roadbook distances)</string>
-    <string name="roadbook_settings_no_instruments_title">Hide Instruments Panel</string>
-    <string name="roadbook_settings_no_instruments_message">If you have your own dedicated instruments and just want to use the PDF roll.</string>
-    <string name="roadbook_settings_reset_session_title">Reset Session</string>
-    <string name="roadbook_settings_reset_session_message">Unloads current PDF file and resets all statistics and distances.</string>
-    <string name="roadbook_settings_reset_session_confirm_title">Confirm Reset</string>
-    <string name="roadbook_settings_reset_session_confirm_message">Are you sure you want to reset the current progress? This unloads current PDF file and resets all statistics and distances!</string>
-    <string name="roadbook_settings_reset_session_confirm_reset_button">Reset</string>
-    <string name="roadbook_settings_controller_setup_cat_title">Remote Controller Setup</string>
+    <string name="roadbook_settings_instrumets_cat_title">Instrumenter</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Total kjørelengde - Kun én desimal</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Total kjørelende vises med én desimal i stedet for to.</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Delvis kjørelengde - Kun én desimal</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Delvis kjørelende vises med én desimal i stedet for to.</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Utseende</string>
+    <string name="roadbook_settings_invert_paper_color_title">Negativ farge på PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Negativ papirfarge, kan være nyttig på natt.</string>
+    <string name="roadbook_settings_locker_cat_title">Låsing</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">Låsing deaktiverer trykking på "rullen"</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Når låsen aktiveres vil ikke trykking på skjemen scrolle rullen, hverken ved uhell eller regnvær.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Låsing deaktiverer trykk på instrumentene</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Når låsen aktiveres vil ikke trykking på instrumentene fungere, for å hindre utilsiktet endring.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Låsing deaktiverer trykking topp-menyen</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Når låsen aktiveres vil kun låseknappen fungere.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Koble låsing sammen med start/pause</string>
+    <string name="roadbook_settings_locker_play_pause_message">Når låsenn aktiveres vil start aktiveres og tid/distanse vil registreres. Ved opplåsning vil pause aktiveres.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Innstillinger</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Multiplikasjonsfaktor for kjørelengde</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Legg til en faktor på total og delvis kjørelengde hvis du trenger å tilpasse til avstander i roadbook.</string>
+    <string name="roadbook_settings_no_instruments_title">Skjul Instrumentpanel</string>
+    <string name="roadbook_settings_no_instruments_message">Hvis du har egne instrumenter og kun vil vise "rullen".</string>
+    <string name="roadbook_settings_reset_session_title">Nullstill aktiv roadbook</string>
+    <string name="roadbook_settings_reset_session_message">Laster ut den aktive PDFen og nullstiller alle kjøredata.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Bekreft nullstilling</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Er du sikker på at du vil nullstille?</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Nulstill</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Innstillinger for fjernkontroll</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
-        <item>Paper Roll Up</item>
-        <item>Paper Roll Down</item>
-        <item>Increase Total</item>
-        <item>Decrease Total</item>
-        <item>Increase Partial</item>
-        <item>Decrease Partial</item>
-        <item>Reset Total</item>
-        <item>Reset Partial</item>
-        <item>Invert Paper Color</item>
-        <item>Lock / Unlock</item>
-        <item>Play / Pause</item>
-        <item>Do Nothing</item>
+        <item>Rull opp</item>
+        <item>Rull ned</item>
+        <item>Øk Total kjørelengde</item>
+        <item>Senk Total kjørelengde</item>
+        <item>Øk Delvis kjørelengde</item>
+        <item>Senk Delvis kjørelengde</item>
+        <item>Nullstill Total kjørelengde</item>
+        <item>Nullstill delvis kjørelengde</item>
+        <item>Negativ Papirfarge</item>
+        <item>Lås / Lås opp</item>
+        <item>Start / Pause</item>
+        <item>Gjør ingenting</item>
     </string-array>
-    <string name="roadbook_controller_button_up">Up Key</string>
-    <string name="roadbook_controller_button_down">Down Key</string>
-    <string name="roadbook_controller_button_left">Left Key</string>
-    <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Enter Key (no repeat)</string>
-    <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked / no repeat)</string>
-    <string name="roadbook_controller_button_zoomin">Button A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Button B ( - )</string>
-    <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
-    <string name="roadbook_controller_scroll_amount_message">Adjust the amount of movement for the paper scroll up and down</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when hold.</string>
-    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Set Repeat Speed for Joystick</string>
-    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Set Repeat Speed for Buttons</string>
+    <string name="roadbook_controller_button_up">Opp</string>
+    <string name="roadbook_controller_button_down">Ned</string>
+    <string name="roadbook_controller_button_left">Venstre</string>
+    <string name="roadbook_controller_button_right">Høyre</string>
+    <string name="roadbook_controller_button_enter">Enter (ingen gjentagelse)</string>
+    <string name="roadbook_controller_button_enter_long">Enter Langt trykk(Kun når låst/ingen gjentagelse)</string>
+    <string name="roadbook_controller_button_zoomin">Knapp A ( + )</string>
+    <string name="roadbook_controller_button_zoomout">Knapp B ( - )</string>
+    <string name="roadbook_controller_scroll_amount_title">Rulling per trykk/klikk</string>
+    <string name="roadbook_controller_scroll_amount_message">Juster hvor langt "rullen" beveger seg for hvert tastetrykk.</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Aktiver gjentagelse for Joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis enen er aktivert vil Opp, Ned, Høyre og Venstre gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Juster gjentagelseshastighet for Joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Juster gjentagelseshastighet for knapper</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
         <item>50ms</item>
         <item>100ms</item>
@@ -472,99 +472,99 @@
         <item>450ms</item>
         <item>500ms</item>
     </string-array>
-    <string name="roadbook_controller_enable_key_repeat_buttons_title">Enable Key Repeat for Buttons</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_message">If enabled the keys for Button A and Button B will repeat when hold.</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll paper down one click on partial reset</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Aktiver gjentagelse for knapper</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Hvis aktiver vil kanppene A og B gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Rull ned ett klikk på "rullen" når delvis kjørelengde nulstilles.</string>
     <!-- Instrument On Tap Dialogs -->
-    <string name="roadbook_totals_dialog_title">Total Distance</string>
-    <string name="roadbook_totals_dialog_text">Please select an option for the Total distance instrument</string>
-    <string name="roadbook_partials_dialog_title">Partial Distance</string>
-    <string name="roadbook_partials_dialog_text">Please select an option for the Partial distance instrument</string>
-    <string name="roadbook_total_partial_dialog_reset">Reset</string>
-    <string name="roadbook_total_partial_dialog_edit">Edit</string>
-    <string name="roadbook_total_edit_message_dialog">Edit Total Distance</string>
-    <string name="roadbook_partial_edit_message_dialog">Edit Partial Distance</string>
+    <string name="roadbook_totals_dialog_title">Total kjørelengde</string>
+    <string name="roadbook_totals_dialog_text">Velg et alternativ for total kjørelengde</string>
+    <string name="roadbook_partials_dialog_title">Delvis kjørelengde</string>
+    <string name="roadbook_partials_dialog_text">Velg et alternativ for delvis kjørelengde</string>
+    <string name="roadbook_total_partial_dialog_reset">Nulstill</string>
+    <string name="roadbook_total_partial_dialog_edit">Endre</string>
+    <string name="roadbook_total_edit_message_dialog">Endre total kjørelengde</string>
+    <string name="roadbook_partial_edit_message_dialog">Endre delvis kjørelengde</string>
     <!-- Instrument Selection Dialogs -->
-    <string name="roadbook_instrument_select_dialog_title">Select Instrument</string>
+    <string name="roadbook_instrument_select_dialog_title">Velg instrumenty</string>
     <!-- Instrument Names -->
-    <string name="roadbook_instrument_name_total">Total Distance</string>
-    <string name="roadbook_instrument_name_partial">Partial Distance</string>
+    <string name="roadbook_instrument_name_total">Total kjørelengde</string>
+    <string name="roadbook_instrument_name_partial">Delvis kjørelengde</string>
     <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensor</string>
     <!-- View -->
-    <string name="roadbook_error_not_ready">Roadbook Service not ready yet! Please try again.</string>
-    <string name="roadbook_error_no_action">There is no action for this instrument.</string>
-    <string name="roadbook_stats_title">Statistics</string>
-    <string name="roadbook_filename_label">File Name:</string>
-    <string name="roadbook_filename_no_file">No loaded file</string>
-    <string name="roadbook_totaltime_label">Total Time:</string>
-    <string name="roadbook_traveltime_label">Travel Time:</string>
-    <string name="roadbook_stoptime_label">Stop Time:</string>
-    <string name="roadbook_avgspeed_label">Average Speed:</string>
-    <string name="roadbook_maxspeed_label">Maximum Speed:</string>
-    <string name="roadbook_reset_stats_button">Reset</string>
-    <string name="roadbook_open_new_dialog_title">Open New File</string>
-    <string name="roadbook_open_new_dialog_message">Discard current session and start new one or save progress first so that you can resume it later?</string>
-    <string name="roadbook_open_new_dialog_open_button">Start Now</string>
-    <string name="roadbook_open_new_dialog_save_first_button">Save First</string>
-    <string name="roadbook_open_parsing_error_title">Error Opening File</string>
-    <string name="roadbook_open_parsing_error_message">There seems to be a problem reading this PDF file. It probably is not compatible!</string>
-    <string name="roadbook_adjust_distance_multi">Distance Correction Factor:</string>
-    <string name="roadbook_open_file_or_session_title">Open File or Session</string>
-    <string name="roadbook_open_file_or_session_message">Import new PDF file or open Session Manager (manage previous saved sessions)?</string>
-    <string name="roadbook_open_file_or_session_new_file">File</string>
-    <string name="roadbook_open_file_or_session_open_session">Session</string>
-    <string name="roadbook_session_save_input_name">Give this session a name</string>
-    <string name="roadbook_session_save_input_empty_name_error">The session name cannot be empty!</string>
-    <string name="roadbook_session_save_nothing_error">Nothing to save! Maybe start by opening a new Roadbook File.</string>
-    <string name="roadbook_session_save_replace_or_add_new_title">Replace or Add New</string>
-    <string name="roadbook_session_save_replace_or_add_new_message">Overwrite the current sessions or add a new entry?</string>
-    <string name="roadbook_session_save_replace_or_add_new_overwrite">Overwrite</string>
-    <string name="roadbook_session_save_replace_or_add_new_new_entry">New Entry</string>
-    <string name="roadbook_session_save_name_already_exists_title">Session Name Already Exists</string>
-    <string name="roadbook_session_save_name_already_exists_message">A session with this name already exists, do you want to replace or edit the name?</string>
-    <string name="roadbook_session_save_name_already_exists_replace">Replace</string>
-    <string name="roadbook_session_save_name_already_exists_edit">Edit Name</string>
+    <string name="roadbook_error_not_ready">Roadbook er ikke kjlar, vennligst prøv igen litt senere.</string>
+    <string name="roadbook_error_no_action">Dette instrumentet har ingen tilknyttede handlinger..</string>
+    <string name="roadbook_stats_title">Statistikk</string>
+    <string name="roadbook_filename_label">Filnavn:</string>
+    <string name="roadbook_filename_no_file">Ingen filer innlastet</string>
+    <string name="roadbook_totaltime_label">Totaltid:</string>
+    <string name="roadbook_traveltime_label">Kjøretid:</string>
+    <string name="roadbook_stoptime_label">Stopptid:</string>
+    <string name="roadbook_avgspeed_label">Gejnnomsnittshastighet:</string>
+    <string name="roadbook_maxspeed_label">Maks hastighet:</string>
+    <string name="roadbook_reset_stats_button">Nullstill</string>
+    <string name="roadbook_open_new_dialog_title">Åpne ny fil</string>
+    <string name="roadbook_open_new_dialog_message">Abryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringe senere?</string>
+    <string name="roadbook_open_new_dialog_open_button">Start nå!</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Lagre først</string>
+    <string name="roadbook_open_parsing_error_title">Feil ved åpning av fil</string>
+    <string name="roadbook_open_parsing_error_message">Noe gikk galt ved åpning av filen. Den er kanskje ikke kompatibel?</string>
+    <string name="roadbook_adjust_distance_multi">Korrigeringsfaktor for avstand:</string>
+    <string name="roadbook_open_file_or_session_title">Åpne fil eller tidligere kjøring</string>
+    <string name="roadbook_open_file_or_session_message">Åpne ny PDF eller åpne tidliogere kjøringer (Håndtere tidligere lagrede kjøringer)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Fil</string>
+    <string name="roadbook_open_file_or_session_open_session">Kjøring</string>
+    <string name="roadbook_session_save_input_name">Gi denne kjøringen et navn</string>
+    <string name="roadbook_session_save_input_empty_name_error">Navnet kan ikke være "tomt"!</string>
+    <string name="roadbook_session_save_nothing_error">Ingenting å lagre, kanskje du må åpne en fil først?</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Skriv over eller lagre en ny?</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Skriv over eksisterende kjøring eller lagre en ny?</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Erstatt</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Ny kjøring</string>
+    <string name="roadbook_session_save_name_already_exists_title">Dette navnet finnes allerede!</string>
+    <string name="roadbook_session_save_name_already_exists_message">En kjøring med dette navnet finnes allerede, vil erstatte eller gi nytt navn?</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Erstatt</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Nytt navn</string>
     <!-- Session Manager -->
-    <string name="roadbook_session_manager_title">Session Manager</string>
-    <string name="roadbook_session_manager_no_sessions_yet">No saved sessions yet! Save one first.</string>
-    <string name="roadbook_session_date">Date:</string>
-    <string name="roadbook_session_file_name">PDF File:</string>
-    <string name="roadbook_session_total_distance">Total Distance:</string>
-    <string name="roadbook_session_total_time">Total Time:</string>
-    <string name="roadbook_session_travel_time">Travel Time:</string>
-    <string name="roadbook_session_avg_speed">Average Speed:</string>
-    <string name="roadbook_session_load_file">Load</string>
-    <string name="roadbook_session_rename_file">Rename</string>
-    <string name="roadbook_session_location">Location</string>
-    <string name="roadbook_session_new_name">Edit this session name</string>
-    <string name="roadbook_session_new_name_already_exists">This session name is already taken, please type something else.</string>
-    <string name="roadbook_session_file_does_not_exist">ERROR: The PDF file for this session does not exist anymore!</string>
-    <string name="roadbook_session_load_confirmation_title">Session Load Confirmation</string>
-    <string name="roadbook_session_load_confirmation_message">Are you sure you want to load this session? Any unsaved Roadbook progress will be lost!</string>
+    <string name="roadbook_session_manager_title">Lagrede kjøringer</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Ingen lagrede kjøringer ennå. Lagre en først!</string>
+    <string name="roadbook_session_date">Dato:</string>
+    <string name="roadbook_session_file_name">PDF Filnavn:</string>
+    <string name="roadbook_session_total_distance">Total kjørelengde:</string>
+    <string name="roadbook_session_total_time">Totaltid:</string>
+    <string name="roadbook_session_travel_time">Kjøretid:</string>
+    <string name="roadbook_session_avg_speed">Gjennomsnittshastighet:</string>
+    <string name="roadbook_session_load_file">Last inn</string>
+    <string name="roadbook_session_rename_file">Nytt navn</string>
+    <string name="roadbook_session_location">Sted</string>
+    <string name="roadbook_session_new_name">Endre navnet på kjøringen</string>
+    <string name="roadbook_session_new_name_already_exists">Dette navnet er allerede i bruk, skriv noe annet!</string>
+    <string name="roadbook_session_file_does_not_exist">FEIL: PDF-fila for denne kjøringa finnes ikke!</string>
+    <string name="roadbook_session_load_confirmation_title">Bekreft innlasting</string>
+    <string name="roadbook_session_load_confirmation_message">Er du sikker på at du vil laste inn? All elagret aktivitet vil bli borte!</string>
     <!-- License -->
-    <string name="roadbook_license_title">Roadbook Demo Mode</string>
-    <string name="roadbook_license_message">Demo mode is limited to 15 minutes per session. Buy the Roadbook Plugin to unlock!</string>
-    <string name="roadbook_buy_button">Buy Plugin</string>
-    <string name="roadbook_non_playstore_purchase_title">License Purchase</string>
-    <string name="roadbook_non_playstore_purchase_message">Your device does not have Play Store installed, you can still purchase a key in our website and then insert it to activate it!</string>
-    <string name="roadbook_insert_key">Insert Key</string>
-    <string name="roadbook_purchase_key">Purchase</string>
-    <string name="roadbook_insert_key_title">Please insert your license key to activate the plugin:</string>
-    <string name="roadbook_purchase_key_activate">Activate</string>
-    <string name="roadbook_purchase_key_activate_error_title">Error Activating License</string>
-    <string name="roadbook_purchase_key_activate_error_message">Wrong license code or already activated on another device, check licenses in your Thork Racing account page or contact support.</string>
-    <string name="roadbook_purchase_key_activate_success_title">License Activated</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank your for your support.</string>
+    <string name="roadbook_license_title">Roadbook Demo.modus</string>
+    <string name="roadbook_license_message">Demo.modus er begrenset til 15 min per gang. Kjøp plugin for full tilgang!</string>
+    <string name="roadbook_buy_button">Kjøp Plugin</string>
+    <string name="roadbook_non_playstore_purchase_title">Kjøp lisens</string>
+    <string name="roadbook_non_playstore_purchase_message">Din enhet har ikke Google PlayStore, du kan kjøpe lisensnøkkel på vår hjemmeside!</string>
+    <string name="roadbook_insert_key">Legg inn lisensnøkkel</string>
+    <string name="roadbook_purchase_key">Kjøp</string>
+    <string name="roadbook_insert_key_title">Legg inn ,isensnøkkel for å aktivere plugin:</string>
+    <string name="roadbook_purchase_key_activate">Aktiver</string>
+    <string name="roadbook_purchase_key_activate_error_title">Feil ved aktivering</string>
+    <string name="roadbook_purchase_key_activate_error_message">Feil nøkkel, eller nøkkelen er allerede aktivert på en annen enhet. Sjekk lsiensnøklene i din konto hos THORK racing eller kontakt kundeservice.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Lisens aktivert</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin er aktivert! Takk for støtten.</string>
 
     <!-- MAP VIEW -->
-    <string name="map_first_run_download_maps_title">No Maps Downloaded Yet</string>
-    <string name="map_first_run_download_maps_message">It seems you have not yet downloaded any map file, do you want to do it now?</string>
-    <string name="map_first_run_download_maps_starting_layers">Starting Layers Manager!</string>
-    <string name="map_navigation_selection_dialog_title">Select Navigation Mode</string>
-    <string name="map_navigation_selection_dialog_message">Use DMD2 to calculate the route or use an external app?</string>
-    <string name="map_navigation_selection_dialog_use_dmd2">Use DMD2</string>
-    <string name="map_navigation_selection_dialog_use_external">External App</string>
-    <string name="map_panning_mode_enable">Panning Mode Enabled</string>
+    <string name="map_first_run_download_maps_title">Ingen kart lastet ned!</string>
+    <string name="map_first_run_download_maps_message">Det ser ut til at du ikke har noen kart, vil du laste ned nå?</string>
+    <string name="map_first_run_download_maps_starting_layers">Starter håndtering av kartlag!</string>
+    <string name="map_navigation_selection_dialog_title">Velg navigasjonsmodus</string>
+    <string name="map_navigation_selection_dialog_message">Vil du bruke DMD2 til å finne en rute til målet, eller en annen app?</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Annen App</string>
+    <string name="map_panning_mode_enable">Kartbevegelsesmodus aktivert</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Map Layers</string>
     <string name="map_layers_base_map_title">Base Map Source</string>
