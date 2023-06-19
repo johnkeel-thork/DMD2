@@ -1,4 +1,3 @@
-![DMD2 LOGO](drivemode_logo.png)
 
 ## DMD2
 **Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.**
@@ -23,6 +22,8 @@ Following the Android schemas:
 
 ## Links:
 
+* [Our Discord Group](https://discord.com/invite/rCt4uBZk) : Join our Discord
+* [Our Forum](https://www.drivemodedashboard.com/forums/) : Join our Forum
 * [Our Facebook Page](https://www.facebook.com/drivemodedashboard) : Follow us on Facebook
 * [Our Facebook Group](https://www.facebook.com/groups/drivemodeusers) : Join the conversation
 * [ADV Rider Thread](https://advrider.com/f/threads/drive-mode-dashboard-for-android.1425433) : Discuss Development / Testing / Feature Request

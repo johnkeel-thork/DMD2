@@ -1,6 +1,5 @@
-<resources>
-
-
+<resources>    
+    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
