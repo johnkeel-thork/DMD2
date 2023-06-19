@@ -1,1 +1,845 @@
+<resources>    
+    
+    <string name="app_name">DMD2</string>
 
+    <!-- Status Bar -->
+    <string name="status_bar_online_status">Online</string>
+    <string name="status_bar_offline_status">Offline</string>
+
+    <!-- Bottom Menu -->
+    <string name="menu_global_settings">Innstillinger</string>
+    <string name="menu_exit">Avslutt</string>
+    <string name="menu_home">Hjem</string>
+    <string name="menu_apps">Applikasjoner</string>
+    <string name="menu_roadbook">Roadbook</string>
+    <string name="menu_map">Kart</string>
+    <string name="menu_obd">OBD</string>
+    <!-- Menu Editor -->
+    <string name="menu_edit_title">Endre nedre menylinje</string>
+    <string name="menu_edit_message">Endre rekkefølge eller vise/skjule objekter på nedre menylinje</string>
+    <string name="menu_sorter_instructions">Trykk og hold for å flytte. Bruk bryteren for vis/skjul.</string>
+
+    <!-- Global -->
+    <!-- Units -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/t</string>
+    <string name="meters">meter</string>
+    <string name="feet">fot</string>
+    <!-- Buttons -->
+    <string name="back">Tilbake</string>
+    <string name="abort">Avbryt</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="save">Lagre</string>
+    <string name="cancel">Avbryt</string>
+    <string name="close">Lukk</string>
+    <string name="delete">Slett</string>
+    <string name="replace">Erstatt</string>
+    <string name="rename">Nytt navn</string>
+    <string name="reset">Tilbakestill</string>
+    <string name="refresh">Oppdater</string>
+    <string name="enable">Aktiver</string>
+    <string name="download">Last ned</string>
+    <string name="load">Last inn</string>
+    <string name="unload">Last ut</string>
+    <string name="update">Oppdater</string>
+    <string name="share">Del</string>
+    <string name="advanced">Avansert</string>
+    <string name="settings">Innstillinger</string>
+    <string name="hide">Skjul</string>
+    <string name="later">Senere</string>
+    <string name="finish">Avslutt</string>
+    <string name="abort_download">Avbryt nedlasting</string>
+    <string name="start">Start</string>
+    <!-- Messages / Errors & Warnings -->
+    <string name="error_creating_directory">Feil ved opprettelse av brukermappe!</string>
+    <string name="error_deleting_file">Feil ved sletting av fil!</string>
+    <string name="error_file_already_exists_title">Filen erstattes!</string>
+    <string name="error_file_already_exists_message">En fil med dette navnet finnes allerede, hva vil du gjøre?</string>
+    <string name="error_file_new_name_title">Gi filen nytt navn</string>
+    <string name="share_file_with">Del filen med</string>
+    <string name="connect_to_internet">Sjekk at du er koblet til internet!</string>
+    <!-- App Update -->
+    <string name="app_update_title">DMD2 Oppdatering tilgengelig</string>
+    <string name="app_update_message">Det finnes en oppdatering for DMD2, vil du oppdatere nå? \n Nytt:</string>
+    <string name="app_update_download_notification">Laster ned oppdatering</string>
+    <string name="app_update_download_progress">Fremdrift:</string>
+    <!-- Controller App Update -->
+    <string name="controller_app_update_dialogue_title">CARPE Controller App oppdatering</string>
+    <string name="controller_app_update_dialogue_message">Det finnes en oppdatering for controller appen, vil du oppdatere nå? \n Nytt:</string>
+    <string name="controller_app_update_download_notification">Laster ned oppdatering</string>
+    <string name="controller_app_update_download_progress">Fremdrift:</string>
+    <!-- T93 Dialog -->
+    <string name="t93_trial_title">Tripltek T93 Trial</string>
+    <string name="t93_trial_message">Siden du bruker en Tripltek T93 har 30 dagers gratis utprøving. Hvis du har en DMD2 lisens, vennligst legg inn denne.</string>
+    <string name="t93_trial_button">Fortsett utprøving</string>
+    <string name="t93_dmd2_edition_button">Legg inn lisens</string>
+    <string name="t93_finish_trial_button">Avslutt utprøving</string>
+    <string name="t93_dmd2_edition_insert_key_title">DMD2-lisens:</string>
+
+    <!-- Settings -->
+    <string name="settings_localization_options">Enheter</string>
+    <string name="settings_hour_format">Bruk 24timers klokke</string>
+    <string name="settings_use_fahrenheit">Bruk Fahrenheit istedet for Celsius</string>
+    <string name="settings_use_imperial_units">Bruk imperiske måleenheter</string>
+    <string name="settings_interface_options">Grensesnitt</string>
+    <string name="settings_theme_category">Tema</string>
+    <string name="settings_color_theme">Fargetema (Mørk / Lys):</string>
+    <string-array name="settings_color_themes" translatable="true">
+        <item>Alltid mørk</item>
+        <item>Alltid lys</item>
+        <item>Automatisk (følg systeminnstillinger)</item>
+        <item>Bruk lyssensor</item>
+    </string-array>
+    <string name="settings_accent_color_title">Vignettfarge:</string>
+    <string-array name="settings_accent_colors_names" translatable="true">
+        <item>Blå</item>
+        <item>Mørk blå</item>
+        <item>Rød</item>
+        <item>Oransje</item>
+        <item>Grønn</item>
+        <item>Gul</item>
+        <item>Rosa</item>
+    </string-array>
+    <string name="settings_screen_category">Skjerm</string>
+    <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
+    <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
+    <string name="settings_screen_orientation">Låsrotasjon til:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landskap</item>
+        <item>Omvendt landskap</item>
+    </string-array>
+    <string name="settings_notifications_category">Varslinger</string>
+    <string name="settings_notifications_enable_title">Tillat varslinger som pop-up</string>
+    <string name="settings_notifications_enable_summary">Viser varslinger fra apper du tillater</string>
+    <string name="settings_notifications_dismiss">Hvordan fjerne varslinger:</string>
+    <string-array name="settings_notifications_dismiss_names" translatable="true">
+        <item>Timeout etter 5s</item>
+        <item>Timeout etter 10s</item>
+        <item>Timeout etter 15s</item>
+        <item>Timeout etter 30s</item>
+        <item>Timeout etter 60s</item>
+        <item>Manuelt</item>
+    </string-array>
+    <string name="settings_notifications_controller_lock_title">Fjernkontroll fokus på varsling</string>
+    <string name="settings_notifications_controller_lock_message">Når en varsling er synlig vil fjernkontrollen fokusere på den, trykk på Enter for å åpne appen varslingen kom fra, eller tilbake for å lukke varslingen</string>
+    <string name="settings_notifications_apps_selection_title">App filter</string>
+    <string name="settings_notifications_apps_selection_message">Velg hvilke apper du vil skal vise varslinger</string>
+    <string name="settings_notifications_group_title">Vis kun siste varsling i hver gruppe</string>
+    <string name="settings_notifications_group_message">Hvis aktiv vil du kun se den siste varslingen for hver gruppe, f.eks den siste meldingen.</string>
+    <string name="settings_notifications_app_selection_dialog_title">Vis varslinger for:</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Alle / Ingen</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Lukk</string>
+    <!-- Trip Settings-->
+    <string name="settings_trip_options">Trip innstillinger</string>
+    <string name="settings_trip_auto_reset_title">Automatisk nullstilling</string>
+    <string name="settings_trip_auto_reset_summary">Trip will automatisk nukllstilles hvis DMD2 ikke startes innefor valgt tidsrom</string>
+    <string name="settings_trip_auto_reset_time_title">Automatisk nullstillingstid</string>
+    <string-array name="settings_trip_reset_time_entries" translatable="true">
+        <item>6 timer</item>
+        <item>12 timer</item>
+        <item>1 dag</item>
+        <item>2 dager</item>
+        <item>5 dager</item>
+    </string-array>
+    <!-- OEM Registration-->
+    <string name="settings_oem_registration">OEM Registrering</string>
+    <string name="settings_oem_check">Registreringsprosess (krever internet)</string>
+    <string name="settings_oem_check_summary">Brukes kun hvis motorsykkelen ble levert fra fabrikk med en androidenhet hvor DMD2 var forhåndsinstallert.</string>
+    <!-- Info & Links -->
+    <string name="settings_info_and_links">Informasjon og lenker</string>
+    <string name="settings_app_version">DMD2 Versjon</string>
+    <string name="settings_app_installed_version">Installert versjon:</string>
+    <string name="settings_dmd2_website">Lær mer om DMD2 på den offisielle nettsiden</string>
+    <string name="settings_developer_website_title">DMD2 utvikles av</string>
+    <string name="settings_tripltek_website_title">Denne versjonen av DMD2 er optimalisert for Tripltek-enheter</string>
+    <string name="settings_follow_us_facebook">Besøk og følg vår Facebook-side for å få de siste nyhetene</string>
+    <string name="settings_join_us_facebook">Meld deg inn i facebook-gruppe</string>
+    <string name="settings_dmd2_forum">delta i diskusjoner om nye funksjoner, feil og forslag</string>
+    <string name="settings_license_title">Lisensnøkler</string>
+    <string name="settings_dmd2_edition_redeem_title">Prøveversjon / DMD2 Versjon</string>
+    <string name="settings_dmd2_edition_redeem_message">Håndter prøveversjon og legg inn lisensnøkkel</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_dmd2_title">Velkommen til DMD2</string>
+    <string name="welcome_dmd2_message">DMD2 vil gjøre din androidenhet til et komplett dashboard for motorsykler, ATVer og biler med fokus på adventure og off-road. DMD2 inneholder kart for navigasjon, Roadbook, OBD2 integrasjon og mye mer.</string>
+    <string name="welcome_dmd2_lets_go">Start</string>
+    <!-- GPS Settings -->
+    <string name="settings_gps_settings_title">GPS Innstillinger</string>
+    <string name="settings_bypass_acc_filter_title">Senk GPS nøyaktighetsfilter</string>
+    <string name="settings_bypass_acc_filter_message">For enheter med sub-optimal GPS kvalitet</string>
+    <!-- Device Specific -->
+    <string name="settings_non_play_store_devices_cat">Innstillinger for enheter uten Google PlayStore</string>
+    <string name="settings_disable_controller_app_check_title">Deaktiver CARPE Controller App sjekk</string>
+    <string name="settings_disable_controller_app_check_message">Dette stopper overvåkning av controller-appen og vil ikke lengre spørre etter installasjon eller oppdatering.</string>
+    <string name="settings_controller_app_install_title">CARPE Controller funnet!</string>
+    <string name="settings_controller_app_install_message">Det ser ut til at du bruker en CARPE Controller, vil du installere CARPE controller APP?</string>
+    <!-- Storage -->
+    <string name="map_storage_location_cat_title">Lagring</string>
+    <string name="map_storage_location_select_title">Lagring på SD-kort</string>
+    <string name="map_storage_location_select_message">For offline kart og brukerfiler.</string>
+    <string name="map_storage_sd_card_missing_error_title">SD-kort mangler!</string>
+    <string name="map_storage_sd_card_missing_error_message">Tidligere brukt SD-kort mangler, vennligst sett det inn igjen!</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Prøv igjen</string>
+    <string name="map_storage_sd_card_missing_switch_internal">Bruk internminne</string>
+    <string name="map_storage_sd_card_different_error_title">Annet SD-kort!</string>
+    <string name="map_storage_sd_card_different_error_message">Det ser ut til at du har skiftet ut SD-kortet, vil du bruke dette? Hvis ikke; vennligst sett inn det andre kortet!</string>
+    <string name="map_storage_sd_card_different_error_recheck">Ny kontroll av SD-kort</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">SD-kort mangler fotsatt!</string>
+    <string name="map_storage_sd_card_move_map_files_title">Flytte kartfiler?</string>
+    <string name="map_storage_sd_card_move_map_files_external">Vil du flytte kartfilene fra internminnet til SD-kort? Dette kan feile hvis det ikke er nok plass!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">il du flytte kartfilene fra SD-kortet til internminnet? Dette kan feile hvis det ikke er nok plass!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Flytter filer, vennligst vent! Ikke lukk DMD2 eller bytt til annen skjerm eller program!</string>
+
+    <!-- Home-->
+    <!-- Widget Types-->
+    <string name="home_widget_trip_title">Kjørecomputer</string>
+    <string name="home_widget_trip_title_long">Statistikk</string>
+    <string name="home_widget_trip_description">Se kjørelengde, kjøretid, reisetid, stopptid og gjennomsnittshastighet.</string>
+    <string name="home_widget_apps_title">Apper</string>
+    <string name="home_widget_apps_title_long">Snarveier</string>
+    <string name="home_widget_apps_description">Legg inn snarveier til dine favorittapper.</string>
+    <string name="home_widget_apps_selection_dialog_title">Velg eller slett snarvei</string>
+    <string name="home_widget_apps_clear_selection">Slet snarvei</string>
+    <string name="home_widget_obd_rpm_title">OBD RPM</string>
+    <string name="home_widget_obd_rpm_title_long">OBD Turtall</string>
+    <string name="home_widget_obd_rpm_description">Enkel turtallsvisning basert på OBD-data. SKifter farge ved nedre turtallsgrense.</string>
+    <string name="home_widget_heading_title">HEADING</string>
+    <string name="home_widget_heading_title_long">Kompasskurs fra GPS</string>
+    <string name="home_widget_heading_description">Grafisk fremstilling av kompasskurs, inkluderer gradtall.</string>
+    <string name="home_widget_media_title">MEDIA</string>
+    <string name="home_widget_media_title_long">Kontroll for medieavspilling</string>
+    <string name="home_widget_media_description">Gjør det mulig å kontrollere pågående medieavspilling, inkluderer coverart, spor, artist og album (krever tilgang til varslinger i innstillinger).</string>
+    <string name="home_widget_map_title">KART</string>
+    <string name="home_widget_map_title_long">Minikart</string>
+    <string name="home_widget_map_description">Lite kartvindu som viser din umiddelbare nærhet med samme innstillinger som i det store kartvinduet.Kan kun plasseres i venstre panel.</string>
+    <string name="home_widget_speed_title">HASTIGHET</string>
+    <string name="home_widget_speed_title_long">hastighet fra GPS</string>
+    <string name="home_widget_speed_description">Stort felt med aktuell hastighet fra GPS.</string>
+    <string name="home_widget_numeric_values_title">INFO</string>
+    <string name="home_widget_numeric_values_title_long">GPS &amp; OBD data</string>
+    <string name="home_widget_numeric_values_description">Tilgjengelige verdier fra OBD og GPS.</string>
+    <string name="home_widget_notifications_list_title">VARSLINGER</string>
+    <string name="home_widget_notifications_list_title_long">Liste over aktuelle varslinger</string>
+    <string name="home_widget_notifications_list_description">En liste over aktuelle aktive varslinger.</string>
+    <string name="home_widget_notifications_list_no_notification">Ingen varslinger.</string>
+    <string name="home_widget_system_title">SYSTEM WIDGET</string>
+    <string name="home_widget_system_title_long">System Widget</string>
+    <string name="home_widget_system_description">Legg inn en widget fra en annen android app.</string>
+    <string name="home_widget_big_clock_title">KLOKKE</string>
+    <string name="home_widget_big_clock_title_long">Stor klokke</string>
+    <string name="home_widget_big_clock_description">STor klokke, hvis du lurer på hva den er hele tiden.</string>
+    <string name="home_widget_map_progress_title">FREMDRIFT</string>
+    <string name="home_widget_map_progress_title_long">Navigasjonsfremdrift</string>
+    <string name="home_widget_map_progress_description">Viser navigasjonsmeldinger eller fremdrift på GPX avhengig av hva som er aktivt i kartmodus.</string>
+    <string name="home_widget_settings_dialog_title">Velg Widget</string>
+    <!-- Home Editor -->
+    <string name="home_widget_editor_left_panel_title">Venstre Panel</string>
+    <string name="home_widget_editor_right_panel_title">Høyre Panel</string>
+    <string name="home_widget_editor_center_top_title">Øverst i midten</string>
+    <string name="home_widget_editor_center_bottom_title">Nederst i midten</string>            
+    <string name="home_widget_editor_left_panel_edit_button">Endre Widget</string>
+    <!-- Widget Trip -->
+    <string name="home_widget_trip_distance">Kjørelengde</string>
+    <string name="home_widget_trip_total_time">Totaltid</string>
+    <string name="home_widget_trip_travel_time">Kjøretid</string>
+    <string name="home_widget_trip_stop_time">Stopptid</string>
+    <string name="home_widget_trip_avg_average">Gj.snitt hastighet</string>
+    <!-- Widget Info: GPS & OBD Sensor Selector -->
+    <string name="widget_info_selector_dialog_title">Velg GPS/OBD Sensor</string>
+    <string name="widget_info_gps_altitude_name">GPS Høyde o/havet</string>
+    <string name="widget_info_gps_altitude_label">m.o.h</string>
+    <string name="widget_info_gps_heading_name">GPS kompasskurs</string>
+    <string name="widget_info_gps_heading_label">Kurs</string>
+    <string name="widget_info_gps_speed_name">GPS Hastighet</string>
+    <string name="widget_info_gps_speed_label">Hastighet</string>
+    <string name="widget_info_gps_trip_max_speed_name">Høyeste hastighet</string>
+    <string name="widget_info_gps_trip_max_speed_label">Maks hastighet</string>
+    <string name="widget_info_gps_trip_distance_name">Kjøreøengde</string>
+    <string name="widget_info_gps_trip_total_time_name">Totaltid</string>
+    <string name="widget_info_gps_trip_travel_time_name">Reisetid</string>
+    <string name="widget_info_gps_trip_stop_time_name">Stopptid</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Snitthastighet</string>
+    <string name="widget_info_obd_speed_label">OBD Hastighet</string>
+    <string name="widget_info_obd_rpm_label">RPM</string>
+    <string name="widget_info_obd_coolant_label">Kjøevæsketemperatur</string>
+    <string name="widget_info_obd_voltage_label">Ladespenning</string>
+    <string name="widget_info_obd_fuel_label">Drivstoff</string>
+    <string name="widget_info_obd_tbposition_label">Gasspådrag</string>
+    <string name="widget_info_obd_spark_label">Tenning</string>
+    <string name="widget_info_obd_map_label">MAP</string>
+    <string name="widget_info_obd_intake_temp_label">IAT</string>
+    <string name="widget_info_obd_intake_maf_label">MAF</string>
+    <string name="widget_info_obd_none_title">Usynlig</string>
+    <string name="widget_info_obd_none_reset">Nullstill</string>
+    <string name="widget_info_adv_voltage_label">AdvCtrl ladespenning</string>
+    <!-- Widget Media Control Permission Dialog -->
+    <string name="media_notifications_enable_dialog_title_media">Medieavspillingskontroll tillatelser</string>
+    <string name="media_notifications_enable_dialog_message_media">Medieavspilingskontrollen må ha tilgang til varslinger for å lese titler, artistnavn, etc. Vil du tillate?</string>
+    <!-- Widget Trip Reset Dialog -->
+    <string name="trip_reset_confirmation_title">Nullstille tripdata</string>
+    <string name="trip_reset_confirmation_message">Sikker på at du vil nullstille tripdata?</string>
+
+
+    <!-- Notifications -->
+    <!-- Permission Dialog -->
+    <string name="notifications_enable_dialog_title">Varslinger!</string>
+    <string name="notifications_enable_dialog_message">Vil du gi DMD2 tilgang til varslinger for å vise deg en POP-UP for de varslinger du ønsker på skjermen under kjøring? DU kan velge hvilke apper som skal synes under Innstillinger > Varslinger.</string>
+    <!-- Notification List Widget -->
+    <string name="notifications_list_widget_new_notifications">Ny varsling</string>
+    <string name="notifications_controller_arrow_instructions">Venstre/Høyre - Legg ned varsling</string>
+
+    <!-- Apps-->
+    <!-- Settings-->
+    <string name="apps_view_top_title">Favorittapper</string>
+    <string name="apps_view_app_filter_category_title">Appfilter</string>
+    <string name="apps_filter_enable_title">Aktiver appfilter</string>
+    <string name="apps_filter_enable_description">Skjuler de appene som ligger i filteret</string>
+    <string name="apps_sorting_category_title">Sortering</string>
+    <string name="apps_sorting_setting_title">Velg hvordan snarveiene skal sorteres.</string>
+    <string-array name="apps_sorting_options_list" translatable="true">
+        <item>Appnavn - Alfabetisk</item>
+        <item>Apputviklers navn - Alfabetisk</item>
+        <item>Installasjonsdato</item>
+        <item>Sist oppdatert</item>
+    </string-array>
+    <string name="apps_sorting_direction_setting_title">Sorteringsrekkefølge</string>
+    <string-array name="apps_sorting_direction_options_list" translatable="true">
+        <item>Stigende</item>
+        <item>Synkende</item>
+    </string-array>
+    <string name="apps_filter_dialog_start_title">Velg skjulte apper</string>
+    <string name="apps_filter_dialog_start_dialog">klikk for å velge viste/skjulte apper</string>
+    <string name="apps_filter_dialog_dialog_title">Velg apper som skal skjules</string>
+    <string name="apps_long_press_actions_dialog_text">Tilgjengelige funksjoner for denne appen:</string>
+    <string name="apps_long_press_actions_dialog_uninstall">Avinstaller</string>
+    <string name="apps_long_press_actions_dialog_hide">Skjul</string>
+    <string name="apps_long_press_actions_dialog_cancel">Avbryt</string>
+
+    <!-- OBD-->
+    <!-- Settings-->
+    <string name="obd_cat_title_pref">OBD Innstillinger</string>
+    <string name="obd_device_setup">Oppsett av OBD-enhet</string>
+    <string name="obd_protocols_summary">Velg OBD Protokoll</string>
+    <string name="obd_protocols_title">OBD Protokoll</string>
+    <string name="obd_reader_config_title">Konfigurasjonsinnstillinger for OBD-leser</string>
+    <string name="obd_reader_config_summary">Legg inn kommandoer til OBD-leser, skill med ny linje</string>
+    <string name="obd_select_device_title">Velg parret OBD-enhet</string>
+    <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at diun enhet er parret først!</string>
+    <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetoothenhet</string>
+    <string name="obd_settings_use_alt_voltage_title">Få ladespenning fra dongle</string>
+    <string name="obd_settings_use_alt_voltage_message">Bruk STVRkommando for ladespenning i stedet for ECU PID</string>
+    <string name="obd_fuel_level_settings">Drivstoffnivå</string>
+    <string name="obd_fuel_level_calculated">Beregn drivstoffnivå</string>
+    <string name="obd_fuel_level_calculated_summary">Hvis drivstoffnivå ikke kan hentes fra ECU kan du la DMD2 beregne nivpået basert på gjennomsnittsforbruket per tank. For å nukllstille, trykk på drivstoffikonet ved tanking.</string>
+    <string name="obd_fuel_level_avg_mileage">Gjennomsnittlig forbruk</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Hvor langt kommer du normalt på en full tank?</string>
+    <string name="obd_speed_rpm_cat_title">Hastighet og omdreininger</string>
+    <string name="obd_speed_gps_source_title">Kilde for GPS hastighet</string>
+    <string name="obd_speed_gps_source_summary">Bruk GPS/hjulsensor i stedet for OBD hastighet.</string>
+    <string name="obd_max_rpm_title">Sett maks RPM</string>
+    <string name="obd_max_rpm_summary">Sett maks RPM for kjøretøyet</string>
+    <string name="obd_redline_rpm_title">Sett redline RPM</string>
+    <string name="obd_redline_rpm_summary">Sett redline RPM for kjøretøyet</string>
+    <string name="obd_throttle_options">Gasspådrag</string>
+    <string name="obd_use_raw_throttle_title">Bruk rådata</string>
+    <string name="obd_use_raw_throttle_message">Bruk rådata fra OBD2, eller kalibrer høyeste og laveste posisjon.</string>
+    <string name="obd_calibrate_throttle_title">Kalibrer gasspådrag</string>
+    <string name="obd_calibrate_throttle_message">Dette starter en dialog for å kalibrere gasspådrag. ECU må være på og OBD koblet til, motoren bør vøære stanset. Dette vil IKKE påvirke noe innstillinger i kjøretøyets ECU!</string>
+    <!-- Sensors-->
+    <string name="obd_sensors_coolant_short_label">KJØLEVANN</string>
+    <string name="obd_sensors_coolant_long_label">Kjølevannstemnperatur</string>
+    <string name="obd_sensors_voltage_short_label">SPENNING</string>
+    <string name="obd_sensors_voltage_long_label">Ladespenning</string>
+    <string name="obd_sensors_throttle_short_label">GASS</string>
+    <string name="obd_sensors_throttle_long_label">Gasspådrag</string>
+    <string name="obd_sensors_fuel_short_label">DRIVSTOFF</string>
+    <string name="obd_sensors_fuel_long_label">Drivstoffnivå</string>
+    <string name="obd_sensors_timing_short_label">TENNING</string>
+    <string name="obd_sensors_timing_long_label">Tenningsintervall</string>
+    <string name="obd_sensors_intake_temp_short_label">IAT</string>
+    <string name="obd_sensors_intake_temp_long_label">Inntakstemperatur</string>
+    <string name="obd_sensors_intake_maf_short_label">MAF</string>
+    <string name="obd_sensors_intake_maf_long_label">Luftmengdemåling</string>
+    <string name="obd_sensors_intake_map_short_label">MAP</string>
+    <string name="obd_sensors_intake_map_long_label">Lufttryk</string>
+    <!-- Select Sensor Dialog-->
+    <string name="obd_sensors_select_dialog_title">Velg OBD Sensor</string>
+    <string name="obd_sensors_select_dialog_message">Velg en ny OBD sensor for denen posisjonen</string>
+    <!-- Throttle Calibration-->
+    <string name="obd_min_throttle_calib_dialog_title">Juster laveste gasspådrag</string>
+    <string name="obd_min_throttle_calib_dialog_message">START MOTOREN! Sørg for at motoren går på ren tomgang. Gasshåndtaket bør være i laveste posisjon. Trykk Sett minimum når klar.</string>
+    <string name="obd_throttle_calib_set_minimum">Sett Minimum</string>
+    <string name="obd_max_throttle_calib_dialog_title">Juster høyeste gasspådrag</string>
+    <string name="obd_max_throttle_calib_dialog_message">STANS MOTOREN! Tenningen skal være på og gasshåpndtaket vridd til fullt. Trykk sett maksimum når klar.</string>
+    <string name="obd_throttle_calib_set_maximum">Sett Maksimum</string>
+    <string name="obd_cant_calib_obd_disconnected">Vennligst koble til OBD-dongle først!</string>
+    <!-- Fuel Level Options -->
+    <string name="obd_fuel_dialog_title">Drivstoffnivå</string>
+    <string name="obd_fuel_dialog_message">Tilbakestill drivstoffnivå når du tanker eller juster nivået manuelt.</string>
+    <string name="obd_fuel_dialog_reset">Tilbakestill</string>
+    <string name="obd_fuel_dialog_edit">Endre</string>
+    <string name="obd_fuel_dialog_edit_title">Sett antatt gjenværende kjørelengde</string>
+    <string name="obd_fuel_dialog_edit_message">Sett kjørelengde</string>
+    <string name="obd_fuel_dialog_edit_error">Feil: verdien kan ikke overstige tankens volum eller være lavere enn 1.</string>
+    <string name="obd_fuel_dialog_edit_error2">Feil: Ikke en godtatt verdi for kjørelengde!</string>
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">Ingen feilkoder!</string>
+    <string name="obd_dtc_dialog_title">DTC feilkoder</string>
+    <string name="obd_dtc_dialog_reset_errors">Nullstill feilkoder</string>
+    <string name="obd_dtc_dialog_error_options">Innstillinger for feilkoder</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Ignorer feilkode:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Feil: kan ikke koble til ECU!</string>
+    <!-- Service -->
+    <string name="obd_service_notification_title">OBD-overvåkning kjører</string>
+    <string name="obd_service_obd_connected">Koblet til dongle!</string>
+    <string name="obd_service_obd_disconnected">IKKE tilkoblet dongle!</string>
+    <!-- License -->
+    <string name="obd_license_title">OBD2 Demo</string>
+    <string name="obd_license_message">DEMO-modus er begrenset til 15 min bruk per gang. Kjøp OBD Plugin for full tilgang!</string>
+    <string name="obd_buy_button">Kjøp plugin</string>
+
+    <!-- Roadbook -->
+    <!-- Settings -->
+    <string name="roadbook_settings_instrumets_cat_title">Instrumenter</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Total kjørelengde - Kun én desimal</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Total kjørelende vises med én desimal i stedet for to.</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Delvis kjørelengde - Kun én desimal</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Delvis kjørelende vises med én desimal i stedet for to.</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Utseende</string>
+    <string name="roadbook_settings_invert_paper_color_title">Negativ farge på PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Negativ papirfarge, kan være nyttig på natt.</string>
+    <string name="roadbook_settings_locker_cat_title">Låsing</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">Låsing deaktiverer trykking på "rullen"</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Når låsen aktiveres vil ikke trykking på skjemen scrolle rullen, hverken ved uhell eller regnvær.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Låsing deaktiverer trykk på instrumentene</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Når låsen aktiveres vil ikke trykking på instrumentene fungere, for å hindre utilsiktet endring.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Låsing deaktiverer trykking topp-menyen</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Når låsen aktiveres vil kun låseknappen fungere.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Koble låsing sammen med start/pause</string>
+    <string name="roadbook_settings_locker_play_pause_message">Når låsenn aktiveres vil start aktiveres og tid/distanse vil registreres. Ved opplåsning vil pause aktiveres.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Innstillinger</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Multiplikasjonsfaktor for kjørelengde</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Legg til en faktor på total og delvis kjørelengde hvis du trenger å tilpasse til avstander i roadbook.</string>
+    <string name="roadbook_settings_no_instruments_title">Skjul Instrumentpanel</string>
+    <string name="roadbook_settings_no_instruments_message">Hvis du har egne instrumenter og kun vil vise "rullen".</string>
+    <string name="roadbook_settings_reset_session_title">Nullstill aktiv roadbook</string>
+    <string name="roadbook_settings_reset_session_message">Laster ut den aktive PDFen og nullstiller alle kjøredata.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Bekreft nullstilling</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Er du sikker på at du vil nullstille?</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Nulstill</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Innstillinger for fjernkontroll</string>
+    <string-array name="roadbook_controller_button_options" translatable="true">
+        <item>Rull opp</item>
+        <item>Rull ned</item>
+        <item>Øk Total kjørelengde</item>
+        <item>Senk Total kjørelengde</item>
+        <item>Øk Delvis kjørelengde</item>
+        <item>Senk Delvis kjørelengde</item>
+        <item>Nullstill Total kjørelengde</item>
+        <item>Nullstill delvis kjørelengde</item>
+        <item>Negativ Papirfarge</item>
+        <item>Lås / Lås opp</item>
+        <item>Start / Pause</item>
+        <item>Gjør ingenting</item>
+    </string-array>
+    <string name="roadbook_controller_button_up">Opp</string>
+    <string name="roadbook_controller_button_down">Ned</string>
+    <string name="roadbook_controller_button_left">Venstre</string>
+    <string name="roadbook_controller_button_right">Høyre</string>
+    <string name="roadbook_controller_button_enter">Enter (ingen gjentagelse)</string>
+    <string name="roadbook_controller_button_enter_long">Enter Langt trykk(Kun når låst/ingen gjentagelse)</string>
+    <string name="roadbook_controller_button_zoomin">Knapp A ( + )</string>
+    <string name="roadbook_controller_button_zoomout">Knapp B ( - )</string>
+    <string name="roadbook_controller_scroll_amount_title">Rulling per trykk/klikk</string>
+    <string name="roadbook_controller_scroll_amount_message">Juster hvor langt "rullen" beveger seg for hvert tastetrykk.</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Aktiver gjentagelse for Joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis enen er aktivert vil Opp, Ned, Høyre og Venstre gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Juster gjentagelseshastighet for Joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Juster gjentagelseshastighet for knapper</string>
+    <string-array name="roadbook_controller_repeat" translatable="true">
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Aktiver gjentagelse for knapper</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Hvis aktiver vil kanppene A og B gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Rull ned ett klikk på "rullen" når delvis kjørelengde nulstilles.</string>
+    <!-- Instrument On Tap Dialogs -->
+    <string name="roadbook_totals_dialog_title">Total kjørelengde</string>
+    <string name="roadbook_totals_dialog_text">Velg et alternativ for total kjørelengde</string>
+    <string name="roadbook_partials_dialog_title">Delvis kjørelengde</string>
+    <string name="roadbook_partials_dialog_text">Velg et alternativ for delvis kjørelengde</string>
+    <string name="roadbook_total_partial_dialog_reset">Nulstill</string>
+    <string name="roadbook_total_partial_dialog_edit">Endre</string>
+    <string name="roadbook_total_edit_message_dialog">Endre total kjørelengde</string>
+    <string name="roadbook_partial_edit_message_dialog">Endre delvis kjørelengde</string>
+    <!-- Instrument Selection Dialogs -->
+    <string name="roadbook_instrument_select_dialog_title">Velg instrumenty</string>
+    <!-- Instrument Names -->
+    <string name="roadbook_instrument_name_total">Total kjørelengde</string>
+    <string name="roadbook_instrument_name_partial">Delvis kjørelengde</string>
+    <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensor</string>
+    <!-- View -->
+    <string name="roadbook_error_not_ready">Roadbook er ikke kjlar, vennligst prøv igen litt senere.</string>
+    <string name="roadbook_error_no_action">Dette instrumentet har ingen tilknyttede handlinger..</string>
+    <string name="roadbook_stats_title">Statistikk</string>
+    <string name="roadbook_filename_label">Filnavn:</string>
+    <string name="roadbook_filename_no_file">Ingen filer innlastet</string>
+    <string name="roadbook_totaltime_label">Totaltid:</string>
+    <string name="roadbook_traveltime_label">Kjøretid:</string>
+    <string name="roadbook_stoptime_label">Stopptid:</string>
+    <string name="roadbook_avgspeed_label">Gejnnomsnittshastighet:</string>
+    <string name="roadbook_maxspeed_label">Maks hastighet:</string>
+    <string name="roadbook_reset_stats_button">Nullstill</string>
+    <string name="roadbook_open_new_dialog_title">Åpne ny fil</string>
+    <string name="roadbook_open_new_dialog_message">Abryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringe senere?</string>
+    <string name="roadbook_open_new_dialog_open_button">Start nå!</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Lagre først</string>
+    <string name="roadbook_open_parsing_error_title">Feil ved åpning av fil</string>
+    <string name="roadbook_open_parsing_error_message">Noe gikk galt ved åpning av filen. Den er kanskje ikke kompatibel?</string>
+    <string name="roadbook_adjust_distance_multi">Korrigeringsfaktor for avstand:</string>
+    <string name="roadbook_open_file_or_session_title">Åpne fil eller tidligere kjøring</string>
+    <string name="roadbook_open_file_or_session_message">Åpne ny PDF eller åpne tidliogere kjøringer (Håndtere tidligere lagrede kjøringer)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Fil</string>
+    <string name="roadbook_open_file_or_session_open_session">Kjøring</string>
+    <string name="roadbook_session_save_input_name">Gi denne kjøringen et navn</string>
+    <string name="roadbook_session_save_input_empty_name_error">Navnet kan ikke være "tomt"!</string>
+    <string name="roadbook_session_save_nothing_error">Ingenting å lagre, kanskje du må åpne en fil først?</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Skriv over eller lagre en ny?</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Skriv over eksisterende kjøring eller lagre en ny?</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Erstatt</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Ny kjøring</string>
+    <string name="roadbook_session_save_name_already_exists_title">Dette navnet finnes allerede!</string>
+    <string name="roadbook_session_save_name_already_exists_message">En kjøring med dette navnet finnes allerede, vil erstatte eller gi nytt navn?</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Erstatt</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Nytt navn</string>
+    <!-- Session Manager -->
+    <string name="roadbook_session_manager_title">Lagrede kjøringer</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Ingen lagrede kjøringer ennå. Lagre en først!</string>
+    <string name="roadbook_session_date">Dato:</string>
+    <string name="roadbook_session_file_name">PDF Filnavn:</string>
+    <string name="roadbook_session_total_distance">Total kjørelengde:</string>
+    <string name="roadbook_session_total_time">Totaltid:</string>
+    <string name="roadbook_session_travel_time">Kjøretid:</string>
+    <string name="roadbook_session_avg_speed">Gjennomsnittshastighet:</string>
+    <string name="roadbook_session_load_file">Last inn</string>
+    <string name="roadbook_session_rename_file">Nytt navn</string>
+    <string name="roadbook_session_location">Sted</string>
+    <string name="roadbook_session_new_name">Endre navnet på kjøringen</string>
+    <string name="roadbook_session_new_name_already_exists">Dette navnet er allerede i bruk, skriv noe annet!</string>
+    <string name="roadbook_session_file_does_not_exist">FEIL: PDF-fila for denne kjøringa finnes ikke!</string>
+    <string name="roadbook_session_load_confirmation_title">Bekreft innlasting</string>
+    <string name="roadbook_session_load_confirmation_message">Er du sikker på at du vil laste inn? All elagret aktivitet vil bli borte!</string>
+    <!-- License -->
+    <string name="roadbook_license_title">Roadbook Demo.modus</string>
+    <string name="roadbook_license_message">Demo.modus er begrenset til 15 min per gang. Kjøp plugin for full tilgang!</string>
+    <string name="roadbook_buy_button">Kjøp Plugin</string>
+    <string name="roadbook_non_playstore_purchase_title">Kjøp lisens</string>
+    <string name="roadbook_non_playstore_purchase_message">Din enhet har ikke Google PlayStore, du kan kjøpe lisensnøkkel på vår hjemmeside!</string>
+    <string name="roadbook_insert_key">Legg inn lisensnøkkel</string>
+    <string name="roadbook_purchase_key">Kjøp</string>
+    <string name="roadbook_insert_key_title">Legg inn ,isensnøkkel for å aktivere plugin:</string>
+    <string name="roadbook_purchase_key_activate">Aktiver</string>
+    <string name="roadbook_purchase_key_activate_error_title">Feil ved aktivering</string>
+    <string name="roadbook_purchase_key_activate_error_message">Feil nøkkel, eller nøkkelen er allerede aktivert på en annen enhet. Sjekk lsiensnøklene i din konto hos THORK racing eller kontakt kundeservice.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Lisens aktivert</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin er aktivert! Takk for støtten.</string>
+
+    <!-- MAP VIEW -->
+    <string name="map_first_run_download_maps_title">Ingen kart lastet ned!</string>
+    <string name="map_first_run_download_maps_message">Det ser ut til at du ikke har noen kart, vil du laste ned nå?</string>
+    <string name="map_first_run_download_maps_starting_layers">Starter håndtering av kartlag!</string>
+    <string name="map_navigation_selection_dialog_title">Velg navigasjonsmodus</string>
+    <string name="map_navigation_selection_dialog_message">Vil du bruke DMD2 til å finne en rute til målet, eller en annen app?</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Annen App</string>
+    <string name="map_panning_mode_enable">Kartbevegelsesmodus aktivert</string>
+    <!--Map Layers Manager-->
+    <string name="map_layers_dialog_title">Kartlag</string>
+    <string name="map_layers_base_map_title">Kildekart</string>
+    <string name="map_layers_base_map_description">Kildekart for terreng, vei, bygninger, adresser og høydekurver.</string>
+    <string name="map_layers_3D_buildings_title">3D Bygninger</string>
+    <string name="map_layers_3D_buildings_description">Konverter bygninger til enkle ekstruderte 3D-former</string>
+    <string name="map_layers_labels_title">Kartsymboler</string>
+    <string name="map_layers_labels_description">Grunnleggende innstillinger for kartsymboler &amp; merker</string>
+    <string name="map_layers_enable_layer_label">Aktiver kartlag</string>
+    <string name="map_layers_enable_labels_layer_label">Aktiver meker</string>
+    <string name="map_layers_scale_labels_layer_label">Merkestørrelse</string>
+    <string name="map_layers_enable_symbols_layer_label">Aktiver symboler</string>
+    <string name="map_layers_scale_symbols_layer_label">Symbolstørrelse</string>
+    <string name="map_layers_hillshading_enable_shadows_label">Aktiver skyggelegging</string>sd
+    <string name="map_layers_map_base_download_more">Last ned kart</string>
+    <string name="map_layers_map_base_title">Velg kart for nedlasting</string>
+    <string name="map_layers_map_base_file_missing">FEIL: Kartfiler mangler, vennligst last ned på nytt!</string>
+    <string name="map_layers_map_base_no_map_yet">Ingen kart nedlastet ennå, trykk last ned kart!</string>
+    <string name="map_layers_downloader_region_title">Velg region</string>
+    <string name="map_layers_downloader_country_title">Velg land</string>
+    <string name="map_layers_downloader_country_downloaded_label">Nedlastede kart:</string>
+    <string name="map_layers_downloader_country_date_label">Sist oppdatert:</string>
+    <string name="map_layers_downloader_country_size_label">Størrelse:</string>
+    <string name="map_layers_downloader_country_region_label">Region:</string>
+    <string name="map_layers_downloader_country_filename_label">Filnavn:</string>
+    <string name="map_layers_downloader_country_loaded_label">Last inn kart:</string>
+    <string name="map_layers_downloader_no_update_label">Ingen oppdatering</string>
+    <string name="map_layers_downloader_notification_title">DMD2 laster ned</string>
+    <string name="map_layers_downloader_wait_until_finished">Vennligst vent til nedlastingen er ferdig!</string>
+    <string name="map_layers_downloader_cant_connect">Kan ikke koble til server, vennligst prøv senere!</string>
+    <string name="map_layers_downloader_not_enough_space">Ikke nok lagringsplass!</string>
+    <string name="map_layers_poi_highlight_title">POI Utheving</string>
+    <string name="map_layers_poi_highlight_description">Velg hvilke POI som skal vises ved lavere zoom (500m zoom max)(bensinstasjoner/sykehis/topper vises alltid).</string>
+    <string name="map_layers_poi_restaurant">Restaurant</string>
+    <string name="map_layers_poi_cafe">Cafe</string>
+    <string name="map_layers_poi_pub">Pub</string>
+    <string name="map_layers_poi_cafe_and_Pub">Cafe &amp; Pub</string>
+    <string name="map_layers_poi_hotel">Hotell</string>
+    <string name="map_layers_poi_hostel">Hostel</string>
+    <string name="map_layers_poi_accommodation">Overnatting</string>
+    <string name="map_layers_poi_camping">Camping</string>
+    <string name="map_layers_poi_supermarket">Supermarked</string>
+    <string name="map_layers_poi_attraction">Attraksjon</string>
+    <string name="map_layers_poi_view_point">Utsiktspunkt</string>
+    <string name="map_layers_poi_historic">Historisk</string>
+    <string name="map_layers_poi_natural">Natur</string>
+    <string name="map_layers_poi_parking_place">Parkering</string>
+    <string name="map_layers_poi_car_repair">Bilverksted</string>
+    <string name="map_layers_poi_monument">Monument</string>
+    <string name="map_layers_poi_atm">Minibank</string>
+    <string name="map_layers_poi_bank">Bank</string>
+    <string name="map_layers_poi_gas">Bensinstasjon</string>
+    <string name="map_layers_poi_moto_repair">Motorsykkelverksted</string>
+    <string name="map_layers_theme_title">Karttype &amp; stil</string>
+    <string name="map_layers_theme_description">Velg mellom minimalistist veikart eller noe mer detaljert offroadkart. Velg mellom lys og mørk modus.</string>
+    <string name="map_layers_map_type_default_title">Veikart</string>
+    <string name="map_layers_map_type_topo_title">Off-Road</string>
+    <string name="map_layers_map_type_light_or_dark">Lys / Mørk modus:</string>
+    <string name="map_layers_map_type_always_light">Lys</string>
+    <string name="map_layers_map_type_always_dark">Mørk</string>
+    <string name="map_layers_map_type_follow_theme">Tema</string>
+    <string name="map_layers_map_type_light_sensor">Sensor</string>
+    <string name="map_layers_topo_advanced_title">Off-road avanserte innstillinger</string>
+    <string name="map_layers_topo_advanced_description">Flere valgmuligheter for off-road kart</string>
+    <string name="map_layers_topo_options_altitude_line">Vis høydekurver</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Marker veier uten fast dekke (synlig ved lav zoom)</string>
+    <string name="map_layers_topo_options_show_motorway">Vis motorvei</string>
+    <string name="map_layers_topo_options_show_primary">Vis hovedveier</string>
+    <string name="map_layers_topo_options_show_secondary">Vis andre veier</string>
+    <string name="map_layers_reset">Alle innstillinger tilbaestilt!</string>
+    <string name="map_layers_hillshading_title">Skyggelegging (online)</string>
+    <string name="map_layers_hillshading_description">Viser den topgrafiske formen til terrenget ved hjelp av skyggelegging</string>
+    <string name="map_layers_hillshading_transparency">Gjennomsiktighet</string>
+    <!--GPX Manager-->
+    <string name="gpx_manager_title">GPX Manager</string>
+    <string name="gpx_manager_load_file">Load File</string>
+    <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
+    <string name="gpx_manager_tracks">Tracks</string>
+    <string name="gpx_manager_waypoints">Waypoints</string>
+    <string name="gpx_manager_center_map_button">Center Map</string>
+    <string name="gpx_manager_settings_title">GPX Settings</string>
+    <string name="gpx_manager_settings_visibility_title">Show or Hide</string>
+    <string name="gpx_manager_settings_visibility_message">Show or hide GPX elements (for all files), takes priority over individual file settings.</string>
+    <string name="gpx_manager_settings_tracks_visibility">Show All Enabled GPX Tracks</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Show Track Direction Arrows</string>
+    <string name="gpx_manager_settings_waypoints_visibility">Show All Enabled Waypoints</string>
+    <string name="gpx_manager_settings_waypoints_titles">Show Waypoint Title Text</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Hide Waypoints on Low Zoom</string>
+    <string name="gpx_manager_settings_style_title">Sizes &amp; Transparency</string>
+    <string name="gpx_manager_settings_style_message">Set GPX elements default sizes &amp; transparency</string>
+    <string name="gpx_manager_settings_defaults_title">Color Defaults</string>
+    <string name="gpx_manager_settings_defaults_message">Track line default color and color overwrites</string>
+    <string name="gpx_manager_settings_track_width">Track Line Width</string>
+    <string name="gpx_manager_settings_track_transparency">Track Transparency</string>
+    <string name="gpx_manager_settings_arrow_size">Direction Arrow Size</string>
+    <string name="gpx_manager_settings_waypoint_size">Waypoint Pin Size</string>
+    <string name="gpx_manager_settings_hide_all">Hide All</string>
+    <string name="gpx_manager_settings_show_all">Show All</string>
+    <string name="gpx_manager_settings_delete_all">Delete All</string>
+    <string name="gpx_manager_settings_default_track_color">Default track color (when no color is specified or set by the user):</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Overwrite all colors set in files to default color:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Overwrite all colors set by the user to default color:</string>
+    <string name="gpx_manager_settings_load_poi_title">Auto Load POIs</string>
+    <string name="gpx_manager_settings_load_poi_message">Automatically load POI along the track up to 3 categories</string>
+    <string name="gpx_manager_settings_load_poi_enable_label">Enable auto POI load along the track:</string>
+    <string name="gpx_manager_settings_poi_cat_select_cats">Select POI categories to load:</string>
+    <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any track!</string>
+    <string name="gpx_manager_track_manager_title">Track Manager</string>
+    <string name="gpx_manager_track_manager_no_description">No track description available.</string>
+    <string name="gpx_manager_track_manager_track_length">Track Length</string>
+    <string name="gpx_manager_track_manager_navigate_to_start">Navigate To Start</string>
+    <string name="gpx_manager_track_manager_navigate_to_end">Navigate To End</string>
+    <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
+    <string name="gpx_manager_track_manager_poi_search">POI Search</string>
+    <string name="gpx_manager_no_waypoint_warning">The selected GPX file does not contain any waypoint!</string>
+    <string name="gpx_manager_waypoints_manager_title">Waypoints Manager</string>
+    <string name="gpx_manager_waypoints_navigate_to">Navigate To</string>
+    <string name="gpx_manager_waypoints_share_location">Share Location</string>
+    <string name="gpx_manager_waypoints_search_at_location">Search Near</string>
+    <string name="gpx_manager_waypoint_no_description">No waypoint description available.</string>
+    <string name="gpx_manager_waypoint_straight_line_distance">Straight Line Distance</string>
+    <string name="gpx_manager_waypoint_distance_on_track">Distance from you</string>
+    <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
+    <string name="gpx_manager_waypoint_distance_from_track_start">Distance from track start</string>
+    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Waiting for GPS Fix</string>
+    <string name="gpx_manager_waypoint_share_app">Select app to share</string>
+    <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
+    <string name="gpx_manager_advanced_title">Advanced Options</string>
+    <string name="gpx_manager_advanced_invert_orientation">Invert Travel Direction</string>
+    <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
+    <string name="gpx_manager_advanced_convert_to_route2">If GPX includes off-road tracks please use MIXED profile!\nLow (Fast): Faster calculation, but may deviate from the original GPX.\nHigh (Slow): Slower calculation, specially on big files, but will deviate less.\nNOTICE: Big GPX files (above 1000Km), even on fast mode, can take forever…</string>
+    <string name="gpx_manager_advanced_convert_button_fast">Low (Fast)</string>
+    <string name="gpx_manager_advanced_convert_button_slow">High (Slow)</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does now contain any track!</string>
+
+    <!-- Map Press Actions -->
+    <string name="map_long_press_point_title">Map Long Press Actions</string>
+    <string name="map_long_press_point_no_info">No information for this point!</string>
+    <string name="map_long_press_point_close_to">in</string>
+    <string name="map_long_press_point_nearest_city">nearest city is</string>
+    <string name="map_long_press_point_navigate">Navigate</string>
+    <string name="map_long_press_point_share">Share</string>
+    <string name="map_long_press_search_poi">Search POI</string>
+    <string name="map_long_press_online_weather">Online Weather</string>
+    <string name="map_long_press_online_weather_no_info">No information for this point!</string>
+    <!-- License -->
+    <string name="map_license_title">Map Demo Mode</string>
+    <string name="map_license_message">Demo mode is limited to 15 minutes per session. Buy the Map Plugin to unlock!</string>
+    <string name="map_buy_button">Buy Plugin</string>
+    <string name="map_buy_dialog_title">Map Plugin Purchase</string>
+    <string name="map_buy_dialog_message1">Select subscription duration.</string>
+    <string name="map_buy_dialog_message2">12 Month Subscription</string>
+    <string name="map_buy_dialog_message3">Lifetime Purchase</string>
+    <string name="map_buy_dialog_message4">6 Month Subscription</string>
+    <string name="map_buy_button_12_month">12 Month</string>
+    <string name="map_buy_button_6_month">6 Month</string>
+    <string name="map_buy_button_lifetime">Lifetime</string>
+    <string name="license_limitation_message">This option is only available for licensed users!</string>
+    <!-- Map Settings -->
+    <string name="map_settings_auto_zoom_cat_title">Auto Zoom &amp; Tilt</string>
+    <string name="map_settings_auto_zoom_title">Enable auto-zoom level</string>
+    <string name="map_settings_auto_tilt_title">Enable auto-tilt level</string>
+    <string name="map_settings_auto_nav_only">Auto mode only in active navigation</string>
+    <string name="map_settings_ui_cat_title">Interface Options</string>
+    <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the left side of the screen with track progress and distances to next POIs and Waypoints.</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
+    <string name="map_settings_language_cat_title">Map Language</string>
+    <string name="map_settings_language_load_mode_title">Map Language</string>
+    <string-array name="map_settings_language_load_mode_entries" translatable="true">
+        <item>Localised Map Language</item>
+        <item>English or available latin alphabet</item>
+        <item>French > English or available latin alphabet</item>
+        <item>German > English or available latin alphabet</item>
+    </string-array>
+    <string name="map_settings_navigation_cat_title">Navigation</string>
+    <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
+    <string name="map_settings_navigation_start_ask_message">If enabled, DMD2 will ask if you want to use DMD2 or another app, if disabled it defaults to DMD2.</string>
+    <string name="map_settings_controller_cat_title">Controller Settings</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
+    <!-- Poi Search -->
+    <string name="map_poi_search_manager">POI Search</string>
+    <string name="map_poi_search_call">Call</string>
+    <string name="map_poi_type_name">Type Name</string>
+    <string name="map_poi_error_no_offline_map_loaded">Error, no map loaded yet! Download offline maps first.</string>
+    <string name="map_poi_error_no_poi_found">Error, no POIs found!</string>
+    <string name="map_poi_search_more">Search Online</string>
+    <string name="map_poi_no_phone_available_error">No phone number available</string>
+    <string name="map_poi_no_phone_app_available_error">No phone app available</string>
+    <string name="map_poi_no_address">No address available</string>
+    <string name="map_poi_no_phone">No phone available</string>
+    <string name="map_poi_no_website">No website available</string>
+    <string name="map_poi_no_opening_hours">No opening hours available</string>
+    <string name="map_poi_search_dialog_title">Search POI By Name</string>
+    <string name="map_poi_search_button">Search</string>
+    <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
+    <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
+    <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
+    <!-- Track Tap -->
+    <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
+    <string name="map_map_track_tap_track_details">Track Details</string>
+    <string name="map_map_track_tap_track_point_distances">Point position distances:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
+    <string name="map_map_track_tap_on_track">You are on this track!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
+    <string name="map_map_track_tap_not_on_gpx">You are not on any of this GPX tracks!</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">GPX End:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Distance:</string>
+    <string name="map_map_track_tap_point_time_to_you">Travel-Time:</string>
+    <string name="map_map_track_tap_point_behind">behind</string>
+    <string name="map_map_track_tap_point_ahead">ahead</string>
+    <string name="map_map_track_tap_distance_to_another_point">Get distance to another point</string>
+    <string name="map_map_track_tap_points_distance_title">Points Distance</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Tap another point to get the distance between points</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Please select a point that is part of the same GPX file!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Both selected points are on the same GPX Track</string>
+    <string name="map_map_track_tap_points_distance_different_track">Points are not on the same GPX Track but tracks are connected</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Cannot measure on different tracks with multiple connections!</string>
+    <!-- Left Panel Progress -->
+    <string name="map_ui_left_progress_panel_finish_label">Finish:</string>
+    <!-- Route Planner -->
+    <string name="map_route_planner_dialog_root_title">Route Planner</string>
+    <string name="map_route_planner_road_fast">Road Fast</string>
+    <string name="map_route_planner_road_short">Road Fun</string>
+    <string name="map_route_planner_offroad">Off-Road</string>
+    <string name="map_route_planner_mixed">Mixed</string>
+    <string name="map_route_planner_avoid_tolls">Avoid Tolls</string>
+    <string name="map_route_planner_avoid_motorways">Avoid Motorways</string>
+    <string name="map_route_planner_avoid_unpaved">Avoid Unpaved</string>
+    <string name="map_route_planner_profile_label">Select Profile</string>
+    <string name="map_route_planner_profile_option">Select Profile Options</string>
+    <string name="map_route_calculating_message">Calculating route…</string>
+    <string name="map_route_calculating_message_retry">Error!</string>
+    <string name="map_route_calculating_message_options">Options</string>
+    <string name="map_route_planner_no_gps_fix">No GPS fix yet, try again later!</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Cancel Active Route?</string>
+    <string name="map_route_planner_cancel_active_dialog_message">There is an active navigation. Do you want to cancel and start a new one?</string>
+    <string name="map_route_planner_instruction_now">Now</string>
+    <string name="map_route_planner_instruction_arrived">You have arrived to your destination!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Continue for</string>
+    <string name="map_route_planner_instruction_turn_left">Turn Left in</string>
+    <string name="map_route_planner_instruction_turn_right">Turn Right in</string>
+    <string name="map_route_planner_instruction_turn_left_sharp">Sharp Left in</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Sharp Right in</string>
+    <string name="map_route_planner_instruction_turn_slight_left">Slight Left in</string>
+    <string name="map_route_planner_instruction_turn_slight_right">Slight Right in</string>
+    <string name="map_route_planner_instruction_keep_left">Keep Left in</string>
+    <string name="map_route_planner_instruction_keep_right">Keep Right in</string>
+    <string name="map_route_planner_instruction_uturn">U-Turn in</string>
+    <string name="map_route_planner_instruction_straight">Keep Straight in</string>
+    <string name="map_route_planner_instruction_take_exit_1">First Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_2">Second Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_3">Third Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_4">Fourth Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_5">Fifth Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_6">Sixth Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_7">Seventh Exit in</string>
+    <string name="map_route_planner_instruction_take_exit_8">Eight Exit in</string>
+    <string name="map_route_planner_instruction_destination">Destination in</string>
+    <string name="map_route_planner_nav_options">Options</string>
+    <string name="map_route_planner_nav_options_title">Active Navigation Options</string>
+    <string name="map_route_planner_nav_options_message">Available options for the active navigation:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Share As GPX</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Missing Calculation Files</string>
+    <string name="map_route_planner_error_missing_calc_file_message">There are missing calculation files, please re-download your map files to make sure calculation files are downloaded!</string>
+    <string name="map_route_planner_error_other_title">Calculation Error</string>
+    <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files, do you want to do this now?</string>
+    <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
+    <string name="map_route_planner_empty">No active track or route!</string>
+
+</resources>
