@@ -39,7 +39,7 @@
     <string name="close">Schließen</string>
     <string name="delete">Löschen</string>
     <string name="replace">Ersetzen</string>
-    <string name="rename">Umbennen</string>
+    <string name="rename">Umbenennen</string>
     <string name="reset">Zurücksetzen</string>
     <string name="refresh">Aktualisieren</string>
     <string name="enable">Einschalten</string>
@@ -59,8 +59,8 @@
     <string name="error_creating_directory">Fehler beim Erstellen des Nutzer Ordner!</string>
     <string name="error_deleting_file">Fehler beim Datei löschen!</string>
     <string name="error_file_already_exists_title">Datei überschreiben Warnunug</string>
-    <string name="error_file_already_exists_message">Eine Datei mit dem selben Namen existiert bereits! Was möchtetst Du tun?</string>
-    <string name="error_file_new_name_title">Datei umbennen</string>
+    <string name="error_file_already_exists_message">Eine Datei mit demselben Namen existiert bereits! Was möchtetst Du tun?</string>
+    <string name="error_file_new_name_title">Datei umbenennen</string>
     <string name="share_file_with">Datei teilen mit</string>
     <string name="connect_to_internet">Stelle sicher, dass eine Internet Verbindung besteht!</string>
     <!-- App Update -->
@@ -186,7 +186,7 @@
     <string name="map_storage_sd_card_missing_switch_retry">Wiederholen</string>
     <string name="map_storage_sd_card_missing_switch_internal">Internen Speicher verwenden</string>
     <string name="map_storage_sd_card_mounting_title">SD-Karte wird eingebunden</string>
-    <string name="map_storage_sd_card_mounting_message">Bitte warten, bis das Einbinden der SD-Karte abgeschlossen ist...</string>
+    <string name="map_storage_sd_card_mounting_message">Bitte warten, bis das Einbinden der SD-Karte abgeschlossen ist…</string>
     <string name="map_storage_sd_card_mounting_button">Abbrechen &amp; internen Speicher nutzen</string>
     <string name="map_storage_sd_card_different_error_title">Andere SD-Karte!</string>
     <string name="map_storage_sd_card_different_error_message">Es scheint, dass die SD-Karte ausgetauscht wurde. Soll diese Karte verwendet werden? Wenn nicht, setze bitte die richtige Karte wieder ein!</string>
@@ -356,7 +356,7 @@
     <string name="obd_sensors_coolant_short_label">KÜHLMITTEL</string>
     <string name="obd_sensors_coolant_long_label">Kühlmittel Temperatur</string>
     <string name="obd_sensors_voltage_short_label">SPANNUNG</string>
-    <string name="obd_sensors_voltage_long_label">Spannung</stringAnsauglufttemp>
+    <string name="obd_sensors_voltage_long_label">Spannung</string>
     <string name="obd_sensors_throttle_short_label">Drosselklappe</string>
     <string name="obd_sensors_throttle_long_label">Drosselklappenstellung</string>
     <string name="obd_sensors_fuel_short_label">KRAFTSTOFF</string>
@@ -770,7 +770,7 @@
     <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
     <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
     <!-- Track Tap -->
-     <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
+    <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
     <string name="map_map_track_tap_track_details">Track Details</string>
     <string name="map_map_track_tap_track_point_distances">Point position distances:</string>
     <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
@@ -848,4 +848,3 @@
     <string name="map_route_planner_empty">No active track or route!</string>
 
 </resources>
-   
