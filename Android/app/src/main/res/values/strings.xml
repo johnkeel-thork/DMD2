@@ -846,5 +846,9 @@
     <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files, do you want to do this now?</string>
     <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
     <string name="map_route_planner_empty">No active track or route!</string>
+    <!-- Place Search -->
+    <string name="map_place_search_dialog_title">Online Address Search</string>
+    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
+    <string name="map_place_search_distance">Straight Line Distance:</string>
 
 </resources>
