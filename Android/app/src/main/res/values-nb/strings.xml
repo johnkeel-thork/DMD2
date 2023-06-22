@@ -1,5 +1,22 @@
 <resources>
 
+    <!-- Missing Translation -->
+    <string name="map_storage_sd_card_mounting_title">Waiting for SD Card to Mount</string>
+    <string name="map_storage_sd_card_mounting_message">Please wait for the SD Card mount to finish…</string>
+    <string name="map_storage_sd_card_mounting_button">Abort &amp; Switch to Internal Memory</string>
+
+    <string name="map_route_planner_road_fun">Road Fun</string>
+
+    <string name="map_route_planner_offroad_easy">Easy</string>
+    <string name="map_route_planner_offroad_medium">Medium</string>
+    <string name="map_route_planner_offroad_hard">Hard</string>
+
+    <string name="map_place_search_dialog_title">Online Address Search</string>
+    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
+    <string name="map_place_search_distance">Straight Line Distance:</string>
+    
+    <!-- End of Missing Translation -->
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
