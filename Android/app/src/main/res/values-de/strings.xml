@@ -1,5 +1,13 @@
 <resources>
 
+    <!-- Missing Translation -->
+    
+    <string name="map_place_search_dialog_title">Online Address Search</string>
+    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
+    <string name="map_place_search_distance">Straight Line Distance:</string>
+
+    <!-- End of Missing Translation -->
+
 
     <string name="app_name">DMD2</string>
 
