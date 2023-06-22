@@ -1,5 +1,5 @@
-<resources>    
-    
+<resources>
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -239,7 +239,7 @@
     <string name="home_widget_editor_left_panel_title">Venstre Panel</string>
     <string name="home_widget_editor_right_panel_title">Høyre Panel</string>
     <string name="home_widget_editor_center_top_title">Øverst i midten</string>
-    <string name="home_widget_editor_center_bottom_title">Nederst i midten</string>            
+    <string name="home_widget_editor_center_bottom_title">Nederst i midten</string>
     <string name="home_widget_editor_left_panel_edit_button">Endre Widget</string>
     <!-- Widget Trip -->
     <string name="home_widget_trip_distance">Kjørelengde</string>
@@ -689,7 +689,7 @@
     <string name="gpx_manager_waypoint_distance_more">Avstand til sporpunkt.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Avstadn til sporstart</string>
     <string name="gpx_manager_waypoint_not_on_track">Du måkjøre på den samme GPX-filen!</string>
-    <string name="gpx_manager_waypoint_no_valid_location_yet">Venter på GPS...</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Venter på GPS…</string>
     <string name="gpx_manager_waypoint_share_app">Velg app for deling</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
@@ -793,12 +793,9 @@
     <!-- Route Planner -->
     <string name="map_route_planner_dialog_root_title">Ruteplanlegging</string>
     <string name="map_route_planner_road_fast">Rask vei</string>
-    <string name="map_route_planner_road_short">Morsom vei</string>
     <string name="map_route_planner_offroad">Off-Road</string>
-    <string name="map_route_planner_mixed">Blandet</string>
     <string name="map_route_planner_avoid_tolls">Unngå bomveier</string>
     <string name="map_route_planner_avoid_motorways">Unngå motorveier</string>
-    <string name="map_route_planner_avoid_unpaved">Unngå grusveier</string>
     <string name="map_route_planner_profile_label">Velg profil</string>
     <string name="map_route_planner_profile_option">Valgmuligheter for ruteprofil</string>
     <string name="map_route_calculating_message">Beregner rute…</string>
@@ -811,7 +808,7 @@
     <string name="map_route_planner_instruction_arrived">Du har ankommet målet for turen!</string>
     <string name="map_route_planner_instruction_keep_same_road">Fortsett i</string>
     <string name="map_route_planner_instruction_turn_left">Ta til venstre om</string>
-    <string name="map_route_planner_instruction_turn_right">Ta til høyre høyre om</string>
+    <string name="map_route_planner_instruction_turn_right">Ta til høyre om</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Skarp venstre om</string>
     <string name="map_route_planner_instruction_turn_right_sharp">Skarp høyre om</string>
     <string name="map_route_planner_instruction_turn_slight_left">Slak venstre om</string>
