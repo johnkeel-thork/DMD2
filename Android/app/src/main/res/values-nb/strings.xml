@@ -1,19 +1,19 @@
 <resources>
 
     <!-- Missing Translation -->
-    <string name="map_storage_sd_card_mounting_title">Waiting for SD Card to Mount</string>
-    <string name="map_storage_sd_card_mounting_message">Please wait for the SD Card mount to finish…</string>
-    <string name="map_storage_sd_card_mounting_button">Abort &amp; Switch to Internal Memory</string>
+    <string name="map_storage_sd_card_mounting_title">SD-kort lastes inn!</string>
+    <string name="map_storage_sd_card_mounting_message">Vennligst vent til SD-kortet er lastet inn og aktivt!</string>
+    <string name="map_storage_sd_card_mounting_button">Avbryt &amp; bytt til intern lagring!</string>
 
-    <string name="map_route_planner_road_fun">Road Fun</string>
+    <string name="map_route_planner_road_fun">Morsom vei</string>
 
-    <string name="map_route_planner_offroad_easy">Easy</string>
-    <string name="map_route_planner_offroad_medium">Medium</string>
-    <string name="map_route_planner_offroad_hard">Hard</string>
+    <string name="map_route_planner_offroad_easy">Lett</string>
+    <string name="map_route_planner_offroad_medium">Middels</string>
+    <string name="map_route_planner_offroad_hard">Vanskelig</string>
 
-    <string name="map_place_search_dialog_title">Online Address Search</string>
-    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
-    <string name="map_place_search_distance">Straight Line Distance:</string>
+    <string name="map_place_search_dialog_title">Online-søk på adresse</string>
+    <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
+    <string name="map_place_search_distance">Avstand i luftlinje:</string>
     
     <!-- End of Missing Translation -->
 
