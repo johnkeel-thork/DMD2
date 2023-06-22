@@ -1,22 +1,5 @@
 <resources>
 
-    <!-- Missing Translation -->
-    <string name="map_storage_sd_card_mounting_title">SD-kort lastes inn!</string>
-    <string name="map_storage_sd_card_mounting_message">Vennligst vent til SD-kortet er lastet inn og aktivt!</string>
-    <string name="map_storage_sd_card_mounting_button">Avbryt &amp; bytt til intern lagring!</string>
-
-    <string name="map_route_planner_road_fun">Morsom vei</string>
-
-    <string name="map_route_planner_offroad_easy">Lett</string>
-    <string name="map_route_planner_offroad_medium">Middels</string>
-    <string name="map_route_planner_offroad_hard">Vanskelig</string>
-
-    <string name="map_place_search_dialog_title">Online-søk på adresse</string>
-    <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
-    <string name="map_place_search_distance">Avstand i luftlinje:</string>
-    
-    <!-- End of Missing Translation -->
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -201,6 +184,9 @@
     <string name="map_storage_sd_card_missing_error_message">Tidligere brukt SD-kort mangler, vennligst sett det inn igjen!</string>
     <string name="map_storage_sd_card_missing_switch_retry">Prøv igjen</string>
     <string name="map_storage_sd_card_missing_switch_internal">Bruk internminne</string>
+    <string name="map_storage_sd_card_mounting_title">SD-kort lastes inn!</string>
+    <string name="map_storage_sd_card_mounting_message">Vennligst vent til SD-kortet er lastet inn og aktivt!</string>
+    <string name="map_storage_sd_card_mounting_button">Avbryt &amp; bytt til intern lagring!</string>
     <string name="map_storage_sd_card_different_error_title">Annet SD-kort!</string>
     <string name="map_storage_sd_card_different_error_message">Det ser ut til at du har skiftet ut SD-kortet, vil du bruke dette? Hvis ikke; vennligst sett inn det andre kortet!</string>
     <string name="map_storage_sd_card_different_error_recheck">Ny kontroll av SD-kort</string>
@@ -813,6 +799,10 @@
     <string name="map_route_planner_offroad">Off-Road</string>
     <string name="map_route_planner_avoid_tolls">Unngå bomveier</string>
     <string name="map_route_planner_avoid_motorways">Unngå motorveier</string>
+    <string name="map_route_planner_road_fun">Morsom vei</string>
+    <string name="map_route_planner_offroad_easy">Lett</string>
+    <string name="map_route_planner_offroad_medium">Middels</string>
+    <string name="map_route_planner_offroad_hard">Vanskelig</string>
     <string name="map_route_planner_profile_label">Velg profil</string>
     <string name="map_route_planner_profile_option">Valgmuligheter for ruteprofil</string>
     <string name="map_route_calculating_message">Beregner rute…</string>
@@ -855,5 +845,9 @@
     <string name="map_route_planner_dialog_download_calc_file_message">Hvis DMD2 skal gjøre ruteplanlegging må du laste ned noen filer, vil du gjøre dette nå?</string>
     <string name="map_route_planner_dialog_download_progress">Laster ned utregningsfiler</string>
     <string name="map_route_planner_empty">Ingen aktive spor eller ruter!</string>
+    <!-- Place Search -->
+    <string name="map_place_search_dialog_title">Online-søk på adresse</string>
+    <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
+    <string name="map_place_search_distance">Avstand i luftlinje:</string>
 
 </resources>
