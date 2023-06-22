@@ -379,7 +379,7 @@
     <string name="obd_max_throttle_calib_dialog_title">Kalibrierung der maximalen Drosselklappenposition</string>
     <string name="obd_max_throttle_calib_dialog_message">BITTE DEN MOTOR AUSSTELLEN! Stelle sicher, dass die Zündung eingeschaltet ist. Die Drosselklappe sollte sich in der Maximalposition befinden (ganz geöffnet). Drücke die Set-Taste, wenn bereit.</string>
     <string name="obd_throttle_calib_set_maximum">Setze Maximum</string>
-    <string name="obd_cant_calib_obd_disconnected">Bitte zuwerst mit dem OBD Dongle verbinden!</string>
+    <string name="obd_cant_calib_obd_disconnected">Bitte zuerst mit dem OBD Dongle verbinden!</string>
     <!-- Fuel Level Options -->
     <string name="obd_fuel_dialog_title">Fuel Level Options</string>
     <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
