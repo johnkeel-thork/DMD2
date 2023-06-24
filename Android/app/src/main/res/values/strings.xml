@@ -17,8 +17,8 @@
     <string name="menu_obd">OBD Sensors</string>
     <!-- Menu Editor -->
     <string name="menu_edit_title">Edit Bottom Menu</string>
-    <string name="menu_edit_message">Re-Order the menu entries and enable/disable them</string>
-    <string name="menu_sorter_instructions">Touch and hold to move item. Use the switch to show or hide.</string>
+    <string name="menu_edit_message">Re-order and enable/disable menu entries</string>
+    <string name="menu_sorter_instructions">Touch and hold to move an item. Use the switch to show or hide.</string>
 
     <!-- Global -->
     <!-- Units -->
@@ -75,7 +75,7 @@
     <string name="controller_app_update_download_progress">Download progress:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Tripltek T93 Trial</string>
-    <string name="t93_trial_message">Since you are using a Tripltek T93 you have 30 days free trial. In case you have a special DMD2 Edition key please insert it to claim it.</string>
+    <string name="t93_trial_message">Since you are using a Tripltek T93 you have 30-day free trial. If you have a special DMD2 Edition license key, please insert it to claim it.</string>
     <string name="t93_trial_button">Continue Trial</string>
     <string name="t93_dmd2_edition_button">Insert Key</string>
     <string name="t93_finish_trial_button">End Trial</string>
@@ -126,11 +126,11 @@
         <item>Manually (Swipe or Controller)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Handlebar controller focus</string>
-    <string name="settings_notifications_controller_lock_message">When a notification is visible the CARPE controller focus on it, enter key launches the notification action and the back key clears the notification</string>
+    <string name="settings_notifications_controller_lock_message">When a notification is visible, the CARPE controller will focus on it. The enter key launches the notification action and the back key clears the notification.</string>
     <string name="settings_notifications_apps_selection_title">Apps filter</string>
     <string name="settings_notifications_apps_selection_message">Select for which apps you want to see the notification pop-up</string>
     <string name="settings_notifications_group_title">Show only the last notification from each group</string>
-    <string name="settings_notifications_group_message">If enabled you will only see the latest notification update for each notification group, for example, the latest message from a chat notification</string>
+    <string name="settings_notifications_group_message">If enabled you will only see the latest notification update for each notification group. For example, the latest message from a chat notification.</string>
     <string name="settings_notifications_app_selection_dialog_title">Show Notifications For:</string>
     <string name="settings_notifications_app_selection_dialog_button1">All / None</string>
     <string name="settings_notifications_app_selection_dialog_button2">Close</string>
@@ -148,13 +148,13 @@
     </string-array>
     <!-- OEM Registration-->
     <string name="settings_oem_registration">OEM Registration</string>
-    <string name="settings_oem_check">Registration Process (needs internet connection)</string>
+    <string name="settings_oem_check">Registration Process (requires internet connection)</string>
     <string name="settings_oem_check_summary">Only use if your motorcycle came equipped with an Android device with Drive Mode Dashboard 2 pre-installed.</string>
     <!-- Info & Links -->
     <string name="settings_info_and_links">Information and Links</string>
     <string name="settings_app_version">DMD2 Version</string>
     <string name="settings_app_installed_version">Installed version:</string>
-    <string name="settings_dmd2_website">Learn more about the DMD2 app in the official website</string>
+    <string name="settings_dmd2_website">Learn more about the DMD2 app on the official website</string>
     <string name="settings_developer_website_title">DMD2 is brought to you by</string>
     <string name="settings_tripltek_website_title">This version of DMD2 is optimized for Tripltek devices</string>
     <string name="settings_follow_us_facebook">Visit and follow our Facebook page for the latest news</string>
@@ -165,18 +165,18 @@
     <string name="settings_dmd2_edition_redeem_message">Manage Trial or insert DMD2 Edition key</string>
     <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Welcome to DMD2</string>
-    <string name="welcome_dmd2_message">DMD2 is designed to transform your device in a complete dashboard for motorcycles and cars with special focus on adventure and off-road. It includes a Map for navigation, a Roadbook, OBD2 Sensors and much more.</string>
+    <string name="welcome_dmd2_message">DMD2 is designed to transform your device into a complete dashboard for motorcycles and cars with special focus on adventure and off-road. It includes a Map for navigation, a Roadbook, OBD2 Sensors and much more.</string>
     <string name="welcome_dmd2_lets_go">Start</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">GPS Settings</string>
     <string name="settings_bypass_acc_filter_title">Lower GPS Accuracy Filter</string>
     <string name="settings_bypass_acc_filter_message">For devices with sub-optimal GPS quality</string>
     <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Non PlayStore Devices Options</string>
+    <string name="settings_non_play_store_devices_cat">Non Play Store Devices Options</string>
     <string name="settings_disable_controller_app_check_title">Disable CARPE Controller App Check</string>
     <string name="settings_disable_controller_app_check_message">Will stop monitoring the controller app and will not ask to install it or update it anymore.</string>
     <string name="settings_controller_app_install_title">CARPE Controller Detected</string>
-    <string name="settings_controller_app_install_message">It seems you are using a CARPE Controller, to take full advantage of it you should install the controller app. Do you want to install it now?</string>
+    <string name="settings_controller_app_install_message">It seems you are using a CARPE Controller. To take full advantage of it you should install the controller app. Do you want to install it now?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Storage</string>
     <string name="map_storage_location_select_title">Set Storage to Removable SD Card</string>
@@ -189,13 +189,13 @@
     <string name="map_storage_sd_card_mounting_message">Please wait for the SD Card mount to finish…</string>
     <string name="map_storage_sd_card_mounting_button">Abort &amp; Switch to Internal Memory</string>
     <string name="map_storage_sd_card_different_error_title">Different SD Card!</string>
-    <string name="map_storage_sd_card_different_error_message">It seems you have replaced your SD Card, do you want to use this card? If not please put back the correct card!</string>
+    <string name="map_storage_sd_card_different_error_message">It seems you have replaced your SD Card, do you want to use this card? If not please insert the correct card!</string>
     <string name="map_storage_sd_card_different_error_recheck">Re-Check</string>
     <string name="map_storage_sd_card_different_error_recheck_fail">SD Card still not found! Please check again!</string>
     <string name="map_storage_sd_card_move_map_files_title">Move Map Files?</string>
     <string name="map_storage_sd_card_move_map_files_external">Do you want to move the map files from internal memory to SD-Card? This operation might fail if you do not have enough space!</string>
     <string name="map_storage_sd_card_move_map_files_internal">Do you want to move the map files from removable SD-Card to the internal memory? This operation might fail if you do not have enough space!</string>
-    <string name="map_storage_sd_card_move_map_files_wait">Moving files, please wait! Do not close app now or move to another screen!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Moving files, please wait! Do not close the app or move to another screen!</string>
 
     <!-- Home-->
     <!-- Widget Types-->
@@ -290,7 +290,7 @@
     <!-- Notifications -->
     <!-- Permission Dialog -->
     <string name="notifications_enable_dialog_title">Notifications Pop-Up</string>
-    <string name="notifications_enable_dialog_message">Do you want DMD2 to access notifications to show you a pop-up for any new notification? You can configure for which apps you want to see the pop-up in the Settings > Notifications.</string>
+    <string name="notifications_enable_dialog_message">Do you want DMD2 to access notifications to show you a pop-up for any new notification? You can configure which apps you want to see pop-up for in the Settings > Notifications.</string>
     <!-- Notification List Widget -->
     <string name="notifications_list_widget_new_notifications">New Notifications</string>
     <string name="notifications_controller_arrow_instructions">Left/Right - Dismiss</string>
@@ -329,7 +329,7 @@
     <string name="obd_protocols_summary">Select which OBD Protocol to use</string>
     <string name="obd_protocols_title">OBD Protocol</string>
     <string name="obd_reader_config_title">Reader Config Commands</string>
-    <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with new line</string>
+    <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with a new line</string>
     <string name="obd_select_device_title">Choose Paired OBD Device</string>
     <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
     <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
@@ -417,13 +417,13 @@
     <string name="roadbook_settings_invert_paper_color_message">Inverts the paper color, might be useful for riding during the night.</string>
     <string name="roadbook_settings_locker_cat_title">Lock Settings</string>
     <string name="roadbook_settings_locker_disable_paper_touch_title">Lock also disables paper touch</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled the paper touch is ignored, useful to prevent accidental movements or rain drop actions.</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled any paper touch is ignored. This helps prevent accidental movements or rain drop actions.</string>
     <string name="roadbook_settings_locker_disable_instruments_title">Lock also disables instruments</string>
-    <string name="roadbook_settings_locker_disable_instruments_message">When lock is enabled the instruments tap actions will also be disabled.</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">When lock is enabled the instrument tap actions will also be disabled.</string>
     <string name="roadbook_settings_locker_disable_topmenu_title">Lock also disables top menu</string>
-    <string name="roadbook_settings_locker_disable_topmenu_message">When lock is enabled the top menu will also be disabled, only the lock button will work.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">When lock is enabled the top menu will also be disabled and only the lock button will work.</string>
     <string name="roadbook_settings_locker_play_pause_title">Sync lock with play/pause</string>
-    <string name="roadbook_settings_locker_play_pause_message">Locking will also trigger play and unlocking will trigger pause.</string>
+    <string name="roadbook_settings_locker_play_pause_message">Locking will trigger play and unlocking will trigger pause.</string>
     <string name="roadbook_settings_adjustment_cat_title">Adjustments</string>
     <string name="roadbook_settings_distance_multi_factor_title">Distance Multiplier</string>
     <string name="roadbook_settings_distance_multi_factor_message">Add a correction factor to Total and Partial distance (in case you need to match to Roadbook distances)</string>
@@ -510,7 +510,7 @@
     <string name="roadbook_open_new_dialog_open_button">Start Now</string>
     <string name="roadbook_open_new_dialog_save_first_button">Save First</string>
     <string name="roadbook_open_parsing_error_title">Error Opening File</string>
-    <string name="roadbook_open_parsing_error_message">There seems to be a problem reading this PDF file. It probably is not compatible!</string>
+    <string name="roadbook_open_parsing_error_message">There seems to be a problem reading this PDF file. It is probably not compatible!</string>
     <string name="roadbook_adjust_distance_multi">Distance Correction Factor:</string>
     <string name="roadbook_open_file_or_session_title">Open File or Session</string>
     <string name="roadbook_open_file_or_session_message">Import new PDF file or open Session Manager (manage previous saved sessions)?</string>
@@ -540,7 +540,7 @@
     <string name="roadbook_session_rename_file">Rename</string>
     <string name="roadbook_session_location">Location</string>
     <string name="roadbook_session_new_name">Edit this session name</string>
-    <string name="roadbook_session_new_name_already_exists">This session name is already taken, please type something else.</string>
+    <string name="roadbook_session_new_name_already_exists">This session name is already taken, please choose something else.</string>
     <string name="roadbook_session_file_does_not_exist">ERROR: The PDF file for this session does not exist anymore!</string>
     <string name="roadbook_session_load_confirmation_title">Session Load Confirmation</string>
     <string name="roadbook_session_load_confirmation_message">Are you sure you want to load this session? Any unsaved Roadbook progress will be lost!</string>
@@ -557,11 +557,11 @@
     <string name="roadbook_purchase_key_activate_error_title">Error Activating License</string>
     <string name="roadbook_purchase_key_activate_error_message">Wrong license code or already activated on another device, check licenses in your Thork Racing account page or contact support.</string>
     <string name="roadbook_purchase_key_activate_success_title">License Activated</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank your for your support.</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank your for your support!</string>
 
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">No Maps Downloaded Yet</string>
-    <string name="map_first_run_download_maps_message">It seems you have not yet downloaded any map file, do you want to do it now?</string>
+    <string name="map_first_run_download_maps_message">You have not yet downloaded any map files. Do you want to do it now?</string>
     <string name="map_first_run_download_maps_starting_layers">Starting Layers Manager!</string>
     <string name="map_navigation_selection_dialog_title">Select Navigation Mode</string>
     <string name="map_navigation_selection_dialog_message">Use DMD2 to calculate the route or use an external app?</string>
@@ -650,7 +650,7 @@
     <string name="gpx_manager_center_map_button">Center Map</string>
     <string name="gpx_manager_settings_title">GPX Settings</string>
     <string name="gpx_manager_settings_visibility_title">Show or Hide</string>
-    <string name="gpx_manager_settings_visibility_message">Show or hide GPX elements (for all files), takes priority over individual file settings.</string>
+    <string name="gpx_manager_settings_visibility_message">Show or hide GPX elements (for all files). This takes priority over individual file settings.</string>
     <string name="gpx_manager_settings_tracks_visibility">Show All Enabled GPX Tracks</string>
     <string name="gpx_manager_settings_direction_arrows_visibility">Show Track Direction Arrows</string>
     <string name="gpx_manager_settings_waypoints_visibility">Show All Enabled Waypoints</string>
@@ -674,7 +674,7 @@
     <string name="gpx_manager_settings_load_poi_message">Automatically load POI along the track up to 3 categories</string>
     <string name="gpx_manager_settings_load_poi_enable_label">Enable auto POI load along the track:</string>
     <string name="gpx_manager_settings_poi_cat_select_cats">Select POI categories to load:</string>
-    <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any track!</string>
+    <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any tracks!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
     <string name="gpx_manager_track_manager_track_length">Track Length</string>
@@ -682,7 +682,7 @@
     <string name="gpx_manager_track_manager_navigate_to_end">Navigate To End</string>
     <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Search</string>
-    <string name="gpx_manager_no_waypoint_warning">The selected GPX file does not contain any waypoint!</string>
+    <string name="gpx_manager_no_waypoint_warning">The selected GPX file does not contain any waypoints!</string>
     <string name="gpx_manager_waypoints_manager_title">Waypoints Manager</string>
     <string name="gpx_manager_waypoints_navigate_to">Navigate To</string>
     <string name="gpx_manager_waypoints_share_location">Share Location</string>
@@ -702,7 +702,7 @@
     <string name="gpx_manager_advanced_convert_to_route2">If GPX includes off-road tracks please use MIXED profile!\nLow (Fast): Faster calculation, but may deviate from the original GPX.\nHigh (Slow): Slower calculation, specially on big files, but will deviate less.\nNOTICE: Big GPX files (above 1000Km), even on fast mode, can take forever…</string>
     <string name="gpx_manager_advanced_convert_button_fast">Low (Fast)</string>
     <string name="gpx_manager_advanced_convert_button_slow">High (Slow)</string>
-    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does now contain any track!</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does now contain any tracks!</string>
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Map Long Press Actions</string>
@@ -734,7 +734,7 @@
     <string name="map_settings_auto_nav_only">Auto mode only in active navigation</string>
     <string name="map_settings_ui_cat_title">Interface Options</string>
     <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
-    <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the left side of the screen with track progress and distances to next POIs and Waypoints.</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
     <string name="map_settings_language_cat_title">Map Language</string>
@@ -747,7 +747,7 @@
     </string-array>
     <string name="map_settings_navigation_cat_title">Navigation</string>
     <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
-    <string name="map_settings_navigation_start_ask_message">If enabled, DMD2 will ask if you want to use DMD2 or another app, if disabled it defaults to DMD2.</string>
+    <string name="map_settings_navigation_start_ask_message">If enabled DMD2 will ask if you want to use DMD2 or another app. If disabled it defaults to DMD2.</string>
     <string name="map_settings_controller_cat_title">Controller Settings</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
@@ -755,8 +755,8 @@
     <string name="map_poi_search_manager">POI Search</string>
     <string name="map_poi_search_call">Call</string>
     <string name="map_poi_type_name">Type Name</string>
-    <string name="map_poi_error_no_offline_map_loaded">Error, no map loaded yet! Download offline maps first.</string>
-    <string name="map_poi_error_no_poi_found">Error, no POIs found!</string>
+    <string name="map_poi_error_no_offline_map_loaded">Error: no map loaded yet! Download offline maps first.</string>
+    <string name="map_poi_error_no_poi_found">Error: no POIs found!</string>
     <string name="map_poi_search_more">Search Online</string>
     <string name="map_poi_no_phone_available_error">No phone number available</string>
     <string name="map_poi_no_phone_app_available_error">No phone app available</string>
@@ -776,7 +776,7 @@
     <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
     <string name="map_map_track_tap_on_track">You are on this track!</string>
     <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
-    <string name="map_map_track_tap_not_on_gpx">You are not on any of this GPX tracks!</string>
+    <string name="map_map_track_tap_not_on_gpx">You are not on any of this GPX's tracks!</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
     <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
@@ -839,11 +839,11 @@
     <string name="map_route_planner_nav_options_message">Available options for the active navigation:</string>
     <string name="map_route_planner_nav_options_share_as_gpx">Share As GPX</string>
     <string name="map_route_planner_error_missing_calc_file_title">Missing Calculation Files</string>
-    <string name="map_route_planner_error_missing_calc_file_message">There are missing calculation files, please re-download your map files to make sure calculation files are downloaded!</string>
+    <string name="map_route_planner_error_missing_calc_file_message">There are missing calculation files. Please re-download your map files to make sure calculation files are downloaded!</string>
     <string name="map_route_planner_error_other_title">Calculation Error</string>
     <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
     <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
-    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files, do you want to do this now?</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
     <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
     <string name="map_route_planner_empty">No active track or route!</string>
     <!-- Place Search -->
