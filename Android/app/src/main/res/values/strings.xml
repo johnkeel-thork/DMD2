@@ -776,7 +776,7 @@
     <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
     <string name="map_map_track_tap_on_track">You are on this track!</string>
     <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
-    <string name="map_map_track_tap_not_on_gpx">You are not on any of the GPX tracks!</string>
+    <string name="map_map_track_tap_not_on_gpx">You are not riding on this track or any other active track on the same GPX file.</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
     <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
@@ -807,6 +807,8 @@
     <string name="map_route_planner_profile_label">Select Profile</string>
     <string name="map_route_planner_profile_option">Select Profile Options</string>
     <string name="map_route_calculating_message">Calculating route…</string>
+    <string name="map_route_loading_message">Loading Route…</string>
+    <string name="map_route_analyzing_message">Analyzing Route…</string>
     <string name="map_route_calculating_message_retry">Error!</string>
     <string name="map_route_calculating_message_options">Options</string>
     <string name="map_route_planner_no_gps_fix">No GPS fix yet, try again later!</string>
