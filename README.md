@@ -1,4 +1,3 @@
-![DMD2 LOGO](drivemode_logo.png)
 
 ## DMD2
 **Drive Mode Dashboard is an Android app that aims to transform your Android device in a motorcycle dashboard.**
@@ -23,19 +22,30 @@ Following the Android schemas:
 
 ## Links:
 
+* [Our Discord Group](https://discord.com/invite/rCt4uBZk) : Join our Discord
+* [Our Forum](https://www.drivemodedashboard.com/forums/) : Join our Forum
 * [Our Facebook Page](https://www.facebook.com/drivemodedashboard) : Follow us on Facebook
 * [Our Facebook Group](https://www.facebook.com/groups/drivemodeusers) : Join the conversation
 * [ADV Rider Thread](https://advrider.com/f/threads/drive-mode-dashboard-for-android.1425433) : Discuss Development / Testing / Feature Request
 
 
+## Donate
+* [Buy Me a Coffee](https://www.buymeacoffee.com/johnkeelthork) : Contribute or thank me by paying me a coffee!
 
 
 ## Acknowledgements
+* [bigman73](https://github.com/bigman73) : For being my Sponsor
+* [snmds](https://github.com/snmds) : For being my Sponsor
+* [Joaoha](https://github.com/Joaoha) : For being my Sponsor
+* [Korath](https://github.com/Korath) : For being my Sponsor
 * [KayDubbya](https://github.com/KayDubbya) : For being my Sponsor
 * [nezgrath](https://github.com/nezgrath) : For being my Sponsor
 * [raschaa](https://github.com/raschaa) : For being my Sponsor
+* [eMRobert](https://github.com/eMRobert) : For the beta testing and translations
 * [LongRideZone](https://www.facebook.com/longridezone) : For the beta testing and translations
 * [Thundinator](https://github.com/Thundinatorp) : For translations
 * [Minas Pachnis](https://github.com/mpachnis) : For translations
+* [samikokkonen](https://github.com/samikokkonen) : For translations
+* [Psionic79](https://github.com/Psionic79) : For translations
 
 
