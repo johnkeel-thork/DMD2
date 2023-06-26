@@ -6,6 +6,12 @@
     <string name="map_route_loading_message">Loading Route…</string>
     <string name="map_route_analyzing_message">Analyzing Route…</string>
 
+    <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
+    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
+    <string name="map_layers_scale_map_layer_label">Map Scale</string>
+
+    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
+
     <!-- End of Missing Translation -->
 
 
@@ -583,8 +589,6 @@
     <string name="map_layers_base_map_description">Kildekart for terreng, vei, bygninger, adresser og høydekurver.</string>
     <string name="map_layers_3D_buildings_title">3D Bygninger</string>
     <string name="map_layers_3D_buildings_description">Konverter bygninger til enkle ekstruderte 3D-former</string>
-    <string name="map_layers_labels_title">Kartsymboler</string>
-    <string name="map_layers_labels_description">Grunnleggende innstillinger for kartsymboler &amp; merker</string>
     <string name="map_layers_enable_layer_label">Aktiver kartlag</string>
     <string name="map_layers_enable_labels_layer_label">Aktiver meker</string>
     <string name="map_layers_scale_labels_layer_label">Merkestørrelse</string>
