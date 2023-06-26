@@ -574,8 +574,9 @@
     <string name="map_layers_base_map_description">Base data for terrain, roads, buildings, addresses, and elevation.</string>
     <string name="map_layers_3D_buildings_title">3D Buildings</string>
     <string name="map_layers_3D_buildings_description">Converts building areas into basic extruded 3D shapes</string>
-    <string name="map_layers_labels_title">Map Labels &amp; Symbols</string>
-    <string name="map_layers_labels_description">Base map labels &amp; symbols settings</string>
+    <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
+    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
+    <string name="map_layers_scale_map_layer_label">Map Scale</string>
     <string name="map_layers_enable_layer_label">Enable Layer</string>
     <string name="map_layers_enable_labels_layer_label">Enable Labels</string>
     <string name="map_layers_scale_labels_layer_label">Labels Scale</string>
@@ -632,6 +633,7 @@
     <string name="map_layers_map_type_light_sensor">Sensor</string>
     <string name="map_layers_topo_advanced_title">Topo Advanced Options</string>
     <string name="map_layers_topo_advanced_description">Fine tune the Off-road Topographic map type</string>
+    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
     <string name="map_layers_topo_options_altitude_line">Show Altitude Lines</string>
     <string name="map_layers_topo_options_low_zoom_unpaved">Unpaved Highlight (visible at low zoom)</string>
     <string name="map_layers_topo_options_show_motorway">Show Motorways</string>
