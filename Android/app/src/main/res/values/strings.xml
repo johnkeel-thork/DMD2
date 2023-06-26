@@ -754,7 +754,7 @@
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">POI Search</string>
+    <string name="map_poi_search_manager">Place Search</string>
     <string name="map_poi_search_call">Call</string>
     <string name="map_poi_type_name">Type Name</string>
     <string name="map_poi_error_no_offline_map_loaded">Error: no map loaded yet! Download offline maps first.</string>
@@ -852,7 +852,9 @@
     <string name="map_route_planner_empty">No active track or route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Address Search</string>
+    <string name="map_place_search_button_label">Type Address</string>
     <string name="map_place_search_dialog_type_label">Type a name or address:</string>
     <string name="map_place_search_distance">Straight Line Distance:</string>
+    <string name="map_place_search_instructions">Type at least three letters to view results</string>
 
 </resources>
