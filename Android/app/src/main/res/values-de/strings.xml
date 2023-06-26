@@ -11,6 +11,11 @@
 
     <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
 
+    <string name="map_poi_search_manager">Place Search</string>
+
+    <string name="map_place_search_button_label">Type Address</string>
+    <string name="map_place_search_instructions">Type at least three letters to view results</string>
+
     <!-- End of Missing Translation -->
 
 
@@ -550,7 +555,7 @@
     <string name="roadbook_session_travel_time">Fahrzeit:</string>
     <string name="roadbook_session_avg_speed">Durchschnittliche Geschwindigkeit:</string>
     <string name="roadbook_session_load_file">Laden</string>
-    <string name="roadbook_session_rename_file">Umbennen</string>
+    <string name="roadbook_session_rename_file">Umbenennen</string>
     <string name="roadbook_session_location">Ort</string>
     <string name="roadbook_session_new_name">Sitzungsname editieren</string>
     <string name="roadbook_session_new_name_already_exists">Eine Sitzung mit diesem Namen existiert bereits. Anderen Namen verwenden.</string>
@@ -601,7 +606,7 @@
     <string name="map_layers_downloader_country_title">Land auswählen</string>
     <string name="map_layers_downloader_country_downloaded_label">Runtergeladen:</string>
     <string name="map_layers_downloader_country_date_label">Letztes Update:</string>
-    <string name="map_layers_downloader_country_size_label">Grösse:</string>
+    <string name="map_layers_downloader_country_size_label">Größe:</string>
     <string name="map_layers_downloader_country_region_label">Region:</string>
     <string name="map_layers_downloader_country_filename_label">Dateiname:</string>
     <string name="map_layers_downloader_country_loaded_label">Karte Laden:</string>
@@ -706,11 +711,11 @@
     <string name="gpx_manager_waypoint_not_on_track">Du musst auf derselben GPX-Datei unterwegs sein</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Warte auf GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">App zum Teilen auswählen</string>
-    <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern...</string>
+    <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern…</string>
     <string name="gpx_manager_advanced_title">Erweiterte Optionen</string>
     <string name="gpx_manager_advanced_invert_orientation">Fahrtrichtung umkehren</string>
     <string name="gpx_manager_advanced_convert_to_route">Versuch, die vollständige Datei in eine Navigation umzuwandeln:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Wenn GPX Strecken Off-Road Anteile enthalten, verwende bitte das Profil MIXED!\nNiedrig (Schnell): Schnellere Berechnung, kann aber vom Original-GPX abweichen.\nHoch (Langsam): Langsamere Berechnung, besonders bei großen Dateien, aber weniger Abweichungen.\nHINWEIS: Große GPX-Dateien (über 1000Km) können selbst im schnellen Modus ewig dauern...</string>
+    <string name="gpx_manager_advanced_convert_to_route2">Wenn GPX Strecken Off-Road Anteile enthalten, verwende bitte das Profil MIXED!\nNiedrig (Schnell): Schnellere Berechnung, kann aber vom Original-GPX abweichen.\nHoch (Langsam): Langsamere Berechnung, besonders bei großen Dateien, aber weniger Abweichungen.\nHINWEIS: Große GPX-Dateien (über 1000Km) können selbst im schnellen Modus ewig dauern…</string>
     <string name="gpx_manager_advanced_convert_button_fast">Niedrig (Schnell)</string>
     <string name="gpx_manager_advanced_convert_button_slow">Hoch (Langsam)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Diese GPX-Datei enthält keinen Track!</string>
@@ -763,7 +768,6 @@
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">POI Suche</string>
     <string name="map_poi_search_call">Anrufen</string>
     <string name="map_poi_type_name">Schreibe Name</string>
     <string name="map_poi_error_no_offline_map_loaded">Fehler: noch keine Karte geladen! Lade zuerst Offline-Karten herunter.</string>
