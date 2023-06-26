@@ -12,6 +12,11 @@
 
     <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
 
+    <string name="map_poi_search_manager">Place Search</string>
+
+    <string name="map_place_search_button_label">Type Address</string>
+    <string name="map_place_search_instructions">Type at least three letters to view results</string>
+
     <!-- End of Missing Translation -->
 
 
@@ -765,7 +770,6 @@
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye valgmuligheten for kartpanoreringsmodus</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">POI-søk</string>
     <string name="map_poi_search_call">Ring</string>
     <string name="map_poi_type_name">Navn</string>
     <string name="map_poi_error_no_offline_map_loaded">Feil, ingen kart lastet inn. Last inn offline kart først.</string>
