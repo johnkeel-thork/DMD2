@@ -182,7 +182,7 @@
     <string name="map_storage_location_select_title">Set Storage to Removable SD Card</string>
     <string name="map_storage_location_select_message">For offline map files and user files.</string>
     <string name="map_storage_sd_card_missing_error_title">SD Card is Missing!</string>
-    <string name="map_storage_sd_card_missing_error_message">Previous used SDCard is missing, please insert it!</string>
+    <string name="map_storage_sd_card_missing_error_message">Previously used SDCard is missing, please insert it!</string>
     <string name="map_storage_sd_card_missing_switch_retry">Retry</string>
     <string name="map_storage_sd_card_missing_switch_internal">Use Internal Memory</string>
     <string name="map_storage_sd_card_mounting_title">Waiting for SD Card to Mount</string>
@@ -388,7 +388,7 @@
     <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
     <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
     <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
-    <string name="obd_fuel_dialog_edit_error2">Error not a valid distance number!</string>
+    <string name="obd_fuel_dialog_edit_error2">Error: not a valid distance number!</string>
     <!-- DTC Errors Dialog -->
     <string name="obd_dtc_no_error">No DTC Errors</string>
     <string name="obd_dtc_dialog_title">DTC Errors</string>
@@ -460,7 +460,7 @@
     <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
     <string name="roadbook_controller_scroll_amount_message">Adjust the amount of movement for the paper scroll up and down</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when hold.</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when held.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Set Repeat Speed for Joystick</string>
     <string name="roadbook_controller_set_key_repeat_buttons_time_title">Set Repeat Speed for Buttons</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
@@ -476,7 +476,7 @@
         <item>500ms</item>
     </string-array>
     <string name="roadbook_controller_enable_key_repeat_buttons_title">Enable Key Repeat for Buttons</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_message">If enabled the keys for Button A and Button B will repeat when hold.</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">If enabled the keys for Button A and Button B will repeat when held.</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll paper down one click on partial reset</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Total Distance</string>
@@ -557,7 +557,7 @@
     <string name="roadbook_purchase_key_activate_error_title">Error Activating License</string>
     <string name="roadbook_purchase_key_activate_error_message">Wrong license code or already activated on another device, check licenses in your Thork Racing account page or contact support.</string>
     <string name="roadbook_purchase_key_activate_success_title">License Activated</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank your for your support!</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank you for your support.</string>
 
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">No Maps Downloaded Yet</string>
@@ -702,7 +702,7 @@
     <string name="gpx_manager_advanced_convert_to_route2">If GPX includes off-road tracks please use MIXED profile!\nLow (Fast): Faster calculation, but may deviate from the original GPX.\nHigh (Slow): Slower calculation, specially on big files, but will deviate less.\nNOTICE: Big GPX files (above 1000Km), even on fast mode, can take forever…</string>
     <string name="gpx_manager_advanced_convert_button_fast">Low (Fast)</string>
     <string name="gpx_manager_advanced_convert_button_slow">High (Slow)</string>
-    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does now contain any tracks!</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Map Long Press Actions</string>
@@ -776,7 +776,7 @@
     <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
     <string name="map_map_track_tap_on_track">You are on this track!</string>
     <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
-    <string name="map_map_track_tap_not_on_gpx">You are not on any of this GPX's tracks!</string>
+    <string name="map_map_track_tap_not_on_gpx">You are not on any of the GPX tracks!</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
     <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
@@ -813,7 +813,7 @@
     <string name="map_route_planner_cancel_active_dialog_title">Cancel Active Route?</string>
     <string name="map_route_planner_cancel_active_dialog_message">There is an active navigation. Do you want to cancel and start a new one?</string>
     <string name="map_route_planner_instruction_now">Now</string>
-    <string name="map_route_planner_instruction_arrived">You have arrived to your destination!</string>
+    <string name="map_route_planner_instruction_arrived">You have reached your destination!</string>
     <string name="map_route_planner_instruction_keep_same_road">Continue for</string>
     <string name="map_route_planner_instruction_turn_left">Turn Left in</string>
     <string name="map_route_planner_instruction_turn_right">Turn Right in</string>
