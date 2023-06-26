@@ -1,10 +1,20 @@
 <resources>
 
+
+    <!-- Missing Translation -->
+
+    <string name="map_route_loading_message">Loading Route…</string>
+    <string name="map_route_analyzing_message">Analyzing Route…</string>
+
+    <!-- End of Missing Translation -->
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
     <string name="status_bar_online_status">Online</string>
     <string name="status_bar_offline_status">Offline</string>
+
 
     <!-- Bottom Menu -->
     <string name="menu_global_settings">Innstillinger</string>
