@@ -3,19 +3,19 @@
 
     <!-- Missing Translation -->
 
-    <string name="map_route_loading_message">Loading Route…</string>
-    <string name="map_route_analyzing_message">Analyzing Route…</string>
+    <string name="map_route_loading_message">Laster inn rute…</string>
+    <string name="map_route_analyzing_message">Analyserer rute…</string>
 
-    <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
-    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
-    <string name="map_layers_scale_map_layer_label">Map Scale</string>
+    <string name="map_layers_scale_visibility_title">Størrelse &amp; Synlighet</string>
+    <string name="map_layers_scale_visibility_description">Juster størrelse og synlighe for kart, merker og symboler</string>
+    <string name="map_layers_scale_map_layer_label">Kart-skalering</string>
 
-    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
+    <string name="map_layers_topo_high_contrast_mode">Høy-kontrastmodus</string>
 
-    <string name="map_poi_search_manager">Place Search</string>
+    <string name="map_poi_search_manager">Stedssøk</string>
 
-    <string name="map_place_search_button_label">Type Address</string>
-    <string name="map_place_search_instructions">Type at least three letters to view results</string>
+    <string name="map_place_search_button_label">Skriv adresse</string>
+    <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
 
     <!-- End of Missing Translation -->
 
