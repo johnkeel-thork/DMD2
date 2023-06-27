@@ -3,19 +3,7 @@
 
     <!-- Missing Translation -->
 
-    <string name="map_route_loading_message">Laster inn rute…</string>
-    <string name="map_route_analyzing_message">Analyserer rute…</string>
-
-    <string name="map_layers_scale_visibility_title">Størrelse &amp; Synlighet</string>
-    <string name="map_layers_scale_visibility_description">Juster størrelse og synlighe for kart, merker og symboler</string>
-    <string name="map_layers_scale_map_layer_label">Kart-skalering</string>
-
-    <string name="map_layers_topo_high_contrast_mode">Høy-kontrastmodus</string>
-
-    <string name="map_poi_search_manager">Stedssøk</string>
-
-    <string name="map_place_search_button_label">Skriv adresse</string>
-    <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
+    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
 
     <!-- End of Missing Translation -->
 
@@ -594,6 +582,9 @@
     <string name="map_layers_base_map_description">Kildekart for terreng, vei, bygninger, adresser og høydekurver.</string>
     <string name="map_layers_3D_buildings_title">3D Bygninger</string>
     <string name="map_layers_3D_buildings_description">Konverter bygninger til enkle ekstruderte 3D-former</string>
+    <string name="map_layers_scale_visibility_title">Størrelse &amp; Synlighet</string>
+    <string name="map_layers_scale_visibility_description">Juster størrelse og synlighe for kart, merker og symboler</string>
+    <string name="map_layers_scale_map_layer_label">Kart-skalering</string>
     <string name="map_layers_enable_layer_label">Aktiver kartlag</string>
     <string name="map_layers_enable_labels_layer_label">Aktiver meker</string>
     <string name="map_layers_scale_labels_layer_label">Merkestørrelse</string>
@@ -650,6 +641,7 @@
     <string name="map_layers_map_type_light_sensor">Sensor</string>
     <string name="map_layers_topo_advanced_title">Off-road avanserte innstillinger</string>
     <string name="map_layers_topo_advanced_description">Flere valgmuligheter for off-road kart</string>
+    <string name="map_layers_topo_high_contrast_mode">Høy-kontrastmodus</string>
     <string name="map_layers_topo_options_altitude_line">Vis høydekurver</string>
     <string name="map_layers_topo_options_low_zoom_unpaved">Marker veier uten fast dekke (synlig ved lav zoom)</string>
     <string name="map_layers_topo_options_show_motorway">Vis motorvei</string>
@@ -710,7 +702,6 @@
     <string name="gpx_manager_waypoint_distance_on_track">Avstand fra deg</string>
     <string name="gpx_manager_waypoint_distance_more">Avstand til sporpunkt.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Avstadn til sporstart</string>
-    <string name="gpx_manager_waypoint_not_on_track">Du måkjøre på den samme GPX-filen!</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Venter på GPS…</string>
     <string name="gpx_manager_waypoint_share_app">Velg app for deling</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
@@ -770,6 +761,7 @@
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye valgmuligheten for kartpanoreringsmodus</string>
     <!-- Poi Search -->
+    <string name="map_poi_search_manager">Stedssøk</string>
     <string name="map_poi_search_call">Ring</string>
     <string name="map_poi_type_name">Navn</string>
     <string name="map_poi_error_no_offline_map_loaded">Feil, ingen kart lastet inn. Last inn offline kart først.</string>
@@ -824,6 +816,8 @@
     <string name="map_route_planner_profile_label">Velg profil</string>
     <string name="map_route_planner_profile_option">Valgmuligheter for ruteprofil</string>
     <string name="map_route_calculating_message">Beregner rute…</string>
+    <string name="map_route_loading_message">Laster inn rute…</string>
+    <string name="map_route_analyzing_message">Analyserer rute…</string>
     <string name="map_route_calculating_message_retry">Feil!</string>
     <string name="map_route_calculating_message_options">Valgmuligheter</string>
     <string name="map_route_planner_no_gps_fix">Mangler GPS-data, prøv igjen senere!</string>
@@ -865,6 +859,8 @@
     <string name="map_route_planner_empty">Ingen aktive spor eller ruter!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online-søk på adresse</string>
+    <string name="map_place_search_button_label">Skriv adresse</string>
+    <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
     <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
     <string name="map_place_search_distance">Avstand i luftlinje:</string>
 
