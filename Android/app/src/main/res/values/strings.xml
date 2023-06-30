@@ -256,6 +256,7 @@
     <string name="widget_info_gps_altitude_name">GPS Altitude</string>
     <string name="widget_info_gps_altitude_label">Altitude</string>
     <string name="widget_info_gps_heading_name">GPS Heading</string>
+    <string name="widget_info_clock_name">Time</string>
     <string name="widget_info_gps_heading_label">Heading</string>
     <string name="widget_info_gps_speed_name">GPS Speed</string>
     <string name="widget_info_gps_speed_label">Speed</string>
