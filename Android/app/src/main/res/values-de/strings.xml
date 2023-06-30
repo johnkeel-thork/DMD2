@@ -16,6 +16,10 @@
     <string name="map_place_search_button_label">Type Address</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
 
+    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
+
+    <string name="widget_info_clock_name">Time</string>
+
     <!-- End of Missing Translation -->
 
 
@@ -708,7 +712,6 @@
     <string name="gpx_manager_waypoint_distance_on_track">Entfernung vom Standort</string>
     <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Entfernung vom Start</string>
-    <string name="gpx_manager_waypoint_not_on_track">Du musst auf derselben GPX-Datei unterwegs sein</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Warte auf GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">App zum Teilen auswählen</string>
     <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern…</string>
