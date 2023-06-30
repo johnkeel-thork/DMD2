@@ -11,6 +11,8 @@
     <string name="map_place_search_button_label">Type Address</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
 
+    <string name="widget_info_clock_name">Time</string>
+
     <!-- End of Missing Translation -->
 
 
