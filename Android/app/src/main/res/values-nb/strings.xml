@@ -5,6 +5,8 @@
 
     <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
 
+    <string name="widget_info_clock_name">Time</string>
+
     <!-- End of Missing Translation -->
 
 
