@@ -13,6 +13,10 @@
 
     <string name="widget_info_clock_name">Time</string>
 
+    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+
+
     <!-- End of Missing Translation -->
 
 
