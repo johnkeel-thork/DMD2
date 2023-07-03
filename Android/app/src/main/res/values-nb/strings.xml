@@ -3,9 +3,9 @@
 
     <!-- Missing Translation -->
 
-    <string name="gpx_manager_waypoint_not_on_track">Du må kjøre på den samme GPX-filen for å kunne få opplysninger om avstand.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
 
-    <string name="widget_info_clock_name">Tid</string>
 
     <!-- End of Missing Translation -->
 
@@ -266,6 +266,7 @@
     <string name="widget_info_gps_altitude_name">GPS Høyde o/havet</string>
     <string name="widget_info_gps_altitude_label">m.o.h</string>
     <string name="widget_info_gps_heading_name">GPS kompasskurs</string>
+    <string name="widget_info_clock_name">Tid</string>
     <string name="widget_info_gps_heading_label">Kurs</string>
     <string name="widget_info_gps_speed_name">GPS Hastighet</string>
     <string name="widget_info_gps_speed_label">Hastighet</string>
@@ -704,6 +705,7 @@
     <string name="gpx_manager_waypoint_distance_on_track">Avstand fra deg</string>
     <string name="gpx_manager_waypoint_distance_more">Avstand til sporpunkt.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Avstadn til sporstart</string>
+    <string name="gpx_manager_waypoint_not_on_track">Du må kjøre på den samme GPX-filen for å kunne få opplysninger om avstand.</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Venter på GPS…</string>
     <string name="gpx_manager_waypoint_share_app">Velg app for deling</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
