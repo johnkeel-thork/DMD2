@@ -1,26 +1,5 @@
 <resources>
 
-    <!-- Missing Translation -->
-
-    <string name="map_layers_scale_visibility_title">Skaalaus &amp; Näkyvyys</string>
-    <string name="map_layers_scale_visibility_description">Säädä kartan, tekstien ja symbolien kokoa ja näkyvyyttä</string>
-    <string name="map_layers_scale_map_layer_label">Kartan skaala</string>
-
-    <string name="map_layers_topo_high_contrast_mode">Korkean kontrastin tila</string>
-
-    <string name="map_place_search_button_label">Kirjoita osoite</string>
-    <string name="map_place_search_instructions">Kirjoita ainakin kolme kirjainta nähdäksesi hakutuloksia</string>
-
-    <string name="widget_info_clock_name">Kello</string>
-
-    <string name="map_settings_navigation_use_voice_instructions_title">Käytä ääniopastusta</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Käyttää Tekstistä puheeksi -toimintoa tarjoamaan ääniopastusta navigointiin.</string>
-
-
-    <!-- End of Missing Translation -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -276,6 +255,7 @@
     <string name="widget_info_gps_altitude_name">GPS-korkeus</string>
     <string name="widget_info_gps_altitude_label">Korkeus</string>
     <string name="widget_info_gps_heading_name">GPS-suunta</string>
+    <string name="widget_info_clock_name">Kello</string>
     <string name="widget_info_gps_heading_label">Suunta</string>
     <string name="widget_info_gps_speed_name">GPS-nopeus</string>
     <string name="widget_info_gps_speed_label">Nopeus</string>
@@ -594,6 +574,9 @@
     <string name="map_layers_base_map_description">Pohjakartta sisältää maaston, tiet, rakennukset, osoitteet ja korkeustiedot.</string>
     <string name="map_layers_3D_buildings_title">3D-rakennukset</string>
     <string name="map_layers_3D_buildings_description">Muuntaa rakennusten alat 3D-muodoiksi</string>
+    <string name="map_layers_scale_visibility_title">Skaalaus &amp; Näkyvyys</string>
+    <string name="map_layers_scale_visibility_description">Säädä kartan, tekstien ja symbolien kokoa ja näkyvyyttä</string>
+    <string name="map_layers_scale_map_layer_label">Kartan skaala</string>
     <string name="map_layers_enable_layer_label">Käytä kerrosta</string>
     <string name="map_layers_enable_labels_layer_label">Käytä tekstejä</string>
     <string name="map_layers_scale_labels_layer_label">Tekstien koko</string>
@@ -650,6 +633,7 @@
     <string name="map_layers_map_type_light_sensor">Val.anturi</string>
     <string name="map_layers_topo_advanced_title">Topo lisävalinnat</string>
     <string name="map_layers_topo_advanced_description">Hienosäädä topograafista Off-road karttaa</string>
+    <string name="map_layers_topo_high_contrast_mode">Korkean kontrastin tila</string>
     <string name="map_layers_topo_options_altitude_line">Näytä korkeuskäyrät</string>
     <string name="map_layers_topo_options_low_zoom_unpaved">Korosta päällystämättömiä (näkyy alhaisilla zoomaustasoilla)</string>
     <string name="map_layers_topo_options_show_motorway">Näytä moottoritiet</string>
@@ -766,6 +750,8 @@
     <string name="map_settings_navigation_cat_title">Navigation</string>
     <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
     <string name="map_settings_navigation_start_ask_message">If enabled DMD2 will ask if you want to use DMD2 or another app. If disabled it defaults to DMD2.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Käytä ääniopastusta</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Käyttää Tekstistä puheeksi -toimintoa tarjoamaan ääniopastusta navigointiin.</string>
     <string name="map_settings_controller_cat_title">Controller Settings</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
@@ -867,6 +853,8 @@
     <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
     <string name="map_route_planner_empty">No active track or route!</string>
     <!-- Place Search -->
+    <string name="map_place_search_button_label">Kirjoita osoite</string>
+    <string name="map_place_search_instructions">Kirjoita ainakin kolme kirjainta nähdäksesi hakutuloksia</string>
     <string name="map_place_search_dialog_title">Online Osoitehaku</string>
     <string name="map_place_search_dialog_type_label">Syötä paikannimi tai osoite:</string>
     <string name="map_place_search_distance">Etäisyys linnuntietä:</string>
