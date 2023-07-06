@@ -3,8 +3,8 @@
 
     <!-- Missing Translation -->
 
-    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
 
 
     <!-- End of Missing Translation -->
@@ -50,7 +50,7 @@
     <string name="delete">Slett</string>
     <string name="replace">Erstatt</string>
     <string name="rename">Nytt navn</string>
-    <string name="reset">Tilbakestill</string>
+    <string name="reset">Tilbakestill alt</string>
     <string name="refresh">Oppdater</string>
     <string name="enable">Aktiver</string>
     <string name="download">Last ned</string>
@@ -147,7 +147,7 @@
     <!-- Trip Settings-->
     <string name="settings_trip_options">Trip innstillinger</string>
     <string name="settings_trip_auto_reset_title">Automatisk nullstilling</string>
-    <string name="settings_trip_auto_reset_summary">Trip will automatisk nukllstilles hvis DMD2 ikke startes innefor valgt tidsrom</string>
+    <string name="settings_trip_auto_reset_summary">Trip will automatisk nullstilles hvis DMD2 ikke startes innefor valgt tidsrom</string>
     <string name="settings_trip_auto_reset_time_title">Automatisk nullstillingstid</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 timer</item>
@@ -169,7 +169,7 @@
     <string name="settings_tripltek_website_title">Denne versjonen av DMD2 er optimalisert for Tripltek-enheter</string>
     <string name="settings_follow_us_facebook">Besøk og følg vår Facebook-side for å få de siste nyhetene</string>
     <string name="settings_join_us_facebook">Meld deg inn i facebook-gruppe</string>
-    <string name="settings_dmd2_forum">delta i diskusjoner om nye funksjoner, feil og forslag</string>
+    <string name="settings_dmd2_forum">Delta i diskusjoner om nye funksjoner, feil og forslag</string>
     <string name="settings_license_title">Lisensnøkler</string>
     <string name="settings_dmd2_edition_redeem_title">Prøveversjon / DMD2 Versjon</string>
     <string name="settings_dmd2_edition_redeem_message">Håndter prøveversjon og legg inn lisensnøkkel</string>
@@ -212,7 +212,7 @@
     <string name="home_widget_trip_title">Kjørecomputer</string>
     <string name="home_widget_trip_title_long">Statistikk</string>
     <string name="home_widget_trip_description">Se kjørelengde, kjøretid, reisetid, stopptid og gjennomsnittshastighet.</string>
-    <string name="home_widget_apps_title">Apper</string>
+    <string name="home_widget_apps_title">Snarveier</string>
     <string name="home_widget_apps_title_long">Snarveier</string>
     <string name="home_widget_apps_description">Legg inn snarveier til dine favorittapper.</string>
     <string name="home_widget_apps_selection_dialog_title">Velg eller slett snarvei</string>
@@ -230,7 +230,7 @@
     <string name="home_widget_map_title_long">Minikart</string>
     <string name="home_widget_map_description">Lite kartvindu som viser din umiddelbare nærhet med samme innstillinger som i det store kartvinduet.Kan kun plasseres i venstre panel.</string>
     <string name="home_widget_speed_title">Hastighet</string>
-    <string name="home_widget_speed_title_long">hastighet fra GPS</string>
+    <string name="home_widget_speed_title_long">Hastighet fra GPS</string>
     <string name="home_widget_speed_description">Stort felt med aktuell hastighet fra GPS.</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS &amp; OBD data</string>
@@ -272,14 +272,14 @@
     <string name="widget_info_gps_speed_label">Hastighet</string>
     <string name="widget_info_gps_trip_max_speed_name">Høyeste hastighet</string>
     <string name="widget_info_gps_trip_max_speed_label">Maks hastighet</string>
-    <string name="widget_info_gps_trip_distance_name">Kjøreøengde</string>
+    <string name="widget_info_gps_trip_distance_name">Kjørelengde</string>
     <string name="widget_info_gps_trip_total_time_name">Totaltid</string>
     <string name="widget_info_gps_trip_travel_time_name">Reisetid</string>
     <string name="widget_info_gps_trip_stop_time_name">Stopptid</string>
     <string name="widget_info_gps_trip_avg_speed_name">Snitthastighet</string>
     <string name="widget_info_obd_speed_label">OBD Hastighet</string>
     <string name="widget_info_obd_rpm_label">RPM</string>
-    <string name="widget_info_obd_coolant_label">Kjøevæsketemperatur</string>
+    <string name="widget_info_obd_coolant_label">Kjølevæsketemperatur</string>
     <string name="widget_info_obd_voltage_label">Ladespenning</string>
     <string name="widget_info_obd_fuel_label">Drivstoff</string>
     <string name="widget_info_obd_tbposition_label">Gasspådrag</string>
@@ -342,13 +342,13 @@
     <string name="obd_reader_config_title">Konfigurasjonsinnstillinger for OBD-leser</string>
     <string name="obd_reader_config_summary">Legg inn kommandoer til OBD-leser, skill med ny linje</string>
     <string name="obd_select_device_title">Velg parret OBD-enhet</string>
-    <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at diun enhet er parret først!</string>
+    <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at din enhet er parret først!</string>
     <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetoothenhet</string>
     <string name="obd_settings_use_alt_voltage_title">Få ladespenning fra dongle</string>
     <string name="obd_settings_use_alt_voltage_message">Bruk STVRkommando for ladespenning i stedet for ECU PID</string>
     <string name="obd_fuel_level_settings">Drivstoffnivå</string>
     <string name="obd_fuel_level_calculated">Beregn drivstoffnivå</string>
-    <string name="obd_fuel_level_calculated_summary">Hvis drivstoffnivå ikke kan hentes fra ECU kan du la DMD2 beregne nivpået basert på gjennomsnittsforbruket per tank. For å nukllstille, trykk på drivstoffikonet ved tanking.</string>
+    <string name="obd_fuel_level_calculated_summary">Hvis drivstoffnivå ikke kan hentes fra ECU kan du la DMD2 beregne nivået basert på gjennomsnittsforbruket per tank. For å nullstille, trykk på drivstoffikonet ved tanking.</string>
     <string name="obd_fuel_level_avg_mileage">Gjennomsnittlig forbruk</string>
     <string name="obd_fuel_level_avg_mileage_summary">Hvor langt kommer du normalt på en full tank?</string>
     <string name="obd_speed_rpm_cat_title">Hastighet og omdreininger</string>
@@ -362,7 +362,7 @@
     <string name="obd_use_raw_throttle_title">Bruk rådata</string>
     <string name="obd_use_raw_throttle_message">Bruk rådata fra OBD2, eller kalibrer høyeste og laveste posisjon.</string>
     <string name="obd_calibrate_throttle_title">Kalibrer gasspådrag</string>
-    <string name="obd_calibrate_throttle_message">Dette starter en dialog for å kalibrere gasspådrag. ECU må være på og OBD koblet til, motoren bør vøære stanset. Dette vil IKKE påvirke noe innstillinger i kjøretøyets ECU!</string>
+    <string name="obd_calibrate_throttle_message">Dette starter en dialog for å kalibrere gasspådrag. ECU må være på og OBD koblet til, motoren bør være stanset. Dette vil IKKE påvirke noe innstillinger i kjøretøyets ECU!</string>
     <!-- Sensors-->
     <string name="obd_sensors_coolant_short_label">KJØLEVANN</string>
     <string name="obd_sensors_coolant_long_label">Kjølevannstemnperatur</string>
@@ -431,10 +431,10 @@
     <string name="roadbook_settings_locker_disable_paper_touch_message">Når låsen aktiveres vil ikke trykking på skjemen scrolle rullen, hverken ved uhell eller regnvær.</string>
     <string name="roadbook_settings_locker_disable_instruments_title">Låsing deaktiverer trykk på instrumentene</string>
     <string name="roadbook_settings_locker_disable_instruments_message">Når låsen aktiveres vil ikke trykking på instrumentene fungere, for å hindre utilsiktet endring.</string>
-    <string name="roadbook_settings_locker_disable_topmenu_title">Låsing deaktiverer trykking topp-menyen</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Låsing deaktiverer trykking på topp-menyen</string>
     <string name="roadbook_settings_locker_disable_topmenu_message">Når låsen aktiveres vil kun låseknappen fungere.</string>
     <string name="roadbook_settings_locker_play_pause_title">Koble låsing sammen med start/pause</string>
-    <string name="roadbook_settings_locker_play_pause_message">Når låsenn aktiveres vil start aktiveres og tid/distanse vil registreres. Ved opplåsning vil pause aktiveres.</string>
+    <string name="roadbook_settings_locker_play_pause_message">Når låsen aktiveres vil start aktiveres og tid/distanse vil registreres. Ved opplåsning vil pause aktiveres.</string>
     <string name="roadbook_settings_adjustment_cat_title">Innstillinger</string>
     <string name="roadbook_settings_distance_multi_factor_title">Multiplikasjonsfaktor for kjørelengde</string>
     <string name="roadbook_settings_distance_multi_factor_message">Legg til en faktor på total og delvis kjørelengde hvis du trenger å tilpasse til avstander i roadbook.</string>
@@ -471,7 +471,7 @@
     <string name="roadbook_controller_scroll_amount_title">Rulling per trykk/klikk</string>
     <string name="roadbook_controller_scroll_amount_message">Juster hvor langt "rullen" beveger seg for hvert tastetrykk.</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Aktiver gjentagelse for Joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis enen er aktivert vil Opp, Ned, Høyre og Venstre gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis aktivert vil Opp, Ned, Høyre og Venstre gjentas om knappen holdes inne.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Juster gjentagelseshastighet for Joystick</string>
     <string name="roadbook_controller_set_key_repeat_buttons_time_title">Juster gjentagelseshastighet for knapper</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
@@ -487,7 +487,7 @@
         <item>500ms</item>
     </string-array>
     <string name="roadbook_controller_enable_key_repeat_buttons_title">Aktiver gjentagelse for knapper</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_message">Hvis aktiver vil kanppene A og B gjentas om knappen holdes inne.</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Hvis aktivert vil knappene A og B gjentas om knappen holdes inne.</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Rull ned ett klikk på "rullen" når delvis kjørelengde nulstilles.</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Total kjørelengde</string>
@@ -513,18 +513,18 @@
     <string name="roadbook_totaltime_label">Totaltid:</string>
     <string name="roadbook_traveltime_label">Kjøretid:</string>
     <string name="roadbook_stoptime_label">Stopptid:</string>
-    <string name="roadbook_avgspeed_label">Gejnnomsnittshastighet:</string>
+    <string name="roadbook_avgspeed_label">Gjennomsnittshastighet:</string>
     <string name="roadbook_maxspeed_label">Maks hastighet:</string>
     <string name="roadbook_reset_stats_button">Nullstill</string>
     <string name="roadbook_open_new_dialog_title">Åpne ny fil</string>
-    <string name="roadbook_open_new_dialog_message">Abryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringe senere?</string>
+    <string name="roadbook_open_new_dialog_message">Avbryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringe senere?</string>
     <string name="roadbook_open_new_dialog_open_button">Start nå!</string>
     <string name="roadbook_open_new_dialog_save_first_button">Lagre først</string>
     <string name="roadbook_open_parsing_error_title">Feil ved åpning av fil</string>
     <string name="roadbook_open_parsing_error_message">Noe gikk galt ved åpning av filen. Den er kanskje ikke kompatibel?</string>
     <string name="roadbook_adjust_distance_multi">Korrigeringsfaktor for avstand:</string>
     <string name="roadbook_open_file_or_session_title">Åpne fil eller tidligere kjøring</string>
-    <string name="roadbook_open_file_or_session_message">Åpne ny PDF eller åpne tidliogere kjøringer (Håndtere tidligere lagrede kjøringer)?</string>
+    <string name="roadbook_open_file_or_session_message">Åpne ny PDF eller åpne tidligere kjøringer? \n(Håndtere tidligere lagrede kjøringer)</string>
     <string name="roadbook_open_file_or_session_new_file">Fil</string>
     <string name="roadbook_open_file_or_session_open_session">Kjøring</string>
     <string name="roadbook_session_save_input_name">Gi denne kjøringen et navn</string>
@@ -589,7 +589,7 @@
     <string name="map_layers_scale_visibility_description">Juster størrelse og synlighe for kart, merker og symboler</string>
     <string name="map_layers_scale_map_layer_label">Kart-skalering</string>
     <string name="map_layers_enable_layer_label">Aktiver kartlag</string>
-    <string name="map_layers_enable_labels_layer_label">Aktiver meker</string>
+    <string name="map_layers_enable_labels_layer_label">Aktiver merker</string>
     <string name="map_layers_scale_labels_layer_label">Merkestørrelse</string>
     <string name="map_layers_enable_symbols_layer_label">Aktiver symboler</string>
     <string name="map_layers_scale_symbols_layer_label">Symbolstørrelse</string>
@@ -712,9 +712,9 @@
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
     <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
     <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Hvis GPX-filen inneholder off-road, vennligst bruk BLANDET profil!\nLow (RASK): Raskere utregning, men kan avvike fra originalt spor.\nHigh (TREG): Tregere utregning, særlig påstore filer, men vil ha færre avvik fra originalt spor.\nNOTICE: Store GPX-filer (over 1000Km), kan ta håpløstlang tid, selv i RASK modus…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Lav (RASK)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">Høy (TREG)</string>
+    <string name="gpx_manager_advanced_convert_to_route2">Hvis GPX-filen inneholder off-road, vennligst bruk BLANDET profil!\nLav nøyaktighet (RASK): Raskere utregning, men kan avvike fra originalt spor.\nHøy nøyaktighet (TREG): Tregere utregning, særlig på store filer, men vil ha færre avvik fra originalt spor.\nNB!: Store GPX-filer (over 1000Km), kan ta håpløst lang tid, selv i RASK modus…</string>
+    <string name="gpx_manager_advanced_convert_button_fast">Lav nøyaktighet</string>
+    <string name="gpx_manager_advanced_convert_button_slow">Høy nøyaktighet</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
     <!-- Map Press Actions -->
@@ -747,9 +747,9 @@
     <string name="map_settings_auto_nav_only">Automatisk modus kun når navigasjon er aktiv</string>
     <string name="map_settings_ui_cat_title">Innstillinger for grensesnitt</string>
     <string name="map_settings_ui_enable_track_progress">Aktiver infoboks for fremdrift</string>
-    <string name="map_settings_ui_enable_track_progress_summary">Viser en boks på venstre side som viser fremdrift på sporet og avstand til neste POI og kartnål.</string>
-    <string name="map_settings_ui_disable_touch_on_lock">Deaktiver kartberøring nå skjermen er låst</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Nyttig når du bruker fjernkontroll, deaktiverer skjermens berøringsfølsomhet slik at kartet ikke forstyrres av berøring, regn osv.</string>
+    <string name="map_settings_ui_enable_track_progress_summary">En infoboks på venstre side viser fremdrift på sporet og avstand til neste POI og kartnål.</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Deaktiver kartberøring når skjermen er låst</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Deaktiverer skjermens berøringsfølsomhet slik at kartet ikke forstyrres av berøring, regn osv. Nyttig når du bruker fjernkontroll!</string>
     <string name="map_settings_language_cat_title">Kartspråk</string>
     <string name="map_settings_language_load_mode_title">Kartspråk</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -763,7 +763,7 @@
     <string name="map_settings_navigation_start_ask_message">Hvis aktiv vil DMD" spørre om hvilken app du ønsker å bruke for navigering, hvis deaktivert brukes DMD2.</string>
     <string name="map_settings_controller_cat_title">Innstillinger for fjernkontroller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
-    <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye valgmuligheten for kartpanoreringsmodus</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer den nye valgmuligheten for kartpanoreringsmodus</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Stedssøk</string>
     <string name="map_poi_search_call">Ring</string>
