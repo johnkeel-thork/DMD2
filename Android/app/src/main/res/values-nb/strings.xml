@@ -1,15 +1,6 @@
 <resources>
 
 
-    <!-- Missing Translation -->
-
-    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
-
-
-    <!-- End of Missing Translation -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -761,6 +752,8 @@
     <string name="map_settings_navigation_cat_title">Navigering</string>
     <string name="map_settings_navigation_start_ask_title">Naviger til: Spør om å bruke DMD2 eller annen app</string>
     <string name="map_settings_navigation_start_ask_message">Hvis aktiv vil DMD" spørre om hvilken app du ønsker å bruke for navigering, hvis deaktivert brukes DMD2.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
     <string name="map_settings_controller_cat_title">Innstillinger for fjernkontroller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer den nye valgmuligheten for kartpanoreringsmodus</string>
