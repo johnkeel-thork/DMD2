@@ -2,26 +2,26 @@
 
     <!-- Missing Translation -->
 
-    <string name="map_route_loading_message">Loading Route…</string>
-    <string name="map_route_analyzing_message">Analyzing Route…</string>
+    <string name="map_route_loading_message">Lade Route…</string>
+    <string name="map_route_analyzing_message">Analysiere Route…</string>
 
-    <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
-    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
-    <string name="map_layers_scale_map_layer_label">Map Scale</string>
+    <string name="map_layers_scale_visibility_title">Maßstab &amp; Sichtbarkeit</string>
+    <string name="map_layers_scale_visibility_description">Karte, Beschriftungen und Symbole in Maßstab und Sichtbarkeit anpassen</string>
+    <string name="map_layers_scale_map_layer_label">Kartenmaßstab</string>
 
-    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
+    <string name="map_layers_topo_high_contrast_mode">Kontrastreicher Modus</string>
 
-    <string name="map_poi_search_manager">Place Search</string>
+    <string name="map_poi_search_manager">Orte Suche</string>
 
-    <string name="map_place_search_button_label">Type Address</string>
-    <string name="map_place_search_instructions">Type at least three letters to view results</string>
+    <string name="map_place_search_button_label">Tippe Adresse</string>
+    <string name="map_place_search_instructions">Tippe mindestens 3 Buchstaben um Ergebnisse zu sehen</string>
 
-    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
+    <string name="gpx_manager_waypoint_not_on_track">Um Entfernungsangaben zu erhalten, muss auf derselben GPX-Datei gefahren werden.</string>
 
-    <string name="widget_info_clock_name">Time</string>
+    <string name="widget_info_clock_name">Uhrzeit</string>
 
-    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Sprachanweisungen aktivieren</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Wird Text-To-Speech verwenden, um Sprachanweisungen für die Navigation zu erzeugen.</string>
 
 
     <!-- End of Missing Translation -->
@@ -795,10 +795,10 @@
     <string name="map_map_track_tap_dialog_title">Trackpunkt antippen</string>
     <string name="map_map_track_tap_track_details">Track Details</string>
     <string name="map_map_track_tap_track_point_distances">Entfernungen von Trackpunkt:</string>
-    <string name="map_map_track_tap_track_point_distances_to_you">Entfernung &amp; zum Standort:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Entfernung &amp; Zeit zum Standort:</string>
     <string name="map_map_track_tap_on_track">Du bist auf diesem Track!</string>
     <string name="map_map_track_tap_not_on_track_but_on_gpx">Du bist auf einem anderen Track.</string>
-    <string name="map_map_track_tap_not_on_gpx">Du befinden Dich nicht auf einem dieser GPX-Tracks!</string>
+    <string name="map_map_track_tap_not_on_gpx">Du befindest Dich nicht auf einem dieser GPX-Tracks!</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
     <string name="map_map_track_tap_point_distance_to_track_end">Track Ende:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
