@@ -1,32 +1,5 @@
 <resources>
 
-    <!-- Missing Translation -->
-
-    <string name="map_route_loading_message">Lade Route…</string>
-    <string name="map_route_analyzing_message">Analysiere Route…</string>
-
-    <string name="map_layers_scale_visibility_title">Maßstab &amp; Sichtbarkeit</string>
-    <string name="map_layers_scale_visibility_description">Karte, Beschriftungen und Symbole in Maßstab und Sichtbarkeit anpassen</string>
-    <string name="map_layers_scale_map_layer_label">Kartenmaßstab</string>
-
-    <string name="map_layers_topo_high_contrast_mode">Kontrastreicher Modus</string>
-
-    <string name="map_poi_search_manager">Orte Suche</string>
-
-    <string name="map_place_search_button_label">Tippe Adresse</string>
-    <string name="map_place_search_instructions">Tippe mindestens 3 Buchstaben um Ergebnisse zu sehen</string>
-
-    <string name="gpx_manager_waypoint_not_on_track">Um Entfernungsangaben zu erhalten, muss auf derselben GPX-Datei gefahren werden.</string>
-
-    <string name="widget_info_clock_name">Uhrzeit</string>
-
-    <string name="map_settings_navigation_use_voice_instructions_title">Sprachanweisungen aktivieren</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Wird Text-To-Speech verwenden, um Sprachanweisungen für die Navigation zu erzeugen.</string>
-
-
-    <!-- End of Missing Translation -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -281,6 +254,7 @@
     <string name="widget_info_selector_dialog_title">Wähle GPS/OBD Sensor</string>
     <string name="widget_info_gps_altitude_name">GPS Höhenmesser</string>
     <string name="widget_info_gps_altitude_label">Höhe</string>
+    <string name="widget_info_clock_name">Uhrzeit</string>
     <string name="widget_info_gps_heading_name">GPS Kurs</string>
     <string name="widget_info_gps_heading_label">Kurs</string>
     <string name="widget_info_gps_speed_name">GPS Geschwindigkeit</string>
@@ -600,6 +574,9 @@
     <string name="map_layers_base_map_description">Basisdaten für Gelände, Straßen, Gebäude, Adressen und Höhenangaben.</string>
     <string name="map_layers_3D_buildings_title">3D Gebäude</string>
     <string name="map_layers_3D_buildings_description">Konvertiert Gebäudeflächen in einfache extrudierte 3D-Formen</string>
+    <string name="map_layers_scale_visibility_title">Maßstab &amp; Sichtbarkeit</string>
+    <string name="map_layers_scale_visibility_description">Karte, Beschriftungen und Symbole in Maßstab und Sichtbarkeit anpassen</string>
+    <string name="map_layers_scale_map_layer_label">Kartenmaßstab</string>
     <string name="map_layers_enable_layer_label">Aktiviere Ebenen</string>
     <string name="map_layers_enable_labels_layer_label">Aktiviere Etiketten</string>
     <string name="map_layers_scale_labels_layer_label">Etiketten Maßstab</string>
@@ -656,6 +633,7 @@
     <string name="map_layers_map_type_light_sensor">Sensor</string>
     <string name="map_layers_topo_advanced_title">Topo fortgeschrittene Optionen</string>
     <string name="map_layers_topo_advanced_description">Feineinstellung des topografischen Kartentyps Off-Road</string>
+    <string name="map_layers_topo_high_contrast_mode">Kontrastreicher Modus</string>
     <string name="map_layers_topo_options_altitude_line">Zeige Höhenlinien</string>
     <string name="map_layers_topo_options_low_zoom_unpaved">Unbefestigte-Wege hervorheben (bei niedrigem Zoom sichtbar)</string>
     <string name="map_layers_topo_options_show_motorway">Autobahnen anzeigen</string>
@@ -715,6 +693,7 @@
     <string name="gpx_manager_waypoint_straight_line_distance">Geradlinige Entfernung</string>
     <string name="gpx_manager_waypoint_distance_on_track">Entfernung vom Standort</string>
     <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
+    <string name="gpx_manager_waypoint_not_on_track">Um Entfernungsangaben zu erhalten, muss auf derselben GPX-Datei gefahren werden.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Entfernung vom Start</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Warte auf GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">App zum Teilen auswählen</string>
@@ -771,10 +750,13 @@
     <string name="map_settings_navigation_cat_title">Navigation</string>
     <string name="map_settings_navigation_start_ask_title">Navigiere zu: Frage zur Verwendung von DMD2 oder Extern</string>
     <string name="map_settings_navigation_start_ask_message">Wenn diese Option aktiviert ist, fragt DMD2, ob DMD2 oder eine andere Anwendung verwendet wedren soll. Ist sie deaktiviert, wird standardmäßig DMD2 verwendet.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Sprachanweisungen aktivieren</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Wird Text-To-Speech verwenden, um Sprachanweisungen für die Navigation zu erzeugen.</string>
     <string name="map_settings_controller_cat_title">Controller Einstellungen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus</string>
     <!-- Poi Search -->
+    <string name="map_poi_search_manager">Orte Suche</string>
     <string name="map_poi_search_call">Anrufen</string>
     <string name="map_poi_type_name">Schreibe Name</string>
     <string name="map_poi_error_no_offline_map_loaded">Fehler: noch keine Karte geladen! Lade zuerst Offline-Karten herunter.</string>
@@ -831,6 +813,8 @@
     <string name="map_route_calculating_message">Route berechnen…</string>
     <string name="map_route_calculating_message_retry">Fehler!</string>
     <string name="map_route_calculating_message_options">Optionen</string>
+    <string name="map_route_loading_message">Lade Route…</string>
+    <string name="map_route_analyzing_message">Analysiere Route…</string>
     <string name="map_route_planner_no_gps_fix">Kein GPS-Fix. Später erneut versuchen!</string>
     <string name="map_route_planner_cancel_active_dialog_title">Aktive Route abbrechen?</string>
     <string name="map_route_planner_cancel_active_dialog_message">Es gibt eine aktive Navigation. Abbrechen und eine neue Navigation starten?</string>
@@ -870,6 +854,8 @@
     <string name="map_route_planner_empty">Kein aktiver Track oder Route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressen Suche</string>
+    <string name="map_place_search_button_label">Tippe Adresse</string>
+    <string name="map_place_search_instructions">Tippe mindestens 3 Buchstaben um Ergebnisse zu sehen</string>
     <string name="map_place_search_dialog_type_label">Schreibe einen Namen oder Adresse:</string>
     <string name="map_place_search_distance">Entfernung in gerader Linie:</string>
 
