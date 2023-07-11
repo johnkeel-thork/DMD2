@@ -1,5 +1,12 @@
 <resources>
 
+    <!-- New Untranslated -->
+    
+    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+
+    <!-- End Of New Untranslated -->
+    
+    
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
