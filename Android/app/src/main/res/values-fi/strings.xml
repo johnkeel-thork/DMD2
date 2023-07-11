@@ -73,12 +73,12 @@
     <string name="controller_app_update_download_notification">Ladataan CARPE Controller sovelluksen päivitys</string>
     <string name="controller_app_update_download_progress">Latauksen edistyminen:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">Tripltek T93 Trial</string>
-    <string name="t93_trial_message">Since you are using a Tripltek T93 you have 30-day free trial. If you have a special DMD2 Edition license key, please insert it to claim it.</string>
-    <string name="t93_trial_button">Continue Trial</string>
-    <string name="t93_dmd2_edition_button">Insert Key</string>
-    <string name="t93_finish_trial_button">End Trial</string>
-    <string name="t93_dmd2_edition_insert_key_title">Insert DMD2-Edition Key:</string>
+    <string name="t93_trial_title">Tripltek T93 koekäyttö</string>
+    <string name="t93_trial_message">Koska käytät Tripltek T93:a, saat ilmaisen 30 päivän kokeilujakson. Jos sinulla on DMD2 Edition lisenssiavain, syötä se käyttääksesi lisenssiä.</string>
+    <string name="t93_trial_button">Jatka koekäyttöä</string>
+    <string name="t93_dmd2_edition_button">Syötä lisenssiavain</string>
+    <string name="t93_finish_trial_button">Päätä koekäyttö</string>
+    <string name="t93_dmd2_edition_insert_key_title">Syötä DMD2-Edition lisenssiavain:</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Lokalisointivalinnat</string>
@@ -146,7 +146,7 @@
         <item>5 päivää</item>
     </string-array>
     <!-- OEM Registration-->
-    <string name="settings_oem_registration">OEM rekisteröinti</string>
+    <string name="settings_oem_registration">OEM-rekisteröinti</string>
     <string name="settings_oem_check">Rekisteröinti (vaatii internet-yhteyden)</string>
     <string name="settings_oem_check_summary">Käytä vain mikäli moottoripyöräsi toimitettiin varustettuna Android-laitteella jossa DMD2 oli valmiiksi asennettuna.</string>
     <!-- Info & Links -->
@@ -159,12 +159,12 @@
     <string name="settings_follow_us_facebook">Tutustu ja seuraa Facebook-sivuamme jossa uusimmat uutiset</string>
     <string name="settings_join_us_facebook">Liity Facebook-ryhmäämme</string>
     <string name="settings_dmd2_forum">Liity keskusteluun uusista ominaisuuksista, tunnetuista virheistä ja kehitystoiveista</string>
-    <string name="settings_license_title">Special License Keys</string>
-    <string name="settings_dmd2_edition_redeem_title">Trial / DMD2 Edition</string>
-    <string name="settings_dmd2_edition_redeem_message">Manage Trial or insert DMD2 Edition key</string>
+    <string name="settings_license_title">Erityiset lisenssiavaimet</string>
+    <string name="settings_dmd2_edition_redeem_title">Koekäyttö / DMD2 Edition</string>
+    <string name="settings_dmd2_edition_redeem_message">Hallinnoi koekäyttöä tai syötä DMD2 Edition lisenssiavain</string>
     <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Tervetuloa DMD2-sovellukseen</string>
-    <string name="welcome_dmd2_message">DMD2 muuntaa laitteesi täydelliseksi kojelaudaksi moottoripyöriin ja autoihin, keskittyen erityisesti seikkailuun ja off-road -ajoon. Se sisältää kartan navigointiin, tiekirjan (roadbook), OBD2-anturit ja paljon muuta.</string>
+    <string name="welcome_dmd2_message">DMD2 muuntaa laitteesi täydelliseksi moottoripyörien ja autojen kojelaudaksi, keskittyen erityisesti seikkailuun ja off-road -ajoon. Se sisältää kartan navigointiin, tiekirjan (roadbook), OBD2-tiedot ja paljon muuta.</string>
     <string name="welcome_dmd2_lets_go">Aloita</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">GPS-asetukset</string>
@@ -172,10 +172,10 @@
     <string name="settings_bypass_acc_filter_message">Heikomman GPS-tarkkuuden laitteille</string>
     <!-- Device Specific -->
     <string name="settings_non_play_store_devices_cat">Valinnat laitteille ilman Play Kauppaa</string>
-    <string name="settings_disable_controller_app_check_title">Estä CARPE Controller sovelluksen tarkistukset</string>
-    <string name="settings_disable_controller_app_check_message">Estää CARPE Controller sovelluksen seurannan ja lakkaa pyytämästä asentamaan tai päivittämään sen.</string>
+    <string name="settings_disable_controller_app_check_title">Estä CARPE Controller -sovelluksen tarkistukset</string>
+    <string name="settings_disable_controller_app_check_message">Estää CARPE Controller -sovelluksen seurannan ja lakkaa pyytämästä asentamaan tai päivittämään sen.</string>
     <string name="settings_controller_app_install_title">CARPE Controller havaittu</string>
-    <string name="settings_controller_app_install_message">Vaikuttaa että käytät CARPE Controlleria. Saadaksesi siitä täyden hyödyn, sinun tulee asentaa CARPE Controller sovellus. Haluatko asentaa sen nyt?</string>
+    <string name="settings_controller_app_install_message">Vaikuttaa että käytät CARPE Controlleria. Saadaksesi siitä täyden hyödyn, sinun tulee asentaa CARPE Controller -sovellus. Haluatko asentaa sen nyt?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Talennustila</string>
     <string name="map_storage_location_select_title">Valitse tallennustilaksi muistikortti</string>
@@ -707,155 +707,155 @@
     <string name="gpx_manager_advanced_convert_no_tracks">Tämä GPX-tiedosto ei sisällä jälkiä!</string>
 
     <!-- Map Press Actions -->
-    <string name="map_long_press_point_title">Map Long Press Actions</string>
-    <string name="map_long_press_point_no_info">No information for this point!</string>
-    <string name="map_long_press_point_close_to">in</string>
-    <string name="map_long_press_point_nearest_city">nearest city is</string>
-    <string name="map_long_press_point_navigate">Navigate</string>
-    <string name="map_long_press_point_share">Share</string>
-    <string name="map_long_press_search_poi">Search POI</string>
-    <string name="map_long_press_online_weather">Online Weather</string>
-    <string name="map_long_press_online_weather_no_info">No information for this point!</string>
+    <string name="map_long_press_point_title">Pitkän painalluksen toiminnot</string>
+    <string name="map_long_press_point_no_info">Ei tietoja tälle pisteelle!</string>
+    <string name="map_long_press_point_close_to">lähellä</string>
+    <string name="map_long_press_point_nearest_city">lähin kaupunki on</string>
+    <string name="map_long_press_point_navigate">Navigoi</string>
+    <string name="map_long_press_point_share">Jaa</string>
+    <string name="map_long_press_search_poi">Etsi POI</string>
+    <string name="map_long_press_online_weather">Sää (online)</string>
+    <string name="map_long_press_online_weather_no_info">Ei säätietoja tälle pisteelle!</string>
     <!-- License -->
-    <string name="map_license_title">Map Demo Mode</string>
-    <string name="map_license_message">Demo mode is limited to 15 minutes per session. Buy the Map Plugin to unlock!</string>
-    <string name="map_buy_button">Buy Plugin</string>
-    <string name="map_buy_dialog_title">Map Plugin Purchase</string>
-    <string name="map_buy_dialog_message1">Select subscription duration.</string>
-    <string name="map_buy_dialog_message2">12 Month Subscription</string>
-    <string name="map_buy_dialog_message3">Lifetime Purchase</string>
-    <string name="map_buy_dialog_message4">6 Month Subscription</string>
-    <string name="map_buy_button_12_month">12 Month</string>
-    <string name="map_buy_button_6_month">6 Month</string>
-    <string name="map_buy_button_lifetime">Lifetime</string>
-    <string name="license_limitation_message">This option is only available for licensed users!</string>
+    <string name="map_license_title">Kartan demotila</string>
+    <string name="map_license_message">Demotila rajoittuu 15 minuuttiin per sessio. Osta OBD-liitännäinen!</string>
+    <string name="map_buy_button">Osta liitännäinen</string>
+    <string name="map_buy_dialog_title">Kartta-liitännäisen hankkiminen</string>
+    <string name="map_buy_dialog_message1">Valitse tilauksen kesto.</string>
+    <string name="map_buy_dialog_message2">12 kuukauden tilaus</string>
+    <string name="map_buy_dialog_message3">Elinikäinen tilaus</string>
+    <string name="map_buy_dialog_message4">6 kuukauden tilaus</string>
+    <string name="map_buy_button_12_month">12 kuukautta</string>
+    <string name="map_buy_button_6_month">6 kuukautta</string>
+    <string name="map_buy_button_lifetime">Elinikäinen</string>
+    <string name="license_limitation_message">Tämä on käytettävissä vain lisenssin hankkineille käyttäjille!</string>
     <!-- Map Settings -->
-    <string name="map_settings_auto_zoom_cat_title">Auto Zoom &amp; Tilt</string>
-    <string name="map_settings_auto_zoom_title">Enable auto-zoom level</string>
-    <string name="map_settings_auto_tilt_title">Enable auto-tilt level</string>
-    <string name="map_settings_auto_nav_only">Auto mode only in active navigation</string>
-    <string name="map_settings_ui_cat_title">Interface Options</string>
-    <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
-    <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
-    <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
-    <string name="map_settings_language_cat_title">Map Language</string>
-    <string name="map_settings_language_load_mode_title">Map Language</string>
+    <string name="map_settings_auto_zoom_cat_title">Automaattinen zoomaus &amp; kallistus</string>
+    <string name="map_settings_auto_zoom_title">Käytä automaattista zoomausta</string>
+    <string name="map_settings_auto_tilt_title">Käytä automaattista kallistusta</string>
+    <string name="map_settings_auto_nav_only">Automaattinen tila vain navigoinnin käynnissä ollessa</string>
+    <string name="map_settings_ui_cat_title">Käyttöliittymän valinnat</string>
+    <string name="map_settings_ui_enable_track_progress">Näytä jäljen edistyminen</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Näyttää näytön reunassa laatikon joka kertoo edistymisen jäljellä sekä matkan seuraaville POI- ja reittipisteille.</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Estä kartan koskettaminen kun lukittuna</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Erityisen hyödyllinen kun käytät ohjainta, estää koko kartan koskettamisen</string>
+    <string name="map_settings_language_cat_title">Kartan kieli</string>
+    <string name="map_settings_language_load_mode_title">Kartan kieli</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
-        <item>Localised Map Language</item>
-        <item>English or available latin alphabet</item>
-        <item>French > English or available latin alphabet</item>
-        <item>German > English or available latin alphabet</item>
+        <item>Paikallinen kartan kieli</item>
+        <item>Englanti tai saatavilla oleva latinalaisin aakkosin</item>
+        <item>Ranska > Englanti tai saatavilla oleva latinalaisin aakkosin</item>
+        <item>Saksa > Englanti tai saatavilla oleva latinalaisin aakkosin</item>
     </string-array>
-    <string name="map_settings_navigation_cat_title">Navigation</string>
-    <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
-    <string name="map_settings_navigation_start_ask_message">If enabled DMD2 will ask if you want to use DMD2 or another app. If disabled it defaults to DMD2.</string>
+    <string name="map_settings_navigation_cat_title">Navigointi</string>
+    <string name="map_settings_navigation_start_ask_title">Navigoi kohteeseen: Kysy käytetäänkö DMD2:tä vai muuta sovellusta</string>
+    <string name="map_settings_navigation_start_ask_message">Jos valittuna DMD2 kysyy haluatko käyttää DMD2 vai muuta sovellusta. Jos ei valittuna, käytetään DMD2:ta.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Käytä ääniopastusta</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Käyttää Tekstistä puheeksi -toimintoa tarjoamaan ääniopastusta navigointiin.</string>
-    <string name="map_settings_controller_cat_title">Controller Settings</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
-    <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
+    <string name="map_settings_controller_cat_title">Ohjaimen asetukset</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Estä panorointi-tilan kohde</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Estää uuden panorointitilan kohdepisteen toiminnot</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">POI Search</string>
-    <string name="map_poi_search_call">Call</string>
-    <string name="map_poi_type_name">Type Name</string>
-    <string name="map_poi_error_no_offline_map_loaded">Error: no map loaded yet! Download offline maps first.</string>
-    <string name="map_poi_error_no_poi_found">Error: no POIs found!</string>
-    <string name="map_poi_search_more">Search Online</string>
-    <string name="map_poi_no_phone_available_error">No phone number available</string>
-    <string name="map_poi_no_phone_app_available_error">No phone app available</string>
-    <string name="map_poi_no_address">No address available</string>
-    <string name="map_poi_no_phone">No phone available</string>
-    <string name="map_poi_no_website">No website available</string>
-    <string name="map_poi_no_opening_hours">No opening hours available</string>
-    <string name="map_poi_search_dialog_title">Search POI By Name</string>
-    <string name="map_poi_search_button">Search</string>
-    <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
-    <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
-    <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
+    <string name="map_poi_search_manager">POI-haku</string>
+    <string name="map_poi_search_call">Soita</string>
+    <string name="map_poi_type_name">Syötä nimi</string>
+    <string name="map_poi_error_no_offline_map_loaded">Virhe: Karttaa ei ole vielä ladattu! Lataa offline-kartta.</string>
+    <string name="map_poi_error_no_poi_found">Virhe: POI:ta ei löydy!</string>
+    <string name="map_poi_search_more">Etsi (online)</string>
+    <string name="map_poi_no_phone_available_error">Puhelinnumero ei saatavilla</string>
+    <string name="map_poi_no_phone_app_available_error">Puhelin-sovellus ei saatavilla</string>
+    <string name="map_poi_no_address">Osoite ei saatavilla</string>
+    <string name="map_poi_no_phone">Puhelin ei saatavilla</string>
+    <string name="map_poi_no_website">Verkkosivu ei saatavilla</string>
+    <string name="map_poi_no_opening_hours">Aukioloaika ei saatavilla</string>
+    <string name="map_poi_search_dialog_title">Etsi POI:n nimen perusteella</string>
+    <string name="map_poi_search_button">Etsi</string>
+    <string name="map_poi_not_a_valid_keyword">Hakusana on virheellinen!</string>
+    <string name="map_poi_no_valid_location_yet">Ei GPS-sijaintia! Yritä myöhemmin uudelleen.</string>
+    <string name="map_poi_distance_long_press_no_fix">Etäisyys ei tiedossa, GPX-sijainti ei käytettävissä.</string>
     <!-- Track Tap -->
-    <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
-    <string name="map_map_track_tap_track_details">Track Details</string>
-    <string name="map_map_track_tap_track_point_distances">Point position distances:</string>
-    <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
-    <string name="map_map_track_tap_on_track">You are on this track!</string>
-    <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
-    <string name="map_map_track_tap_not_on_gpx">You are not riding on this track or any other active track on the same GPX file.</string>
-    <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
-    <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
-    <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
-    <string name="map_map_track_tap_point_distance_to_gpx_end">GPX End:</string>
-    <string name="map_map_track_tap_point_distance_to_you">Distance:</string>
-    <string name="map_map_track_tap_point_time_to_you">Travel-Time:</string>
-    <string name="map_map_track_tap_point_behind">behind</string>
-    <string name="map_map_track_tap_point_ahead">ahead</string>
-    <string name="map_map_track_tap_distance_to_another_point">Get distance to another point</string>
-    <string name="map_map_track_tap_points_distance_title">Points Distance</string>
-    <string name="map_map_track_tap_points_distance_tap_on">Tap another point to get the distance between points</string>
-    <string name="map_map_track_tap_points_distance_not_same_gpx">Please select a point that is part of the same GPX file!</string>
-    <string name="map_map_track_tap_points_distance_both_same_track">Both selected points are on the same GPX Track</string>
-    <string name="map_map_track_tap_points_distance_different_track">Points are not on the same GPX Track but tracks are connected</string>
-    <string name="map_map_track_tap_points_distance_different_track_error">Cannot measure on different tracks with multiple connections!</string>
+    <string name="map_map_track_tap_dialog_title">Jälkipisteen kosketus</string>
+    <string name="map_map_track_tap_track_details">Jäljen tiedot</string>
+    <string name="map_map_track_tap_track_point_distances">Pisteen sijainnin etäisyydet:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Matka &amp; aika sijaintiisi:</string>
+    <string name="map_map_track_tap_on_track">Olet tällä jäljellä!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">Olet eri jäljellä.</string>
+    <string name="map_map_track_tap_not_on_gpx">Et ole ajamassa tällä tai muulla aktiivisella jäljellä samasta GPX-tiedostosta.</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Jäljen alusta:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Jäljen loppuun:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">GPX:n alusta:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">GPX:n loppuun:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Matka:</string>
+    <string name="map_map_track_tap_point_time_to_you">Matka-aika:</string>
+    <string name="map_map_track_tap_point_behind">taakse</string>
+    <string name="map_map_track_tap_point_ahead">eteen</string>
+    <string name="map_map_track_tap_distance_to_another_point">Laske etäisyys muuhun pisteeseen</string>
+    <string name="map_map_track_tap_points_distance_title">Pisteen etäisyys</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Kosketa muuta pistetta laskeaksesi etäisyyden pisteiden välillä</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Valitse piste joka on samassa GPX-tiedostossa!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Molemmat valitus pisteet ovat samalla GPX-jäljellä</string>
+    <string name="map_map_track_tap_points_distance_different_track">Pisteet eivät ole samalla GPX-jäljellä mutta pisteet on yhdistetty</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Laskenta ei onnistu eri jäljille jotka on yhdistetty useasta kohdasta!</string>
     <!-- Left Panel Progress -->
     <string name="map_ui_left_progress_panel_finish_label">Finish:</string>
     <!-- Route Planner -->
-    <string name="map_route_planner_dialog_root_title">Route Planner</string>
-    <string name="map_route_planner_road_fast">Road Fast</string>
-    <string name="map_route_planner_road_fun">Road Fun</string>
+    <string name="map_route_planner_dialog_root_title">Reittisuunnittelu</string>
+    <string name="map_route_planner_road_fast">Tie - nopea</string>
+    <string name="map_route_planner_road_fun">Tie - hauska</string>
     <string name="map_route_planner_offroad">Off-Road</string>
-    <string name="map_route_planner_avoid_tolls">Avoid Tolls</string>
-    <string name="map_route_planner_avoid_motorways">Avoid Motorways</string>
-    <string name="map_route_planner_offroad_easy">Easy</string>
-    <string name="map_route_planner_offroad_medium">Medium</string>
-    <string name="map_route_planner_offroad_hard">Hard</string>
-    <string name="map_route_planner_profile_label">Select Profile</string>
-    <string name="map_route_planner_profile_option">Select Profile Options</string>
-    <string name="map_route_calculating_message">Calculating route…</string>
-    <string name="map_route_loading_message">Loading Route…</string>
-    <string name="map_route_analyzing_message">Analyzing Route…</string>
-    <string name="map_route_calculating_message_retry">Error!</string>
-    <string name="map_route_calculating_message_options">Options</string>
-    <string name="map_route_planner_no_gps_fix">No GPS fix yet, try again later!</string>
-    <string name="map_route_planner_cancel_active_dialog_title">Cancel Active Route?</string>
-    <string name="map_route_planner_cancel_active_dialog_message">There is an active navigation. Do you want to cancel and start a new one?</string>
-    <string name="map_route_planner_instruction_now">Now</string>
-    <string name="map_route_planner_instruction_arrived">You have reached your destination!</string>
-    <string name="map_route_planner_instruction_keep_same_road">Continue for</string>
-    <string name="map_route_planner_instruction_turn_left">Turn Left in</string>
-    <string name="map_route_planner_instruction_turn_right">Turn Right in</string>
-    <string name="map_route_planner_instruction_turn_left_sharp">Sharp Left in</string>
-    <string name="map_route_planner_instruction_turn_right_sharp">Sharp Right in</string>
-    <string name="map_route_planner_instruction_turn_slight_left">Slight Left in</string>
-    <string name="map_route_planner_instruction_turn_slight_right">Slight Right in</string>
-    <string name="map_route_planner_instruction_keep_left">Keep Left in</string>
-    <string name="map_route_planner_instruction_keep_right">Keep Right in</string>
-    <string name="map_route_planner_instruction_uturn">U-Turn in</string>
-    <string name="map_route_planner_instruction_straight">Keep Straight in</string>
-    <string name="map_route_planner_instruction_take_exit_1">First Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_2">Second Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_3">Third Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_4">Fourth Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_5">Fifth Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_6">Sixth Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_7">Seventh Exit in</string>
-    <string name="map_route_planner_instruction_take_exit_8">Eight Exit in</string>
-    <string name="map_route_planner_instruction_destination">Destination in</string>
-    <string name="map_route_planner_nav_options">Options</string>
-    <string name="map_route_planner_nav_options_title">Active Navigation Options</string>
-    <string name="map_route_planner_nav_options_message">Available options for the active navigation:</string>
-    <string name="map_route_planner_nav_options_share_as_gpx">Share As GPX</string>
-    <string name="map_route_planner_error_missing_calc_file_title">Missing Calculation Files</string>
-    <string name="map_route_planner_error_missing_calc_file_message">There are missing calculation files. Please re-download your map files to make sure calculation files are downloaded!</string>
-    <string name="map_route_planner_error_other_title">Calculation Error</string>
-    <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
-    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
-    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
-    <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
-    <string name="map_route_planner_empty">No active track or route!</string>
+    <string name="map_route_planner_avoid_tolls">Vältä tietulleja</string>
+    <string name="map_route_planner_avoid_motorways">Vältä moottoriteitä</string>
+    <string name="map_route_planner_offroad_easy">Helppo</string>
+    <string name="map_route_planner_offroad_medium">Keskitaso</string>
+    <string name="map_route_planner_offroad_hard">Vaikea</string>
+    <string name="map_route_planner_profile_label">Valitse profiili</string>
+    <string name="map_route_planner_profile_option">Valitse profiilin valinnat</string>
+    <string name="map_route_calculating_message">Lasketaan reittiä…</string>
+    <string name="map_route_loading_message">Ladataan reittiä…</string>
+    <string name="map_route_analyzing_message">Anaysoidaa reittiä…</string>
+    <string name="map_route_calculating_message_retry">Virhe!</string>
+    <string name="map_route_calculating_message_options">Valinnat</string>
+    <string name="map_route_planner_no_gps_fix">Ei GPS-sijaintia! Yritä myöhemmin uudelleen.</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Peru aktiivinen reitti?</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Naviointi on käynnissä. Haluatko perua sen ja aloittaa uuden?</string>
+    <string name="map_route_planner_instruction_now">Nyt</string>
+    <string name="map_route_planner_instruction_arrived">Olet saapunut määränpäähäsi!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Jatka eteenpäin</string>
+    <string name="map_route_planner_instruction_turn_left">Käänny vasemmalle </string>
+    <string name="map_route_planner_instruction_turn_right">Käänny oikealle </string>
+    <string name="map_route_planner_instruction_turn_left_sharp">Tiukka vasen</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Tiukka oikea</string>
+    <string name="map_route_planner_instruction_turn_slight_left">Loiva vasen</string>
+    <string name="map_route_planner_instruction_turn_slight_right">Loiva oikea</string>
+    <string name="map_route_planner_instruction_keep_left">Pysy vasemmalla</string>
+    <string name="map_route_planner_instruction_keep_right">Pysy oikealla</string>
+    <string name="map_route_planner_instruction_uturn">U-käännös</string>
+    <string name="map_route_planner_instruction_straight">Jatka suoraan</string>
+    <string name="map_route_planner_instruction_take_exit_1">Ensimmäinen liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_2">Toinen liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_3">Kolmas liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_4">Neljäs liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_5">Viides liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_6">Kuudes liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_7">Seitsemäs liittymä</string>
+    <string name="map_route_planner_instruction_take_exit_8">Kahdeksas liittymä</string>
+    <string name="map_route_planner_instruction_destination">Määränpää</string>
+    <string name="map_route_planner_nav_options">Valinnat</string>
+    <string name="map_route_planner_nav_options_title">Navigoinnin valinnat</string>
+    <string name="map_route_planner_nav_options_message">Toiminnot käynnissä olevalle navigoinnille:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Jaa GPX-tiedostona</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Laskentatiedostot puuttuvat!</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Laskentatiedostot puuttuvat. Lataa kartta uudelleen jotta laskentatiedostot saadaan käyttöön!</string>
+    <string name="map_route_planner_error_other_title">Virhe laskennassa</string>
+    <string name="map_route_planner_error_other_message">Reitin laskennassa tapahtui virhe! Yritä uudelleen. Jos olet maastossa, kokeile offroad-profiilia!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Reittisuunnittelun tiedostot puuttuvat</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">DMD2:n reittisuunnittelua varten tulee ladata lisätiedostoja. Haluatko ladata nyt?</string>
+    <string name="map_route_planner_dialog_download_progress">Ladataan laskentatiedostoja</string>
+    <string name="map_route_planner_empty">Ei aktiivista jälkeä tai reittiä!</string>
     <!-- Place Search -->
-    <string name="map_place_search_button_label">Kirjoita osoite</string>
-    <string name="map_place_search_instructions">Kirjoita ainakin kolme kirjainta nähdäksesi hakutuloksia</string>
-    <string name="map_place_search_dialog_title">Online Osoitehaku</string>
+    <string name="map_place_search_button_label">Syötä osoite</string>
+    <string name="map_place_search_instructions">Syötä ainakin kolme kirjainta nähdäksesi hakutuloksia</string>
+    <string name="map_place_search_dialog_title">Osoitehaku (online)</string>
     <string name="map_place_search_dialog_type_label">Syötä paikannimi tai osoite:</string>
     <string name="map_place_search_distance">Etäisyys linnuntietä:</string>
 
