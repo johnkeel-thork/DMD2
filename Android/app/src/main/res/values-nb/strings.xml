@@ -4,6 +4,9 @@
 
     <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
 
+    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
+    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+
     <!-- End Of New Untranslated -->
 
 
