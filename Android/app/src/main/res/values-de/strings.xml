@@ -2,10 +2,10 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Dateien werden neu geladen. Bitte warten.</string>
 
-    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
-    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_right_long">Knopf rechts lange halten</string>
+    <string name="roadbook_controller_button_left_long">Knopf links lange halten (nur wenn gesperrt)</string>
 
     <!-- End Of New Untranslated -->
 
@@ -52,7 +52,7 @@
     <string name="reset">Zurücksetzen</string>
     <string name="refresh">Aktualisieren</string>
     <string name="enable">Einschalten</string>
-    <string name="download">Runterladen</string>
+    <string name="download">Herunterladen</string>
     <string name="load">Laden</string>
     <string name="unload">Ent-Laden</string>
     <string name="update">Aktualisieren</string>
@@ -62,10 +62,10 @@
     <string name="hide">Verstecken</string>
     <string name="later">Später</string>
     <string name="finish">Fertigstellen</string>
-    <string name="abort_download">Download abbrechen</string>
+    <string name="abort_download">Herunterladen abbrechen</string>
     <string name="start">Start</string>
     <!-- Messages / Errors & Warnings -->
-    <string name="error_creating_directory">Fehler beim Erstellen des Nutzer Ordner!</string>
+    <string name="error_creating_directory">Fehler beim Erstellen des Nutzer Ordners!</string>
     <string name="error_deleting_file">Fehler beim Datei löschen!</string>
     <string name="error_file_already_exists_title">Datei überschreiben Warnunug</string>
     <string name="error_file_already_exists_message">Eine Datei mit demselben Namen existiert bereits! Was möchtetst Du tun?</string>
@@ -75,12 +75,12 @@
     <!-- App Update -->
     <string name="app_update_title">DMD2 Update verfügbar</string>
     <string name="app_update_message">Es ist ein Update für DMD2 verfügbar, jetzt aktualisieren? \n Neues:</string>
-    <string name="app_update_download_notification">DMD2 Update runterladen</string>
+    <string name="app_update_download_notification">DMD2 Update herunterladen</string>
     <string name="app_update_download_progress">Fortschritt:</string>
     <!-- Controller App Update -->
     <string name="controller_app_update_dialogue_title">CARPE Controller App Update</string>
     <string name="controller_app_update_dialogue_message">Es ist ein Update für das CARPE Controller App verfügbar, jetzt aktualisieren? \n Neues:</string>
-    <string name="controller_app_update_download_notification">CARPE Update runterladen</string>
+    <string name="controller_app_update_download_notification">CARPE Update Herunterladen</string>
     <string name="controller_app_update_download_progress">Fortschritt:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Tripltek T93 Probezeit</string>
@@ -374,7 +374,7 @@
     <string name="obd_sensors_timing_short_label">ZÜNDUNG</string>
     <string name="obd_sensors_timing_long_label">Vorzündung</string>
     <string name="obd_sensors_intake_temp_short_label">IAT</string>
-    <string name="obd_sensors_intake_temp_long_label">Ansaug Temperatur</string>
+    <string name="obd_sensors_intake_temp_long_label">Ansauglufttemperatur</string>
     <string name="obd_sensors_intake_maf_short_label">MAF</string>
     <string name="obd_sensors_intake_maf_long_label">Luftmassenmesser</string>
     <string name="obd_sensors_intake_map_short_label">MAP</string>
@@ -571,7 +571,7 @@
 
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">Noch keine Karten heruntergeladen</string>
-    <string name="map_first_run_download_maps_message">Es scheinen noch keine Kartendateien heruntergeladen zu sein. Jetzt runterladen?</string>
+    <string name="map_first_run_download_maps_message">Es scheinen noch keine Kartendateien heruntergeladen zu sein. Jetzt herunterladen?</string>
     <string name="map_first_run_download_maps_starting_layers">Ebenenmanager starten!</string>
     <string name="map_navigation_selection_dialog_title">Navigationsmodus auswählen</string>
     <string name="map_navigation_selection_dialog_message">DMD2 zur Berechnung der Route nehmen oder eine externe App nutzen?</string>
@@ -593,13 +593,13 @@
     <string name="map_layers_enable_symbols_layer_label">Aktiviere Symbols</string>
     <string name="map_layers_scale_symbols_layer_label">Symbole Maßstab</string>
     <string name="map_layers_hillshading_enable_shadows_label">Aktiviere Schatten</string>
-    <string name="map_layers_map_base_download_more">Karten runterladen</string>
+    <string name="map_layers_map_base_download_more">Karten herunterladen</string>
     <string name="map_layers_map_base_title">Zu ladende Karten auswählen</string>
     <string name="map_layers_map_base_file_missing">Fehler: Die Kartendateien fehlen, bitte laden Sie sie erneut herunter!</string>
-    <string name="map_layers_map_base_no_map_yet">Noch keine Karten heruntergeladen. Klicken auf Karten runterladen zum Herunterladen!</string>
+    <string name="map_layers_map_base_no_map_yet">Noch keine Karten heruntergeladen. Klicke auf Karten herunterladen!</string>
     <string name="map_layers_downloader_region_title">Region auswählen</string>
     <string name="map_layers_downloader_country_title">Land auswählen</string>
-    <string name="map_layers_downloader_country_downloaded_label">Runtergeladen:</string>
+    <string name="map_layers_downloader_country_downloaded_label">Heruntergeladen:</string>
     <string name="map_layers_downloader_country_date_label">Letztes Update:</string>
     <string name="map_layers_downloader_country_size_label">Größe:</string>
     <string name="map_layers_downloader_country_region_label">Region:</string>
@@ -860,7 +860,7 @@
     <string name="map_route_planner_error_other_message">Es gab einen Fehler bei der Berechnung der Route! Bitte versuchen Sie es erneut, wenn Sie abseits der Straße unterwegs sind, versuchen Sie das Mixed-Profil!</string>
     <string name="map_route_planner_dialog_download_calc_file_title">Fehlende Routenplanner-Dateien</string>
     <string name="map_route_planner_dialog_download_calc_file_message">Für die DMD2-Routenplanungsfunktionen müssen zusätzliche Dateien heruntergeladen werden. Jetzt runterladen?</string>
-    <string name="map_route_planner_dialog_download_progress">Dateien runterladen</string>
+    <string name="map_route_planner_dialog_download_progress">Dateien herunterladen</string>
     <string name="map_route_planner_empty">Kein aktiver Track oder Route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressen Suche</string>
