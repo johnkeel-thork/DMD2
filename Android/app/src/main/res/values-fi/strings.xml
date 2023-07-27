@@ -7,6 +7,19 @@
     <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
     <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
 
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+
     <!-- End Of New Untranslated -->
 
 
@@ -83,8 +96,8 @@
     <string name="controller_app_update_download_notification">Ladataan CARPE Controller sovelluksen päivitys</string>
     <string name="controller_app_update_download_progress">Latauksen edistyminen:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">Tripltek T93 koekäyttö</string>
-    <string name="t93_trial_message">Koska käytät Tripltek T93:a, saat ilmaisen 30 päivän kokeilujakson. Jos sinulla on DMD2 Edition lisenssiavain, syötä se käyttääksesi lisenssiä.</string>
+    <string name="t93_trial_title">DMD2 koekäyttö</string>
+    <string name="t93_trial_message">Saat ilmaisen 30 päivän kokeilujakson. Jos sinulla on DMD2 Edition lisenssiavain, syötä se käyttääksesi lisenssiä.</string>
     <string name="t93_trial_button">Jatka koekäyttöä</string>
     <string name="t93_dmd2_edition_button">Syötä lisenssiavain</string>
     <string name="t93_finish_trial_button">Päätä koekäyttö</string>
@@ -173,7 +186,7 @@
     <string name="settings_dmd2_edition_redeem_title">Koekäyttö / DMD2 Edition</string>
     <string name="settings_dmd2_edition_redeem_message">Hallinnoi koekäyttöä tai syötä DMD2 Edition lisenssiavain</string>
     <!-- Welcome Screen -->
-    <string name="welcome_dmd2_title">Tervetuloa DMD2-sovellukseen</string>
+    <string name="welcome_dmd2_title">Tervetuloa DMD2-sovellukseen Trial</string>
     <string name="welcome_dmd2_message">DMD2 muuntaa laitteesi täydelliseksi moottoripyörien ja autojen kojelaudaksi, keskittyen erityisesti seikkailuun ja off-road -ajoon. Se sisältää kartan navigointiin, tiekirjan (roadbook), OBD2-tiedot ja paljon muuta.</string>
     <string name="welcome_dmd2_lets_go">Aloita</string>
     <!-- GPS Settings -->
