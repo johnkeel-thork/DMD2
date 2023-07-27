@@ -2,10 +2,18 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_reloading_files_please_wait">Dateien werden neu geladen. Bitte warten.</string>
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
 
-    <string name="roadbook_controller_button_right_long">Knopf rechts lange halten</string>
-    <string name="roadbook_controller_button_left_long">Knopf links lange halten (nur wenn gesperrt)</string>
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
 
     <!-- End Of New Untranslated -->
 
@@ -83,8 +91,8 @@
     <string name="controller_app_update_download_notification">CARPE Update Herunterladen</string>
     <string name="controller_app_update_download_progress">Fortschritt:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">Tripltek T93 Probezeit</string>
-    <string name="t93_trial_message">Da Du ein Tripltek T93 nutzt gibt es 30 Tage gratis Probezeit. Solltest Du einen DMD2 Edition Key besitzen, diesen bitte eingeben.</string>
+    <string name="t93_trial_title">DMD2 Trial Mode</string>
+    <string name="t93_trial_message">30 Tage gratis Probezeit. Solltest Du einen DMD2 Edition Key besitzen, diesen bitte eingeben.</string>
     <string name="t93_trial_button">Probezeit fortsetzen</string>
     <string name="t93_dmd2_edition_button">Key eingeben</string>
     <string name="t93_finish_trial_button">Ende der Probezeit</string>
@@ -465,6 +473,8 @@
     <string name="roadbook_controller_button_right">Rechts</string>
     <string name="roadbook_controller_button_enter">Enter (keine Wiederholung)</string>
     <string name="roadbook_controller_button_enter_long">Enter lange drücken (nur wenn gesperrt / keine Wiederholung)</string>
+    <string name="roadbook_controller_button_right_long">Knopf rechts lange halten</string>
+    <string name="roadbook_controller_button_left_long">Knopf links lange halten (nur wenn gesperrt)</string>
     <string name="roadbook_controller_button_zoomin">Knopf A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Knopf B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Bildlaufbetrag pro Klick</string>
@@ -657,6 +667,7 @@
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Datei laden</string>
     <string name="gpx_manager_no_file_loaded">Keine Datei geladen. Drücke "Datei laden".</string>
+    <string name="gpx_manager_reloading_files_please_wait">Dateien werden neu geladen. Bitte warten.</string>
     <string name="gpx_manager_tracks">Tracks</string>
     <string name="gpx_manager_waypoints">Wegpunkte</string>
     <string name="gpx_manager_center_map_button">Karte zentrieren Map</string>
