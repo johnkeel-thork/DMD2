@@ -7,6 +7,20 @@
     <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
     <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
 
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+
+
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+
     <!-- End Of New Untranslated -->
 
 
@@ -84,8 +98,8 @@
     <string name="controller_app_update_download_notification">Laster ned oppdatering</string>
     <string name="controller_app_update_download_progress">Fremdrift:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">Tripltek T93 Trial</string>
-    <string name="t93_trial_message">Siden du bruker en Tripltek T93 har du 30 dagers gratis utprøving. Hvis du har en DMD2 lisens, vennligst legg inn denne.</string>
+    <string name="t93_trial_title">DMD2 Trial</string>
+    <string name="t93_trial_message">Har du 30 dagers gratis utprøving. Hvis du har en DMD2 lisens, vennligst legg inn denne.</string>
     <string name="t93_trial_button">Fortsett utprøving</string>
     <string name="t93_dmd2_edition_button">Legg inn lisens</string>
     <string name="t93_finish_trial_button">Avslutt utprøving</string>
@@ -174,7 +188,7 @@
     <string name="settings_dmd2_edition_redeem_title">Prøveversjon / DMD2 Versjon</string>
     <string name="settings_dmd2_edition_redeem_message">Håndter prøveversjon og legg inn lisensnøkkel</string>
     <!-- Welcome Screen -->
-    <string name="welcome_dmd2_title">Velkommen til DMD2</string>
+    <string name="welcome_dmd2_title">Velkommen til DMD2 Trial</string>
     <string name="welcome_dmd2_message">DMD2 vil gjøre din androidenhet til et komplett dashboard for motorsykler, ATVer og biler med fokus på adventure og off-road. DMD2 inneholder kart for navigasjon, Roadbook, OBD2integrasjon og mye mer.</string>
     <string name="welcome_dmd2_lets_go">Start</string>
     <!-- GPS Settings -->
