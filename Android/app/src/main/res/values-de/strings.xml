@@ -2,18 +2,18 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_layers_location_title">Location Icon</string>
-    <string name="map_layers_location_description">Adjust the current location icon</string>
-    <string name="map_layers_icon_scale">Icon Scale</string>
-    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+    <string name="map_layers_location_title">Standort Icon</string>
+    <string name="map_layers_location_description">Anpassen des Symbols für den aktuellen Standort</string>
+    <string name="map_layers_icon_scale">Icon Skalierung</string>
+    <string name="map_layers_icon_show_accuracy_range">Zeige Genauigkeits-Bereich</string>
 
-    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
-    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Zeige Wegpunkte auf der Karte</string>
+    <string name="map_settings_navigation_show_waypoints_message">Zeigt Wegpunkt-Pins mit den Anweisungen auf der Karte an.</string>
 
-    <string name="yards">yards</string>
-    <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometers</string>
-    <string name="miles">miles</string>
+    <string name="yards">Yards</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="kilometers">Kilometer</string>
+    <string name="miles">Meilen</string>
 
     <!-- End Of New Untranslated -->
 
@@ -25,8 +25,8 @@
     <string name="status_bar_offline_status">Offline</string>
 
     <!-- Bottom Menu -->
-    <string name="menu_global_settings">Globale Einstellungen</string>
-    <string name="menu_exit">Verlassen</string>
+    <string name="menu_global_settings">Einstellungen</string>
+    <string name="menu_exit">Schließen</string>
     <string name="menu_home">Home</string>
     <string name="menu_apps">Apps</string>
     <string name="menu_roadbook">Roadbook</string>
@@ -69,7 +69,7 @@
     <string name="settings">Einstellungen</string>
     <string name="hide">Verstecken</string>
     <string name="later">Später</string>
-    <string name="finish">Fertigstellen</string>
+    <string name="finish">Beenden</string>
     <string name="abort_download">Herunterladen abbrechen</string>
     <string name="start">Start</string>
     <!-- Messages / Errors & Warnings -->
