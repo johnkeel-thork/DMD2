@@ -2,18 +2,11 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_layers_location_title">Standort Icon</string>
-    <string name="map_layers_location_description">Anpassen des Symbols für den aktuellen Standort</string>
-    <string name="map_layers_icon_scale">Icon Skalierung</string>
-    <string name="map_layers_icon_show_accuracy_range">Zeige Genauigkeits-Bereich</string>
-
-    <string name="map_settings_navigation_show_waypoints_title">Zeige Wegpunkte auf der Karte</string>
-    <string name="map_settings_navigation_show_waypoints_message">Zeigt Wegpunkt-Pins mit den Anweisungen auf der Karte an.</string>
-
-    <string name="yards">Yards</string>
-    <string name="kilometer">Kilometer</string>
-    <string name="kilometers">Kilometer</string>
-    <string name="miles">Meilen</string>
+    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_routing_width_line">Line Width</string>
+    <string name="map_layers_routing_transparency_line">Line Transparency</string>
+    <string name="map_layers_routing_pins_size">Indications Size</string>
 
     <!-- End Of New Untranslated -->
 
@@ -45,6 +38,10 @@
     <string name="kmh">Km/h</string>
     <string name="meters">Meter</string>
     <string name="feet">feet</string>
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometer</string>
+    <string name="miles">meilen</string>
     <!-- Buttons -->
     <string name="back">Zurück</string>
     <string name="abort">Abbrechen</string>
@@ -602,6 +599,10 @@
     <string name="map_layers_scale_labels_layer_label">Etiketten Maßstab</string>
     <string name="map_layers_enable_symbols_layer_label">Aktiviere Symbols</string>
     <string name="map_layers_scale_symbols_layer_label">Symbole Maßstab</string>
+    <string name="map_layers_location_title">Standort Icon</string>
+    <string name="map_layers_location_description">Anpassen des Symbols für den aktuellen Standort</string>
+    <string name="map_layers_icon_scale">Icon Skalierung</string>
+    <string name="map_layers_icon_show_accuracy_range">Zeige Genauigkeits-Bereich</string>
     <string name="map_layers_hillshading_enable_shadows_label">Aktiviere Schatten</string>
     <string name="map_layers_map_base_download_more">Karten herunterladen</string>
     <string name="map_layers_map_base_title">Zu ladende Karten auswählen</string>
@@ -773,6 +774,8 @@
     <string name="map_settings_navigation_start_ask_message">Wenn diese Option aktiviert ist, fragt DMD2, ob DMD2 oder eine andere Anwendung verwendet wedren soll. Ist sie deaktiviert, wird standardmäßig DMD2 verwendet.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Sprachanweisungen aktivieren</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Wird Text-To-Speech verwenden, um Sprachanweisungen für die Navigation zu erzeugen.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Zeige Wegpunkte auf der Karte</string>
+    <string name="map_settings_navigation_show_waypoints_message">Zeigt Wegpunkt-Pins mit den Anweisungen auf der Karte an.</string>
     <string name="map_settings_controller_cat_title">Controller Einstellungen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus</string>
