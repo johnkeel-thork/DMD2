@@ -99,12 +99,12 @@
     <string name="app_update_download_progress">Progression du téléchargement :</string>
     <!-- Controller App Update -->
     <string name="controller_app_update_dialogue_title">Mise à jour de l\'application de contrôle CARPE</string>
-    <string name="controller_app_update_dialogue_message">Il y a une mise à jour disponible pour l\'application de contrôle, voulez-vous l'appliquer maintenant ? \n Nouveauté(s):</string>
+    <string name="controller_app_update_dialogue_message">Il y a une mise à jour disponible pour l\'application de contrôle, voulez-vous l\'appliquer maintenant ? \n Nouveauté(s):</string>
     <string name="controller_app_update_download_notification">Téléchargement de la mise à jour CARPE</string>
     <string name="controller_app_update_download_progress">Progression de la mise à jour :</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Essai Tripltek T93</string>
-    <string name="t93_trial_message">Comme vous utilisez actuellement Tripltek T93, vous disposez d\'un essai de 30 jours gratuits. Si vous avez un clé de license pour une édition spéciale de DMD2, merci de l'insérer pour l'obtenir.</string>
+    <string name="t93_trial_message">Comme vous utilisez actuellement Tripltek T93, vous disposez d\'un essai de 30 jours gratuits. Si vous avez un clé de license pour une édition spéciale de DMD2, merci de l\'insérer pour l\'obtenir.</string>
     <string name="t93_trial_button">Poursuivre l\'essai</string>
     <string name="t93_dmd2_edition_button">Insérer la clé de license</string>
     <string name="t93_finish_trial_button">Mettre fin à l\'essai</string>
@@ -144,7 +144,7 @@
     </string-array>
     <string name="settings_notifications_category">Notifications</string>
     <string name="settings_notifications_enable_title">Activer les bannières des notifications (permission requise)</string>
-    <string name="settings_notifications_enable_summary">Afficher les notifications depuis une liste d\'applications prédéfinie par l'utilisateur</string>
+    <string name="settings_notifications_enable_summary">Afficher les notifications depuis une liste d\'applications prédéfinie par l\'utilisateur</string>
     <string name="settings_notifications_dismiss">Méthode d\'effacement des notifications</string>
     <string-array name="settings_notifications_dismiss_names" translatable="true">
         <item>Disparition après 5s</item>
@@ -155,7 +155,7 @@
         <item>Manuellement (par glissement ou via le contrôleur)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Gestion des notifications par le contrôleur</string>
-    <string name="settings_notifications_controller_lock_message">Lorsqu\'une notification est visible, le contrôleur CARPE se focalisera sur celle-ci. La touche "enter" déclenche l'action de la notification et la touche retour efface la notification.</string>
+    <string name="settings_notifications_controller_lock_message">Lorsqu\'une notification est visible, le contrôleur CARPE se focalisera sur celle-ci. La touche "enter" déclenche l\'action de la notification et la touche retour efface la notification.</string>
     <string name="settings_notifications_apps_selection_title">Filtrer les applications</string>
     <string name="settings_notifications_apps_selection_message">Choisissez les applications autorisées à afficher les bannières de notification</string>
     <string name="settings_notifications_group_title">Montrer seulement la dernière notification de chaque groupe</string>
@@ -205,13 +205,13 @@
     <string name="settings_disable_controller_app_check_title">Désactiver la vérification de présence de l\'application CARPE Controller</string>
     <string name="settings_disable_controller_app_check_message">Arrête la recherche de l\'application de contrôle et ne vous demandera plus de l\'installer ou la mettre à jour.</string>
     <string name="settings_controller_app_install_title">CARPE Controller détecté</string>
-    <string name="settings_controller_app_install_message">Il semblerait que vous utilisiez un contrôleur CARPE. Pour en profiter pleinement, l\'application CARPE controller est recommandée. Voulez-vous l'installer maintenant ?</string>
+    <string name="settings_controller_app_install_message">Il semblerait que vous utilisiez un contrôleur CARPE. Pour en profiter pleinement, l\'application CARPE controller est recommandée. Voulez-vous l\'installer maintenant ?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Stockage</string>
     <string name="map_storage_location_select_title">Définir la carte SD en tant que stockage</string>
     <string name="map_storage_location_select_message">Pour les fichiers de données cartographiques hors ligne et fichiers utilisateur.</string>
     <string name="map_storage_sd_card_missing_error_title">Aucune carte SD insérée !</string>
-    <string name="map_storage_sd_card_missing_error_message">La dernière carte SD utilisée n\'a pas été détectée. Merci de l'insérer.</string>
+    <string name="map_storage_sd_card_missing_error_message">La dernière carte SD utilisée n\'a pas été détectée. Merci de l\'insérer.</string>
     <string name="map_storage_sd_card_missing_switch_retry">Réessayer</string>
     <string name="map_storage_sd_card_missing_switch_internal">Utiliser la mémoire interne</string>
     <string name="map_storage_sd_card_mounting_title">En attente du montage de la carte SD</string>
@@ -222,8 +222,8 @@
     <string name="map_storage_sd_card_different_error_recheck">Revérifier !</string>
     <string name="map_storage_sd_card_different_error_recheck_fail">La carte SD n\'a toujours pas été trouvée ! Merci de vérifier à nouveau !</string>
     <string name="map_storage_sd_card_move_map_files_title">Déplacer les fichiers de données cartographiques ?</string>
-    <string name="map_storage_sd_card_move_map_files_external">Voulez-vous déplacer les fichiers de données cartographiques depuis la mémoire interne vers la carte SD ? Cette opération pourrait échouer si vous n\'avez pas assez d'espace libre !</string>
-    <string name="map_storage_sd_card_move_map_files_internal">Voulez-vous déplacer les fichiers de données cartographiques depuis la carte SD vers la mémoire interne ? Cette opération pourrait échouer si vous n\'avez pas assez d'espace libre !</string>
+    <string name="map_storage_sd_card_move_map_files_external">Voulez-vous déplacer les fichiers de données cartographiques depuis la mémoire interne vers la carte SD ? Cette opération pourrait échouer si vous n\'avez pas assez d\'espace libre !</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Voulez-vous déplacer les fichiers de données cartographiques depuis la carte SD vers la mémoire interne ? Cette opération pourrait échouer si vous n\'avez pas assez d\'espace libre !</string>
     <string name="map_storage_sd_card_move_map_files_wait">Déplacement des fichiers en cours, marci de patienter ! Merci de ne pas fermer l\'application ou passer à un autre écran !</string>
 
     <!-- Home-->
@@ -244,7 +244,7 @@
     <string name="home_widget_heading_description">Un indicateur visuel de votre cap actuel basé sur les données GPS, incluant la valeur numérique en degrés de votre cap.</string>
     <string name="home_widget_media_title">MEDIA</string>
     <string name="home_widget_media_title_long">Contrôle du Lecteur Média</string>
-    <string name="home_widget_media_description">Permet de contrôler votre session média active, incluant la miniature de votre média, ainsi que le titre du morceau et le nom de l\'artiste (requiert la permission d'accès aux notifications).</string>
+    <string name="home_widget_media_description">Permet de contrôler votre session média active, incluant la miniature de votre média, ainsi que le titre du morceau et le nom de l\'artiste (requiert la permission d\'accès aux notifications).</string>
     <string name="home_widget_map_title">NAV</string>
     <string name="home_widget_map_title_long">Vue carte</string>
     <string name="home_widget_map_description">Une miniature de votre carte avec tout le contenu chargé et états actifs, n\'inclut pas les contrôles de carte et ne peut être chargé que sur le panneau de gauche.</string>
@@ -311,7 +311,7 @@
     <string name="widget_info_adv_voltage_label">AdvCtrl Tension</string>
     <!-- Widget Media Control Permission Dialog -->
     <string name="media_notifications_enable_dialog_title_media">Permission de contrôle des media</string>
-    <string name="media_notifications_enable_dialog_message_media">Le widget de contrôle media requiert l\'accès aux notifications pour lire le contenu du lecteur media, tel que le titre, l\'artiste, l'album et la pochette. Voulez-vous accorder cette permission ?</string>
+    <string name="media_notifications_enable_dialog_message_media">Le widget de contrôle media requiert l\'accès aux notifications pour lire le contenu du lecteur media, tel que le titre, l\'artiste, l\'album et la pochette. Voulez-vous accorder cette permission ?</string>
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Réinitialisation trajet</string>
     <string name="trip_reset_confirmation_message">Etes-vous sûr de vouloir réinitialiser les données de trajet ?</string>
