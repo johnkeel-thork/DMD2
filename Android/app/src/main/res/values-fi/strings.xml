@@ -20,6 +20,12 @@
     <string name="kilometers">kilometers</string>
     <string name="miles">miles</string>
 
+    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_routing_width_line">Line Width</string>
+    <string name="map_layers_routing_transparency_line">Line Transparency</string>
+    <string name="map_layers_routing_pins_size">Indications Size</string>
+
     <!-- End Of New Untranslated -->
 
 
