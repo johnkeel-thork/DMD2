@@ -1,5 +1,34 @@
 <resources>
 
+    <!-- New Untranslated -->
+
+    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_routing_width_line">Line Width</string>
+    <string name="map_layers_routing_transparency_line">Line Transparency</string>
+    <string name="map_layers_routing_pins_size">Indications Size</string>
+
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+
+    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
+    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+
+    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+
+    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+
+    <!-- End Of New Untranslated -->
 
     <string name="app_name">DMD2</string>
 
@@ -62,23 +91,23 @@
     <string name="error_file_already_exists_message">Un fichier du même nom existe déjà, que vouslez-vous faire ?</string>
     <string name="error_file_new_name_title">Renommer le fichier</string>
     <string name="share_file_with">Partager le fichier avec</string>
-    <string name="connect_to_internet">Assurez-vous d'être connecté à internet !</string>
+    <string name="connect_to_internet">Assurez-vous d\'être connecté à internet !</string>
     <!-- App Update -->
     <string name="app_update_title">Mise à jour DMD2 disponible</string>
-    <string name="app_update_message">Il y a une mise à jour DMD2 disponible, voulez-vous l'appliquer maintenant ? \n Nouveauté(s):</string>
+    <string name="app_update_message">Il y a une mise à jour DMD2 disponible, voulez-vous l\'appliquer maintenant ? \n Nouveauté(s):</string>
     <string name="app_update_download_notification">Téléchargement de la mise à jour DMD2</string>
     <string name="app_update_download_progress">Progression du téléchargement :</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">Mise à jour de l'application de contrôle CARPE</string>
-    <string name="controller_app_update_dialogue_message">Il y a une mise à jour disponible pour l'application de contrôle, voulez-vous l'appliquer maintenant ? \n Nouveauté(s):</string>
+    <string name="controller_app_update_dialogue_title">Mise à jour de l\'application de contrôle CARPE</string>
+    <string name="controller_app_update_dialogue_message">Il y a une mise à jour disponible pour l\'application de contrôle, voulez-vous l'appliquer maintenant ? \n Nouveauté(s):</string>
     <string name="controller_app_update_download_notification">Téléchargement de la mise à jour CARPE</string>
     <string name="controller_app_update_download_progress">Progression de la mise à jour :</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Essai Tripltek T93</string>
-    <string name="t93_trial_message">Comme vous utilisez actuellement Tripltek T93, vous disposez d'un essai de 30 jours gratuits. Si vous avez un clé de license pour une édition spéciale de DMD2, merci de l'insérer pour l'obtenir.</string>
-    <string name="t93_trial_button">Poursuivre l'essai</string>
+    <string name="t93_trial_message">Comme vous utilisez actuellement Tripltek T93, vous disposez d\'un essai de 30 jours gratuits. Si vous avez un clé de license pour une édition spéciale de DMD2, merci de l'insérer pour l'obtenir.</string>
+    <string name="t93_trial_button">Poursuivre l\'essai</string>
     <string name="t93_dmd2_edition_button">Insérer la clé de license</string>
-    <string name="t93_finish_trial_button">Mettre fin à l'essai</string>
+    <string name="t93_finish_trial_button">Mettre fin à l\'essai</string>
     <string name="t93_dmd2_edition_insert_key_title">Insérer la clé DMD2-edition</string>
 
     <!-- Settings -->
@@ -86,7 +115,7 @@
     <string name="settings_hour_format">Utiliser le format 24h</string>
     <string name="settings_use_fahrenheit">Utiliser Fahrenheit au lieu de Celsius</string>
     <string name="settings_use_imperial_units">Utiliser les unités de mesure impériales</string>
-    <string name="settings_interface_options">Options d'interface</string>
+    <string name="settings_interface_options">Options d\'interface</string>
     <string name="settings_theme_category">Thème</string>
     <string name="settings_color_theme">Mode jour/nuit</string>
     <string-array name="settings_color_themes" translatable="true">
@@ -95,7 +124,7 @@
         <item>Automatique (selon paramètres système)</item>
         <item>Utiliser le capteur de luminosité ambiante</item>
     </string-array>
-    <string name="settings_accent_color_title">Couleur d'accentuation:</string>
+    <string name="settings_accent_color_title">Couleur d\'accentuation:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
         <item>Bleu</item>
         <item>Bleu foncé</item>
@@ -106,17 +135,17 @@
         <item>Rose</item>
     </string-array>
     <string name="settings_screen_category">Ecran</string>
-    <string name="settings_screen_lock_rotation">Verrouiller l'orientation écran</string>
-    <string name="settings_screen_lock_rotation_summary">Empêcher l'écran de pivoter accidentellement lors de la conduite</string>
-    <string name="settings_screen_orientation">Verrouiller l'orientation au format :</string>
+    <string name="settings_screen_lock_rotation">Verrouiller l\'orientation écran</string>
+    <string name="settings_screen_lock_rotation_summary">Empêcher l\'écran de pivoter accidentellement lors de la conduite</string>
+    <string name="settings_screen_orientation">Verrouiller l\'orientation au format :</string>
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
         <item>Paysage</item>
         <item>Paysage inversé</item>
     </string-array>
     <string name="settings_notifications_category">Notifications</string>
     <string name="settings_notifications_enable_title">Activer les bannières des notifications (permission requise)</string>
-    <string name="settings_notifications_enable_summary">Afficher les notifications depuis une liste d'applications prédéfinie par l'utilisateur</string>
-    <string name="settings_notifications_dismiss">Méthode d'effacement des notifications</string>
+    <string name="settings_notifications_enable_summary">Afficher les notifications depuis une liste d\'applications prédéfinie par l'utilisateur</string>
+    <string name="settings_notifications_dismiss">Méthode d\'effacement des notifications</string>
     <string-array name="settings_notifications_dismiss_names" translatable="true">
         <item>Disparition après 5s</item>
         <item>Disparition après 10s</item>
@@ -126,18 +155,18 @@
         <item>Manuellement (par glissement ou via le contrôleur)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Gestion des notifications par le contrôleur</string>
-    <string name="settings_notifications_controller_lock_message">Lorsqu'une notification est visible, le contrôleur CARPE se focalisera sur celle-ci. La touche "enter" déclenche l'action de la notification et la touche retour efface la notification.</string>
+    <string name="settings_notifications_controller_lock_message">Lorsqu\'une notification est visible, le contrôleur CARPE se focalisera sur celle-ci. La touche "enter" déclenche l'action de la notification et la touche retour efface la notification.</string>
     <string name="settings_notifications_apps_selection_title">Filtrer les applications</string>
     <string name="settings_notifications_apps_selection_message">Choisissez les applications autorisées à afficher les bannières de notification</string>
     <string name="settings_notifications_group_title">Montrer seulement la dernière notification de chaque groupe</string>
-    <string name="settings_notifications_group_message">Si activé, vous verrez seulement les dernières notifications pour chaque groupe de notifications. Par exemple, le dernier message d'une notification de conversation.</string>
+    <string name="settings_notifications_group_message">Si activé, vous verrez seulement les dernières notifications pour chaque groupe de notifications. Par exemple, le dernier message d\'une notification de conversation.</string>
     <string name="settings_notifications_app_selection_dialog_title">Montreer les notifications pour:</string>
     <string name="settings_notifications_app_selection_dialog_button1">Tout / Aucun</string>
     <string name="settings_notifications_app_selection_dialog_button2">Fermer</string>
     <!-- Trip Settings-->
     <string name="settings_trip_options">Options de trajet</string>
     <string name="settings_trip_auto_reset_title">Réinitialisation autoamtique des données de trajet</string>
-    <string name="settings_trip_auto_reset_summary">La trajet se réinitialisera automatiquement si DMD2 n'est pas utilisé pendant un temps donné</string>
+    <string name="settings_trip_auto_reset_summary">La trajet se réinitialisera automatiquement si DMD2 n\'est pas utilisé pendant un temps donné</string>
     <string name="settings_trip_auto_reset_time_title">Durée avant réinitialisation automatique du trajet</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 heures</item>
@@ -148,13 +177,13 @@
     </string-array>
     <!-- OEM Registration-->
     <string name="settings_oem_registration">Enregistrement OEM</string>
-    <string name="settings_oem_check">Procédure d'enregistrement (requiert une connexion internet)</string>
-    <string name="settings_oem_check_summary">Utiliser seulement si votre moto a été vendue équipée d'un appareil Android avec Drive Mode Dashboard 2 préinstallé.</string>
+    <string name="settings_oem_check">Procédure d\'enregistrement (requiert une connexion internet)</string>
+    <string name="settings_oem_check_summary">Utiliser seulement si votre moto a été vendue équipée d\'un appareil Android avec Drive Mode Dashboard 2 préinstallé.</string>
     <!-- Info & Links -->
     <string name="settings_info_and_links">Information et liens</string>
     <string name="settings_app_version">Version DMD2</string>
     <string name="settings_app_installed_version">Version installée :</string>
-    <string name="settings_dmd2_website">En apprendre plus sur l'application DMD2 sur le site officiel</string>
+    <string name="settings_dmd2_website">En apprendre plus sur l\'application DMD2 sur le site officiel</string>
     <string name="settings_developer_website_title">DMD2 a été développé par</string>
     <string name="settings_tripltek_website_title">Cette version de DMD2 est optimisée pour les appreils Tripltek</string>
     <string name="settings_follow_us_facebook">Visitez et suivez notre page Facebook pour les dernières nouveautés</string>
@@ -162,40 +191,40 @@
     <string name="settings_dmd2_forum">Rejoignez la discussion à propos des nouveautés, bugs et requêtes</string>
     <string name="settings_license_title">Clés de License Spéciale</string>
     <string name="settings_dmd2_edition_redeem_title">Essai / Edition DMD2</string>
-    <string name="settings_dmd2_edition_redeem_message">Gérer l'essai ou insérer une clé d'édition DMD2</string>
+    <string name="settings_dmd2_edition_redeem_message">Gérer l\'essai ou insérer une clé d\'édition DMD2</string>
     <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Bienvenue sur DMD2</string>
-    <string name="welcome_dmd2_message">DMD2 vous permet de transformer votre appareil en un tableau de bord moto ou voiture complet, avec un accent particulier sur l'aventure et le tout-terrain. Il inclut une Carte pour la navigation, un Roadbook, une interface avec les capteurs OBD et plus encore.</string>
+    <string name="welcome_dmd2_message">DMD2 vous permet de transformer votre appareil en un tableau de bord moto ou voiture complet, avec un accent particulier sur l\'aventure et le tout-terrain. Il inclut une Carte pour la navigation, un Roadbook, une interface avec les capteurs OBD et plus encore.</string>
     <string name="welcome_dmd2_lets_go">Démarrer</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">Paramètres GPS</string>
     <string name="settings_bypass_acc_filter_title">Filtre basse précision GPS</string>
-    <string name="settings_bypass_acc_filter_message">Pour les appareils disposant d'une qualité GPS sous-optimale</string>
+    <string name="settings_bypass_acc_filter_message">Pour les appareils disposant d\'une qualité GPS sous-optimale</string>
     <!-- Device Specific -->
     <string name="settings_non_play_store_devices_cat">Options pour les appreils hors Play Store</string>
-    <string name="settings_disable_controller_app_check_title">Désactiver la vérification de présence de l'application CARPE Controller</string>
-    <string name="settings_disable_controller_app_check_message">Arrête la recherche de l'application de contrôle et ne vous demandera plus de l'installer ou la mettre à jour.</string>
+    <string name="settings_disable_controller_app_check_title">Désactiver la vérification de présence de l\'application CARPE Controller</string>
+    <string name="settings_disable_controller_app_check_message">Arrête la recherche de l\'application de contrôle et ne vous demandera plus de l\'installer ou la mettre à jour.</string>
     <string name="settings_controller_app_install_title">CARPE Controller détecté</string>
-    <string name="settings_controller_app_install_message">Il semblerait que vous utilisiez un contrôleur CARPE. Pour en profiter pleinement, l'application CARPE controller est recommandée. Voulez-vous l'installer maintenant ?</string>
+    <string name="settings_controller_app_install_message">Il semblerait que vous utilisiez un contrôleur CARPE. Pour en profiter pleinement, l\'application CARPE controller est recommandée. Voulez-vous l'installer maintenant ?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Stockage</string>
     <string name="map_storage_location_select_title">Définir la carte SD en tant que stockage</string>
     <string name="map_storage_location_select_message">Pour les fichiers de données cartographiques hors ligne et fichiers utilisateur.</string>
     <string name="map_storage_sd_card_missing_error_title">Aucune carte SD insérée !</string>
-    <string name="map_storage_sd_card_missing_error_message">La dernière carte SD utilisée n'a pas été détectée. Merci de l'insérer.</string>
+    <string name="map_storage_sd_card_missing_error_message">La dernière carte SD utilisée n\'a pas été détectée. Merci de l'insérer.</string>
     <string name="map_storage_sd_card_missing_switch_retry">Réessayer</string>
     <string name="map_storage_sd_card_missing_switch_internal">Utiliser la mémoire interne</string>
     <string name="map_storage_sd_card_mounting_title">En attente du montage de la carte SD</string>
-    <string name="map_storage_sd_card_mounting_message">Merci d'attendre la fin du montage de la carte SD pour finir.</string>
+    <string name="map_storage_sd_card_mounting_message">Merci d\'attendre la fin du montage de la carte SD pour finir.</string>
     <string name="map_storage_sd_card_mounting_button">Annuler &amp; passer à la mémoire interne</string>
     <string name="map_storage_sd_card_different_error_title">Carte SD différente !</string>
-    <string name="map_storage_sd_card_different_error_message">Il semblerait que vous ayez remplacé votre carte SD par une autre, voulez-vous utiliser celle-ci ? Dans le cas contraire, merci d'insérer la bonne carte SD!</string>
+    <string name="map_storage_sd_card_different_error_message">Il semblerait que vous ayez remplacé votre carte SD par une autre, voulez-vous utiliser celle-ci ? Dans le cas contraire, merci d\'insérer la bonne carte SD!</string>
     <string name="map_storage_sd_card_different_error_recheck">Revérifier !</string>
-    <string name="map_storage_sd_card_different_error_recheck_fail">La carte SD n'a toujours pas été trouvée ! Merci de vérifier à nouveau !</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">La carte SD n\'a toujours pas été trouvée ! Merci de vérifier à nouveau !</string>
     <string name="map_storage_sd_card_move_map_files_title">Déplacer les fichiers de données cartographiques ?</string>
-    <string name="map_storage_sd_card_move_map_files_external">Voulez-vous déplacer les fichiers de données cartographiques depuis la mémoire interne vers la carte SD ? Cette opération pourrait échouer si vous n'avez pas assez d'espace libre !</string>
-    <string name="map_storage_sd_card_move_map_files_internal">Voulez-vous déplacer les fichiers de données cartographiques depuis la carte SD vers la mémoire interne ? Cette opération pourrait échouer si vous n'avez pas assez d'espace libre !</string>
-    <string name="map_storage_sd_card_move_map_files_wait">Déplacement des fichiers en cours, marci de patienter ! Merci de ne pas fermer l'application ou passer à un autre écran !</string>
+    <string name="map_storage_sd_card_move_map_files_external">Voulez-vous déplacer les fichiers de données cartographiques depuis la mémoire interne vers la carte SD ? Cette opération pourrait échouer si vous n\'avez pas assez d'espace libre !</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Voulez-vous déplacer les fichiers de données cartographiques depuis la carte SD vers la mémoire interne ? Cette opération pourrait échouer si vous n\'avez pas assez d'espace libre !</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Déplacement des fichiers en cours, marci de patienter ! Merci de ne pas fermer l\'application ou passer à un autre écran !</string>
 
     <!-- Home-->
     <!-- Widget Types-->
@@ -203,10 +232,10 @@
     <string name="home_widget_trip_title_long">Statistiques trajet</string>
     <string name="home_widget_trip_description">Visualiser les données de votre trajet en temps réel, comme la distance, le temps total, le temps de trajet, le temps de pause et la vitesse moyenne.</string>
     <string name="home_widget_apps_title">APPLICATIONS</string>
-    <string name="home_widget_apps_title_long">Raccourcis d'applications</string>
+    <string name="home_widget_apps_title_long">Raccourcis d\'applications</string>
     <string name="home_widget_apps_description">Placer des raccourcis vers vos applications favorites.</string>
-    <string name="home_widget_apps_selection_dialog_title">Sélectionner une application ou effacer l'emplacement</string>
-    <string name="home_widget_apps_clear_selection">Effacer l'emplacement</string>
+    <string name="home_widget_apps_selection_dialog_title">Sélectionner une application ou effacer l\'emplacement</string>
+    <string name="home_widget_apps_clear_selection">Effacer l\'emplacement</string>
     <string name="home_widget_obd_rpm_title">RPM OBD</string>
     <string name="home_widget_obd_rpm_title_long">Indicateur RPM OBD</string>
     <string name="home_widget_obd_rpm_description">Une barre RPM basé sur les capteurs OBD, avec un design épuré, incluant un indicateur linéaire de couleur rouge et la valeur numérique.</string>
@@ -215,10 +244,10 @@
     <string name="home_widget_heading_description">Un indicateur visuel de votre cap actuel basé sur les données GPS, incluant la valeur numérique en degrés de votre cap.</string>
     <string name="home_widget_media_title">MEDIA</string>
     <string name="home_widget_media_title_long">Contrôle du Lecteur Média</string>
-    <string name="home_widget_media_description">Permet de contrôler votre session média active, incluant la miniature de votre média, ainsi que le titre du morceau et le nom de l'artiste (requiert la permission d'accès aux notifications).</string>
+    <string name="home_widget_media_description">Permet de contrôler votre session média active, incluant la miniature de votre média, ainsi que le titre du morceau et le nom de l\'artiste (requiert la permission d'accès aux notifications).</string>
     <string name="home_widget_map_title">NAV</string>
     <string name="home_widget_map_title_long">Vue carte</string>
-    <string name="home_widget_map_description">Une miniature de votre carte avec tout le contenu chargé et états actifs, n'inclut pas les contrôles de carte et ne peut être chargé que sur le panneau de gauche.</string>
+    <string name="home_widget_map_description">Une miniature de votre carte avec tout le contenu chargé et états actifs, n\'inclut pas les contrôles de carte et ne peut être chargé que sur le panneau de gauche.</string>
     <string name="home_widget_speed_title">VITESSE</string>
     <string name="home_widget_speed_title_long">Vitesse GPS</string>
     <string name="home_widget_speed_description">Un affichage grande taille de la valeur numérique de votre vitesse actuelle, basée sur les données GPS.</string>
@@ -282,7 +311,7 @@
     <string name="widget_info_adv_voltage_label">AdvCtrl Tension</string>
     <!-- Widget Media Control Permission Dialog -->
     <string name="media_notifications_enable_dialog_title_media">Permission de contrôle des media</string>
-    <string name="media_notifications_enable_dialog_message_media">Le widget de contrôle media requiert l'accès aux notifications pour lire le contenu du lecteur media, tel que le titre, l'artiste, l'album et la pochette. Voulez-vous accorder cette permission ?</string>
+    <string name="media_notifications_enable_dialog_message_media">Le widget de contrôle media requiert l\'accès aux notifications pour lire le contenu du lecteur media, tel que le titre, l\'artiste, l'album et la pochette. Voulez-vous accorder cette permission ?</string>
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Réinitialisation trajet</string>
     <string name="trip_reset_confirmation_message">Etes-vous sûr de vouloir réinitialiser les données de trajet ?</string>
@@ -291,7 +320,7 @@
     <!-- Notifications -->
     <!-- Permission Dialog -->
     <string name="notifications_enable_dialog_title">Bannières de notifications</string>
-    <string name="notifications_enable_dialog_message">Voulez-vous autoriser à DMD2 l'accès aux notifications afin d'afficher une bannière pour toute nouvelle notification ? Vous pouvez configurer quelles applications vous souhaitez voir apparaître via Paramètres > Notifications.</string>
+    <string name="notifications_enable_dialog_message">Voulez-vous autoriser à DMD2 l\'accès aux notifications afin d\'afficher une bannière pour toute nouvelle notification ? Vous pouvez configurer quelles applications vous souhaitez voir apparaître via Paramètres > Notifications.</string>
     <!-- Notification List Widget -->
     <string name="notifications_list_widget_new_notifications">Nouvelles Notifications</string>
     <string name="notifications_controller_arrow_instructions">Gauche/Droite - Effacer</string>
@@ -303,11 +332,11 @@
     <string name="apps_filter_enable_title">Activer le filtre des applications</string>
     <string name="apps_filter_enable_description">Masque les applications définies dans le filtre des applications</string>
     <string name="apps_sorting_category_title">Tri</string>
-    <string name="apps_sorting_setting_title">Sélectionner le mode de tri des raccourcis d'applications</string>
+    <string name="apps_sorting_setting_title">Sélectionner le mode de tri des raccourcis d\'applications</string>
     <string-array name="apps_sorting_options_list" translatable="true">
         <item>Nom - Alphabétique</item>
         <item>Nom du développeur - Alphabétique</item>
-        <item>Par date d'installation</item>
+        <item>Par date d\'installation</item>
         <item>Par date de dernière utilisation</item>
     </string-array>
     <string name="apps_sorting_direction_setting_title">Sens de tri</string>
