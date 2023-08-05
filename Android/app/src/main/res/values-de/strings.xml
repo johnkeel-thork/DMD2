@@ -3,10 +3,10 @@
     <!-- New Untranslated -->
 
     <string name="map_layers_routing_title">Routing UI</string>
-    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
-    <string name="map_layers_routing_width_line">Line Width</string>
-    <string name="map_layers_routing_transparency_line">Line Transparency</string>
-    <string name="map_layers_routing_pins_size">Indications Size</string>
+    <string name="map_layers_routing_description">Einstellen der Breite der Routenlinie auf der Karte</string>
+    <string name="map_layers_routing_width_line">Linien Breite</string>
+    <string name="map_layers_routing_transparency_line">Linien Transparenz</string>
+    <string name="map_layers_routing_pins_size">Größe der Indikatoren</string>
 
     <!-- End Of New Untranslated -->
 
@@ -844,7 +844,7 @@
     <string name="map_route_planner_cancel_active_dialog_message">Es gibt eine aktive Navigation. Abbrechen und eine neue Navigation starten?</string>
     <string name="map_route_planner_instruction_now">Jetzt</string>
     <string name="map_route_planner_instruction_arrived">Sie haben Ihr Ziel erreicht!</string>
-    <string name="map_route_planner_instruction_keep_same_road">Fortfahren für</string>
+    <string name="map_route_planner_instruction_keep_same_road">Folgen für</string>
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
@@ -868,12 +868,12 @@
     <string name="map_route_planner_nav_options_title">Aktive Navigations-Optionen</string>
     <string name="map_route_planner_nav_options_message">Verfügbare Optionen für die aktive Navigation:</string>
     <string name="map_route_planner_nav_options_share_as_gpx">Teile als GPX</string>
-    <string name="map_route_planner_error_missing_calc_file_title">Fehlende Kalkulations-Dateien</string>
-    <string name="map_route_planner_error_missing_calc_file_message">Es fehlen Berechnungsdateien, bitte lade die Kartendateien erneut herunter, um sicherzustellen, dass die Berechnungsdateien heruntergeladen wurden!</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Fehlende Berechnungs-Dateien</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Es fehlen Berechnungs-Dateien, bitte lade die Kartendateien erneut herunter, um sicherzustellen, dass die benötigten Dateien heruntergeladen wurden!</string>
     <string name="map_route_planner_error_other_title">Berechnungsfehler</string>
     <string name="map_route_planner_error_other_message">Es gab einen Fehler bei der Berechnung der Route! Bitte versuchen Sie es erneut, wenn Sie abseits der Straße unterwegs sind, versuchen Sie das Mixed-Profil!</string>
     <string name="map_route_planner_dialog_download_calc_file_title">Fehlende Routenplanner-Dateien</string>
-    <string name="map_route_planner_dialog_download_calc_file_message">Für die DMD2-Routenplanungsfunktionen müssen zusätzliche Dateien heruntergeladen werden. Jetzt runterladen?</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Für die DMD2-Routenplanungsfunktionen müssen zusätzliche Dateien heruntergeladen werden. Jetzt herunterladen?</string>
     <string name="map_route_planner_dialog_download_progress">Dateien herunterladen</string>
     <string name="map_route_planner_empty">Kein aktiver Track oder Route!</string>
     <!-- Place Search -->
