@@ -1,34 +1,5 @@
 <resources>
 
-    <!-- New Untranslated -->
-
-    <string name="gpx_manager_reloading_files_please_wait">Uudelleenladataan tiedostoja. Odota, ole hyvä.</string>
-
-    <string name="roadbook_controller_button_right_long">Oikea-painikkeen pitkä painallus</string>
-    <string name="roadbook_controller_button_left_long">Vasen-painikkeen pitkä painallus (vain kun lukittu)</string>
-
-    <string name="map_layers_location_title">Sijaintikuvake</string>
-    <string name="map_layers_location_description">Muokkaa nykyisen sijainnin osoittavaa kuvaketta</string>
-    <string name="map_layers_icon_scale">Kuvakkeen koko</string>
-    <string name="map_layers_icon_show_accuracy_range">Näytä sijainnin tarkkuus kehänä</string>
-
-    <string name="map_settings_navigation_show_waypoints_title">Näytä reittipisteet kartalla</string>
-    <string name="map_settings_navigation_show_waypoints_message">Näyttää reittipisteet opasteineen kartalla.</string>
-
-    <string name="yards">jaardit</string>
-    <string name="kilometer">kilometrit</string>
-    <string name="kilometers">kilometerit</string>
-    <string name="miles">mailit</string>
-
-    <string name="map_layers_routing_title">Reitityksen ulkoasu</string>
-    <string name="map_layers_routing_description">Aseta kartalla näytettävän lasketun reitin viivan leveys</string>
-    <string name="map_layers_routing_width_line">Viivan leveys</string>
-    <string name="map_layers_routing_transparency_line">Viivan läpinäkyvyys</string>
-    <string name="map_layers_routing_pins_size">Indikaatioiden koko</string>
-
-    <!-- End Of New Untranslated -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -56,6 +27,10 @@
     <string name="kmh">Km/h</string>
     <string name="meters">metriä</string>
     <string name="feet">jalkaa</string>
+    <string name="yards">jaardit</string>
+    <string name="kilometer">kilometrit</string>
+    <string name="kilometers">kilometerit</string>
+    <string name="miles">mailit</string>
     <!-- Buttons -->
     <string name="back">Takaisin</string>
     <string name="abort">Keskeytä</string>
@@ -484,6 +459,8 @@
     <string name="roadbook_controller_button_right">Oikea-painike</string>
     <string name="roadbook_controller_button_enter">Enter-painike (ei toistoa)</string>
     <string name="roadbook_controller_button_enter_long">Enter-painikkeen pitkä painallus (vain kun lukittu / ei toistoa)</string>
+    <string name="roadbook_controller_button_right_long">Oikea-painikkeen pitkä painallus</string>
+    <string name="roadbook_controller_button_left_long">Vasen-painikkeen pitkä painallus (vain kun lukittu)</string>
     <string name="roadbook_controller_button_zoomin">Painike A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Painike B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Rullan siirto per painallus</string>
@@ -611,6 +588,10 @@
     <string name="map_layers_scale_labels_layer_label">Tekstien koko</string>
     <string name="map_layers_enable_symbols_layer_label">Käytä symboleita</string>
     <string name="map_layers_scale_symbols_layer_label">Symbolien koko</string>
+    <string name="map_layers_location_title">Sijaintikuvake</string>
+    <string name="map_layers_location_description">Muokkaa nykyisen sijainnin osoittavaa kuvaketta</string>
+    <string name="map_layers_icon_scale">Kuvakkeen koko</string>
+    <string name="map_layers_icon_show_accuracy_range">Näytä sijainnin tarkkuus kehänä</string>
     <string name="map_layers_hillshading_enable_shadows_label">Käytä varjostuksia</string>sd
     <string name="map_layers_map_base_download_more">Lataa karttoja</string>
     <string name="map_layers_map_base_title">Valitse ladattavat kartat</string>
@@ -672,10 +653,16 @@
     <string name="map_layers_hillshading_title">Mäkien varjostus (online)</string>
     <string name="map_layers_hillshading_description">Näyttää mäkien ja vuorien topograafisen muodon varjostuksen avulla</string>
     <string name="map_layers_hillshading_transparency">Läpinäkyvyys</string>
+    <string name="map_layers_routing_title">Reitityksen ulkoasu</string>
+    <string name="map_layers_routing_description">Aseta kartalla näytettävän lasketun reitin viivan leveys</string>
+    <string name="map_layers_routing_width_line">Viivan leveys</string>
+    <string name="map_layers_routing_transparency_line">Viivan läpinäkyvyys</string>
+    <string name="map_layers_routing_pins_size">Indikaatioiden koko</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX-hallinta</string>
     <string name="gpx_manager_load_file">Lataa tiedosto</string>
     <string name="gpx_manager_no_file_loaded">Tiedostoa ei ole ladattu. Paina Lataa tiedosto.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Uudelleenladataan tiedostoja. Odota, ole hyvä.</string>
     <string name="gpx_manager_tracks">Jäljet</string>
     <string name="gpx_manager_waypoints">Reittipisteet</string>
     <string name="gpx_manager_center_map_button">Keskitä kartta</string>
@@ -781,6 +768,8 @@
     <string name="map_settings_navigation_start_ask_message">Jos valittuna DMD2 kysyy haluatko käyttää DMD2 vai muuta sovellusta. Jos ei valittuna, käytetään DMD2:ta.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Käytä ääniopastusta</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Käyttää Tekstistä puheeksi -toimintoa tarjoamaan ääniopastusta navigointiin.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Näytä reittipisteet kartalla</string>
+    <string name="map_settings_navigation_show_waypoints_message">Näyttää reittipisteet opasteineen kartalla.</string>
     <string name="map_settings_controller_cat_title">Ohjaimen asetukset</string>
     <string name="map_settings_controller_disable_pan_spot_title">Estä panorointi-tilan kohde</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Estää uuden panorointitilan kohdepisteen toiminnot</string>
