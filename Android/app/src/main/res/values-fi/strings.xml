@@ -2,29 +2,29 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Uudelleenladataan tiedostoja. Odota, ole hyvä.</string>
 
-    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
-    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_right_long">Oikea-painikkeen pitkä painallus</string>
+    <string name="roadbook_controller_button_left_long">Vasen-painikkeen pitkä painallus (vain kun lukittu)</string>
 
-    <string name="map_layers_location_title">Location Icon</string>
-    <string name="map_layers_location_description">Adjust the current location icon</string>
-    <string name="map_layers_icon_scale">Icon Scale</string>
-    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+    <string name="map_layers_location_title">Sijaintikuvake</string>
+    <string name="map_layers_location_description">Muokkaa nykyisen sijainnin osoittavaa kuvaketta</string>
+    <string name="map_layers_icon_scale">Kuvakkeen koko</string>
+    <string name="map_layers_icon_show_accuracy_range">Näytä sijainnin tarkkuus kehänä</string>
 
-    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
-    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Näytä reittipisteet kartalla</string>
+    <string name="map_settings_navigation_show_waypoints_message">Näyttää reittipisteet opasteineen kartalla.</string>
 
-    <string name="yards">yards</string>
-    <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometers</string>
-    <string name="miles">miles</string>
+    <string name="yards">jaardit</string>
+    <string name="kilometer">kilometrit</string>
+    <string name="kilometers">kilometerit</string>
+    <string name="miles">mailit</string>
 
-    <string name="map_layers_routing_title">Routing UI</string>
-    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
-    <string name="map_layers_routing_width_line">Line Width</string>
-    <string name="map_layers_routing_transparency_line">Line Transparency</string>
-    <string name="map_layers_routing_pins_size">Indications Size</string>
+    <string name="map_layers_routing_title">Reitityksen ulkoasu</string>
+    <string name="map_layers_routing_description">Aseta kartalla näytettävän lasketun reitin viivan leveys</string>
+    <string name="map_layers_routing_width_line">Viivan leveys</string>
+    <string name="map_layers_routing_transparency_line">Viivan läpinäkyvyys</string>
+    <string name="map_layers_routing_pins_size">Indikaatioiden koko</string>
 
     <!-- End Of New Untranslated -->
 
@@ -455,7 +455,7 @@
     <string name="roadbook_settings_locker_play_pause_message">Lukitseminen = play ja lukituksen vapautus = pause.</string>
     <string name="roadbook_settings_adjustment_cat_title">Säädöt</string>
     <string name="roadbook_settings_distance_multi_factor_title">Matkan korjauskerroin</string>
-    <string name="roadbook_settings_distance_multi_factor_message">Määritä Matkan ja Osamatkan korjauskerroin (jos Tiekirjan matkat eroavat)</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Aseta Matkan ja Osamatkan korjauskerroin (jos Tiekirjan matkat eroavat)</string>
     <string name="roadbook_settings_no_instruments_title">Piilota mittaristo</string>
     <string name="roadbook_settings_no_instruments_message">Jos käytät erillistä mittaristoa ja haluat vain käyttää PDF-tiedosta / "paperirullaa".</string>
     <string name="roadbook_settings_reset_session_title">Nollaa sessio</string>
@@ -490,8 +490,8 @@
     <string name="roadbook_controller_scroll_amount_message">Määritä kuinka paljon rullaa siirretään ylös- ja alas-painikkeiden painalluksella</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Salli painalluksen toisto Joystickille</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Jos sallittu, ylös/alas/vasen/oikea -painikkeet toistavat painalluksia painettaessa pitkään.</string>
-    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Määritä toiston nopeus Joystickille</string>
-    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Määritä toiston nopeus painikkeille</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Aseta toiston nopeus Joystickille</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Aseta toiston nopeus painikkeille</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
         <item>50ms</item>
         <item>100ms</item>
