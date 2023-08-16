@@ -1,5 +1,47 @@
 <resources>
 
+    <!-- New Untranslated -->
+
+    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
+
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Active</string>
+    <string name="download_manager_active_download_paused">Paused</string>
+    <string name="download_manager_active_download_error">Error</string>
+    <string name="download_manager_active_download_downloading">Downloading</string>
+    <string name="download_manager_active_download_interrupted">Interrupted</string>
+    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
+    <string name="download_manager_active_download_no_net">No Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
+
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+
+    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
+    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+
+    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_routing_width_line">Line Width</string>
+    <string name="map_layers_routing_transparency_line">Line Opacity</string>
+    <string name="map_layers_routing_pins_size">Indications Size</string>
+
+    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+
+    <string name="map_layers_routing_title">Routing UI</string>
+
+    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+
+    <!-- End Of New Untranslated -->
 
     <string name="app_name">DMD2</string>
 
