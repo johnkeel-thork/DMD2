@@ -2,17 +2,17 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
+    <string name="gpx_manager_gpx_loading_message">Ladataan GPX-tiedostoa</string>
 
-    <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Active</string>
-    <string name="download_manager_active_download_paused">Paused</string>
-    <string name="download_manager_active_download_error">Error</string>
-    <string name="download_manager_active_download_downloading">Downloading</string>
-    <string name="download_manager_active_download_interrupted">Interrupted</string>
-    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
-    <string name="download_manager_active_download_no_net">No Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
+    <string name="download_manager_active_download_short">Lataus:</string>
+    <string name="download_manager_active_download_active">Aktiivinen</string>
+    <string name="download_manager_active_download_paused">Pysäytetty</string>
+    <string name="download_manager_active_download_error">Virhe</string>
+    <string name="download_manager_active_download_downloading">Ladataan</string>
+    <string name="download_manager_active_download_interrupted">Keskeytynyt</string>
+    <string name="download_manager_active_download_interrupted_file">Keskeytynyt tiedosto:</string>
+    <string name="download_manager_active_download_no_net">Ei internet-yhteyttä!</string>
+    <string name="download_manager_active_download_no_net_waiting">Odotetaan internet-yhteyttä…</string>
 
     <!-- End Of New Untranslated -->
 
