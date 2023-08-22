@@ -10,7 +10,7 @@
     <string name="download_manager_active_download_error">Fehler</string>
     <string name="download_manager_active_download_downloading">Wird heruntergeladen</string>
     <string name="download_manager_active_download_interrupted">Unterbrochen</string>
-    <string name="download_manager_active_download_interrupted_file">Unterbrochene datei:</string>
+    <string name="download_manager_active_download_interrupted_file">Unterbrochene Datei:</string>
     <string name="download_manager_active_download_no_net">Kein Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
     <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
