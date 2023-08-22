@@ -1,18 +1,8 @@
 <resources>
 
     <!-- New Untranslated -->
-
-    <string name="gpx_manager_gpx_loading_message">Ladataan GPX-tiedostoa</string>
-
-    <string name="download_manager_active_download_short">Lataus:</string>
-    <string name="download_manager_active_download_active">Aktiivinen</string>
-    <string name="download_manager_active_download_paused">Pysäytetty</string>
-    <string name="download_manager_active_download_error">Virhe</string>
-    <string name="download_manager_active_download_downloading">Ladataan</string>
-    <string name="download_manager_active_download_interrupted">Keskeytynyt</string>
-    <string name="download_manager_active_download_interrupted_file">Keskeytynyt tiedosto:</string>
-    <string name="download_manager_active_download_no_net">Ei internet-yhteyttä!</string>
-    <string name="download_manager_active_download_no_net_waiting">Odotetaan internet-yhteyttä…</string>
+    
+    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
 
     <!-- End Of New Untranslated -->
 
@@ -99,6 +89,16 @@
     <string name="t93_dmd2_edition_button">Syötä lisenssiavain</string>
     <string name="t93_finish_trial_button">Päätä koekäyttö</string>
     <string name="t93_dmd2_edition_insert_key_title">Syötä DMD2-Edition lisenssiavain:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">Lataus:</string>
+    <string name="download_manager_active_download_active">Aktiivinen</string>
+    <string name="download_manager_active_download_paused">Pysäytetty</string>
+    <string name="download_manager_active_download_error">Virhe</string>
+    <string name="download_manager_active_download_downloading">Ladataan</string>
+    <string name="download_manager_active_download_interrupted">Keskeytynyt</string>
+    <string name="download_manager_active_download_interrupted_file">Keskeytynyt tiedosto:</string>
+    <string name="download_manager_active_download_no_net">Ei internet-yhteyttä!</string>
+    <string name="download_manager_active_download_no_net_waiting">Odotetaan internet-yhteyttä…</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Lokalisointivalinnat</string>
@@ -729,6 +729,7 @@
     <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Odotetaan GPS-sijaintia</string>
     <string name="gpx_manager_waypoint_share_app">Valitse sovellus jakamiseen</string>
+    <string name="gpx_manager_gpx_loading_message">Ladataan GPX-tiedostoa</string>
     <string name="gpx_manager_poi_loading_message">Ladataan jäljen POI-hakua, tämä voi hieman kestää…</string>
     <string name="gpx_manager_advanced_title">Lisäasetukset</string>
     <string name="gpx_manager_advanced_invert_orientation">Käännä suunta</string>
