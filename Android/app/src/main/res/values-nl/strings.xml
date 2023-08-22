@@ -13,9 +13,10 @@
     <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
     <string name="download_manager_active_download_no_net">No Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
 
     <!-- End Of New Untranslated -->
-    
+
 
     <string name="app_name">DMD2</string>
 
