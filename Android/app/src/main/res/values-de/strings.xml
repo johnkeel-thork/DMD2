@@ -2,18 +2,18 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
+    <string name="gpx_manager_gpx_loading_message">Lade GPX-Datei</string>
 
     <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Active</string>
-    <string name="download_manager_active_download_paused">Paused</string>
-    <string name="download_manager_active_download_error">Error</string>
-    <string name="download_manager_active_download_downloading">Downloading</string>
-    <string name="download_manager_active_download_interrupted">Interrupted</string>
-    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
-    <string name="download_manager_active_download_no_net">No Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_active">Aktiv</string>
+    <string name="download_manager_active_download_paused">Pausiert</string>
+    <string name="download_manager_active_download_error">Fehler</string>
+    <string name="download_manager_active_download_downloading">Wird heruntergeladen</string>
+    <string name="download_manager_active_download_interrupted">Unterbrochen</string>
+    <string name="download_manager_active_download_interrupted_file">Unterbrochene datei:</string>
+    <string name="download_manager_active_download_no_net">Kein Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
 
     <!-- End Of New Untranslated -->
 
