@@ -624,6 +624,10 @@
     <string name="map_layers_downloader_not_enough_space">Not enough storage space!</string>
     <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
     <string name="map_layers_poi_highlight_description">Set POI icons to show at lower zoom levels (500m zoom max)(fuel/hospital/peaks are always enabled).</string>
+    <string name="map_layers_poi_fuel">Fuel</string>
+    <string name="map_layers_poi_hospital">Hospital</string>
+    <string name="map_layers_poi_peaks">Peaks</string>
+    <string name="map_layers_poi_parking">Parking</string>
     <string name="map_layers_poi_restaurant">Restaurant</string>
     <string name="map_layers_poi_cafe">Cafe</string>
     <string name="map_layers_poi_pub">Pub</string>
