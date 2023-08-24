@@ -42,6 +42,11 @@
     <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
     <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
 
+    <string name="map_layers_poi_fuel">Fuel</string>
+    <string name="map_layers_poi_hospital">Hospital</string>
+    <string name="map_layers_poi_peaks">Peaks</string>
+    <string name="map_layers_poi_parking">Parking</string>
+
     <!-- End Of New Untranslated -->
 
     <string name="app_name">DMD2</string>
