@@ -2,18 +2,10 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_gpx_loading_message">Lade GPX-Datei</string>
-
-    <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Aktiv</string>
-    <string name="download_manager_active_download_paused">Pausiert</string>
-    <string name="download_manager_active_download_error">Fehler</string>
-    <string name="download_manager_active_download_downloading">Wird heruntergeladen</string>
-    <string name="download_manager_active_download_interrupted">Unterbrochen</string>
-    <string name="download_manager_active_download_interrupted_file">Unterbrochene Datei:</string>
-    <string name="download_manager_active_download_no_net">Kein Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
+    <string name="map_layers_poi_fuel">Fuel</string>
+    <string name="map_layers_poi_hospital">Hospital</string>
+    <string name="map_layers_poi_peaks">Peaks</string>
+    <string name="map_layers_poi_parking">Parking</string>
 
     <!-- End Of New Untranslated -->
 
@@ -100,6 +92,17 @@
     <string name="t93_dmd2_edition_button">Key eingeben</string>
     <string name="t93_finish_trial_button">Ende der Probezeit</string>
     <string name="t93_dmd2_edition_insert_key_title">DMD2-Edition Key eingeben:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Aktiv</string>
+    <string name="download_manager_active_download_paused">Pausiert</string>
+    <string name="download_manager_active_download_error">Fehler</string>
+    <string name="download_manager_active_download_downloading">Wird heruntergeladen</string>
+    <string name="download_manager_active_download_interrupted">Unterbrochen</string>
+    <string name="download_manager_active_download_interrupted_file">Unterbrochene Datei:</string>
+    <string name="download_manager_active_download_no_net">Kein Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Localisierung</string>
@@ -730,6 +733,7 @@
     <string name="gpx_manager_waypoint_distance_from_track_start">Entfernung vom Start</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Warte auf GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">App zum Teilen auswählen</string>
+    <string name="gpx_manager_gpx_loading_message">Lade GPX-Datei</string>
     <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern…</string>
     <string name="gpx_manager_advanced_title">Erweiterte Optionen</string>
     <string name="gpx_manager_advanced_invert_orientation">Fahrtrichtung umkehren</string>
