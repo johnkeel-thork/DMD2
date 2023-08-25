@@ -4,10 +4,10 @@
 
     <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
 
-    <string name="map_layers_poi_fuel">Fuel</string>
-    <string name="map_layers_poi_hospital">Hospital</string>
-    <string name="map_layers_poi_peaks">Peaks</string>
-    <string name="map_layers_poi_parking">Parking</string>
+    <string name="map_layers_poi_fuel">Polttoaine</string>
+    <string name="map_layers_poi_hospital">Sairaala</string>
+    <string name="map_layers_poi_peaks">Huiput</string>
+    <string name="map_layers_poi_parking">Pysäköinti</string>
 
     <!-- End Of New Untranslated -->
 
