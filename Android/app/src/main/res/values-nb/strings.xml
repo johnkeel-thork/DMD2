@@ -2,49 +2,49 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Laster inn på nytt. Vent!</string>
 
-    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
-    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_right_long">Høyre pil - Trykk og hold</string>
+    <string name="roadbook_controller_button_left_long">Venstre pil - Trykk og hold (Kun med skjermlås)</string>
 
-    <string name="map_layers_location_title">Location Icon</string>
-    <string name="map_layers_location_description">Adjust the current location icon</string>
-    <string name="map_layers_icon_scale">Icon Scale</string>
-    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+    <string name="map_layers_location_title">Posisjonsikon</string>
+    <string name="map_layers_location_description">Juster nåværende posisjonsmarkør</string>
+    <string name="map_layers_icon_scale">Ikonstørrelse</string>
+    <string name="map_layers_icon_show_accuracy_range">Vis nøyaktighetsintervall</string>
 
-    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
-    <string name="map_settings_navigation_show_waypoints_message">Will display waypoint pins with the instructions on the map.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Vis kartnåler på kartet</string>
+    <string name="map_settings_navigation_show_waypoints_message">Vil vise kartnåler med instruksjoner på kartet.</string>
 
 
     <string name="yards">yards</string>
     <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometers</string>
+    <string name="kilometers">kilometer</string>
     <string name="miles">miles</string>
 
-    <string name="map_layers_routing_title">Routing UI</string>
-    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
-    <string name="map_layers_routing_width_line">Line Width</string>
-    <string name="map_layers_routing_transparency_line">Line Transparency</string>
-    <string name="map_layers_routing_pins_size">Indications Size</string>
+    <string name="map_layers_routing_title">Grensesnitt for ruteverktøy</string>
+    <string name="map_layers_routing_description">Juster bredden på den beregnde ruten på kartet</string>
+    <string name="map_layers_routing_width_line">Linjebredde</string>
+    <string name="map_layers_routing_transparency_line">Gjennomsiktighet</string>
+    <string name="map_layers_routing_pins_size">Størrelse på nåler</string>
 
 
-    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
+    <string name="gpx_manager_gpx_loading_message">Laster inn GPX-fil.</string>
 
-    <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Active</string>
-    <string name="download_manager_active_download_paused">Paused</string>
-    <string name="download_manager_active_download_error">Error</string>
-    <string name="download_manager_active_download_downloading">Downloading</string>
-    <string name="download_manager_active_download_interrupted">Interrupted</string>
-    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
-    <string name="download_manager_active_download_no_net">No Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_short">LN:</string>
+    <string name="download_manager_active_download_active">Pågår</string>
+    <string name="download_manager_active_download_paused">Pause</string>
+    <string name="download_manager_active_download_error">Feil</string>
+    <string name="download_manager_active_download_downloading">Laster ned</string>
+    <string name="download_manager_active_download_interrupted">Avbrutt</string>
+    <string name="download_manager_active_download_interrupted_file">Avbrutt fil:</string>
+    <string name="download_manager_active_download_no_net">Ingen til gang til Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Venter på tilgang til internett…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Laster ned, men kan ikke vise fremdrift</string>
 
-    <string name="map_layers_poi_fuel">Fuel</string>
-    <string name="map_layers_poi_hospital">Hospital</string>
-    <string name="map_layers_poi_peaks">Peaks</string>
-    <string name="map_layers_poi_parking">Parking</string>
+    <string name="map_layers_poi_fuel">Drivstoff</string>
+    <string name="map_layers_poi_hospital">Sykehus</string>
+    <string name="map_layers_poi_peaks">Topp</string>
+    <string name="map_layers_poi_parking">Parkering</string>
 
     <!-- End Of New Untranslated -->
 
