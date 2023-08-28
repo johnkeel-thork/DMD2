@@ -19,6 +19,13 @@
     <string name="menu_edit_title">Edit Bottom Menu</string>
     <string name="menu_edit_message">Re-order and enable/disable menu entries</string>
     <string name="menu_sorter_instructions">Touch and hold to move an item. Use the switch to show or hide.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Current Now</item>
+        <item>Temperature</item>
+    </string-array>
 
     <!-- Global -->
     <!-- Units -->
@@ -586,6 +593,7 @@
     <string name="map_navigation_selection_dialog_use_dmd2">Use DMD2</string>
     <string name="map_navigation_selection_dialog_use_external">External App</string>
     <string name="map_panning_mode_enable">Panning Mode Enabled</string>
+    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Map Layers</string>
     <string name="map_layers_base_map_title">Base Map Source</string>
@@ -772,6 +780,10 @@
     <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
+    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
+    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
     <string name="map_settings_language_cat_title">Map Language</string>
     <string name="map_settings_language_load_mode_title">Map Language</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -787,6 +799,16 @@
     <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
     <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
     <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Never</item>
+    </string-array>
     <string name="map_settings_controller_cat_title">Controller Settings</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
