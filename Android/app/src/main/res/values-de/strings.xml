@@ -2,10 +2,10 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_layers_poi_fuel">Fuel</string>
-    <string name="map_layers_poi_hospital">Hospital</string>
-    <string name="map_layers_poi_peaks">Peaks</string>
-    <string name="map_layers_poi_parking">Parking</string>
+    <string name="map_layers_poi_fuel">Benzin</string>
+    <string name="map_layers_poi_hospital">Krankenhaus</string>
+    <string name="map_layers_poi_peaks">Berge</string>
+    <string name="map_layers_poi_parking">Parken</string>
 
     <!-- End Of New Untranslated -->
 
@@ -858,8 +858,8 @@
     <string name="map_route_planner_cancel_active_dialog_title">Aktive Route abbrechen?</string>
     <string name="map_route_planner_cancel_active_dialog_message">Es gibt eine aktive Navigation. Abbrechen und eine neue Navigation starten?</string>
     <string name="map_route_planner_instruction_now">Jetzt</string>
-    <string name="map_route_planner_instruction_arrived">Sie haben Ihr Ziel erreicht!</string>
-    <string name="map_route_planner_instruction_keep_same_road">Fortfahren für</string>
+    <string name="map_route_planner_instruction_arrived">Ziel erreicht!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Weiterfahren für</string>
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
