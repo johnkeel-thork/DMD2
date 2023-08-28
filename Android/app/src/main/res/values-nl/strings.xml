@@ -20,6 +20,33 @@
     <string name="map_layers_poi_peaks">Peaks</string>
     <string name="map_layers_poi_parking">Parking</string>
 
+    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Never</item>
+    </string-array>
+
+    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
+    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
+
+    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+
+    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Current Now</item>
+        <item>Temperature</item>
+    </string-array>
+
+
+
     <!-- End Of New Untranslated -->
 
 
