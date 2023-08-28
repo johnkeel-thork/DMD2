@@ -2,49 +2,21 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_reloading_files_please_wait">Laster inn på nytt. Vent!</string>
+    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
 
-    <string name="roadbook_controller_button_right_long">Høyre pil - Trykk og hold</string>
-    <string name="roadbook_controller_button_left_long">Venstre pil - Trykk og hold (Kun med skjermlås)</string>
+    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Current Now</item>
+        <item>Temperature</item>
+    </string-array>
 
-    <string name="map_layers_location_title">Posisjonsikon</string>
-    <string name="map_layers_location_description">Juster nåværende posisjonsmarkør</string>
-    <string name="map_layers_icon_scale">Ikonstørrelse</string>
-    <string name="map_layers_icon_show_accuracy_range">Vis nøyaktighetsintervall</string>
+    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
+    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
 
-    <string name="map_settings_navigation_show_waypoints_title">Vis kartnåler på kartet</string>
-    <string name="map_settings_navigation_show_waypoints_message">Vil vise kartnåler med instruksjoner på kartet.</string>
-
-
-    <string name="yards">yards</string>
-    <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometer</string>
-    <string name="miles">miles</string>
-
-    <string name="map_layers_routing_title">Grensesnitt for ruteverktøy</string>
-    <string name="map_layers_routing_description">Juster bredden på den beregnde ruten på kartet</string>
-    <string name="map_layers_routing_width_line">Linjebredde</string>
-    <string name="map_layers_routing_transparency_line">Gjennomsiktighet</string>
-    <string name="map_layers_routing_pins_size">Størrelse på nåler</string>
-
-
-    <string name="gpx_manager_gpx_loading_message">Laster inn GPX-fil.</string>
-
-    <string name="download_manager_active_download_short">LN:</string>
-    <string name="download_manager_active_download_active">Pågår</string>
-    <string name="download_manager_active_download_paused">Pause</string>
-    <string name="download_manager_active_download_error">Feil</string>
-    <string name="download_manager_active_download_downloading">Laster ned</string>
-    <string name="download_manager_active_download_interrupted">Avbrutt</string>
-    <string name="download_manager_active_download_interrupted_file">Avbrutt fil:</string>
-    <string name="download_manager_active_download_no_net">Ingen til gang til Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Venter på tilgang til internett…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Laster ned, men kan ikke vise fremdrift</string>
-
-    <string name="map_layers_poi_fuel">Drivstoff</string>
-    <string name="map_layers_poi_hospital">Sykehus</string>
-    <string name="map_layers_poi_peaks">Topp</string>
-    <string name="map_layers_poi_parking">Parkering</string>
+    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
 
     <!-- End Of New Untranslated -->
 
@@ -77,6 +49,10 @@
     <string name="kmh">Km/t</string>
     <string name="meters">meter</string>
     <string name="feet">fot</string>
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometer</string>
+    <string name="miles">miles</string>
     <!-- Buttons -->
     <string name="back">Tilbake</string>
     <string name="abort">Avbryt</string>
@@ -129,7 +105,17 @@
     <string name="t93_dmd2_edition_button">Legg inn lisens</string>
     <string name="t93_finish_trial_button">Avslutt utprøving</string>
     <string name="t93_dmd2_edition_insert_key_title">DMD2-lisens:</string>
-
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">LN:</string>
+    <string name="download_manager_active_download_active">Pågår</string>
+    <string name="download_manager_active_download_paused">Pause</string>
+    <string name="download_manager_active_download_error">Feil</string>
+    <string name="download_manager_active_download_downloading">Laster ned</string>
+    <string name="download_manager_active_download_interrupted">Avbrutt</string>
+    <string name="download_manager_active_download_interrupted_file">Avbrutt fil:</string>
+    <string name="download_manager_active_download_no_net">Ingen til gang til Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Venter på tilgang til internett…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Laster ned, men kan ikke vise fremdrift</string>
     <!-- Settings -->
     <string name="settings_localization_options">Enheter</string>
     <string name="settings_hour_format">Bruk 24timers klokke</string>
@@ -505,6 +491,8 @@
     <string name="roadbook_controller_button_right">Høyre</string>
     <string name="roadbook_controller_button_enter">Enter (ingen gjentagelse)</string>
     <string name="roadbook_controller_button_enter_long">Enter Langt trykk(Kun når låst/ingen gjentagelse)</string>
+    <string name="roadbook_controller_button_right_long">Høyre pil - Trykk og hold</string>
+    <string name="roadbook_controller_button_left_long">Venstre pil - Trykk og hold (Kun med skjermlås)</string>
     <string name="roadbook_controller_button_zoomin">Knapp A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Knapp B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Rulling per trykk/klikk</string>
@@ -632,6 +620,10 @@
     <string name="map_layers_scale_labels_layer_label">Merkestørrelse</string>
     <string name="map_layers_enable_symbols_layer_label">Aktiver symboler</string>
     <string name="map_layers_scale_symbols_layer_label">Symbolstørrelse</string>
+    <string name="map_layers_location_title">Posisjonsikon</string>
+    <string name="map_layers_location_description">Juster nåværende posisjonsmarkør</string>
+    <string name="map_layers_icon_scale">Ikonstørrelse</string>
+    <string name="map_layers_icon_show_accuracy_range">Vis nøyaktighetsintervall</string>
     <string name="map_layers_hillshading_enable_shadows_label">Aktiver skyggelegging</string>sd
     <string name="map_layers_map_base_download_more">Last ned kart</string>
     <string name="map_layers_map_base_title">Velg kart for nedlasting</string>
@@ -652,6 +644,10 @@
     <string name="map_layers_downloader_not_enough_space">Ikke nok lagringsplass!</string>
     <string name="map_layers_poi_highlight_title">POI Utheving</string>
     <string name="map_layers_poi_highlight_description">Velg hvilke POI som skal vises ved lavere zoom (500m zoom max)(bensinstasjoner/sykehis/topper vises alltid).</string>
+    <string name="map_layers_poi_fuel">Drivstoff</string>
+    <string name="map_layers_poi_hospital">Sykehus</string>
+    <string name="map_layers_poi_peaks">Topp</string>
+    <string name="map_layers_poi_parking">Parkering</string>
     <string name="map_layers_poi_restaurant">Restaurant</string>
     <string name="map_layers_poi_cafe">Cafe</string>
     <string name="map_layers_poi_pub">Pub</string>
@@ -693,10 +689,16 @@
     <string name="map_layers_hillshading_title">Skyggelegging (online)</string>
     <string name="map_layers_hillshading_description">Viser den topgrafiske formen til terrenget ved hjelp av skyggelegging</string>
     <string name="map_layers_hillshading_transparency">Gjennomsiktighet</string>
+    <string name="map_layers_routing_title">Grensesnitt for ruteverktøy</string>
+    <string name="map_layers_routing_description">Juster bredden på den beregnde ruten på kartet</string>
+    <string name="map_layers_routing_width_line">Linjebredde</string>
+    <string name="map_layers_routing_transparency_line">Gjennomsiktighet</string>
+    <string name="map_layers_routing_pins_size">Størrelse på nåler</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX-håndtering</string>
     <string name="gpx_manager_load_file">Last inn</string>
     <string name="gpx_manager_no_file_loaded">Ingen filer. Trykk last inn.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Laster inn på nytt. Vent!</string>
     <string name="gpx_manager_tracks">Spor</string>
     <string name="gpx_manager_waypoints">Kartnåler</string>
     <string name="gpx_manager_center_map_button">Midtstill kart</string>
@@ -747,6 +749,7 @@
     <string name="gpx_manager_waypoint_not_on_track">Du må kjøre på den samme GPX-filen for å kunne få opplysninger om avstand.</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Venter på GPS…</string>
     <string name="gpx_manager_waypoint_share_app">Velg app for deling</string>
+    <string name="gpx_manager_gpx_loading_message">Laster inn GPX-fil.</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
     <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
@@ -802,6 +805,8 @@
     <string name="map_settings_navigation_start_ask_message">Hvis aktiv vil DMD" spørre om hvilken app du ønsker å bruke for navigering, hvis deaktivert brukes DMD2.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Vis kartnåler på kartet</string>
+    <string name="map_settings_navigation_show_waypoints_message">Vil vise kartnåler med instruksjoner på kartet.</string>
     <string name="map_settings_controller_cat_title">Innstillinger for fjernkontroller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer den nye valgmuligheten for kartpanoreringsmodus</string>
