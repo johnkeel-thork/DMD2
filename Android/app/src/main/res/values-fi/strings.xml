@@ -2,23 +2,23 @@
 
     <!-- New Untranslated -->
 
-    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string name="top_menu_battery_indicator">Akun tilanne (päivittyminen voi kestää joitakin minuutteja)</string>
     <string-array name="top_menu_battery_indicator_names" translatable="true">
-        <item>Percentage</item>
-        <item>Current Now</item>
-        <item>Temperature</item>
+        <item>Varaus-%</item>
+        <item>Jännite</item>
+        <item>Lämpötila</item>
     </string-array>
 
-    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+    <string name="map_lock_button_long_press_unlock">Paina pitkään vapauttaaksesi kartan lukituksen!</string>
 
-    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
-    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
+    <string name="map_settings_ui_lock_on_move_title">Automaattinen lukitus liikkuessa</string>
+    <string name="map_settings_ui_lock_on_move_message">Kartta lukittuu automaattisesti kun lähdet liikkeelle</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automaattinen vapautus pysähtyessä</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Kartta lukitus vapautuu automaattisesti kun pysähdyt</string>
 
-    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string name="map_settings_navigation_recalculation_distance">Reitin automaattisen uudelleenlaskennan etäisyys</string>
 
-    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_downloading_no_progress">Ladataan mutta ei voida näyttää edistymistä</string>
 
     <!-- End Of New Untranslated -->
 
