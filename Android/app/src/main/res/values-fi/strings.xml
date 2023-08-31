@@ -337,7 +337,7 @@
     <string name="apps_view_top_title">Suosikkisovellukset</string>
     <string name="apps_view_app_filter_category_title">Sovellusten valinta</string>
     <string name="apps_filter_enable_title">Salli sovellusten valitseminen</string>
-    <string name="apps_filter_enable_description">Piilottaa sovellukset sovelluslistasta</string>
+    <string name="apps_filter_enable_description">Piilottaa valitut sovellukset sovelluslistasta</string>
     <string name="apps_sorting_category_title">Järjestäminen</string>
     <string name="apps_sorting_setting_title">Valitse kuinka sovellusten pikakuvakkeet järjestetään</string>
     <string-array name="apps_sorting_options_list" translatable="true">
