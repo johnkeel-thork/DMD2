@@ -465,7 +465,7 @@
     <string name="roadbook_settings_distance_multi_factor_title">Matkan korjauskerroin</string>
     <string name="roadbook_settings_distance_multi_factor_message">Aseta Matkan ja Osamatkan korjauskerroin (jos Tiekirjan matkat eroavat)</string>
     <string name="roadbook_settings_no_instruments_title">Piilota mittaristo</string>
-    <string name="roadbook_settings_no_instruments_message">Jos käytät erillistä mittaristoa ja haluat vain käyttää PDF-tiedosta / "paperirullaa".</string>
+    <string name="roadbook_settings_no_instruments_message">Jos käytät erillistä mittaristoa ja haluat vain käyttää PDF-tiedostoa / "paperirullaa".</string>
     <string name="roadbook_settings_reset_session_title">Nollaa sessio</string>
     <string name="roadbook_settings_reset_session_message">Sulkee nykyisen PDF-tiedoston / "paperin" ja nollaa kaikki tilastot ja matkat.</string>
     <string name="roadbook_settings_reset_session_confirm_title">Varmista nollaaminen</string>
