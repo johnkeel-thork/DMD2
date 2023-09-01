@@ -240,7 +240,7 @@
     <string name="home_widget_trip_description">Näytä reaaliaikaisesti matkan tiedot kuten kuljettu matka, kokonaisaika, aika liikkeellä ja pysähdyksissä sekä keskinopeus.</string>
     <string name="home_widget_apps_title">SOVELLUKSET</string>
     <string name="home_widget_apps_title_long">Sovellusten pikakuvakkeet</string>
-    <string name="home_widget_apps_description">Aseta pikakuvakkeet suosikkisovelluksiisi.</string>
+    <string name="home_widget_apps_description">Pikakuvakkeet suosikkisovelluksiisi.</string>
     <string name="home_widget_apps_selection_dialog_title">Valitse sovelluksen pikakuvake tai tyhjennä paikka</string>
     <string name="home_widget_apps_clear_selection">Tyhjennä paikka</string>
     <string name="home_widget_obd_rpm_title">OBD RPM</string>
