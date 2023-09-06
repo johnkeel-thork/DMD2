@@ -2,52 +2,52 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
+    <string name="gpx_manager_gpx_loading_message">GPX-faili laadimine</string>
 
-    <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Active</string>
-    <string name="download_manager_active_download_paused">Paused</string>
-    <string name="download_manager_active_download_error">Error</string>
-    <string name="download_manager_active_download_downloading">Downloading</string>
-    <string name="download_manager_active_download_interrupted">Interrupted</string>
-    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
-    <string name="download_manager_active_download_no_net">No Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_short">Laadib:</string>
+    <string name="download_manager_active_download_active">Aktiivne</string>
+    <string name="download_manager_active_download_paused">Peatatud</string>
+    <string name="download_manager_active_download_error">Viga</string>
+    <string name="download_manager_active_download_downloading">Allalaadimine</string>
+    <string name="download_manager_active_download_interrupted">Katkestatud</string>
+    <string name="download_manager_active_download_interrupted_file">Katkestatud fail:</string>
+    <string name="download_manager_active_download_no_net">Internet puudub!</string>
+    <string name="download_manager_active_download_no_net_waiting">Ootan interneti ühendust...</string>
+    <string name="download_manager_active_download_downloading_no_progress">Allalaadimine, kuid edenemist ei näidata</string>
 
-    <string name="yards">yards</string>
-    <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometers</string>
-    <string name="miles">miles</string>
+    <string name="yards">jardid</string>
+    <string name="kilometer">kilomeeter</string>
+    <string name="kilometers">kilomeetrit</string>
+    <string name="miles">miili</string>
 
-    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
-    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_right_long">Parema nupu pikk vajutus</string>
+    <string name="roadbook_controller_button_left_long">Vasaku nupu pikk vajutus(kui on lukustatud)</string>
 
-    <string name="map_layers_location_title">Location Icon</string>
-    <string name="map_layers_location_description">Adjust the current location icon</string>
-    <string name="map_layers_icon_scale">Icon Scale</string>
-    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+    <string name="map_layers_location_title">Asukoha ikoon</string>
+    <string name="map_layers_location_description">Kohandage praeguse asukoha ikooni</string>
+    <string name="map_layers_icon_scale">Ikooni skaala</string>
+    <string name="map_layers_icon_show_accuracy_range">Näita täpsusvahemikku</string>
 
-    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
-    <string name="map_layers_routing_width_line">Line Width</string>
-    <string name="map_layers_routing_transparency_line">Line Opacity</string>
-    <string name="map_layers_routing_pins_size">Indications Size</string>
+    <string name="map_layers_routing_description">Reguleerige arvutatud marsruudijoone laiust kaardil</string>
+    <string name="map_layers_routing_width_line">Joone laius</string>
+    <string name="map_layers_routing_transparency_line">Joone läbipaistmatus</string>
+    <string name="map_layers_routing_pins_size">Märkide suurus</string>
 
-    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Failide uuesti laadimine. Palun oota.</string>
 
-    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_title">Marsruutimise kasutajaliides</string>
 
-    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
-    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
-    <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Luba hääljuhised</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Kasutab teksti kõneks muutmist, et anda navigeerimiseks hääljuhiseid.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Näita teekonnapunkte kaardil</string>
+    <string name="map_settings_navigation_show_waypoints_message">Kuvab kaardil marsruudijuhiste teekonnapunkti nööpnõela.</string>
 
-    <string name="map_layers_poi_fuel">Fuel</string>
-    <string name="map_layers_poi_hospital">Hospital</string>
-    <string name="map_layers_poi_peaks">Peaks</string>
-    <string name="map_layers_poi_parking">Parking</string>
+    <string name="map_layers_poi_fuel">Kütus</string>
+    <string name="map_layers_poi_hospital">Haigla</string>
+    <string name="map_layers_poi_peaks">Tipud</string>
+    <string name="map_layers_poi_parking">Parkimine</string>
 
-    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string name="map_settings_navigation_recalculation_distance">Automaatne marsruudi ümberarvutamise vahemaa</string>
     <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
         <item>50m</item>
         <item>100m</item>
@@ -58,18 +58,18 @@
         <item>Never</item>
     </string-array>
 
-    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
-    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
+    <string name="map_settings_ui_lock_on_move_title">Automaatne lukustus liikumisel</string>
+    <string name="map_settings_ui_lock_on_move_message">Kaart lukustab automaatselt kasutajaliidese, kui hakkad liikuma</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automaatne avamine peatumisel</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Kaart avab automaatselt kasutajaliidese, kui liikumise lõpetad</string>
 
-    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+    <string name="map_lock_button_long_press_unlock">Avamiseks vajuta ja hoia all!</string>
 
-    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string name="top_menu_battery_indicator">Aku indikaator (värskendamiseks võib kuluda mõni minut)</string>
     <string-array name="top_menu_battery_indicator_names" translatable="true">
-        <item>Percentage</item>
-        <item>Current Now</item>
-        <item>Temperature</item>
+        <item>Protsent</item>
+        <item>Vool praegu</item>
+        <item>Temperatuur</item>
     </string-array>
 
 
@@ -92,7 +92,7 @@
     <string name="menu_obd">OBD Sensorid</string>
     <!-- Menu Editor -->
     <string name="menu_edit_title">Muuda alumist menüüd</string>
-    <string name="menu_edit_message">Peida/näita menüü nuppe või muuda järjestust</string>
+    <string name="menu_edit_message">Peida/näita menüü klahve või muuda järjestust</string>
     <string name="menu_sorter_instructions">Nupu liigutamiseks puudutage pikalt. Kasutage lülitit kuvamiseks või peitmiseks.</string>
 
     <!-- Global -->
@@ -450,10 +450,10 @@
     <string name="obd_sensors_select_dialog_message">Seadke uus OBD sensor selle pesa jaoks</string>
     <!-- Throttle Calibration-->
     <string name="obd_min_throttle_calib_dialog_title">Drosselklapi minimaalse nurga kalibreerimine</string>
-    <string name="obd_min_throttle_calib_dialog_message">PALUN LÜLITA MOOTOR SISSE! Veenduge, et sõiduk oleks stabiilsel soojendusjärgsel tühikäigul!!! Teie gaasihoob peaks olema minimaalses asendis (tühikäigul / täielikult välja lülitatud). Kui olete valmis, vajutage nuppu Määra.</string>
+    <string name="obd_min_throttle_calib_dialog_message">PALUN LÜLITA MOOTOR SISSE! Veenduge, et sõiduk oleks stabiilsel soojendusjärgsel tühikäigul!!! Teie gaasihoob peaks olema minimaalses asendis (tühikäigul / täielikult välja lülitatud). Kui olete valmis, vajutage klahvi Määra.</string>
     <string name="obd_throttle_calib_set_minimum">Määra miinimum</string>
     <string name="obd_max_throttle_calib_dialog_title">Drosselklapi maksimaalse nurga kalibreerimine</string>
-    <string name="obd_max_throttle_calib_dialog_message">PALUN LÜLITA MOOTOR VÄLJA! Veenduge, et süüde on SEES ja seejärel suruge gaasirutska maksimaalsesse asendisse (täielikult avatud gaasisiiber). Kui olete valmis, vajutage nuppu Määra.</string>
+    <string name="obd_max_throttle_calib_dialog_message">PALUN LÜLITA MOOTOR VÄLJA! Veenduge, et süüde on SEES ja seejärel suruge gaasirutska maksimaalsesse asendisse (täielikult avatud gaasisiiber). Kui olete valmis, vajutage klahvi Määra.</string>
     <string name="obd_throttle_calib_set_maximum">Määra maksimum</string>
     <string name="obd_cant_calib_obd_disconnected">Ühendage kõigepealt OBD sensor!</string>
     <!-- Fuel Level Options -->
@@ -497,7 +497,7 @@
     <string name="roadbook_settings_locker_disable_instruments_title">Lukustus keelab ka instrumendid</string>
     <string name="roadbook_settings_locker_disable_instruments_message">Kui lukustus on lubatud, keelatakse ka instrumendi puudutused.</string>
     <string name="roadbook_settings_locker_disable_topmenu_title">Lukustus keelab ka ülemise menüü</string>
-    <string name="roadbook_settings_locker_disable_topmenu_message">Kui lukustus on sisse lülitatud, lülitatakse välja ka ülemine menüü. Ainult lukustuse nupp töötab.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Kui lukustus on sisse lülitatud, lülitatakse välja ka ülemine menüü. Ainult lukustuse klahv töötab.</string>
     <string name="roadbook_settings_locker_play_pause_title">Sünkrooni lukk esituse/pausiga</string>
     <string name="roadbook_settings_locker_play_pause_message">Lukustamine käivitab esituse ja avamine käivitab pausi.</string>
     <string name="roadbook_settings_adjustment_cat_title">Kohandused</string>
@@ -662,7 +662,7 @@
     <string name="map_layers_map_base_download_more">Laadi kaardid alla</string>
     <string name="map_layers_map_base_title">Vali laaditavad kaardid</string>
     <string name="map_layers_map_base_file_missing">Viga: kaardifailid puuduvad, laadi need uuesti alla!</string>
-    <string name="map_layers_map_base_no_map_yet">Allalaaditud kaarte ei ole, allalaadimiseks klõpsake nuppu Laadi kaardid alla!</string>
+    <string name="map_layers_map_base_no_map_yet">Allalaaditud kaarte ei ole, allalaadimiseks klõpsake klahvi Laadi kaardid alla!</string>
     <string name="map_layers_downloader_region_title">Valige piirkond</string>
     <string name="map_layers_downloader_country_title">Valige riik</string>
     <string name="map_layers_downloader_country_downloaded_label">Alla laaditud:</string>
