@@ -2,23 +2,23 @@
 
     <!-- New Untranslated -->
 
-    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string name="top_menu_battery_indicator">Akun tilanne (päivittyminen voi kestää joitakin minuutteja)</string>
     <string-array name="top_menu_battery_indicator_names" translatable="true">
-        <item>Percentage</item>
-        <item>Current Now</item>
-        <item>Temperature</item>
+        <item>Varaus-%</item>
+        <item>Jännite</item>
+        <item>Lämpötila</item>
     </string-array>
 
-    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+    <string name="map_lock_button_long_press_unlock">Paina pitkään vapauttaaksesi kartan lukituksen!</string>
 
-    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
-    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
+    <string name="map_settings_ui_lock_on_move_title">Automaattinen lukitus liikkuessa</string>
+    <string name="map_settings_ui_lock_on_move_message">Kartta lukittuu automaattisesti kun lähdet liikkeelle</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automaattinen vapautus pysähtyessä</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Kartta lukitus vapautuu automaattisesti kun pysähdyt</string>
 
-    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string name="map_settings_navigation_recalculation_distance">Reitin automaattisen uudelleenlaskennan etäisyys</string>
 
-    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_downloading_no_progress">Ladataan mutta ei voida näyttää edistymistä</string>
 
     <!-- End Of New Untranslated -->
 
@@ -240,7 +240,7 @@
     <string name="home_widget_trip_description">Näytä reaaliaikaisesti matkan tiedot kuten kuljettu matka, kokonaisaika, aika liikkeellä ja pysähdyksissä sekä keskinopeus.</string>
     <string name="home_widget_apps_title">SOVELLUKSET</string>
     <string name="home_widget_apps_title_long">Sovellusten pikakuvakkeet</string>
-    <string name="home_widget_apps_description">Aseta pikakuvakkeet suosikkisovelluksiisi.</string>
+    <string name="home_widget_apps_description">Pikakuvakkeet suosikkisovelluksiisi.</string>
     <string name="home_widget_apps_selection_dialog_title">Valitse sovelluksen pikakuvake tai tyhjennä paikka</string>
     <string name="home_widget_apps_clear_selection">Tyhjennä paikka</string>
     <string name="home_widget_obd_rpm_title">OBD RPM</string>
@@ -337,7 +337,7 @@
     <string name="apps_view_top_title">Suosikkisovellukset</string>
     <string name="apps_view_app_filter_category_title">Sovellusten valinta</string>
     <string name="apps_filter_enable_title">Salli sovellusten valitseminen</string>
-    <string name="apps_filter_enable_description">Piilottaa sovellukset sovelluslistasta</string>
+    <string name="apps_filter_enable_description">Piilottaa valitut sovellukset sovelluslistasta</string>
     <string name="apps_sorting_category_title">Järjestäminen</string>
     <string name="apps_sorting_setting_title">Valitse kuinka sovellusten pikakuvakkeet järjestetään</string>
     <string-array name="apps_sorting_options_list" translatable="true">
@@ -465,7 +465,7 @@
     <string name="roadbook_settings_distance_multi_factor_title">Matkan korjauskerroin</string>
     <string name="roadbook_settings_distance_multi_factor_message">Aseta Matkan ja Osamatkan korjauskerroin (jos Tiekirjan matkat eroavat)</string>
     <string name="roadbook_settings_no_instruments_title">Piilota mittaristo</string>
-    <string name="roadbook_settings_no_instruments_message">Jos käytät erillistä mittaristoa ja haluat vain käyttää PDF-tiedosta / "paperirullaa".</string>
+    <string name="roadbook_settings_no_instruments_message">Jos käytät erillistä mittaristoa ja haluat vain käyttää PDF-tiedostoa / "paperirullaa".</string>
     <string name="roadbook_settings_reset_session_title">Nollaa sessio</string>
     <string name="roadbook_settings_reset_session_message">Sulkee nykyisen PDF-tiedoston / "paperin" ja nollaa kaikki tilastot ja matkat.</string>
     <string name="roadbook_settings_reset_session_confirm_title">Varmista nollaaminen</string>
