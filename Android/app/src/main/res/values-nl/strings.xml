@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- New Untranslated -->
+    <!-- New translated -->
 
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
@@ -55,8 +55,7 @@
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
 
-
-    <!-- End Of New Untranslated -->
+    <!-- End Of New translated -->
 
 
     <string name="app_name">DMD2</string>
