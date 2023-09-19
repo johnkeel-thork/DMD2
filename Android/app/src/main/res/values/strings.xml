@@ -618,7 +618,6 @@
     <string name="map_layers_map_base_file_missing">Error: The map files are missing, please download them again!</string>
     <string name="map_layers_map_base_no_map_yet">No downloaded maps yet, click Download Maps to download!</string>
     <string name="map_layers_downloader_region_title">Select Region</string>
-    <string name="map_layers_downloader_country_title">Select Country</string>
     <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
     <string name="map_layers_downloader_country_date_label">Last Update:</string>
     <string name="map_layers_downloader_country_size_label">Size:</string>
@@ -915,5 +914,58 @@
     <string name="map_place_search_dialog_type_label">Type a name or address:</string>
     <string name="map_place_search_distance">Straight Line Distance:</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
+    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
+    <string name="map_gpx_recorder_dialog_record">Record</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Resume</string>
+    <string name="map_gpx_recorder_dialog_finish">Finish</string>
+    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
+    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
+    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
+    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
+    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
+    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
+    <string name="map_gpx_recorder_track_edit_color">Color:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
+
 
 </resources>

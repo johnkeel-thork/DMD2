@@ -2,49 +2,58 @@
 
     <!-- New translated -->
 
-    <string name="gpx_manager_gpx_loading_message">GPX File Laden…</string>
-
-    <string name="download_manager_active_download_short">DL:</string>
-    <string name="download_manager_active_download_active">Actief</string>
-    <string name="download_manager_active_download_paused">Gepauzeerd</string>
-    <string name="download_manager_active_download_error">Fout</string>
-    <string name="download_manager_active_download_downloading">Downloading</string>
-    <string name="download_manager_active_download_interrupted">Onderbroken</string>
-    <string name="download_manager_active_download_interrupted_file">Onderbroken file:</string>
-    <string name="download_manager_active_download_no_net">Geen Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Wacht op internet connectie…</string>
-    <string name="download_manager_active_download_downloading_no_progress">Bezig met downloaden, maar kan de voortgang niet weergeven</string>
-
-    <string name="map_layers_poi_fuel">Brandstof</string>
-    <string name="map_layers_poi_hospital">Ziekenhuis</string>
-    <string name="map_layers_poi_peaks">Piek</string>
-    <string name="map_layers_poi_parking">Parkeerplaats</string>
-
-    <string name="map_settings_navigation_recalculation_distance">Automatische herberekening van de afstand</string>
-    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
-        <item>50m</item>
-        <item>100m</item>
-        <item>150m</item>
-        <item>250m</item>
-        <item>500m</item>
-        <item>1Km</item>
-        <item>Nooit</item>
-    </string-array>
-
-    <string name="map_settings_ui_lock_on_move_title">Automatische vergrendeling tijdens het verplaatsen</string>
-    <string name="map_settings_ui_lock_on_move_message">Kaart vergrendelt de gebruikersinterface automatisch wanneer u begint te bewegen</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Automatische ontgrendeling wanneer U stopt</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Kaart ontgrendelt automatisch de gebruikersinterface wanneer u stopt met bewegen</string>
-
-    <string name="map_lock_button_long_press_unlock">Houd ingedrukt om te ontgrendelen!</string>
-
-    <string name="top_menu_battery_indicator">Batterij-indicator (kan enkele minuten duren om te updaten)</string>
-    <string-array name="top_menu_battery_indicator_names" translatable="true">
-        <item>Percentage</item>
-        <item>Actueel</item>
-        <item>Temperatuur</item>
-    </string-array>
-
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
+    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
+    <string name="map_gpx_recorder_dialog_record">Record</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Resume</string>
+    <string name="map_gpx_recorder_dialog_finish">Finish</string>
+    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
+    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
+    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
+    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
+    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
+    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
+    <string name="map_gpx_recorder_track_edit_color">Color:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
 
     <!-- End Of New translated -->
 
@@ -67,7 +76,14 @@
     <string name="menu_edit_title">Onderste Menu Aanpassen</string>
     <string name="menu_edit_message">Menu items ordenen/weergeven/verbergen</string>
     <string name="menu_sorter_instructions">Item aanraken en vasthouden om te verplaatsen. Gebruik de knop om weer te geven of te verbergen.</string>
-
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Batterij Indicator (updates duren enkele minuten)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Stroom nu</item>
+        <item>Temperatuur</item>
+    </string-array>
+    
     <!-- Global -->
     <!-- Units -->
     <string name="mi">Mi</string>
@@ -132,6 +148,17 @@
     <string name="t93_dmd2_edition_button">Licentie-code ingeven</string>
     <string name="t93_finish_trial_button">Proefperiode Stopzetten</string>
     <string name="t93_dmd2_edition_insert_key_title">DMD2-Edition Key invoeren:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Actief</string>
+    <string name="download_manager_active_download_paused">Gepauzeerd</string>
+    <string name="download_manager_active_download_error">Fout</string>
+    <string name="download_manager_active_download_downloading">Downloaden</string>
+    <string name="download_manager_active_download_interrupted">Onderbroken</string>
+    <string name="download_manager_active_download_interrupted_file">Onderbroken bestand:</string>
+    <string name="download_manager_active_download_no_net">Geen Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Wachten op internet verbinding…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Downloaden maar voortgang niet zichtbaar</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Locatiebepaling</string>
@@ -623,6 +650,7 @@
     <string name="map_navigation_selection_dialog_use_dmd2">Gebruik DMD2</string>
     <string name="map_navigation_selection_dialog_use_external">Externe App</string>
     <string name="map_panning_mode_enable">Panning Mode geactiveerd</string>
+    <string name="map_lock_button_long_press_unlock">Lang indrukken voor ontgrendelen!</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Kaart Lagen</string>
     <string name="map_layers_base_map_title">Basis kaartbron</string>
@@ -647,7 +675,6 @@
     <string name="map_layers_map_base_file_missing">Error: de kaart-bestanden ontbreken, download ze opnieuw!</string>
     <string name="map_layers_map_base_no_map_yet">Nog geen gedownloade kaarten, klik op Download Kaarten om te downloaden!</string>
     <string name="map_layers_downloader_region_title">Selecteer Regio</string>
-    <string name="map_layers_downloader_country_title">Selecteer Land</string>
     <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
     <string name="map_layers_downloader_country_date_label">Laatste Update:</string>
     <string name="map_layers_downloader_country_size_label">Grootte:</string>
@@ -661,6 +688,10 @@
     <string name="map_layers_downloader_not_enough_space">Niet genoeg opslagruimte!</string>
     <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
     <string name="map_layers_poi_highlight_description">Toon POI icons op lager zoom level (500m zoom max)(brandstof/ziekenhuis/toppen zijn altijd ingeschakeld).</string>
+    <string name="map_layers_poi_fuel">Brandstof</string>
+    <string name="map_layers_poi_hospital">Ziekenhuis</string>
+    <string name="map_layers_poi_peaks">Pieken</string>
+    <string name="map_layers_poi_parking">Parkeren</string>
     <string name="map_layers_poi_restaurant">Restaurant</string>
     <string name="map_layers_poi_cafe">Cafe</string>
     <string name="map_layers_poi_pub">Pub</string>
@@ -762,6 +793,7 @@
     <string name="gpx_manager_waypoint_not_on_track">Je moet op dezelfde GPX rijden om afstandsinformatie te krijgen.</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Wachten op GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">Selecteer app om te delen</string>
+    <string name="gpx_manager_gpx_loading_message">GPX bestand laden</string>
     <string name="gpx_manager_poi_loading_message">Loading track POI search, dit kan wat tijd in beslag name…</string>
     <string name="gpx_manager_advanced_title">Geavanceerde Opties</string>
     <string name="gpx_manager_advanced_invert_orientation">Rijrichting omkeren</string>
@@ -804,6 +836,10 @@
     <string name="map_settings_ui_enable_track_progress_summary">Toont een box op de zijkant van het scherm met track voortgang en afstand tot volgende POIs en Waypoints.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Schakel kaart-aanraken uit wanneer vergrendeld</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specifiek handig wanneer je een controller hebt, schakelt de schermaanraking volledig uit.</string>
+    <string name="map_settings_ui_lock_on_move_title">Automatisch vergrendelen wanneer onderweg</string>
+    <string name="map_settings_ui_lock_on_move_message">Map vergrendeld UI automatisch wanneer je begint te bewegen</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automatisch ontgrendelen wanneer gestopt</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map ontgrendeld UI automatisch wanneer je stopt met bewegen</string>
     <string name="map_settings_language_cat_title">Kaart Taal</string>
     <string name="map_settings_language_load_mode_title">Kaart Taal</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -819,6 +855,16 @@
     <string name="map_settings_navigation_use_voice_instructions_summary">Maakt gebruik van Text-To-Speech om stembegeleiding bij navigatie.</string>
     <string name="map_settings_navigation_show_waypoints_title">Toon Waypoints op kaart</string>
     <string name="map_settings_navigation_show_waypoints_message">Zal route instructie waypoints weergeven op de kaart.</string>
+    <string name="map_settings_navigation_recalculation_distance">Automatische route herberekening afstand</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Nooit</item>
+    </string-array>
     <string name="map_settings_controller_cat_title">Controller instellingen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Inactiveer Panning Mode Doel</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Inactiveer de nieuwe panning mode doel spot acties</string>

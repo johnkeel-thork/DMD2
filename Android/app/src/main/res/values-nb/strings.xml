@@ -2,21 +2,61 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+    <string name="map_layers_downloader_map_title">Select Map</string>
 
-    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
-    <string-array name="top_menu_battery_indicator_names" translatable="true">
-        <item>Percentage</item>
-        <item>Current Now</item>
-        <item>Temperature</item>
-    </string-array>
-
-    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
-    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
-
-    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
+    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
+    <string name="map_gpx_recorder_dialog_record">Record</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Resume</string>
+    <string name="map_gpx_recorder_dialog_finish">Finish</string>
+    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
+    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
+    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
+    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
+    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
+    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
+    <string name="map_gpx_recorder_track_edit_color">Color:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
+    
 
     <!-- End Of New Untranslated -->
 
@@ -40,6 +80,13 @@
     <string name="menu_edit_title">Endre nedre menylinje</string>
     <string name="menu_edit_message">Endre rekkefølge eller vise/skjule objekter på nedre menylinje.</string>
     <string name="menu_sorter_instructions">Trykk og hold for å flytte. Bruk bryteren for vis/skjul.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Batteri Indikator (oppdatering kan ta noen minutter)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Prosent</item>
+        <item>Ladespenning</item>
+        <item>Temperatur</item>
+    </string-array>
 
     <!-- Global -->
     <!-- Units -->
@@ -606,6 +653,7 @@
     <string name="map_navigation_selection_dialog_use_dmd2">DMD2</string>
     <string name="map_navigation_selection_dialog_use_external">Annen App</string>
     <string name="map_panning_mode_enable">Kartbevegelsesmodus aktivert</string>
+    <string name="map_lock_button_long_press_unlock">Trykk og hold for å låse opp!</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Kartlag</string>
     <string name="map_layers_base_map_title">Kildekart</string>
@@ -630,7 +678,6 @@
     <string name="map_layers_map_base_file_missing">FEIL: Kartfiler mangler, vennligst last ned på nytt!</string>
     <string name="map_layers_map_base_no_map_yet">Ingen kart nedlastet ennå, trykk last ned kart!</string>
     <string name="map_layers_downloader_region_title">Velg region</string>
-    <string name="map_layers_downloader_country_title">Velg land</string>
     <string name="map_layers_downloader_country_downloaded_label">Nedlastede kart:</string>
     <string name="map_layers_downloader_country_date_label">Sist oppdatert:</string>
     <string name="map_layers_downloader_country_size_label">Størrelse:</string>
@@ -792,6 +839,10 @@
     <string name="map_settings_ui_enable_track_progress_summary">En infoboks på venstre side viser fremdrift på sporet og avstand til neste POI og kartnål.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Deaktiver kartberøring når skjermen er låst</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Deaktiverer skjermens berøringsfølsomhet slik at kartet ikke forstyrres av berøring, regn osv. Nyttig når du bruker fjernkontroll!</string>
+    <string name="map_settings_ui_lock_on_move_title">Automatisk skjermlås ved bevegelse</string>
+    <string name="map_settings_ui_lock_on_move_message">Kartvisning vil automatisk låse grensesnittet når du begynner å kjøre</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automatisk opplåsing ved stans</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Kartvisning vil automatisk låse opp grensesnittet når du stanser</string>
     <string name="map_settings_language_cat_title">Kartspråk</string>
     <string name="map_settings_language_load_mode_title">Kartspråk</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -807,6 +858,16 @@
     <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
     <string name="map_settings_navigation_show_waypoints_title">Vis kartnåler på kartet</string>
     <string name="map_settings_navigation_show_waypoints_message">Vil vise kartnåler med instruksjoner på kartet.</string>
+    <string name="map_settings_navigation_recalculation_distance">Minimumsavstand for rekalkulering av navigasjon</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Never</item>
+    </string-array>
     <string name="map_settings_controller_cat_title">Innstillinger for fjernkontroller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer den nye valgmuligheten for kartpanoreringsmodus</string>
