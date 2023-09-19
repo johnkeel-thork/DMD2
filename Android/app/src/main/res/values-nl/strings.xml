@@ -1,6 +1,6 @@
 <resources>
 
-    <!-- New translated -->
+    <!-- New Untranslated -->
 
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
@@ -55,7 +55,83 @@
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
 
-    <!-- End Of New translated -->
+
+    <string name="obd_protocols_title">OBD Protocol</string>
+    <string name="obd_reader_config_title">Reader Config Commands</string>
+    <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with a new line</string>
+    <string name="obd_select_device_title">Choose Paired OBD Device</string>
+    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
+    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
+    <string name="obd_settings_use_alt_voltage_title">Get Voltage from Dongle</string>
+    <string name="obd_settings_use_alt_voltage_message">Use STVR command for voltage reading instead of ECU PID</string>
+    <string name="obd_fuel_level_settings">Fuel Level Settings</string>
+    <string name="obd_fuel_level_calculated">Calculate fuel level</string>
+    <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
+    <string name="obd_fuel_level_avg_mileage">Fuel Tank Average Mileage</string>
+    <string name="obd_fuel_level_avg_mileage_summary">What is your average mileage with a full tank</string>
+    <string name="obd_speed_rpm_cat_title">Speed and RPM Options</string>
+    <string name="obd_speed_gps_source_title">GPS Speed Value Source</string>
+    <string name="obd_speed_gps_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
+    <string name="obd_max_rpm_title">Set Maximum RPM</string>
+    <string name="obd_max_rpm_summary">Set your vehicle maximum RPM value</string>
+    <string name="obd_redline_rpm_title">Set redline RPM</string>
+    <string name="obd_redline_rpm_summary">Set your redline RPM value</string>
+    <string name="obd_throttle_options">Throttle Options</string>
+    <string name="obd_use_raw_throttle_title">Use RAW Throttle Position value</string>
+    <string name="obd_use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
+    <string name="obd_calibrate_throttle_title">Calibrate Throttle Position</string>
+    <string name="obd_calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <!-- Sensors-->
+    <string name="obd_sensors_coolant_short_label">COOLANT</string>
+    <string name="obd_sensors_coolant_long_label">Coolant Temperature</string>
+    <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
+    <string name="obd_sensors_voltage_long_label">Voltage</string>
+    <string name="obd_sensors_throttle_short_label">THROTTLE</string>
+    <string name="obd_sensors_throttle_long_label">Throttle Position</string>
+    <string name="obd_sensors_fuel_short_label">FUEL</string>
+    <string name="obd_sensors_fuel_long_label">Fuel Level</string>
+    <string name="obd_sensors_timing_short_label">SPARK</string>
+    <string name="obd_sensors_timing_long_label">Spark Advance</string>
+    <string name="obd_sensors_intake_temp_short_label">IAT</string>
+    <string name="obd_sensors_intake_temp_long_label">Intake Temperature</string>
+    <string name="obd_sensors_intake_maf_short_label">MAF</string>
+    <string name="obd_sensors_intake_maf_long_label">Mass Air Flow</string>
+    <string name="obd_sensors_intake_map_short_label">MAP</string>
+    <string name="obd_sensors_intake_map_long_label">Mass Air Pressure</string>
+    <!-- Select Sensor Dialog-->
+    <string name="obd_sensors_select_dialog_title">Select OBD Sensor</string>
+    <string name="obd_sensors_select_dialog_message">Set a new OBD Sensor for this slot</string>
+    <!-- Throttle Calibration-->
+    <string name="obd_min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
+    <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
+    <string name="obd_throttle_calib_set_minimum">Set Minimum</string>
+    <string name="obd_max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
+    <string name="obd_max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE! Make sure ignition is ON and then push your throttle position to the maximum position (full open throttle). Press the Set button when ready.</string>
+    <string name="obd_throttle_calib_set_maximum">Set Maximum</string>
+    <string name="obd_cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <!-- Fuel Level Options -->
+    <string name="obd_fuel_dialog_title">Fuel Level Options</string>
+    <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
+    <string name="obd_fuel_dialog_reset">Reset</string>
+    <string name="obd_fuel_dialog_edit">Edit</string>
+    <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
+    <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
+    <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
+    <string name="obd_fuel_dialog_edit_error2">Error: not a valid distance number!</string>
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">No DTC Errors</string>
+    <string name="obd_dtc_dialog_title">DTC Errors</string>
+    <string name="obd_dtc_dialog_reset_errors">Reset Errors</string>
+    <string name="obd_dtc_dialog_error_options">Error Options</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Ignore Error:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Error: You are not connected to the ECU!</string>
+    <!-- Service -->
+    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
+    <string name="obd_service_obd_connected">Connected to dongle!</string>
+    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
+
+
+    <!-- End Of New Untranslated -->
 
 
     <string name="app_name">DMD2</string>
@@ -83,7 +159,7 @@
         <item>Stroom nu</item>
         <item>Temperatuur</item>
     </string-array>
-    
+
     <!-- Global -->
     <!-- Units -->
     <string name="mi">Mi</string>
@@ -407,79 +483,7 @@
     <string name="obd_cat_title_pref">OBD Voorkeuren</string>
     <string name="obd_device_setup">OBD Bluetooth Instellingen</string>
     <string name="obd_protocols_summary">Selecteer te gebruiken OBD Protocol</string>
-    <string name="obd_protocols_title">OBD Protocol</string>
-    <string name="obd_reader_config_title">Reader Config Commands</string>
-    <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with a new line</string>
-    <string name="obd_select_device_title">Choose Paired OBD Device</string>
-    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
-    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
-    <string name="obd_settings_use_alt_voltage_title">Get Voltage from Dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Use STVR command for voltage reading instead of ECU PID</string>
-    <string name="obd_fuel_level_settings">Fuel Level Settings</string>
-    <string name="obd_fuel_level_calculated">Calculate fuel level</string>
-    <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
-    <string name="obd_fuel_level_avg_mileage">Fuel Tank Average Mileage</string>
-    <string name="obd_fuel_level_avg_mileage_summary">What is your average mileage with a full tank</string>
-    <string name="obd_speed_rpm_cat_title">Speed and RPM Options</string>
-    <string name="obd_speed_gps_source_title">GPS Speed Value Source</string>
-    <string name="obd_speed_gps_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
-    <string name="obd_max_rpm_title">Set Maximum RPM</string>
-    <string name="obd_max_rpm_summary">Set your vehicle maximum RPM value</string>
-    <string name="obd_redline_rpm_title">Set redline RPM</string>
-    <string name="obd_redline_rpm_summary">Set your redline RPM value</string>
-    <string name="obd_throttle_options">Throttle Options</string>
-    <string name="obd_use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="obd_use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="obd_calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="obd_calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
-    <!-- Sensors-->
-    <string name="obd_sensors_coolant_short_label">COOLANT</string>
-    <string name="obd_sensors_coolant_long_label">Coolant Temperature</string>
-    <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
-    <string name="obd_sensors_voltage_long_label">Voltage</string>
-    <string name="obd_sensors_throttle_short_label">THROTTLE</string>
-    <string name="obd_sensors_throttle_long_label">Throttle Position</string>
-    <string name="obd_sensors_fuel_short_label">FUEL</string>
-    <string name="obd_sensors_fuel_long_label">Fuel Level</string>
-    <string name="obd_sensors_timing_short_label">SPARK</string>
-    <string name="obd_sensors_timing_long_label">Spark Advance</string>
-    <string name="obd_sensors_intake_temp_short_label">IAT</string>
-    <string name="obd_sensors_intake_temp_long_label">Intake Temperature</string>
-    <string name="obd_sensors_intake_maf_short_label">MAF</string>
-    <string name="obd_sensors_intake_maf_long_label">Mass Air Flow</string>
-    <string name="obd_sensors_intake_map_short_label">MAP</string>
-    <string name="obd_sensors_intake_map_long_label">Mass Air Pressure</string>
-    <!-- Select Sensor Dialog-->
-    <string name="obd_sensors_select_dialog_title">Select OBD Sensor</string>
-    <string name="obd_sensors_select_dialog_message">Set a new OBD Sensor for this slot</string>
-    <!-- Throttle Calibration-->
-    <string name="obd_min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_minimum">Set Minimum</string>
-    <string name="obd_max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="obd_max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE! Make sure ignition is ON and then push your throttle position to the maximum position (full open throttle). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_maximum">Set Maximum</string>
-    <string name="obd_cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
-    <!-- Fuel Level Options -->
-    <string name="obd_fuel_dialog_title">Fuel Level Options</string>
-    <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
-    <string name="obd_fuel_dialog_reset">Reset</string>
-    <string name="obd_fuel_dialog_edit">Edit</string>
-    <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
-    <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
-    <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
-    <string name="obd_fuel_dialog_edit_error2">Error: not a valid distance number!</string>
-    <!-- DTC Errors Dialog -->
-    <string name="obd_dtc_no_error">No DTC Errors</string>
-    <string name="obd_dtc_dialog_title">DTC Errors</string>
-    <string name="obd_dtc_dialog_reset_errors">Reset Errors</string>
-    <string name="obd_dtc_dialog_error_options">Error Options</string>
-    <string name="obd_dtc_dialog_error_ignore_error">Ignore Error:</string>
-    <string name="obd_dtc_dialog_error_reset_error">Error: You are not connected to the ECU!</string>
-    <!-- Service -->
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
+    
     <!-- License -->
     <string name="obd_license_title">OBD2 Demo Mode</string>
     <string name="obd_license_message">Demo mode is gelimiteerd tot 15 minuten per sessie. Koop de OBD Plugin om vrij te geven!</string>
