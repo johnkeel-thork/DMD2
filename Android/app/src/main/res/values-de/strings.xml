@@ -1,6 +1,11 @@
-gen<resources>
+<resources>
 
     <!-- New Untranslated -->
+
+    <string name="map_layers_downloader_map_title">Select Map</string>
+    
+    
+    
 
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
