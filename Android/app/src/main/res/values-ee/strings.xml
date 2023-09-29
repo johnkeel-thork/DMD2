@@ -2,6 +2,15 @@
 
     <!-- New Untranslated -->
 
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
     <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
@@ -54,7 +63,9 @@
     <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
-    
+
+    <string name="map_layers_downloader_map_title">Select Map</string>
+
     <!-- End Of New Untranslated -->
 
 
@@ -83,7 +94,7 @@
         <item>Vool praegu</item>
         <item>Temperatuur</item>
     </string-array>
-    
+
     <!-- Global -->
     <!-- Units -->
     <string name="mi">Mi</string>
@@ -776,8 +787,6 @@
     <string name="gpx_manager_track_manager_title">Raja haldur</string>
     <string name="gpx_manager_track_manager_no_description">Raja kirjeldust pole saadaval.</string>
     <string name="gpx_manager_track_manager_track_length">Raja pikkus</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Navigeeri starti</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Navigeeri lõppu</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valige Navigeerimisrakendus</string>
     <string name="gpx_manager_track_manager_poi_search">POI otsing</string>
     <string name="gpx_manager_no_waypoint_warning">Valitud GPX-fail ei sisalda teekonnapunkte!</string>
@@ -798,9 +807,6 @@
     <string name="gpx_manager_advanced_title">Täpsemad sätted</string>
     <string name="gpx_manager_advanced_invert_orientation">Pööra reisisuunda</string>
     <string name="gpx_manager_advanced_convert_to_route">Proovige teisendada terve fail navigeerimiseks:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Kui GPX sisaldab maastikuradasid, kasutage MIXED-profiili\nLow (Fast): kiirem arvutus, kuid võib algsest GPX-ist erineda.\nHigh (Slow): aeglasem arvutus, eriti suurte failide puhul, kuid hälve on väiksem.\nNOTICE: suured GPX-failid (üle 1000 km) võivad, isegi kiirrežiimis, kesta terve igaviku…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Low (Fast)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">High (Slow)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">See GPX-fail ei sisalda ühtegi rada!</string>
 
     <!-- Map Press Actions -->
