@@ -2,61 +2,15 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_layers_downloader_map_title">Velg kart</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
 
-    <!-- GPX Recorder -->
-    <string name="map_gpx_recorder_dialog_title">GPX Opptak</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Turopptak</string>
-    <string name="map_gpx_recorder_dialog_status">Opptaksstatus:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Avstand:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Punkjter:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Spor:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Kartnåler:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Starttid:</string>
-    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kjøretid:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Gj.snittshast.:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Høydemeter:</string>
-    <string name="map_gpx_recorder_dialog_record">Ta opp</string>
-    <string name="map_gpx_recorder_dialog_pause">Pause</string>
-    <string name="map_gpx_recorder_dialog_resume">Fortsett</string>
-    <string name="map_gpx_recorder_dialog_finish">Avslutt</string>
-    <string name="map_gpx_recorder_dialog_add_track">Nytt spor</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Legg til kartnål</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Tar ikke opp, trykk "Ta opp" for å starte!</string>
-    <string name="map_gpx_recorder_dialog_status_recording">Tar opp GPX, trykk avslut for å avslutte og lagre</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Turopptak pauset, trykk fortsett eller avslutt</string>
-    <string name="map_gpx_recorder_dialog_points_short">pkt</string>
-    <string name="map_gpx_recorder_new_track_title">Nytt spornavn</string>
-    <string name="map_gpx_recorder_new_track_add_track">Legg til spor</string>
-    <string name="map_gpx_recorder_inactive_warning">Går ikke! Turopptak ikke iverksatt!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Avslutt turopptak</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Vennligst velg lagre til GPX, forkast eller slett opptak, eller lukk denne dialogen og fortsett turopptak.</string>
-    <string name="map_gpx_recorder_finish_name_file_title">Navn for GPX-fil</string>
-    <string name="map_gpx_recorder_finish_name_file_discard">Forkast / Slett</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">En fil med dette navnet finnes allerede!</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Prøv igjen</string>
-    <string name="map_gpx_recorder_recordings_list">Liste over Turopptak</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">Ingen turer tatt opp ennå!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Last inn GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">tast inn nytt filnavn:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">Ny kartnål</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Navn på kartnål</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Beskrivelse</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Trykk på plassering</string>
-    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automatisk utfylling</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Kartnål</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Trykk på kart for å plassere</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Trykk på kartnålens plassering og trykk bekreft posisjon!</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_save">Bekreft posisjon</string>
-    <string name="map_gpx_recorder_tracks_edit">Turopptakhåndtering</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">Ingen turopptak så langt!</string>
-    <string name="map_gpx_recorder_track_edit_name">Spornavn</string>
-    <string name="map_gpx_recorder_track_edit_description">Sporbeskrivelse</string>
-    <string name="map_gpx_recorder_track_edit_color">Farge:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Kartnålhåndtering</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Kartnålikon:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen kartnåler sålangt!</string>
-    
 
     <!-- End Of New Untranslated -->
 
@@ -678,6 +632,7 @@
     <string name="map_layers_map_base_file_missing">FEIL: Kartfiler mangler, vennligst last ned på nytt!</string>
     <string name="map_layers_map_base_no_map_yet">Ingen kart nedlastet ennå, trykk last ned kart!</string>
     <string name="map_layers_downloader_region_title">Velg region</string>
+    <string name="map_layers_downloader_map_title">Velg kart</string>
     <string name="map_layers_downloader_country_downloaded_label">Nedlastede kart:</string>
     <string name="map_layers_downloader_country_date_label">Sist oppdatert:</string>
     <string name="map_layers_downloader_country_size_label">Størrelse:</string>
@@ -779,8 +734,6 @@
     <string name="gpx_manager_track_manager_title">Sporhåndtering</string>
     <string name="gpx_manager_track_manager_no_description">Ingen beskrivelse av sporet tilgjengelig.</string>
     <string name="gpx_manager_track_manager_track_length">Sporlengde</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Naviger til sporstart</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Naviger til sporslutt</string>
     <string name="gpx_manager_track_manager_select_nav_app">Velg navigasjonsapp</string>
     <string name="gpx_manager_track_manager_poi_search">POI-søk</string>
     <string name="gpx_manager_no_waypoint_warning">Den valgte GPX-filen inneholder ingen kartnåler!</string>
@@ -801,9 +754,6 @@
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
     <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
     <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Hvis GPX-filen inneholder off-road, vennligst bruk BLANDET profil!\nRASK (Lav nøyaktighet): Raskere utregning, men kan avvike fra originalt spor.\nTREG (Høy nøyaktighet): Tregere utregning, særlig på store filer, men vil ha færre avvik fra originalt spor.\nNB!: Store GPX-filer (over 1000Km), kan ta håpløst lang tid, selv i RASK modus…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">RASK</string>
-    <string name="gpx_manager_advanced_convert_button_slow">TREG</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
     <!-- Map Press Actions -->
@@ -974,5 +924,57 @@
     <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
     <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
     <string name="map_place_search_distance">Avstand i luftlinje:</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Opptak</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Turopptak</string>
+    <string name="map_gpx_recorder_dialog_status">Opptaksstatus:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Avstand:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punkjter:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Spor:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Kartnåler:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Starttid:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kjøretid:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Gj.snittshast.:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Høydemeter:</string>
+    <string name="map_gpx_recorder_dialog_record">Ta opp</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Fortsett</string>
+    <string name="map_gpx_recorder_dialog_finish">Avslutt</string>
+    <string name="map_gpx_recorder_dialog_add_track">Nytt spor</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Legg til kartnål</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Tar ikke opp, trykk "Ta opp" for å starte!</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Tar opp GPX, trykk avslut for å avslutte og lagre</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Turopptak pauset, trykk fortsett eller avslutt</string>
+    <string name="map_gpx_recorder_dialog_points_short">pkt</string>
+    <string name="map_gpx_recorder_new_track_title">Nytt spornavn</string>
+    <string name="map_gpx_recorder_new_track_add_track">Legg til spor</string>
+    <string name="map_gpx_recorder_inactive_warning">Går ikke! Turopptak ikke iverksatt!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Avslutt turopptak</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Vennligst velg lagre til GPX, forkast eller slett opptak, eller lukk denne dialogen og fortsett turopptak.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Navn for GPX-fil</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Forkast / Slett</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">En fil med dette navnet finnes allerede!</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Prøv igjen</string>
+    <string name="map_gpx_recorder_recordings_list">Liste over Turopptak</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Ingen turer tatt opp ennå!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Last inn GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">tast inn nytt filnavn:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Ny kartnål</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Navn på kartnål</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Beskrivelse</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Trykk på plassering</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automatisk utfylling</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Kartnål</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Trykk på kart for å plassere</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Trykk på kartnålens plassering og trykk bekreft posisjon!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Bekreft posisjon</string>
+    <string name="map_gpx_recorder_tracks_edit">Turopptakhåndtering</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Ingen turopptak så langt!</string>
+    <string name="map_gpx_recorder_track_edit_name">Spornavn</string>
+    <string name="map_gpx_recorder_track_edit_description">Sporbeskrivelse</string>
+    <string name="map_gpx_recorder_track_edit_color">Farge:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Kartnålhåndtering</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Kartnålikon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen kartnåler sålangt!</string>
 
 </resources>
