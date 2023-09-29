@@ -2,6 +2,15 @@
 
     <!-- New Untranslated -->
 
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+
     <string name="map_layers_downloader_map_title">Select Map</string>
 
     <string name="obd_protocols_title">OBD Protocol</string>
@@ -728,8 +737,6 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Geen track beschrijving beschikbaar.</string>
     <string name="gpx_manager_track_manager_track_length">Track Lengte</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Navigeer naar Start</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Navigeer naar Einde</string>
     <string name="gpx_manager_track_manager_select_nav_app">Selecteer Navigatie App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Zoeken</string>
     <string name="gpx_manager_no_waypoint_warning">Het geselecteerde GPF-bestand bevat geen waypoints!</string>
@@ -750,9 +757,6 @@
     <string name="gpx_manager_advanced_title">Geavanceerde Opties</string>
     <string name="gpx_manager_advanced_invert_orientation">Rijrichting omkeren</string>
     <string name="gpx_manager_advanced_convert_to_route">Probeer volledig bestand te converteren naar navigatie:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Als de GPF off-road tracks bevat, gebruik dan MIXED profile!\nLaag (Snel): Snellere berekening, maar kan afwijken van originele GPX.\nHoog (Traag): Tragere berekening, vooral bij grote bestanden, maar zal minder afwijken.\nOpmerking: Grote GPX-bestanden (boven 1000km), zelfs op snelle modus, kan eeuwig duren…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Laag (Snel)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">Hoog (Traag)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Dit GPX-bestand bevat geen tracks!</string>
 
     <!-- Map Press Actions -->
