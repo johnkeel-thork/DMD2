@@ -3,62 +3,15 @@
     <!-- New Untranslated -->
 
     <string name="map_layers_downloader_map_title">Select Map</string>
-    
-    
-    
 
-    <!-- GPX Recorder -->
-    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Aufzeichnungen</string>
-    <string name="map_gpx_recorder_dialog_status">Aufzeichnungs Status:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Entfernung:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Punkte:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Wegpunkte:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Gestartet:</string>
-    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Vergangen:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">V⌀:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Höhenmeter:</string>
-    <string name="map_gpx_recorder_dialog_record">Aufzeichnen</string>
-    <string name="map_gpx_recorder_dialog_pause">Pause</string>
-    <string name="map_gpx_recorder_dialog_resume">Fortsetzen</string>
-    <string name="map_gpx_recorder_dialog_finish">Abschließen</string>
-    <string name="map_gpx_recorder_dialog_add_track">Neuer Track</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Neuer Wegpunkt</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Keine Aufzeichnung, drücke Aufzeichnen um zu starten</string>
-    <string name="map_gpx_recorder_dialog_status_recording">Zeichne GPX auf, drücke Fertigstellen um zu beenden + speichern</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Aufzeichnung pausiert, fortsetzen oder fertigstellen</string>
-    <string name="map_gpx_recorder_dialog_points_short">pkte</string>
-    <string name="map_gpx_recorder_new_track_title">Neuer Track Name</string>
-    <string name="map_gpx_recorder_new_track_add_track">Weiterer Track</string>
-    <string name="map_gpx_recorder_inactive_warning">Nicht möglich, keine Aufzeichnung gestartet!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Aufzeichnung Fertigstellen</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Entweder Aufzeichnung als GPX-Datei speichern, verwerfen und löschen oder dieses Dialog schließen um die Aufzeichnung fortzusetzen.</string>
-    <string name="map_gpx_recorder_finish_name_file_title">Name für GPX-Datei</string>
-    <string name="map_gpx_recorder_finish_name_file_discard">Verwerfen/Löschen</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Datei existiert bereits</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Erneut versuchen</string>
-    <string name="map_gpx_recorder_recordings_list">Aufzeichnungs Liste</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">Noch keine Aufzeichnungen!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Lade GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippe neuen Dateinamen:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">Neuer Wegpunkt</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Wegpunkt Name</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Beschreibung</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Tippe auf Ort</string>
-    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Ausfüllen</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Wegpunkt</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tippe auf Karte zum Positionieren</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tippe an die Stelle für neuen Wegpunkt und bestätige mit Setzen Knopf!</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_save">Setze Position</string>
-    <string name="map_gpx_recorder_tracks_edit">Track Editor für Aufzeichnungen</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">Noch keine Tracks!</string>
-    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
-    <string name="map_gpx_recorder_track_edit_description">Track Beschreibung</string>
-    <string name="map_gpx_recorder_track_edit_color">Farbe:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Wegpunkt Editor für Aufzeichnungen</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Symbol:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Noch keine Wegpunkte!</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
 
 
     <!-- End Of New Untranslated -->
@@ -782,8 +735,6 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Keine Trackbeschreibung verfügbar.</string>
     <string name="gpx_manager_track_manager_track_length">Track Länge</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Navigiere zum Start</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Navigiere zum Ende</string>
     <string name="gpx_manager_track_manager_select_nav_app">Wähle Navigations App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Suche</string>
     <string name="gpx_manager_no_waypoint_warning">Die ausgewählte GPX-Datei enthält keinen Wegpunkt!</string>
@@ -804,9 +755,6 @@
     <string name="gpx_manager_advanced_title">Erweiterte Optionen</string>
     <string name="gpx_manager_advanced_invert_orientation">Fahrtrichtung umkehren</string>
     <string name="gpx_manager_advanced_convert_to_route">Versuch, die vollständige Datei in eine Navigation umzuwandeln:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Wenn GPX Strecken Off-Road Anteile enthalten, verwende bitte das Profil MIXED!\nNiedrig (Schnell): Schnellere Berechnung, kann aber vom Original-GPX abweichen.\nHoch (Langsam): Langsamere Berechnung, besonders bei großen Dateien, aber weniger Abweichungen.\nHINWEIS: Große GPX-Dateien (über 1000Km) können selbst im schnellen Modus ewig dauern…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Niedrig (Schnell)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">Hoch (Langsam)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Diese GPX-Datei enthält keinen Track!</string>
 
     <!-- Map Press Actions -->
@@ -968,5 +916,57 @@
     <string name="map_place_search_instructions">Tippe mindestens 3 Buchstaben um Ergebnisse zu sehen</string>
     <string name="map_place_search_dialog_type_label">Schreibe einen Namen oder Adresse:</string>
     <string name="map_place_search_distance">Entfernung in gerader Linie:</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Aufzeichnungen</string>
+    <string name="map_gpx_recorder_dialog_status">Aufzeichnungs Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Entfernung:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punkte:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Wegpunkte:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Gestartet:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Vergangen:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">V⌀:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Höhenmeter:</string>
+    <string name="map_gpx_recorder_dialog_record">Aufzeichnen</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Fortsetzen</string>
+    <string name="map_gpx_recorder_dialog_finish">Abschließen</string>
+    <string name="map_gpx_recorder_dialog_add_track">Neuer Track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Neuer Wegpunkt</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Keine Aufzeichnung, drücke Aufzeichnen um zu starten</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Zeichne GPX auf, drücke Fertigstellen um zu beenden + speichern</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Aufzeichnung pausiert, fortsetzen oder fertigstellen</string>
+    <string name="map_gpx_recorder_dialog_points_short">pkte</string>
+    <string name="map_gpx_recorder_new_track_title">Neuer Track Name</string>
+    <string name="map_gpx_recorder_new_track_add_track">Weiterer Track</string>
+    <string name="map_gpx_recorder_inactive_warning">Nicht möglich, keine Aufzeichnung gestartet!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Aufzeichnung Fertigstellen</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Entweder Aufzeichnung als GPX-Datei speichern, verwerfen und löschen oder dieses Dialog schließen um die Aufzeichnung fortzusetzen.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Name für GPX-Datei</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Verwerfen/Löschen</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Datei existiert bereits</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Erneut versuchen</string>
+    <string name="map_gpx_recorder_recordings_list">Aufzeichnungs Liste</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Noch keine Aufzeichnungen!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Lade GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippe neuen Dateinamen:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Neuer Wegpunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Wegpunkt Name</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Beschreibung</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tippe auf Ort</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Ausfüllen</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Wegpunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tippe auf Karte zum Positionieren</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tippe an die Stelle für neuen Wegpunkt und bestätige mit Setzen Knopf!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Setze Position</string>
+    <string name="map_gpx_recorder_tracks_edit">Track Editor für Aufzeichnungen</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Noch keine Tracks!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
+    <string name="map_gpx_recorder_track_edit_description">Track Beschreibung</string>
+    <string name="map_gpx_recorder_track_edit_color">Farbe:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Wegpunkt Editor für Aufzeichnungen</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Symbol:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Noch keine Wegpunkte!</string>
 
 </resources>
