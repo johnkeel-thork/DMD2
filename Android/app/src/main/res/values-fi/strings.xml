@@ -1,61 +1,16 @@
 <resources>
 
     <!-- New Untranslated -->
-    
-    <string name="map_layers_downloader_map_title">Valitse kartta</string>
 
-    <!-- GPX Recorder -->
-    <string name="map_gpx_recorder_dialog_title">GPX-tallennus</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Tallenteet</string>
-    <string name="map_gpx_recorder_dialog_status">Tallennuksen tila:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Matka:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Pisteitä:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Jälkiä:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Reittipisteitä:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Aloitettu:</string>
-    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kulunut:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Keskinopeus:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Nousu:</string>
-    <string name="map_gpx_recorder_dialog_record">Tallenna</string>
-    <string name="map_gpx_recorder_dialog_pause">Pysäytä</string>
-    <string name="map_gpx_recorder_dialog_resume">Jatka</string>
-    <string name="map_gpx_recorder_dialog_finish">Lopeta</string>
-    <string name="map_gpx_recorder_dialog_add_track">Uusi jälki</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Lisää reittipiste</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Tallennus ei ole käynnissä, paina Tallenna-painiketta tallentaaksesi</string>
-    <string name="map_gpx_recorder_dialog_status_recording">Tallennetaan GPX-jälkeä, paina Lopeta-painiketta päättääksesi tallennuksen</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Tallennus pysäytetty, Jatka tai Lopeta painikkeilla</string>
-    <string name="map_gpx_recorder_dialog_points_short">pisteet</string>
-    <string name="map_gpx_recorder_new_track_title">Uuden jäljen nimi</string>
-    <string name="map_gpx_recorder_new_track_add_track">Lisää jälki</string>
-    <string name="map_gpx_recorder_inactive_warning">Ei onnistunut. Tallennus ei ole käynnissä!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Päätä tallennus</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Valitse tallentaa GPX-tiedostoon, hylätä ja poistaa tallenteen vai sulkea tämän dialogin ja jatkaa tallennusta.</string>
-    <string name="map_gpx_recorder_finish_name_file_title">GPX-tiedoston nimi</string>
-    <string name="map_gpx_recorder_finish_name_file_discard">Hylkää / Poista</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Tiedosto on jo olemassa</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Yritä uudelleen</string>
-    <string name="map_gpx_recorder_recordings_list">Lista tallenteista</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">Ei tallennettuja GPX-tiedostoja!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Lataa GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Anna tiedoston nimi:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">Uusi reittipiste</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Reittipisteen nimi</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Kuvaus</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Kosketuksen sijainti</string>
-    <string name="map_gpx_recorder_add_waypoint_auto_fill">Täytä automaattisesti</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Reittipiste</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Kosketa kartalla sijoittaaksesi</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Kosketa uuden reittipisteen paikkaa kartalla ja paina Aseta-painiketta!</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_save">Aseta sijainti</string>
-    <string name="map_gpx_recorder_tracks_edit">Tallennin: Jälkien editointi</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">Ei jälkiä!</string>
-    <string name="map_gpx_recorder_track_edit_name">Jäljen nimi</string>
-    <string name="map_gpx_recorder_track_edit_description">Jäljen kuvaus</string>
-    <string name="map_gpx_recorder_track_edit_color">Väri:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Tallennin: Reittipisteiden editointi Editor</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Merkin kuvake:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ei reittipisteitä!</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+
 
     <!-- End Of New Untranslated -->
 
@@ -677,6 +632,7 @@
     <string name="map_layers_map_base_file_missing">Virhe: Karttatiedostot puuttuvat, lataa ne uudelleen!</string>
     <string name="map_layers_map_base_no_map_yet">Karttoja ei ole vielä ladattu, paina Lataa karttoja!</string>
     <string name="map_layers_downloader_region_title">Valitse alue</string>
+    <string name="map_layers_downloader_map_title">Valitse kartta</string>
     <string name="map_layers_downloader_country_downloaded_label">Ladattu:</string>
     <string name="map_layers_downloader_country_date_label">Päivitetty:</string>
     <string name="map_layers_downloader_country_size_label">Koko:</string>
@@ -778,8 +734,6 @@
     <string name="gpx_manager_track_manager_title">Jälkien hallinta</string>
     <string name="gpx_manager_track_manager_no_description">Jäljen kuvausta ei ole käytettävissä.</string>
     <string name="gpx_manager_track_manager_track_length">Jäljen pituus</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Navigoi alkuun</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Navigoi loppuun</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valitse navigointisovellus</string>
     <string name="gpx_manager_track_manager_poi_search">POI-haku</string>
     <string name="gpx_manager_no_waypoint_warning">Valittu GPX-tiedosto ei sisällä reittipisteitä!</string>
@@ -800,9 +754,6 @@
     <string name="gpx_manager_advanced_title">Lisäasetukset</string>
     <string name="gpx_manager_advanced_invert_orientation">Käännä suunta</string>
     <string name="gpx_manager_advanced_convert_to_route">Yritetään konvertoida koko tiedosto navigoitavaksi:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Jos GPX sisältää off-road jälkiä, käytä MIXED profiilia!\nMatala (Nopea): Nopeampi laskenta mutta voi poiketa alkuperäisestä GPX:stä.\nKorkea (Hidas): Hitaampi laskenta, erityisesti isoille tiedostoille, mutta poikkeaa vähemmän.\nHUOM!: Isojen tiedostojen (yli 1000Km)käsittely kestää ikuisuuden nopeallakin vaihtoehdolla…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Matala (Nopea)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">Karkea (Hidas)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Tämä GPX-tiedosto ei sisällä jälkiä!</string>
 
     <!-- Map Press Actions -->
@@ -973,5 +924,57 @@
     <string name="map_place_search_dialog_title">Osoitehaku (online)</string>
     <string name="map_place_search_dialog_type_label">Syötä paikannimi tai osoite:</string>
     <string name="map_place_search_distance">Etäisyys linnuntietä:</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX-tallennus</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Tallenteet</string>
+    <string name="map_gpx_recorder_dialog_status">Tallennuksen tila:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Matka:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Pisteitä:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Jälkiä:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Reittipisteitä:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Aloitettu:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kulunut:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Keskinopeus:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Nousu:</string>
+    <string name="map_gpx_recorder_dialog_record">Tallenna</string>
+    <string name="map_gpx_recorder_dialog_pause">Pysäytä</string>
+    <string name="map_gpx_recorder_dialog_resume">Jatka</string>
+    <string name="map_gpx_recorder_dialog_finish">Lopeta</string>
+    <string name="map_gpx_recorder_dialog_add_track">Uusi jälki</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Lisää reittipiste</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Tallennus ei ole käynnissä, paina Tallenna-painiketta tallentaaksesi</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Tallennetaan GPX-jälkeä, paina Lopeta-painiketta päättääksesi tallennuksen</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Tallennus pysäytetty, Jatka tai Lopeta painikkeilla</string>
+    <string name="map_gpx_recorder_dialog_points_short">pisteet</string>
+    <string name="map_gpx_recorder_new_track_title">Uuden jäljen nimi</string>
+    <string name="map_gpx_recorder_new_track_add_track">Lisää jälki</string>
+    <string name="map_gpx_recorder_inactive_warning">Ei onnistunut. Tallennus ei ole käynnissä!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Päätä tallennus</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Valitse tallentaa GPX-tiedostoon, hylätä ja poistaa tallenteen vai sulkea tämän dialogin ja jatkaa tallennusta.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">GPX-tiedoston nimi</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Hylkää / Poista</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Tiedosto on jo olemassa</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Yritä uudelleen</string>
+    <string name="map_gpx_recorder_recordings_list">Lista tallenteista</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Ei tallennettuja GPX-tiedostoja!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Lataa GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Anna tiedoston nimi:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Uusi reittipiste</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Reittipisteen nimi</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Kuvaus</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Kosketuksen sijainti</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Täytä automaattisesti</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Reittipiste</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Kosketa kartalla sijoittaaksesi</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Kosketa uuden reittipisteen paikkaa kartalla ja paina Aseta-painiketta!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Aseta sijainti</string>
+    <string name="map_gpx_recorder_tracks_edit">Tallennin: Jälkien editointi</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Ei jälkiä!</string>
+    <string name="map_gpx_recorder_track_edit_name">Jäljen nimi</string>
+    <string name="map_gpx_recorder_track_edit_description">Jäljen kuvaus</string>
+    <string name="map_gpx_recorder_track_edit_color">Väri:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Tallennin: Reittipisteiden editointi Editor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Merkin kuvake:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ei reittipisteitä!</string>
 
 </resources>
