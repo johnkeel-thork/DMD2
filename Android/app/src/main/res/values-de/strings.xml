@@ -1,18 +1,7 @@
 <resources>
 
     <!-- New Untranslated -->
-
-    <string name="map_layers_downloader_map_title">Wähle Karte</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigiere zu…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigiere zu Track-Punkt</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Track-Punkt auswählen zu dem navigiert werden soll.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Nächster Punkt</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track Ende</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Zu Route konvertieren</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Bitte beachten: Die Berechnung ist sehr anspruchsvoll und langsam. Das Ergebnis könnte vom original Track abweichen! Mit Vorsicht nutzen.</string>
-
+    
 
     <!-- End Of New Untranslated -->
 
@@ -634,6 +623,7 @@
     <string name="map_layers_map_base_file_missing">Fehler: Die Kartendateien fehlen, bitte laden Sie sie erneut herunter!</string>
     <string name="map_layers_map_base_no_map_yet">Noch keine Karten heruntergeladen. Klicke auf Karten herunterladen!</string>
     <string name="map_layers_downloader_region_title">Region auswählen</string>
+    <string name="map_layers_downloader_map_title">Wähle Karte</string>
     <string name="map_layers_downloader_country_downloaded_label">Heruntergeladen:</string>
     <string name="map_layers_downloader_country_date_label">Letztes Update:</string>
     <string name="map_layers_downloader_country_size_label">Größe:</string>
@@ -735,6 +725,14 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Keine Trackbeschreibung verfügbar.</string>
     <string name="gpx_manager_track_manager_track_length">Track Länge</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigiere zu…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigiere zu Track-Punkt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Track-Punkt auswählen zu dem navigiert werden soll.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Nächster Punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track Ende</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Zu Route konvertieren</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Bitte beachten: Die Berechnung ist sehr anspruchsvoll und langsam. Das Ergebnis könnte vom original Track abweichen! Mit Vorsicht nutzen.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Wähle Navigations App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Suche</string>
     <string name="gpx_manager_no_waypoint_warning">Die ausgewählte GPX-Datei enthält keinen Wegpunkt!</string>
