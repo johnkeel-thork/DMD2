@@ -2,16 +2,16 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_layers_downloader_map_title">Select Map</string>
+    <string name="map_layers_downloader_map_title">Wähle Karte</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigiere zu…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigiere zu Track-Punkt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Track-Punkt auswählen zu dem navigiert werden soll.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Nächster Punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track Ende</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Zu Route konvertieren</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Bitte beachten: Die Berechnung ist sehr anspruchsvoll und langsam. Das Ergebnis könnte vom original Track abweichen! Mit Vorsicht nutzen.</string>
 
 
     <!-- End Of New Untranslated -->
@@ -882,7 +882,7 @@
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
-    <string name="map_route_planner_instruction_turn_right_sharp">Sharf rechtst in</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Sharf rechts in</string>
     <string name="map_route_planner_instruction_turn_slight_left">Halb links in</string>
     <string name="map_route_planner_instruction_turn_slight_right">Halb rechts in</string>
     <string name="map_route_planner_instruction_keep_left">Links halten in</string>
