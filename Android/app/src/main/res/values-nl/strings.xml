@@ -4,7 +4,7 @@
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeer naar Track Punt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Selecteer naar welk track punt je wilt navigeren.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">ClosDichtsbijzijnde punt</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Dichtsbijzijnde punt</string>
     <string name="gpx_manager_track_manager_navigate_end">Track einde</string>
     <string name="gpx_manager_track_manager_convert_to_route">Converteer naar route</string>
     <string name="gpx_manager_advanced_convert_to_route3">Houd er rekening mee dat deze operatie erg veeleisend en langzaam is. Het resultaat is mogelijk ook geen perfecte match met de originele track! Voorzichtig gebruiken.</string>
