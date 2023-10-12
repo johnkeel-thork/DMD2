@@ -431,6 +431,8 @@
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Instruments Settings</string>
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
     <string name="roadbook_settings_totals_single_decimal_title">Total Distance - Single Decimal Place</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
     <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
