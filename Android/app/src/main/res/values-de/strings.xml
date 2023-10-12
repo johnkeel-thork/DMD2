@@ -1,7 +1,9 @@
 <resources>
 
     <!-- New Untranslated -->
-    
+
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
 
     <!-- End Of New Untranslated -->
 
