@@ -2,6 +2,9 @@
 
     <!-- New Untranslated -->
 
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
+
     <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
