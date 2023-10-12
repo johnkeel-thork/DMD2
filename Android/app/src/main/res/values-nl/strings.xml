@@ -1,94 +1,89 @@
 <resources>
 
-    <!-- New Untranslated -->
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeer naar…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeer naar Track Punt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Selecteer naar welk track punt je wilt navigeren.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Dichtsbijzijnde punt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track einde</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Converteer naar route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Houd er rekening mee dat deze operatie erg veeleisend en langzaam is. Het resultaat is mogelijk ook geen perfecte match met de originele track! Voorzichtig gebruiken.</string>
 
-    <string name="map_layers_downloader_map_title">Select Map</string>
+    <string name="map_layers_downloader_map_title">Selecteer map</string>
 
     <string name="obd_protocols_title">OBD Protocol</string>
-    <string name="obd_reader_config_title">Reader Config Commands</string>
-    <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with a new line</string>
-    <string name="obd_select_device_title">Choose Paired OBD Device</string>
-    <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
-    <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
-    <string name="obd_settings_use_alt_voltage_title">Get Voltage from Dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Use STVR command for voltage reading instead of ECU PID</string>
-    <string name="obd_fuel_level_settings">Fuel Level Settings</string>
-    <string name="obd_fuel_level_calculated">Calculate fuel level</string>
-    <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
-    <string name="obd_fuel_level_avg_mileage">Fuel Tank Average Mileage</string>
-    <string name="obd_fuel_level_avg_mileage_summary">What is your average mileage with a full tank</string>
-    <string name="obd_speed_rpm_cat_title">Speed and RPM Options</string>
-    <string name="obd_speed_gps_source_title">GPS Speed Value Source</string>
-    <string name="obd_speed_gps_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
-    <string name="obd_max_rpm_title">Set Maximum RPM</string>
-    <string name="obd_max_rpm_summary">Set your vehicle maximum RPM value</string>
-    <string name="obd_redline_rpm_title">Set redline RPM</string>
-    <string name="obd_redline_rpm_summary">Set your redline RPM value</string>
-    <string name="obd_throttle_options">Throttle Options</string>
-    <string name="obd_use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="obd_use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="obd_calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="obd_calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <string name="obd_reader_config_title">Reader configuratie opdrachten</string>
+    <string name="obd_reader_config_summary">Opdrachten om de Bluetooth-lezer te configureren, opdrachten scheiden door een nieuwe regel</string>
+    <string name="obd_select_device_title">Kies gekoppeld OBD Device</string>
+    <string name="obd_bluetooth_list_devices_summary">Selecteer uit gekoppelde bluetooth devices. Zorg ervoor dat de dongle eerst is gekoppeld!</string>
+    <string name="obd_bluetooth_list_devices_title">Selecteer ELM327 bluetooth device</string>
+    <string name="obd_settings_use_alt_voltage_title">Ontvang voltage van de dongle</string>
+    <string name="obd_settings_use_alt_voltage_message">Gebruik STVR opdracht voor lezen voltage i.p.v. de ECU PID</string>
+    <string name="obd_fuel_level_settings">Brandstofnivo instellingen</string>
+    <string name="obd_fuel_level_calculated">Bereken brandstofnivo</string>
+    <string name="obd_fuel_level_calculated_summary">Indien brandstofnivo niet word doorgegeven door de ECU kan DMD2 het nivo berekenen gebasseerd op de afgelegde kilometers per tank. Om te resetten, druk op het brandstofpictogram wanneer u tankt.</string>
+    <string name="obd_fuel_level_avg_mileage">Gemiddelde afgelegde kilometers per brandstoftank</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Hoeveel kilometers kan u gemiddeld afleggen met een volle tank?</string>
+    <string name="obd_speed_rpm_cat_title">Snelheid and RPM Opties</string>
+    <string name="obd_speed_gps_source_title">Bron GPS Snelheidswaarden</string>
+    <string name="obd_speed_gps_source_summary">Gebruik GPS/Terreinwielsensor in plaats van de OBD-snelheidswaarde (die mogelijk niet beschikbaar is)</string>
+    <string name="obd_max_rpm_title">Stel Maximum RPM in</string>
+    <string name="obd_max_rpm_summary">Stel de maximale RPM-waarde van uw voertuig in</string>
+    <string name="obd_redline_rpm_title">Stel het rood gebied in</string>
+    <string name="obd_redline_rpm_summary">Stel het toerental van de rood gebied in</string>
+    <string name="obd_throttle_options">Gasklep opties</string>
+    <string name="obd_use_raw_throttle_title">Gebruik de RAW waarde van de gasklep positie</string>
+    <string name="obd_use_raw_throttle_message">Gebruik de actuele OBD2 RAW waarde of kalibreer de minimum en maximum positie van de gasklep</string>
+    <string name="obd_calibrate_throttle_title">Kalibreer de gasklep positie</string>
+    <string name="obd_calibrate_throttle_message">Hierdoor wordt een dialoogvenster gestart met instructies voor de kalibratie van de minimum/maximumpositie van de gasklep. Vereist dat de ECU AAN staat en de OBD-dongle is aangesloten, de motor moet zijn uitgeschakeld. Dit zal GEEN waarde in uw ECU veranderen!</string>
     <!-- Sensors-->
-    <string name="obd_sensors_coolant_short_label">COOLANT</string>
-    <string name="obd_sensors_coolant_long_label">Coolant Temperature</string>
+    <string name="obd_sensors_coolant_short_label">KOELVLOEISTOF</string>
+    <string name="obd_sensors_coolant_long_label">Koelvloeistof temperatuur</string>
     <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
     <string name="obd_sensors_voltage_long_label">Voltage</string>
-    <string name="obd_sensors_throttle_short_label">THROTTLE</string>
-    <string name="obd_sensors_throttle_long_label">Throttle Position</string>
-    <string name="obd_sensors_fuel_short_label">FUEL</string>
-    <string name="obd_sensors_fuel_long_label">Fuel Level</string>
-    <string name="obd_sensors_timing_short_label">SPARK</string>
-    <string name="obd_sensors_timing_long_label">Spark Advance</string>
+    <string name="obd_sensors_throttle_short_label">GASKLEP</string>
+    <string name="obd_sensors_throttle_long_label">Gasklep positie</string>
+    <string name="obd_sensors_fuel_short_label">BRANDSTOF</string>
+    <string name="obd_sensors_fuel_long_label">Branstof nivo</string>
+    <string name="obd_sensors_timing_short_label">ONTSTEKING</string>
+    <string name="obd_sensors_timing_long_label">Ontsteking geavanceerd</string>
     <string name="obd_sensors_intake_temp_short_label">IAT</string>
-    <string name="obd_sensors_intake_temp_long_label">Intake Temperature</string>
-    <string name="obd_sensors_intake_maf_short_label">MAF</string>
-    <string name="obd_sensors_intake_maf_long_label">Mass Air Flow</string>
-    <string name="obd_sensors_intake_map_short_label">MAP</string>
-    <string name="obd_sensors_intake_map_long_label">Mass Air Pressure</string>
+    <string name="obd_sensors_intake_temp_long_label">Inlaat temperatuur</string>
+    <string name="obd_sensors_intake_maf_short_label">MLS</string>
+    <string name="obd_sensors_intake_maf_long_label">Massa luchtstroom</string>
+    <string name="obd_sensors_intake_map_short_label">MLD</string>
+    <string name="obd_sensors_intake_map_long_label">Massa luchtdruk</string>
     <!-- Select Sensor Dialog-->
-    <string name="obd_sensors_select_dialog_title">Select OBD Sensor</string>
-    <string name="obd_sensors_select_dialog_message">Set a new OBD Sensor for this slot</string>
+    <string name="obd_sensors_select_dialog_title">Selecteer OBD Sensor</string>
+    <string name="obd_sensors_select_dialog_message">Stel een nieuwe OBD-sensor in voor dit slot</string>
     <!-- Throttle Calibration-->
-    <string name="obd_min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
-    <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_minimum">Set Minimum</string>
-    <string name="obd_max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
-    <string name="obd_max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE! Make sure ignition is ON and then push your throttle position to the maximum position (full open throttle). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_maximum">Set Maximum</string>
-    <string name="obd_cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <string name="obd_min_throttle_calib_dialog_title">Kalibratie van de minimale gaskleppositie</string>
+    <string name="obd_min_throttle_calib_dialog_message">ZET DE MOTOR AAN! Zorg ervoor dat het voertuig na het opwarmen stabiel stationair draait!!! Uw gasklep moet in de minimumstand staan ​​(stationair/helemaal uit). Druk op de Set-knop als u klaar bent.</string>
+    <string name="obd_throttle_calib_set_minimum">Stel minimum in</string>
+    <string name="obd_max_throttle_calib_dialog_title">Kalibratie van de maximale gaskleppositie</string>
+    <string name="obd_max_throttle_calib_dialog_message">ZET DE MOTOR UIT! Zorg ervoor dat het contact AAN staat en draai vervolgens uw gashendel naar de maximale stand (volledig open gas). Druk op de Set-knop als u klaar bent.</string>
+    <string name="obd_throttle_calib_set_maximum">Stel maximum in</string>
+    <string name="obd_cant_calib_obd_disconnected">Maak eerst verbinding met de OBD-dongle!</string>
     <!-- Fuel Level Options -->
-    <string name="obd_fuel_dialog_title">Fuel Level Options</string>
-    <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
-    <string name="obd_fuel_dialog_reset">Reset</string>
-    <string name="obd_fuel_dialog_edit">Edit</string>
-    <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
-    <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
-    <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
-    <string name="obd_fuel_dialog_edit_error2">Error: not a valid distance number!</string>
+    <string name="obd_fuel_dialog_title">Brandstof nivo opties</string>
+    <string name="obd_fuel_dialog_message">Stel het brandstofniveau opnieuw in als u zojuist uw tank hebt gevuld of bewerk handmatig de resterende kilometrage.</string>
+    <string name="obd_fuel_dialog_reset">Opnieuw instellen</string>
+    <string name="obd_fuel_dialog_edit">Wijzig</string>
+    <string name="obd_fuel_dialog_edit_title">Resterende kilometrage instellen</string>
+    <string name="obd_fuel_dialog_edit_message">Resterende afstand instellen</string>
+    <string name="obd_fuel_dialog_edit_error">Fout: waarde kan niet hoger zijn dan de tankinhoud of lager dan 1</string>
+    <string name="obd_fuel_dialog_edit_error2">Fout: geen geldige waarde!</string>
     <!-- DTC Errors Dialog -->
-    <string name="obd_dtc_no_error">No DTC Errors</string>
-    <string name="obd_dtc_dialog_title">DTC Errors</string>
-    <string name="obd_dtc_dialog_reset_errors">Reset Errors</string>
-    <string name="obd_dtc_dialog_error_options">Error Options</string>
-    <string name="obd_dtc_dialog_error_ignore_error">Ignore Error:</string>
-    <string name="obd_dtc_dialog_error_reset_error">Error: You are not connected to the ECU!</string>
+    <string name="obd_dtc_no_error">Geen DTC fouten</string>
+    <string name="obd_dtc_dialog_title">DTC fouten</string>
+    <string name="obd_dtc_dialog_reset_errors">Fouten opnieuw instellen</string>
+    <string name="obd_dtc_dialog_error_options">Fouten opties</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Fouten negeren:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Fout: Er is geen verbinding met de ECU!</string>
     <!-- Service -->
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
-
-
-    <!-- End Of New Untranslated -->
+    <string name="obd_service_notification_title">OBD-monitorservice actief</string>
+    <string name="obd_service_obd_connected">Verbonden met dongel!</string>
+    <string name="obd_service_obd_disconnected">Verbinding met dongle verbroken!</string>
 
 
     <string name="app_name">DMD2</string>
