@@ -2,15 +2,8 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigoi</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigoi jäljen pisteeseen</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Valitse mihin pisteeseen jäljellä haluat navigoida.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Jäljen alku</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Lähin piste</string>
-    <string name="gpx_manager_track_manager_navigate_end">Jäljen loppu</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Muuta reitiksi</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Huomioi että tämä toimenpide on vaativa ja hidas. Tulos ei välttämättä seuraa alkuperäistä jälkeä täydellisesti! Käytä harkiten.</string>
-
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
 
     <!-- End Of New Untranslated -->
 
@@ -734,6 +727,14 @@
     <string name="gpx_manager_track_manager_title">Jälkien hallinta</string>
     <string name="gpx_manager_track_manager_no_description">Jäljen kuvausta ei ole käytettävissä.</string>
     <string name="gpx_manager_track_manager_track_length">Jäljen pituus</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigoi</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigoi jäljen pisteeseen</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Valitse mihin pisteeseen jäljellä haluat navigoida.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Jäljen alku</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Lähin piste</string>
+    <string name="gpx_manager_track_manager_navigate_end">Jäljen loppu</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Muuta reitiksi</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Huomioi että tämä toimenpide on vaativa ja hidas. Tulos ei välttämättä seuraa alkuperäistä jälkeä täydellisesti! Käytä harkiten.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valitse navigointisovellus</string>
     <string name="gpx_manager_track_manager_poi_search">POI-haku</string>
     <string name="gpx_manager_no_waypoint_warning">Valittu GPX-tiedosto ei sisällä reittipisteitä!</string>
