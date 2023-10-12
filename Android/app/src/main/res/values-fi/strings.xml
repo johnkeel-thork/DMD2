@@ -2,14 +2,14 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigoi</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigoi jäljen pisteeseen</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Valitse mihin pisteeseen jäljellä haluat navigoida.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Jäljen alku</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Lähin piste</string>
+    <string name="gpx_manager_track_manager_navigate_end">Jäljen loppu</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Muuta reitiksi</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Huomioi että tämä toimenpide on vaativa ja hidas. Tulos ei välttämättä seuraa alkuperäistä jälkeä täydellisesti! Käytä harkiten.</string>
 
 
     <!-- End Of New Untranslated -->
@@ -744,7 +744,7 @@
     <string name="gpx_manager_waypoint_no_description">Reittipisteen kuvausta ei ole käytettävissä.</string>
     <string name="gpx_manager_waypoint_straight_line_distance">Etäisyys linnuntietä</string>
     <string name="gpx_manager_waypoint_distance_on_track">Etäisyys sinusta</string>
-    <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
+    <string name="gpx_manager_waypoint_distance_more">Et. jälkipist.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Matka jäljen alusta</string>
     <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Odotetaan GPS-sijaintia</string>
