@@ -1,0 +1,982 @@
+<resources>
+
+    <!-- New Untranslated -->
+
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
+
+    <!-- End Of New Untranslated -->
+    
+
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_online_status">Online</string>
+    <string name="status_bar_offline_status">Offline</string>
+
+    <!-- Bottom Menu -->
+    <string name="menu_global_settings">Algemene Instellingen</string>
+    <string name="menu_exit">Afsluiten</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_apps">Applicaties</string>
+    <string name="menu_roadbook">Roadbook</string>
+    <string name="menu_map">Kaart</string>
+    <string name="menu_obd">OBD Sensors</string>
+    <!-- Menu Editor -->
+    <string name="menu_edit_title">Onderste Menu Aanpassen</string>
+    <string name="menu_edit_message">Menu items ordenen/weergeven/verbergen</string>
+    <string name="menu_sorter_instructions">Item aanraken en vasthouden om te verplaatsen. Gebruik de knop om weer te geven of te verbergen.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Batterij Indicator (updates duren enkele minuten)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Stroom nu</item>
+        <item>Temperatuur</item>
+    </string-array>
+
+    <!-- Global -->
+    <!-- Units -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/u</string>
+    <string name="meters">meters</string>
+    <string name="feet">feet</string>
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
+    <!-- Buttons -->
+    <string name="back">Terug</string>
+    <string name="abort">Onderbreek</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="save">Bewaar</string>
+    <string name="cancel">Annuleer</string>
+    <string name="close">Sluiten</string>
+    <string name="delete">Verwijder</string>
+    <string name="replace">Vervang</string>
+    <string name="rename">Hernoem</string>
+    <string name="reset">Terugzetten</string>
+    <string name="refresh">Ververs</string>
+    <string name="enable">Activeer</string>
+    <string name="download">Download</string>
+    <string name="load">Laad</string>
+    <string name="unload">Unload</string>
+    <string name="update">Update</string>
+    <string name="share">Deel</string>
+    <string name="advanced">Geavanceerd</string>
+    <string name="settings">Instellingen</string>
+    <string name="hide">Verberg</string>
+    <string name="later">Later</string>
+    <string name="finish">Afwerken</string>
+    <string name="abort_download">Onderbreek Download</string>
+    <string name="start">Start</string>
+    <!-- Messages / Errors & Warnings -->
+    <string name="error_creating_directory">Fout by aanmaken van User Directory!</string>
+    <string name="error_deleting_file">Fout bij verwijderen van bestand!</string>
+    <string name="error_file_already_exists_title">Bestaand bestand vervangen</string>
+    <string name="error_file_already_exists_message">Een bestand met die naam bestaat reeds, wat wil je doen?</string>
+    <string name="error_file_new_name_title">Hernoem bestand</string>
+    <string name="share_file_with">Deel bestand met</string>
+    <string name="connect_to_internet">Zorg ervoor dat u verbonden bent met het internet!</string>
+    <!-- App Update -->
+    <string name="app_update_title">DMD2 Update beschikbaar</string>
+    <string name="app_update_message">Er is een update beschikbaar voor DMD2, wil je nu updaten? \n Wat is er nieuw:</string>
+    <string name="app_update_download_notification">DMD2 Update aan het downloaden</string>
+    <string name="app_update_download_progress">Download vooruitgang:</string>
+    <!-- Controller App Update -->
+    <string name="controller_app_update_dialogue_title">CARPE Controller App Update</string>
+    <string name="controller_app_update_dialogue_message">Er is een update beschikbaar voor de controller app, wil je nu updaten? \n Wat is er nieuw:</string>
+    <string name="controller_app_update_download_notification">CARPE Update aan het downloaden</string>
+    <string name="controller_app_update_download_progress">Download vooruitgang:</string>
+    <!-- T93 Dialog -->
+    <string name="t93_trial_title">Tripltek T93 Proefperiode</string>
+    <string name="t93_trial_message">Omdat je een Tripltek T93 gebruikt, beschik je over 30 dagen gratis proefperiode. Al je een speciale DMD2 Edition license key hebt, voer die dan in.</string>
+    <string name="t93_trial_button">Proefperiode verderzetten</string>
+    <string name="t93_dmd2_edition_button">Licentie-code ingeven</string>
+    <string name="t93_finish_trial_button">Proefperiode Stopzetten</string>
+    <string name="t93_dmd2_edition_insert_key_title">DMD2-Edition Key invoeren:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Actief</string>
+    <string name="download_manager_active_download_paused">Gepauzeerd</string>
+    <string name="download_manager_active_download_error">Fout</string>
+    <string name="download_manager_active_download_downloading">Downloaden</string>
+    <string name="download_manager_active_download_interrupted">Onderbroken</string>
+    <string name="download_manager_active_download_interrupted_file">Onderbroken bestand:</string>
+    <string name="download_manager_active_download_no_net">Geen Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Wachten op internet verbinding…</string>
+    <string name="download_manager_active_download_downloading_no_progress">Downloaden maar voortgang niet zichtbaar</string>
+
+    <!-- Settings -->
+    <string name="settings_localization_options">Locatiebepaling</string>
+    <string name="settings_hour_format">Gebruik 24-uur formaat</string>
+    <string name="settings_use_fahrenheit">Gebruik Fahrenheit ipv Celsius</string>
+    <string name="settings_use_imperial_units">Gebruik Engelse maateenheden</string>
+    <string name="settings_interface_options">Interface Options</string>
+    <string name="settings_theme_category">Thema</string>
+    <string name="settings_color_theme">Kleur thema (Donker / Licht):</string>
+    <string-array name="settings_color_themes" translatable="true">
+        <item>Altijd Donkere Modus</item>
+        <item>Altijd Lichte Modus</item>
+        <item>Automatisch (Volg systeem)</item>
+        <item>Gebruik Lichtsensor</item>
+    </string-array>
+    <string name="settings_accent_color_title">Accent kleur:</string>
+    <string-array name="settings_accent_colors_names" translatable="true">
+        <item>Blauw</item>
+        <item>Donker</item>
+        <item>Rood</item>
+        <item>Oranje</item>
+        <item>Groen</item>
+        <item>Geel</item>
+        <item>Roze</item>
+    </string-array>
+    <string name="settings_screen_category">Scherm</string>
+    <string name="settings_screen_lock_rotation">Zet scherm oriëntatie vast</string>
+    <string name="settings_screen_lock_rotation_summary">Verhinder dat het scherm per ongeluk roteert tijdens het rijden.</string>
+    <string name="settings_screen_orientation">Oriëntatie vastzetten in:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Liggend</item>
+        <item>Omgekeerd Liggend</item>
+    </string-array>
+    <string name="settings_notifications_category">Meldingen</string>
+    <string name="settings_notifications_enable_title">Pop-up meldingen aanzetten (toestemming vereist)</string>
+    <string name="settings_notifications_enable_summary">Toon meldingen van apps geselecteerd door de gebruiker</string>
+    <string name="settings_notifications_dismiss">Methode van weigering</string>
+    <string-array name="settings_notifications_dismiss_names" translatable="true">
+        <item>Timeout na 5s</item>
+        <item>Timeout na 10s</item>
+        <item>Timeout na 15s</item>
+        <item>Timeout na 30s</item>
+        <item>Timeout na 60s</item>
+        <item>Manueel (Vegen of via Controller)</item>
+    </string-array>
+    <string name="settings_notifications_controller_lock_title">Handlebar controller focus</string>
+    <string name="settings_notifications_controller_lock_message">Als een melding weergegeven wordt, zal de CARPE controller hierop focussen. De enter toets laadt de meldings actie en de terug toets verwijdert de melding.</string>
+    <string name="settings_notifications_apps_selection_title">Apps filter</string>
+    <string name="settings_notifications_apps_selection_message">Selecteer voor welke apps je pop-up meldingen wil zien</string>
+    <string name="settings_notifications_group_title">Toon alleen de laatste melding voor elke groep</string>
+    <string name="settings_notifications_group_message">Wanneer geactiveerd, zal je enkel de laatste melding voor elke groep zien. Bijvoorbeeld, enkel het laatste bericht in een chat.</string>
+    <string name="settings_notifications_app_selection_dialog_title">Toon meldingenen voor:</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Allemaal / Geen enkele</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Sluit</string>
+    <!-- Trip Settings-->
+    <string name="settings_trip_options">Trip Opties</string>
+    <string name="settings_trip_auto_reset_title">Automatisch Trip Resetten</string>
+    <string name="settings_trip_auto_reset_summary">Trip zal automatisch gereset worden als DMD2 niet wordt gestart voor meer dan een ingestelde tijd</string>
+    <string name="settings_trip_auto_reset_time_title">Automatische Trip Reset Tijd</string>
+    <string-array name="settings_trip_reset_time_entries" translatable="true">
+        <item>6 uren</item>
+        <item>12 uren</item>
+        <item>1 dag</item>
+        <item>2 dagen</item>
+        <item>5 dagen</item>
+    </string-array>
+    <!-- OEM Registration-->
+    <string name="settings_oem_registration">OEM Registratie</string>
+    <string name="settings_oem_check">Registratie Proces (internet connectie noodzakelijk)</string>
+    <string name="settings_oem_check_summary">Gebruik dit alleen als je motorfiets van fabriek uitgerust is met aan Android device met Drive Mode Dashboard 2 voorgeïnstalleerd.</string>
+    <!-- Info & Links -->
+    <string name="settings_info_and_links">Informatie and Links</string>
+    <string name="settings_app_version">DMD2 Versie</string>
+    <string name="settings_app_installed_version">Geïnstalleerde versie:</string>
+    <string name="settings_dmd2_website">Leer meer over de DMD2 app op de officiële website</string>
+    <string name="settings_developer_website_title">DMD2 wordt je gebracht door</string>
+    <string name="settings_tripltek_website_title">Deze versie van DMD2 is geoptimaliseerd voor Tripltek toestellen</string>
+    <string name="settings_follow_us_facebook">Bezoek en vold onze Facebook pagina voor het laatste nieuws</string>
+    <string name="settings_join_us_facebook">lid worden van onze Facebook groep</string>
+    <string name="settings_dmd2_forum">Sluit je aan bij de discussie over nieuwe functies, bugs en verzoeken</string>
+    <string name="settings_license_title">Speciale Licentie Keys</string>
+    <string name="settings_dmd2_edition_redeem_title">Trial / DMD2 Edition</string>
+    <string name="settings_dmd2_edition_redeem_message">Manage Trial or insert DMD2 Edition key</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_dmd2_title">Welkom by DMD2</string>
+    <string name="welcome_dmd2_message">DMD2 is ontworpen om je toestel te transformeren in een complete dashboard voor motorfietsen en autos met speciale focus op Adventure en Off-Road. Het bevat kaarten voor navigatie, een roadbook, OBD sensors en veel meer.</string>
+    <string name="welcome_dmd2_lets_go">Start</string>
+    <!-- GPS Settings -->
+    <string name="settings_gps_settings_title">GPS instellingen</string>
+    <string name="settings_bypass_acc_filter_title">Verlaag de GPS Accuracy Filter</string>
+    <string name="settings_bypass_acc_filter_message">Voor toestellen met minder optimale GPS kwaliteit</string>
+    <!-- Device Specific -->
+    <string name="settings_non_play_store_devices_cat">Opties voor toestellen niet compatible met Play Store</string>
+    <string name="settings_disable_controller_app_check_title">Inactiveer CARPE Controller App Check</string>
+    <string name="settings_disable_controller_app_check_message">Zal de controller app niet meer monitoren en zal niet meer vragen om die te installeren of te updaten.</string>
+    <string name="settings_controller_app_install_title">CARPE Controller gedetecteerd</string>
+    <string name="settings_controller_app_install_message">Het lijkt erop dat je een CARPE Controller gebruikt. Om volledig voordeel hieruit te halen, installeer je best de controller app. Wil je die nu installeren?</string>
+    <!-- Storage -->
+    <string name="map_storage_location_cat_title">Opslag</string>
+    <string name="map_storage_location_select_title">Zet opslag naar verwijderbare SD Card</string>
+    <string name="map_storage_location_select_message">Voor offline kaart- en gebruikers-bestanden.</string>
+    <string name="map_storage_sd_card_missing_error_title">SD Card niet aanwezig!</string>
+    <string name="map_storage_sd_card_missing_error_message">De SDCard die voorheen gebruikt werd, ontbreekt. Plaats deze terug!</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Probeer nogmaals</string>
+    <string name="map_storage_sd_card_missing_switch_internal">Gebruik het Intern Geheugen</string>
+    <string name="map_storage_sd_card_mounting_title">Wachten op het laden van de SDCard</string>
+    <string name="map_storage_sd_card_mounting_message">Wacht aub tot de SD geladen is…</string>
+    <string name="map_storage_sd_card_mounting_button">Onderbreek &amp; Schakel naar het Intern Geheugen</string>
+    <string name="map_storage_sd_card_different_error_title">Andere SD Card!</string>
+    <string name="map_storage_sd_card_different_error_message">Het lijkt erop dat je je SDCard vervangen hebt, wil je deze nieuwe gebruiken? Indien niet, plaats dan de correcte SD-card terug!</string>
+    <string name="map_storage_sd_card_different_error_recheck">Opnieuw controleren</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">SD Card nog steeds niet gevonden! Controleer alsjeblief nogmaals</string>
+    <string name="map_storage_sd_card_move_map_files_title">Kaart bestanden verplaatsen?</string>
+    <string name="map_storage_sd_card_move_map_files_external">Wil je de kaart-bestanden verplaatsen van het intern geheugen naar de SD-card? Dit kan mogelijks mislukken wanneer niet voldoende plaats beschikbaar is!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Wil je de kaart-bestanden verplaatsen van de SD-card naar het intern geheugen? Dit kan mogelijks mislukken wanneer niet voldoende plaats beschikbaar is!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Bestanden worden verplaatst, even geduld! Sluit de app niet af en verander niet van scherm!</string>
+
+    <!-- Home-->
+    <!-- Widget Types-->
+    <string name="home_widget_trip_title">TRIP</string>
+    <string name="home_widget_trip_title_long">Trip Statistieken</string>
+    <string name="home_widget_trip_description">Bekijk real-time gegevens van je rit, informatie zoals afstand, totaaltijd, rijtijd, stoptijd en gemiddelde snelheid.</string>
+    <string name="home_widget_apps_title">APPS</string>
+    <string name="home_widget_apps_title_long">App Shortcuts</string>
+    <string name="home_widget_apps_description">Snelkoppelingen naar je favoriete apps instellen.</string>
+    <string name="home_widget_apps_selection_dialog_title">Selecteer de App Shortcut of een leeg Slot</string>
+    <string name="home_widget_apps_clear_selection">Leeg Slot</string>
+    <string name="home_widget_obd_rpm_title">OBD RPM</string>
+    <string name="home_widget_obd_rpm_title_long">OBD RPM Indicator</string>
+    <string name="home_widget_obd_rpm_description">een op OBD gebaseerdere RPM bar, met indicator.</string>
+    <string name="home_widget_heading_title">Richting</string>
+    <string name="home_widget_heading_title_long">GPS Richting</string>
+    <string name="home_widget_heading_description">Een grafische indicator voor je huidige richting gebaseerd op GPS data, bevat tevens een graden-waarde.</string>
+    <string name="home_widget_media_title">MEDIA</string>
+    <string name="home_widget_media_title_long">Media Player Control</string>
+    <string name="home_widget_media_description">Stelt je in de mogelijkheid om je active media te bedienen, bevat tevens album artwork, titel and artiest naam (toegang tot meldingen noodzakelijk).</string>
+    <string name="home_widget_map_title">NAV</string>
+    <string name="home_widget_map_title_long">Kaart weergave</string>
+    <string name="home_widget_map_description">je kaartweergave met al je geladen gegevens en de actieve landen, bevat geen kaartbedieningen en kan alleen geladen worden in het linker paneel.</string>
+    <string name="home_widget_speed_title">SNELHEID</string>
+    <string name="home_widget_speed_title_long">GPS Snelheid</string>
+    <string name="home_widget_speed_description">Een numerieke waarde van je huidige snelheid gebaseerd op GPS data.</string>
+    <string name="home_widget_numeric_values_title">INFO</string>
+    <string name="home_widget_numeric_values_title_long">GPS &amp; OBD Indicators</string>
+    <string name="home_widget_numeric_values_description">Door gebruiker geselecteerde waarden van OBD sensors en GPS data.</string>
+    <string name="home_widget_notifications_list_title">MELDINGEN</string>
+    <string name="home_widget_notifications_list_title_long">Meldings Lijst</string>
+    <string name="home_widget_notifications_list_description">Een lijst van al je huidige actieve meldingen.</string>
+    <string name="home_widget_notifications_list_no_notification">Nog geen meldingen</string>
+    <string name="home_widget_system_title">EXTERNAL WIDGET</string>
+    <string name="home_widget_system_title_long">Systeem Widget</string>
+    <string name="home_widget_system_description">Laad Android system widgets van je geïnstalleerde apps.</string>
+    <string name="home_widget_big_clock_title">KLOK</string>
+    <string name="home_widget_big_clock_title_long">Een grote klok</string>
+    <string name="home_widget_big_clock_description">Gewoon een simpele grote digitale klok, voor het geval je tijd belangrijk vindt.</string>
+    <string name="home_widget_map_progress_title">VOORUITGANG</string>
+    <string name="home_widget_map_progress_title_long">Kaart Nav vooruitgang</string>
+    <string name="home_widget_map_progress_description">Toont navigatie instructies of GPX-track vooruitgang afhankelijk van de actieve status van beide.</string>
+    <string name="home_widget_settings_dialog_title">Selecteer Widget</string>
+    <!-- Home Editor -->
+    <string name="home_widget_editor_left_panel_title">Linker Paneel</string>
+    <string name="home_widget_editor_right_panel_title">Rechtr Paneel</string>
+    <string name="home_widget_editor_center_top_title">Center Top</string>
+    <string name="home_widget_editor_center_bottom_title">Center Beneden</string>
+    <string name="home_widget_editor_left_panel_edit_button">Verander Widget</string>
+    <!-- Widget Trip -->
+    <string name="home_widget_trip_distance">Afstand</string>
+    <string name="home_widget_trip_total_time">Totaal Tijd</string>
+    <string name="home_widget_trip_travel_time">Reistijd</string>
+    <string name="home_widget_trip_stop_time">Stop Tijd</string>
+    <string name="home_widget_trip_avg_average">Gemiddelde snelheid</string>
+    <!-- Widget Info: GPS & OBD Sensor Selector -->
+    <string name="widget_info_selector_dialog_title">Selecteer GPS/OBD Sensor</string>
+    <string name="widget_info_gps_altitude_name">GPS Altitude</string>
+    <string name="widget_info_gps_altitude_label">Altitude</string>
+    <string name="widget_info_gps_heading_name">GPS Heading</string>
+    <string name="widget_info_clock_name">Time</string>
+    <string name="widget_info_gps_heading_label">Heading</string>
+    <string name="widget_info_gps_speed_name">GPS Snelheid</string>
+    <string name="widget_info_gps_speed_label">Snelheid</string>
+    <string name="widget_info_gps_trip_max_speed_name">Trip Max Snelheid</string>
+    <string name="widget_info_gps_trip_max_speed_label">Max Snelheid</string>
+    <string name="widget_info_gps_trip_distance_name">Trip Afstand</string>
+    <string name="widget_info_gps_trip_total_time_name">Trip Totaal Tijd</string>
+    <string name="widget_info_gps_trip_travel_time_name">Trip Reistijd</string>
+    <string name="widget_info_gps_trip_stop_time_name">Trip Stop tijd</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Trip Gemiddelde snelheid</string>
+    <string name="widget_info_obd_speed_label">OBD Snelheid</string>
+    <string name="widget_info_obd_rpm_label">RPM</string>
+    <string name="widget_info_obd_coolant_label">Koeling</string>
+    <string name="widget_info_obd_voltage_label">Voltage</string>
+    <string name="widget_info_obd_fuel_label">Brandstof</string>
+    <string name="widget_info_obd_tbposition_label">Gas</string>
+    <string name="widget_info_obd_spark_label">Ontsteking</string>
+    <string name="widget_info_obd_map_label">MAP</string>
+    <string name="widget_info_obd_intake_temp_label">IAT</string>
+    <string name="widget_info_obd_intake_maf_label">MAF</string>
+    <string name="widget_info_obd_none_title">Onzichtbaar</string>
+    <string name="widget_info_obd_none_reset">Herstel</string>
+    <string name="widget_info_adv_voltage_label">AdvCtrl Voltage</string>
+    <!-- Widget Media Control Permission Dialog -->
+    <string name="media_notifications_enable_dialog_title_media">Media Control Toelating</string>
+    <string name="media_notifications_enable_dialog_message_media">Media Control Widget vereist toegang tot meldingen om media player content zoals titel, artist, albumnaam en artwork te lezen. Wil je deze toegang geven?</string>
+    <!-- Widget Trip Reset Dialog -->
+    <string name="trip_reset_confirmation_title">Trip Reset</string>
+    <string name="trip_reset_confirmation_message">Ben je zeker dat je de trip statistieken wil resetten?</string>
+
+
+    <!-- Notifications -->
+    <!-- Permission Dialog -->
+    <string name="notifications_enable_dialog_title">Meldingen Pop-Up</string>
+    <string name="notifications_enable_dialog_message">Wil je DMD2 toelaten om nieuwe meldingen te tonen in een pop-up? Je kan zelf bepalen voor welke apps je pop-ups wil zien in Instellingen > Meldingen.</string>
+    <!-- Notification List Widget -->
+    <string name="notifications_list_widget_new_notifications">Nieuwe meldingen</string>
+    <string name="notifications_controller_arrow_instructions">Links/Rechts - Negeer</string>
+
+    <!-- Apps-->
+    <!-- Settings-->
+    <string name="apps_view_top_title">Favoriete Apps</string>
+    <string name="apps_view_app_filter_category_title">Apps Filter</string>
+    <string name="apps_filter_enable_title">Activeer apps filter</string>
+    <string name="apps_filter_enable_description">Verberg de apps ingesteld in de app filter lijst</string>
+    <string name="apps_sorting_category_title">Sorteren op</string>
+    <string name="apps_sorting_setting_title">Selecteer hoe app shortcuts moeten gesorteerd worden</string>
+    <string-array name="apps_sorting_options_list" translatable="true">
+        <item>App Naam - Alfabetisch</item>
+        <item>App Ontwikkelaar Naam - Alfabetisch</item>
+        <item>Op installatie datum</item>
+        <item>Op laatste update</item>
+    </string-array>
+    <string name="apps_sorting_direction_setting_title">Sorteer Richting</string>
+    <string-array name="apps_sorting_direction_options_list" translatable="true">
+        <item>Oplopend</item>
+        <item>Aflopend</item>
+    </string-array>
+    <string name="apps_filter_dialog_start_title">Stel verborgen apps in</string>
+    <string name="apps_filter_dialog_start_dialog">Klik hier om in te stellen welke apps verborgen of getoond moeten worden</string>
+    <string name="apps_filter_dialog_dialog_title">Selecteer te verbergen Apps</string>
+    <string name="apps_long_press_actions_dialog_text">Mogelijke acties voor:</string>
+    <string name="apps_long_press_actions_dialog_uninstall">Verwijder</string>
+    <string name="apps_long_press_actions_dialog_hide">Verberg</string>
+    <string name="apps_long_press_actions_dialog_cancel">Annuleer</string>
+
+    <!-- OBD-->
+    <!-- Settings-->
+    <string name="obd_cat_title_pref">OBD Voorkeuren</string>
+    <string name="obd_device_setup">OBD Bluetooth Instellingen</string>
+    <string name="obd_protocols_summary">Selecteer te gebruiken OBD Protocol</string>
+    <string name="obd_protocols_title">OBD Protocol</string>
+    <string name="obd_reader_config_title">Reader configuratie opdrachten</string>
+    <string name="obd_reader_config_summary">Opdrachten om de Bluetooth-lezer te configureren, opdrachten scheiden door een nieuwe regel</string>
+    <string name="obd_select_device_title">Kies gekoppeld OBD Device</string>
+    <string name="obd_bluetooth_list_devices_summary">Selecteer uit gekoppelde bluetooth devices. Zorg ervoor dat de dongle eerst is gekoppeld!</string>
+    <string name="obd_bluetooth_list_devices_title">Selecteer ELM327 bluetooth device</string>
+    <string name="obd_settings_use_alt_voltage_title">Ontvang voltage van de dongle</string>
+    <string name="obd_settings_use_alt_voltage_message">Gebruik STVR opdracht voor lezen voltage i.p.v. de ECU PID</string>
+    <string name="obd_fuel_level_settings">Brandstofnivo instellingen</string>
+    <string name="obd_fuel_level_calculated">Bereken brandstofnivo</string>
+    <string name="obd_fuel_level_calculated_summary">Indien brandstofnivo niet word doorgegeven door de ECU kan DMD2 het nivo berekenen gebasseerd op de afgelegde kilometers per tank. Om te resetten, druk op het brandstofpictogram wanneer u tankt.</string>
+    <string name="obd_fuel_level_avg_mileage">Gemiddelde afgelegde kilometers per brandstoftank</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Hoeveel kilometers kan u gemiddeld afleggen met een volle tank?</string>
+    <string name="obd_speed_rpm_cat_title">Snelheid and RPM Opties</string>
+    <string name="obd_speed_gps_source_title">Bron GPS Snelheidswaarden</string>
+    <string name="obd_speed_gps_source_summary">Gebruik GPS/Terreinwielsensor in plaats van de OBD-snelheidswaarde (die mogelijk niet beschikbaar is)</string>
+    <string name="obd_max_rpm_title">Stel Maximum RPM in</string>
+    <string name="obd_max_rpm_summary">Stel de maximale RPM-waarde van uw voertuig in</string>
+    <string name="obd_redline_rpm_title">Stel het rood gebied in</string>
+    <string name="obd_redline_rpm_summary">Stel het toerental van de rood gebied in</string>
+    <string name="obd_throttle_options">Gasklep opties</string>
+    <string name="obd_use_raw_throttle_title">Gebruik de RAW waarde van de gasklep positie</string>
+    <string name="obd_use_raw_throttle_message">Gebruik de actuele OBD2 RAW waarde of kalibreer de minimum en maximum positie van de gasklep</string>
+    <string name="obd_calibrate_throttle_title">Kalibreer de gasklep positie</string>
+    <string name="obd_calibrate_throttle_message">Hierdoor wordt een dialoogvenster gestart met instructies voor de kalibratie van de minimum/maximumpositie van de gasklep. Vereist dat de ECU AAN staat en de OBD-dongle is aangesloten, de motor moet zijn uitgeschakeld. Dit zal GEEN waarde in uw ECU veranderen!</string>
+    <!-- Sensors-->
+    <string name="obd_sensors_coolant_short_label">KOELVLOEISTOF</string>
+    <string name="obd_sensors_coolant_long_label">Koelvloeistof temperatuur</string>
+    <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
+    <string name="obd_sensors_voltage_long_label">Voltage</string>
+    <string name="obd_sensors_throttle_short_label">GASKLEP</string>
+    <string name="obd_sensors_throttle_long_label">Gasklep positie</string>
+    <string name="obd_sensors_fuel_short_label">BRANDSTOF</string>
+    <string name="obd_sensors_fuel_long_label">Branstof nivo</string>
+    <string name="obd_sensors_timing_short_label">ONTSTEKING</string>
+    <string name="obd_sensors_timing_long_label">Ontsteking geavanceerd</string>
+    <string name="obd_sensors_intake_temp_short_label">IAT</string>
+    <string name="obd_sensors_intake_temp_long_label">Inlaat temperatuur</string>
+    <string name="obd_sensors_intake_maf_short_label">MLS</string>
+    <string name="obd_sensors_intake_maf_long_label">Massa luchtstroom</string>
+    <string name="obd_sensors_intake_map_short_label">MLD</string>
+    <string name="obd_sensors_intake_map_long_label">Massa luchtdruk</string>
+    <!-- Select Sensor Dialog-->
+    <string name="obd_sensors_select_dialog_title">Selecteer OBD Sensor</string>
+    <string name="obd_sensors_select_dialog_message">Stel een nieuwe OBD-sensor in voor dit slot</string>
+    <!-- Throttle Calibration-->
+    <string name="obd_min_throttle_calib_dialog_title">Kalibratie van de minimale gaskleppositie</string>
+    <string name="obd_min_throttle_calib_dialog_message">ZET DE MOTOR AAN! Zorg ervoor dat het voertuig na het opwarmen stabiel stationair draait!!! Uw gasklep moet in de minimumstand staan ​​(stationair/helemaal uit). Druk op de Set-knop als u klaar bent.</string>
+    <string name="obd_throttle_calib_set_minimum">Stel minimum in</string>
+    <string name="obd_max_throttle_calib_dialog_title">Kalibratie van de maximale gaskleppositie</string>
+    <string name="obd_max_throttle_calib_dialog_message">ZET DE MOTOR UIT! Zorg ervoor dat het contact AAN staat en draai vervolgens uw gashendel naar de maximale stand (volledig open gas). Druk op de Set-knop als u klaar bent.</string>
+    <string name="obd_throttle_calib_set_maximum">Stel maximum in</string>
+    <string name="obd_cant_calib_obd_disconnected">Maak eerst verbinding met de OBD-dongle!</string>
+    <!-- Fuel Level Options -->
+    <string name="obd_fuel_dialog_title">Brandstof nivo opties</string>
+    <string name="obd_fuel_dialog_message">Stel het brandstofniveau opnieuw in als u zojuist uw tank hebt gevuld of bewerk handmatig de resterende kilometrage.</string>
+    <string name="obd_fuel_dialog_reset">Opnieuw instellen</string>
+    <string name="obd_fuel_dialog_edit">Wijzig</string>
+    <string name="obd_fuel_dialog_edit_title">Resterende kilometrage instellen</string>
+    <string name="obd_fuel_dialog_edit_message">Resterende afstand instellen</string>
+    <string name="obd_fuel_dialog_edit_error">Fout: waarde kan niet hoger zijn dan de tankinhoud of lager dan 1</string>
+    <string name="obd_fuel_dialog_edit_error2">Fout: geen geldige waarde!</string>
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">Geen DTC fouten</string>
+    <string name="obd_dtc_dialog_title">DTC fouten</string>
+    <string name="obd_dtc_dialog_reset_errors">Fouten opnieuw instellen</string>
+    <string name="obd_dtc_dialog_error_options">Fouten opties</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Fouten negeren:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Fout: Er is geen verbinding met de ECU!</string>
+    <!-- Service -->
+    <string name="obd_service_notification_title">OBD-monitorservice actief</string>
+    <string name="obd_service_obd_connected">Verbonden met dongel!</string>
+    <string name="obd_service_obd_disconnected">Verbinding met dongle verbroken!</string>
+
+    <!-- License -->
+    <string name="obd_license_title">OBD2 Demo Mode</string>
+    <string name="obd_license_message">Demo mode is gelimiteerd tot 15 minuten per sessie. Koop de OBD Plugin om vrij te geven!</string>
+    <string name="obd_buy_button">Koop Plugin</string>
+
+    <!-- Roadbook -->
+    <!-- Settings -->
+    <string name="roadbook_settings_instrumets_cat_title">Instrument Settings</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Totale Afstand - 1 Decimaal</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Toont de totale afstand met 1 decimaal ipv 2</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Partiële - 1 decimaal</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Toont de partiële afstand met 1 decimaal ipv 2</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Visuele Instellingen</string>
+    <string name="roadbook_settings_invert_paper_color_title">PDF Kleuren omkeren</string>
+    <string name="roadbook_settings_invert_paper_color_message">Draait de papierkleur om, kan handig zijn bij rijden in het donker.</string>
+    <string name="roadbook_settings_locker_cat_title">Instellingen scherm vastzetten</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">Scherm vastzetten schakelt ook papier aanraken uit</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Wanneer scherm wordt vastgezet wordt elke schermaanraking op papier genegeerd. Dit helpt het voorkomen van per ongeluk scrollen en acties door regendruppels.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Scherm vastzetten inactiveert ook de instrumenten</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Wanneer scherm vastgezet is, worden de instrument tap acties ook uitgeschakeld.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Scherm vastzetten schakelt ook top menu uit</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Wanneer scherm vastgezet is, wordt ook het top menu uitgeschakeld en zal enkel de slotknop werken.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Synchroniseer schermslot met play/pause</string>
+    <string name="roadbook_settings_locker_play_pause_message">scherm vastzetten zal play activeren en loszetten zal pauze activeren.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Aanpassingen</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Afstand Multiplier</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Voeg een correctiefactor toe aan Totale en Partiële afstand (voor het geval je roadbook afstanden moet gelijkschakelen)</string>
+    <string name="roadbook_settings_no_instruments_title">Verberg het instrumentenpaneel</string>
+    <string name="roadbook_settings_no_instruments_message">Als je je eigen instrumenten hebt en enkel de PDF-rol wil gebruiken.</string>
+    <string name="roadbook_settings_reset_session_title">Reset Sessie</string>
+    <string name="roadbook_settings_reset_session_message">Laad niet langer de huidige PDF en reset alle statistieken en afstanden.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Bevestig de Reset</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Ben je zeker dat je wil resetten? Dit reset alle statistieken en afstanden, en laadt niet langer de huidige PDF!</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Reset</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Remote Controller Setup</string>
+    <string-array name="roadbook_controller_button_options" translatable="true">
+        <item>Paper Scroll omhoog</item>
+        <item>Paper Scroll omlaag</item>
+        <item>Verhoog Total</item>
+        <item>Verlaag Total</item>
+        <item>Verhoog Partial</item>
+        <item>Verlaag Partial</item>
+        <item>Reset Total</item>
+        <item>Reset Partial</item>
+        <item>Papier kleur omkeren</item>
+        <item>Lock / Unlock</item>
+        <item>Play / Pause</item>
+        <item>Doe Niets</item>
+    </string-array>
+    <string name="roadbook_controller_button_up">Toets omhoog</string>
+    <string name="roadbook_controller_button_down">Toets omlaag</string>
+    <string name="roadbook_controller_button_left">Toets links</string>
+    <string name="roadbook_controller_button_right">Toets rechts</string>
+    <string name="roadbook_controller_button_enter">Enter toets (geen herhaling)</string>
+    <string name="roadbook_controller_button_enter_long">Enter toets Lang Duwen (alleen wanneer Locked / geen herhaling)</string>
+    <string name="roadbook_controller_button_right_long">Toets Rechts Lang Duwen</string>
+    <string name="roadbook_controller_button_left_long">Toets Links Lang Duwen (alleen wanneer Locked)</string>
+    <string name="roadbook_controller_button_zoomin">Toets A ( + )</string>
+    <string name="roadbook_controller_button_zoomout">Toets B ( - )</string>
+    <string name="roadbook_controller_scroll_amount_title">Scroll hoeveelheid per click</string>
+    <string name="roadbook_controller_scroll_amount_message">Pas de hoeveelheid verplaatsing aan voor de paper scroll bij omhoog en omlaag</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Activeer toets herhaling voor de joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Wanneer geactiveerd zullen de toetsen voor omhoog, omlaag, links, rechts herhaald worden wanneer ze ingedrukt blijven.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Stel herhaal snelheid voor Joystick in</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Stel herhaal snelheid voor Toetsen in</string>
+    <string-array name="roadbook_controller_repeat" translatable="true">
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Activeer toets herhaling voor toetsen</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Wanneer geactiveerd zullen Toets A en Toets B herhaald worden wanneer ingedrukt gehouden.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll papierrol 1 click omlaag 1 bij partiële reset</string>
+    <!-- Instrument On Tap Dialogs -->
+    <string name="roadbook_totals_dialog_title">Totale Afstand</string>
+    <string name="roadbook_totals_dialog_text">Selecteer een optie voor het Totale Afstand Instrument</string>
+    <string name="roadbook_partials_dialog_title">Partiële Afstand</string>
+    <string name="roadbook_partials_dialog_text">Selecteer een optie voor het Partiële Afstand Instrument</string>
+    <string name="roadbook_total_partial_dialog_reset">Reset</string>
+    <string name="roadbook_total_partial_dialog_edit">Wijzig</string>
+    <string name="roadbook_total_edit_message_dialog">Wijzig Totale Afstand</string>
+    <string name="roadbook_partial_edit_message_dialog">Wijzig Partiële Afstand</string>
+    <!-- Instrument Selection Dialogs -->
+    <string name="roadbook_instrument_select_dialog_title">Selecteer Instrument</string>
+    <!-- Instrument Names -->
+    <string name="roadbook_instrument_name_total">Totale Afstand</string>
+    <string name="roadbook_instrument_name_partial">Partiële Afstand</string>
+    <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensor</string>
+    <!-- View -->
+    <string name="roadbook_error_not_ready">Roadbook Service nog niet klaar! Probeer nogmaals.</string>
+    <string name="roadbook_error_no_action">Er is geen actie voor dit instrument.</string>
+    <string name="roadbook_stats_title">Statistieken</string>
+    <string name="roadbook_filename_label">File Name:</string>
+    <string name="roadbook_filename_no_file">No loaded file</string>
+    <string name="roadbook_totaltime_label">Totale Tijd:</string>
+    <string name="roadbook_traveltime_label">Reis Tijd:</string>
+    <string name="roadbook_stoptime_label">Stop Tijd:</string>
+    <string name="roadbook_avgspeed_label">Gemiddelde snelheid:</string>
+    <string name="roadbook_maxspeed_label">Maximum snelheid:</string>
+    <string name="roadbook_reset_stats_button">Reset</string>
+    <string name="roadbook_open_new_dialog_title">Open Nieuw Bestand</string>
+    <string name="roadbook_open_new_dialog_message">Negeer huidige sessie en start een nieuwe of bewaar voortgang eerst om later te hernemen?</string>
+    <string name="roadbook_open_new_dialog_open_button">Start Nu</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Bewaar eerst</string>
+    <string name="roadbook_open_parsing_error_title">Fout bij openen van bestand</string>
+    <string name="roadbook_open_parsing_error_message">Er blijkt een probleem te zijn bij het laden van het PDF-bestand. Mogelijks is het niet compatibel!</string>
+    <string name="roadbook_adjust_distance_multi">Afstand Correctie Factor:</string>
+    <string name="roadbook_open_file_or_session_title">Open Bestand of sessie</string>
+    <string name="roadbook_open_file_or_session_message">Importeer nieuw PDF-bestand of open Sessie Manager (manage eerder bewaarde sessies)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Bestand</string>
+    <string name="roadbook_open_file_or_session_open_session">Sessie</string>
+    <string name="roadbook_session_save_input_name">Geef de sessie een naam</string>
+    <string name="roadbook_session_save_input_empty_name_error">De sessie naam mag niet leeg zijn!</string>
+    <string name="roadbook_session_save_nothing_error">Niets te bewaren! Start misschien met het openen van een nieuw Roadbook bestand.</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Vervang of Voeg nieuwe toe</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Overschrijf de huidige sessie of voeg een nieuwe entry toe?</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Overschrijf</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Nieuwe Entry</string>
+    <string name="roadbook_session_save_name_already_exists_title">Sessie naam bestaat al</string>
+    <string name="roadbook_session_save_name_already_exists_message">Er bestaat al een sessie met de huidige naam, wil je deze vervangen of de naam wijzigen?</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Vervang</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Wijzig naam</string>
+    <!-- Session Manager -->
+    <string name="roadbook_session_manager_title">Sessie Manager</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Nog geen bewaarde sessies! Bewaar eerst een.</string>
+    <string name="roadbook_session_date">Datum:</string>
+    <string name="roadbook_session_file_name">PDF bestand:</string>
+    <string name="roadbook_session_total_distance">Totale Afstand:</string>
+    <string name="roadbook_session_total_time">Totale Tijd:</string>
+    <string name="roadbook_session_travel_time">Reis Tijd:</string>
+    <string name="roadbook_session_avg_speed">Gemiddelde Snelheid:</string>
+    <string name="roadbook_session_load_file">Laad</string>
+    <string name="roadbook_session_rename_file">Hernoem</string>
+    <string name="roadbook_session_location">Locatie</string>
+    <string name="roadbook_session_new_name">Wijzig deze sessie naam</string>
+    <string name="roadbook_session_new_name_already_exists">Deze sessie naam is al gebruikt, kies iets anders.</string>
+    <string name="roadbook_session_file_does_not_exist">ERROR: het PDF-bestand voor deze sessie bestaat niet langer!</string>
+    <string name="roadbook_session_load_confirmation_title">Sessie Load Confirmation</string>
+    <string name="roadbook_session_load_confirmation_message">Ben je zeker dat je deze sessie wil laden? Alle nog niet opgeslagen roadbook vordering zal verloren gaan!</string>
+    <!-- License -->
+    <string name="roadbook_license_title">Roadbook Demo Mode</string>
+    <string name="roadbook_license_message">Demo mode is gelimiteerd tot 15 minuten per sessie. Koop de Roadbook Plugin om te activeren!</string>
+    <string name="roadbook_buy_button">Koop Plugin</string>
+    <string name="roadbook_non_playstore_purchase_title">License Aankoop</string>
+    <string name="roadbook_non_playstore_purchase_message">Je toestel heeft Play Store niet geïnstalleerd staan, je kan nog steeds een license key aankopen op onze webshop en deze ingeven om te activeren!</string>
+    <string name="roadbook_insert_key">Licentie-code invoeren</string>
+    <string name="roadbook_purchase_key">Aankopen</string>
+    <string name="roadbook_insert_key_title">Voeg je Licentie-code in om de plugin te activeren:</string>
+    <string name="roadbook_purchase_key_activate">Activeer</string>
+    <string name="roadbook_purchase_key_activate_error_title">Fout bij Activeren van de Licentie-code</string>
+    <string name="roadbook_purchase_key_activate_error_message">Verkeerde Licentie-code of reeds geactiveerd op een ander toestel, controleer licenses in je Thork Racing account pagina of contacteer support.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Licentie geactiveerd</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin is nu actief! Bedankt voor je steun.</string>
+
+    <!-- MAP VIEW -->
+    <string name="map_first_run_download_maps_title">Nog geen kaarten gedownload</string>
+    <string name="map_first_run_download_maps_message">Je hebt nog geen kaarten gedownload. Wil je dat nu doen?</string>
+    <string name="map_first_run_download_maps_starting_layers">Laag Manager starten!</string>
+    <string name="map_navigation_selection_dialog_title">Selecteer Navigatie Mode</string>
+    <string name="map_navigation_selection_dialog_message">Gebruik DMD2 voor het berekenen van een route of een externe app?</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">Gebruik DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Externe App</string>
+    <string name="map_panning_mode_enable">Panning Mode geactiveerd</string>
+    <string name="map_lock_button_long_press_unlock">Lang indrukken voor ontgrendelen!</string>
+    <!--Map Layers Manager-->
+    <string name="map_layers_dialog_title">Kaart Lagen</string>
+    <string name="map_layers_base_map_title">Basis kaartbron</string>
+    <string name="map_layers_base_map_description">Basis data voor terrein, wegen, gebouwen, adressen, en hoogte.</string>
+    <string name="map_layers_3D_buildings_title">3D gebouwen</string>
+    <string name="map_layers_3D_buildings_description">Converteert gebouwen in een basis 3D vorm</string>
+    <string name="map_layers_scale_visibility_title">Schaal &amp; Zichtbaarheid</string>
+    <string name="map_layers_scale_visibility_description">Pas kaart, labels en symbool grootte en zichtbaarheid aan</string>
+    <string name="map_layers_scale_map_layer_label">Map schaal</string>
+    <string name="map_layers_enable_layer_label">Activeer Laag</string>
+    <string name="map_layers_enable_labels_layer_label">Activeer Labels</string>
+    <string name="map_layers_scale_labels_layer_label">Labels grootte</string>
+    <string name="map_layers_enable_symbols_layer_label">Activeer Symbolen</string>
+    <string name="map_layers_scale_symbols_layer_label">Symbols grootte</string>
+    <string name="map_layers_location_title">Locatie Icoon</string>
+    <string name="map_layers_location_description">Verander het huidige locatie icoon</string>
+    <string name="map_layers_icon_scale">Icoon grootte</string>
+    <string name="map_layers_icon_show_accuracy_range">Toon nauwkeurigheid bereik</string>
+    <string name="map_layers_hillshading_enable_shadows_label">Activeer Shadows</string>sd
+    <string name="map_layers_map_base_download_more">Download Kaarten</string>
+    <string name="map_layers_map_base_title">Selecteer te laden kaarten</string>
+    <string name="map_layers_map_base_file_missing">Error: de kaart-bestanden ontbreken, download ze opnieuw!</string>
+    <string name="map_layers_map_base_no_map_yet">Nog geen gedownloade kaarten, klik op Download Kaarten om te downloaden!</string>
+    <string name="map_layers_downloader_region_title">Selecteer Regio</string>
+    <string name="map_layers_downloader_map_title">Selecteer map</string>
+    <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
+    <string name="map_layers_downloader_country_date_label">Laatste Update:</string>
+    <string name="map_layers_downloader_country_size_label">Grootte:</string>
+    <string name="map_layers_downloader_country_region_label">Regio:</string>
+    <string name="map_layers_downloader_country_filename_label">Bestandsnaam:</string>
+    <string name="map_layers_downloader_country_loaded_label">Laad kaart:</string>
+    <string name="map_layers_downloader_no_update_label">Geen Update</string>
+    <string name="map_layers_downloader_notification_title">DMD2 Downloading</string>
+    <string name="map_layers_downloader_wait_until_finished">Wacht tot de download voltooid is!</string>
+    <string name="map_layers_downloader_cant_connect">Kan niet verbinden met de server, probeer het later opnieuw!</string>
+    <string name="map_layers_downloader_not_enough_space">Niet genoeg opslagruimte!</string>
+    <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
+    <string name="map_layers_poi_highlight_description">Toon POI icons op lager zoom level (500m zoom max)(brandstof/ziekenhuis/toppen zijn altijd ingeschakeld).</string>
+    <string name="map_layers_poi_fuel">Brandstof</string>
+    <string name="map_layers_poi_hospital">Ziekenhuis</string>
+    <string name="map_layers_poi_peaks">Pieken</string>
+    <string name="map_layers_poi_parking">Parkeren</string>
+    <string name="map_layers_poi_restaurant">Restaurant</string>
+    <string name="map_layers_poi_cafe">Cafe</string>
+    <string name="map_layers_poi_pub">Pub</string>
+    <string name="map_layers_poi_cafe_and_Pub">Cafe &amp; Pub</string>
+    <string name="map_layers_poi_hotel">Hotel</string>
+    <string name="map_layers_poi_hostel">Hostel</string>
+    <string name="map_layers_poi_accommodation">Accommodatie</string>
+    <string name="map_layers_poi_camping">Kamping</string>
+    <string name="map_layers_poi_supermarket">Supermarkt</string>
+    <string name="map_layers_poi_attraction">Attractie</string>
+    <string name="map_layers_poi_view_point">Uitzichtpunt</string>
+    <string name="map_layers_poi_historic">Historisch</string>
+    <string name="map_layers_poi_natural">Natuur</string>
+    <string name="map_layers_poi_parking_place">Parking</string>
+    <string name="map_layers_poi_car_repair">Auto Repair</string>
+    <string name="map_layers_poi_monument">Monument</string>
+    <string name="map_layers_poi_atm">ATM Bancontact</string>
+    <string name="map_layers_poi_bank">Bank</string>
+    <string name="map_layers_poi_gas">Gas Station</string>
+    <string name="map_layers_poi_moto_repair">Motorcycle Repair</string>
+    <string name="map_layers_theme_title">Kaart Type &amp; Stijl</string>
+    <string name="map_layers_theme_description">Selecteer de standaard minimum kaarttype of de meer gedetailleerde off-road topografische type. Stel ook de lichte en donkere kleurmodes in.</string>
+    <string name="map_layers_map_type_default_title">Standaard Minimal</string>
+    <string name="map_layers_map_type_topo_title">Off-Road Topo</string>
+    <string name="map_layers_map_type_light_or_dark">Licht / Donker Mode:</string>
+    <string name="map_layers_map_type_always_light">Licht</string>
+    <string name="map_layers_map_type_always_dark">Donker</string>
+    <string name="map_layers_map_type_follow_theme">Thema</string>
+    <string name="map_layers_map_type_light_sensor">Sensor</string>
+    <string name="map_layers_topo_advanced_title">Topo geavanceerde Opties</string>
+    <string name="map_layers_topo_advanced_description">Fine tune de Off-road Topo kaart type</string>
+    <string name="map_layers_topo_high_contrast_mode">Hoog-Contrast Mode</string>
+    <string name="map_layers_topo_options_altitude_line">Toon hoogtelijnen</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Onverhard Highlight (zichtbaar bij lage zoom)</string>
+    <string name="map_layers_topo_options_show_motorway">Toon Snelwegen</string>
+    <string name="map_layers_topo_options_show_primary">Toon Primaire wegen</string>
+    <string name="map_layers_topo_options_show_secondary">Toon Secondaire wegen</string>
+    <string name="map_layers_reset">Alle instellingen werden gereset naar de standaard waarde!</string>
+    <string name="map_layers_hillshading_title">HillShading (online)</string>
+    <string name="map_layers_hillshading_description">Toont de topografische vorm van hellingen en bergen met schaduw</string>
+    <string name="map_layers_hillshading_transparency">Transparantie</string>
+    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_description">Pas de breedte van de berekende route lijn op de kaart aan</string>
+    <string name="map_layers_routing_width_line">Lijn breedte</string>
+    <string name="map_layers_routing_transparency_line">Lijn transparantie</string>
+    <string name="map_layers_routing_pins_size">Grootte van aanwijzingen</string>
+    <!--GPX Manager-->
+    <string name="gpx_manager_title">GPX Manager</string>
+    <string name="gpx_manager_load_file">Laad bestand</string>
+    <string name="gpx_manager_no_file_loaded">Geenbestand geladen. Klik Laad Bestand.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Bestanden worden opnieuw geladen. Even geduld.</string>
+    <string name="gpx_manager_tracks">Tracks</string>
+    <string name="gpx_manager_waypoints">Waypoints</string>
+    <string name="gpx_manager_center_map_button">Centreer Kaart</string>
+    <string name="gpx_manager_settings_title">GPX instellingen</string>
+    <string name="gpx_manager_settings_visibility_title">Toon of Verberg</string>
+    <string name="gpx_manager_settings_visibility_message">Toon of Verberg GPX elementen (voor alle bestanden). Dit neemt prioriteit over individuele bestand instellingen.</string>
+    <string name="gpx_manager_settings_tracks_visibility">Toon alle geactiveerde GPX Tracks</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Toon Track Richting Pijlen</string>
+    <string name="gpx_manager_settings_waypoints_visibility">Toon Alle geactiveerde Waypoints</string>
+    <string name="gpx_manager_settings_waypoints_titles">Toon Waypoint Titel Tekst</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Verberg Waypoints op Lage Zoom</string>
+    <string name="gpx_manager_settings_style_title">Groottes &amp; Transparantie</string>
+    <string name="gpx_manager_settings_style_message">Stel standaard grootte en transparantie in voor GPX elementen</string>
+    <string name="gpx_manager_settings_defaults_title">Standaard Kleur</string>
+    <string name="gpx_manager_settings_defaults_message">Track standaard kleur</string>
+    <string name="gpx_manager_settings_track_width">Track Lijn Breedte</string>
+    <string name="gpx_manager_settings_track_transparency">Track Transparantie</string>
+    <string name="gpx_manager_settings_arrow_size">Richtings pijl Grootte</string>
+    <string name="gpx_manager_settings_waypoint_size">Waypoint Pin Grootte</string>
+    <string name="gpx_manager_settings_hide_all">Verberg Alle</string>
+    <string name="gpx_manager_settings_show_all">Toon Alle</string>
+    <string name="gpx_manager_settings_delete_all">verwijder Alle</string>
+    <string name="gpx_manager_settings_default_track_color">Standaard track kleur (wanneer geen kleur is gespecificeerd of ingesteld door de gebruiker):</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Overschrijf alle kleuren ingesteld in de bestanden door de standaard kleur:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Overschrijf alle kleuren ingesteld door de gebruiker naar de standaard kleur:</string>
+    <string name="gpx_manager_settings_load_poi_title">Auto Load POIs</string>
+    <string name="gpx_manager_settings_load_poi_message">Automatisch laden van POI\'s langs de track (tot 3 categorieën)</string>
+    <string name="gpx_manager_settings_load_poi_enable_label">Activeer auto POI laden langs de track:</string>
+    <string name="gpx_manager_settings_poi_cat_select_cats">Selecteer te laden POI categorieën:</string>
+    <string name="gpx_manager_no_tracks_warning">Het geselecteerde GPX-bestand bevat geen tracks!</string>
+    <string name="gpx_manager_track_manager_title">Track Manager</string>
+    <string name="gpx_manager_track_manager_no_description">Geen track beschrijving beschikbaar.</string>
+    <string name="gpx_manager_track_manager_track_length">Track Lengte</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeer naar…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeer naar Track Punt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Selecteer naar welk track punt je wilt navigeren.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Dichtsbijzijnde punt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track einde</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Converteer naar route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Houd er rekening mee dat deze operatie erg veeleisend en langzaam is. Het resultaat is mogelijk ook geen perfecte match met de originele track! Voorzichtig gebruiken.</string>
+    <string name="gpx_manager_track_manager_select_nav_app">Selecteer Navigatie App</string>
+    <string name="gpx_manager_track_manager_poi_search">POI Zoeken</string>
+    <string name="gpx_manager_no_waypoint_warning">Het geselecteerde GPF-bestand bevat geen waypoints!</string>
+    <string name="gpx_manager_waypoints_manager_title">Waypoints Manager</string>
+    <string name="gpx_manager_waypoints_navigate_to">Navigeer naar</string>
+    <string name="gpx_manager_waypoints_share_location">Deel Locatie</string>
+    <string name="gpx_manager_waypoints_search_at_location">Zoek dichtbij</string>
+    <string name="gpx_manager_waypoint_no_description">Geen waypoint beschrijving beschikbaar.</string>
+    <string name="gpx_manager_waypoint_straight_line_distance">Rechte Lijn Afstand</string>
+    <string name="gpx_manager_waypoint_distance_on_track">Afstand van bij jou</string>
+    <string name="gpx_manager_waypoint_distance_more">Track Point afstand.</string>
+    <string name="gpx_manager_waypoint_distance_from_track_start">Afstand van track start</string>
+    <string name="gpx_manager_waypoint_not_on_track">Je moet op dezelfde GPX rijden om afstandsinformatie te krijgen.</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Wachten op GPS Fix</string>
+    <string name="gpx_manager_waypoint_share_app">Selecteer app om te delen</string>
+    <string name="gpx_manager_gpx_loading_message">GPX bestand laden</string>
+    <string name="gpx_manager_poi_loading_message">Loading track POI search, dit kan wat tijd in beslag name…</string>
+    <string name="gpx_manager_advanced_title">Geavanceerde Opties</string>
+    <string name="gpx_manager_advanced_invert_orientation">Rijrichting omkeren</string>
+    <string name="gpx_manager_advanced_convert_to_route">Probeer volledig bestand te converteren naar navigatie:</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">Dit GPX-bestand bevat geen tracks!</string>
+
+    <!-- Map Press Actions -->
+    <string name="map_long_press_point_title">Kaart Actie LANG DUWEN</string>
+    <string name="map_long_press_point_no_info">Geen informatie voro dit punt!</string>
+    <string name="map_long_press_point_close_to">in</string>
+    <string name="map_long_press_point_nearest_city">dichtst bij stad</string>
+    <string name="map_long_press_point_navigate">Navigeer</string>
+    <string name="map_long_press_point_share">Deel</string>
+    <string name="map_long_press_search_poi">Zoek POI</string>
+    <string name="map_long_press_online_weather">Online Weer</string>
+    <string name="map_long_press_online_weather_no_info">Geen informatie voro dit punt!</string>
+    <!-- License -->
+    <string name="map_license_title">Kaart Demo Mode</string>
+    <string name="map_license_message">Demo mode is gelimiteerd tot 15 minuten per sessie. Koop de Kaart Plugin om te activeren!</string>
+    <string name="map_buy_button">Koop Plugin</string>
+    <string name="map_buy_dialog_title">Map Plugin Aankoop</string>
+    <string name="map_buy_dialog_message1">Selecteer abonnementsduur.</string>
+    <string name="map_buy_dialog_message2">12 Maand</string>
+    <string name="map_buy_dialog_message3">Levenslang</string>
+    <string name="map_buy_dialog_message4">6 Maand</string>
+    <string name="map_buy_button_12_month">12 Maand</string>
+    <string name="map_buy_button_6_month">6 Maand</string>
+    <string name="map_buy_button_lifetime">Levenslang</string>
+    <string name="license_limitation_message">Deze optie is enkel beschikbaar voor geregistreerde gebruikers!</string>
+    <!-- Map Settings -->
+    <string name="map_settings_auto_zoom_cat_title">Auto Zoom &amp; Tilt</string>
+    <string name="map_settings_auto_zoom_title">Activeer auto-zoom level</string>
+    <string name="map_settings_auto_tilt_title">Activeer auto-tilt level</string>
+    <string name="map_settings_auto_nav_only">Auto mode alleen in actieve navigatie</string>
+    <string name="map_settings_ui_cat_title">Interface Opties</string>
+    <string name="map_settings_ui_enable_track_progress">Activeer track voortgang info box</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Toont een box op de zijkant van het scherm met track voortgang en afstand tot volgende POIs en Waypoints.</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Schakel kaart-aanraken uit wanneer vergrendeld</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Specifiek handig wanneer je een controller hebt, schakelt de schermaanraking volledig uit.</string>
+    <string name="map_settings_ui_lock_on_move_title">Automatisch vergrendelen wanneer onderweg</string>
+    <string name="map_settings_ui_lock_on_move_message">Map vergrendeld UI automatisch wanneer je begint te bewegen</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Automatisch ontgrendelen wanneer gestopt</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map ontgrendeld UI automatisch wanneer je stopt met bewegen</string>
+    <string name="map_settings_language_cat_title">Kaart Taal</string>
+    <string name="map_settings_language_load_mode_title">Kaart Taal</string>
+    <string-array name="map_settings_language_load_mode_entries" translatable="true">
+        <item>Lokale Kaart Taal</item>
+        <item>English or available latin alphabet</item>
+        <item>French > English or available latin alphabet</item>
+        <item>German > English or available latin alphabet</item>
+    </string-array>
+    <string name="map_settings_navigation_cat_title">Navigatie</string>
+    <string name="map_settings_navigation_start_ask_title">Navigeer naar: Vraag om DMD2 of Externe app te gebruiken</string>
+    <string name="map_settings_navigation_start_ask_message">Wanneer geactiveerd zal DMD2 vragen of je DMD2 of een andere app wil gebruiken. Wanneer geïnactiveerd wordt standaard DMD2 gebruikt.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Activeer Stem begeleiding</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Maakt gebruik van Text-To-Speech om stembegeleiding bij navigatie.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Toon Waypoints op kaart</string>
+    <string name="map_settings_navigation_show_waypoints_message">Zal route instructie waypoints weergeven op de kaart.</string>
+    <string name="map_settings_navigation_recalculation_distance">Automatische route herberekening afstand</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Nooit</item>
+    </string-array>
+    <string name="map_settings_controller_cat_title">Controller instellingen</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Inactiveer Panning Mode Doel</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Inactiveer de nieuwe panning mode doel spot acties</string>
+    <!-- Poi Search -->
+    <string name="map_poi_search_manager">Plaats Zoeken</string>
+    <string name="map_poi_search_call">Bellen</string>
+    <string name="map_poi_type_name">Type Naam</string>
+    <string name="map_poi_error_no_offline_map_loaded">Error: Nog geen kaart geladen! Download eerst offline kaarten.</string>
+    <string name="map_poi_error_no_poi_found">Error: Geen POIs gevonden!</string>
+    <string name="map_poi_search_more">Zoek Online</string>
+    <string name="map_poi_no_phone_available_error">Geen telefoonnummer beschikbaar</string>
+    <string name="map_poi_no_phone_app_available_error">Geen Telefoon app beschikbaar</string>
+    <string name="map_poi_no_address">Geen adres beschikbaar</string>
+    <string name="map_poi_no_phone">Geen telefoon beschikbaar</string>
+    <string name="map_poi_no_website">Geen website beschikbaar</string>
+    <string name="map_poi_no_opening_hours">Geen openingsuren beschikbaar</string>
+    <string name="map_poi_search_dialog_title">Zoek POI bij Naam</string>
+    <string name="map_poi_search_button">Zoek</string>
+    <string name="map_poi_not_a_valid_keyword">Geen geldige zoek-entry!</string>
+    <string name="map_poi_no_valid_location_yet">Nog geen GPS-locatie! Probeer het later opnieuw.</string>
+    <string name="map_poi_distance_long_press_no_fix">Afstand niet beschikbaar, nog geen GPX Fix.</string>
+    <!-- Track Tap -->
+    <string name="map_map_track_tap_dialog_title">Track Point tikken</string>
+    <string name="map_map_track_tap_track_details">Track Details</string>
+    <string name="map_map_track_tap_track_point_distances">Point position afstand:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Afstand &amp; tijd tot jouw positie:</string>
+    <string name="map_map_track_tap_on_track">U bevindt zich op deze track!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">U bevindt zich op een andere track.</string>
+    <string name="map_map_track_tap_not_on_gpx">Je rijdt niet op deze track of een andere track in hetzelfde GPFX-bestand.</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Track Einde:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">GPX Einde:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Afstand:</string>
+    <string name="map_map_track_tap_point_time_to_you">Reis-Time:</string>
+    <string name="map_map_track_tap_point_behind">na</string>
+    <string name="map_map_track_tap_point_ahead">voor</string>
+    <string name="map_map_track_tap_distance_to_another_point">afstand tot een ander punt</string>
+    <string name="map_map_track_tap_points_distance_title">Points Afstand</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Tik op een ander punt om de afstand tussen punten krijgen</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Selecteer een punt dat deel uitmaakt van het zelfde GPX-bestand!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Beide geselecteerde punten bevinden zich op dezelfde GPX-track</string>
+    <string name="map_map_track_tap_points_distance_different_track">Punten bevinden zich niet op dezelfde GPX-track maar tracks zijn wel verbonden</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Kan niet meten over verschillende tracks met meerdere verbindingen!</string>
+    <!-- Left Panel Progress -->
+    <string name="map_ui_left_progress_panel_finish_label">Finish:</string>
+    <!-- Route Planner -->
+    <string name="map_route_planner_dialog_root_title">Route Planner</string>
+    <string name="map_route_planner_road_fast">Road Snel</string>
+    <string name="map_route_planner_road_fun">Road Fun</string>
+    <string name="map_route_planner_offroad">Off-Road</string>
+    <string name="map_route_planner_avoid_tolls">Vermijd Tolwegen</string>
+    <string name="map_route_planner_avoid_motorways">Vermijd Snelwegen</string>
+    <string name="map_route_planner_offroad_easy">Makkelijk</string>
+    <string name="map_route_planner_offroad_medium">Medium</string>
+    <string name="map_route_planner_offroad_hard">Moeilijk</string>
+    <string name="map_route_planner_profile_label">Selecteer Profiel</string>
+    <string name="map_route_planner_profile_option">Selecteer Profiel Opties</string>
+    <string name="map_route_calculating_message">Route berekenen…</string>
+    <string name="map_route_loading_message">Route Laden…</string>
+    <string name="map_route_analyzing_message">Route Analyseren …</string>
+    <string name="map_route_calculating_message_retry">Error!</string>
+    <string name="map_route_calculating_message_options">Opties</string>
+    <string name="map_route_planner_no_gps_fix">Nog geen GPS-fix, probeer het later opnieuw!</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Annuleer Activeer Route?</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Er is een actieve navigatie. Wil je deze annuleren en een nieuwe starten?</string>
+    <string name="map_route_planner_instruction_now">Nu</string>
+    <string name="map_route_planner_instruction_arrived">U bent op uw bestemming aangekomen!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Volg voor</string>
+    <string name="map_route_planner_instruction_turn_left">Draai Links in</string>
+    <string name="map_route_planner_instruction_turn_right">Draai Rechts in</string>
+    <string name="map_route_planner_instruction_turn_left_sharp">Scherpe bocht naar Links in</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Scherpe bocht naar Rechts in</string>
+    <string name="map_route_planner_instruction_turn_slight_left">Flauwe bocht naar Links in</string>
+    <string name="map_route_planner_instruction_turn_slight_right">Flauwe bocht naar Rechts in</string>
+    <string name="map_route_planner_instruction_keep_left">Hou Links in</string>
+    <string name="map_route_planner_instruction_keep_right">Hou Rechts in</string>
+    <string name="map_route_planner_instruction_uturn">Omkeren in</string>
+    <string name="map_route_planner_instruction_straight">Hou rechtdoor in</string>
+    <string name="map_route_planner_instruction_take_exit_1">Eerste afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_2">Tweede afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_3">Derde afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_4">Vierde afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_5">vijfde afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_6">Zesde afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_7">Zevende afrit in</string>
+    <string name="map_route_planner_instruction_take_exit_8">Achtste afrit in</string>
+    <string name="map_route_planner_instruction_destination">Bestemming in</string>
+    <string name="map_route_planner_nav_options">Opties</string>
+    <string name="map_route_planner_nav_options_title">Actieve Navigatie Opties</string>
+    <string name="map_route_planner_nav_options_message">Beschikbare opties voor de actieve navigatie:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Deel Als GPX</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Ontbrekende berekeningsbestanden</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Er ontbreken berekeningsbestanden. Download uw Kaart-bestanden opnieuw om er zeker van te zijn dat berekeningsbestanden worden geladen!</string>
+    <string name="map_route_planner_error_other_title">Berekeningsfout</string>
+    <string name="map_route_planner_error_other_message">Er was een fout bij het berekenen van de route! Probeer opnieuw, als u off-road bent gebruik dan het Mixed profiel!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Bestanden Ontbreken</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Voor DMD2 route planning toepassing heeft u extra bestanden nodig. Wil je dit nu doen?</string>
+    <string name="map_route_planner_dialog_download_progress">Berekeningsbestanden Downloading</string>
+    <string name="map_route_planner_empty">Geen actieve track of route!</string>
+    <!-- Place Search -->
+    <string name="map_place_search_dialog_title">Online Adres Zoeken</string>
+    <string name="map_place_search_button_label">Adres ingeven</string>
+    <string name="map_place_search_dialog_type_label">Geef een naam of adres:</string>
+    <string name="map_place_search_distance">Afstand in rechte lijn:</string>
+    <string name="map_place_search_instructions">Typ minstens 3 letters op resultaten te zien</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Opname</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Opnames</string>
+    <string name="map_gpx_recorder_dialog_status">Opname Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Afstand:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punten:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Sporen:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Begonnen:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Verstreken:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Gem. snelheid:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Totale stijging:</string>
+    <string name="map_gpx_recorder_dialog_record">Opnemen</string>
+    <string name="map_gpx_recorder_dialog_pause">Pauze</string>
+    <string name="map_gpx_recorder_dialog_resume">Hervatten</string>
+    <string name="map_gpx_recorder_dialog_finish">Beëindig opname</string>
+    <string name="map_gpx_recorder_dialog_add_track">Nieuwe track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Waypoint toevoegen</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Geen opname, druk op de opnameknop om te starten</string>
+    <string name="map_gpx_recorder_dialog_status_recording">GPX opname, druk Beëindig opname om te stoppen en opslaan</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Opname gepauzeerd, hervat of voltooi opname</string>
+    <string name="map_gpx_recorder_dialog_points_short">pnt</string>
+    <string name="map_gpx_recorder_new_track_title">Nieuwe naam track</string>
+    <string name="map_gpx_recorder_new_track_add_track">Toevoegen track</string>
+    <string name="map_gpx_recorder_inactive_warning">Kan dit niet uitvoeren. Geen opname!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Einde opname</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Kies opslaan in een GPX-bestand of weggooien en de opname verwijderen, of dit dialoogvenster sluiten en door gaan met opnemen.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Naam voor GPX File</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Weggooien / Verwijderen</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Bestand bestaat al</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Probeer opnieuw</string>
+    <string name="map_gpx_recorder_recordings_list">Opnamelijst</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Nog geen opgenomen GPX-bestanden!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">GPX laden</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Typ een nieuwe bestandsnaam:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Nieuw Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Naam</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Omschrijving</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tik op Locatie</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automatisch vullen</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tik op kaart voor positie</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tik op de nieuwe locatie voor het Waypoint en klik vervolgens op de knop Zet positie!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Zet positie</string>
+    <string name="map_gpx_recorder_tracks_edit">Track opname bewerker</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Nog geen sporen!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track naam</string>
+    <string name="map_gpx_recorder_track_edit_description">Track beschrijving</string>
+    <string name="map_gpx_recorder_track_edit_color">Kleur:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Opname Waypoints bewerker</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nog geen Waypoint!</string>
+
+</resources>

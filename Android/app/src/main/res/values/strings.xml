@@ -19,6 +19,13 @@
     <string name="menu_edit_title">Edit Bottom Menu</string>
     <string name="menu_edit_message">Re-order and enable/disable menu entries</string>
     <string name="menu_sorter_instructions">Touch and hold to move an item. Use the switch to show or hide.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Battery Indicator (can take some minutes to update)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentage</item>
+        <item>Current Now</item>
+        <item>Temperature</item>
+    </string-array>
 
     <!-- Global -->
     <!-- Units -->
@@ -28,6 +35,10 @@
     <string name="kmh">Km/h</string>
     <string name="meters">meters</string>
     <string name="feet">feet</string>
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometer</string>
+    <string name="kilometers">kilometers</string>
+    <string name="miles">miles</string>
     <!-- Buttons -->
     <string name="back">Back</string>
     <string name="abort">Abort</string>
@@ -74,12 +85,23 @@
     <string name="controller_app_update_download_notification">Downloading CARPE Update</string>
     <string name="controller_app_update_download_progress">Download progress:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">Tripltek T93 Trial</string>
-    <string name="t93_trial_message">Since you are using a Tripltek T93 you have 30-day free trial. If you have a special DMD2 Edition license key, please insert it to claim it.</string>
+    <string name="t93_trial_title">DMD2 Trial</string>
+    <string name="t93_trial_message">You have 30-day free trial. If you have a special DMD2 Edition license key, please insert it to claim it.</string>
     <string name="t93_trial_button">Continue Trial</string>
     <string name="t93_dmd2_edition_button">Insert Key</string>
     <string name="t93_finish_trial_button">End Trial</string>
     <string name="t93_dmd2_edition_insert_key_title">Insert DMD2-Edition Key:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Active</string>
+    <string name="download_manager_active_download_paused">Paused</string>
+    <string name="download_manager_active_download_error">Error</string>
+    <string name="download_manager_active_download_downloading">Downloading</string>
+    <string name="download_manager_active_download_downloading_no_progress">Downloading but cannot show progress</string>
+    <string name="download_manager_active_download_interrupted">Interrupted</string>
+    <string name="download_manager_active_download_interrupted_file">Interrupted file:</string>
+    <string name="download_manager_active_download_no_net">No Internet!</string>
+    <string name="download_manager_active_download_no_net_waiting">Waiting for internet connection…</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Localization</string>
@@ -164,7 +186,7 @@
     <string name="settings_dmd2_edition_redeem_title">Trial / DMD2 Edition</string>
     <string name="settings_dmd2_edition_redeem_message">Manage Trial or insert DMD2 Edition key</string>
     <!-- Welcome Screen -->
-    <string name="welcome_dmd2_title">Welcome to DMD2</string>
+    <string name="welcome_dmd2_title">Welcome to DMD2 Trial</string>
     <string name="welcome_dmd2_message">DMD2 is designed to transform your device into a complete dashboard for motorcycles and cars with special focus on adventure and off-road. It includes a Map for navigation, a Roadbook, OBD2 Sensors and much more.</string>
     <string name="welcome_dmd2_lets_go">Start</string>
     <!-- GPS Settings -->
@@ -409,6 +431,8 @@
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Instruments Settings</string>
+    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
+    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
     <string name="roadbook_settings_totals_single_decimal_title">Total Distance - Single Decimal Place</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
     <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
@@ -454,8 +478,10 @@
     <string name="roadbook_controller_button_down">Down Key</string>
     <string name="roadbook_controller_button_left">Left Key</string>
     <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Enter Key (no repeat)</string>
-    <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked / no repeat)</string>
+    <string name="roadbook_controller_button_enter">Enter Key</string>
+    <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
+    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
     <string name="roadbook_controller_button_zoomin">Button A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Button B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
@@ -569,6 +595,7 @@
     <string name="map_navigation_selection_dialog_use_dmd2">Use DMD2</string>
     <string name="map_navigation_selection_dialog_use_external">External App</string>
     <string name="map_panning_mode_enable">Panning Mode Enabled</string>
+    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Map Layers</string>
     <string name="map_layers_base_map_title">Base Map Source</string>
@@ -583,13 +610,17 @@
     <string name="map_layers_scale_labels_layer_label">Labels Scale</string>
     <string name="map_layers_enable_symbols_layer_label">Enable Symbols</string>
     <string name="map_layers_scale_symbols_layer_label">Symbols Scale</string>
+    <string name="map_layers_location_title">Location Icon</string>
+    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_icon_scale">Icon Scale</string>
+    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
     <string name="map_layers_hillshading_enable_shadows_label">Enable Shadows</string>sd
     <string name="map_layers_map_base_download_more">Download Maps</string>
     <string name="map_layers_map_base_title">Select Maps to Load</string>
     <string name="map_layers_map_base_file_missing">Error: The map files are missing, please download them again!</string>
     <string name="map_layers_map_base_no_map_yet">No downloaded maps yet, click Download Maps to download!</string>
     <string name="map_layers_downloader_region_title">Select Region</string>
-    <string name="map_layers_downloader_country_title">Select Country</string>
+    <string name="map_layers_downloader_map_title">Select Map</string>
     <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
     <string name="map_layers_downloader_country_date_label">Last Update:</string>
     <string name="map_layers_downloader_country_size_label">Size:</string>
@@ -603,6 +634,10 @@
     <string name="map_layers_downloader_not_enough_space">Not enough storage space!</string>
     <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
     <string name="map_layers_poi_highlight_description">Set POI icons to show at lower zoom levels (500m zoom max)(fuel/hospital/peaks are always enabled).</string>
+    <string name="map_layers_poi_fuel">Fuel</string>
+    <string name="map_layers_poi_hospital">Hospital</string>
+    <string name="map_layers_poi_peaks">Peaks</string>
+    <string name="map_layers_poi_parking">Parking</string>
     <string name="map_layers_poi_restaurant">Restaurant</string>
     <string name="map_layers_poi_cafe">Cafe</string>
     <string name="map_layers_poi_pub">Pub</string>
@@ -643,11 +678,17 @@
     <string name="map_layers_reset">All settings have been reset to defaults!</string>
     <string name="map_layers_hillshading_title">HillShading (online)</string>
     <string name="map_layers_hillshading_description">Shows the topographical shape of hills and mountains using shading</string>
-    <string name="map_layers_hillshading_transparency">Transparency</string>
+    <string name="map_layers_hillshading_transparency">Opacity</string>
+    <string name="map_layers_routing_title">Routing UI</string>
+    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_routing_width_line">Line Width</string>
+    <string name="map_layers_routing_transparency_line">Line Opacity</string>
+    <string name="map_layers_routing_pins_size">Indications Size</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Load File</string>
     <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
     <string name="gpx_manager_tracks">Tracks</string>
     <string name="gpx_manager_waypoints">Waypoints</string>
     <string name="gpx_manager_center_map_button">Center Map</string>
@@ -659,12 +700,12 @@
     <string name="gpx_manager_settings_waypoints_visibility">Show All Enabled Waypoints</string>
     <string name="gpx_manager_settings_waypoints_titles">Show Waypoint Title Text</string>
     <string name="gpx_manager_settings_waypoints_zoom">Hide Waypoints on Low Zoom</string>
-    <string name="gpx_manager_settings_style_title">Sizes &amp; Transparency</string>
-    <string name="gpx_manager_settings_style_message">Set GPX elements default sizes &amp; transparency</string>
+    <string name="gpx_manager_settings_style_title">Sizes &amp; Opacity</string>
+    <string name="gpx_manager_settings_style_message">Set GPX elements default sizes &amp; opacity</string>
     <string name="gpx_manager_settings_defaults_title">Color Defaults</string>
     <string name="gpx_manager_settings_defaults_message">Track line default color and color overwrites</string>
     <string name="gpx_manager_settings_track_width">Track Line Width</string>
-    <string name="gpx_manager_settings_track_transparency">Track Transparency</string>
+    <string name="gpx_manager_settings_track_transparency">Track Opacity</string>
     <string name="gpx_manager_settings_arrow_size">Direction Arrow Size</string>
     <string name="gpx_manager_settings_waypoint_size">Waypoint Pin Size</string>
     <string name="gpx_manager_settings_hide_all">Hide All</string>
@@ -681,8 +722,14 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
     <string name="gpx_manager_track_manager_track_length">Track Length</string>
-    <string name="gpx_manager_track_manager_navigate_to_start">Navigate To Start</string>
-    <string name="gpx_manager_track_manager_navigate_to_end">Navigate To End</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
+    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Search</string>
     <string name="gpx_manager_no_waypoint_warning">The selected GPX file does not contain any waypoints!</string>
@@ -698,13 +745,11 @@
     <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Waiting for GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">Select app to share</string>
+    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
     <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
     <string name="gpx_manager_advanced_title">Advanced Options</string>
     <string name="gpx_manager_advanced_invert_orientation">Invert Travel Direction</string>
     <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">If GPX includes off-road tracks please use MIXED profile!\nLow (Fast): Faster calculation, but may deviate from the original GPX.\nHigh (Slow): Slower calculation, specially on big files, but will deviate less.\nNOTICE: Big GPX files (above 1000Km), even on fast mode, can take forever…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Low (Fast)</string>
-    <string name="gpx_manager_advanced_convert_button_slow">High (Slow)</string>
     <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
 
     <!-- Map Press Actions -->
@@ -740,6 +785,10 @@
     <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
+    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
+    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
     <string name="map_settings_language_cat_title">Map Language</string>
     <string name="map_settings_language_load_mode_title">Map Language</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -751,6 +800,20 @@
     <string name="map_settings_navigation_cat_title">Navigation</string>
     <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
     <string name="map_settings_navigation_start_ask_message">If enabled DMD2 will ask if you want to use DMD2 or another app. If disabled it defaults to DMD2.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
+    <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+    <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Never</item>
+    </string-array>
     <string name="map_settings_controller_cat_title">Controller Settings</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
@@ -857,5 +920,58 @@
     <string name="map_place_search_dialog_type_label">Type a name or address:</string>
     <string name="map_place_search_distance">Straight Line Distance:</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
+    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
+    <string name="map_gpx_recorder_dialog_record">Record</string>
+    <string name="map_gpx_recorder_dialog_pause">Pause</string>
+    <string name="map_gpx_recorder_dialog_resume">Resume</string>
+    <string name="map_gpx_recorder_dialog_finish">Finish</string>
+    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
+    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
+    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
+    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
+    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
+    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
+    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
+    <string name="map_gpx_recorder_track_edit_color">Color:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
+
 
 </resources>
