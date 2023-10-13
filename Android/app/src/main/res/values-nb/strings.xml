@@ -1,25 +1,5 @@
 <resources>
 
-    <!-- New Untranslated -->
-
-    <string name="roadbook_settings_auto_start_title">Start Instrumenter Automatisk</string>
-    <string name="roadbook_settings_auto_start_message">Start alle instrumenter såsnart Roadbook-fremvisningen velges</string>
-    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviger til…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Naviger til punkt</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Velg hvilket punkt på sporet du vil navigere til.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Sporstart</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Nærmeste punkt</string>
-    <string name="gpx_manager_track_manager_navigate_end">Sporslutt</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Konverter spor til navigasjonsrute</string>
-    <string name="gpx_manager_advanced_convert_to_route3">NB! Dette er tidkrevende. Resultatet kan også avvike fra det opprinnelige sporet! Brukes med varsomhet.</string>
-  
-
-
-    <!-- End Of New Untranslated -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -450,6 +430,18 @@
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Instrumenter</string>
+    <string name="roadbook_settings_auto_start_title">Start Instrumenter Automatisk</string>
+    <string name="roadbook_settings_auto_start_message">Start alle instrumenter såsnart Roadbook-fremvisningen velges</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviger til…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Naviger til punkt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Velg hvilket punkt på sporet du vil navigere til.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Sporstart</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Nærmeste punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Sporslutt</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Konverter spor til navigasjonsrute</string>
+    <string name="gpx_manager_advanced_convert_to_route3">NB! Dette er tidkrevende. Resultatet kan også avvike fra det opprinnelige sporet! Brukes med varsomhet.</string>
     <string name="roadbook_settings_totals_single_decimal_title">Total kjørelengde - Kun én desimal</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Total kjørelende vises med én desimal i stedet for to.</string>
     <string name="roadbook_settings_partial_single_decimal_title">Delvis kjørelengde - Kun én desimal</string>
@@ -759,9 +751,6 @@
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
     <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
     <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
-    <string name="gpx_manager_advanced_convert_to_route2">Hvis GPX-filen inneholder off-road, vennligst bruk BLANDET profil!\nLav nøyaktighet (RASK): Raskere utregning, men kan avvike fra originalt spor.\nHøy nøyaktighet (TREG): Tregere utregning, særlig på store filer, men vil ha færre avvik fra originalt spor.\nNB!: Store GPX-filer (over 1000Km), kan ta håpløst lang tid, selv i RASK modus…</string>
-    <string name="gpx_manager_advanced_convert_button_fast">Lav nøyaktighet</string>
-    <string name="gpx_manager_advanced_convert_button_slow">Høy nøyaktighet</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
     <!-- Map Press Actions -->
@@ -812,8 +801,6 @@
     <string name="map_settings_navigation_cat_title">Navigering</string>
     <string name="map_settings_navigation_start_ask_title">Naviger til: Spør om å bruke DMD2 eller annen app</string>
     <string name="map_settings_navigation_start_ask_message">Hvis aktiv vil DMD" spørre om hvilken app du ønsker å bruke for navigering, hvis deaktivert brukes DMD2.</string>
-    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
     <string name="map_settings_navigation_show_waypoints_title">Vis kartnåler på kartet</string>
     <string name="map_settings_navigation_show_waypoints_message">Vil vise kartnåler med instruksjoner på kartet.</string>
     <string name="map_settings_navigation_recalculation_distance">Minimumsavstand for rekalkulering av navigasjon</string>
