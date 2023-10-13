@@ -18,6 +18,7 @@ Following the Android schemas:
 
 - Example for Portuguese translation folder: "values-pt"
 - Example for Spanish translation folder: "values-es"
+- Example for Estonia translation folder: "values-et"
 
 
 ## Links:
