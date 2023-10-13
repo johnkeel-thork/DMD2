@@ -2,17 +2,19 @@
 
     <!-- New Untranslated -->
 
-    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
-    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+    <string name="roadbook_settings_auto_start_title">Start Instrumenter Automatisk</string>
+    <string name="roadbook_settings_auto_start_message">Start alle instrumenter såsnart Roadbook-fremvisningen velges</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviger til…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Naviger til punkt</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Velg hvilket punkt på sporet du vil navigere til.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Sporstart</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Nærmeste punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Sporslutt</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Konverter spor til navigasjonsrute</string>
+    <string name="gpx_manager_advanced_convert_to_route3">NB! Dette er tidkrevende. Resultatet kan også avvike fra det opprinnelige sporet! Brukes med varsomhet.</string>
+  
 
 
     <!-- End Of New Untranslated -->
@@ -548,7 +550,7 @@
     <string name="roadbook_maxspeed_label">Maks hastighet:</string>
     <string name="roadbook_reset_stats_button">Nullstill</string>
     <string name="roadbook_open_new_dialog_title">Åpne ny fil</string>
-    <string name="roadbook_open_new_dialog_message">Avbryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringen senere?</string>
+    <string name="roadbook_open_new_dialog_message">Avbryte den pågående kjøringen og starte en ny, eller lagre først slik at du kan gjenoppta denne kjøringe senere?</string>
     <string name="roadbook_open_new_dialog_open_button">Start nå!</string>
     <string name="roadbook_open_new_dialog_save_first_button">Lagre først</string>
     <string name="roadbook_open_parsing_error_title">Feil ved åpning av fil</string>
@@ -757,6 +759,9 @@
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
     <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
     <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
+    <string name="gpx_manager_advanced_convert_to_route2">Hvis GPX-filen inneholder off-road, vennligst bruk BLANDET profil!\nLav nøyaktighet (RASK): Raskere utregning, men kan avvike fra originalt spor.\nHøy nøyaktighet (TREG): Tregere utregning, særlig på store filer, men vil ha færre avvik fra originalt spor.\nNB!: Store GPX-filer (over 1000Km), kan ta håpløst lang tid, selv i RASK modus…</string>
+    <string name="gpx_manager_advanced_convert_button_fast">Lav nøyaktighet</string>
+    <string name="gpx_manager_advanced_convert_button_slow">Høy nøyaktighet</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
     <!-- Map Press Actions -->
