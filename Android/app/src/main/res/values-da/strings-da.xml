@@ -1,0 +1,836 @@
+<resources>
+
+
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="online_status">Online</string>
+    <string name="offline_status">Offline</string>
+
+
+    <!-- Common and Global -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/t</string>
+    <string name="meters">meter</string>
+    <string name="feet">fod</string>
+    <string name="back">Tilbage</string>
+    <string name="abort">Annuller</string>
+    <string name="ok">OK</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="hide">Skjul</string>
+    <string name="save">Gem</string>
+    <string name="cancel">Afbryd</string>
+    <string name="close">Luk</string>
+    <string name="swipe_mess,age">De fleste oversigter vil have en lodret blå bjælke i venstre side af skærmen. Det betyder der er en venstre menu tilgængelig som du kan tilgå ved at swipe på venstre side af skærmen. Hvis du bruger en CARPE Controller kan den venstre menu normalt tilgås ved at trykke op eller ned.</string>
+    <string name="already_purchased">Du har allerede købt dette plugin</string>
+    <string name="hide_menu">Skjul Menu</string>
+    <string name="select">Vælg</string>
+    <string name="delete">Slet</string>
+    <string name="update">Opdater</string>
+    <string name="unhide">Vis</string>
+
+
+    <!-- Bottom Menu -->
+    <string name="global_settings">Generelle Indstillinger</string>
+    <string name="exit">Exit</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="apps">Apps</string>
+    <string name="speedometer">Speedometer</string>
+    <string name="control_station">Kontrol Station</string>
+    <string name="roadbook">Roadbook</string>
+    <string name="map">Kort</string>
+
+
+    <!-- Global Settings -->
+    <string name="localization_options">Localization Options</string>
+    <string name="hour_format">Brug 24t format</string>
+    <string name="use_miles">Brug Miles i stedet for Kilometer</string>
+    <string name="ui_options">Interface Options</string>
+    <string name="hide_status_bar">Skjul status bar</string>
+    <string name="hide_bottom_menu">Skjul automatisk den nederste menu</string>
+    <string name="hide_odo">Skjul Odometer på alle views</string>
+    <string name="carpe_controller_options">CARPE Controller Options</string>
+    <string name="immidiate_bottom_menu">Bottom menu immediate mode</string>
+    <string name="use_terrain_wheel_sensor">Brug Terrain Command hjul sensor</string>
+    <string name="terrain_current_speed_mode">Current speed value mode</string>
+    <string-array name="terrain_speed_modes" translatable="true">
+        <item>Brug atid GPS</item>
+        <item>Brug altid hjul sensor</item>
+        <item>Brug kun hjul sensor når der er lav GPS nøjagtighed</item>
+    </string-array>
+    <string name="terrain_odo_mode">Afstandsmåler metode</string>
+    <string-array name="terrain_odo_modes" translatable="true">
+        <item>Brug atid GPS</item>
+        <item>Brug altid hjul sensor</item>
+        <item>Brug kun hjul sensor når der er lav GPS nøjagtighed</item>
+    </string-array>
+    <string name="dmd2_plugins">Plugins til DMD2</string>
+    <string name="connection_error">Kan ikke forbinde, prøv at genstarte app'en og sikre dig du er online!</string>
+    <string name="auto_hide_left_menu_indicator">Skjul automatisk ventre menu indikatorer</string>
+    <string name="oem_registration">OEM Registrering</string>
+    <string name="oem_check">Start registrering (Skal bruge internet forbindelse)</string>
+    <string name="oem_check_summary">Brug kun hvis din motorcykel kom med et android device med Drive Mode Dashboard 2 pre installeret.</string>
+    <string name="roadbook_plugin_missing_title">Roadbook plugin påkrævet</string>
+    <string name="roadbook_plugin_missing_message">For at bruge Roadbook er det nødvendigt at købe Roadbook plugin. Du har startet en 1 times demo.</string>
+    <string name="map_plugin_missing_title">Kort Plugin påkrævet</string>
+    <string name="map_plugin_missing_message">For at bruge kortet er nødvendigt at købe kort plugin. Du har startet en 1 times demo.</string>
+    <string name="storage_options_category">Lager indstillinger</string>
+    <string name="save_maps_to_sd">Brug SD-kort til offline kort</string>
+    <string name="sd_card_error">Fejl! Kunne ikke bruge SD-kortet, det virker ikke med denne enhed!</string>
+    <string name="no_sd_card_error">Der er ikke noget SD-kort tilgængeligt eller det er ikke kombatibelt!</string>
+    <string name="move_files_to_sdcard">Vil du flytte alle dine kort filer til SD-kortet?</string>
+    <string name="move_files_to_internal_memory">Vil du flytte alle dine kort filer til intern hukommelse?</string>
+    <string name="moving_files_dialog_title">Flytter filer!</string>
+    <string name="moving_map_file">Flytter</string>
+    <string name="moving_map_of">af</string>
+    <string name="moving_left_menu_to_right">Flyt den venstre menu til den højre</string>
+    <string name="info_and_links">Informationer og links</string>
+    <string name="app_version">DMD2 Version</string>
+    <string name="app_installed_version">Installeret version:</string>
+    <string name="dmd2_website">Besøg den officielle Drive Mode Dashboard hjemmeside</string>
+    <string name="developer_website_title">DMD2 er leveret af</string>
+    <string name="follow_us_facebook">Besøg og følg os på vores Facebook side for de seneste nyheder</string>
+    <string name="join_us_facebook">Følg vores Facebook gruppe</string>
+    <string name="adv_rider_thread">Følg diskussionen om de nyeste features, fejl og ideer</string>
+    <string name="use_fahrenheit">Brug Fahrenheit i stedet for Celsius</string>
+    <string name="gps_measure_precision">GPS præcision</string>
+    <string name="gps_minimum_distance">GPS updater minumum distance</string>
+    <string-array name="gps_minimum_displacement" translatable="true">
+        <item>0 meter</item>
+        <item>0.5 meter</item>
+        <item>0.8 meter</item>
+        <item>1 meter</item>
+        <item>1.5 meter</item>
+        <item>2 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>5 meter</item>
+        <item>6 meter</item>
+        <item>7 meter</item>
+        <item>8 meter</item>
+        <item>9 meter</item>
+        <item>10 meter</item>
+    </string-array>
+    <string name="gps_minimum_speed">Minimum hastighed for GPS opdatering</string>
+    <string-array name="gps_minimum_speed" translatable="true">
+        <item>0 Km/t</item>
+        <item>1 Km/t</item>
+        <item>2 Km/t</item>
+        <item>3 Km/t</item>
+        <item>4 Km/t</item>
+        <item>5 Km/t</item>
+        <item>6 Km/t</item>
+        <item>7 Km/t</item>
+        <item>8 Km/t</item>
+        <item>9 Km/t</item>
+        <item>10 Km/t</item>
+    </string-array>
+    <string name="gps_minimum_accuracy">Minimum nøjagtighed for GPS opdatering</string>
+    <string-array name="gps_minimum_accuracy_array" translatable="true">
+        <item>3 meter</item>
+        <item>5 meter</item>
+        <item>10 meter</item>
+        <item>15 meter</item>
+        <item>20 meter</item>
+        <item>25 meter</item>
+        <item>30 meter</item>
+        <item>50 meter</item>
+        <item>100 meter</item>
+        <item>500 meter</item>
+        <item>1000 meter</item>
+        <item>2000 meter</item>
+    </string-array>
+    <string name="edit_bottom_menu_title">Ændre nederste Menu</string>
+    <string name="edit_bottom_menu_message">Organiser menu punkter og slå dem til/fra</string>
+    <string name="menu_sorter_title">Tryk og hold nede for at flytte. Brug omoskifteren for at skjule.</string>
+    <string name="shop_title">DMD2 Butik</string>
+    <string name="plugin_shop">Plugins Butik</string>
+    <string name="shop_description">Se de tilgængelige plugins til DMD2. Administre og opdater dine abbonomenter!</string>
+    <string name="map_view_plugin_title">Kort Plugin</string>
+    <string name="map_view_plugin_description">Kort plugin tilføjer en 3D kort visning til DMD2. Dette inkluderer topografiske offline kort, overflade kort, mulighed for at indlæse flere GPX filer med mange muligheder såsom (Spor farve/bredde/gennemsigtighed) samt widgets for hastighed, kurs, højre eller ODB værdier.</string>
+    <string name="six_month">6 Måneder</string>
+    <string name="one_year">År</string>
+    <string name="lifetime">Livstid</string>
+    <string name="purchased_already">Dette plugin er købt og aktivt, ingen yderligere handling er påkrævet.</string>
+    <string name="lifetime_owned">Du har allerede købt livstid version. Der er ikke behov for ekstra abbonoment.</string>
+    <string name="sub_already_owned">Du har allerede et aktivt abbonoment, ønsker du at annullerer dette først?</string>
+    <string name="unsubscribe">Ja, opsig det aktive</string>
+    <string name="subscribe_new">Er allerede gjort, opret nyt abbonoment</string>
+    <string name="no_internet">Ingen internet forbindelse! Du skal have en aktiv internet forbindelse for at kunne administrerer eller oprette abbonomenter.</string>
+    <string name="roadbook_plugin_title">Roadbook Plugin</string>
+    <string name="roadbook_plugin_description">Roadbook pluginet giver mulighed for at åbne en PDF roadbook fil. Du kan opsætte op til 4 instrumenter som f.eks total og del distance, kurs, hastighed og chronometer og styre det hele ved hjælp af en Bluetooth CARPE Controller.</string>
+
+
+    <!-- Widgets -->
+    <string name="none_empty_widget_desc">Ingen Widget / Tomt område</string>
+    <string name="speed_widget_desc">Hastighed / Triptæller / Kilometertæller</string>
+    <string name="fav_apps_widgets">App genveje</string>
+    <string name="trip_info">Rejse Information</string>
+    <string name="digital_clock">Digitalt Ur</string>
+    <string name="compass_widget">Kompas/Kurs</string>
+    <string name="system_widget">Android System Widget</string>
+    <string name="logo_widget">Tilføj et PNG logo</string>
+    <!-- Trip Widget -->
+    <string name="avg_speed">Gns fart</string>
+    <!-- Logo Widget -->
+    <string name="pixels">pixels</string>
+    <string name="tap_to_select_image">Tap for at vælge billede</string>
+    <string name="tap_to_edit_text">Tap for at redigerer tekst</string>
+    <string name="write_logo_message">Skriv din logo tekst</string>
+
+    <!-- GRID VIEW -->
+    <string name="option_show_grid">Layout Edit Mode</string>
+    <string name="select_widget">Vælg Widget</string>
+
+    <!-- Speedo View -->
+    <string name="distance">Distance</string>
+    <string name="total_time">Total Tid</string>
+    <string name="travel_time">Køre Tid</string>
+    <string name="stop_time">Stop Time</string>
+    <string name="avg_average">Gns.</string>
+    <string name="max_maximum">MAKS</string>
+    <string name="odo_odometer">Kilometertæller</string>
+    <string name="trip">Tur</string>
+    <string name="reset_trip">Nulstil Tur</string>
+    <string name="edit_odometer">Rediger Kilometertæller</string>
+    <string name="edit_odometer_message">Indsæt ny kilometetæller værdi:</string>
+    <string name="edit_odometer_controller_guide">Controller: Op/Ned ændres med 1, ZoomIn/Out ændres med 100, Centrer/Enter langt tryk nulstiller, Venstre/Højre for Cancel/Gem</string>
+    <string name="hours">Timer</string>
+    <string name="speedo_trip_options">Options</string>
+    <string name="trip_options">Tur Options</string>
+    <string name="trip_running_mode_title">Tur kører altid</string>
+    <string name="trip_running_mode_summary">Hvis det er slået fra skal du starte trip manuelt</string>
+    <string name="trip_auto_reset_title">Automatisk tur nulstilling.</string>
+    <string name="trip_auto_reset_summary">Turen nulstilles automatisk, hvis DMD2 er lukket i mere end en konfigurerbar tidsperiode.</string>
+    <string name="trip_auto_reset_time_title">Automatisk tursnulningstid.</string>
+    <string-array name="trip_reset_time_entries" translatable="true">
+        <item>6 Timer</item>
+        <item>12 Timer</item>
+        <item>1 dag</item>
+        <item>2 dage</item>
+        <item>5 dage</item>
+    </string-array>
+    <string name="trip_options_layout_cat">Layoutindstillinger.</string>
+    <string name="trip_hide_speed_title">Skjul hastighed og kilometertæller.</string>
+    <string name="trip_hide_speed_summary">Hvis du skjuler hastighed og kilometertæller bliver Tur værdierne størrer.</string>
+    <string name="start_stop_trip">Start/Pause Tur</string>
+
+
+    <!-- Control Station -->
+    <string name="brightness">Lysstyrke</string>
+    <string name="set_max_bright_title">Detektion af maks system lysstryke</string>
+    <string name="set_max_brightness">Find maksimal lysstyrke.</string>
+    <string name="set_max_bright_message">Da forskellige enheder bruger forskellige værdier for maksimal lysstyrke, skal vi først finde den.
+Gå venligst manuelt til systemmenuen og indstil din lysstyrke til det maksimale, og tryk derefter på GEM.</string>
+    <string name="bright_command_instruction">Controller: Brug Zoom-knapperne til at øge/reducere og Enter/Centrumklik for at ændre mellem Automatisk/Manuel.</string>
+    <string name="auto_bright">Auto</string>
+    <string name="manual_bright">Manuel</string>
+    <string name="control_station_exit">Controller: Brug venstre eller højre knapper for at afslutte.</string>
+    <string name="music_volume">Musik Volume</string>
+    <string name="calls_volume">Opkald Volume</string>
+    <string name="ring_volume">Ringelydstyrke.</string>
+    <string name="volume_command_instruction">Controller: Brug Zoom-knapperne til at øge/reducere og Tryk på Enter/Centrum for at ændre kilde.</string>
+    <string name="dnd_mode_title">Tilladelse til 'Må ikke forstyrres'-tilstand</string>
+    <string name="dnd_mode_message">For at justere alle lydstyrker fuldt ud, har vi brug for tilladelse til 'Må ikke forstyrres'-tilstand!</string>
+    <string name="controller_default_message">Controller: Tryk op for at vælge en skyder, tryk ned for at vende tilbage til menuen.</string>
+    <string name="rotation_locked">Skærmrotation låst.</string>
+    <string name="rotation_unlocked">Skærmrotation låst op.</string>
+    <string name="control_station_options">Options</string>
+    <string name="lock_rotation_system_wide_title">Skærmrotation låst på systemniveau.</string>
+    <string name="lock_rotation_system_wide_summary">I stedet for kun at låse rotationen i DMD2, vil den låse den på systemniveau, selv når DMD2 kører i baggrunden.</string>
+
+
+    <!-- Roadbook -->
+    <string name="tap_to_open_file">Tryk her for at åbne filen</string>
+	<string name="select_instrument">Vælg instrument</string>
+	<string name="none_empty_instrument_desc">Ingen, skjuler boks</string>
+	<string name="total_instrument_desc">Samlet afstand</string>
+	<string name="partial_instrument_desc">Delvis afstand</string>
+	<string name="heading_instrument_desc">Retning i grader</string>
+	<string name="current_speed_instrument_desc">Aktuel hastighed</string>
+	<string name="chronometer_instrument_desc">Kronometer</string>
+	<string name="current_time_instrument_desc">Ur (Aktuel tid)</string>
+	<string name="clock_title">Ur</string>
+	<string name="speed_title">Hastighed</string>
+	<string name="heading_title">Retning</string>
+	<string name="chrono_title">Krono</string>
+	<string name="total_distance_title">Samlet</string>
+	<string name="partial_distance_title">Delvis</string>
+	<string name="chrono_paused">PAUSE</string>
+	<string name="edit_instruments">Rediger instrumenter</string>
+	<string name="total_options">Indstillinger for samlet</string>
+	<string name="partial_options">Indstillinger for delvis</string>
+	<string name="invert_paper_color">Inverter papirfarve</string>
+	<string name="reset_all_instruments">Nulstil alle instrumenter</string>
+	<string name="total_distance_edit_title">Samlet afstand</string>
+	<string name="total_distance_message">Tryk for at redigere værdien af Samlet afstandsinstrumentet:</string>
+	<string name="partial_distance_edit_title">Delvis afstand</string>
+	<string name="partial_distance_message">Tryk for at redigere værdien af Delvis afstandsinstrumentet:</string>
+	<string name="total_options_dialog_title">Samlet afstand</string>
+	<string name="total_options_dialog_message">Tilgængelige indstillinger for Samlet afstandsinstrumentet:</string>
+	<string name="total_options_reset_button">Nulstil værdi</string>
+	<string name="total_options_input_button">Indtast værdi</string>
+	<string name="total_options_decimals_button">Decimaler</string>
+	<string name="total_decimals_dialog_title">Samlet - Decimaler</string>
+	<string name="total_decimals_dialog_message">Vælg antallet af decimaler at vise for Samlet-værdien:</string>
+	<string name="total_decimals_dialog_one_button">En (0,0)</string>
+	<string name="total_decimals_dialog_two_button">To (0,00)</string>
+	<string name="partial_options_dialog_title">Delvis afstand</string>
+	<string name="partial_options_dialog_message">Tilgængelige indstillinger for Delvis afstandsinstrumentet:</string>
+	<string name="partial_options_reset_button">Nulstil værdi</string>
+	<string name="partial_options_input_button">Indtast værdi</string>
+	<string name="partial_options_decimals_button">Decimaler</string>
+	<string name="partial_decimals_dialog_title">Delvis - Decimaler</string>
+	<string name="partial_decimals_dialog_message">Vælg antallet af decimaler at vise for Delvis-værdien:</string>
+	<string name="partial_decimals_dialog_one_button">En (0,0)</string>
+	<string name="partial_decimals_dialog_two_button">To (0,00)</string>
+	<string name="edit_hardware_controls">Controller Opsætning</string>
+	<string name="controller_lock_mode">Controller Lås-tilstand</string>
+	<string name="controller_lock_mode_enabled">Controller Lås-tilstand Aktiveret</string>
+	<string name="controller_lock_mode_disabled">Controller Lås-tilstand Deaktiveret</string>
+	<string name="roadbook_controller_setup_cat_title">CARPE Controller Knapsætning</string>
+	<string name="roadbook_controller_button_up">Joystick Op / Terræn Op</string>
+	<string name="roadbook_controller_button_down">Joystick Ned / Terræn Ned</string>
+	<string name="roadbook_controller_button_left">Joystick Venstre / Terræn Venstre</string>
+	<string name="roadbook_controller_button_right">Joystick Højre / Terræn Højre</string>
+	<string name="roadbook_controller_button_enter">Joystick Centerklik / Terræn Enter</string>
+	<string name="roadbook_controller_button_enter_long">Langt Tryk på Joystick Centerklik / Terræn Enter</string>
+	<string name="roadbook_controller_button_zoomin">Knap A / Zoom Ind</string>
+	<string name="roadbook_controller_button_zoomout">Knap B / Zoom Ud</string>
+	<string name="roadbook_controller_scroll_amount_title">Rullemængde pr. klik</string>
+	<string name="roadbook_controller_paper_scroll_on_partial_reset">Rul papir ned én gang ved delvis nulstilling</string>
+	<string name="roadbook_controller_paper_roll_options_cat_title">Papirrullemuligheder</string>
+	<string name="roadbook_controller_cat_title">CARPE Controller Indstillinger</string>
+	<string name="enable_controller_lock_also_disable_touch">Deaktiver også berøringsskærmen, når Controller Lås-tilstand er aktiveret</string>
+	<string-array name="roadbook_controller_button_options" translatable="true">
+		<item>Vis venstremenu</item>
+		<item>Rul papir op</item>
+		<item>Rul papir ned</item>
+		<item>Øg samlet</item>
+		<item>Nedsæt samlet</item>
+		<item>Øg delvis</item>
+		<item>Nedsæt delvis</item>
+		<item>Nulstil samlet</item>
+		<item>Nulstil delvis</item>
+		<item>Inverter papirfarve</item>
+		<item>Start / Pause kronometer</item>
+		<item>Nulstil kronometer</item>
+		<item>Gør ingenting</item>
+	</string-array>
+	<string name="roadbook_long_press_enter_summary">Langt tryk på joystick centerklik / Terræn Enter vil altid skifte Controller Lås-tilstand</string>
+	<string name="roadbook_open_file">Åbn PDF-fil</string>
+	<string name="roadbook_total_partial_controller_instructions">Controller: Brug Op / Ned / Venstre / Højre for at vælge knappen. Enter / Centerklik for at vælge.</string>
+	<string name="roadbook_decimals_controller_instructions">Controller: Brug Venstre / Højre for at vælge knappen. Enter / Centerklik for at vælge.</string>
+	<string name="roadbook_edit_values_guide">Controller: Op / Ned ændrer med 0,01, Zoom ind / ud ændrer med 1, Center / Enter langt tryk nulstiller til nul, Venstre / Højre for Annuller / Gem</string>
+	<string name="measure_correction_factor">Målinger Korrektion</string>
+	<string name="distance_measure_correction_title">Korrigeringsfaktor for afstandsmåling</string>
+	<string name="distance_measure_correction_message">Dine afstandsmålinger vil blive multipliceret med den indsatte værdi her. Brug dette som en korrigeringsfaktor for at matche Roadbook afstandsværdierne.</string>
+	<string name="roadbook_settings">Indstillinger</string>
+	<string name="roadbook_interface_settings">Grænsefladeindstillinger</string>
+	<string name="roadbook_show_instruments">Vis instrumentpanel</string>
+	<string name="roadbook_show_compass">Vis grafisk retningsskema</string>
+	<string name="roadbook_use_magnetic_sensor">Brug magnetisk sensor til retning, når du stopper</string>
+
+
+    <!-- MapFragment View -->
+	<string name="offline_map_manager">Offline Kortadministrator</string>
+	<string name="map_manager">Kortadministrator</string>
+	<string name="europe">Europa</string>
+	<string name="north_america">Nordamerika</string>
+	<string name="central_america">Centralamerika</string>
+	<string name="south_america">Sydamerika</string>
+	<string name="australia_oceania">Australien / Oceanien</string>
+	<string name="russia">Rusland</string>
+	<string name="asia">Asien</string>
+	<string name="africa">Afrika</string>
+	<string name="download">Hent</string>
+	<string name="downloading_map">Henter kortfil til</string>
+	<string name="downloading_poi">Henter ekstra POI-fil</string>
+	<string name="starting_download">Starter download…</string>
+	<string name="seconds">sekunder</string>
+	<string name="minutes">minutter</string>
+	<string name="remaining">tilbageværende</string>
+	<string name="load_map_switch">Altid Indlæs Kort:  </string>
+	<string name="map_type">Korttype</string>
+	<string name="map_type_title">Vælg korttype</string>
+	<string name="map_type_message">Vores kort kan vise standard OSM eller Topografisk OSM (med højdekurver) information. Standardversionen er optimeret til vejnavigation, mens topografisk versionen er til offroad-udforskning. Vælg venligst, hvilken du vil bruge:</string>
+	<string name="standard">Standard (Vej)</string>
+	<string name="topographic">Topografisk (Offroad)</string>
+	<string name="look_around_message">Brug Op/Ned/Venstre/Højre for at bevæge dig på kortet. Langt tryk på Enter/Centrumklik for at afslutte.</string>
+	<string name="look_around_title">Kig Omkring Tilstand</string>
+	<string name="online_layers">Yderligere Lag</string>
+	<string name="hill_shadding">Bjergskråning</string>
+	<string name="hill_shadding_desc">Bjergskråning er en teknik til at skabe reliefkort, der viser terrænets form med bjerge og bakker ved hjælp af skyggeeffekter.</string>
+	<string name="data_type_online">Datatype: Online (Kræver internetforbindelse) vil oprette offline cache</string>
+	<string name="medium_power_increase">Strømforbrug: Øger strømforbruget med op til 20%!</string>
+	<string name="hillshading_switch_state">Vis Bjergskråning Lag:</string>
+	<string name="tilt_adjust_mode">Tilpas Kortskråning</string>
+	<string name="tilt_adjust_mode_message">Brug Op/Ned for at ændre kortets hældning. Tryk på Enter/Centrumklik for at gemme og afslutte.</string>
+	<string name="manage_gpx_files">GPX-filer</string>
+	<string name="waypoint_box_close">Luk</string>
+	<string name="waypoint_box_navigate">Naviger</string>
+	<string name="waypoint_box_share">Del</string>
+	<string name="gpx_add_another">Tilføj Mere</string>
+	<string name="gpx_close_all">Fjern Alle</string>
+	<string name="imported_gpx_files">Importeret GPX-filer</string>
+	<string name="waypoints">Rute-punkter</string>
+	<string name="waypoint">Rute-punkt</string>
+	<string name="tracks">Ruter</string>
+	<string name="track">Rute</string>
+	<string name="set_to_hide_gpx">Skjul GPX</string>
+	<string name="set_to_visible_gpx">Gør GPX Synlig</string>
+	<string name="set_to_hide_track">Skjul Rute</string>
+	<string name="set_to_visible_track">Vis Rute</string>
+	<string name="track_is_hidden">Skjul Rute</string>
+	<string name="track_is_visible">Rute er synlig</string>
+	<string name="remove">Fjern</string>
+	<string name="no_waypoints_for_track">Denne rute indeholder ingen rute-punkter!</string>
+	<string name="no_track_description">Ingen rutebeskrivelse.</string>
+	<string name="track_lenght">Længde:</string>
+	<string name="set_color">Indstil Farve</string>
+	<string name="track_color">Rutefarve:</string>
+	<string name="open_gpx">Åbn GPX</string>
+	<string name="remove_gpx">Fjern GPX</string>
+	<string name="no_gpx_loaded">Ingen GPX er indlæst endnu!</string>
+	<string name="track_does_not_contain_waypoints">Ruten indeholder ingen rute-punkter.</string>
+	<string name="track_start_title">GPX Start</string>
+	<string name="track_start_description">Dette er det første punkt for denne GPX</string>
+	<string name="track_end_title">GPX Slut</string>
+	<string name="track_end_description">Dette er det sidste punkt for denne GPX</string>
+	<string name="select_navigation_app">Vælg Navigationsapp</string>
+	<string name="select_app">Vælg Applikation</string>
+	<string name="not_enough_space_title">FEJL: Ikke nok lagerplads!</string>
+	<string name="not_enough_space_progress_text">Du skal frigøre mindst</string>
+	<string name="bad_map_detected_title">Dårlig kortfil opdaget</string>
+	<string name="bad_map_detected_message">En beskadiget kortfil blev opdaget, filen blev slettet, og du skal downloade den igen. Den dårlige fil er: </string>
+	<string name="error_loading_gpx_title">Fejl ved indlæsning af GPX</string>
+	<string name="error_loading_gpx_message">Der opstod en fejl under indlæsningen af denne GPX. Det ser ud til, at den ikke er kompatibel med DMD2. Prøv venligst en anden.</string>
+	<string name="map_delete_title">Er du sikker på, at du vil slette denne kortfil?</string>
+	<string name="advanced_button">Avanceret</string>
+	<string name="advanced_title">Avancerede Indstillinger</string>
+	<string name="merge_visible_tracks">Sammenføj Synlige Ruter</string>
+	<string name="restore_split_tracks">Gendan Sammenføjede Ruter</string>
+	<string name="unmerge">Skil Ruter Ad</string>
+	<string name="this_track_is_the_sum">Denne rute er summen af</string>
+	<string name="of_tracks">sammenføjede ruter</string>
+	<string name="merged_track">Sammenføjede Synlige Ruter</string>
+	<string name="track_merged_to_visible_tracks">Ruten vil blive sammenføjet med synlige ruter</string>
+	<string name="dont_list_hidden_tracks">Skjul Skjulte Ruter</string>
+	<string name="list_hidden_tracks">Vis Skjulte Ruter</string>
+	<string name="track_hidden_from_list">Ruten vil blive skjult fra listen</string>
+	<string name="tune_line">Tilpas Linjeudseende</string>
+	<string name="clean_waypoints">Skjul Fjerne Rute-punkter</string>
+	<string name="clean_waypoints_description">Skjul rute-punkter, der er længere væk fra ruten i en afstand større end:</string>
+	<string name="processing_cleaning_waypoints">Behandler synlige rute-punkter… Dette kan tage et stykke tid!</string>
+	<string name="no_waypoint_was_hidden">Ingen rute-punkter blev fundet, der opfylder kriterierne. Prøv måske med en mindre afstand.</string>
+	<string name="found_and_hidden_waypoint_a">Der blev fundet</string>
+	<string name="found_and_hidden_waypoint_b">rute-punkter, der opfylder dine kriterier. Disse rute-punkter er nu skjulte!</string>
+	<string name="unlist_hidden_waypoints">Fjern skjulte rute-punkter fra listen</string>
+	<string name="marker_removed_from_list">Rute-punktet vil blive fjernet fra listen</string>
+	<string name="list_hidden_waypoints">Vis Skjulte Rute-punkter</string>
+	<string name="invert_gpx_direction">Omvend Rejsens Retning</string>
+	<string name="restore_gpx_direction">Gendan Rejsens Retning</string>
+	<string name="select_share_app">Vælg Delingsapp</string>
+	<string name="edit_widgets_layout">Rediger Widgets</string>
+	<string name="edit_widgets_toast">Tryk på widget for at redigere</string>
+	<string name="select_widget_for_slot">Vælg Widget</string>
+	<string name="no_widget_empty">INGEN - Tom plads</string>
+	<string name="speed_widget">HASTIGHED - Din rejsehastighed</string>
+	<string name="altitude_widget">HØJDE - Hvor høj er du</string>
+	<string name="heading_widget">PEJLING - GPS Pejlingsgrader</string>
+	<string name="trip_widget">TUR - Samlet rejseafstand</string>
+	<string name="obd_temperature_widget">OBD - Væsketemperatur</string>
+	<string name="obd_throttle_widget">OBD - Gashåndsgrad</string>
+	<string name="obd_bat_widget">OBD - Batterispænding</string>
+	<string name="obd_errors_widget">OBD - DTC Fejlantal</string>
+	<string name="obd_rpm_widget">OBD - Omdrejningstal</string>
+	<string name="obd_fuel_widget">OBD - Brændstofniveau</string>
+	<string name="obd_gear_widget">OBD - Gearindikator</string>
+	<string name="obd_afr_widget">OBD - O2-sensor AFR</string>
+	<string name="map_point_title">Langt tryk på Kortets Placering</string>
+	<string name="gpx_options">GPX Indstillinger</string>
+	<string name="gpx_options_box_title">GPX Ruteindstillinger</string>
+	<string name="track_line_width">Linjebredde:</string>
+	<string name="track_transparency">Linjegennemsigtighed:</string>
+	<string name="track_orientation_arrow">Orienteringspilestørrelse:</string>
+	<string name="next_multiple">Tilslutter til flere ruter</string>
+	<string name="last_no_connection">Sidste GPX-rute / Ingen forbindelse til andre</string>
+	<string name="next_section">Næste:</string>
+	<string name="show_gpx_track_progress">Vis GPX Rute Fremskridt boks</string>
+	<string name="show_gpx_nextwaypoint">Vis GPX Rute Næste Rute-punkt boks</string>
+	<string name="show_gpx_nextwaypoint2">Vis næste to rute-punkter (to bokse)</string>
+	<string name="file_browser_title">Filbrowser</string>
+	<string name="gpx_files">GPX-filer</string>
+	<string name="locations">Placeringer</string>
+	<string name="open_folder">Åbn</string>
+	<string name="new_folder">Ny Mappe</string>
+	<string name="delete_folder">Slet</string>
+	<string name="rename_folder">Omdøb</string>
+	<string name="select_folder_first">Vælg først en mappe!</string>
+	<string name="imported_folder_delete_error">Importeret mappe kan ikke slettes!</string>
+	<string name="recording_folder_delete_error">Optagelsesmappe kan ikke slettes!</string>
+	<string name="imported_folder_name">Importeret Indlæste Filer</string>
+	<string name="recordings_folder_name">Optagelser</string>
+	<string name="imported_folder_rename_error">Importeret mappe kan ikke omdøbes!</string>
+	<string name="recordings_folder_rename_error">Optagelsesmappe kan ikke omdøbes!</string>
+	<string name="type_renamed_folder_name">Omdøb mappen til:</string>
+	<string name="not_allowed_folder_name">Du kan ikke navngive en mappe som Optagelser eller Importeret!</string>
+	<string name="folder_already_exists">Der findes allerede en mappe med det navn. Prøv et andet navn!</string>
+	<string name="error_renaming_folder">Fejl ved omdøbning af mappe!</string>
+	<string name="type_new_folder_name">Indtast det nye mappenavn:</string>
+	<string name="new_folder_default_name">Ny Mappe</string>
+	<string name="error_creating_new_folder">Fejl ved oprettelse af ny mappe!</string>
+	<string name="open_gpx_file">Åbn</string>
+	<string name="delete_gpx_file">Slet</string>
+	<string name="import_gpx_file">Importer</string>
+	<string name="rename_gpx_file">Omdøb</string>
+	<string name="move_gpx_file">Flyt Til</string>
+	<string name="move_gpx_file_move_here">Flyt Herhen</string>
+	<string name="move_gpx_file_copy_here">Kopier Herhen</string>
+	<string name="cannot_copy_to_this_folder">Du kan ikke kopiere til denne mappe. Vælg en anden!</string>
+	<string name="select_folder_first_error">Klik på mappen, hvor du vil placere filen!</string>
+	<string name="copy_gpx_file">Kopier Til</string>
+	<string name="share_gpx_file">Del</string>
+	<string name="share_using">Vælg, hvordan filen skal deles</string>
+	<string name="file_already_loaded">Denne fil er allerede indlæst!</string>
+	<string name="file_delete_error_imported">Du kan ikke slette filer fra den importeret mappe!</string>
+	<string name="file_delete_error_select_first">Vælg først en fil!</string>
+	<string name="file_rename_imported_error">Du kan ikke omdøbe en fil i denne mappe!</string>
+	<string name="file_rename_dialog_title">Indtast nyt filnavn:</string>
+	<string name="file_rename_error_already_exist">Der findes allerede en fil med samme navn!</string>
+	<string name="file_rename_error_other">Der opstod en fejl under omdøbning af filen!</string>
+	<string name="file_import_not_allowed_here">Du kan ikke importere filer her!</string>
+	<string name="file_import_error">Fejl ved import af filen!</string>
+	<string name="save_location">Gem</string>
+	<string name="share_location">Del</string>
+	<string name="edit_location">Rediger</string>
+	<string name="location_action_error_select_first">Vælg venligst en placering først!</string>
+	<string name="location_default_title">Placering</string>
+	<string name="location_default_description">Gemt placering ved</string>
+	<string name="save_location_title">Gem Placering</string>
+	<string name="location_title_input_label">Titel:</string>
+	<string name="location_description_input_label">Beskrivelse:</string>
+	<string name="clear_button">Ryd</string>
+	<string name="map_pin_icon">Kategori Pin Ikon / Billede:</string>
+	<string name="select_pin_icon_title">Vælg Kategori (Pin Ikon)</string>
+	<string name="location_view_cats">Kategori Filter</string>
+	<string name="all_categories">Alle</string>
+	<string name="location_show">Behold på kortet</string>
+	<string name="all_pins_loaded_on_map">Synlig på kortet</string>
+	<string name="category_filter_error">Ingen placeringer passer til filteret!</string>
+	<string name="save_new_location">Tilføj Ny</string>
+	<string name="save_location_error_no_location_yet">Ingen GPS-placering endnu!</string>
+	
+	<string name="Default">Standard</string>
+	<string name="Restaurant">Restaurant</string>
+	<string name="Bar">Bar</string>
+	<string name="GasStation">Tankstation</string>
+	<string name="Summit">Top</string>
+	<string name="Lodging">Overnatning</string>
+	<string name="Civil">Offentligt Byggeri</string>
+	<string name="Campground">Campingplads</string>
+	<string name="ScenicArea">Scenisk Område</string>
+	<string name="ATV">ATV</string>
+	<string name="CarRepair">Autoværksted</string>
+	<string name="Church">Kirke</string>
+	<string name="RestrictedArea">Begrænset Område</string>
+	<string name="Information">Information</string>
+	<string name="FishingArea">Fiskeriområde</string>
+	<string name="ShoppingCenter">Shopping / Butik</string>
+	<string name="FlagRed">Rødt Flag</string>
+	<string name="FlagGreen">Grønt Flag</string>
+	<string name="FlagBlue">Blåt Flag</string>
+	<string name="DrinkingWater">Drikkevand</string>
+	<string name="Park">Naturpark</string>
+	<string name="Residence">Boligområde</string>
+	<string name="Military">Militært Område</string>
+	<string name="Crossing">Kryds</string>
+	<string name="Cave">Hule eller Mine</string>
+	<string name="DangerArea">Fare</string>
+	<string name="Ferry">Færge</string>
+	<string name="Cemetery">Kirkegård</string>
+	<string name="Anchor">Anker</string>
+	<string name="AmusementPark">Forlystelsespark</string>
+	<string name="PicnicArea">Picnicområde</string>
+	<string name="Bank">Bank eller Hæveautomat</string>
+	<string name="Hospital">Hospital</string>
+	<string name="Pharmacy">Apotek</string>
+	<string name="Telephone">Telefon</string>
+	<string name="Airport">Lufthavn</string>
+	<string name="Restrooms">Toiletter</string>
+	<string name="SwimmingArea">Svømmeområde</string>
+	<string name="Parking">Parkering</string>
+	<string name="RVPark">RV-parkering</string>
+	<string name="Dam">Dæmning</string>
+	<string name="Police">Politi</string>
+	<string name="TollBooth">Toldbod</string>
+	<string name="End">Målflag</string>
+
+	<string name="map_view_options">Kortindstillinger</string>
+	<string name="map_options_interface_cat_title">Grænsefladeindstillinger</string>
+	<string name="show_zoom_button">Vis zoomknapper</string>
+	<string name="map_options_location_cat_title">Placeringsindstillinger</string>
+	<string name="use_compass_when_stop">Når du er standset, brug kompassetsensor til retning (hvis tilgængelig)</string>
+	<string name="controller_cat_title">CARPE Controller-indstillinger</string>
+	<string name="enable_long_press_enter_title">Lås ved langt tryk på Enter</string>
+	<string name="enable_long_press_enter_message">Hvis aktiveret, låser DMD2 i kortvisning, når du trykker længe på Enter/joystickens midte. Op/Ned/Venstre/Højre vil panorere kortet. Tryk langt på Enter igen for at afslutte låsetilstanden.</string>
+	<string name="gpx_recorder_cat_title_precision">Optagerpræcision</string>
+	<string name="gpx_recorder_cat_title_automation">Automatisering</string>
+	<string name="gps_record_minimum_distance">Minimum afstand mellem punkter</string>
+	<string name="gpx_record_maximum_accuracy">Maksimal tilladt nøjagtighed i meter (lavere nøjagtighed er mere præcis, men kan springe punkter over)</string>
+	<string name="auto_record_gpx_title">Start optagelse automatisk</string>
+	<string name="file_split_rule">Automatisk regel for opdeling af optagelsesfil</string>
+		<string-array name="gpx_auto_record_reason" translatable="true">
+			<item>Tidsbaseret - 1 fil pr. dag (Ændres kl. 00:00)</item>
+			<item>Tid standset - Starter ny fil efter mindst 6 timer standset</item>
+			<item>Tid standset - Starter ny fil efter mindst 8 timer standset</item>
+			<item>Tid standset - Starter ny fil efter mindst 12 timer standset</item>
+			<item>Tid standset - Starter ny fil efter mindst 24 timer standset</item>
+	</string-array>
+	<string name="auto_track_maker">Opdel automatisk i spor</string>
+	<string-array name="auto_track_maker_reason" translatable="true">
+		<item>Opret ikke spor automatisk</item>
+		<item>Afstand - 10 (Km / Miles)</item>
+		<item>Afstand - 20 (Km / Miles)</item>
+		<item>Afstand - 30 (Km / Miles)</item>
+		<item>Afstand - 50 (Km / Miles)</item>
+		<item>Afstand - 100 (Km / Miles)</item>
+		<item>Afstand - 200 (Km / Miles)</item>
+		<item>Afstand - 300 (Km / Miles)</item>
+		<item>Afstand - 500 (Km / Miles)</item>
+		<item>Tid - 30 minutter</item>
+		<item>Tid - 1 time</item>
+		<item>Tid - 2 timer</item>
+		<item>Tid - 3 timer</item>
+		<item>Tid - 5 timer</item>
+		<item>Tid - 8 timer</item>
+		<item>Tid - 12 timer</item>
+		<item>Tid - 24 timer</item>
+	</string-array>
+	<string name="auto_waypoint_maker">Opret automatisk vejpunkter</string>
+	<string-array name="auto_waypoint_maker_reason" translatable="true">
+		<item>Opret ikke vejpunkter automatisk</item>
+		<item>Afstand - 10 (Km / Miles)</item>
+		<item>Afstand - 15 (Km / Miles)</item>
+		<item>Afstand - 20 (Km / Miles)</item>
+		<item>Afstand - 25 (Km / Miles)</item>
+		<item>Afstand - 30 (Km / Miles)</item>
+		<item>Afstand - 35 (Km / Miles)</item>
+		<item>Afstand - 50 (Km / Miles)</item>
+		<item>Afstand - 100 (Km / Miles)</item>
+		<item>Afstand - 150 (Km / Miles)</item>
+		<item>Afstand - 200 (Km / Miles)</item>
+		<item>Afstand - 250 (Km / Miles)</item>
+		<item>Afstand - 500 (Km / Miles)</item>
+		<item>Tid - 30 minutter</item>
+		<item>Tid - 1 time</item>
+		<item>Tid - 2 timer</item>
+		<item>Tid - 3 timer</item>
+		<item>Tid - 5 timer</item>
+		<item>Tid - 8 timer</item>
+		<item>Tid - 12 timer</item>
+		<item>Tid - 24 timer</item>
+	</string-array>
+
+	<string name="gpx_recorder_title">GPX-optager</string>
+	<string name="gpx_recorder_state_stopped">Inaktiv (Tryk for at optage)</string>
+	<string name="gpx_recorder_state_recording">Optager (Tryk for at sætte på pause)</string>
+	<string name="gpx_recorder_state_paused">Sat på pause (Tryk for at fortsætte)</string>
+	<string name="gpx_recorder_manage_tracks">Spor</string>
+	<string name="gpx_recorder_manage_waypoints">Vejpunkter</string>
+	<string name="gpx_recorder_manage_finish">Afslut</string>
+	<string name="gpx_recorder_manage_options">Indstillinger</string>
+	<string name="gpx_recorder_finish_confirmation">Er du sikker på, at du vil afslutte optagelsen? Dette kan ikke gøres om!</string>
+	<string name="gpx_recorder_finish_name">Angiv GPX-filnavn</string>
+	<string name="gpx_recorder_empty_error">GPX-optagelse er tom, ingen fil oprettet!</string>
+	<string name="gpx_recorder_already_exists_error">Der findes allerede en fil med det navn, vælg venligst et andet navn!</string>
+	<string name="gpx_recorder_tracks_label">Spor:</string>
+	<string name="gpx_recorder_waypoints_label">Vejpunkter:</string>
+	<string name="gpx_recorder_points_label">Punkter:</string>
+	<string name="gpx_recorder_distance_label">Afstand:</string>
+	<string name="gpx_recorder_time_label">Tid:</string>
+	<string name="gpx_recorder_started_label">Dato:</string>
+	<string name="gpx_not_recording_error">GPX optager ikke. Start optagelsen først!</string>
+	<string name="gpx_recorder_discard">Kassér GPX</string>
+	<string name="gpx_recorder_advanced_options">Avanceret</string>
+	<string name="gpx_recorder_manual_mode">Manuel tilstand</string>
+	<string name="gpx_recorder_automatic_mode">Automatisk tilstand</string>
+	<string name="gpx_recorder_error_no_points_yet">Du har endnu ikke optaget nogen punkter!</string>
+	<string name="gpx_recorder_waypoint_error_no_location">Ingen gyldig placering endnu, prøv igen, når du får en gyldig placering!</string>
+	<string name="gpx_recorder_layout_done">Færdig</string>
+	<string name="gpx_recorder_layout_show_track_lines">Vis linjer på kortet:</string>
+	<string name="gpx_recorder_layout_show_waypoints_lines">Vis vejpunkter på kortet:</string>
+	<string name="gpx_recorder_layout_default_track_color">Linjefarve (overskriver nuværende):</string>
+	<string name="gpx_recorder_layout_set_waypoint_name">Angiv vejpunktets titel:</string>
+	<string name="gpx_recorder_layout_set_track_name">Angiv spor titel:</string>
+	<string name="gpx_recorder_controls_name">Kontrol</string>
+	<string name="gpx_recorder_no_tracks_yet_error">Ingen spor endnu!</string>
+	<string name="gpx_recorder_no_waypoints_yet_error">Ingen vejpunkter endnu!</string>
+	<string name="gpx_recorder_track_edit_title">Spor titel:</string>
+	<string name="gpx_recorder_track_edit_description">Spor beskrivelse:</string>
+	<string name="gpx_recorder_track_edit_save_done">Færdig</string>
+	<string name="gpx_recorder_waypoint_edit_title">Vejpunktets titel:</string>
+	<string name="gpx_recorder_waypoint_edit_description">Vejpunktets beskrivelse:</string>
+	<string name="gpx_recorder_rewind_error_not_recording">Optageren er stoppet, intet at redigere!</string>
+	<string name="gpx_recorder_rewind_instructions">Tryk et hvilket som helst sted på sporet for at gå tilbage til det punkt, brug korsmarkøren øverst for at gå tilbage til din nuværende placering, eller brug kontrollerne til at bevæge dig i tiden:</string>
+	
+	
+	
+    <!-- OBD SENSORS -->
+	<string name="obd_bottom_menu_name">OBD Sensorer</string>
+	<string name="obd_setup">OBD Visningsindstillinger</string>
+	<string name="device_setup">OBD Bluetooth Enhedsopsætning</string>
+	<string name="select_device_title">Vælg Parret OBD-enhed</string>
+	<string name="obd_bluetooth_list_devices_summary">Vælg fra parrede Bluetooth-enheder. Sørg for, at donglen er parret først!</string>
+	<string name="obd_bluetooth_list_devices_title">Vælg ELM327 Bluetooth-enhed</string>
+	<string name="obd_cat_title_pref">OBD-indstillinger</string>
+	<string name="pref_obd_protocols_title">OBD-protokol</string>
+	<string name="pref_obd_protocols_summary">Vælg, hvilken OBD-protokol der skal bruges</string>
+	<string name="pref_reader_config_title">Læserkonfigurationskommandoer</string>
+	<string name="pref_reader_config_summary">Kommandoer til konfiguration af Bluetooth-læseren, adskilt med ny linje</string>
+	<string name="speed_rpm_options">Hastighed og RPM-indstillinger</string>
+	<string name="speed_value_source_title">GPS Hastighedsværdikilde</string>
+	<string name="speed_value_source_summary">Brug GPS/Terræn-hjulsensor i stedet for OBD-hastighedsværdi (som muligvis ikke er tilgængelig)</string>
+	<string name="max_rpm_title">Indstil maksimal RPM</string>
+	<string name="max_rpm_summary">Indstil din køretøjs maksimale RPM-værdi</string>
+	<string name="redline_rpm_title">Indstil røde zone RPM</string>
+	<string name="redline_rpm_summary">Indstil din røde zone RPM-værdi</string>
+	<string name="shift_rpm_title">Indstil gearskifte RPM</string>
+	<string name="shift_rpm_summary">Indstil din ønskede gearskifte RPM-værdi</string>
+	<string name="show_hide_sensors_cat">Fuld visning - Skjul / Vis sensorer</string>
+	<string name="show_hide_maf_title">Vis M.A.F. Sensor</string>
+	<string name="show_hide_maf_summary">Denne sensor er ikke tilgængelig på alle køretøjer</string>
+	<string name="show_hide_oil_temp_title">Vis olie-temperatursensor</string>
+	<string name="show_hide_voltage_title">Vis spændingssensor</string>
+	<string name="show_engine_load_title">Vis motorbelastningssensor</string>
+	<string name="show_fuel_level_title">Vis brændstofniveausensor</string>
+	<string name="record_vals_title">Optag værdier</string>
+	<string name="max_liquid_temp">Maks. kølervæsketemperatur:</string>
+	<string name="max_rpm">Maks. RPM:</string>
+	<string name="max_throttle">Maks. gashåndtag:</string>
+	<string name="min_voltage">Min. spænding:</string>
+	<string name="no_dtc_error">Ingen DTC-fejl</string>
+	<string name="dtc_error">DTC-fejl(r)</string>
+	<string name="bt_dongle_disconnected">BT OBD-dongle afbrudt (Controller: Tryk på Joystick Center / Terrain Enter for at forbinde)</string>
+	<string name="bt_dongle_connected">BT OBD-dongle forbundet</string>
+	<string name="bt_dongle_connect">Start OBD-forbindelse</string>
+	<string name="bt_dongle_already_connected">OBD-dongle allerede forbundet</string>
+	<string name="reset_record_values">Nulstil optageværdier</string>
+	<string name="auto_start_obd_connection_title">Automatisk start OBD-forbindelse</string>
+	<string name="auto_start_obd_connection_summary">Hvis aktiveret, forsøger det at oprette forbindelse til OBD-donglen ved app-start</string>
+	<string name="coolant_temp_label">Kølervæsketemp.</string>
+	<string name="oil_temp_label">Oljetemp.</string>
+	<string name="intake_temp_label">Indtagslufttemp.</string>
+	<string name="intake_pressure_label">Indtagsmanifoldtryk</string>
+	<string name="mass_air_flow">M.A.F.</string>
+	<string name="throttle_position">Gashåndtagsposition</string>
+	<string name="engine_load">Motorbelastning</string>
+	<string name="voltage">Spænding</string>
+	<string name="fuel_level">Brændstofniveau</string>
+	<string name="obd_service_notification_title">OBD-overvågningstjeneste kørende</string>
+	<string name="obd_service_obd_connected">Forbundet til donglen!</string>
+	<string name="obd_service_obd_disconnected">Afbundet fra donglen!</string>
+	<string name="reset_dtc_errors">Nulstil fejl</string>
+	<string name="throttle_options">Gashåndtagsindstillinger</string>
+	<string name="use_raw_throttle_title">Brug RÅ gashåndtagspositionsværdi</string>
+	<string name="use_raw_throttle_message">Brug faktisk OBD2 rå værdi eller kalibrer minimum og maksimum positioner</string>
+	<string name="calibrate_throttle_title">Kalibrer gashåndtagsposition</string>
+	<string name="calibrate_throttle_message">Dette vil starte en dialog med instruktioner til kalibrering af minimums- og maksimumspositionen for gashåndtaget. Kræver, at ECU er TÆNDT og OBD-donglen er tilsluttet, og motoren skal være slukket. Dette ændrer IKKE nogen værdi i din ECU!</string>
+	<string name="min_throttle_calib_dialog_title">Minimumsposition for gashåndtagets kalibrering</string>
+	<string name="min_throttle_calib_dialog_message">TÆND VENLIGST MOTOREN! Sørg for, at køretøjet er i stabil tilstand efter opvarmning!!! Dit gashåndtag skal være i minimumspositionen (i tomgang / helt slukket). Tryk på KALIBRER-knappen, når du er klar.</string>
+	<string name="min_throttle_calib_dialog_title">Minimumsposition for gashåndtagets kalibrering</string>
+	<string name="min_throttle_calib_dialog_message">TÆND VENLIGST MOTOREN! Sørg for, at køretøjet er i stabil tilstand efter opvarmning!!! Dit gashåndtag skal være i minimumspositionen (i tomgang / helt slukket). Tryk på KALIBRER-knappen, når du er klar.</string>
+	<string name="throttle_calib_set_minimum">INDSTIL MINIMUM</string>
+	<string name="max_throttle_calib_dialog_title">Maksimum position for gashåndtagets kalibrering</string>
+	<string name="max_throttle_calib_dialog_message">TÆND VENLIGST MOTOREN, OG LAD TENNINGEN VÆRE TÆNDT! Sørg for, at gashåndtaget er i maksimal position (fuldt åbent gashåndtag). Tryk på KALIBRER-knappen, når du er klar.</string>
+	<string name="throttle_calib_set_maximum">INDSTIL MAKSIMUM</string>
+	<string name="throttle_calib_finished">Maksimum- og minimumposition for gashåndtag er indstillet</string>
+	<string name="cant_calib_obd_disconnected">Opret forbindelse til OBD-donglen først!</string>
+	<string name="error_dongle_not_configurable">Konfigurer venligst BT OBD-donglen først!</string>
+	<string name="fuel_level_settings">Brændstofniveauindstillinger</string>
+	<string name="fuel_level_calculated">Beregn brændstofniveau</string>
+	<string name="fuel_level_calculated_summary">Hvis dit niveau ikke rapporteres af ECU'en, kan du lade DMD2 beregne det baseret på gennemsnitlige kilometer pr. tank. For at nulstille skal du trykke på brændstofikonet, når du tanker.</string>
+	<string name="fuel_level_avg_mileage">Gennemsnitlige kilometer pr. tank</string>
+	<string name="fuel_level_avg_mileage_summary">Hvad er din gennemsnitlige kilometertal med en fuld tank (indsæt i km)</string>
+	<string name="obd_fuel_reset">Er du sikker på, at du vil nulstille brændstofniveau-tælleren? Sørg for, at du har en fuld tank!</string>
+	<string name="gear_calculator">Gearindikationsberegning</string>
+	<string name="number_of_gears">Antal gear</string>
+	<string name="number_of_gears_summary">Angiv antallet af gear, din motorcykel har</string>
+	<string name="minimum_rpm_calculation">Minimum RPM for at starte beregning</string>
+	<string name="minimum_rpm_calculation_summary">Gearberegner beregner kun gear over denne RPM</string>
+	<string name="gear_one_min_ratio">1. Gearforhold</string>
+	<string name="gear_two_min_ratio">2. Gearforhold</string>
+	<string name="gear_three_min_ratio">3. Gearforhold</string>
+	<string name="gear_four_min_ratio">4. Gearforhold</string>
+	<string name="gear_five_min_ratio">5. Gearforhold</string>
+	<string name="gear_six_min_ratio">6. Gearforhold</string>
+	<string name="gear_one_min_ratio_summary">Hastighed (i km/t) divideret med RPM</string>
+	<string name="dtc_errors_title">Aktive DTC-fejl</string>
+	<string name="dtc_errors_no_error_to_view">Der er ingen DTC-fejl at se!</string>
+	<string name="obd_dtc_error_ignore_name">Ignorer fejl / fejlens navn:</string>
+	<string name="obd_how_to_gear_indicator_title">Sådan bruges gearindikatoren</string>
+	<string name="obd_how_to_gear_indicator_summary">Klik her for at læse, hvordan man beregner gearforholdene</string>
+	<string name="obd_select_sensor">Vælg sensor</string>
+	<string name="obd_select_sensor_incompatible_with_slot">Inkompatibel med slot</string>
+	<string name="obd_select_sensor_already_assigned">Sensor allerede tildelt</string>
+	<string name="obd_sensor_coolant_temperature">Kølervæsketemperatur</string>
+	<string name="obd_sensor_coolant_temperature_short">L.TEMP</string>
+	<string name="obd_sensor_voltage">Spænding</string>
+	<string name="obd_sensor_voltage_short">VOLT</string>
+	<string name="obd_sensor_throttle_position">Gashåndtagsposition</string>
+	<string name="obd_sensor_throttle_position_short">TP</string>
+	<string name="obd_sensor_fuel_level">Brændstofniveau</string>
+	<string name="obd_sensor_fuel_level_short">FUEL</string>
+	<string name="obd_sensor_gear_indicator">Gearindikator</string>
+	<string name="obd_sensor_gear_indicator_short">GEAR</string>
+	<string name="obd_sensor_o2_afr">O2-sensor AFR</string>
+	<string name="obd_sensor_o2_afr_short">AFR</string>
+	<string name="obd_sensor_timming_advance">Tændingsforsinkelse</string>
+	<string name="obd_sensor_timming_advance_short">SPARK</string>
+	<string name="obd_sensor_engine_load">Motorbelastning</string>
+	<string name="obd_sensor_engine_load_short">LOAD</string>
+	<string name="obd_sensor_fuel_rail_load">Brændstofskinnelast</string>
+	<string name="obd_sensor_fuel_rail_load_short">FRL</string>
+	<string name="obd_sensor_oil_temperature">Oljetemperatur</string>
+	<string name="obd_sensor_oil_temperature_short">OIL</string>
+	<string name="obd_sensor_intake_air_temperature">Indtagslufttemperatur</string>
+	<string name="obd_sensor_intake_air_temperature_short">IAT</string>
+	<string name="obd_sensor_manifold_pressure">Indtagsmanifoldtryk</string>
+	<string name="obd_sensor_manifold_pressure_short">MAP</string>
+	<string name="obd_sensor_mass_air_flow">Masse luftstrøm</string>
+	<string name="obd_sensor_mass_air_flow_short">MAF</string>
+	<string name="obd_sensor_rpm">RPM</string>
+	<string name="obd_record_values_title">Optag værdier</string>
+	<string name="obd_record_values_reset">Nulstil</string>
+	<string name="obd_auto_gear_ratio_title">Start Gear Ratio-assistent</string>
+	<string name="obd_auto_gear_ratio_message">Vil starte en dialogboks for at hjælpe dig med at finde dine gearforhold (du bliver nødt til at køre på cyklen på alle gear)</string>
+	<string name="obd_auto_gear_ratio_assistant_title">Gear Ratio Assistant</string>
+	<string name="first_gear_calculation">Beregning for første gear</string>
+	<string name="second_gear_calculation">Beregning for andet gear</string>
+	<string name="third_gear_calculation">Beregning for tredje gear</string>
+	<string name="fourth_gear_calculation">Beregning for fjerde gear</string>
+	<string name="fifth_gear_calculation">Beregning for femte gear</string>
+	<string name="sixth_gear_calculation">Beregning for sjette gear</string>
+	<string name="next_gear">Næste gear</string>
+	<string name="gear_assist_finish">Afslut og gem</string>
+	<string name="gear_assist_finished_toast">Gear Ratio Assistant fuldført</string>
+	<string name="gear_assist_instruction">Kør med en konstant hastighed med det angivne gear aktiveret, og når forholdet stabiliseres, skal du trykke på NÆSTE.</string>
+	<string name="gear_assist_ratio_error">Forholdet kan ikke være 0</string>
+	
+    <!-- ADS VIEW -->
+	<string name="support_project">Støt DMD2</string>
+	<string name="ads_title">Hej!</string>
+	<string name="ads_thank_you_message">Tak fordi du bruger DMD2. Vi håber, du nyder det!
+	\n\nVi arbejder konstant på dette projekt for at bringe dig nye funktioner!
+	\n\nHvis du ønsker at støtte dette projekt, bedes du overveje at købe noget fra vores butik. Det vil også fjerne denne reklamevisning!
+	\nNogle af de ting, vi arbejder på, inkluderer ruteberegning, trin-for-trin-navigation, POI-søgning, vejrinformation, synkronisering af flere enheder og online filhåndtering, brugerkonti og placeringsovervågning (se alle på kortet), sammen med mange andre funktioner!</string>
+	<string name="visit_shop">Besøg Butik</string>
+	<string name="no_ads_plugin">Ingen reklame-plugin</string>
+	<string name="no_ads_plugin_description">Fjern menuindgangen 'Support DMD2' og alle reklamer fra appen. Køb kun dette plugin, hvis du ikke ønsker andre plugins, da køb af et andet plugin også fjerner visningen og reklamerne. (Kræver genstart af appen efter købet)</string>
+
+
+
+</resources>
