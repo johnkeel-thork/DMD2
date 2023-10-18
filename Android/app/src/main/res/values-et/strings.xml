@@ -2,72 +2,69 @@
 
     <!-- New Untranslated -->
 
-    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
-    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeeri…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeeri rajapunkti</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Valige, millisesse rajapunkti soovite navigeerida.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Raja algus</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Lähim punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Raja lõpp</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Teisenda marsruudiks</string>
+    <string name="gpx_manager_advanced_convert_to_route3">NB! See toiming on arvutusmahukas ja aeglane. Tulemus ei pruugi ka algse rajaga ideaalselt sobida! Kasutage ettevaatlikult.</string>
 
     <!-- GPX Recorder -->
-    <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
-    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
-    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
-    <string name="map_gpx_recorder_dialog_record">Record</string>
-    <string name="map_gpx_recorder_dialog_pause">Pause</string>
-    <string name="map_gpx_recorder_dialog_resume">Resume</string>
-    <string name="map_gpx_recorder_dialog_finish">Finish</string>
-    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
-    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_title">GPX salvesti</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Salvestised</string>
+    <string name="map_gpx_recorder_dialog_status">Salvestusolek:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Kaugus:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punktid:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Rajad:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Teekonnapunktid:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Algas:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kulunud aeg:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Kesk. kiirus:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Kõrg. tõus:</string>
+    <string name="map_gpx_recorder_dialog_record">Salvesta</string>
+    <string name="map_gpx_recorder_dialog_pause">Paus</string>
+    <string name="map_gpx_recorder_dialog_resume">Jätka</string>
+    <string name="map_gpx_recorder_dialog_finish">Lõpeta</string>
+    <string name="map_gpx_recorder_dialog_add_track">Uus rada</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Lisa teekonnapunkt</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Ei salvesta, vajutage alustamiseks nuppu Salvesta</string>
+    <string name="map_gpx_recorder_dialog_status_recording">GPX-i salvestamine, lõpetamiseks ja salvestamiseks vajutage Lõpeta</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Salvesti on peatatud, jätkake või lõpetage</string>
     <string name="map_gpx_recorder_dialog_points_short">pts</string>
-    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
-    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
-    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
-    <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
-    <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
-    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
-    <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
-    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
-    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
-    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
-    <string name="map_gpx_recorder_track_edit_color">Color:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
+    <string name="map_gpx_recorder_new_track_title">Uus raja nimi</string>
+    <string name="map_gpx_recorder_new_track_add_track">Lisa rada</string>
+    <string name="map_gpx_recorder_inactive_warning">Seda ei saa teha. Salvestus ei tööta!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Lõpeta salvestamine</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Valige, kas salvestada see GPX-failile, loobu ja kustutada salvestus, või sulge see dialoog ja jätka salvestamist.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Nimi GPX-failile</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Loobu / Kustuta</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Fail on juba olemas</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Proovi uuesti</string>
+    <string name="map_gpx_recorder_recordings_list">Salvestiste loend</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">GPX salvestised puuduvad!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Laadige GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippige uus failinimi:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Uus teekonnapunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Teekonnapunkti nimi</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Kirjeldav Tekst</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Puuduta asukohta</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automaatne täitmine</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Teekonnapunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Puuduta kaardil positsioneerimiseks</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Puuduta teekonnapunkti uut asukohta ja seejärel klõpsake nuppu Määra!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Määra positsioon</string>
+    <string name="map_gpx_recorder_tracks_edit">Raja salvesti redaktor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Rajad puuduvad!</string>
+    <string name="map_gpx_recorder_track_edit_name">Raja nimi</string>
+    <string name="map_gpx_recorder_track_edit_description">Raja kirjeldus</string>
+    <string name="map_gpx_recorder_track_edit_color">Värv:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Salvesti teepunktide redaktor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Nõela ikoon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Teekonnapunkt puudub!</string>
 
-    <string name="map_layers_downloader_map_title">Select Map</string>
+    <string name="map_layers_downloader_map_title">Valige Kaart</string>
 
     <!-- End Of New Untranslated -->
 
@@ -140,7 +137,7 @@
     <!-- Messages / Errors & Warnings -->
     <string name="error_creating_directory">Tõrge peakataloogi loomisel!</string>
     <string name="error_deleting_file">Tõrge faili kustutamisel!</string>
-    <string name="error_file_already_exists_title">Faili asendamise hoiatus</string>
+    <string name="error_file_already_exists_title">Hoiatus faili asendamisel</string>
     <string name="error_file_already_exists_message">Sama nimega fail on juba olemas. Mida teha?</string>
     <string name="error_file_new_name_title">Nimeta fail ümber</string>
     <string name="share_file_with">Jaga faili</string>
@@ -181,7 +178,7 @@
     <string name="settings_use_imperial_units">Kasutage Imperial-süsteemi mõõtühikuid</string>
     <string name="settings_interface_options">Kasutajaliidese sätted</string>
     <string name="settings_theme_category">Teema</string>
-    <string name="settings_color_theme">Teema tumedus (Tume / Hele):</string>
+    <string name="settings_color_theme">Teema heledus (Tume/Hele):</string>
     <string-array name="settings_color_themes" translatable="true">
         <item>Alati tume</item>
         <item>Alati hele</item>
@@ -207,31 +204,31 @@
         <item>Tagurpidi horisontaali</item>
     </string-array>
     <string name="settings_notifications_category">Märguanded</string>
-    <string name="settings_notifications_enable_title">Luba märguannete hüpikaken (vajalik luba)</string>
+    <string name="settings_notifications_enable_title">Luba märguannete hüpikaken (luba vajalik)</string>
     <string name="settings_notifications_enable_summary">Näita märguandeid kasutaja poolt valitud rakenduste loendist</string>
-    <string name="settings_notifications_dismiss">Märguande sulgemine</string>
+    <string name="settings_notifications_dismiss">Märguande automaatne sulgemine</string>
     <string-array name="settings_notifications_dismiss_names" translatable="true">
         <item>Peale 5s</item>
         <item>Peale 10s</item>
         <item>Peale 15s</item>
         <item>Peale 30s</item>
         <item>Peale 60s</item>
-        <item>Käsitsi (Swipe või juhtpult)</item>
+        <item>Käsitsi (Svaibi või juhtpuldilt)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Juhtpuldi fookus</string>
     <string name="settings_notifications_controller_lock_message">Kui märguanne on nähtav, keskendub CARPE juhtpult sellele. Sisestusklahv avab märguande ja tagasiklahv kustutab märguande.</string>
     <string name="settings_notifications_apps_selection_title">Rakenduste filter</string>
     <string name="settings_notifications_apps_selection_message">Valige milliste rakenduste märguande hüpikakent soovite näha</string>
     <string name="settings_notifications_group_title">Näita rakenduse viimane märguanne</string>
-    <string name="settings_notifications_group_message">Kui see on lubatud, näete iga rakenduse kohta ainult viimast märguannet. Näiteks vestlusteatise viimane sõnum.</string>
+    <string name="settings_notifications_group_message">Kui see on lubatud, näete iga rakenduse kohta viimast märguannet. Näiteks vestlusteatise viimast sõnumit.</string>
     <string name="settings_notifications_app_selection_dialog_title">Näita märguanded:</string>
     <string name="settings_notifications_app_selection_dialog_button1">Vali/eemalda kõik</string>
     <string name="settings_notifications_app_selection_dialog_button2">Sulge</string>
     <!-- Trip Settings-->
     <string name="settings_trip_options">Reisi sätted</string>
-    <string name="settings_trip_auto_reset_title">Automaatne reisi lähtestamine</string>
+    <string name="settings_trip_auto_reset_title">Reisi automaatne lähtestamine</string>
     <string name="settings_trip_auto_reset_summary">Reis lähtestatakse automaatselt, kui DMD2 ei käivitata kauem kui konfigureeritav aeg</string>
-    <string name="settings_trip_auto_reset_time_title">Automaatne reisi lähtestamise aeg</string>
+    <string name="settings_trip_auto_reset_time_title">Reisi automaatse lähtestamise aeg</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 tundi</item>
         <item>12 tundi</item>
@@ -250,15 +247,15 @@
     <string name="settings_dmd2_website">Lisateavet rakenduse DMD2 kohta leiate ametlikult veebisaidilt</string>
     <string name="settings_developer_website_title">DMD2 toob teieni</string>
     <string name="settings_tripltek_website_title">See DMD2 versioon on optimeeritud Triplteki seadmete jaoks</string>
-    <string name="settings_follow_us_facebook">Värskeimate uudiste saamiseks külastage ja jälgige meie Facebooki lehte</string>
+    <string name="settings_follow_us_facebook">Värskeimate uudiste saamiseks külastage ja jälgige meie Facebooki lehel</string>
     <string name="settings_join_us_facebook">Liituge meie Facebooki grupiga</string>
-    <string name="settings_dmd2_forum">Liituge aruteluga uute funktsioonide, vigade ja taotluste üle</string>
+    <string name="settings_dmd2_forum">Liituge aruteluga uute funktsioonide, vigade ja ettepanekute üle</string>
     <string name="settings_license_title">Spetsiaalsed litsentsivõtmed</string>
     <string name="settings_dmd2_edition_redeem_title">Prooviversioon / DMD2 täisversioon</string>
     <string name="settings_dmd2_edition_redeem_message">Hallake prooviversiooni või sisestage DMD2 litsentsivõti</string>
     <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Tere tulemast DMD2-sse</string>
-    <string name="welcome_dmd2_message">DMD2 on loodud selleks, et muuta teie seade sõiduki infopaneeliks, keskendudes eelkõige seiklustele ja maastikusõiduks. DMD2-s on navigeerimiseks mõeldud kaart, teeraamat, OBD2 sensoreid ja palju muud.</string>
+    <string name="welcome_dmd2_message">DMD2 on loodud selleks, et muuta teie seade sõiduki infopaneeliks, keskendudes eelkõige seiklustele ja maastikusõiduks. DMD2-s on navigeerimiseks mõeldud kaart, roadbook, OBD2 sensoreid ja palju muud.</string>
     <string name="welcome_dmd2_lets_go">Alusta</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">GPS-i seaded</string>
@@ -286,8 +283,8 @@
     <string name="map_storage_sd_card_different_error_recheck">Kontrolli uuesti</string>
     <string name="map_storage_sd_card_different_error_recheck_fail">SD-kaarti endiselt ei leitud! Palun kontrolli uuesti!</string>
     <string name="map_storage_sd_card_move_map_files_title">Teisalda kaardifailid?</string>
-    <string name="map_storage_sd_card_move_map_files_external">Kas soovite teisaldada kaardifailid sisemälust SD-kaardile? See toiming võib ebaõnnestuda, kui teil pole piisavalt salvestusruumi!</string>
-    <string name="map_storage_sd_card_move_map_files_internal">Kas soovite teisaldada kaardifailid eemaldatavalt SD-kaardilt sisemällu? See toiming võib ebaõnnestuda, kui teil pole piisavalt mäluruumi!</string>
+    <string name="map_storage_sd_card_move_map_files_external">Kas soovite teisaldada kaardifailid sisemälust SD-kaardile? See toiming võib ebaõnnestuda, kui teil ei ole piisavalt salvestusruumi!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Kas soovite teisaldada kaardifailid eemaldatavalt SD-kaardilt sisemällu? See toiming võib ebaõnnestuda, kui teil ei ole piisavalt mäluruumi!</string>
     <string name="map_storage_sd_card_move_map_files_wait">Failide teisaldamine, palun oodake! Ära sulge rakendust ega liikuge teisele ekraanile!</string>
 
     <!-- Home-->
@@ -378,13 +375,13 @@
     <string name="media_notifications_enable_dialog_message_media">Meediapleieri vidin nõuab juurdepääsu teatistele, et lugeda meediapleieri sisu: pealkiri, esitaja, albumi ja kujundus. Kas soovite selle loa anda?</string>
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Reisi lähtestamine</string>
-    <string name="trip_reset_confirmation_message">Kas olete kindel, et soovite reisi statistikat lähtestada?</string>
+    <string name="trip_reset_confirmation_message">Kas oled kindel, et soovid reisi statistikat lähtestada?</string>
 
 
     <!-- Notifications -->
     <!-- Permission Dialog -->
     <string name="notifications_enable_dialog_title">Märguannete hüpikaken</string>
-    <string name="notifications_enable_dialog_message">Kas soovite, et DMD2 pääseks juurde teatistele, et kuvada teile iga uue teatise hüpikaken? Saate konfigureerida, milliste rakenduste puhul soovite hüpikaknaid näha menüüs Seaded(Settings) > Märguanded(Notifications).</string>
+    <string name="notifications_enable_dialog_message">Kas soovid, et DMD2 pääseks juurde teatistele, et kuvada teile uue teatiste hüpikaken? Saate konfigureerida, milliste rakenduste puhul soovite hüpikaknaid näha menüüs Seaded(Settings) > Märguanded(Notifications).</string>
     <!-- Notification List Widget -->
     <string name="notifications_list_widget_new_notifications">Uus märguanne</string>
     <string name="notifications_controller_arrow_instructions">Vasak/Parem - Keeldu</string>
@@ -435,16 +432,16 @@
     <string name="obd_fuel_level_avg_mileage">Täis kütusepaagi keskmine läbisõit</string>
     <string name="obd_fuel_level_avg_mileage_summary">Kui suur on teie keskmine läbisõit täis paagiga</string>
     <string name="obd_speed_rpm_cat_title">Spidomeetri ja tahhomeetri sätted</string>
-    <string name="obd_speed_gps_source_title">GPS-kiiruse väärtuse allikas</string>
-    <string name="obd_speed_gps_source_summary">Kasutage OBD kiiruse väärtuse asemel GPS/ratta sensorit (mis ei pruugi olla saadaval)</string>
-    <string name="obd_max_rpm_title">Määrake maksimaalne pöörete arv tahhomeetris</string>
-    <string name="obd_max_rpm_summary">Määrake oma sõiduki maksimaalne mootoripöörete arv</string>
-    <string name="obd_redline_rpm_title">Määrake oma sõiduki mootoripöörete punane joon</string>
-    <string name="obd_redline_rpm_summary">Määrake punase joone väärtus</string>
+    <string name="obd_speed_gps_source_title">Kuva GPS-i kiirus</string>
+    <string name="obd_speed_gps_source_summary">Kasuta OBD kiiruse väärtuse asemel GPS/ratta sensorit (mis ei pruugi olla saadaval)</string>
+    <string name="obd_max_rpm_title">Määra tahhomeetri maksimaalne pöörete arv</string>
+    <string name="obd_max_rpm_summary">Määra oma sõiduki maksimaalne mootoripöörete arv</string>
+    <string name="obd_redline_rpm_title">Määra mootoripöörde punane joon</string>
+    <string name="obd_redline_rpm_summary">Määra punase joone väärtus</string>
     <string name="obd_throttle_options">Drosselklapi sätted</string>
-    <string name="obd_use_raw_throttle_title">Kasutage algandmeid drosselklapi nurga väärtuseks</string>
-    <string name="obd_use_raw_throttle_message">Kasutage tegelikku OBD2 algväärtust või kalibreerige minimaalne ja maksimaalne nurk</string>
-    <string name="obd_calibrate_throttle_title">Kalibreerige Drosselklapi nurka</string>
+    <string name="obd_use_raw_throttle_title">Kasuta drosselklapi nurga väärtusena algandmeid</string>
+    <string name="obd_use_raw_throttle_message">Kasuta tegelikku OBD2 algväärtust või kalibreerige minimaalne ja maksimaalne nurk</string>
+    <string name="obd_calibrate_throttle_title">Kalibreeri drosselklapi nurka</string>
     <string name="obd_calibrate_throttle_message">See avab õpetused gaasipedaali minimaalse/maksimaalse asendi kalibreerimiseks. Nõuab, et ECU oleks SEES ja OBD seade ühendatud, mootor peaks olema välja lülitatud. See EI muuda teie ECU-s väärtuseid!</string>
     <!-- Sensors-->
     <string name="obd_sensors_coolant_short_label">JAHUTUS</string>
@@ -491,11 +488,11 @@
     <string name="obd_dtc_dialog_error_ignore_error">Ignoreeri viga:</string>
     <string name="obd_dtc_dialog_error_reset_error">Viga: seade ei ole ECU-ga ühendatud!</string>
     <!-- Service -->
-    <string name="obd_service_notification_title">OBD monitori teenus töötab</string>
+    <string name="obd_service_notification_title">OBD monitooringu teenus töötab</string>
     <string name="obd_service_obd_connected">Ühendatud OBD seadmega</string>
-    <string name="obd_service_obd_disconnected">Ühendus katkestatud OBD seadmega!</string>
+    <string name="obd_service_obd_disconnected">OBD seadmega ühendus katkestatud!</string>
     <!-- License -->
-    <string name="obd_license_title">OBD2 demorežiim</string>
+    <string name="obd_license_title">OBD demorežiim</string>
     <string name="obd_license_message">Demorežiim on piiratud 15 minutiga seansi kohta. Kasutamiseks tuleb osta OBD plugin!</string>
     <string name="obd_buy_button">Osta plugin</string>
 
@@ -520,7 +517,7 @@
     <string name="roadbook_settings_locker_play_pause_message">Lukustamine käivitab esituse ja avamine käivitab pausi.</string>
     <string name="roadbook_settings_adjustment_cat_title">Kohandused</string>
     <string name="roadbook_settings_distance_multi_factor_title">Kauguse kordaja</string>
-    <string name="roadbook_settings_distance_multi_factor_message">Lisage kogu- ja osakaugusele parandustegur(juhul, kui peate võrdsustama vahemaad teeraamatuga)</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Lisage kogu- ja osakaugusele parandustegur(juhul, kui peate võrdsustama vahemaad roadbookiga)</string>
     <string name="roadbook_settings_no_instruments_title">Peida instrumentide paneel</string>
     <string name="roadbook_settings_no_instruments_message">Kui teil on enda spetsiaalsed instrumendid ja soovite lihtsalt PDF-rulli kasutada.</string>
     <string name="roadbook_settings_reset_session_title">Lähtesta seanss</string>
@@ -554,7 +551,7 @@
     <string name="roadbook_controller_button_zoomin">Nupp A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Nupp B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Palju kerib kliki kohta</string>
-    <string name="roadbook_controller_scroll_amount_message">Reguleerige kui palju liigub paber üles ja alla</string>
+    <string name="roadbook_controller_scroll_amount_message">Reguleerige kui palju paber liigub üles ja alla</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Lülitage sisse nupu kordused Juhtkangi jaoks</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Kui see on sisse lülitatud siis kordab nupuvajutusi üles, alla, vasakule ja paremale, kui neid hoida.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Seadistage Juhtkangi korduskiirus</string>
@@ -590,7 +587,7 @@
     <string name="roadbook_instrument_name_partial">Osaline vahemaa</string>
     <string name="roadbook_instrument_name_obd2">GPS/OBD2 sensor</string>
     <!-- View -->
-    <string name="roadbook_error_not_ready">Teeraamatu teenus ei ole veel valmis! Palun proovi uuesti.</string>
+    <string name="roadbook_error_not_ready">Roadbooki teenus ei ole veel valmis! Palun proovi uuesti.</string>
     <string name="roadbook_error_no_action">There is no action for this instrument.</string>
     <string name="roadbook_stats_title">Statistika</string>
     <string name="roadbook_filename_label">Faili nimi:</string>
@@ -614,7 +611,7 @@
     <string name="roadbook_open_file_or_session_open_session">Seanss</string>
     <string name="roadbook_session_save_input_name">Anna sellele seansile nimi</string>
     <string name="roadbook_session_save_input_empty_name_error">Seansi nimi ei tohi olla tühi!</string>
-    <string name="roadbook_session_save_nothing_error">Pole midagi salvestada! Alustage uue teeraamatu faili avamisega.</string>
+    <string name="roadbook_session_save_nothing_error">Ei ole midagi salvestada! Alustage uue raodbooki faili avamisega.</string>
     <string name="roadbook_session_save_replace_or_add_new_title">Asenda või lisa uus</string>
     <string name="roadbook_session_save_replace_or_add_new_message">Kas kirjutada praegused seansid üle või lisada uus sissekanne?</string>
     <string name="roadbook_session_save_replace_or_add_new_overwrite">Kirjuta üle</string>
@@ -635,14 +632,14 @@
     <string name="roadbook_session_load_file">Lae alla</string>
     <string name="roadbook_session_rename_file">Nimeta ümber</string>
     <string name="roadbook_session_location">Asukoht</string>
-    <string name="roadbook_session_new_name">Muutke antud seansi nime</string>
+    <string name="roadbook_session_new_name">Muuda antud seansi nime</string>
     <string name="roadbook_session_new_name_already_exists">See seansi nimi on juba olemas, palun valige muu nimi.</string>
-    <string name="roadbook_session_file_does_not_exist">VIGA: selle seansi PDF-faili ei ole enam olemas!</string>
+    <string name="roadbook_session_file_does_not_exist">VIGA: selle seansi PDF-faili ei ole olemas!</string>
     <string name="roadbook_session_load_confirmation_title">Seansi allalaadimise kinnitus</string>
-    <string name="roadbook_session_load_confirmation_message">Kas olete kindel, et soovite alla laadida selle seansi? Mõne salvestamata teeraamatu progress läheb kaotsi!</string>
+    <string name="roadbook_session_load_confirmation_message">Kas olete kindel, et soovite alla laadida selle seansi? Mõni salvestamata roadbooki progress läheb kaotsi!</string>
     <!-- License -->
-    <string name="roadbook_license_title">Teeraamat demorežiim</string>
-    <string name="roadbook_license_message">Demorežiim on piiratud 15 minutiga seansi kohta. Kasutamiseks tuleb osta teeraamatu plugin</string>
+    <string name="roadbook_license_title">Roadbooki demorežiim</string>
+    <string name="roadbook_license_message">Demorežiim on piiratud 15 minutiga seansi kohta. Kasutamiseks tuleb osta roadbooki plugin</string>
     <string name="roadbook_buy_button">Osta plugin</string>
     <string name="roadbook_non_playstore_purchase_title">Litsentsi ostmine</string>
     <string name="roadbook_non_playstore_purchase_message">Teie seadmesse ei ole installitud Play Store, võtme saate siiski osta meie veebisaidilt ja seejärel sisestage aktiveerimiseks see siia!</string>
@@ -653,14 +650,14 @@
     <string name="roadbook_purchase_key_activate_error_title">Viga litsentsi aktiveerimisel</string>
     <string name="roadbook_purchase_key_activate_error_message">Litsentsikood vale või on mõnes teises seadmes juba aktiveeritud, kontrollige litsentse oma Thork Racingu konto lehel või võtke ühendust klienditoega.</string>
     <string name="roadbook_purchase_key_activate_success_title">Litsents aktiveeritud</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin on nüüd aktiivne! Täname teid toetuse eest.</string>
+    <string name="roadbook_purchase_key_activate_success_message">Plugin aktiveeritud! Täname teid toetuse eest.</string>
 
     <!-- MAP VIEW -->
-    <string name="map_first_run_download_maps_title">Ühtegi kaarti pole veel alla laaditud</string>
-    <string name="map_first_run_download_maps_message">Te pole ühtegi kaardifaili alla laadinud. Kas soovite seda nüüd teha?</string>
+    <string name="map_first_run_download_maps_title">Ühtegi kaarti ei ole veel alla laaditud</string>
+    <string name="map_first_run_download_maps_message">Te ei ole ühtegi kaardifaili alla laadinud. Kas soovite seda teha?</string>
     <string name="map_first_run_download_maps_starting_layers">Alusta kihtide haldamist!</string>
     <string name="map_navigation_selection_dialog_title">Valige Navigeerimisrežiim</string>
-    <string name="map_navigation_selection_dialog_message">Kas kasutada marsruudi arvutamiseks DMD2-e või välist rakendust?</string>
+    <string name="map_navigation_selection_dialog_message">Kas kasutada marsruudi arvutamiseks DMD2 või välist rakendust?</string>
     <string name="map_navigation_selection_dialog_use_dmd2">Kasuta DMD2</string>
     <string name="map_navigation_selection_dialog_use_external">Kaardi liigutamise režiim lubatud</string>
     <string name="map_panning_mode_enable">Panoraamrežiim lubatud</string>
@@ -697,9 +694,9 @@
     <string name="map_layers_downloader_country_loaded_label">Laadi kaart:</string>
     <string name="map_layers_downloader_no_update_label">Värskendus puudub</string>
     <string name="map_layers_downloader_notification_title">DMD2 allalaadimine</string>
-    <string name="map_layers_downloader_wait_until_finished">Palun oodake allalaadimise lõpuleviimist!</string>
-    <string name="map_layers_downloader_cant_connect">Serveriga ei saa ühendust, proovige hiljem uuesti!</string>
-    <string name="map_layers_downloader_not_enough_space">Pole piisavalt salvestusruumi!</string>
+    <string name="map_layers_downloader_wait_until_finished">Palun oota allalaadimise lõpuleviimist!</string>
+    <string name="map_layers_downloader_cant_connect">Serveriga ühendus puudub, proovige hiljem uuesti!</string>
+    <string name="map_layers_downloader_not_enough_space">Ei ole piisavalt salvestusruumi!</string>
     <string name="map_layers_poi_highlight_title">POI ikooni esiletõstmine</string>
     <string name="map_layers_poi_highlight_description">Kuva POI ikoone madalamatel suumitasemetel (max zoom 500m) (tanklad/haiglad/tipud on alati lubatud).</string>
     <string name="map_layers_poi_fuel">Kütus</string>
@@ -726,7 +723,7 @@
     <string name="map_layers_poi_bank">Pank</string>
     <string name="map_layers_poi_gas">Tankla</string>
     <string name="map_layers_poi_moto_repair">Motoremont</string>
-    <string name="map_layers_theme_title">Kaardi tüüp &amp; Stiil</string>
+    <string name="map_layers_theme_title">Kaardi tüüp &amp; stiil</string>
     <string name="map_layers_theme_description">Valige vaikimisi minimaalne ja puhas kaardi tüüp või üksikasjalikum off-road topograafiline tüüp. Määrake ka hele ja tume värvirežiimid.</string>
     <string name="map_layers_map_type_default_title">Vaikimisi minimaalne</string>
     <string name="map_layers_map_type_topo_title">Off-road topograafiline</string>
@@ -750,12 +747,12 @@
     <string name="map_layers_routing_title">Marsruutimise kasutajaliides</string>
     <string name="map_layers_routing_description">Reguleerige arvutatud marsruudijoone laiust kaardil</string>
     <string name="map_layers_routing_width_line">Joone laius</string>
-    <string name="map_layers_routing_transparency_line">Joone läbipaistmatus</string>
-    <string name="map_layers_routing_pins_size">Märkide suurus</string>
+    <string name="map_layers_routing_transparency_line">Joone läbipaistvus</string>
+    <string name="map_layers_routing_pins_size">Pöördemärkide suurus</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX haldur</string>
     <string name="gpx_manager_load_file">Laadi fail</string>
-    <string name="gpx_manager_no_file_loaded">Faili pole laaditud. Vajutage Laadi fail.</string>
+    <string name="gpx_manager_no_file_loaded">Faili ei ole laaditud. Vajutage Laadi fail.</string>
     <string name="gpx_manager_reloading_files_please_wait">Failide uuesti laadimine. Palun oota.</string>
     <string name="gpx_manager_tracks">Rajad</string>
     <string name="gpx_manager_waypoints">Teekonnapunktid</string>
@@ -788,7 +785,7 @@
     <string name="gpx_manager_settings_poi_cat_select_cats">Valige laaditavad POI kategooriad:</string>
     <string name="gpx_manager_no_tracks_warning">Valitud GPX-fail ei sisalda ühtegi rada!</string>
     <string name="gpx_manager_track_manager_title">Raja haldur</string>
-    <string name="gpx_manager_track_manager_no_description">Raja kirjeldust pole saadaval.</string>
+    <string name="gpx_manager_track_manager_no_description">Raja kirjeldust ei ole saadaval.</string>
     <string name="gpx_manager_track_manager_track_length">Raja pikkus</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valige Navigeerimisrakendus</string>
     <string name="gpx_manager_track_manager_poi_search">POI otsing</string>
@@ -797,7 +794,7 @@
     <string name="gpx_manager_waypoints_navigate_to">Navigeeri</string>
     <string name="gpx_manager_waypoints_share_location">Jaga asukohta</string>
     <string name="gpx_manager_waypoints_search_at_location">Otsi lähedalt</string>
-    <string name="gpx_manager_waypoint_no_description">Teekonnapunkti kirjeldust pole saadaval.</string>
+    <string name="gpx_manager_waypoint_no_description">Teekonnapunkti kirjeldust ei ole saadaval.</string>
     <string name="gpx_manager_waypoint_straight_line_distance">Sirge kaugus</string>
     <string name="gpx_manager_waypoint_distance_on_track">Kaugus sinust</string>
     <string name="gpx_manager_waypoint_distance_more">Teekonnapunkti dist.</string>
@@ -814,14 +811,14 @@
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Kaardi pika puudutuse tegevus</string>
-    <string name="map_long_press_point_no_info">Selle punkti kohta pole teavet!</string>
+    <string name="map_long_press_point_no_info">Selle punkti kohta ei ole teavet!</string>
     <string name="map_long_press_point_close_to">Sees</string>
     <string name="map_long_press_point_nearest_city">lähim linn on</string>
     <string name="map_long_press_point_navigate">Navigeeri</string>
     <string name="map_long_press_point_share">Jaga</string>
     <string name="map_long_press_search_poi">Otsi POI-d</string>
     <string name="map_long_press_online_weather">Ilm internetist</string>
-    <string name="map_long_press_online_weather_no_info">Selle punkti kohta pole teavet!</string>
+    <string name="map_long_press_online_weather_no_info">Selle punkti kohta ei ole teavet!</string>
     <!-- License -->
     <string name="map_license_title">Kaardi demorežiim</string>
     <string name="map_license_message">Demorežiim on piiratud 15 minutiga seansi kohta. Kasutamiseks tuleb osta kaardi plugin</string>
@@ -837,14 +834,14 @@
     <string name="license_limitation_message">See valik on saadaval ainult litsentsitud kasutajatele!</string>
     <!-- Map Settings -->
     <string name="map_settings_auto_zoom_cat_title">Automaatne suum &amp; pööramine</string>
-    <string name="map_settings_auto_zoom_title">Luba automaatne suum</string>
+    <string name="map_settings_auto_zoom_title">Luba automaatne suumimine</string>
     <string name="map_settings_auto_tilt_title">Luba automaatne pööramine</string>
     <string name="map_settings_auto_nav_only">Automaatrežiim ainult aktiivse navigeerimise korral</string>
     <string name="map_settings_ui_cat_title">Liidese sätted</string>
     <string name="map_settings_ui_enable_track_progress">Luba raja edenemise teabekast</string>
     <string name="map_settings_ui_enable_track_progress_summary">Kuvab ekraani küljel kastis raja edenemist ja vahemaad järgmiste POI-deni ja teekonnapunktideni.</string>
     <string name="map_settings_ui_disable_touch_on_lock">Keela kaardi puudutus, kui see on lukus</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Kasulik, kui teil on juhtpult, keelab kogu ekraani puudutuse</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Juhtpuldi puhul soovitatav, keelab kogu ekraani puudutuse</string>
     <string name="map_settings_ui_lock_on_move_title">Automaatne lukustus liikumisel</string>
     <string name="map_settings_ui_lock_on_move_message">Kaart lukustab automaatselt kasutajaliidese, kui hakkad liikuma</string>
     <string name="map_settings_ui_unlock_on_stop_title">Automaatne avamine peatumisel</string>
@@ -862,8 +859,8 @@
     <string name="map_settings_navigation_start_ask_message">Kui see on lubatud, küsib DMD2, kas soovite kasutada DMD2-te või mõnda muud rakendust. Kui see on keelatud, on see vaikimisi DMD2-te.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Luba hääljuhised</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Kasutab teksti kõneks muutmist, et anda navigeerimiseks hääljuhiseid.</string>
-    <string name="map_settings_navigation_show_waypoints_title">Näita teekonnapunkte kaardil</string>
-    <string name="map_settings_navigation_show_waypoints_message">Kuvab kaardil marsruudijuhiste teekonnapunkti nööpnõela.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Näita kaardil teekonnapunkte</string>
+    <string name="map_settings_navigation_show_waypoints_message">Kuvab marsruudijuhiste teekonnapunkti nõela kaardil.</string>
     <string name="map_settings_navigation_recalculation_distance">Automaatne marsruudi ümberarvutamise vahemaa</string>
     <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
         <item>50m</item>
@@ -881,20 +878,20 @@
     <string name="map_poi_search_manager">Asukoha otsing</string>
     <string name="map_poi_search_call">Helista</string>
     <string name="map_poi_type_name">Sisestage nimi</string>
-    <string name="map_poi_error_no_offline_map_loaded">Viga: kaarti pole veel laaditud! Esmalt laadige alla võrguühenduseta kaardid.</string>
+    <string name="map_poi_error_no_offline_map_loaded">Viga: kaarti ei ole veel laaditud! Esmalt laadige alla võrguühenduseta kaardid.</string>
     <string name="map_poi_error_no_poi_found">Viga: POI-sid ei leitud!</string>
     <string name="map_poi_search_more">Otsi Internetist</string>
     <string name="map_poi_no_phone_available_error">Telefoninumber ei ole saadaval</string>
     <string name="map_poi_no_phone_app_available_error">Telefonirakendust ei ole saadaval</string>
     <string name="map_poi_no_address">Aadressi ei ole saadaval</string>
     <string name="map_poi_no_phone">Telefoni ei ole saadaval</string>
-    <string name="map_poi_no_website">Veebisait pole saadaval</string>
+    <string name="map_poi_no_website">Veebileht ei ole saadaval</string>
     <string name="map_poi_no_opening_hours">Lahtiolekuaegu ei ole saadaval</string>
     <string name="map_poi_search_dialog_title">Otsi POI-d nime järgi</string>
     <string name="map_poi_search_button">Otsing</string>
     <string name="map_poi_not_a_valid_keyword">Otsingu kirje ei ole õige!</string>
     <string name="map_poi_no_valid_location_yet">GPS-i asukohta veel ei ole! Palun proovi hiljem uuesti.</string>
-    <string name="map_poi_distance_long_press_no_fix">Distantsi pole saadaval, GPX lukustus pole veel saadaval.</string>
+    <string name="map_poi_distance_long_press_no_fix">Distantsi ei saa kalkuleerida, GPX lukustus ei ole veel saadaval.</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Raja punkti puudutus</string>
     <string name="map_map_track_tap_track_details">Raja üksikasjad</string>
@@ -973,7 +970,7 @@
     <string name="map_route_planner_dialog_download_calc_file_title">Marsruudi planeerija failid puuduvad</string>
     <string name="map_route_planner_dialog_download_calc_file_message">DMD2 marsruudi planeerimise funktsioonide jaoks peate alla laadima täiendavaid faile. Kas soovite seda nüüd teha?</string>
     <string name="map_route_planner_dialog_download_progress">Arvutusfaili allalaadimine</string>
-    <string name="map_route_planner_empty">Pole aktiivset rada ega marsruuti!</string>
+    <string name="map_route_planner_empty">Ei ole aktiivset rada ega marsruuti!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Aadressi otsing internetist</string>
     <string name="map_place_search_button_label">Sisestage aadress</string>
