@@ -62,7 +62,7 @@
     <string name="settings">Instellingen</string>
     <string name="hide">Verberg</string>
     <string name="later">Later</string>
-    <string name="finish">Afwerken</string>
+    <string name="finish">Afbreken</string>
     <string name="abort_download">Onderbreek download</string>
     <string name="start">Start</string>
     <!-- Messages / Errors & Warnings -->
