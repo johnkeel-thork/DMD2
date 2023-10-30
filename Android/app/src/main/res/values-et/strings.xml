@@ -2,70 +2,13 @@
 
     <!-- New Untranslated -->
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeeri…</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeeri rajapunkti</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Valige, millisesse rajapunkti soovite navigeerida.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Raja algus</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Lähim punkt</string>
-    <string name="gpx_manager_track_manager_navigate_end">Raja lõpp</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Teisenda marsruudiks</string>
-    <string name="gpx_manager_advanced_convert_to_route3">NB! See toiming on arvutusmahukas ja aeglane. Tulemus ei pruugi ka algse rajaga ideaalselt sobida! Kasutage ettevaatlikult.</string>
-
-    <!-- GPX Recorder -->
-    <string name="map_gpx_recorder_dialog_title">GPX salvesti</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Salvestised</string>
-    <string name="map_gpx_recorder_dialog_status">Salvestusolek:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Kaugus:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Punktid:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Rajad:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Teekonnapunktid:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Algas:</string>
-    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kulunud aeg:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Kesk. kiirus:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Kõrg. tõus:</string>
-    <string name="map_gpx_recorder_dialog_record">Salvesta</string>
-    <string name="map_gpx_recorder_dialog_pause">Paus</string>
-    <string name="map_gpx_recorder_dialog_resume">Jätka</string>
-    <string name="map_gpx_recorder_dialog_finish">Lõpeta</string>
-    <string name="map_gpx_recorder_dialog_add_track">Uus rada</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Lisa teekonnapunkt</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Ei salvesta, vajutage alustamiseks nuppu Salvesta</string>
-    <string name="map_gpx_recorder_dialog_status_recording">GPX-i salvestamine, lõpetamiseks ja salvestamiseks vajutage Lõpeta</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Salvesti on peatatud, jätkake või lõpetage</string>
-    <string name="map_gpx_recorder_dialog_points_short">pts</string>
-    <string name="map_gpx_recorder_new_track_title">Uus raja nimi</string>
-    <string name="map_gpx_recorder_new_track_add_track">Lisa rada</string>
-    <string name="map_gpx_recorder_inactive_warning">Seda ei saa teha. Salvestus ei tööta!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Lõpeta salvestamine</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Valige, kas salvestada see GPX-failile, loobu ja kustutada salvestus, või sulge see dialoog ja jätka salvestamist.</string>
-    <string name="map_gpx_recorder_finish_name_file_title">Nimi GPX-failile</string>
-    <string name="map_gpx_recorder_finish_name_file_discard">Loobu / Kustuta</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Fail on juba olemas</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Proovi uuesti</string>
-    <string name="map_gpx_recorder_recordings_list">Salvestiste loend</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">GPX salvestised puuduvad!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Laadige GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippige uus failinimi:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">Uus teekonnapunkt</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Teekonnapunkti nimi</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Kirjeldav Tekst</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Puuduta asukohta</string>
-    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automaatne täitmine</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Teekonnapunkt</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Puuduta kaardil positsioneerimiseks</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Puuduta teekonnapunkti uut asukohta ja seejärel klõpsake nuppu Määra!</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_save">Määra positsioon</string>
-    <string name="map_gpx_recorder_tracks_edit">Raja salvesti redaktor</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">Rajad puuduvad!</string>
-    <string name="map_gpx_recorder_track_edit_name">Raja nimi</string>
-    <string name="map_gpx_recorder_track_edit_description">Raja kirjeldus</string>
-    <string name="map_gpx_recorder_track_edit_color">Värv:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Salvesti teepunktide redaktor</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Nõela ikoon:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Teekonnapunkt puudub!</string>
-
-    <string name="map_layers_downloader_map_title">Valige Kaart</string>
-
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
+    </string-array>
+    
     <!-- End Of New Untranslated -->
 
 
@@ -199,10 +142,6 @@
     <string name="settings_screen_lock_rotation">Lukusta ekraani orientatsioon</string>
     <string name="settings_screen_lock_rotation_summary">Vältige ekraani juhuslikku pöörlemist sõidu ajal</string>
     <string name="settings_screen_orientation">Lukusta orientatsioon:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Horisontaali</item>
-        <item>Tagurpidi horisontaali</item>
-    </string-array>
     <string name="settings_notifications_category">Märguanded</string>
     <string name="settings_notifications_enable_title">Luba märguannete hüpikaken (luba vajalik)</string>
     <string name="settings_notifications_enable_summary">Näita märguandeid kasutaja poolt valitud rakenduste loendist</string>
@@ -686,6 +625,7 @@
     <string name="map_layers_map_base_file_missing">Viga: kaardifailid puuduvad, laadi need uuesti alla!</string>
     <string name="map_layers_map_base_no_map_yet">Allalaaditud kaarte ei ole, allalaadimiseks klõpsake klahvi Laadi kaardid alla!</string>
     <string name="map_layers_downloader_region_title">Valige piirkond</string>
+    <string name="map_layers_downloader_map_title">Valige Kaart</string>
     <string name="map_layers_downloader_country_downloaded_label">Alla laaditud:</string>
     <string name="map_layers_downloader_country_date_label">Viimane uuendus:</string>
     <string name="map_layers_downloader_country_size_label">Suurus:</string>
@@ -787,6 +727,14 @@
     <string name="gpx_manager_track_manager_title">Raja haldur</string>
     <string name="gpx_manager_track_manager_no_description">Raja kirjeldust ei ole saadaval.</string>
     <string name="gpx_manager_track_manager_track_length">Raja pikkus</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeeri…</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeeri rajapunkti</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Valige, millisesse rajapunkti soovite navigeerida.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Raja algus</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Lähim punkt</string>
+    <string name="gpx_manager_track_manager_navigate_end">Raja lõpp</string>
+    <string name="gpx_manager_track_manager_convert_to_route">Teisenda marsruudiks</string>
+    <string name="gpx_manager_advanced_convert_to_route3">NB! See toiming on arvutusmahukas ja aeglane. Tulemus ei pruugi ka algse rajaga ideaalselt sobida! Kasutage ettevaatlikult.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valige Navigeerimisrakendus</string>
     <string name="gpx_manager_track_manager_poi_search">POI otsing</string>
     <string name="gpx_manager_no_waypoint_warning">Valitud GPX-fail ei sisalda teekonnapunkte!</string>
@@ -977,5 +925,57 @@
     <string name="map_place_search_dialog_type_label">Sisestage nimi või aadress:</string>
     <string name="map_place_search_distance">Sirge joone kaugus:</string>
     <string name="map_place_search_instructions">Tulemuste nägemiseks sisestage vähemalt kolm tähte</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">GPX salvesti</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Salvestised</string>
+    <string name="map_gpx_recorder_dialog_status">Salvestusolek:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Kaugus:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punktid:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Rajad:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Teekonnapunktid:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Algas:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Kulunud aeg:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Kesk. kiirus:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Kõrg. tõus:</string>
+    <string name="map_gpx_recorder_dialog_record">Salvesta</string>
+    <string name="map_gpx_recorder_dialog_pause">Paus</string>
+    <string name="map_gpx_recorder_dialog_resume">Jätka</string>
+    <string name="map_gpx_recorder_dialog_finish">Lõpeta</string>
+    <string name="map_gpx_recorder_dialog_add_track">Uus rada</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Lisa teekonnapunkt</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Ei salvesta, vajutage alustamiseks nuppu Salvesta</string>
+    <string name="map_gpx_recorder_dialog_status_recording">GPX-i salvestamine, lõpetamiseks ja salvestamiseks vajutage Lõpeta</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Salvesti on peatatud, jätkake või lõpetage</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">Uus raja nimi</string>
+    <string name="map_gpx_recorder_new_track_add_track">Lisa rada</string>
+    <string name="map_gpx_recorder_inactive_warning">Seda ei saa teha. Salvestus ei tööta!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Lõpeta salvestamine</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Valige, kas salvestada see GPX-failile, loobu ja kustutada salvestus, või sulge see dialoog ja jätka salvestamist.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Nimi GPX-failile</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Loobu / Kustuta</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Fail on juba olemas</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Proovi uuesti</string>
+    <string name="map_gpx_recorder_recordings_list">Salvestiste loend</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">GPX salvestised puuduvad!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Laadige GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippige uus failinimi:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Uus teekonnapunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Teekonnapunkti nimi</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Kirjeldav Tekst</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Puuduta asukohta</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Automaatne täitmine</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Teekonnapunkt</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Puuduta kaardil positsioneerimiseks</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Puuduta teekonnapunkti uut asukohta ja seejärel klõpsake nuppu Määra!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Määra positsioon</string>
+    <string name="map_gpx_recorder_tracks_edit">Raja salvesti redaktor</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Rajad puuduvad!</string>
+    <string name="map_gpx_recorder_track_edit_name">Raja nimi</string>
+    <string name="map_gpx_recorder_track_edit_description">Raja kirjeldus</string>
+    <string name="map_gpx_recorder_track_edit_color">Värv:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Salvesti teepunktide redaktor</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Nõela ikoon:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Teekonnapunkt puudub!</string>
 
 </resources>
