@@ -1,5 +1,14 @@
 <resources>
 
+    <!-- NOT TRANSLATED YET -->
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
+    </string-array>
+    <!-- END OF NOT TRANSLATED -->
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -130,10 +139,6 @@
     <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
     <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
     <string name="settings_screen_orientation">Låsrotasjon til:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landskap</item>
-        <item>Omvendt landskap</item>
-    </string-array>
     <string name="settings_notifications_category">Varslinger</string>
     <string name="settings_notifications_enable_title">Tillat varslinger som pop-up</string>
     <string name="settings_notifications_enable_summary">Viser varslinger fra apper du tillater</string>
@@ -356,7 +361,7 @@
     <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at din enhet er parret først!</string>
     <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetoothenhet</string>
     <string name="obd_settings_use_alt_voltage_title">Få ladespenning fra dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Bruk STVRkommando for ladespenning i stedet for ECU PID</string>
+    <string name="obd_settings_use_alt_voltage_message">Bruk ST kommando for ladespenning i stedet for ECU PID</string>
     <string name="obd_fuel_level_settings">Drivstoffnivå</string>
     <string name="obd_fuel_level_calculated">Beregn drivstoffnivå</string>
     <string name="obd_fuel_level_calculated_summary">Hvis drivstoffnivå ikke kan hentes fra ECU kan du la DMD2 beregne nivået basert på gjennomsnittsforbruket per tank. For å nullstille, trykk på drivstoffikonet ved tanking.</string>
