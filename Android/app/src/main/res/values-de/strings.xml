@@ -5,6 +5,13 @@
     <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
     <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
 
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
+    </string-array>
+
     <!-- End Of New Untranslated -->
 
 
@@ -138,10 +145,6 @@
     <string name="settings_screen_lock_rotation">Bildschirmausrichtung sperren</string>
     <string name="settings_screen_lock_rotation_summary">Verhindern, dass Ausrichtung sich während der Fahrt versehentlich verstellt</string>
     <string name="settings_screen_orientation">Ausrichtung sperren in:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Querformat</item>
-        <item>Umgekehrtes Querformat</item>
-    </string-array>
     <string name="settings_notifications_category">Benachrichtigungen</string>
     <string name="settings_notifications_enable_title">Benachrichtigungs Pop-Up zulassen (Berechtigung erforderlich)</string>
     <string name="settings_notifications_enable_summary">Auswahl der Benachrichtigungen aus App-Liste</string>
@@ -364,7 +367,7 @@
     <string name="obd_bluetooth_list_devices_summary">Wählen Sie aus gepaarten Bluetooth-Geräten. Sicherstellen, dass der Dongle zuerst gekoppelt wird!</string>
     <string name="obd_bluetooth_list_devices_title">Wähle ELM327 Bluetooth Gerät</string>
     <string name="obd_settings_use_alt_voltage_title">Spannung vom Dongle abrufen</string>
-    <string name="obd_settings_use_alt_voltage_message">Verwendung des STVR-Befehls zur Spannungsmessung anstelle von ECU PID</string>
+    <string name="obd_settings_use_alt_voltage_message">Verwendung des ST-Befehls zur Spannungsmessung anstelle von ECU PID</string>
     <string name="obd_fuel_level_settings">Kraftstoffstand-Einstellungen</string>
     <string name="obd_fuel_level_calculated">Berechne Kraftstoffstand</string>
     <string name="obd_fuel_level_calculated_summary">Wenn der Füllstand nicht von der ECU gemeldet wird, kann DMD2 anhand der durchschnittlichen Kilometerleistung pro Tank den Füllstand berechnen. Zum Zurücksetzen beim Tanken auf das Kraftstoffsymbol drücken.</string>
