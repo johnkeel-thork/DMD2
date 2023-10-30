@@ -1,5 +1,16 @@
 <resources>
- 
+
+    <!-- NOT TRANSLATED YET -->
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
+    </string-array>
+    <!-- END OF NOT TRANSLATED -->
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -130,10 +141,6 @@
     <string name="settings_screen_lock_rotation">Zet scherm oriëntatie vast</string>
     <string name="settings_screen_lock_rotation_summary">Verhinder dat het scherm per ongeluk roteert tijdens het rijden.</string>
     <string name="settings_screen_orientation">Oriëntatie vastzetten in:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Liggend</item>
-        <item>Omgekeerd liggend</item>
-    </string-array>
     <string name="settings_notifications_category">Meldingen</string>
     <string name="settings_notifications_enable_title">Pop-up meldingen aanzetten (toestemming vereist)</string>
     <string name="settings_notifications_enable_summary">Toon meldingen van apps geselecteerd door de gebruiker</string>
@@ -356,7 +363,7 @@
     <string name="obd_bluetooth_list_devices_summary">Selecteer uit gekoppelde bluetooth devices. Zorg ervoor dat de dongle eerst is gekoppeld!</string>
     <string name="obd_bluetooth_list_devices_title">Selecteer ELM327 bluetooth device</string>
     <string name="obd_settings_use_alt_voltage_title">Ontvang voltage van de dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Gebruik STVR opdracht voor lezen voltage i.p.v. de ECU PID</string>
+    <string name="obd_settings_use_alt_voltage_message">Gebruik ST opdracht voor lezen voltage i.p.v. de ECU PID</string>
     <string name="obd_fuel_level_settings">Brandstofnivo instellingen</string>
     <string name="obd_fuel_level_calculated">Bereken brandstofnivo</string>
     <string name="obd_fuel_level_calculated_summary">Indien brandstofnivo niet word doorgegeven door de ECU kan DMD2 het nivo berekenen gebasseerd op de afgelegde kilometers per tank. Om te resetten, druk op het brandstofpictogram wanneer u tankt.</string>
