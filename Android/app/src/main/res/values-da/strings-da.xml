@@ -7,13 +7,13 @@
     <string name="status_bar_offline_status">Offline</string>
 
     <!-- Bottom Menu -->
-	<string name="menu_global_settings"> Globale indstillinger </string>
-	<string name="menu_exit"> Afslut </string>
-	<string name="menu_home"> Hjem </string>
-	<string name="menu_apps"> Applikationer </string>
-	<string name="menu_roadbook"> Roadbook </string>
-	<string name="menu_map"> Kort </string>
-	<string name="menu_obd"> OBD-sensorer </string>
+	<string name="menu_global_settings">Globale indstillinger </string>
+	<string name="menu_exit">Afslut </string>
+	<string name="menu_home">Hjem </string>
+	<string name="menu_apps">Applikationer </string>
+	<string name="menu_roadbook">Roadbook </string>
+	<string name="menu_map">Kort </string>
+	<string name="menu_obd">OBD-sensorer </string>
     <!-- Menu Editor -->
 	<string name="menu_edit_title">Rediger bundmenu</string>
 	<string name="menu_edit_message">Omorganisér og aktiver/deaktiver menupunkter</string>
