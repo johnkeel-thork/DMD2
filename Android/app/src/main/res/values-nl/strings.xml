@@ -62,7 +62,7 @@
     <string name="settings">Instellingen</string>
     <string name="hide">Verberg</string>
     <string name="later">Later</string>
-    <string name="finish">Afwerken</string>
+    <string name="finish">Afbreken</string>
     <string name="abort_download">Onderbreek download</string>
     <string name="start">Start</string>
     <!-- Messages / Errors & Warnings -->
@@ -179,7 +179,7 @@
     <string name="settings_developer_website_title">DMD2 wordt je aangeboden door</string>
     <string name="settings_tripltek_website_title">Deze versie van DMD2 is geoptimaliseerd voor Tripltek toestellen</string>
     <string name="settings_follow_us_facebook">Bezoek en volg onze Facebook pagina voor het laatste nieuws</string>
-    <string name="settings_join_us_facebook">lid worden van onze Facebook groep</string>
+    <string name="settings_join_us_facebook">Lid worden van onze Facebook groep</string>
     <string name="settings_dmd2_forum">Sluit je aan bij de discussie over nieuwe functies, bugs en verzoeken</string>
     <string name="settings_license_title">Speciale licentie-codes</string>
     <string name="settings_dmd2_edition_redeem_title">Proefversie / DMD2 Edition</string>
@@ -815,8 +815,8 @@
         <item>Nooit</item>
     </string-array>
     <string name="map_settings_controller_cat_title">Controller instellingen</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Inactiveer Panning Mode Doel</string>
-    <string name="map_settings_controller_disable_pan_spot_summary">Inactiveer de nieuwe panning mode doel spot acties</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Uitschakelen Panning Mode Doel</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Uitschakelen spot acties nieuw Panning Mode Doel</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Plaats Zoeken</string>
     <string name="map_poi_search_call">Bellen</string>
@@ -851,7 +851,7 @@
     <string name="map_map_track_tap_point_time_to_you">Reis-Tijd:</string>
     <string name="map_map_track_tap_point_behind">na</string>
     <string name="map_map_track_tap_point_ahead">voor</string>
-    <string name="map_map_track_tap_distance_to_another_point">afstand tot een ander punt</string>
+    <string name="map_map_track_tap_distance_to_another_point">Afstand tot een ander punt</string>
     <string name="map_map_track_tap_points_distance_title">Afstand tussen punten</string>
     <string name="map_map_track_tap_points_distance_tap_on">Tik op een ander punt om de afstand tussen punten krijgen</string>
     <string name="map_map_track_tap_points_distance_not_same_gpx">Selecteer een punt dat deel uitmaakt van het zelfde GPX-bestand!</string>
@@ -875,11 +875,11 @@
     <string name="map_route_calculating_message">Route berekenen…</string>
     <string name="map_route_loading_message">Route laden…</string>
     <string name="map_route_analyzing_message">Route analyseren …</string>
-    <string name="map_route_calculating_message_retry">Error!</string>
+    <string name="map_route_calculating_message_retry">Fout!</string>
     <string name="map_route_calculating_message_options">Opties</string>
     <string name="map_route_planner_no_gps_fix">Nog geen GPS-fix, probeer het later opnieuw!</string>
-    <string name="map_route_planner_cancel_active_dialog_title">Annuleer "Activeer Route?"</string>
-    <string name="map_route_planner_cancel_active_dialog_message">Er is een actieve navigatie. Wil je deze annuleren en een nieuwe starten?</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Annuleer actieve route?"</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Er is een route actief. Deze annuleren en een nieuwe route starten?</string>
     <string name="map_route_planner_instruction_now">Nu</string>
     <string name="map_route_planner_instruction_arrived">U bent op uw bestemming aangekomen!</string>
     <string name="map_route_planner_instruction_keep_same_road">Volg voor</string>
