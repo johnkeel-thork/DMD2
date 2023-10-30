@@ -2,6 +2,13 @@
 
     <!-- New Untranslated -->
 
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
+    </string-array>
+
     <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
     <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
 
@@ -138,10 +145,6 @@
     <string name="settings_screen_lock_rotation">Lukitse näytön asento</string>
     <string name="settings_screen_lock_rotation_summary">Estä näyttöä kääntymästä vahingossa ajon aikana</string>
     <string name="settings_screen_orientation">Lukitse näyttö asentoon:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Vaaka</item>
-        <item>Vaaka ylösalaisin</item>
-    </string-array>
     <string name="settings_notifications_category">Ilmoitukset</string>
     <string name="settings_notifications_enable_title">Salli ilmoitukset ponnahdusikkunassa (oikeus vaaditaan)</string>
     <string name="settings_notifications_enable_summary">Näytä ilmoitukset käyttäjän valitsemista sovelluksista</string>
@@ -364,7 +367,7 @@
     <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
     <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
     <string name="obd_settings_use_alt_voltage_title">Get Voltage from Dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Use STVR command for voltage reading instead of ECU PID</string>
+    <string name="obd_settings_use_alt_voltage_message">Use ST command for voltage reading instead of ECU PID</string>
     <string name="obd_fuel_level_settings">Fuel Level Settings</string>
     <string name="obd_fuel_level_calculated">Calculate fuel level</string>
     <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
