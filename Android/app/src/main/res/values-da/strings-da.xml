@@ -1,25 +1,25 @@
 <resources>
 
-    <string name="app_name">DMD2</string>
+        <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
-    <string name="status_bar_online_status">Online</string>
-    <string name="status_bar_offline_status">Offline</string>
+        <string name="status_bar_online_status">Online</string>
+        <string name="status_bar_offline_status">Offline</string>
 
     <!-- Bottom Menu -->
- 	<string name="menu_global_settings"> Globale indstillinger </string>
-  <string name="menu_exit"> Afslut </string>
-  <string name="menu_home"> Hjem </string>
-  <string name="menu_apps"> Applikationer </string>
-	<string name="menu_roadbook"> Roadbook </string>
-  <string name="menu_map"> Kort </string>
-	<string name="menu_obd"> OBD-sensorer </string>
+        <string name="menu_global_settings"> Globale indstillinger </string>
+        <string name="menu_exit"> Afslut </string>
+        <string name="menu_home"> Hjem </string>
+        <string name="menu_apps"> Applikationer </string>
+        <string name="menu_roadbook"> Roadbook </string>
+        <string name="menu_map"> Kort </string>
+        <string name="menu_obd"> OBD-sensorer </string>
     <!-- Menu Editor -->
-	<string name="menu_edit_title">Rediger bundmenu</string>
-	<string name="menu_edit_message">Omorganisér og aktiver/deaktiver menupunkter</string>
-	<string name="menu_sorter_instructions">Tryk og hold for at flytte en genstand. Brug kontakten for at vise eller skjule.</string>
+        <string name="menu_edit_title">Rediger bundmenu</string>
+        <string name="menu_edit_message">Omorganisér og aktiver/deaktiver menupunkter</string>
+        <string name="menu_sorter_instructions">Tryk og hold for at flytte en genstand. Brug kontakten for at vise eller skjule.</string>
     <!-- Top Menu -->
-    <string name="top_menu_battery_indicator">Batteriindikator (kan tage nogle minutter at opdatere)</string>
+        <string name="top_menu_battery_indicator">Batteriindikator (kan tage nogle minutter at opdatere)</string>
 	<string-array name="top_menu_battery_indicator_names" translatable="true">
 		<item>Procent</item>
 		<item>Strømforbrug</item>
@@ -28,16 +28,16 @@
 
     <!-- Global -->
     <!-- Units -->
-    <string name="mi">Mi</string>
-    <string name="mph">Mph</string>
-    <string name="km">Km</string>
-    <string name="kmh">Km/t</string>
-    <string name="meters">meter</string>
-    <string name="feet">fod</string>
-    <string name="yards">yards</string>
-    <string name="kilometer">kilometer</string>
-    <string name="kilometers">kilometer</string>
-    <string name="miles">miles</string>
+        <string name="mi">Mi</string>
+        <string name="mph">Mph</string>
+        <string name="km">Km</string>
+        <string name="kmh">Km/t</string>
+        <string name="meters">meter</string>
+        <string name="feet">fod</string>
+        <string name="yards">yards</string>
+        <string name="kilometer">kilometer</string>
+        <string name="kilometers">kilometer</string>
+        <string name="miles">miles</string>
     <!-- Buttons -->
 	<string name="back">Tilbage</string>
 	<string name="abort">Afbryd</string>
@@ -66,7 +66,7 @@
 	<string name="abort_download">Afbryd Download</string>
 	<string name="start">Start</string>
     <!-- Messages / Errors & Warnings -->
-    <string name="error_creating_directory">Fejl ved oprettelse af brugermappe!</string>
+        <string name="error_creating_directory">Fejl ved oprettelse af brugermappe!</string>
 	<string name="error_deleting_file">Fejl ved sletning af fil!</string>
 	<string name="error_file_already_exists_title">Advarsel om filoverskrivning</string>
 	<string name="error_file_already_exists_message">Der findes allerede en fil med samme navn. Hvad vil du gerne gøre?</string>
@@ -110,44 +110,44 @@
 	<string name="settings_interface_options">Interfaceindstillinger</string>
 	<string name="settings_theme_category">Tema</string>
 	<string name="settings_color_theme">Farvetema (Mørk / Lys):</string>
-    <string-array name="settings_color_themes" translatable="true">
+        <string-array name="settings_color_themes" translatable="true">
 		<item>Altid mørk tilstand</item>
 		<item>Altid lys tilstand</item>
 		<item>Automatisk (følg systemet)</item>
 		<item>Brug lyssensor</item>
-    </string-array>
-    <string name="settings_accent_color_title">Accent farve:</string>
-    <string-array name="settings_accent_colors_names" translatable="true">
-        <item>Blå</item>
-        <item>Mørkeblå</item>
-        <item>Rød</item>
-        <item>Orange</item>
-        <item>Grøn</item>
-        <item>Gul</item>
-        <item>Lyserød</item>
-    </string-array>
+        </string-array>
+        <string name="settings_accent_color_title">Accent farve:</string>
+        <string-array name="settings_accent_colors_names" translatable="true">
+                <item>Blå</item>
+                <item>Mørkeblå</item>
+                <item>Rød</item>
+                <item>Orange</item>
+                <item>Grøn</item>
+                <item>Gul</item>
+                <item>Lyserød</item>
+        </string-array>
 	<string name="settings_screen_category">Skærm</string>
 	<string name="settings_screen_lock_rotation">Lås skærmens orientering</string>
 	<string name="settings_screen_lock_rotation_summary">Forhindrer, at skærmen roterer utilsigtet under kørsel</string>
 	<string name="settings_screen_orientation">Lås orientering i:</string>
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landskab (Tablet)</item>
-        <item>Omvendt landskab (Tablet)</item>
-        <item>Portræt (Phone)</item>
-        <item>Omvendt Portræt (Phone)</item>
-    </string-array>
+        <string-array name="settings_screen_orientation_lock_names" translatable="true">
+                <item>Landskab (Tablet)</item>
+                <item>Omvendt landskab (Tablet)</item>
+                <item>Portræt (Phone)</item>
+                <item>Omvendt Portræt (Phone)</item>
+        </string-array>
 	<string name="settings_notifications_category">Notifikationer</string>
 	<string name="settings_notifications_enable_title">Aktivér notifikations-popup (kræver tilladelse)</string>
 	<string name="settings_notifications_enable_summary">Vis notifikationer fra en brugerudvalgt liste af apps</string>
 	<string name="settings_notifications_dismiss">Metode til afvisning</string>
-    <string-array name="settings_notifications_dismiss_names" translatable="true">
-        <item>Timeout efter 5s</item>
-        <item>Timeout efter 10s</item>
-        <item>Timeout efter 15s</item>
-        <item>Timeout efter 30s</item>
-        <item>Timeout efter 60s</item>
-        <item>Manuelt (Swipe or Controller)</item>
-    </string-array>
+        <string-array name="settings_notifications_dismiss_names" translatable="true">
+                <item>Timeout efter 5s</item>
+                <item>Timeout efter 10s</item>
+                <item>Timeout efter 15s</item>
+                <item>Timeout efter 30s</item>
+                <item>Timeout efter 60s</item>
+                <item>Manuelt (Swipe or Controller)</item>
+        </string-array>
 	<string name="settings_notifications_controller_lock_title">Håndtag controller fokus</string>
 	<string name="settings_notifications_controller_lock_message">Når en notifikation er synlig, vil CARPE-controlleren fokusere på den. Enter-tasten starter notifikationshandlingen, og tilbage-tasten rydder notifikationen.</string>
 	<string name="settings_notifications_apps_selection_title">Apps filter</string>
@@ -162,13 +162,13 @@
 	<string name="settings_trip_auto_reset_title">Automatisk tur trip nulstilling</string>
 	<string name="settings_trip_auto_reset_summary">Turen nulstilles automatisk, hvis DMD2 ikke er startet i mere end en konfigurerbar tidsperiode.</string>
 	<string name="settings_trip_auto_reset_time_title">Tid for automatisk tur trip nulstilling</string>
-    <string-array name="settings_trip_reset_time_entries" translatable="true">
-        <item>6 Timer</item>
-        <item>12 Timer</item>
-        <item>1 dag</item>
-        <item>2 dage</item>
-        <item>5 dage</item>
-    </string-array>
+        <string-array name="settings_trip_reset_time_entries" translatable="true">
+                <item>6 Timer</item>
+                <item>12 Timer</item>
+                <item>1 dag</item>
+                <item>2 dage</item>
+                <item>5 dage</item>
+                </string-array>
     <!-- OEM Registration-->
 	<string name="settings_oem_registration">OEM Registrering</string>
 	<string name="settings_oem_check">Registreringsproces (kræver internetforbindelse)</string>
@@ -461,7 +461,7 @@
 	<string name="roadbook_settings_reset_session_confirm_message">Er du sikker på, at du vil nulstille den aktuelle fremgang? Dette aflæsser den aktuelle PDF-fil og nulstiller alle statistikker og afstande!</string>
 	<string name="roadbook_settings_reset_session_confirm_reset_button">Nulstil</string>
 	<string name="roadbook_settings_controller_setup_cat_title">Fjernkontrolopsætning</string>
-    <string-array name="roadbook_controller_button_options" translatable="true">
+        <string-array name="roadbook_controller_button_options" translatable="true">
 		<item>Rul papir op</item>
 		<item>Rul papir ned</item>
 		<item>Øg samlet</item>
@@ -474,7 +474,7 @@
 		<item>Lås / lås op</item>
 		<item>Afspil / Pause</item>
 		<item>Gør ingenting</item>
-    </string-array>
+        </string-array>
 	<string name="roadbook_controller_button_up">Pil op</string>
 	<string name="roadbook_controller_button_down">Pil ned</string>
 	<string name="roadbook_controller_button_left">Pil venstre</string>
@@ -491,18 +491,18 @@
 	<string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis aktiveret gentages tasterne til op, ned, venstre og højre, når de holdes nede.</string>
 	<string name="roadbook_controller_set_key_repeat_joystick_time_title">Indstil gentagelseshastighed for joystick</string>
 	<string name="roadbook_controller_set_key_repeat_buttons_time_title">Indstil gentagelseshastighed for knapper</string>
-    <string-array name="roadbook_controller_repeat" translatable="true">
-        <item>50ms</item>
-        <item>100ms</item>
-        <item>150ms</item>
-        <item>200ms</item>
-        <item>250ms</item>
-        <item>300ms</item>
-        <item>350ms</item>
-        <item>400ms</item>
-        <item>450ms</item>
-        <item>500ms</item>
-    </string-array>
+        <string-array name="roadbook_controller_repeat" translatable="true">
+                <item>50ms</item>
+                <item>100ms</item>
+                <item>150ms</item>
+                <item>200ms</item>
+                <item>250ms</item>
+                <item>300ms</item>
+                <item>350ms</item>
+                <item>400ms</item>
+                <item>450ms</item>
+                <item>500ms</item>
+        </string-array>
 	<string name="roadbook_controller_enable_key_repeat_buttons_title">Aktivér gentagelse af taster for knapper</string>
 	<string name="roadbook_controller_enable_key_repeat_buttons_message">Hvis aktiveret, gentages tasterne for Knap A og Knap B, når de holdes nede.</string>
 	<string name="roadbook_controller_paper_scroll_on_partial_reset">Rul papiret én klik ned ved delvis nulstilling</string>
@@ -792,12 +792,12 @@
 	<string name="map_settings_ui_unlock_on_stop_message">Kortet låser automatisk brugergrænsefladen op, når du stopper bevægelsen.</string>
 	<string name="map_settings_language_cat_title">Kortsprog</string>
 	<string name="map_settings_language_load_mode_title">Kortsprog</string>
-    <string-array name="map_settings_language_load_mode_entries" translatable="true">
+        <string-array name="map_settings_language_load_mode_entries" translatable="true">
 		<item>Lokaliseret kort sprog</item>
 		<item>Engelsk eller tilgængeligt latinisk alfabet</item>
 		<item>Fransk > Engelsk eller tilgængeligt latinisk alfabet</item>
 		<item>Tysk > Engelsk eller tilgængeligt latinisk alfabet</item>
-    </string-array>
+        </string-array>
 	<string name="map_settings_navigation_cat_title">Navigation</string>
 	<string name="map_settings_navigation_start_ask_title">Naviger Til: Spørg om at bruge DMD2 eller ekstern</string>
 	<string name="map_settings_navigation_start_ask_message">Hvis aktiveret, vil DMD2 spørge, om du vil bruge DMD2 eller en anden app. Hvis deaktiveret, bruger det som standard DMD2.</string>
@@ -806,15 +806,15 @@
 	<string name="map_settings_navigation_show_waypoints_title">Vis ruteinstruktionsvejspind på kortet</string>
 	<string name="map_settings_navigation_show_waypoints_message">Vil vise vejledningsrutevejspind på kortet.</string>
 	<string name="map_settings_navigation_recalculation_distance">Automatisk ruteomregningsafstand</string>
-    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
-        <item>50m</item>
-        <item>100m</item>
-        <item>150m</item>
-        <item>250m</item>
-        <item>500m</item>
-        <item>1Km</item>
-        <item>Aldrig</item>
-    </string-array>
+        <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+                <item>50m</item>
+                <item>100m</item>
+                <item>150m</item>
+                <item>250m</item>
+                <item>500m</item>
+                <item>1Km</item>
+                <item>Aldrig</item>
+        </string-array>
 	<string name="map_settings_controller_cat_title">Controller Indstillinger</string>
 	<string name="map_settings_controller_disable_pan_spot_title">Deaktivér mål for panoreringstilstand</string>
 	<string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye målfunktionshandlinger for panoreringstilstand</string>
