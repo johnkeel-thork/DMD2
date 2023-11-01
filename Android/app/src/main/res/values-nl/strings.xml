@@ -133,10 +133,10 @@
     <string name="settings_screen_lock_rotation_summary">Verhinder dat het scherm per ongeluk roteert tijdens het rijden.</string>
     <string name="settings_screen_orientation">Oriëntatie vastzetten in:</string>
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landschap (Tablet)</item>
-        <item>Landschap andersom (Tablet)</item>
-        <item>Portret (Telefoon)</item>
-        <item>Portret andersom (Telefoon)</item>
+        <item>Liggend (Tablet)</item>
+        <item>Liggend gedraaid (Tablet)</item>
+        <item>Staand (Telefoon)</item>
+        <item>Staand gedraaid (Telefoon)</item>
     </string-array>
     <string name="settings_notifications_category">Meldingen</string>
     <string name="settings_notifications_enable_title">Pop-up meldingen aanzetten (toestemming vereist)</string>
