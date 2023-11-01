@@ -2,10 +2,10 @@
 
     <!-- NOT TRANSLATED YET -->
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landscape (Tablet)</item>
-        <item>Reversed Landscape (Tablet)</item>
-        <item>Portrait (Phone)</item>
-        <item>Reversed Portrait (Phone)</item>
+        <item>Landskap (Nettbrett)</item>
+        <item>Omvendt landskap (Nettbrett)</item>
+        <item>Portrett (Telefon)</item>
+        <item>Omvendt portrett (Telefon)</item>
     </string-array>
     <!-- END OF NOT TRANSLATED -->
 
