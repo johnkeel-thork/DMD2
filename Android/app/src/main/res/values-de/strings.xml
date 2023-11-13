@@ -2,6 +2,9 @@
 
     <!-- New Untranslated -->
 
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+
     <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
     <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
 
@@ -13,6 +16,7 @@
     </string-array>
 
     <!-- End Of New Untranslated -->
+    
 
 
     <string name="app_name">DMD2</string>
@@ -208,7 +212,7 @@
     <string name="settings_disable_controller_app_check_title">CARPE Controller App Check deaktivieren</string>
     <string name="settings_disable_controller_app_check_message">Beendet die Überwachung der Controller-App und fordert nicht mehr zur Installation oder Aktualisierung auf.</string>
     <string name="settings_controller_app_install_title">CARPE Controller gefunden</string>
-    <string name="settings_controller_app_install_message">Es scheint, dass Du einen CARPE Controller verwendest. Um alle Vorteile zu nutzen, sollte die Controller-App installiert werden. Diese jetzt installieren?</string>
+    <string name="settings_controller_app_install_message">Es scheint, dass Du einen Controller verwendest. Um alle Vorteile zu nutzen, sollte die Controller-App installiert werden. Diese jetzt installieren?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Speicher</string>
     <string name="map_storage_location_select_title">Speicher auf SD-Karte setzen</string>
