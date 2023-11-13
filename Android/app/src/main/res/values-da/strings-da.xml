@@ -1,5 +1,13 @@
 <resources>
 
+
+    <!-- New Untranslated -->
+    
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+
+    <!-- End Of New Untranslated -->
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -149,7 +157,7 @@
         <item>Manuelt (Swipe or Controller)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Håndtag controller fokus</string>
-    <string name="settings_notifications_controller_lock_message">Når en notifikation er synlig, vil CARPE-controlleren fokusere på den. Enter-tasten starter notifikationshandlingen, og tilbage-tasten rydder notifikationen.</string>
+    <string name="settings_notifications_controller_lock_message">Når en notifikation er synlig, vil controlleren fokusere på den. Enter-tasten starter notifikationshandlingen, og tilbage-tasten rydder notifikationen.</string>
     <string name="settings_notifications_apps_selection_title">Apps filter</string>
     <string name="settings_notifications_apps_selection_message">Vælg hvilke apps, du ønsker at se notifikations-pop-up\'en for.</string>
     <string name="settings_notifications_group_title">Vis kun den seneste notifikation fra hver gruppe</string>
