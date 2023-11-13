@@ -1,16 +1,10 @@
 <resources>
 
+
     <!-- New Untranslated -->
 
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Vaaka (Tabletti)</item>
-        <item>Käännetty vaaka (Tabletti)</item>
-        <item>Pysty (Puhelin)</item>
-        <item>Käännetty Pysty (Puhelin)</item>
-    </string-array>
-
-    <string name="roadbook_settings_auto_start_title">Avaa mittaristo automaattisesti</string>
-    <string name="roadbook_settings_auto_start_message">Aloita mittaukset (Play) kun Tiekirja-näkymä avataan</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
 
     <!-- End Of New Untranslated -->
 
@@ -145,6 +139,12 @@
     <string name="settings_screen_lock_rotation">Lukitse näytön asento</string>
     <string name="settings_screen_lock_rotation_summary">Estä näyttöä kääntymästä vahingossa ajon aikana</string>
     <string name="settings_screen_orientation">Lukitse näyttö asentoon:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Vaaka (Tabletti)</item>
+        <item>Käännetty vaaka (Tabletti)</item>
+        <item>Pysty (Puhelin)</item>
+        <item>Käännetty Pysty (Puhelin)</item>
+    </string-array>
     <string name="settings_notifications_category">Ilmoitukset</string>
     <string name="settings_notifications_enable_title">Salli ilmoitukset ponnahdusikkunassa (oikeus vaaditaan)</string>
     <string name="settings_notifications_enable_summary">Näytä ilmoitukset käyttäjän valitsemista sovelluksista</string>
@@ -158,7 +158,7 @@
         <item>Manuaalisesti (Pyyhkäisy tai Ohjaimella)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Ohjaimen kohdistus</string>
-    <string name="settings_notifications_controller_lock_message">Kun ilmoitus on näkyvissä, CARPE Ohjain kohdistuu siihen. Enter-painike suorittaa ilmoituksen toiminnon ja Takaisin-painike sulkee ilmoituksen.</string>
+    <string name="settings_notifications_controller_lock_message">Kun ilmoitus on näkyvissä, Ohjain kohdistuu siihen. Enter-painike suorittaa ilmoituksen toiminnon ja Takaisin-painike sulkee ilmoituksen.</string>
     <string name="settings_notifications_apps_selection_title">Sovellusten valinta</string>
     <string name="settings_notifications_apps_selection_message">Valitse sovellukset joiden ilmoitukset haluat nähdä ponnauhdusikkunoissa</string>
     <string name="settings_notifications_group_title">Näytä vain viimeisin ilmoitus jokaisesta ryhmästä</string>
@@ -441,6 +441,8 @@
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Mittariston asetukset</string>
+    <string name="roadbook_settings_auto_start_title">Avaa mittaristo automaattisesti</string>
+    <string name="roadbook_settings_auto_start_message">Aloita mittaukset (Play) kun Tiekirja-näkymä avataan</string>
     <string name="roadbook_settings_totals_single_decimal_title">Kokonaismatka - Yhdellä desimaalilla</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Näyttää Kokonaismatkan yhdellä desimaalilla kahden sijaan</string>
     <string name="roadbook_settings_partial_single_decimal_title">Osamatka - Yhdellä desimaalilla</string>
