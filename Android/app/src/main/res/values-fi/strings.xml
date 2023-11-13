@@ -3,14 +3,14 @@
     <!-- New Untranslated -->
 
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landscape (Tablet)</item>
-        <item>Reversed Landscape (Tablet)</item>
-        <item>Portrait (Phone)</item>
-        <item>Reversed Portrait (Phone)</item>
+        <item>Vaaka (Tabletti)</item>
+        <item>Käännetty vaaka (Tabletti)</item>
+        <item>Pysty (Puhelin)</item>
+        <item>Käännetty Pysty (Puhelin)</item>
     </string-array>
 
-    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
-    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
+    <string name="roadbook_settings_auto_start_title">Avaa mittaristo automaattisesti</string>
+    <string name="roadbook_settings_auto_start_message">Aloita mittaukset (Play) kun Tiekirja-näkymä avataan</string>
 
     <!-- End Of New Untranslated -->
 
