@@ -5,8 +5,11 @@
     <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
     <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
 
+    <string name="remote_controller_category">Remote Controller Settings</string>
+    <string name="controller_selection">Select remote controller model</string>
+
     <!-- End Of New Untranslated -->
-    
+
 
     <string name="app_name">DMD2</string>
 
