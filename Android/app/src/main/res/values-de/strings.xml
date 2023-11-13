@@ -15,8 +15,11 @@
         <item>Reversed Portrait (Phone)</item>
     </string-array>
 
+    <string name="remote_controller_category">Remote Controller Settings</string>
+    <string name="controller_selection">Select remote controller model</string>
+
     <!-- End Of New Untranslated -->
-    
+
 
 
     <string name="app_name">DMD2</string>
