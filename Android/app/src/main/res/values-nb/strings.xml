@@ -1,12 +1,17 @@
 <resources>
 
     <!-- NOT TRANSLATED YET -->
+
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
         <item>Landskap (Nettbrett)</item>
         <item>Omvendt landskap (Nettbrett)</item>
         <item>Portrett (Telefon)</item>
         <item>Omvendt portrett (Telefon)</item>
     </string-array>
+    
     <!-- END OF NOT TRANSLATED -->
 
     <string name="app_name">DMD2</string>
