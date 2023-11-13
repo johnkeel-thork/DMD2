@@ -1,6 +1,5 @@
 <resources>
 
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -127,13 +126,41 @@
         <item>Yellow</item>
         <item>Pink</item>
     </string-array>
+    <string name="remote_controller_category">Remote Controller Settings</string>
+    <string name="controller_selection">Select remote controller model</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+
     <string name="settings_screen_category">Screen</string>
     <string name="settings_screen_lock_rotation">Lock screen orientation</string>
     <string name="settings_screen_lock_rotation_summary">Prevent screen from accidentally rotating while driving</string>
     <string name="settings_screen_orientation">Lock orientation in:</string>
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landscape</item>
-        <item>Reversed Landscape</item>
+        <item>Landscape (Tablet)</item>
+        <item>Reversed Landscape (Tablet)</item>
+        <item>Portrait (Phone)</item>
+        <item>Reversed Portrait (Phone)</item>
     </string-array>
     <string name="settings_notifications_category">Notifications</string>
     <string name="settings_notifications_enable_title">Enable notifications pop-up (permission required)</string>
@@ -148,7 +175,7 @@
         <item>Manually (Swipe or Controller)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Handlebar controller focus</string>
-    <string name="settings_notifications_controller_lock_message">When a notification is visible, the CARPE controller will focus on it. The enter key launches the notification action and the back key clears the notification.</string>
+    <string name="settings_notifications_controller_lock_message">When a notification is visible, the remote controller will focus on it. The enter key launches the notification action and the back key clears the notification.</string>
     <string name="settings_notifications_apps_selection_title">Apps filter</string>
     <string name="settings_notifications_apps_selection_message">Select for which apps you want to see the notification pop-up</string>
     <string name="settings_notifications_group_title">Show only the last notification from each group</string>
@@ -258,7 +285,7 @@
     <string name="home_widget_big_clock_title_long">A Big Clock</string>
     <string name="home_widget_big_clock_description">Just a simple big digital clock, in case time is crucial for you.</string>
     <string name="home_widget_map_progress_title">PROGRESS</string>
-    <string name="home_widget_map_progress_title_long">Map Nav Progress</string>
+    <string name="home_widget_map_progress_title_long">Map Progress Activity</string>
     <string name="home_widget_map_progress_description">Shows navigation instructions or GPX track progress depending on the active state between the two.</string>
     <string name="home_widget_settings_dialog_title">Select Widget</string>
     <!-- Home Editor -->
@@ -357,7 +384,7 @@
     <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
     <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
     <string name="obd_settings_use_alt_voltage_title">Get Voltage from Dongle</string>
-    <string name="obd_settings_use_alt_voltage_message">Use STVR command for voltage reading instead of ECU PID</string>
+    <string name="obd_settings_use_alt_voltage_message">Use ST command for voltage reading instead of ECU PID</string>
     <string name="obd_fuel_level_settings">Fuel Level Settings</string>
     <string name="obd_fuel_level_calculated">Calculate fuel level</string>
     <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
@@ -972,6 +999,8 @@
     <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
 
 
 </resources>
