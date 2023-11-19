@@ -233,8 +233,8 @@
 
     <!-- Home-->
     <!-- Widget Types-->
-    <string name="home_widget_trip_title">TUR</string>
-    <string name="home_widget_trip_title_long">Tursstatistik</string>
+    <string name="home_widget_trip_title">Trip</string>
+    <string name="home_widget_trip_title_long">Trip statistik</string>
     <string name="home_widget_trip_description">Se realtidsværdier om din tur, information som afstand, samlet tid, rejsetid, stop tid og gennemsnitshastighed.</string>
     <string name="home_widget_apps_title">APPS</string>
     <string name="home_widget_apps_title_long">App-genveje</string>
@@ -294,13 +294,13 @@
     <string name="widget_info_gps_heading_label">Retning</string>
     <string name="widget_info_gps_speed_name">GPS Hastighed</string>
     <string name="widget_info_gps_speed_label">Hastighed</string>
-    <string name="widget_info_gps_trip_max_speed_name">Tur Maks. Hastighed</string>
+    <string name="widget_info_gps_trip_max_speed_name">Maks. Hastighed</string>
     <string name="widget_info_gps_trip_max_speed_label">Maks. Hastighed</string>
-    <string name="widget_info_gps_trip_distance_name">Turafstand</string>
-    <string name="widget_info_gps_trip_total_time_name">Tur Samlet Tid</string>
-    <string name="widget_info_gps_trip_travel_time_name">Tur Rejsetid</string>
-    <string name="widget_info_gps_trip_stop_time_name">Tur Stop Tid</string>
-    <string name="widget_info_gps_trip_avg_speed_name">Tur Gennemsnitshastighed</string>
+    <string name="widget_info_gps_trip_distance_name">Total afstand</string>
+    <string name="widget_info_gps_trip_total_time_name">Samlet Tid</string>
+    <string name="widget_info_gps_trip_travel_time_name">Rejsetid</string>
+    <string name="widget_info_gps_trip_stop_time_name">Stille Tid</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Gennemsnitshastighed</string>
     <string name="widget_info_obd_speed_label">OBD Hastighed</string>
     <string name="widget_info_obd_rpm_label">Omdr./min</string>
     <string name="widget_info_obd_coolant_label">Kølevæske</string>
@@ -318,8 +318,8 @@
     <string name="media_notifications_enable_dialog_title_media">Mediestyringstilladelse</string>
     <string name="media_notifications_enable_dialog_message_media">Mediestyrings-widgetten kræver adgang til meddelelser for at læse medieafspillerindhold som titel, kunstner, albumnavn og kunstværk. Vil du tillade denne tilladelse?</string>
     <!-- Widget Trip Reset Dialog -->
-    <string name="trip_reset_confirmation_title">Nulstil Tur</string>
-    <string name="trip_reset_confirmation_message">Er du sikker på, at du vil nulstille tursstatistikken?</string>
+    <string name="trip_reset_confirmation_title">Nulstil Trip</string>
+    <string name="trip_reset_confirmation_message">Er du sikker på, at du vil nulstille Trip statistikken?</string>
 
 
     <!-- Notifications -->
