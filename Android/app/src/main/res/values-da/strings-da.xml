@@ -3,11 +3,11 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Bekræft Sletning</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på du ønsker at slette filen? Filen kan ikke genskabes!</string>
 
-    <string name="remote_controller_category">Remote Controller Settings</string>
-    <string name="controller_selection">Select remote controller model</string>
+    <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
+    <string name="controller_selection">Vælg remote controller model</string>
 
     <!-- End Of New Untranslated -->
 
@@ -610,7 +610,7 @@
     <string name="map_lock_button_long_press_unlock">Tryk og hold for at låse op!</string>
     <!-- Map Layers Manager -->
     <string name="map_layers_dialog_title">Kortlag</string>
-    <string name="map_layers_base_map_title">Grundkortkilde</string>
+    <string name="map_layers_base_map_title">Grund Kort</string>
     <string name="map_layers_base_map_description">Grundlæggende data for terræn, veje, bygninger, adresser og højde.</string>
     <string name="map_layers_3D_buildings_title">3D-bygninger</string>
     <string name="map_layers_3D_buildings_description">Konverterer bygningsområder til grundlæggende udtrukne 3D-former</string>
@@ -646,7 +646,7 @@
     <string name="map_layers_downloader_not_enough_space">Ikke nok lagerplads!</string>
     <string name="map_layers_poi_highlight_title">POI-ikon fremhævning</string>
     <string name="map_layers_poi_highlight_description">Indstil POI-ikoner til at vises ved lavere zoomniveauer (maks. 500 m zoom) (benzin/hospital/toppe er altid aktiverede).</string>
-    <string name="map_layers_poi_fuel">Benzin</string>
+    <string name="map_layers_poi_fuel">Tankstation</string>
     <string name="map_layers_poi_hospital">Hospital</string>
     <string name="map_layers_poi_peaks">Toppe</string>
     <string name="map_layers_poi_parking">Parkering</string>
@@ -830,9 +830,9 @@
     <string name="map_settings_controller_disable_pan_spot_title">Deaktivér mål for panoreringstilstand</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye målfunktionshandlinger for panoreringstilstand</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">Stedssøgning</string>
+    <string name="map_poi_search_manager">Kort søgning</string>
     <string name="map_poi_search_call">Opkald</string>
-    <string name="map_poi_type_name">Type Navn</string>
+    <string name="map_poi_type_name">Søg på Navn</string>
     <string name="map_poi_error_no_offline_map_loaded">Fejl: ingen kort indlæst endnu! Hent offline kort først.</string>
     <string name="map_poi_error_no_poi_found">Fejl: ingen POI\'er fundet!</string>
     <string name="map_poi_search_more">Søg online</string>
@@ -842,7 +842,7 @@
     <string name="map_poi_no_phone">Ingen telefon tilgængelig</string>
     <string name="map_poi_no_website">Ingen hjemmeside tilgængelig</string>
     <string name="map_poi_no_opening_hours">Ingen åbningstider tilgængelige</string>
-    <string name="map_poi_search_dialog_title">Søg efter POI efter navn</string>
+    <string name="map_poi_search_dialog_title">Find POI efter navn</string>
     <string name="map_poi_search_button">Søg</string>
     <string name="map_poi_not_a_valid_keyword">Ikke en gyldig søgeindtastning!</string>
     <string name="map_poi_no_valid_location_yet">Ingen GPS-placering endnu! Prøv igen senere.</string>
