@@ -2,13 +2,10 @@
 
 
     <!-- New Untranslated -->
-
-    <string name="map_gpx_recorder_confirm_delete_title">Bekræft Sletning</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på du ønsker at slette filen? Filen kan ikke genskabes!</string>
-
-    <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
-    <string name="controller_selection">Vælg remote controller model</string>
-
+    
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
+    
     <!-- End Of New Untranslated -->
 
     <string name="app_name">DMD2</string>
@@ -137,6 +134,8 @@
         <item>Gul</item>
         <item>Lyserød</item>
     </string-array>
+    <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
+    <string name="controller_selection">Vælg remote controller model</string>
     <string name="settings_screen_category">Skærm</string>
     <string name="settings_screen_lock_rotation">Lås skærmens orientering</string>
     <string name="settings_screen_lock_rotation_summary">Forhindrer, at skærmen roterer utilsigtet under kørsel</string>
@@ -984,6 +983,8 @@
     <string name="map_gpx_recorder_waypoints_edit">Optagelse af Waypoints Editor</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin-ikon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen Waypoint endnu!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Bekræft Sletning</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på du ønsker at slette filen? Filen kan ikke genskabes!</string>
 
 
 </resources>
