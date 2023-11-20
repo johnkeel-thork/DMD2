@@ -87,7 +87,7 @@
     <string name="controller_app_update_download_progress">Download vooruitgang:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Tripltek T93 Proefperiode</string>
-    <string name="t93_trial_message">Omdat je een Tripltek T93 gebruikt, beschik je over een 30 dagen gratis proefperiode. Al je een speciale DMD2 Edition license-code hebt, voer die dan in.</string>
+    <string name="t93_trial_message">Omdat je een Tripltek T93 gebruikt, beschik je over een 30 dagen gratis proefperiode. Als je een speciale DMD2 Edition license-code hebt, voer die dan in.</string>
     <string name="t93_trial_button">Proefperiode verderzetten</string>
     <string name="t93_dmd2_edition_button">Licentie-code ingeven</string>
     <string name="t93_finish_trial_button">Proefperiode stopzetten</string>
