@@ -2,21 +2,8 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_gpx_recorder_confirm_delete_title">Lösch-Bestätigung</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Diese Datei löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!</string>
-
-    <string name="roadbook_settings_auto_start_title">Instrumente automatisch starten</string>
-    <string name="roadbook_settings_auto_start_message">Alle Messungen beim Aufruf der Roadbook-Anzeige starten (Play-Taste)</string>
-
-    <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Querformat (Tablet)</item>
-        <item>Umgekehrtes Querformat (Tablet)</item>
-        <item>Hochformat (Phone)</item>
-        <item>Umgekehrtes Hochformat (Phone)</item>
-    </string-array>
-
-    <string name="remote_controller_category">Fernbedienung Einstellungen</string>
-    <string name="controller_selection">Fernbedienung auswählen</string>
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
 
     <!-- End Of New Untranslated -->
 
@@ -148,10 +135,18 @@
         <item>Gelb</item>
         <item>Pink</item>
     </string-array>
+    <string name="remote_controller_category">Fernbedienung Einstellungen</string>
+    <string name="controller_selection">Fernbedienung auswählen</string>
     <string name="settings_screen_category">Bildschirm</string>
     <string name="settings_screen_lock_rotation">Bildschirmausrichtung sperren</string>
     <string name="settings_screen_lock_rotation_summary">Verhindern, dass Ausrichtung sich während der Fahrt versehentlich verstellt</string>
     <string name="settings_screen_orientation">Ausrichtung sperren in:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Querformat (Tablet)</item>
+        <item>Umgekehrtes Querformat (Tablet)</item>
+        <item>Hochformat (Phone)</item>
+        <item>Umgekehrtes Hochformat (Phone)</item>
+    </string-array>
     <string name="settings_notifications_category">Benachrichtigungen</string>
     <string name="settings_notifications_enable_title">Benachrichtigungs Pop-Up zulassen (Berechtigung erforderlich)</string>
     <string name="settings_notifications_enable_summary">Auswahl der Benachrichtigungen aus App-Liste</string>
@@ -448,6 +443,8 @@
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Instrumenten Einstellungen</string>
+    <string name="roadbook_settings_auto_start_title">Instrumente automatisch starten</string>
+    <string name="roadbook_settings_auto_start_message">Alle Messungen beim Aufruf der Roadbook-Anzeige starten (Play-Taste)</string>
     <string name="roadbook_settings_totals_single_decimal_title">Gesamtstrecke - Einzelne Nachkommastelle</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Zeigt die Gesamtstrecke mit einer statt zwei Dezimalstellen an.</string>
     <string name="roadbook_settings_partial_single_decimal_title">Teilentfernung - Einzelne Nachkommastelle</string>
@@ -978,5 +975,7 @@
     <string name="map_gpx_recorder_waypoints_edit">Wegpunkt Editor für Aufzeichnungen</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Symbol:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Noch keine Wegpunkte!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Lösch-Bestätigung</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Diese Datei löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!</string>
 
 </resources>
