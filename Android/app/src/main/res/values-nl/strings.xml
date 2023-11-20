@@ -8,6 +8,9 @@
     <string name="remote_controller_category">Remote Controller Settings</string>
     <string name="controller_selection">Select remote controller model</string>
 
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
+    
     <!-- End Of New Untranslated -->
 
 
