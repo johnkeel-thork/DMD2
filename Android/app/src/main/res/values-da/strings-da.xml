@@ -1,5 +1,13 @@
 <resources>
 
+
+    <!-- New Untranslated -->
+    
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
+    
+    <!-- End Of New Untranslated -->
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -126,6 +134,8 @@
         <item>Gul</item>
         <item>Lyserød</item>
     </string-array>
+    <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
+    <string name="controller_selection">Vælg remote controller model</string>
     <string name="settings_screen_category">Skærm</string>
     <string name="settings_screen_lock_rotation">Lås skærmens orientering</string>
     <string name="settings_screen_lock_rotation_summary">Forhindrer, at skærmen roterer utilsigtet under kørsel</string>
@@ -149,7 +159,7 @@
         <item>Manuelt (Swipe or Controller)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Håndtag controller fokus</string>
-    <string name="settings_notifications_controller_lock_message">Når en notifikation er synlig, vil CARPE-controlleren fokusere på den. Enter-tasten starter notifikationshandlingen, og tilbage-tasten rydder notifikationen.</string>
+    <string name="settings_notifications_controller_lock_message">Når en notifikation er synlig, vil controlleren fokusere på den. Enter-tasten starter notifikationshandlingen, og tilbage-tasten rydder notifikationen.</string>
     <string name="settings_notifications_apps_selection_title">Apps filter</string>
     <string name="settings_notifications_apps_selection_message">Vælg hvilke apps, du ønsker at se notifikations-pop-up\'en for.</string>
     <string name="settings_notifications_group_title">Vis kun den seneste notifikation fra hver gruppe</string>
@@ -222,8 +232,8 @@
 
     <!-- Home-->
     <!-- Widget Types-->
-    <string name="home_widget_trip_title">TUR</string>
-    <string name="home_widget_trip_title_long">Tursstatistik</string>
+    <string name="home_widget_trip_title">Trip</string>
+    <string name="home_widget_trip_title_long">Trip statistik</string>
     <string name="home_widget_trip_description">Se realtidsværdier om din tur, information som afstand, samlet tid, rejsetid, stop tid og gennemsnitshastighed.</string>
     <string name="home_widget_apps_title">APPS</string>
     <string name="home_widget_apps_title_long">App-genveje</string>
@@ -283,13 +293,13 @@
     <string name="widget_info_gps_heading_label">Retning</string>
     <string name="widget_info_gps_speed_name">GPS Hastighed</string>
     <string name="widget_info_gps_speed_label">Hastighed</string>
-    <string name="widget_info_gps_trip_max_speed_name">Tur Maks. Hastighed</string>
+    <string name="widget_info_gps_trip_max_speed_name">Maks. Hastighed</string>
     <string name="widget_info_gps_trip_max_speed_label">Maks. Hastighed</string>
-    <string name="widget_info_gps_trip_distance_name">Turafstand</string>
-    <string name="widget_info_gps_trip_total_time_name">Tur Samlet Tid</string>
-    <string name="widget_info_gps_trip_travel_time_name">Tur Rejsetid</string>
-    <string name="widget_info_gps_trip_stop_time_name">Tur Stop Tid</string>
-    <string name="widget_info_gps_trip_avg_speed_name">Tur Gennemsnitshastighed</string>
+    <string name="widget_info_gps_trip_distance_name">Total afstand</string>
+    <string name="widget_info_gps_trip_total_time_name">Samlet Tid</string>
+    <string name="widget_info_gps_trip_travel_time_name">Rejsetid</string>
+    <string name="widget_info_gps_trip_stop_time_name">Stille Tid</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Gennemsnitshastighed</string>
     <string name="widget_info_obd_speed_label">OBD Hastighed</string>
     <string name="widget_info_obd_rpm_label">Omdr./min</string>
     <string name="widget_info_obd_coolant_label">Kølevæske</string>
@@ -307,8 +317,8 @@
     <string name="media_notifications_enable_dialog_title_media">Mediestyringstilladelse</string>
     <string name="media_notifications_enable_dialog_message_media">Mediestyrings-widgetten kræver adgang til meddelelser for at læse medieafspillerindhold som titel, kunstner, albumnavn og kunstværk. Vil du tillade denne tilladelse?</string>
     <!-- Widget Trip Reset Dialog -->
-    <string name="trip_reset_confirmation_title">Nulstil Tur</string>
-    <string name="trip_reset_confirmation_message">Er du sikker på, at du vil nulstille tursstatistikken?</string>
+    <string name="trip_reset_confirmation_title">Nulstil Trip</string>
+    <string name="trip_reset_confirmation_message">Er du sikker på, at du vil nulstille Trip statistikken?</string>
 
 
     <!-- Notifications -->
@@ -599,7 +609,7 @@
     <string name="map_lock_button_long_press_unlock">Tryk og hold for at låse op!</string>
     <!-- Map Layers Manager -->
     <string name="map_layers_dialog_title">Kortlag</string>
-    <string name="map_layers_base_map_title">Grundkortkilde</string>
+    <string name="map_layers_base_map_title">Grund Kort</string>
     <string name="map_layers_base_map_description">Grundlæggende data for terræn, veje, bygninger, adresser og højde.</string>
     <string name="map_layers_3D_buildings_title">3D-bygninger</string>
     <string name="map_layers_3D_buildings_description">Konverterer bygningsområder til grundlæggende udtrukne 3D-former</string>
@@ -635,7 +645,7 @@
     <string name="map_layers_downloader_not_enough_space">Ikke nok lagerplads!</string>
     <string name="map_layers_poi_highlight_title">POI-ikon fremhævning</string>
     <string name="map_layers_poi_highlight_description">Indstil POI-ikoner til at vises ved lavere zoomniveauer (maks. 500 m zoom) (benzin/hospital/toppe er altid aktiverede).</string>
-    <string name="map_layers_poi_fuel">Benzin</string>
+    <string name="map_layers_poi_fuel">Tankstation</string>
     <string name="map_layers_poi_hospital">Hospital</string>
     <string name="map_layers_poi_peaks">Toppe</string>
     <string name="map_layers_poi_parking">Parkering</string>
@@ -819,9 +829,9 @@
     <string name="map_settings_controller_disable_pan_spot_title">Deaktivér mål for panoreringstilstand</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye målfunktionshandlinger for panoreringstilstand</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">Stedssøgning</string>
+    <string name="map_poi_search_manager">Kort søgning</string>
     <string name="map_poi_search_call">Opkald</string>
-    <string name="map_poi_type_name">Type Navn</string>
+    <string name="map_poi_type_name">Søg på Navn</string>
     <string name="map_poi_error_no_offline_map_loaded">Fejl: ingen kort indlæst endnu! Hent offline kort først.</string>
     <string name="map_poi_error_no_poi_found">Fejl: ingen POI\'er fundet!</string>
     <string name="map_poi_search_more">Søg online</string>
@@ -831,7 +841,7 @@
     <string name="map_poi_no_phone">Ingen telefon tilgængelig</string>
     <string name="map_poi_no_website">Ingen hjemmeside tilgængelig</string>
     <string name="map_poi_no_opening_hours">Ingen åbningstider tilgængelige</string>
-    <string name="map_poi_search_dialog_title">Søg efter POI efter navn</string>
+    <string name="map_poi_search_dialog_title">Find POI efter navn</string>
     <string name="map_poi_search_button">Søg</string>
     <string name="map_poi_not_a_valid_keyword">Ikke en gyldig søgeindtastning!</string>
     <string name="map_poi_no_valid_location_yet">Ingen GPS-placering endnu! Prøv igen senere.</string>
@@ -973,6 +983,8 @@
     <string name="map_gpx_recorder_waypoints_edit">Optagelse af Waypoints Editor</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin-ikon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen Waypoint endnu!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Bekræft Sletning</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på du ønsker at slette filen? Filen kan ikke genskabes!</string>
 
 
 </resources>

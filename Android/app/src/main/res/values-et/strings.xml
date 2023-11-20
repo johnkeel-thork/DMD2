@@ -11,6 +11,15 @@
 
     <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
     <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
+    
+    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+
+    <string name="remote_controller_category">Remote Controller Settings</string>
+    <string name="controller_selection">Select remote controller model</string>
+    
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
 
     <!-- End Of New Untranslated -->
 
@@ -158,7 +167,7 @@
         <item>Käsitsi (Svaibi või juhtpuldilt)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Juhtpuldi fookus</string>
-    <string name="settings_notifications_controller_lock_message">Kui märguanne on nähtav, keskendub CARPE juhtpult sellele. Sisestusklahv avab märguande ja tagasiklahv kustutab märguande.</string>
+    <string name="settings_notifications_controller_lock_message">Kui märguanne on nähtav, keskendub juhtpult sellele. Sisestusklahv avab märguande ja tagasiklahv kustutab märguande.</string>
     <string name="settings_notifications_apps_selection_title">Rakenduste filter</string>
     <string name="settings_notifications_apps_selection_message">Valige milliste rakenduste märguande hüpikakent soovite näha</string>
     <string name="settings_notifications_group_title">Näita rakenduse viimane märguanne</string>
