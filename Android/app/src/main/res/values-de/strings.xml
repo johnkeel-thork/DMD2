@@ -2,21 +2,21 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Lösch-Bestätigung</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Diese Datei löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!</string>
 
-    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
-    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
+    <string name="roadbook_settings_auto_start_title">Instrumente automatisch starten</string>
+    <string name="roadbook_settings_auto_start_message">Alle Messungen beim Aufruf der Roadbook-Anzeige starten (Play-Taste)</string>
 
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Landscape (Tablet)</item>
-        <item>Reversed Landscape (Tablet)</item>
-        <item>Portrait (Phone)</item>
-        <item>Reversed Portrait (Phone)</item>
+        <item>Querformat (Tablet)</item>
+        <item>Umgekehrtes Querformat (Tablet)</item>
+        <item>Hochformat (Phone)</item>
+        <item>Umgekehrtes Hochformat (Phone)</item>
     </string-array>
 
-    <string name="remote_controller_category">Remote Controller Settings</string>
-    <string name="controller_selection">Select remote controller model</string>
+    <string name="remote_controller_category">Fernbedienung Einstellungen</string>
+    <string name="controller_selection">Fernbedienung auswählen</string>
 
     <!-- End Of New Untranslated -->
 
@@ -922,8 +922,8 @@
     <string name="map_route_planner_empty">Kein aktiver Track oder Route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressen Suche</string>
-    <string name="map_place_search_button_label">Tippe Adresse</string>
-    <string name="map_place_search_instructions">Tippe mindestens 3 Buchstaben um Ergebnisse zu sehen</string>
+    <string name="map_place_search_button_label">Adresse eingeben</string>
+    <string name="map_place_search_instructions">Mindestens 3 Buchstaben eingeben um Ergebnisse zu sehen</string>
     <string name="map_place_search_dialog_type_label">Schreibe einen Namen oder Adresse:</string>
     <string name="map_place_search_distance">Entfernung in gerader Linie:</string>
     <!-- GPX Recorder -->
@@ -960,7 +960,7 @@
     <string name="map_gpx_recorder_recordings_list">Aufzeichnungs Liste</string>
     <string name="map_gpx_recorder_recordings_list_no_file_yet">Noch keine Aufzeichnungen!</string>
     <string name="map_gpx_recorder_recordings_list_load_gpx">Lade GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Tippe neuen Dateinamen:</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Neuen Dateinamen:</string>
     <string name="map_gpx_recorder_add_waypoint_title">Neuer Wegpunkt</string>
     <string name="map_gpx_recorder_add_waypoint_hint_name">Wegpunkt Name</string>
     <string name="map_gpx_recorder_add_waypoint_hint_description">Beschreibung</string>
