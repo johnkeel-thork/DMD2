@@ -379,7 +379,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">Hvor langt kommer du normalt på en full tank?</string>
     <string name="obd_speed_rpm_cat_title">Hastighet og omdreininger</string>
     <string name="obd_speed_gps_source_title">Kilde for GPS hastighet</string>
-    <string name="obd_speed_gps_source_summary">Bruk GPS/hjulsensor i stedet for OBD hastighet.</string>
+    <string name="obd_speed_gps_source_summary">Bruk GPS i stedet for OBD hastighet.</string>
     <string name="obd_max_rpm_title">Sett maks RPM</string>
     <string name="obd_max_rpm_summary">Sett maks RPM for kjøretøyet</string>
     <string name="obd_redline_rpm_title">Sett redline RPM</string>
