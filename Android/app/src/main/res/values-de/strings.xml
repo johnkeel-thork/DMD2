@@ -377,7 +377,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">Wie hoch ist die durchschnittliche Kilometerleistung bei vollem Tank?</string>
     <string name="obd_speed_rpm_cat_title">Optionen für Geschwindigkeit und Drehzahl</string>
     <string name="obd_speed_gps_source_title">Quelle der Geschwindigkeitswerte</string>
-    <string name="obd_speed_gps_source_summary">Nutze GPS/Terrain Wheel Sensor anstelle des OBD-Geschwindigkeitswertes verwenden (der möglicherweise nicht verfügbar ist)</string>
+    <string name="obd_speed_gps_source_summary">Nutze GPS anstelle des OBD-Geschwindigkeitswertes verwenden (der möglicherweise nicht verfügbar ist)</string>
     <string name="obd_max_rpm_title">Setze max. Drehzahl</string>
     <string name="obd_max_rpm_summary">Stelle den maximalen Drehzahlwert des Fahrzeugs ein.</string>
     <string name="obd_redline_rpm_title">Setze Drehzahl Roterbereich</string>
