@@ -2,10 +2,10 @@
 
 
     <!-- New Untranslated -->
-    
+
     <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
     <string name="download_manager_active_download_in_queue">In queue…</string>
-    
+
     <!-- End Of New Untranslated -->
 
     <string name="app_name">DMD2</string>
@@ -376,7 +376,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">Hvad er dit gennemsnitlige kilometertal med en fuld tank?</string>
     <string name="obd_speed_rpm_cat_title">Hastigheds- og RPM-indstillinger</string>
     <string name="obd_speed_gps_source_title">Kilde til GPS-hastighedsværdi</string>
-    <string name="obd_speed_gps_source_summary">Brug GPS/Terræn Hjulsensor i stedet for OBD-hastighedsværdien (som måske ikke er tilgængelig)</string>
+    <string name="obd_speed_gps_source_summary">Brug GPS i stedet for OBD-hastighedsværdien (som måske ikke er tilgængelig)</string>
     <string name="obd_max_rpm_title">Indstil maksimal RPM</string>
     <string name="obd_max_rpm_summary">Indstil værdien for maksimal RPM for dit køretøj</string>
     <string name="obd_redline_rpm_title">Indstil rødlinje RPM</string>
