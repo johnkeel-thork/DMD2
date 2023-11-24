@@ -381,7 +381,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">What is your average mileage with a full tank</string>
     <string name="obd_speed_rpm_cat_title">Speed and RPM Options</string>
     <string name="obd_speed_gps_source_title">GPS Speed Value Source</string>
-    <string name="obd_speed_gps_source_summary">Use GPS/Terrain Wheel Sensor instead of OBD Speed value (which might not be available)</string>
+    <string name="obd_speed_gps_source_summary">Use GPS instead of OBD Speed value (which might not be available)</string>
     <string name="obd_max_rpm_title">Set Maximum RPM</string>
     <string name="obd_max_rpm_summary">Set your vehicle maximum RPM value</string>
     <string name="obd_redline_rpm_title">Set redline RPM</string>
