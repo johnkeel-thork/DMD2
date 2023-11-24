@@ -1,5 +1,5 @@
 <resources>
-    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -101,7 +101,7 @@
     <string name="download_manager_active_download_no_net">Geen Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Wachten op internet verbinding…</string>
     <string name="download_manager_active_download_downloading_no_progress">Downloaden maar voortgang niet zichtbaar</string>
-    <string name="download_manager_active_download_cannot_abort">Kan huidig ​​bestand niet afbreken, even geduld a.u.b.!</string>
+    <string name="download_manager_active_download_cannot_abort">Kan huidig bestand niet afbreken, even geduld a.u.b.!</string>
     <string name="download_manager_active_download_in_queue">In wachtrij…</string>
 
     <!-- Settings -->
@@ -370,7 +370,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">Hoeveel kilometers kan u gemiddeld afleggen met een volle tank?</string>
     <string name="obd_speed_rpm_cat_title">Snelheid and RPM Opties</string>
     <string name="obd_speed_gps_source_title">Bron GPS Snelheidswaarden</string>
-    <string name="obd_speed_gps_source_summary">Gebruik GPS/Terreinwielsensor in plaats van de OBD-snelheidswaarde (die mogelijk niet beschikbaar is)</string>
+    <string name="obd_speed_gps_source_summary">Gebruik GPS in plaats van de OBD-snelheidswaarde (die mogelijk niet beschikbaar is)</string>
     <string name="obd_max_rpm_title">Stel Maximum RPM in</string>
     <string name="obd_max_rpm_summary">Stel de maximale RPM-waarde van uw voertuig in</string>
     <string name="obd_redline_rpm_title">Stel het rood gebied in</string>
