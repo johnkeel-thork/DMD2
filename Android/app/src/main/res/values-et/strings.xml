@@ -11,13 +11,13 @@
 
     <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
     <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
-    
+
     <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
     <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
 
     <string name="remote_controller_category">Remote Controller Settings</string>
     <string name="controller_selection">Select remote controller model</string>
-    
+
     <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
     <string name="download_manager_active_download_in_queue">In queue…</string>
 
@@ -384,7 +384,7 @@
     <string name="obd_fuel_level_avg_mileage_summary">Kui suur on teie keskmine läbisõit täis paagiga</string>
     <string name="obd_speed_rpm_cat_title">Spidomeetri ja tahhomeetri sätted</string>
     <string name="obd_speed_gps_source_title">Kuva GPS-i kiirus</string>
-    <string name="obd_speed_gps_source_summary">Kasuta OBD kiiruse väärtuse asemel GPS/ratta sensorit (mis ei pruugi olla saadaval)</string>
+    <string name="obd_speed_gps_source_summary">Kasuta OBD kiiruse väärtuse asemel GPS (mis ei pruugi olla saadaval)</string>
     <string name="obd_max_rpm_title">Määra tahhomeetri maksimaalne pöörete arv</string>
     <string name="obd_max_rpm_summary">Määra oma sõiduki maksimaalne mootoripöörete arv</string>
     <string name="obd_redline_rpm_title">Määra mootoripöörde punane joon</string>
