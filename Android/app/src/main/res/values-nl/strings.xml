@@ -1,19 +1,5 @@
 <resources>
-
-    <!-- New Untranslated -->
-
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
-
-    <string name="remote_controller_category">Remote Controller Settings</string>
-    <string name="controller_selection">Select remote controller model</string>
-
-    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
-    <string name="download_manager_active_download_in_queue">In queue…</string>
     
-    <!-- End Of New Untranslated -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -99,7 +85,7 @@
     <string name="controller_app_update_download_progress">Download vooruitgang:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Tripltek T93 Proefperiode</string>
-    <string name="t93_trial_message">Omdat je een Tripltek T93 gebruikt, beschik je over een 30 dagen gratis proefperiode. Al je een speciale DMD2 Edition license-code hebt, voer die dan in.</string>
+    <string name="t93_trial_message">Omdat je een Tripltek T93 gebruikt, beschik je over een 30 dagen gratis proefperiode. Als je een speciale DMD2 Edition license-code hebt, voer die dan in.</string>
     <string name="t93_trial_button">Proefperiode verderzetten</string>
     <string name="t93_dmd2_edition_button">Licentie-code ingeven</string>
     <string name="t93_finish_trial_button">Proefperiode stopzetten</string>
@@ -115,6 +101,8 @@
     <string name="download_manager_active_download_no_net">Geen Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Wachten op internet verbinding…</string>
     <string name="download_manager_active_download_downloading_no_progress">Downloaden maar voortgang niet zichtbaar</string>
+    <string name="download_manager_active_download_cannot_abort">Kan huidig ​​bestand niet afbreken, even geduld a.u.b.!</string>
+    <string name="download_manager_active_download_in_queue">In wachtrij…</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Locatiebepaling</string>
@@ -214,6 +202,8 @@
     <string name="settings_disable_controller_app_check_message">Zal de controller app niet meer monitoren en zal niet meer vragen om die te installeren of te updaten.</string>
     <string name="settings_controller_app_install_title">CARPE Controller gedetecteerd</string>
     <string name="settings_controller_app_install_message">Het lijkt erop dat je een CARPE Controller gebruikt. Om volledig voordeel hieruit te halen, installeer je het best de controller app. Wil je die nu installeren?</string>
+    <string name="remote_controller_category">Instellingen Remote Controller</string>
+    <string name="controller_selection">Selecteer remote controller model</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Opslag</string>
     <string name="map_storage_location_select_title">Zet opslag naar verwijderbare SD-card</string>
@@ -988,5 +978,7 @@
     <string name="map_gpx_recorder_waypoints_edit">Opname Waypoints bewerker</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nog geen Waypoint!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Bevestiging verwijderen</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Weet u zeker dat u dit bestand wilt verwijderen? Deze actie kan niet worden terug gedraaid!</string>
 
 </resources>
