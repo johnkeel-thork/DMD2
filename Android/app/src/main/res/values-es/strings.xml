@@ -38,7 +38,7 @@
     <!-- Buttons -->
     <string name="back">Atrás</string>
     <string name="abort">Anular</string>
-    <string name="ok">Aceptar</string>
+    <string name="ok">OK</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="save">Guardar</string>
