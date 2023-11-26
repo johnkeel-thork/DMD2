@@ -825,7 +825,7 @@ completo</item>
     <string-array name="map_settings_navigation_recalculation_distance_names">
         <item name="map_settings_navigation_recalculation_distance_nam">50m</item>
         <item name="map_settings_navigation_recalculation_distance_nam_699f14e0d67acd5d3cff449eb14ccecb">100m</item>
-        <item name="map_settings_navigation_recalculation_distance_nam_f6fdf80aa16e3acd0235758fb37b30a8">150&#x00a0;m</item>
+        <item name="map_settings_navigation_recalculation_distance_nam_f6fdf80aa16e3acd0235758fb37b30a8">150m</item>
         <item name="map_settings_navigation_recalculation_distance_nam_4502cc6282bfe4232478283348725612">250m</item>
         <item name="map_settings_navigation_recalculation_distance_nam_b1c98b8a992d5aa62778b5fbbdf59fd8">500m</item>
         <item name="map_settings_navigation_recalculation_distance_nam_d56c7f4d4b56efd7ca06ff2c7bec0c4e">1km</item>
