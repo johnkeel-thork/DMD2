@@ -1,5 +1,15 @@
 <resources>
 
+
+    <!-- Not translated yet -->
+    
+    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_in_queue">In queue…</string>
+
+    <!-- End of not translated -->
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
