@@ -3,14 +3,14 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Vahvista poisto</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Haluatko varmasti poistaa tämän tiedoston? Poistoa ei voi perua!</string>
 
-    <string name="remote_controller_category">Remote Controller Settings</string>
-    <string name="controller_selection">Select remote controller model</string>
+    <string name="remote_controller_category">Ohjaimen asetukset</string>
+    <string name="controller_selection">Valitse ohjaimen malli</string>
 
-    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
-    <string name="download_manager_active_download_in_queue">In queue…</string>
+    <string name="download_manager_active_download_cannot_abort">Ei voida keskeyttää tiedoston latausta, ole hyvä ja odota!</string>
+    <string name="download_manager_active_download_in_queue">Jonossa…</string>
 
     <!-- End Of New Untranslated -->
 
