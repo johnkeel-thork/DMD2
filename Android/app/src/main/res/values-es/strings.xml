@@ -96,7 +96,7 @@
     <string name="download_manager_active_download_paused">En pausa</string>
     <string name="download_manager_active_download_error">Error</string>
     <string name="download_manager_active_download_downloading">Descargando</string>
-    <string name="download_manager_active_download_downloading_no_pr">Descargando pero no puede mostrar el progreso</string>
+    <string name="download_manager_active_download_downloading_no_progress">Descargando pero no puede mostrar el progreso</string>
     <string name="download_manager_active_download_interrupted">Interrumpida</string>
     <string name="download_manager_active_download_interrupted_file">Archivo interrumpido:</string>
     <string name="download_manager_active_download_no_net">¿No hay internet?</string>
@@ -118,7 +118,7 @@
         <item>Sensor de luz</item>
     </string-array>
     <string name="settings_accent_color_title">Color Primario:</string>
-    <string-array name="settings_accent_colors_names">
+    <string-array name="settings_accent_colors_names" translatable="true">
         <item>Azul</item>
         <item>Azul oscuro</item>
         <item>Rojo</item>
@@ -181,8 +181,8 @@
     <string name="settings_notifications_group_title">Mostrar solo la última notificación de cada grupo</string>
     <string name="settings_notifications_group_message">Si está habilitado, solo verá la última actualización de notificación para cada grupo de notificaciones. Por ejemplo, el último mensaje de una notificación de chat.</string>
     <string name="settings_notifications_app_selection_dialog_title">Mostrar notificaciones para:</string>
-    <string name="settings_notifications_app_selection_dialog_button">Todo/nada</string>
-    <string name="settings_notifications_app_selection_dialog_button_ae7cddceced466ebada5832d3c5e674b">Cierre</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Todo/nada</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Cierre</string>
     <!-- Trip Settings -->
     <string name="settings_trip_options">Opciones de viaje</string>
     <string name="settings_trip_auto_reset_title">Restablecimiento automático de viaje</string>
@@ -467,9 +467,9 @@
     <string name="roadbook_settings_invert_paper_color_message">Invierte el color del papel, podría ser útil para viajar durante la noche.</string>
     <string name="roadbook_settings_locker_cat_title">Configuración de bloqueo</string>
     <string name="roadbook_settings_locker_disable_paper_touch_title">El bloqueo también desactiva el tactil del papel</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_messa">Cuando el bloqueo está habilitado, se ignora cualquier toque de papel. Esto ayuda a prevenir movimientos accidentales o acciones de gotas de lluvia.</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Cuando el bloqueo está habilitado, se ignora cualquier toque de papel. Esto ayuda a prevenir movimientos accidentales o acciones de gotas de lluvia.</string>
     <string name="roadbook_settings_locker_disable_instruments_title">El bloqueo también desactiva los instrumentos</string>
-    <string name="roadbook_settings_locker_disable_instruments_messa">Cuando el bloqueo está habilitado, las acciones de toque del instrumento también se deshabilitarán.</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Cuando el bloqueo está habilitado, las acciones de toque del instrumento también se deshabilitarán.</string>
     <string name="roadbook_settings_locker_disable_topmenu_title">Bloquear también desactiva el menú superior</string>
     <string name="roadbook_settings_locker_disable_topmenu_message">Cuando el bloqueo está habilitado, el menú superior también se deshabilitará y solo funcionará el botón de bloqueo.</string>
     <string name="roadbook_settings_locker_play_pause_title">Bloqueo de sincronización con reproducción/pausa</string>
@@ -483,11 +483,11 @@
     <string name="roadbook_settings_reset_session_message">Descarga el archivo PDF actual y restablece todas las estadísticas y distancias.</string>
     <string name="roadbook_settings_reset_session_confirm_title">Confirmar restablecimiento</string>
     <string name="roadbook_settings_reset_session_confirm_message">¿Está seguro de que desea restablecer el progreso actual? ¡Esto descarga el archivo PDF actual y restablece todas las estadísticas y distancias!</string>
-    <string name="roadbook_settings_reset_session_confirm_reset_butt">Restablecer</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Restablecer</string>
     <string name="roadbook_settings_controller_setup_cat_title">Configuración del mando a distancia</string>
     <string-array name="roadbook_controller_button_options"  translatable="true">
-        <item>Rollo de papel</item>
-        <item>Rollo de papel</item>
+        <item>Subir rollo de papel</item>
+        <item>Bajar rollo de papel</item>
         <item>Aumentar total</item>
         <item>Disminuir total</item>
         <item>Aumentar parcial</item>
@@ -511,10 +511,10 @@
     <string name="roadbook_controller_button_zoomout">Botón B ( - )</string>
     <string name="roadbook_controller_scroll_amount_title">Cantidad de desplazamiento por click</string>
     <string name="roadbook_controller_scroll_amount_message">Ajuste la cantidad de movimiento del desplazamiento del papel hacia arriba y hacia abajo</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_tit">Habilitar repetición de teclas para joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_mes">Si está habilitado, las teclas para Arriba, Abajo, Izquierda, Derecha se repetirán cuando se mantengan pulsadas</string>
-    <string name="roadbook_controller_set_key_repeat_joystick_time_t">Establecer la velocidad de repetición para el joystick</string>
-    <string name="roadbook_controller_set_key_repeat_buttons_time_ti">Establecer velocidad de repetición para los botones</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Habilitar repetición de teclas para joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Si está habilitado, las teclas para Arriba, Abajo, Izquierda, Derecha se repetirán cuando se mantengan pulsadas</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Establecer la velocidad de repetición para el joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Establecer velocidad de repetición para los botones</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
         <item>50ms</item>
         <item>100ms</item>
@@ -527,8 +527,8 @@
         <item>450ms</item>
         <item>500ms</item>
     </string-array>
-    <string name="roadbook_controller_enable_key_repeat_buttons_titl">Habilitar repetición de teclas para botones</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_mess">Si está habilitado, las teclas para el botón A y el botón B se repetirán cuando se mantengan pulsadas.</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Habilitar repetición de teclas para botones</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Si está habilitado, las teclas para el botón A y el botón B se repetirán cuando se mantengan pulsadas.</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Desplazar el papel hacia abajo con un clic al restablecer parcialmente</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Distancia total</string>
@@ -738,7 +738,7 @@
     <string name="gpx_manager_settings_delete_all">Eliminar Todo</string>
     <string name="gpx_manager_settings_default_track_color">Color de pista predeterminado (cuando el usuario no especifica ni establece ningún color):</string>
     <string name="gpx_manager_settings_default_overwrite_all_colors">Sobrescribir todos los colores establecidos en los archivos al color predeterminado:</string>
-    <string name="gpx_manager_settings_default_overwrite_all_colors_">Sobrescribir todos los colores establecidos por el usuario al color predeterminado:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Sobrescribir todos los colores establecidos por el usuario al color predeterminado:</string>
     <string name="gpx_manager_settings_load_poi_title">Carga automática de puntos de interés</string>
     <string name="gpx_manager_settings_load_poi_message">Cargue automáticamente el POI a lo largo de la pista hasta 3 categorías</string>
     <string name="gpx_manager_settings_load_poi_enable_label">Habilite la carga automática de POI a lo largo de la pista:</string>
@@ -825,8 +825,8 @@
     <string name="map_settings_navigation_cat_title">Navegación</string>
     <string name="map_settings_navigation_start_ask_title">Navegar a: Solicitar el uso de DMD2 o externo</string>
     <string name="map_settings_navigation_start_ask_message">Si está habilitado, DMD2 le preguntará si desea usar DMD2 u otra aplicación. Si está desactivado, el valor predeterminado es DMD2.</string>
-    <string name="map_settings_navigation_use_voice_instructions_tit">Habilitar instrucciones de voz</string>
-    <string name="map_settings_navigation_use_voice_instructions_sum">Utilizará Text-To-Speech para proporcionar instrucciones de voz para la navegación.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Habilitar instrucciones de voz</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Utilizará Text-To-Speech para proporcionar instrucciones de voz para la navegación.</string>
     <string name="map_settings_navigation_show_waypoints_title">Mostrar puntos de referencia en el mapa</string>
     <string name="map_settings_navigation_show_waypoints_message">Mostrará el pin del punto de ruta de la instrucción de enrutamiento en el mapa.</string>
     <string name="map_settings_navigation_recalculation_distance">Distancia de recálculo de ruta automática</string>
@@ -882,7 +882,7 @@
     <string name="map_map_track_tap_points_distance_not_same_gpx">¡Seleccione un punto que forme parte del mismo archivo GPX!</string>
     <string name="map_map_track_tap_points_distance_both_same_track">Ambos puntos seleccionados están en la misma pista GPX</string>
     <string name="map_map_track_tap_points_distance_different_track">Los puntos no están en la misma pista GPX, pero las pistas están conectadas</string>
-    <string name="map_map_track_tap_points_distance_different_track_">¡No se puede medir en diferentes pistas con múltiples conexiones!</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">¡No se puede medir en diferentes pistas con múltiples conexiones!</string>
     <!-- Left Panel Progress -->
     <string name="map_ui_left_progress_panel_finish_label">Acabado:</string>
     <!-- Route Planner -->
@@ -936,7 +936,7 @@
     <string name="map_route_planner_error_other_title">Error de cálculo</string>
     <string name="map_route_planner_error_other_message">¡Se ha producido un error al calcular la ruta! Por favor, inténtelo de nuevo, si está fuera de la carretera, ¡pruebe el perfil Mixto!</string>
     <string name="map_route_planner_dialog_download_calc_file_title">Faltan archivos del planificador de rutas</string>
-    <string name="map_route_planner_dialog_download_calc_file_messag">Para las funciones de planificación de rutas DMD2, necesita descargar archivos adicionales. ¿Quieres hacerlo ahora?</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Para las funciones de planificación de rutas DMD2, necesita descargar archivos adicionales. ¿Quieres hacerlo ahora?</string>
     <string name="map_route_planner_dialog_download_progress">Descargando archivo de cálculo</string>
     <string name="map_route_planner_empty">¡Sin pista o ruta activa!</string>
     <!-- Place Search -->
@@ -956,7 +956,7 @@
     <string name="map_gpx_recorder_dialog_recording_start_time">Inicio:</string>
     <string name="map_gpx_recorder_dialog_recording_elapsed_time">transcurrido</string>
     <string name="map_gpx_recorder_dialog_recording_avg_speed">Velocidad media</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alternar ganancia:</string>
     <string name="map_gpx_recorder_dialog_record">Registro</string>
     <string name="map_gpx_recorder_dialog_pause">Pausar</string>
     <string name="map_gpx_recorder_dialog_resume">Resumen</string>
@@ -974,8 +974,8 @@
     <string name="map_gpx_recorder_finish_gpx_message">Elija guardarlo en un archivo GPX, descartarlo y eliminar la grabación o cerrar este cuadro de diálogo y continuar con la grabación.</string>
     <string name="map_gpx_recorder_finish_name_file_title">Nombre para el archivo GPX</string>
     <string name="map_gpx_recorder_finish_name_file_discard">Descartar / eliminar</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_t">El archivo de proyecto ya existe</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_t_18ed725174dc6014d06dbd0114b71711">Volver a intentarlo</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">El archivo de proyecto ya existe</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Volver a intentarlo</string>
     <string name="map_gpx_recorder_recordings_list">Lista de grabaciones</string>
     <string name="map_gpx_recorder_recordings_list_no_file_yet">¡Todavía no hay archivos GPX grabados!</string>
     <string name="map_gpx_recorder_recordings_list_load_gpx">Cargar GPX</string>
