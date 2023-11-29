@@ -91,7 +91,7 @@
     <string name="t93_finish_trial_button">Finalización del ensayo</string>
     <string name="t93_dmd2_edition_insert_key_title">Introducir clave de edición DMD2:</string>
     <!-- Download Manager -->
-    <string name="download_manager_active_download_short">DL: </string>
+    <string name="download_manager_active_download_short">Licencia de conducir: </string>
     <string name="download_manager_active_download_active">Activo</string>
     <string name="download_manager_active_download_paused">En pausa</string>
     <string name="download_manager_active_download_error">Error</string>
