@@ -108,7 +108,7 @@
     <string name="settings_localization_options">Lokalisering</string>
     <string name="settings_hour_format">Använd 24h format</string>
     <string name="settings_use_fahrenheit">Använd Fahrenheit istället för Celsius</string>
-    <string name="settings_use_imperial_units">Använd imperial måttenheter</string>
+    <string name="settings_use_imperial_units">Använd imperiala måttenheter</string>
     <string name="settings_interface_options">Gränssnittsalternativ</string>
     <string name="settings_theme_category">Tema</string>
     <string name="settings_color_theme">Färgtema (Mörk / Ljus):</string>
