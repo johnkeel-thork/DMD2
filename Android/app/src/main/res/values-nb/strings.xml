@@ -1,18 +1,5 @@
 <resources>
 
-    <!-- NOT TRANSLATED YET -->
-
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
-
-    <string name="remote_controller_category">Remote Controller Settings</string>
-    <string name="controller_selection">Select remote controller model</string>
-
-    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
-    <string name="download_manager_active_download_in_queue">In queue…</string>
-
-    <!-- END OF NOT TRANSLATED -->
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -114,6 +101,8 @@
     <string name="download_manager_active_download_interrupted_file">Avbrutt fil:</string>
     <string name="download_manager_active_download_no_net">Ingen til gang til Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Venter på tilgang til internett…</string>
+    <string name="download_manager_active_download_cannot_abort">Kan ikke avbryte pågående nedlasting, vennligst vent!</string>
+    <string name="download_manager_active_download_in_queue">I kø…</string>
     <string name="download_manager_active_download_downloading_no_progress">Laster ned, men kan ikke vise fremdrift</string>
     <!-- Settings -->
     <string name="settings_localization_options">Enheter</string>
@@ -139,6 +128,8 @@
         <item>Gul</item>
         <item>Rosa</item>
     </string-array>
+    <string name="remote_controller_category">Fjernkontrollinnstillinger</string>
+    <string name="controller_selection">Velg fjernkontroll</string>
     <string name="settings_screen_category">Skjerm</string>
     <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
     <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
@@ -939,7 +930,7 @@
     <string name="map_gpx_recorder_dialog_my_recordings">Turopptak</string>
     <string name="map_gpx_recorder_dialog_status">Opptaksstatus:</string>
     <string name="map_gpx_recorder_dialog_recording_distance">Avstand:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Punkjter:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punkter:</string>
     <string name="map_gpx_recorder_dialog_recording_tracks">Spor:</string>
     <string name="map_gpx_recorder_dialog_recording_waypoints">Kartnåler:</string>
     <string name="map_gpx_recorder_dialog_recording_start_time">Starttid:</string>
@@ -986,5 +977,7 @@
     <string name="map_gpx_recorder_waypoints_edit">Kartnålhåndtering</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Kartnålikon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen kartnåler sålangt!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Bekreft sletting</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på at du vil slette denne filen? Dette kan ikke angres!</string>
 
 </resources>
