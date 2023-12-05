@@ -1,5 +1,26 @@
 <resources>
 
+
+    <!-- New Untranslated -->
+
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+
+    <!-- End Of New Untranslated -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -80,7 +101,7 @@
     <string name="app_update_download_notification">Laster ned oppdatering</string>
     <string name="app_update_download_progress">Fremdrift:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">CARPE Controller App oppdatering</string>
+    <string name="controller_app_update_dialogue_title">Controller App oppdatering</string>
     <string name="controller_app_update_dialogue_message">Det finnes en oppdatering for controllerappen, vil du oppdatere nå? \n Nytt: </string>
     <string name="controller_app_update_download_notification">Laster ned oppdatering</string>
     <string name="controller_app_update_download_progress">Fremdrift:</string>
@@ -130,6 +151,29 @@
     </string-array>
     <string name="remote_controller_category">Fjernkontrollinnstillinger</string>
     <string name="controller_selection">Velg fjernkontroll</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
     <string name="settings_screen_category">Skjerm</string>
     <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
     <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
@@ -198,12 +242,6 @@
     <string name="settings_gps_settings_title">GPS Innstillinger</string>
     <string name="settings_bypass_acc_filter_title">Senk krav til GPS nøyaktighetsfilter</string>
     <string name="settings_bypass_acc_filter_message">For enheter med sub-optimal GPS kvalitet</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Innstillinger for enheter uten Google PlayStore</string>
-    <string name="settings_disable_controller_app_check_title">Deaktiver CARPE Controller App sjekk</string>
-    <string name="settings_disable_controller_app_check_message">Dette stopper overvåkning av controller-appen og vil ikke lengre spørre etter installasjon eller oppdatering.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller funnet!</string>
-    <string name="settings_controller_app_install_message">Det ser ut til at du bruker en CARPE Controller, vil du installere CARPE controller APP?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Lagring</string>
     <string name="map_storage_location_select_title">Lagring på SD-kort</string>
