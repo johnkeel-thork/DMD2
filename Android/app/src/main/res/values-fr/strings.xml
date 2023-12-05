@@ -2,6 +2,19 @@
 
     <!-- New Untranslated -->
 
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
     <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
     <string name="download_manager_active_download_in_queue">In queue…</string>
 
@@ -226,9 +239,9 @@
     <string name="app_update_download_notification">Téléchargement de la mise à jour DMD2</string>
     <string name="app_update_download_progress">Progression du téléchargement :</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">Mise à jour de l\'application de contrôle CARPE</string>
+    <string name="controller_app_update_dialogue_title">Mise à jour de l\'application de contrôle</string>
     <string name="controller_app_update_dialogue_message">Il y a une mise à jour disponible pour l\'application de contrôle, voulez-vous l\'appliquer maintenant ? \n Nouveauté(s):</string>
-    <string name="controller_app_update_download_notification">Téléchargement de la mise à jour CARPE</string>
+    <string name="controller_app_update_download_notification">Téléchargement de la mise à jour</string>
     <string name="controller_app_update_download_progress">Progression de la mise à jour :</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Essai Tripltek T93</string>
@@ -324,12 +337,6 @@
     <string name="settings_gps_settings_title">Paramètres GPS</string>
     <string name="settings_bypass_acc_filter_title">Filtre basse précision GPS</string>
     <string name="settings_bypass_acc_filter_message">Pour les appareils disposant d\'une qualité GPS sous-optimale</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Options pour les appreils hors Play Store</string>
-    <string name="settings_disable_controller_app_check_title">Désactiver la vérification de présence de l\'application CARPE Controller</string>
-    <string name="settings_disable_controller_app_check_message">Arrête la recherche de l\'application de contrôle et ne vous demandera plus de l\'installer ou la mettre à jour.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller détecté</string>
-    <string name="settings_controller_app_install_message">Il semblerait que vous utilisiez un contrôleur CARPE. Pour en profiter pleinement, l\'application CARPE controller est recommandée. Voulez-vous l\'installer maintenant ?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Stockage</string>
     <string name="map_storage_location_select_title">Définir la carte SD en tant que stockage</string>
