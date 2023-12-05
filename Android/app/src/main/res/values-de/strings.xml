@@ -2,8 +2,8 @@
 
     <!-- New Untranslated -->
 
-    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
-    <string name="download_manager_active_download_in_queue">In queue…</string>
+    <string name="download_manager_active_download_cannot_abort">Aktuelle Datei kann nicht abgebrochen werden, bitte warten!</string>
+    <string name="download_manager_active_download_in_queue">In der Warteschlange...</string>
 
     <!-- End Of New Untranslated -->
 
