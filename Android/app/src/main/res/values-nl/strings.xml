@@ -1,24 +1,4 @@
 <resources>
-
-    <!-- Not Translated -->
-
-    <string name="controller_dialog_title">Remote Controller App Install</string>
-    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
-    <string name="controller_dialog_download_title">Downloading Controller App</string>
-
-
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
-
-
-    <string name="roadbook_controller_switch_minus">Switch Minus</string>
-    <string name="roadbook_controller_switch_plus">Switch Plus</string>
-
-    <!-- End Of Not Translated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -217,6 +197,9 @@
     <string name="settings_bypass_acc_filter_message">Voor toestellen met minder optimale GPS kwaliteit</string>
     <string name="remote_controller_category">Instellingen Remote Controller</string>
     <string name="controller_selection">Selecteer remote controller model</string>
+    <string name="controller_dialog_title">Remote Controller App Installeren</string>
+    <string name="controller_dialog_message">Om optimaal gebruik te kunnen maken van de DMD-Remote Controller moet u het hulpprogramma installeren. Wil u het nu installeren?</string>
+    <string name="controller_dialog_download_title">Downloaden Controller App</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Opslag</string>
     <string name="map_storage_location_select_title">Zet opslag naar verwijderbare SD-card</string>
@@ -524,6 +507,11 @@
     <string name="roadbook_controller_enable_key_repeat_buttons_title">Activeer knop herhaling voor knoppen</string>
     <string name="roadbook_controller_enable_key_repeat_buttons_message">Wanneer geactiveerd zullen knop A en knop B herhaald worden wanneer ingedrukt gehouden.</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Blader papierrol 1 klik omlaag bij gedeeltelijke reset</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Schakel toetsherhaling in voor 2-wegschakelaar</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Indien ingeschakeld herhaalt de 2-wegschakelaar zich wanneer deze wordt vastgehouden.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Stel de herhaalsnelheid in voor de 2-wegschakelaar</string>
+    <string name="roadbook_controller_switch_minus">Schakel Min</string>
+    <string name="roadbook_controller_switch_plus">Schakel Plus</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Totale afstand</string>
     <string name="roadbook_totals_dialog_text">Selecteer een optie voor het Totale afstand instrument</string>
