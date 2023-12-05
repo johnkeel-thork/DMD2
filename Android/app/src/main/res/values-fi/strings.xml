@@ -1,18 +1,22 @@
 <resources>
 
 
-    <!-- New Untranslated -->
+    <!-- Not Translated -->
 
-    <string name="map_gpx_recorder_confirm_delete_title">Vahvista poisto</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Haluatko varmasti poistaa tämän tiedoston? Poistoa ei voi perua!</string>
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
 
-    <string name="remote_controller_category">Ohjaimen asetukset</string>
-    <string name="controller_selection">Valitse ohjaimen malli</string>
 
-    <string name="download_manager_active_download_cannot_abort">Ei voida keskeyttää tiedoston latausta, ole hyvä ja odota!</string>
-    <string name="download_manager_active_download_in_queue">Jonossa…</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
 
-    <!-- End Of New Untranslated -->
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+    <!-- End Of Not Translated -->
 
 
     <string name="app_name">DMD2</string>
@@ -94,9 +98,9 @@
     <string name="app_update_download_notification">Ladataan DMD2 päivitys</string>
     <string name="app_update_download_progress">Latauksen edistyminen:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">CARPE Controller päivitys saatavilla</string>
-    <string name="controller_app_update_dialogue_message">CAPRE Controller sovellukseen on saatavilla päivitys, haluatko päivittää nyt? \n Uutta:</string>
-    <string name="controller_app_update_download_notification">Ladataan CARPE Controller sovelluksen päivitys</string>
+    <string name="controller_app_update_dialogue_title">Controller päivitys saatavilla</string>
+    <string name="controller_app_update_dialogue_message">Controller sovellukseen on saatavilla päivitys, haluatko päivittää nyt? \n Uutta:</string>
+    <string name="controller_app_update_download_notification">Ladataan Controller sovelluksen päivitys</string>
     <string name="controller_app_update_download_progress">Latauksen edistyminen:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">DMD2 koekäyttö</string>
@@ -116,6 +120,8 @@
     <string name="download_manager_active_download_interrupted_file">Keskeytynyt tiedosto:</string>
     <string name="download_manager_active_download_no_net">Ei internet-yhteyttä!</string>
     <string name="download_manager_active_download_no_net_waiting">Odotetaan internet-yhteyttä…</string>
+    <string name="download_manager_active_download_cannot_abort">Ei voida keskeyttää tiedoston latausta, ole hyvä ja odota!</string>
+    <string name="download_manager_active_download_in_queue">Jonossa…</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Lokalisointivalinnat</string>
@@ -141,6 +147,8 @@
         <item>Keltainen</item>
         <item>Vaaleanpunainen</item>
     </string-array>
+    <string name="remote_controller_category">Ohjaimen asetukset</string>
+    <string name="controller_selection">Valitse ohjaimen malli</string>
     <string name="settings_screen_category">Näyttö</string>
     <string name="settings_screen_lock_rotation">Lukitse näytön asento</string>
     <string name="settings_screen_lock_rotation_summary">Estä näyttöä kääntymästä vahingossa ajon aikana</string>
@@ -209,12 +217,6 @@
     <string name="settings_gps_settings_title">GPS-asetukset</string>
     <string name="settings_bypass_acc_filter_title">Matalan GPS-tarkkuuden rajaus</string>
     <string name="settings_bypass_acc_filter_message">Heikomman GPS-tarkkuuden laitteille</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Valinnat laitteille ilman Play Kauppaa</string>
-    <string name="settings_disable_controller_app_check_title">Estä CARPE Controller -sovelluksen tarkistukset</string>
-    <string name="settings_disable_controller_app_check_message">Estää CARPE Controller -sovelluksen seurannan ja lakkaa pyytämästä asentamaan tai päivittämään sen.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller havaittu</string>
-    <string name="settings_controller_app_install_message">Vaikuttaa että käytät CARPE Controlleria. Saadaksesi siitä täyden hyödyn, sinun tulee asentaa CARPE Controller -sovellus. Haluatko asentaa sen nyt?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Talennustila</string>
     <string name="map_storage_location_select_title">Valitse tallennustilaksi muistikortti</string>
@@ -988,5 +990,7 @@
     <string name="map_gpx_recorder_waypoints_edit">Tallennin: Reittipisteiden editointi Editor</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Merkin kuvake:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ei reittipisteitä!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Vahvista poisto</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Haluatko varmasti poistaa tämän tiedoston? Poistoa ei voi perua!</string>
 
 </resources>
