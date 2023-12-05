@@ -2,8 +2,19 @@
 
     <!-- New Untranslated -->
 
-    <string name="download_manager_active_download_cannot_abort">Aktuelle Datei kann nicht abgebrochen werden, bitte warten!</string>
-    <string name="download_manager_active_download_in_queue">In der Warteschlange...</string>
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
 
     <!-- End Of New Untranslated -->
 
@@ -88,9 +99,9 @@
     <string name="app_update_download_notification">DMD2 Update herunterladen</string>
     <string name="app_update_download_progress">Fortschritt:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">CARPE Controller App Update</string>
-    <string name="controller_app_update_dialogue_message">Es ist ein Update für das CARPE Controller App verfügbar, jetzt aktualisieren? \n Neues:</string>
-    <string name="controller_app_update_download_notification">CARPE Update Herunterladen</string>
+    <string name="controller_app_update_dialogue_title">Controller App Update</string>
+    <string name="controller_app_update_dialogue_message">Es ist ein Update für das Controller App verfügbar, jetzt aktualisieren? \n Neues:</string>
+    <string name="controller_app_update_download_notification">Update Herunterladen</string>
     <string name="controller_app_update_download_progress">Fortschritt:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">DMD2 Trial Mode</string>
@@ -109,6 +120,8 @@
     <string name="download_manager_active_download_interrupted_file">Unterbrochene Datei:</string>
     <string name="download_manager_active_download_no_net">Kein Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
+    <string name="download_manager_active_download_cannot_abort">Aktuelle Datei kann nicht abgebrochen werden, bitte warten!</string>
+    <string name="download_manager_active_download_in_queue">In der Warteschlange…</string>
     <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
 
     <!-- Settings -->
@@ -205,12 +218,6 @@
     <string name="settings_gps_settings_title">GPS Einstellungen</string>
     <string name="settings_bypass_acc_filter_title">Filter für geringere GPS-Genauigkeit</string>
     <string name="settings_bypass_acc_filter_message">Für Geräte mit suboptimaler GPS-Qualität</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Optionen für Nicht-PlayStore-Geräte</string>
-    <string name="settings_disable_controller_app_check_title">CARPE Controller App Check deaktivieren</string>
-    <string name="settings_disable_controller_app_check_message">Beendet die Überwachung der Controller-App und fordert nicht mehr zur Installation oder Aktualisierung auf.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller gefunden</string>
-    <string name="settings_controller_app_install_message">Es scheint, dass Du einen Controller verwendest. Um alle Vorteile zu nutzen, sollte die Controller-App installiert werden. Diese jetzt installieren?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Speicher</string>
     <string name="map_storage_location_select_title">Speicher auf SD-Karte setzen</string>
