@@ -98,9 +98,9 @@
     <string name="app_update_download_notification">Laddar ner uppdatering för DMD2</string>
     <string name="app_update_download_progress">Status nedladdning:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">CARPE Controller App Uppdatering</string>
+    <string name="controller_app_update_dialogue_title">Controller App Uppdatering</string>
     <string name="controller_app_update_dialogue_message">Det finns en uppdatering för controller appen, vill du ladda ned nu? \n Nyheter:</string>
-    <string name="controller_app_update_download_notification">Laddar ned CARPE Uppdatering</string>
+    <string name="controller_app_update_download_notification">Laddar Uppdatering</string>
     <string name="controller_app_update_download_progress">Status nedladdning:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">DMD2 Testperiod</string>
