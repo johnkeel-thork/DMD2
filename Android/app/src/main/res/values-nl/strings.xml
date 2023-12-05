@@ -1,5 +1,24 @@
 <resources>
 
+    <!-- Not Translated -->
+
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+    <!-- End Of Not Translated -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -79,9 +98,9 @@
     <string name="app_update_download_notification">DMD2 Update aan het downloaden</string>
     <string name="app_update_download_progress">Download vooruitgang:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">CARPE Controller App Update</string>
+    <string name="controller_app_update_dialogue_title">Controller App Update</string>
     <string name="controller_app_update_dialogue_message">Er is een update beschikbaar voor de controller app, wil je nu updaten? \n Wat is er nieuw:</string>
-    <string name="controller_app_update_download_notification">CARPE Update aan het downloaden</string>
+    <string name="controller_app_update_download_notification">Update aan het downloaden</string>
     <string name="controller_app_update_download_progress">Download vooruitgang:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">Tripltek T93 Proefperiode</string>
@@ -196,12 +215,6 @@
     <string name="settings_gps_settings_title">GPS instellingen</string>
     <string name="settings_bypass_acc_filter_title">Verlaag GPS nauwkeurigheids filter</string>
     <string name="settings_bypass_acc_filter_message">Voor toestellen met minder optimale GPS kwaliteit</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Opties voor toestellen niet compatible met Play Store</string>
-    <string name="settings_disable_controller_app_check_title">Deactiveer CARPE Controller App Check</string>
-    <string name="settings_disable_controller_app_check_message">Zal de controller app niet meer monitoren en zal niet meer vragen om die te installeren of te updaten.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller gedetecteerd</string>
-    <string name="settings_controller_app_install_message">Het lijkt erop dat je een CARPE Controller gebruikt. Om volledig voordeel hieruit te halen, installeer je het best de controller app. Wil je die nu installeren?</string>
     <string name="remote_controller_category">Instellingen Remote Controller</string>
     <string name="controller_selection">Selecteer remote controller model</string>
     <!-- Storage -->
