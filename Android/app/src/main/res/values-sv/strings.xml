@@ -1,5 +1,24 @@
 <resources>
 
+    <!-- Not Translated -->
+
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+    <!-- End Of Not Translated -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -103,7 +122,7 @@
     <string name="download_manager_active_download_no_net_waiting">Väntar på internetanslutning…</string>
     <string name="download_manager_active_download_cannot_abort">Kan inte avbryta nuvarande fil, vänligen vänta!</string>
     <string name="download_manager_active_download_in_queue">På kö …</string>
-	
+
     <!-- Settings -->
     <string name="settings_localization_options">Lokalisering</string>
     <string name="settings_hour_format">Använd 24h format</string>
@@ -223,11 +242,6 @@
     <string name="settings_bypass_acc_filter_title">Filter För Sämre GPS-noggrannhet</string>
     <string name="settings_bypass_acc_filter_message">För enheter med lite sämre GPS-kvalitet</string>
     <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Val För Ej Play Store Enhet</string>
-    <string name="settings_disable_controller_app_check_title">Avaktivera Kontroll Av CARPE Controller App</string>
-    <string name="settings_disable_controller_app_check_message">Slutar övervaka kontrollerappen och kommer inte att fråga om att installera eller uppdatera längre.</string>
-    <string name="settings_controller_app_install_title">CARPE Controller Hittad</string>
-    <string name="settings_controller_app_install_message">Det verkar som att du använder en CARPE Controller. För att få full fördel av den bör du installera kontrollappen. Vill du installera den nu?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Lagring</string>
     <string name="map_storage_location_select_title">Sätt lagringen till ett borttagbart SD-kort</string>
