@@ -126,6 +126,35 @@
         <item>Żółty</item>
         <item>Różowy</item>
     </string-array>
+    <string name="remote_controller_category">Ustawienia Zdalnego Kontrolera</string>
+    <string name="controller_selection">Wybierz model pilota</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Automatyczne wykrywanie</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>Kontroler CARPE BMW</item>
+        <item>Generyczny 8 klawiszy</item>
+        <item>Generyczny 7 klawiszy</item>
+        <item>Generyczny 5 klawiszy</item>
+        <item>Generyczny 4 klawiszy</item>
+    </string-array>
+    <string name="controller_dialog_title">Zainstaluj aplikacje Zdalnego Kontrolera</string>
+    <string name="controller_dialog_message">Aby w pełni wykorzystać możliwości pilota DMD, musisz zainstalować dodatkową aplikację. Czy chcesz ją teraz zainstalować?</string>
+    <string name="controller_dialog_download_title">Pobieranie Aplikacji Kontrolera</string>
+
     <string name="settings_screen_category">Ekran</string>
     <string name="settings_screen_lock_rotation">Orientacja ekranu blokady</string>
     <string name="settings_screen_lock_rotation_summary">Zapobiegaj przypadkowym obróceniu ekranu podczas jazdy</string>
@@ -184,21 +213,15 @@
     <string name="settings_license_title">Specjalne klucze licencyjne</string>
     <string name="settings_dmd2_edition_redeem_title">Edycja próbna / DMD2</string>
     <string name="settings_dmd2_edition_redeem_message">Zarządzaj próbą lub wstaw klucz edycji DMD2</string>
-    <!--  Welcome Screen -->
+    <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Witamy w procesie DMD2</string>
     <string name="welcome_dmd2_message">DMD2 został zaprojektowany tak, aby przekształcić urządzenie w kompletną deskę rozdzielczą na motocykle i samochody, ze szczególnym naciskiem na przygodę i teren. Zawiera mapę nawigacji, roadbook, czujniki OBD2 i wiele więcej.</string>
     <string name="welcome_dmd2_lets_go">Początek</string>
-    <!--  GPS Settings -->
+    <!-- GPS Settings -->
     <string name="settings_gps_settings_title">Ustawienia GPS</string>
     <string name="settings_bypass_acc_filter_title">Niższy filtr dokładności GPS</string>
     <string name="settings_bypass_acc_filter_message">W przypadku urządzeń o nieoptymalnej jakości GPS</string>
-    <!--  Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Opcje urządzeń do sklepu bez odtwarzania</string>
-    <string name="settings_disable_controller_app_check_title">Wyłącz kontrolę aplikacji kontrolera Carpe</string>
-    <string name="settings_disable_controller_app_check_message">Zatrzyma monitorowanie aplikacji kontrolera i nie będzie już prosić o jej zainstalowanie ani aktualizację.</string>
-    <string name="settings_controller_app_install_title">Wykryto kontroler Carpe</string>
-    <string name="settings_controller_app_install_message">Wygląda na to, że używasz kontrolera Carpe. Aby w pełni z niego skorzystać, powinieneś zainstalować aplikację kontrolera. Chcesz go teraz zainstalować?</string>
-    <!--  Storage -->
+    <!-- Storage -->
     <string name="map_storage_location_cat_title">Składowanie</string>
     <string name="map_storage_location_select_title">Ustaw pamięć masową na wymienną kartę SD</string>
     <string name="map_storage_location_select_message">Dla plików mapy offline i plików użytkownika.</string>
@@ -208,11 +231,11 @@
     <string name="map_storage_sd_card_missing_switch_internal">Użyj pamięci wewnętrznej</string>
     <string name="map_storage_sd_card_mounting_title">Czekam na montaż kartę SD</string>
     <string name="map_storage_sd_card_mounting_message">Poczekaj, aż mocowanie karty SD skończy…</string>
-    <string name="map_storage_sd_card_mounting_button">Abort i przełącz na pamięć wewnętrzną</string>
+    <string name="map_storage_sd_card_mounting_button">Przerwij i przełącz na pamięć wewnętrzną</string>
     <string name="map_storage_sd_card_different_error_title">Inna karta SD!</string>
     <string name="map_storage_sd_card_different_error_message">Wygląda na to, że zastąpiłeś swoją kartę SD, czy chcesz użyć tej karty? Jeśli nie, wstaw właściwą kartę!</string>
     <string name="map_storage_sd_card_different_error_recheck">Przejrzyj ponownie</string>
-    <string name="map_storage_sd_card_different_error_recheck_fail">Karta SD wciąż nie znajduje się! Prosze Sprawdź ponownie!</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">Karta SD wciąż nieznalezione! Prosze Sprawdź ponownie!</string>
     <string name="map_storage_sd_card_move_map_files_title">Przenieś pliki mapy?</string>
     <string name="map_storage_sd_card_move_map_files_external">Czy chcesz przenieść pliki map z pamięci wewnętrznej na kartę SD? Ta operacja może się nie powieść, jeśli nie masz wystarczającej ilości miejsca!</string>
     <string name="map_storage_sd_card_move_map_files_internal">Czy chcesz przenieść pliki map z wymienowanej karty SD do pamięci wewnętrznej? Ta operacja może się nie powieść, jeśli nie masz wystarczającej ilości miejsca!</string>
@@ -438,7 +461,7 @@
     <string name="roadbook_settings_partial_single_decimal_summary">Pokaże częściową odległość z jednym miejscem dziesiętnym zamiast dwóch</string>
     <string name="roadbook_settings_visual_settings_cat_title">Ustawienia wizualne</string>
     <string name="roadbook_settings_invert_paper_color_title">Odwróć kolory PDF</string>
-    <string name="roadbook_settings_invert_paper_color_message">Odwraca kolor papieru, może być przydatny do jazdy w nocy.</string>
+    <string name="roadbook_settings_invert_paper_color_message">Odwróć kolor stronny, może być przydatny do jazdy w nocy.</string>
     <string name="roadbook_settings_locker_cat_title">Ustawienia blokady</string>
     <string name="roadbook_settings_locker_disable_paper_touch_title">Blokada wyłącza papierowy dotyk</string>
     <string name="roadbook_settings_locker_disable_paper_touch_message">Po włączeniu blokady każdy dotyk papieru jest ignorowany. Pomaga to zapobiec przypadkowym ruchom lub działaniom deszczu.</string>
@@ -473,18 +496,24 @@
         <item>Odtwórz/Wstrzymaj</item>
         <item>Nic nie rób</item>
     </string-array>
-    <string name="roadbook_controller_button_up">Klucz w górę</string>
-    <string name="roadbook_controller_button_down">Klucz w dół</string>
-    <string name="roadbook_controller_button_left">Lewy klucz</string>
-    <string name="roadbook_controller_button_right">Prawy klucz</string>
-    <string name="roadbook_controller_button_enter">Przycisk ENTER</string>
-    <string name="roadbook_controller_button_enter_long">Wprowadź klawisz długi naciśnij (tylko po zablokowaniu)</string>
-    <string name="roadbook_controller_button_right_long">Prawy klawisz Długie naciśnięcie</string>
-    <string name="roadbook_controller_button_left_long">Lewy klawisz długi naciśnij (tylko po zablokowaniu)</string>
-    <string name="roadbook_controller_button_zoomin">Przycisk A ( +)</string>
-    <string name="roadbook_controller_button_zoomout">Przycisk B ( -)</string>
-    <string name="roadbook_controller_scroll_amount_title">Kwota przewijania na kliknięcie</string>
-    <string name="roadbook_controller_scroll_amount_message">Dostosuj ilość ruchu do przewijania papieru w górę i w dół</string>
+    <string name="roadbook_controller_button_up">Przycisk strzałka w górę (↑)</string>
+    <string name="roadbook_controller_button_down">Przycisk strzałka w dół (↓)</string>
+    <string name="roadbook_controller_button_left">Przycisk strzałka w lewo (←)</string>
+    <string name="roadbook_controller_button_right">Przycisk strzałka w prawwo (→)</string>
+    <string name="roadbook_controller_button_enter">Przycisk (A) ENTER (↵)</string>
+    <string name="roadbook_controller_button_enter_long">Przycisk A (Enter) Długo przytrzymaj (tylko jeśli zablokowany)</string>
+    <string name="roadbook_controller_button_right_long">Długo trzymaj przycisk strzałka w Prawo</string>
+    <string name="roadbook_controller_button_left_long">Długo trzymaj przycisk strzałka w Lewo (tylko po zablokowaniu)</string>
+    <string name="roadbook_controller_button_zoomin">Przycisk A</string>
+    <string name="roadbook_controller_button_zoomout">Przycisk B (powrót)</string>
+    <string name="roadbook_controller_switch_minus">Przycisk Minus</string>
+    <string name="roadbook_controller_switch_plus">Przycisk Plus</string>
+    <string name="roadbook_controller_scroll_amount_title">Ilość przewinięć na kliknięcie</string>
+    <string name="roadbook_controller_scroll_amount_message">Dostosuj ilość ruchu do przewijania strony w górę i w dół</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Włącz powtarzanie klawiszy dla przełącznika 2-drożnego</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Po włączeniu przełącznik dwukierunkowy będzie powtarzał się po przytrzymaniu.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Ustawianie prędkości powtarzania dla przełącznika 2-drożnego</string>
+
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Włącz Klucz Powtórz na joystick</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Jeśli włączy klucze dla w górę, w dół, w lewo, prawe powtórzy się po trzymaniu.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Ustaw powtórz prędkość na joystick</string>
@@ -503,7 +532,7 @@
     </string-array>
     <string name="roadbook_controller_enable_key_repeat_buttons_title">Włącz klawisz powtórka przycisków</string>
     <string name="roadbook_controller_enable_key_repeat_buttons_message">Jeśli włączy się klucze dla przycisku A i przycisku B, powtórzą się po trzymaniu.</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Przewiń papier w dół jeden kliknij częściowo resetować</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Przewiń stronę w dół po kliknięciu częściowego resetu</string>
     <!--  Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Całkowity dystans</string>
     <string name="roadbook_totals_dialog_text">Wybierz opcję dla całkowitego instrumentu odległości</string>
@@ -963,7 +992,7 @@
     <string name="map_gpx_recorder_add_waypoint_tap_map_title">Stuknij na mapie do pozycji</string>
     <string name="map_gpx_recorder_add_waypoint_tap_map_message">Stuknij w nową lokalizację dla punktu WayPoint, a następnie kliknij przycisk Ustaw!</string>
     <string name="map_gpx_recorder_add_waypoint_tap_save">Ustawić pozycję</string>
-    <string name="map_gpx_recorder_tracks_edit">RECOLDER TRACKS EDYTOR</string>
+    <string name="map_gpx_recorder_tracks_edit">Edytor ścieżek rejestratora</string>
     <string name="map_gpx_recorder_tracks_edit_no_tracks">Nie ma jeszcze utworów!</string>
     <string name="map_gpx_recorder_track_edit_name">Nazwa ścieżki</string>
     <string name="map_gpx_recorder_track_edit_description">Opis ścieżki</string>
@@ -971,6 +1000,8 @@
     <string name="map_gpx_recorder_waypoints_edit">REDERFORTER EDYTOR</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Ikona pin:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nie ma jeszcze punktu!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Usuń potwierdzenie</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Czy na pewno chcesz usunąć ten plik? Tego działania nie można cofnąć!</string>
 
 
 </resources>
