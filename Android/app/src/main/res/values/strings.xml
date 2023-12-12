@@ -286,6 +286,9 @@
     <string name="home_widget_map_progress_title">PROGRESS</string>
     <string name="home_widget_map_progress_title_long">Map Progress Activity</string>
     <string name="home_widget_map_progress_description">Shows navigation instructions or GPX track progress depending on the active state between the two.</string>
+    <string name="home_widget_empty_title">EMPTY</string>
+    <string name="home_widget_empty_title_long">None - Remove Space</string>
+    <string name="home_widget_empty_description">Clear slot space to make grow layout vertically</string>
     <string name="home_widget_settings_dialog_title">Select Widget</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Left Panel</string>
@@ -867,6 +870,7 @@
     <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
     <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
     <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
+    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
     <string name="map_map_track_tap_track_details">Track Details</string>
