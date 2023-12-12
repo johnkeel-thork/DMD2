@@ -1,4 +1,16 @@
 <resources>
+
+    <!-- New Untranslated -->
+
+    <string name="home_widget_empty_title">EMPTY</string>
+    <string name="home_widget_empty_title_long">None - Remove Space</string>
+    <string name="home_widget_empty_description">Clear slot space to make grow layout vertically</string>
+
+    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+
+    <!-- End Of New Untranslated -->
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
