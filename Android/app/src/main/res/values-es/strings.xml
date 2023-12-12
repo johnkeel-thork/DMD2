@@ -1,5 +1,31 @@
 <resources>
 
+
+    <!-- Not Translated -->
+
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+    <string name="home_widget_empty_title">EMPTY</string>
+    <string name="home_widget_empty_title_long">None - Remove Space</string>
+    <string name="home_widget_empty_description">Clear slot space to make grow layout vertically</string>
+
+    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+
+    <!-- End Of Not Translated -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -133,7 +159,7 @@
     <string name="controller_selection">Seleccionar modelo de mando a distancia</string>
     <string-array name="controller_selection_names" translatable="true">
         <item>Detección automática</item>
-        <item>DMD Remote1</item>        
+        <item>DMD Remote1</item>
         <item>ARN Remote Pro</item>
         <item>SilverFox B8J</item>
         <item>Remotek One</item>
@@ -222,12 +248,6 @@
     <string name="settings_gps_settings_title">Ajustes GPS</string>
     <string name="settings_bypass_acc_filter_title">Filtro de precisión GPS inferior</string>
     <string name="settings_bypass_acc_filter_message">Para dispositivos con calidad GPS subóptima</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Opciones de dispositivos que no son de Play Store</string>
-    <string name="settings_disable_controller_app_check_title">Desactivar la comprobación de la aplicación CARPE CONTROLLER</string>
-    <string name="settings_disable_controller_app_check_message">Dejará de monitorear la aplicación del controlador y ya no le pedirá que la instale ni la actualice.</string>
-    <string name="settings_controller_app_install_title">Controlador CARPE DETECTADO</string>
-    <string name="settings_controller_app_install_message">Parece que está utilizando un controlador CARPE. Para aprovecharlo al máximo, debe instalar la aplicación del controlador. ¿Desea instalarla?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Almacenamiento</string>
     <string name="map_storage_location_select_title">Establecer almacenamiento en tarjeta SD extraíble</string>
@@ -247,7 +267,7 @@
     <string name="map_storage_sd_card_move_map_files_external">¿Desea mover los archivos de mapa de la memoria interna a la tarjeta SD? ¡Esta operación podría fallar si no tiene suficiente espacio!</string>
     <string name="map_storage_sd_card_move_map_files_internal">¿Desea mover los archivos de mapa de la tarjeta SD extraíble a la memoria interna? ¡Esta operación podría fallar si no tiene suficiente espacio!</string>
     <string name="map_storage_sd_card_move_map_files_wait">Moviendo archivos, ¡espere! ¡No cierre la aplicación ni se mueva a otra pantalla!</string>
-    
+
     <!-- Home
         Widget Types -->
     <string name="home_widget_trip_title">VIAJE</string>
@@ -454,7 +474,7 @@
     <string name="obd_license_title">Modo de demostración OBD2</string>
     <string name="obd_license_message">El modo demo está limitado a 15 minutos por sesión. ¡Compre el plugin OBD para desbloquearlo!</string>
     <string name="obd_buy_button">Comprar plugin</string>
-    
+
     <!-- Roadbook
         Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Ajustes de instrumentos</string>
@@ -612,7 +632,7 @@
     <string name="roadbook_purchase_key_activate_error_message">Código de licencia incorrecto o ya activado en otro dispositivo, comprueba las licencias en la página de tu cuenta de Thork Racing o ponte en contacto con el servicio de asistencia.</string>
     <string name="roadbook_purchase_key_activate_success_title">Licencia activada</string>
     <string name="roadbook_purchase_key_activate_success_message">Plugin está activo Gracias por su colaboración.</string>
-    
+
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">Aún no se han descargado mapas</string>
     <string name="map_first_run_download_maps_message">Aún no ha descargado ningún archivo de mapa. ¿Quiere lograrla? </string>
@@ -778,7 +798,7 @@
     <string name="gpx_manager_advanced_invert_orientation">Invertir dirección de viaje</string>
     <string name="gpx_manager_advanced_convert_to_route">Intento de convertir el archivo completo a navegación:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">¡Este archivo GPX no contiene ninguna pista!</string>
-    
+
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Mapear acciones de pulsación larga</string>
     <string name="map_long_press_point_no_info">¡No hay información para este punto!</string>
