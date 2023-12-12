@@ -169,7 +169,16 @@
     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
 
+    <string name="home_widget_empty_title">EMPTY</string>
+    <string name="home_widget_empty_title_long">None - Remove Space</string>
+    <string name="home_widget_empty_description">Clear slot space to make grow layout vertically</string>
+
+    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+
     <!-- End Of New Untranslated -->
+
+
+
 
     <string name="app_name">DMD2</string>
 
