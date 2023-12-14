@@ -1,16 +1,4 @@
 <resources>
-
-    <!-- New Untranslated -->
-
-    <string name="home_widget_empty_title">EMPTY</string>
-    <string name="home_widget_empty_title_long">None - Remove Space</string>
-    <string name="home_widget_empty_description">Clear slot space to make grow layout vertically</string>
-
-    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
-
-    <!-- End Of New Untranslated -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -274,6 +262,9 @@
     <string name="home_widget_map_progress_title_long">Kaart Nav vooruitgang</string>
     <string name="home_widget_map_progress_description">Toont navigatie instructies of GPX-track vooruitgang afhankelijk van de actieve status van beide.</string>
     <string name="home_widget_settings_dialog_title">Selecteer Widget</string>
+    <string name="home_widget_empty_title">VERWIJDER</string>
+    <string name="home_widget_empty_title_long">Niets - Verwijder gehele widget</string>
+    <string name="home_widget_empty_description">Maak ruimte vrij om extra hoogte in scherm te krijgen</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Linker Paneel</string>
     <string name="home_widget_editor_right_panel_title">Rechter Paneel</string>
@@ -854,6 +845,7 @@
     <string name="map_poi_not_a_valid_keyword">Geen geldige zoek-entry!</string>
     <string name="map_poi_no_valid_location_yet">Nog geen GPS-locatie! Probeer het later opnieuw.</string>
     <string name="map_poi_distance_long_press_no_fix">Afstand niet beschikbaar, nog geen GPX Fix.</string>
+    <string name="map_poi_show_pin_for_location">Laden van POI Zoeken voor PIN lokatie</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Track punt tikken</string>
     <string name="map_map_track_tap_track_details">Track details</string>
