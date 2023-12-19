@@ -824,6 +824,8 @@
     <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
     <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
     <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
     <string name="map_settings_language_cat_title">Map Language</string>
     <string name="map_settings_language_load_mode_title">Map Language</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -867,6 +869,10 @@
     <string name="map_poi_no_opening_hours">No opening hours available</string>
     <string name="map_poi_search_dialog_title">Search POI By Name</string>
     <string name="map_poi_search_button">Search</string>
+    <string name="map_poi_coordinates">Coordinates</string>
+    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
+    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
     <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
     <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
     <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
