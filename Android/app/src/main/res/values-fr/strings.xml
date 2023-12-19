@@ -2,6 +2,15 @@
 
     <!-- New Untranslated -->
 
+    <string name="map_poi_coordinates">Coordinates</string>
+    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
+    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
+
+    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
+    
+
     <string name="controller_dialog_title">Remote Controller App Install</string>
     <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
     <string name="controller_dialog_download_title">Downloading Controller App</string>
