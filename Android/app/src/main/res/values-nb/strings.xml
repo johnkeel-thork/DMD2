@@ -3,25 +3,14 @@
 
     <!-- New Untranslated -->
 
-    <string name="controller_dialog_title">installering av app for fjernkontroll</string>
-    <string name="controller_dialog_message">For å utnytte alle muligheter med DMD Fjernkontroll må du installere denne appen. Vil du installere nå?</string>
-    <string name="controller_dialog_download_title">Laster ned app</string>
+    <string name="map_poi_coordinates">Coordinates</string>
+    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
+    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
 
-
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivere gjentagelse for 2-veis bryter</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">Hvis denne er aktivert vil bryteren gjenta signalet såleng den holdes inntrykket.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Velg gjentagelseshastighet for 2-veis bryter</string>
-
-
-    <string name="roadbook_controller_switch_minus">Minus</string>
-    <string name="roadbook_controller_switch_plus">Pluss</string>
-
-    <string name="home_widget_empty_title">TOM</string>
-    <string name="home_widget_empty_title_long">Ingen funksjon - Frigi plassen</string>
-    <string name="home_widget_empty_description">Fjerner funksjonsområdet fra hjemskjermen og øker størrelsen på de andre funksjonsområdene</string>
-
-    <string name="map_poi_show_pin_for_location">Laster inn POI-søk for kartnålens plassering</string>
-
+    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
+    
 
     <!-- End Of New Untranslated -->
 
@@ -180,6 +169,9 @@
         <item>Generic 5 Keys</item>
         <item>Generic 4 Keys</item>
     </string-array>
+    <string name="controller_dialog_title">installering av app for fjernkontroll</string>
+    <string name="controller_dialog_message">For å utnytte alle muligheter med DMD Fjernkontroll må du installere denne appen. Vil du installere nå?</string>
+    <string name="controller_dialog_download_title">Laster ned app</string>
     <string name="settings_screen_category">Skjerm</string>
     <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
     <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
@@ -309,6 +301,9 @@
     <string name="home_widget_map_progress_title">Fremdrift</string>
     <string name="home_widget_map_progress_title_long">Navigasjonsfremdrift</string>
     <string name="home_widget_map_progress_description">Viser navigasjonsmeldinger eller fremdrift på GPX avhengig av hva som er aktivt i kartmodus.</string>
+    <string name="home_widget_empty_title">TOM</string>
+    <string name="home_widget_empty_title_long">Ingen funksjon - Frigi plassen</string>
+    <string name="home_widget_empty_description">Fjerner funksjonsområdet fra hjemskjermen og øker størrelsen på de andre funksjonsområdene</string>
     <string name="home_widget_settings_dialog_title">Velg Widget</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Venstre Panel</string>
@@ -541,10 +536,15 @@
     <string name="roadbook_controller_button_enter_long">Enter Langt trykk(Kun når låst/ingen gjentagelse)</string>
     <string name="roadbook_controller_button_right_long">Høyre pil - Trykk og hold</string>
     <string name="roadbook_controller_button_left_long">Venstre pil - Trykk og hold (Kun med skjermlås)</string>
-    <string name="roadbook_controller_button_zoomin">Knapp A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Knapp B ( - )</string>
+    <string name="roadbook_controller_button_zoomin">Knapp A</string>
+    <string name="roadbook_controller_button_zoomout">Knapp B</string>
+    <string name="roadbook_controller_switch_minus">Minus</string>
+    <string name="roadbook_controller_switch_plus">Pluss</string>
     <string name="roadbook_controller_scroll_amount_title">Rulling per trykk/klikk</string>
     <string name="roadbook_controller_scroll_amount_message">Juster hvor langt "rullen" beveger seg for hvert tastetrykk.</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivere gjentagelse for 2-veis bryter</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Hvis denne er aktivert vil bryteren gjenta signalet såleng den holdes inntrykket.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Velg gjentagelseshastighet for 2-veis bryter</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Aktiver gjentagelse for Joystick</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis aktivert vil Opp, Ned, Høyre og Venstre gjentas om knappen holdes inne.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Juster gjentagelseshastighet for Joystick</string>
@@ -884,6 +884,7 @@
     <string name="map_poi_not_a_valid_keyword">Ikke et brukbart søkebegrep!</string>
     <string name="map_poi_no_valid_location_yet">Mangler GPS! Prøv igjen senerer.</string>
     <string name="map_poi_distance_long_press_no_fix">Avstand utilgjnegelig, GPS-data mangler.</string>
+    <string name="map_poi_show_pin_for_location">Laster inn POI-søk for kartnålens plassering</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Trykk på sporpunkt</string>
     <string name="map_map_track_tap_track_details">Spordetaljer</string>
