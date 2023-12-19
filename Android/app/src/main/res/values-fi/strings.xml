@@ -3,24 +3,13 @@
 
     <!-- Not Translated -->
 
-    <string name="controller_dialog_title">Ohjaimen sovelluksen asennus</string>
-    <string name="controller_dialog_message">Saadaksesi täyden hyödyn ohjaimista sinun tulee asentaa ohjainten hallintasovellus. Haluatko asentaa sen nyt?</string>
-    <string name="controller_dialog_download_title">Ladataan ohjainsovellusta</string>
+    <string name="map_poi_coordinates">Coordinates</string>
+    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
+    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
 
-
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
-
-
-    <string name="roadbook_controller_switch_minus">Switch Minus</string>
-    <string name="roadbook_controller_switch_plus">Switch Plus</string>
-
-    <string name="home_widget_empty_title">TYHJÄ</string>
-    <string name="home_widget_empty_title_long">Ei mitään - vapauta tila</string>
-    <string name="home_widget_empty_description">Tyhjennä paikka ja vapauta tilaa muille widgeteille.</string>
-
-    <string name="map_poi_show_pin_for_location">Ladataan POI-hakua pisteen sijainnista</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
 
     <!-- End Of Not Translated -->
 
@@ -155,6 +144,32 @@
     </string-array>
     <string name="remote_controller_category">Ohjaimen asetukset</string>
     <string name="controller_selection">Valitse ohjaimen malli</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+    <string name="controller_dialog_title">Ohjaimen sovelluksen asennus</string>
+    <string name="controller_dialog_message">Saadaksesi täyden hyödyn ohjaimista sinun tulee asentaa ohjainten hallintasovellus. Haluatko asentaa sen nyt?</string>
+    <string name="controller_dialog_download_title">Ladataan ohjainsovellusta</string>
     <string name="settings_screen_category">Näyttö</string>
     <string name="settings_screen_lock_rotation">Lukitse näytön asento</string>
     <string name="settings_screen_lock_rotation_summary">Estä näyttöä kääntymästä vahingossa ajon aikana</string>
@@ -284,6 +299,9 @@
     <string name="home_widget_map_progress_title">EDISTYMINEN</string>
     <string name="home_widget_map_progress_title_long">Navigoinnin/Jäljen edistyminen</string>
     <string name="home_widget_map_progress_description">Näyttää navigointiohjeet tai edistymisen GPX-jäljellä sen mukaan kumpi näistä on aktiivinen.</string>
+    <string name="home_widget_empty_title">TYHJÄ</string>
+    <string name="home_widget_empty_title_long">Ei mitään - vapauta tila</string>
+    <string name="home_widget_empty_description">Tyhjennä paikka ja vapauta tilaa muille widgeteille.</string>
     <string name="home_widget_settings_dialog_title">Valitse widgetti</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Vasen paneeli</string>
@@ -506,10 +524,15 @@
     <string name="roadbook_controller_button_enter_long">Enter-painikkeen pitkä painallus (vain kun lukittu / ei toistoa)</string>
     <string name="roadbook_controller_button_right_long">Oikea-painikkeen pitkä painallus</string>
     <string name="roadbook_controller_button_left_long">Vasen-painikkeen pitkä painallus (vain kun lukittu)</string>
-    <string name="roadbook_controller_button_zoomin">Painike A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Painike B ( - )</string>
+    <string name="roadbook_controller_button_zoomin">Painike A</string>
+    <string name="roadbook_controller_button_zoomout">Painike B</string>
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
     <string name="roadbook_controller_scroll_amount_title">Rullan siirto per painallus</string>
     <string name="roadbook_controller_scroll_amount_message">Määritä kuinka paljon rullaa siirretään ylös- ja alas-painikkeiden painalluksella</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Salli painalluksen toisto Joystickille</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Jos sallittu, ylös/alas/vasen/oikea -painikkeet toistavat painalluksia painettaessa pitkään.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Aseta toiston nopeus Joystickille</string>
@@ -859,6 +882,7 @@
     <string name="map_poi_not_a_valid_keyword">Hakusana on virheellinen!</string>
     <string name="map_poi_no_valid_location_yet">Ei GPS-sijaintia! Yritä myöhemmin uudelleen.</string>
     <string name="map_poi_distance_long_press_no_fix">Etäisyys ei tiedossa, GPX-sijainti ei käytettävissä.</string>
+    <string name="map_poi_show_pin_for_location">Ladataan POI-hakua pisteen sijainnista</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Jälkipisteen kosketus</string>
     <string name="map_map_track_tap_track_details">Jäljen tiedot</string>
