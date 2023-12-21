@@ -1,5 +1,51 @@
 <resources>
 
+
+    <!-- Not Translated -->
+
+    <string name="controller_dialog_title">Remote Controller App Install</string>
+    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
+    <string name="controller_dialog_download_title">Downloading Controller App</string>
+
+
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+
+
+    <string name="roadbook_controller_switch_minus">Switch Minus</string>
+    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+
+    <string name="home_widget_empty_title">NENHUM</string>
+    <string name="home_widget_empty_title_long">Nenhum - Remover Espaço</string>
+    <string name="home_widget_empty_description">Retirar o espaço e aumento layout na vertical</string>
+
+    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+
+    <string name="map_poi_coordinates">Coordinates</string>
+    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
+    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
+
+    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
+
+    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
+    <string name="map_settings_follow_north_oriented">North Oriented</string>
+    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
+    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
+    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
+    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
+    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
+    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
+    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
+    
+
+    <!-- End Of Not Translated -->
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -79,7 +125,7 @@
     <string name="app_update_download_notification">A fazer download do update</string>
     <string name="app_update_download_progress">Progresso do Download:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">Update para a app do controlador CARPE</string>
+    <string name="controller_app_update_dialogue_title">Update para a app do controlador</string>
     <string name="controller_app_update_dialogue_message">Existe um update disponível, pretende actualizar agora? \n Novidades:</string>
     <string name="controller_app_update_download_notification">A fazer download do update</string>
     <string name="controller_app_update_download_progress">Progresso do Download:</string>
@@ -222,12 +268,6 @@
     <string name="settings_gps_settings_title">Configurações de GPS</string>
     <string name="settings_bypass_acc_filter_title">Reduzir Filtro de Precisão de GPS</string>
     <string name="settings_bypass_acc_filter_message">Para dispositivos com baixa precisão de GPS</string>
-    <!-- Device Specific -->
-    <string name="settings_non_play_store_devices_cat">Configurações para dispositivos sem Play Store</string>
-    <string name="settings_disable_controller_app_check_title">Desactivar verificação da app do comando CARPE</string>
-    <string name="settings_disable_controller_app_check_message">Não verifica mais se é necessário instalar ou actualizar a app do comando da CARPE.</string>
-    <string name="settings_controller_app_install_title">Detectado Comando CARPE</string>
-    <string name="settings_controller_app_install_message">Parece que está a utilizar um comando CARPE. Para tirar todo o partido deste comando deve instalar a app do fabricante. Pretende instalar agora?</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Armazenamento</string>
     <string name="map_storage_location_select_title">Usar cartão SD para o armazenamento</string>
@@ -507,12 +547,12 @@
     <string name="roadbook_controller_button_down">Down Key</string>
     <string name="roadbook_controller_button_left">Left Key</string>
     <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Enter Key</string>
+    <string name="roadbook_controller_button_enter">Button A</string>
     <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked)</string>
     <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
     <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
-    <string name="roadbook_controller_button_zoomin">Button A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Button B ( - )</string>
+    <string name="roadbook_controller_button_zoomin">Button A</string>
+    <string name="roadbook_controller_button_zoomout">Button B</string>
     <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
     <string name="roadbook_controller_scroll_amount_message">Adjust the amount of movement for the paper scroll up and down</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
