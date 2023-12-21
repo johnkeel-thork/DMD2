@@ -854,6 +854,17 @@
     <string name="map_settings_controller_cat_title">Controller Settings</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
+    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
+    <string name="map_settings_follow_north_oriented">North Oriented</string>
+    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
+    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
+    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
+    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
+    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
+    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
+    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Place Search</string>
     <string name="map_poi_search_call">Call</string>
