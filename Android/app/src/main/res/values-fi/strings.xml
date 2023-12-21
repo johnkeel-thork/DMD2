@@ -11,6 +11,18 @@
     <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
     <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
 
+    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
+    <string name="map_settings_follow_north_oriented">North Oriented</string>
+    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
+    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
+    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
+    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
+    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
+    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
+    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
+
     <!-- End Of Not Translated -->
 
 
