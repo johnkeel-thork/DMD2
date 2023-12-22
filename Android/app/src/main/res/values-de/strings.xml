@@ -18,7 +18,7 @@
 
     <string name="home_widget_empty_title">LEER</string>
     <string name="home_widget_empty_title_long">Keine - Leerraum entfernen</string>
-    <string name="home_widget_empty_description">Freiraum für vertikales Vergrösserung des Layouts</string>
+    <string name="home_widget_empty_description">Freiraum für vertikales vergrößern des Layouts</string>
 
     <string name="map_poi_show_pin_for_location">Laden der POI-Suche für PIN-Standort</string>
 
@@ -28,7 +28,7 @@
     <string name="map_poi_insert_coordinates_not_valid">Koordinaten ungültig!</string>
 
     <string name="map_settings_ui_hide_widget_labels_title">Verstecke Widget Titel</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Verstecke Widget Titel um Anzeige zu vergrössern</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Verstecke Widget Titel um Anzeige zu vergrößern</string>
 
     <string name="map_settings_follow_cat_title">Standort Verfolgungs Modi</string>
     <string name="map_settings_follow_north_oriented">Norden oben</string>
