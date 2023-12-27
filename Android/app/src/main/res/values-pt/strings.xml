@@ -41,7 +41,15 @@
     <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
     <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
     <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
-    
+
+
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">An editable odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer Options</string>
+    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
+    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
+
 
     <!-- End Of Not Translated -->
 
@@ -429,41 +437,41 @@
     <string name="obd_settings_use_alt_voltage_message">Em vez de obter voltagem pela centralina, lê directamente da alimentação do Dongle</string>
     <string name="obd_fuel_level_settings">Configuração de Nível de Combustivel</string>
     <string name="obd_fuel_level_calculated">Calcular o nível de combustivel</string>
-    <string name="obd_fuel_level_calculated_summary">If your level is not reported by the ECU you can let DMD2 calculate it based on average mileage per tank. To reset press the fuel icon when you fill up.</string>
-    <string name="obd_fuel_level_avg_mileage">Fuel Tank Average Mileage</string>
-    <string name="obd_fuel_level_avg_mileage_summary">What is your average mileage with a full tank</string>
-    <string name="obd_speed_rpm_cat_title">Speed and RPM Options</string>
-    <string name="obd_speed_gps_source_title">GPS Speed Value Source</string>
-    <string name="obd_speed_gps_source_summary">Use GPS instead of OBD Speed value (which might not be available)</string>
-    <string name="obd_max_rpm_title">Set Maximum RPM</string>
-    <string name="obd_max_rpm_summary">Set your vehicle maximum RPM value</string>
-    <string name="obd_redline_rpm_title">Set redline RPM</string>
-    <string name="obd_redline_rpm_summary">Set your redline RPM value</string>
-    <string name="obd_throttle_options">Throttle Options</string>
-    <string name="obd_use_raw_throttle_title">Use RAW Throttle Position value</string>
-    <string name="obd_use_raw_throttle_message">Use actual OBD2 raw value or calibrate minimum and maximum positions</string>
-    <string name="obd_calibrate_throttle_title">Calibrate Throttle Position</string>
-    <string name="obd_calibrate_throttle_message">This will start a dialog with instructions for throttle minimum/maximum position calibration. Requires the ECU to be ON and OBD dongle connected, the engine should be off. This will NOT change any value in your ECU!</string>
+    <string name="obd_fuel_level_calculated_summary">No caso de a centralina não reportar o nível de combustível é possível fazer um cálculo baseado na media e total do depósito.</string>
+    <string name="obd_fuel_level_avg_mileage">Distáncia com Tanque Cheio</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Qual a distância média que consegue fazer com um tanque cheio</string>
+    <string name="obd_speed_rpm_cat_title">Opções de Velocidade e Rotação</string>
+    <string name="obd_speed_gps_source_title">GPS como origem do valor da velocidade</string>
+    <string name="obd_speed_gps_source_summary">Usar GPS para o indicador de velocidade em vez de OBD</string>
+    <string name="obd_max_rpm_title">Definir Rotação Máxima</string>
+    <string name="obd_max_rpm_summary">Valor máximo do mostrador de rotação, deve definir de acordo com o limite máximo do seu motor</string>
+    <string name="obd_redline_rpm_title">Valor de Redline</string>
+    <string name="obd_redline_rpm_summary">Para definir a que rotação o mostrador de rotação alterna para as cores de redline</string>
+    <string name="obd_throttle_options">Opções de Acelerador</string>
+    <string name="obd_use_raw_throttle_title">Usar Posição de Acelerador sem Ajuste</string>
+    <string name="obd_use_raw_throttle_message">Usar o valor do acelerador reportado por OBD ou usar calibração do valor mínimo e máximo</string>
+    <string name="obd_calibrate_throttle_title">Calibrar Min. - Max. da Posição de Acelerador</string>
+    <string name="obd_calibrate_throttle_message">Esta opção inicia um dialogo que o vai guiar para calibrar os valores minimos e máximos do acelerador (apenas para a app e sem influencia na centralina).</string>
     <!-- Sensors-->
-    <string name="obd_sensors_coolant_short_label">COOLANT</string>
-    <string name="obd_sensors_coolant_long_label">Coolant Temperature</string>
-    <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
-    <string name="obd_sensors_voltage_long_label">Voltage</string>
-    <string name="obd_sensors_throttle_short_label">THROTTLE</string>
-    <string name="obd_sensors_throttle_long_label">Throttle Position</string>
-    <string name="obd_sensors_fuel_short_label">FUEL</string>
-    <string name="obd_sensors_fuel_long_label">Fuel Level</string>
-    <string name="obd_sensors_timing_short_label">SPARK</string>
-    <string name="obd_sensors_timing_long_label">Spark Advance</string>
+    <string name="obd_sensors_coolant_short_label">TEMPERATURA</string>
+    <string name="obd_sensors_coolant_long_label">Temperatura Liq. Refrigeração</string>
+    <string name="obd_sensors_voltage_short_label">VOLTAGEM</string>
+    <string name="obd_sensors_voltage_long_label">Voltagem</string>
+    <string name="obd_sensors_throttle_short_label">ACELERADOR</string>
+    <string name="obd_sensors_throttle_long_label">Posição do Acelerador</string>
+    <string name="obd_sensors_fuel_short_label">COMBUSTIVEL</string>
+    <string name="obd_sensors_fuel_long_label">Nível de Combustivel</string>
+    <string name="obd_sensors_timing_short_label">AVANÇO</string>
+    <string name="obd_sensors_timing_long_label">Avanço da Ignição</string>
     <string name="obd_sensors_intake_temp_short_label">IAT</string>
-    <string name="obd_sensors_intake_temp_long_label">Intake Temperature</string>
+    <string name="obd_sensors_intake_temp_long_label">Temperatura do Ar na Admissão</string>
     <string name="obd_sensors_intake_maf_short_label">MAF</string>
-    <string name="obd_sensors_intake_maf_long_label">Mass Air Flow</string>
+    <string name="obd_sensors_intake_maf_long_label">Medição Massa Ar na Admissão</string>
     <string name="obd_sensors_intake_map_short_label">MAP</string>
-    <string name="obd_sensors_intake_map_long_label">Mass Air Pressure</string>
+    <string name="obd_sensors_intake_map_long_label">Medição Pressão Ar na Admissão</string>
     <!-- Select Sensor Dialog-->
-    <string name="obd_sensors_select_dialog_title">Select OBD Sensor</string>
-    <string name="obd_sensors_select_dialog_message">Set a new OBD Sensor for this slot</string>
+    <string name="obd_sensors_select_dialog_title">Selectionar Sensor</string>
+    <string name="obd_sensors_select_dialog_message">Selecionar novo sensor para este slot</string>
     <!-- Throttle Calibration-->
     <string name="obd_min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
     <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
