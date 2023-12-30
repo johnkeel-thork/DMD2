@@ -2,45 +2,13 @@
 
     <!-- New Untranslated -->
 
-    <string name="controller_dialog_title">Installation Fernbedienungs App</string>
-    <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, müssen Sie die Utility App installieren. Jetzt installieren?</string>
-    <string name="controller_dialog_download_title">Lade Fernbedienungs App</string>
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">An editable odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer Options</string>
+    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
+    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
 
-
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivieren der Tastenwiederholung für 2-Wege-Schalter</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">Wenn diese Funktion aktiviert ist, werden Eigaben des Zwei-Wege-Schalters wiederholt, wenn er gehalten wird.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Wiederholrate für 2-Wege-Schalter einstellen</string>
-
-
-    <string name="roadbook_controller_switch_minus">Schalter Minus</string>
-    <string name="roadbook_controller_switch_plus">Schalter Plus</string>
-
-
-    <string name="home_widget_empty_title">LEER</string>
-    <string name="home_widget_empty_title_long">Keine - Leerraum entfernen</string>
-    <string name="home_widget_empty_description">Freiraum für vertikales vergrößern des Layouts</string>
-
-    <string name="map_poi_show_pin_for_location">Laden der POI-Suche für PIN-Standort</string>
-
-    <string name="map_poi_coordinates">Koordinaten</string>
-    <string name="map_poi_insert_coordinates">Koordinaten eingeben</string>
-    <string name="map_poi_insert_coordinates_example">Beispiel- (DD): 41.193376, -8.298463 oder (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Koordinaten ungültig!</string>
-
-    <string name="map_settings_ui_hide_widget_labels_title">Verstecke Widget Titel</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Verstecke Widget Titel um Anzeige zu vergrößern</string>
-
-    <string name="map_settings_follow_cat_title">Standort Verfolgungs Modi</string>
-    <string name="map_settings_follow_north_oriented">Norden oben</string>
-    <string name="map_settings_follow_north_oriented_summary">Folgt dem aktuellen Standort mit Kartennorden oben</string>
-    <string name="map_settings_follow_north_oriented_track">Norden oben - Zoom auf aktivem Track oder Navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Wie Norden oben mit Kartenausschnitt des aktiven Tracks oder Navigation</string>
-    <string name="map_settings_follow_north_oriented_file">Norden oben - Zoom auf aktives GPX oder Navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Wie Norden oben mit Kartenausschnitt der gesamten aktiven GPX Datei oder Navigation</string>
-    <string name="map_settings_follow_north_next_indication">Norden oben - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Wie Norden oben mit Kartenausschnitt des Standortes und des nächsten Wegpunktes oder Navi-Anweisung</string>
-    <string name="map_settings_follow_travel_oriented">Fahrtrichtungs-Orientierung</string>
-    <string name="map_settings_follow_travel_oriented_summary">Folgt dem Standort mit Kartendrehung, so dass die Oberseite der Fahrtrichtung entspricht</string>
 
     <!-- End Of New Untranslated -->
 
@@ -176,6 +144,32 @@
     </string-array>
     <string name="remote_controller_category">Fernbedienung Einstellungen</string>
     <string name="controller_selection">Fernbedienung auswählen</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+    <string name="controller_dialog_title">Installation Fernbedienungs App</string>
+    <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, müssen Sie die Utility App installieren. Jetzt installieren?</string>
+    <string name="controller_dialog_download_title">Lade Fernbedienungs App</string>
     <string name="settings_screen_category">Bildschirm</string>
     <string name="settings_screen_lock_rotation">Bildschirmausrichtung sperren</string>
     <string name="settings_screen_lock_rotation_summary">Verhindern, dass Ausrichtung sich während der Fahrt versehentlich verstellt</string>
@@ -305,6 +299,9 @@
     <string name="home_widget_map_progress_title">FORTSCHRITT</string>
     <string name="home_widget_map_progress_title_long">Kartennavigationsfortschritt</string>
     <string name="home_widget_map_progress_description">Zeigt die Navigationsanweisungen oder den GPX-Track-Fortschritt an, je nachdem, ob der Status der beiden aktiv ist oder nicht.</string>
+    <string name="home_widget_empty_title">LEER</string>
+    <string name="home_widget_empty_title_long">Keine - Leerraum entfernen</string>
+    <string name="home_widget_empty_description">Freiraum für vertikales Vergrösserung des Layouts</string>
     <string name="home_widget_settings_dialog_title">Wähle Widget</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Linkes Panel</string>
@@ -527,10 +524,15 @@
     <string name="roadbook_controller_button_enter_long">Enter lange drücken (nur wenn gesperrt / keine Wiederholung)</string>
     <string name="roadbook_controller_button_right_long">Knopf rechts lange halten</string>
     <string name="roadbook_controller_button_left_long">Knopf links lange halten (nur wenn gesperrt)</string>
-    <string name="roadbook_controller_button_zoomin">Knopf A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Knopf B ( - )</string>
+    <string name="roadbook_controller_button_zoomin">Knopf A</string>
+    <string name="roadbook_controller_button_zoomout">Knopf B</string>
+    <string name="roadbook_controller_switch_minus">Schalter Minus</string>
+    <string name="roadbook_controller_switch_plus">Schalter Plus</string>
     <string name="roadbook_controller_scroll_amount_title">Bildlaufbetrag pro Klick</string>
     <string name="roadbook_controller_scroll_amount_message">Einstellen der Bewegung des Papierlaufs nach oben und unten</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivieren der Tastenwiederholung für 2-Wege-Schalter</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Wenn diese Funktion aktiviert ist, werden Eigaben des Zwei-Wege-Schalters wiederholt, wenn er gehalten wird.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Wiederholrate für 2-Wege-Schalter einstellen</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Tastenwiederholung für Joystick aktivieren</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Wenn aktiviert, wiederholen sich die Tasten für Hoch, Runter, Links, Rechts, wenn sie gedrückt gehalten werden.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Wiederholgeschwindigkeit für Joystick</string>
@@ -834,6 +836,8 @@
     <string name="map_settings_ui_lock_on_move_message">Karten Bedienung wird automatisch gesperrt sowie Du fährst</string>
     <string name="map_settings_ui_unlock_on_stop_title">Auto entsperren bei Stillstand</string>
     <string name="map_settings_ui_unlock_on_stop_message">Karten Bedienung wird automatisch entsperrt bei Stillstand</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Verstecke Widget Titel</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Verstecke Widget Titel um Anzeige zu vergrössern</string>
     <string name="map_settings_language_cat_title">Kartensprache</string>
     <string name="map_settings_language_load_mode_title">Kartensprache</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -853,6 +857,18 @@
     <string name="map_settings_controller_cat_title">Controller Einstellungen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus</string>
+    <string name="map_settings_follow_cat_title">Standort Verfolgungs Modi</string>
+    <string name="map_settings_follow_north_oriented">Norden oben</string>
+    <string name="map_settings_follow_north_oriented_summary">Folgt dem aktuellen Standort mit Kartennorden oben</string>
+    <string name="map_settings_follow_north_oriented_track">Norden oben - Zoom auf aktivem Track oder Navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Wie Norden oben mit Kartenausschnitt des aktiven Tracks oder Navigation</string>
+    <string name="map_settings_follow_north_oriented_file">Norden oben - Zoom auf aktives GPX oder Navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Wie Norden oben mit Kartenausschnitt der gesamten aktiven GPX Datei oder Navigation</string>
+    <string name="map_settings_follow_north_next_indication">Norden oben - Next Waypoint / Indication</string>
+    <string name="map_settings_follow_north_next_indication_summary">Wie Norden oben mit Kartenausschnitt des Standortes und des nächsten Wegpunktes oder Navi-Anweisung</string>
+    <string name="map_settings_follow_travel_oriented">Fahrtrichtungs-Orientierung</string>
+    <string name="map_settings_follow_travel_oriented_summary">Folgt dem Standort mit Kartendrehung, so dass die Oberseite der Fahrtrichtung entspricht</string>
+
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Orte Suche</string>
     <string name="map_poi_search_call">Anrufen</string>
@@ -868,9 +884,14 @@
     <string name="map_poi_no_opening_hours">Keine Öffnungszeiten verfügbar</string>
     <string name="map_poi_search_dialog_title">Suche POI nach Name</string>
     <string name="map_poi_search_button">Suche</string>
+    <string name="map_poi_coordinates">Koordinaten</string>
+    <string name="map_poi_insert_coordinates">Koordinaten eingeben</string>
+    <string name="map_poi_insert_coordinates_example">Beispiel- (DD): 41.193376, -8.298463 oder (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Koordinaten ungültig!</string>
     <string name="map_poi_not_a_valid_keyword">Kein gültiger Suchbegriff!</string>
     <string name="map_poi_no_valid_location_yet">Noch kein GPS-Standort. Bitte später versuchen.</string>
     <string name="map_poi_distance_long_press_no_fix">Entfernung nicht verfügbar, noch kein GPS-Fix</string>
+    <string name="map_poi_show_pin_for_location">Laden der POI-Suche für PIN-Standort</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Trackpunkt antippen</string>
     <string name="map_map_track_tap_track_details">Track Details</string>

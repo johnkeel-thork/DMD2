@@ -23,6 +23,13 @@
     <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
     <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
 
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">An editable odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer Options</string>
+    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
+    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
+    
     <!-- End Of Not Translated -->
 
 

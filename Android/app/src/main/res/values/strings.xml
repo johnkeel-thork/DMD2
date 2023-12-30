@@ -270,6 +270,12 @@
     <string name="home_widget_speed_title">SPEED</string>
     <string name="home_widget_speed_title_long">GPS Speed</string>
     <string name="home_widget_speed_description">A big numeric speed value showing your current travel speed based on GPS data.</string>
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">An editable odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer Options</string>
+    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
+    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS &amp; OBD Indicators</string>
     <string name="home_widget_numeric_values_description">User selectable values from OBD sensors and GPS data.</string>
@@ -862,7 +868,7 @@
     <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
     <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
     <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
+    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding your location and the next Waypoint or Nav indication</string>
     <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
     <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
     <!-- Poi Search -->
