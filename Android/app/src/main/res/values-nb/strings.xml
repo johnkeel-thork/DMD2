@@ -3,32 +3,32 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_poi_coordinates">Coordinates</string>
-    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
-    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
+    <string name="map_poi_coordinates">Koordinater</string>
+    <string name="map_poi_insert_coordinates">Legg inn koordinater</string>
+    <string name="map_poi_insert_coordinates_example">Eksempel- (DD): 41.193376, -8.298463 eller (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Koordinatene er ikke korrekte!</string>
 
-    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Skjul tittel på programflis</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Skjuler titlene for å øke størrelsen på verdien som vises</string>
 
-    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
-    <string name="map_settings_follow_north_oriented">North Oriented</string>
-    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
-    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
-    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
-    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
-    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
-    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
+    <string name="map_settings_follow_cat_title">Innstillinger for posisjonsfølging</string>
+    <string name="map_settings_follow_north_oriented">Nord opp</string>
+    <string name="map_settings_follow_north_oriented_summary">Følger posisjon med kartet låst med Nord opp</string>
+    <string name="map_settings_follow_north_oriented_track">Nord opp - Zoom til aktiv spor eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Som Nord opp, men zoom til å vise aktivt spor eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_file">Nord opp - Zoom til aktiv GPX eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Som Nord opp, men zoom til hele GPX eller navigasjon</string>
+    <string name="map_settings_follow_north_next_indication">Nord opp - neste kartnål/veipunkt</string>
+    <string name="map_settings_follow_north_next_indication_summary">Som Nord opp, men zoom til egen posisjon og neste veipunkt/kartnål</string>
+    <string name="map_settings_follow_travel_oriented">Følg kjøreretning</string>
+    <string name="map_settings_follow_travel_oriented_summary">Følger egen posisjon med roterende kart slik at fartsretning blir opp</string>
 
-    <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">An editable odometer</string>
-    <string name="home_widget_odo_dialog_title">Odometer Options</string>
-    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
-    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
+    <string name="home_widget_odo_title">KM.STAND</string>
+    <string name="home_widget_odo_title_long">Kilometerstand</string>
+    <string name="home_widget_odo_description">Redigerbar kilometerstand</string>
+    <string name="home_widget_odo_dialog_title">Innstillinger for kilometerstand</string>
+    <string name="home_widget_odo_dialog_message">Nullstill eller endre kilometerstand</string>
+    <string name="home_widget_odo_dialog_edit_title">Endre kilometerstand</string>
 
     <!-- End Of New Untranslated -->
 

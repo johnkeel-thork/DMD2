@@ -1,38 +1,4 @@
 <resources>
-
-
-    <!-- New Untranslated -->
-
-    <string name="map_poi_coordinates">Coordinates</string>
-    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
-    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
-
-    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
-
-    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
-    <string name="map_settings_follow_north_oriented">North Oriented</string>
-    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
-    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
-    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
-    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
-    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
-    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
-
-    <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">An editable odometer</string>
-    <string name="home_widget_odo_dialog_title">Odometer Options</string>
-    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
-    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
-
-    <!-- End Of New Untranslated -->
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -311,6 +277,13 @@
     <string name="home_widget_trip_travel_time">Reistijd</string>
     <string name="home_widget_trip_stop_time">Stop tijd</string>
     <string name="home_widget_trip_avg_average">Gemiddelde snelheid</string>
+    <!-- Widget Odo -->
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">Een bewerkbare odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer Opties</string>
+    <string name="home_widget_odo_dialog_message">Reset de odometerwaarde of bewerk de huidige waarde</string>
+    <string name="home_widget_odo_dialog_edit_title">Bewerk Odometer waarde</string>
     <!-- Widget Info: GPS & OBD Sensor Selector -->
     <string name="widget_info_selector_dialog_title">Selecteer GPS/OBD Sensor</string>
     <string name="widget_info_gps_altitude_name">GPS hoogte</string>
@@ -833,6 +806,8 @@
     <string name="map_settings_ui_lock_on_move_message">Map vergrendeld UI automatisch wanneer je begint te bewegen</string>
     <string name="map_settings_ui_unlock_on_stop_title">Automatisch ontgrendelen wanneer gestopt</string>
     <string name="map_settings_ui_unlock_on_stop_message">Map ontgrendeld UI automatisch wanneer je stopt met bewegen</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Widgettitels verbergen</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Verbergt widgettitels om labelgrootte te vergroten</string>
     <string name="map_settings_language_cat_title">Kaart taal</string>
     <string name="map_settings_language_load_mode_title">Kaart taal</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -861,6 +836,17 @@
     <string name="map_settings_controller_cat_title">Controller instellingen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Uitschakelen Panning Mode Doel</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Uitschakelen spot acties nieuw Panning Mode Doel</string>
+    <string name="map_settings_follow_cat_title">Volg locatie modi</string>
+    <string name="map_settings_follow_north_oriented">Noord georienteerd</string>
+    <string name="map_settings_follow_north_oriented_summary">Volgt de locatie met de bovenkant van de kaart naar het noorden gericht</string>
+    <string name="map_settings_follow_north_oriented_track">Noord-georiënteerd - Zoom naar actievew track of navigatie</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Hetzelfde als Noord-georiënteerd, maar met zoombegrenzing naar actieve track of navigatie</string>
+    <string name="map_settings_follow_north_oriented_file">Noord-georiënteerd - Zoom naar actieve GPX of navigatie</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Hetzelfde als Noord-georiënteerd, maar met zoombegrenzing tot volledig actief GPX-bestand of navigatie</string>
+    <string name="map_settings_follow_north_next_indication">Noord-georiënteerd - Volgend waypoint / indicatie</string>
+    <string name="map_settings_follow_north_next_indication_summary">Hetzelfde als Noord-georiënteerd, maar met zoom die locatie en het volgende waypoint of navigatie-indicatie begrenst</string>
+    <string name="map_settings_follow_travel_oriented">Reis-georiënteerd</string>
+    <string name="map_settings_follow_travel_oriented_summary">Volgt de locatie met kaartrotatie, zodat de top overeenkomt met uw reisoriëntatie</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Plaats Zoeken</string>
     <string name="map_poi_search_call">Bellen</string>
@@ -880,6 +866,10 @@
     <string name="map_poi_no_valid_location_yet">Nog geen GPS-locatie! Probeer het later opnieuw.</string>
     <string name="map_poi_distance_long_press_no_fix">Afstand niet beschikbaar, nog geen GPX Fix.</string>
     <string name="map_poi_show_pin_for_location">Laden van POI Zoeken voor PIN lokatie</string>
+    <string name="map_poi_coordinates">Coordinaten</string>
+    <string name="map_poi_insert_coordinates">Coordinaten invoegen</string>
+    <string name="map_poi_insert_coordinates_example">Voorbeeld (DD): 41.193376, -8.298463 of (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Coördinaten zijn niet geldig!</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Track punt tikken</string>
     <string name="map_map_track_tap_track_details">Track details</string>
