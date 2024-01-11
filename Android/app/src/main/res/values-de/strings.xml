@@ -2,12 +2,12 @@
 
     <!-- New Untranslated -->
 
-    <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">An editable odometer</string>
-    <string name="home_widget_odo_dialog_title">Odometer Options</string>
-    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
-    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
+    <string name="home_widget_odo_title">km-Zähler</string>
+    <string name="home_widget_odo_title_long">km-Zähler</string>
+    <string name="home_widget_odo_description">Ein editierbarer km-Zähler</string>
+    <string name="home_widget_odo_dialog_title">km-Zähler Optionen</string>
+    <string name="home_widget_odo_dialog_message">km-Zähler Wert editieren oder zurückstellen</string>
+    <string name="home_widget_odo_dialog_edit_title">km-Zähler editieren</string>
 
 
     <!-- End Of New Untranslated -->
@@ -855,17 +855,17 @@
     <string name="map_settings_navigation_show_waypoints_message">Zeigt Wegpunkt-Pins mit den Anweisungen auf der Karte an.</string>
     <string name="map_settings_navigation_recalculation_distance">Entfernung für automatische Routen-Neuberechnung</string>
     <string name="map_settings_controller_cat_title">Controller Einstellungen</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Deaktiviere Schwenken-Modus Zielpunkt</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus</string>
     <string name="map_settings_follow_cat_title">Standort Verfolgungs Modi</string>
     <string name="map_settings_follow_north_oriented">Norden oben</string>
     <string name="map_settings_follow_north_oriented_summary">Folgt dem aktuellen Standort mit Kartennorden oben</string>
     <string name="map_settings_follow_north_oriented_track">Norden oben - Zoom auf aktivem Track oder Navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Wie Norden oben mit Kartenausschnitt des aktiven Tracks oder Navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Norden oben mit Kartenausschnitt des aktiven Tracks oder Navigation</string>
     <string name="map_settings_follow_north_oriented_file">Norden oben - Zoom auf aktives GPX oder Navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Wie Norden oben mit Kartenausschnitt der gesamten aktiven GPX Datei oder Navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Norden oben mit Kartenausschnitt der gesamten aktiven GPX Datei oder Navigation</string>
     <string name="map_settings_follow_north_next_indication">Norden oben - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Wie Norden oben mit Kartenausschnitt des Standortes und des nächsten Wegpunktes oder Navi-Anweisung</string>
+    <string name="map_settings_follow_north_next_indication_summary">Norden oben mit Kartenausschnitt des Standortes und des nächsten Wegpunktes oder Navi-Anweisung</string>
     <string name="map_settings_follow_travel_oriented">Fahrtrichtungs-Orientierung</string>
     <string name="map_settings_follow_travel_oriented_summary">Folgt dem Standort mit Kartendrehung, so dass die Oberseite der Fahrtrichtung entspricht</string>
 
