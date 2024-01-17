@@ -73,6 +73,17 @@
     <string name="error_file_new_name_title">Rename File</string>
     <string name="share_file_with">Share File With</string>
     <string name="connect_to_internet">Please make sure you are connected to the internet!</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS Fall Alert Received!</string>
+    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
+    <string name="fall_alert_show_on_map">View &amp; Help</string>
+    <string name="fall_alert_ignore">Ignore</string>
+    <string name="fall_alert_open_sms">Open SMS</string>
+    <string name="fall_alert_mode_on">SOS Mode!</string>
+    <string name="fall_alert_center_map">Center Map</string>
+    <string name="fall_alert_share">Share Location</string>
+    <string name="fall_alert_finish">Finish SOS</string>
+    <string name="fall_alert_navigate">Navigate To</string>
     <!-- App Update -->
     <string name="app_update_title">DMD2 Update Available</string>
     <string name="app_update_message">There is an update available for DMD2, do you want to update now? \n Whats New:</string>
@@ -726,6 +737,9 @@
     <string name="map_layers_routing_transparency_line">Line Opacity</string>
     <string name="map_layers_routing_pins_size">Indications Size</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_load_error_title">GPX Load Error</string>
+    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Load File</string>
     <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
@@ -863,11 +877,11 @@
     <string name="map_settings_follow_cat_title">Follow Location Modes</string>
     <string name="map_settings_follow_north_oriented">North Oriented</string>
     <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
-    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
+    <string name="map_settings_follow_north_oriented_track">North Oriented "T"- Zoom to Active Track or Navigation</string>
     <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
-    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
+    <string name="map_settings_follow_north_oriented_file">North Oriented "F"- Zoom to Active GPX or Navigation</string>
     <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
-    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
+    <string name="map_settings_follow_north_next_indication">North Oriented "N"- Next Waypoint / Indication</string>
     <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding your location and the next Waypoint or Nav indication</string>
     <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
     <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
