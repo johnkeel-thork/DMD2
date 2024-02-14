@@ -1029,7 +1029,6 @@
     <string name="map_route_planner_empty">Geen actieve track of route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online adres zoeken</string>
-    <string name="map_place_search_button_label">Adres ingeven</string>
     <string name="map_place_search_dialog_type_label">Geef een naam of adres:</string>
     <string name="map_place_search_distance">Afstand in rechte lijn:</string>
     <string name="map_place_search_instructions">Typ minstens 3 letters op resultaten te zien</string>
