@@ -73,6 +73,9 @@
     <string name="error_file_new_name_title">Rename File</string>
     <string name="share_file_with">Share File With</string>
     <string name="connect_to_internet">Please make sure you are connected to the internet!</string>
+    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
+    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
+    <string name="exit_confirm_dialog_send_to_background">Background</string>
     <!-- Fall Alerts -->
     <string name="fall_alert_title">SOS Fall Alert Received!</string>
     <string name="fall_alert_message">You have received a fall alert! Full message:</string>
@@ -167,7 +170,9 @@
     <string name="controller_dialog_title">Remote Controller App Install</string>
     <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
     <string name="controller_dialog_download_title">Downloading Controller App</string>
-
+    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
     <string name="settings_screen_category">Screen</string>
     <string name="settings_screen_lock_rotation">Lock screen orientation</string>
     <string name="settings_screen_lock_rotation_summary">Prevent screen from accidentally rotating while driving</string>
@@ -326,6 +331,8 @@
     <string name="widget_info_gps_heading_name">GPS Heading</string>
     <string name="widget_info_clock_name">Time</string>
     <string name="widget_info_gps_heading_label">Heading</string>
+    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
+    <string name="widget_info_gps_cardinal_label">Compass</string>
     <string name="widget_info_gps_speed_name">GPS Speed</string>
     <string name="widget_info_gps_speed_label">Speed</string>
     <string name="widget_info_gps_trip_max_speed_name">Trip Max Speed</string>
@@ -399,6 +406,8 @@
     <string name="obd_protocols_title">OBD Protocol</string>
     <string name="obd_reader_config_title">Reader Config Commands</string>
     <string name="obd_reader_config_summary">Commands to configure bluetooth reader, separate with a new line</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
     <string name="obd_select_device_title">Choose Paired OBD Device</string>
     <string name="obd_bluetooth_list_devices_summary">Select from paired bluetooth devices. Make sure dongle is paired first!</string>
     <string name="obd_bluetooth_list_devices_title">Select ELM327 Bluetooth Device</string>
@@ -537,7 +546,6 @@
     <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
     <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
     <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
-
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when held.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Set Repeat Speed for Joystick</string>
@@ -739,7 +747,6 @@
     <!--GPX Manager-->
     <string name="gpx_manager_load_error_title">GPX Load Error</string>
     <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
-
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Load File</string>
     <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
@@ -838,6 +845,11 @@
     <string name="map_settings_ui_cat_title">Interface Options</string>
     <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
     <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
+
+    <string name="map_settings_ui_enable_street_name">Show street name</string>
+    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
+    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+
     <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
     <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
@@ -906,8 +918,32 @@
     <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
     <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
     <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
-    <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
+    <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPS Fix yet.</string>
     <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+    <string name="map_poi_search_name">Search Name</string>
+    <string name="map_poi_cat_fuel">Gas Station</string>
+    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Shop &amp; Market</string>
+    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
+    <string name="map_poi_cat_car_repair">Car Repair</string>
+    <string name="map_poi_cat_parking">Parking Place</string>
+    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
+    <string name="map_poi_cat_money">Bank &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Recreation</string>
+    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_cat_hospital">Hospital</string>
+    <string name="map_poi_cat_pharmacy">Pharmacy</string>
+    <string name="map_poi_cat_tourism">Tourism</string>
+    <string name="map_poi_cat_historic">Historic Places</string>
+    <string name="map_poi_cat_pub_transport">Public Transports</string>
+    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
+    <string name="map_poi_cat_pub_government">Government</string>
+    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
+    <string name="map_poi_cat_pub_communications">Communications</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
     <string name="map_map_track_tap_track_details">Track Details</string>
@@ -989,8 +1025,8 @@
     <string name="map_route_planner_empty">No active track or route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Address Search</string>
-    <string name="map_place_search_button_label">Type Address</string>
-    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
+    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_dialog_type_label">Type to search a name or address:</string>
     <string name="map_place_search_distance">Straight Line Distance:</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
     <!-- GPX Recorder -->
@@ -1047,6 +1083,15 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
     <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
-
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">My Places</string>
+    <string name="location_manager_save_location_button">Save Location</string>
+    <string name="location_manager_save_location_name">Location Name</string>
+    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
+    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
+    <string name="location_manager_save_location_no_description">No description</string>
+    <string name="location_manager_save_location_saved">Location Saved!</string>
+    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
+    <string name="location_manager_save_new">Add New</string>
 
 </resources>
