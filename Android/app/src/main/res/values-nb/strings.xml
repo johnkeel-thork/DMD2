@@ -3,32 +3,76 @@
 
     <!-- New Untranslated -->
 
-    <string name="map_poi_coordinates">Koordinater</string>
-    <string name="map_poi_insert_coordinates">Legg inn koordinater</string>
-    <string name="map_poi_insert_coordinates_example">Eksempel- (DD): 41.193376, -8.298463 eller (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Koordinatene er ikke korrekte!</string>
+    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
+    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
+    <string name="exit_confirm_dialog_send_to_background">Background</string>
 
-    <string name="map_settings_ui_hide_widget_labels_title">Skjul tittel på programflis</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Skjuler titlene for å øke størrelsen på verdien som vises</string>
+    <string name="fall_alert_title">SOS Fall Alert Received!</string>
+    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
+    <string name="fall_alert_show_on_map">View &amp; Help</string>
+    <string name="fall_alert_ignore">Ignore</string>
+    <string name="fall_alert_open_sms">Open SMS</string>
+    <string name="fall_alert_mode_on">SOS Mode!</string>
+    <string name="fall_alert_center_map">Center Map</string>
+    <string name="fall_alert_share">Share Location</string>
+    <string name="fall_alert_finish">Finish SOS</string>
+    <string name="fall_alert_navigate">Navigate To</string>
 
-    <string name="map_settings_follow_cat_title">Innstillinger for posisjonsfølging</string>
-    <string name="map_settings_follow_north_oriented">Nord opp</string>
-    <string name="map_settings_follow_north_oriented_summary">Følger posisjon med kartet låst med Nord opp</string>
-    <string name="map_settings_follow_north_oriented_track">Nord opp - Zoom til aktiv spor eller navigasjon</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Som Nord opp, men zoom til å vise aktivt spor eller navigasjon</string>
-    <string name="map_settings_follow_north_oriented_file">Nord opp - Zoom til aktiv GPX eller navigasjon</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Som Nord opp, men zoom til hele GPX eller navigasjon</string>
-    <string name="map_settings_follow_north_next_indication">Nord opp - neste kartnål/veipunkt</string>
-    <string name="map_settings_follow_north_next_indication_summary">Som Nord opp, men zoom til egen posisjon og neste veipunkt/kartnål</string>
-    <string name="map_settings_follow_travel_oriented">Følg kjøreretning</string>
-    <string name="map_settings_follow_travel_oriented_summary">Følger egen posisjon med roterende kart slik at fartsretning blir opp</string>
+    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
 
-    <string name="home_widget_odo_title">KM.STAND</string>
-    <string name="home_widget_odo_title_long">Kilometerstand</string>
-    <string name="home_widget_odo_description">Redigerbar kilometerstand</string>
-    <string name="home_widget_odo_dialog_title">Innstillinger for kilometerstand</string>
-    <string name="home_widget_odo_dialog_message">Nullstill eller endre kilometerstand</string>
-    <string name="home_widget_odo_dialog_edit_title">Endre kilometerstand</string>
+    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
+    <string name="widget_info_gps_cardinal_label">Compass</string>
+
+    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+
+    <string name="gpx_manager_load_error_title">GPX Load Error</string>
+    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+
+    <string name="map_settings_ui_enable_street_name">Show street name</string>
+    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
+    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+
+    <string name="map_poi_search_name">Search Name</string>
+    <string name="map_poi_cat_fuel">Gas Station</string>
+    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Shop &amp; Market</string>
+    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
+    <string name="map_poi_cat_car_repair">Car Repair</string>
+    <string name="map_poi_cat_parking">Parking Place</string>
+    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
+    <string name="map_poi_cat_money">Bank &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Recreation</string>
+    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_cat_hospital">Hospital</string>
+    <string name="map_poi_cat_pharmacy">Pharmacy</string>
+    <string name="map_poi_cat_tourism">Tourism</string>
+    <string name="map_poi_cat_historic">Historic Places</string>
+    <string name="map_poi_cat_pub_transport">Public Transports</string>
+    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
+    <string name="map_poi_cat_pub_government">Government</string>
+    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
+    <string name="map_poi_cat_pub_communications">Communications</string>
+
+    <string name="map_place_search_cat_name">Online Address</string>
+
+
+    <string name="location_manager_my_locations_cat">My Places</string>
+    <string name="location_manager_save_location_button">Save Location</string>
+    <string name="location_manager_save_location_name">Location Name</string>
+    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
+    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
+    <string name="location_manager_save_location_no_description">No description</string>
+    <string name="location_manager_save_location_saved">Location Saved!</string>
+    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
+    <string name="location_manager_save_new">Add New</string>
+
 
     <!-- End Of New Untranslated -->
 
@@ -303,6 +347,12 @@
     <string name="home_widget_speed_title">Hastighet</string>
     <string name="home_widget_speed_title_long">Hastighet fra GPS</string>
     <string name="home_widget_speed_description">Stort felt med aktuell hastighet fra GPS.</string>
+    <string name="home_widget_odo_title">KM.STAND</string>
+    <string name="home_widget_odo_title_long">Kilometerstand</string>
+    <string name="home_widget_odo_description">Redigerbar kilometerstand</string>
+    <string name="home_widget_odo_dialog_title">Innstillinger for kilometerstand</string>
+    <string name="home_widget_odo_dialog_message">Nullstill eller endre kilometerstand</string>
+    <string name="home_widget_odo_dialog_edit_title">Endre kilometerstand</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS &amp; OBD data</string>
     <string name="home_widget_numeric_values_description">Tilgjengelige verdier fra OBD og GPS.</string>
@@ -858,6 +908,8 @@
     <string name="map_settings_ui_lock_on_move_message">Kartvisning vil automatisk låse grensesnittet når du begynner å kjøre</string>
     <string name="map_settings_ui_unlock_on_stop_title">Automatisk opplåsing ved stans</string>
     <string name="map_settings_ui_unlock_on_stop_message">Kartvisning vil automatisk låse opp grensesnittet når du stanser</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Skjul tittel på programflis</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Skjuler titlene for å øke størrelsen på verdien som vises</string>
     <string name="map_settings_language_cat_title">Kartspråk</string>
     <string name="map_settings_language_load_mode_title">Kartspråk</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -884,6 +936,17 @@
     <string name="map_settings_controller_cat_title">Innstillinger for fjernkontroller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiver kartpanoreringsmodus</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer den nye valgmuligheten for kartpanoreringsmodus</string>
+    <string name="map_settings_follow_cat_title">Innstillinger for posisjonsfølging</string>
+    <string name="map_settings_follow_north_oriented">Nord opp</string>
+    <string name="map_settings_follow_north_oriented_summary">Følger posisjon med kartet låst med Nord opp</string>
+    <string name="map_settings_follow_north_oriented_track">Nord opp - Zoom til aktiv spor eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Som Nord opp, men zoom til å vise aktivt spor eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_file">Nord opp - Zoom til aktiv GPX eller navigasjon</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Som Nord opp, men zoom til hele GPX eller navigasjon</string>
+    <string name="map_settings_follow_north_next_indication">Nord opp - neste kartnål/veipunkt</string>
+    <string name="map_settings_follow_north_next_indication_summary">Som Nord opp, men zoom til egen posisjon og neste veipunkt/kartnål</string>
+    <string name="map_settings_follow_travel_oriented">Følg kjøreretning</string>
+    <string name="map_settings_follow_travel_oriented_summary">Følger egen posisjon med roterende kart slik at fartsretning blir opp</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Stedssøk</string>
     <string name="map_poi_search_call">Ring</string>
@@ -899,6 +962,10 @@
     <string name="map_poi_no_opening_hours">Åpningstider er ukjent</string>
     <string name="map_poi_search_dialog_title">POI-søk etter navn</string>
     <string name="map_poi_search_button">Søk</string>
+    <string name="map_poi_coordinates">Koordinater</string>
+    <string name="map_poi_insert_coordinates">Legg inn koordinater</string>
+    <string name="map_poi_insert_coordinates_example">Eksempel- (DD): 41.193376, -8.298463 eller (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Koordinatene er ikke korrekte!</string>
     <string name="map_poi_not_a_valid_keyword">Ikke et brukbart søkebegrep!</string>
     <string name="map_poi_no_valid_location_yet">Mangler GPS! Prøv igjen senerer.</string>
     <string name="map_poi_distance_long_press_no_fix">Avstand utilgjnegelig, GPS-data mangler.</string>
@@ -984,7 +1051,6 @@
     <string name="map_route_planner_empty">Ingen aktive spor eller ruter!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online-søk på adresse</string>
-    <string name="map_place_search_button_label">Skriv adresse</string>
     <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
     <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
     <string name="map_place_search_distance">Avstand i luftlinje:</string>
