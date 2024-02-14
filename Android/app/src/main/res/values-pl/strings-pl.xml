@@ -3,6 +3,76 @@
 
     <!-- New Untranslated -->
 
+    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
+    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
+    <string name="exit_confirm_dialog_send_to_background">Background</string>
+
+    <string name="fall_alert_title">SOS Fall Alert Received!</string>
+    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
+    <string name="fall_alert_show_on_map">View &amp; Help</string>
+    <string name="fall_alert_ignore">Ignore</string>
+    <string name="fall_alert_open_sms">Open SMS</string>
+    <string name="fall_alert_mode_on">SOS Mode!</string>
+    <string name="fall_alert_center_map">Center Map</string>
+    <string name="fall_alert_share">Share Location</string>
+    <string name="fall_alert_finish">Finish SOS</string>
+    <string name="fall_alert_navigate">Navigate To</string>
+
+    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+
+    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
+    <string name="widget_info_gps_cardinal_label">Compass</string>
+
+    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+
+    <string name="gpx_manager_load_error_title">GPX Load Error</string>
+    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+
+    <string name="map_settings_ui_enable_street_name">Show street name</string>
+    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
+    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+
+    <string name="map_poi_search_name">Search Name</string>
+    <string name="map_poi_cat_fuel">Gas Station</string>
+    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Shop &amp; Market</string>
+    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
+    <string name="map_poi_cat_car_repair">Car Repair</string>
+    <string name="map_poi_cat_parking">Parking Place</string>
+    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
+    <string name="map_poi_cat_money">Bank &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Recreation</string>
+    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_cat_hospital">Hospital</string>
+    <string name="map_poi_cat_pharmacy">Pharmacy</string>
+    <string name="map_poi_cat_tourism">Tourism</string>
+    <string name="map_poi_cat_historic">Historic Places</string>
+    <string name="map_poi_cat_pub_transport">Public Transports</string>
+    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
+    <string name="map_poi_cat_pub_government">Government</string>
+    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
+    <string name="map_poi_cat_pub_communications">Communications</string>
+
+    <string name="map_place_search_cat_name">Online Address</string>
+
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">My Places</string>
+    <string name="location_manager_save_location_button">Save Location</string>
+    <string name="location_manager_save_location_name">Location Name</string>
+    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
+    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
+    <string name="location_manager_save_location_no_description">No description</string>
+    <string name="location_manager_save_location_saved">Location Saved!</string>
+    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
+    <string name="location_manager_save_new">Add New</string>
+
     <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
