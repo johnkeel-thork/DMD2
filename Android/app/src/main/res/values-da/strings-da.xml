@@ -3,52 +3,76 @@
 
     <!-- New Untranslated -->
 
-    <string name="download_manager_active_download_cannot_abort">Kan ikke afbryde aktuel fil, vent venligst!</string>
-    <string name="download_manager_active_download_in_queue">I kø...</string>
+    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
+    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
+    <string name="exit_confirm_dialog_send_to_background">Background</string>
 
-    <string name="controller_dialog_title">Installation af fjernbetjeningsapp</string>
-    <string name="controller_dialog_message">For at udnytte DMD Remote Controller fuldt ud skal du installere hjælpeprogrammet. Ønsker du at installere det nu?</string>
-    <string name="controller_dialog_download_title">Downloader fjernbetjeningsapp</string>
+    <string name="fall_alert_title">SOS Fall Alert Received!</string>
+    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
+    <string name="fall_alert_show_on_map">View &amp; Help</string>
+    <string name="fall_alert_ignore">Ignore</string>
+    <string name="fall_alert_open_sms">Open SMS</string>
+    <string name="fall_alert_mode_on">SOS Mode!</string>
+    <string name="fall_alert_center_map">Center Map</string>
+    <string name="fall_alert_share">Share Location</string>
+    <string name="fall_alert_finish">Finish SOS</string>
+    <string name="fall_alert_navigate">Navigate To</string>
 
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivér gentagelse af nøgle for 2-vejs kontakt</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">Hvis det er aktiveret, vil tovejskontakten gentage, når den holdes nede.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Indstil gentagelseshastighed for 2-vejs kontakt</string>
+    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
 
-    <string name="roadbook_controller_switch_minus">Skift Minus</string>
-    <string name="roadbook_controller_switch_plus">Skift Plus</string>
+    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
+    <string name="widget_info_gps_cardinal_label">Compass</string>
 
-    <string name="home_widget_empty_title">TOM</string>
-    <string name="home_widget_empty_title_long">Ingen - Fjern plads</string>
-    <string name="home_widget_empty_description">Ryd plads for at øge layoutets højde lodret</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
 
-    <string name="map_poi_show_pin_for_location">Indlæser POI-søgning for PIN-placering</string>
+    <string name="gpx_manager_load_error_title">GPX Load Error</string>
+    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
 
-    <string name="map_poi_coordinates">Koordinater</string>
-    <string name="map_poi_insert_coordinates">Indsæt koordinater</string>
-    <string name="map_poi_insert_coordinates_example">Eksempel- (DD): 41.193376, -8.298463 eller (DMS): 41°11'36.2"N, 8°17'54.5"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Koordinater er ikke gyldige!</string>
+    <string name="map_settings_ui_enable_street_name">Show street name</string>
+    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
+    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
 
-    <string name="map_settings_ui_hide_widget_labels_title">Skjul widgettitler</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Skjuler widgettitler for at øge værdi-etikettens størrelse</string>
-    
-    <string name="map_settings_follow_cat_title">Følg placering tilstand</string>
-    <string name="map_settings_follow_north_oriented">Nordorienteret</string>
-    <string name="map_settings_follow_north_oriented_summary">Følger placering med kortets top fastsat mod nord</string>
-    <string name="map_settings_follow_north_oriented_track">Nordorienteret - Zoom til aktiv spor eller navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Samme som nordorienteret, men med zoombegrænsning til aktivt spor eller navigation</string>
-    <string name="map_settings_follow_north_oriented_file">Nordorienteret - Zoom til aktiv GPX eller navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Samme som nordorienteret, men med zoombegrænsning til fuld aktiv GPX-fil eller navigation</string>
-    <string name="map_settings_follow_north_next_indication">Nordorienteret - Næste waypoint/indikation</string>
-    <string name="map_settings_follow_north_next_indication_summary">Samme som nordorienteret, men med zoombegrænsning til din placering og næste waypoint eller Nav-indikation</string>
-    <string name="map_settings_follow_travel_oriented">Rejseorienteret</string>
-    <string name="map_settings_follow_travel_oriented_summary">Følger placering med kortrotation, så toppen matcher din rejseretning</string>
+    <string name="map_poi_search_name">Search Name</string>
+    <string name="map_poi_cat_fuel">Gas Station</string>
+    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Shop &amp; Market</string>
+    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
+    <string name="map_poi_cat_car_repair">Car Repair</string>
+    <string name="map_poi_cat_parking">Parking Place</string>
+    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
+    <string name="map_poi_cat_money">Bank &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Recreation</string>
+    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_cat_hospital">Hospital</string>
+    <string name="map_poi_cat_pharmacy">Pharmacy</string>
+    <string name="map_poi_cat_tourism">Tourism</string>
+    <string name="map_poi_cat_historic">Historic Places</string>
+    <string name="map_poi_cat_pub_transport">Public Transports</string>
+    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
+    <string name="map_poi_cat_pub_government">Government</string>
+    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
+    <string name="map_poi_cat_pub_communications">Communications</string>
 
-    <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">Et redigerbart odometer</string>
-    <string name="home_widget_odo_dialog_title">Indstillinger for odometer</string>
-    <string name="home_widget_odo_dialog_message">Nulstil odometer-værdien eller rediger den aktuelle værdi</string>
-    <string name="home_widget_odo_dialog_edit_title">Rediger odometerværdi</string>
+    <string name="map_place_search_cat_name">Online Address</string>
+
+    <string name="location_manager_my_locations_cat">My Places</string>
+    <string name="location_manager_save_location_button">Save Location</string>
+    <string name="location_manager_save_location_name">Location Name</string>
+    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
+    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
+    <string name="location_manager_save_location_no_description">No description</string>
+    <string name="location_manager_save_location_saved">Location Saved!</string>
+    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
+    <string name="location_manager_save_new">Add New</string>
+
+
 
     <!-- End Of New Untranslated -->
 
@@ -155,6 +179,8 @@
     <string name="download_manager_active_download_interrupted_file">Afbrudt fil:</string>
     <string name="download_manager_active_download_no_net">Ingen internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Venter på internetforbindelse…</string>
+    <string name="download_manager_active_download_cannot_abort">Kan ikke afbryde aktuel fil, vent venligst!</string>
+    <string name="download_manager_active_download_in_queue">I kø…</string>
 
     <!-- Settings -->
     <string name="settings_localization_options">Lokalisering</string>
@@ -182,6 +208,33 @@
     </string-array>
     <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
     <string name="controller_selection">Vælg remote controller model</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+    <string name="controller_dialog_title">Installation af fjernbetjeningsapp</string>
+    <string name="controller_dialog_message">For at udnytte DMD Remote Controller fuldt ud skal du installere hjælpeprogrammet. Ønsker du at installere det nu?</string>
+    <string name="controller_dialog_download_title">Downloader fjernbetjeningsapp</string>
+
     <string name="settings_screen_category">Skærm</string>
     <string name="settings_screen_lock_rotation">Lås skærmens orientering</string>
     <string name="settings_screen_lock_rotation_summary">Forhindrer, at skærmen roterer utilsigtet under kørsel</string>
@@ -295,6 +348,12 @@
     <string name="home_widget_speed_title">HASTIGHED</string>
     <string name="home_widget_speed_title_long">GPS Hastighed</string>
     <string name="home_widget_speed_description">En stor numerisk hastighedsværdi, der viser din nuværende rejsehastighed baseret på GPS-data.</string>
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">Et redigerbart odometer</string>
+    <string name="home_widget_odo_dialog_title">Indstillinger for odometer</string>
+    <string name="home_widget_odo_dialog_message">Nulstil odometer-værdien eller rediger den aktuelle værdi</string>
+    <string name="home_widget_odo_dialog_edit_title">Rediger odometerværdi</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS- og OBD-indikatorer</string>
     <string name="home_widget_numeric_values_description">Bruger valgbare værdier fra OBD-sensorer og GPS-data.</string>
@@ -311,6 +370,9 @@
     <string name="home_widget_map_progress_title">FREMSKRIDT</string>
     <string name="home_widget_map_progress_title_long">Kortnavigationens fremskridt</string>
     <string name="home_widget_map_progress_description">Viser navigationsinstruktioner eller GPX-sporfremskridt afhængigt af den aktive tilstand mellem de to.</string>
+    <string name="home_widget_empty_title">TOM</string>
+    <string name="home_widget_empty_title_long">Ingen - Fjern plads</string>
+    <string name="home_widget_empty_description">Ryd plads for at øge layoutets højde lodret</string>
     <string name="home_widget_settings_dialog_title">Vælg Widget</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Venstre Panel</string>
@@ -535,8 +597,13 @@
     <string name="roadbook_controller_button_left_long">Venstre tast langt tryk (kun når låst op)</string>
     <string name="roadbook_controller_button_zoomin">Knap A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Knap B ( - )</string>
+    <string name="roadbook_controller_switch_minus">Skift Minus</string>
+    <string name="roadbook_controller_switch_plus">Skift Plus</string>
     <string name="roadbook_controller_scroll_amount_title">Rullemængde pr. klik</string>
     <string name="roadbook_controller_scroll_amount_message">Juster mængden af bevægelse for papirrul op og ned</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Aktivér gentagelse af nøgle for 2-vejs kontakt</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Hvis det er aktiveret, vil tovejskontakten gentage, når den holdes nede.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Indstil gentagelseshastighed for 2-vejs kontakt</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Aktivér gentagelse af taster for joystick</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Hvis aktiveret gentages tasterne til op, ned, venstre og højre, når de holdes nede.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Indstil gentagelseshastighed for joystick</string>
@@ -840,6 +907,8 @@
     <string name="map_settings_ui_lock_on_move_message">Kortet låser automatisk brugergrænsefladen, når du begynder at bevæge dig.</string>
     <string name="map_settings_ui_unlock_on_stop_title">Auto-lås op ved stop</string>
     <string name="map_settings_ui_unlock_on_stop_message">Kortet låser automatisk brugergrænsefladen op, når du stopper bevægelsen.</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Skjul widgettitler</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Skjuler widgettitler for at øge værdi-etikettens størrelse</string>
     <string name="map_settings_language_cat_title">Kortsprog</string>
     <string name="map_settings_language_load_mode_title">Kortsprog</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -868,6 +937,18 @@
     <string name="map_settings_controller_cat_title">Controller Indstillinger</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktivér mål for panoreringstilstand</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiverer de nye målfunktionshandlinger for panoreringstilstand</string>
+    <string name="map_settings_follow_cat_title">Følg placering tilstand</string>
+    <string name="map_settings_follow_north_oriented">Nordorienteret</string>
+    <string name="map_settings_follow_north_oriented_summary">Følger placering med kortets top fastsat mod nord</string>
+    <string name="map_settings_follow_north_oriented_track">Nordorienteret - Zoom til aktiv spor eller navigation</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Samme som nordorienteret, men med zoombegrænsning til aktivt spor eller navigation</string>
+    <string name="map_settings_follow_north_oriented_file">Nordorienteret - Zoom til aktiv GPX eller navigation</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Samme som nordorienteret, men med zoombegrænsning til fuld aktiv GPX-fil eller navigation</string>
+    <string name="map_settings_follow_north_next_indication">Nordorienteret - Næste waypoint/indikation</string>
+    <string name="map_settings_follow_north_next_indication_summary">Samme som nordorienteret, men med zoombegrænsning til din placering og næste waypoint eller Nav-indikation</string>
+    <string name="map_settings_follow_travel_oriented">Rejseorienteret</string>
+    <string name="map_settings_follow_travel_oriented_summary">Følger placering med kortrotation, så toppen matcher din rejseretning</string>
+
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Kort søgning</string>
     <string name="map_poi_search_call">Opkald</string>
@@ -883,9 +964,14 @@
     <string name="map_poi_no_opening_hours">Ingen åbningstider tilgængelige</string>
     <string name="map_poi_search_dialog_title">Find POI efter navn</string>
     <string name="map_poi_search_button">Søg</string>
+    <string name="map_poi_coordinates">Koordinater</string>
+    <string name="map_poi_insert_coordinates">Indsæt koordinater</string>
+    <string name="map_poi_insert_coordinates_example">Eksempel- (DD): 41.193376, -8.298463 eller (DMS): 41°11\'36.2"N, 8°17\'54.5"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Koordinater er ikke gyldige!</string>
     <string name="map_poi_not_a_valid_keyword">Ikke en gyldig søgeindtastning!</string>
     <string name="map_poi_no_valid_location_yet">Ingen GPS-placering endnu! Prøv igen senere.</string>
     <string name="map_poi_distance_long_press_no_fix">Afstand ikke tilgængelig, ingen GPX-fix endnu.</string>
+    <string name="map_poi_show_pin_for_location">Indlæser POI-søgning for PIN-placering</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Trackpunkt Tryk</string>
     <string name="map_map_track_tap_track_details">Trackdetaljer</string>
@@ -967,7 +1053,6 @@
     <string name="map_route_planner_empty">Ingen aktiv spor eller rute!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressesøgning</string>
-    <string name="map_place_search_button_label">Indtast Adresse</string>
     <string name="map_place_search_dialog_type_label">Indtast et navn eller en adresse:</string>
     <string name="map_place_search_distance">Linjeafstand:</string>
     <string name="map_place_search_instructions">Indtast mindst tre bogstaver for at se resultater</string>
