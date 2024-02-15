@@ -1,83 +1,5 @@
 <resources>
 
-
-    <!-- New Untranslated -->
-
-    <string name="exit_confirm_dialog">Vil du lukke DMD2 eller sette programmet i bakgrunnen?</string>
-    <string name="exit_confirm_dialog_message">Hvis du lukker DMD2 vil tripteller og GPX-opptak stanses!</string>
-    <string name="exit_confirm_dialog_send_to_background">Bakgrunn</string>
-
-    <string name="fall_alert_title">SOS Ulykkesalarm mottatt!</string>
-    <string name="fall_alert_message">Du har mottatt melding om en ulykke! Melding følger:</string>
-    <string name="fall_alert_show_on_map">Vis &amp; Hjelp</string>
-    <string name="fall_alert_ignore">Ignorer</string>
-    <string name="fall_alert_open_sms">Åpne SMS</string>
-    <string name="fall_alert_mode_on">SOS Modus!</string>
-    <string name="fall_alert_center_map">Midtstill kart</string>
-    <string name="fall_alert_share">Del posisjon</string>
-    <string name="fall_alert_finish">Avslutt SOS</string>
-    <string name="fall_alert_navigate">Naviger til</string>
-
-    <string name="settings_dmd_devices_category">Instillinger kun for DMD-T enheter</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">La GPS være på selv om skjemren skrues av</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">Hvis aktivert vil Trip og GPS-relaterte prosesser som GPX-opptak fortsette å kjøre selv om skjermen skrues av. Dette vil tappe batteriet raskere!</string>
-
-    <string name="widget_info_gps_cardinal_name">Cardinal Kompass</string>
-    <string name="widget_info_gps_cardinal_label">Kompass</string>
-
-    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Henter verdir fra WunderLINQ API istedet for OBD2</string>
-
-    <string name="gpx_manager_load_error_title">GPX innlastingsfeil</string>
-    <string name="gpx_manager_load_error_message">Feil oppstod ved innlasting av GPX-fil. DMD2 vil ikke forsøke å laste den inn på nytt. Vennligst prøv en annen fil.</string>
-
-    <string name="map_settings_ui_enable_street_name">Vis gatenavn</string>
-    <string name="map_settings_ui_enable_street_name_summary">Viser aktuelt gatenavn nederst på kartet</string>
-    <string name="reverse_geo_unnamed_road">Vei uten navn!</string>
-
-    <string name="map_poi_search_name">Navnesøk</string>
-    <string name="map_poi_cat_fuel">Drivstoff</string>
-    <string name="map_poi_cat_accommodation">Overnatting</string>
-    <string name="map_poi_cat_restaurants">Restaurant</string>
-    <string name="map_poi_cat_cafe">Kafé, Pub &amp; Bar</string>
-    <string name="map_poi_cat_shop">Butikk &amp; Marked</string>
-    <string name="map_poi_cat_moto_repair">Motorsykkelverksted</string>
-    <string name="map_poi_cat_car_repair">Bilverksted</string>
-    <string name="map_poi_cat_parking">Parkeringsplass</string>
-    <string name="map_poi_cat_rental">Utleie, Vask &amp; Lading</string>
-    <string name="map_poi_cat_money">Bank &amp; Minibank</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Vann</string>
-    <string name="map_poi_cat_camping">Camping &amp; Bobil</string>
-    <string name="map_poi_cat_recreation">Friområde</string>
-    <string name="map_poi_cat_natural_places">Naturopplevlser</string>
-    <string name="map_poi_cat_hospital">Sykehus</string>
-    <string name="map_poi_cat_pharmacy">Apotek</string>
-    <string name="map_poi_cat_tourism">Turisme</string>
-    <string name="map_poi_cat_historic">Historiske steder</string>
-    <string name="map_poi_cat_pub_transport">Offentlig kommunikasjon</string>
-    <string name="map_poi_cat_pub_entertainment">Underholdning</string>
-    <string name="map_poi_cat_pub_government">Offentlig administrasjon</string>
-    <string name="map_poi_cat_pub_cities">Byer, Tettsteder &amp; Landsbyer</string>
-    <string name="map_poi_cat_pub_communications">Kommunikasjon</string>
-
-    <string name="map_place_search_cat_name">Online Adressesøk</string>
-
-
-    <string name="location_manager_my_locations_cat">Mine steder</string>
-    <string name="location_manager_save_location_button">Lagre posisjon</string>
-    <string name="location_manager_save_location_name">Stedsnavn</string>
-    <string name="location_manager_save_location_dialog_title">Lagre til mine steder</string>
-    <string name="location_manager_save_location_unnamed">Sted uten navn</string>
-    <string name="location_manager_save_location_no_description">Ingen beskrivelse!</string>
-    <string name="location_manager_save_location_saved">Posisjon lagret!</string>
-    <string name="location_manager_save_keep_on_map">Behold synlig på kartet</string>
-    <string name="location_manager_save_new">Legg til ny</string>
-
-
-    <!-- End Of New Untranslated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -152,6 +74,20 @@
     <string name="error_file_new_name_title">Gi filen nytt navn</string>
     <string name="share_file_with">Del filen med</string>
     <string name="connect_to_internet">Sjekk at du er koblet til internet!</string>
+    <string name="exit_confirm_dialog">Vil du lukke DMD2 eller sette programmet i bakgrunnen?</string>
+    <string name="exit_confirm_dialog_message">Hvis du lukker DMD2 vil tripteller og GPX-opptak stanses!</string>
+    <string name="exit_confirm_dialog_send_to_background">Bakgrunn</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS Ulykkesalarm mottatt!</string>
+    <string name="fall_alert_message">Du har mottatt melding om en ulykke! Melding følger:</string>
+    <string name="fall_alert_show_on_map">Vis &amp; Hjelp</string>
+    <string name="fall_alert_ignore">Ignorer</string>
+    <string name="fall_alert_open_sms">Åpne SMS</string>
+    <string name="fall_alert_mode_on">SOS Modus!</string>
+    <string name="fall_alert_center_map">Midtstill kart</string>
+    <string name="fall_alert_share">Del posisjon</string>
+    <string name="fall_alert_finish">Avslutt SOS</string>
+    <string name="fall_alert_navigate">Naviger til</string>
     <!-- App Update -->
     <string name="app_update_title">DMD2 Oppdatering tilgjengelig</string>
     <string name="app_update_message">Det finnes en oppdatering for DMD2, vil du oppdatere nå? \n Nytt: </string>
@@ -234,6 +170,9 @@
     <string name="controller_dialog_title">installering av app for fjernkontroll</string>
     <string name="controller_dialog_message">For å utnytte alle muligheter med DMD Fjernkontroll må du installere denne appen. Vil du installere nå?</string>
     <string name="controller_dialog_download_title">Laster ned app</string>
+    <string name="settings_dmd_devices_category">Instillinger kun for DMD-T enheter</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">La GPS være på selv om skjemren skrues av</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Hvis aktivert vil Trip og GPS-relaterte prosesser som GPX-opptak fortsette å kjøre selv om skjermen skrues av. Dette vil tappe batteriet raskere!</string>
     <string name="settings_screen_category">Skjerm</string>
     <string name="settings_screen_lock_rotation">Skjermrotasjon</string>
     <string name="settings_screen_lock_rotation_summary">Hindrer skjermen fra å rotere utilsiktet.</string>
@@ -392,6 +331,8 @@
     <string name="widget_info_gps_heading_name">GPS kompasskurs</string>
     <string name="widget_info_clock_name">Tid</string>
     <string name="widget_info_gps_heading_label">Kurs</string>
+    <string name="widget_info_gps_cardinal_name">Cardinal Kompass</string>
+    <string name="widget_info_gps_cardinal_label">Kompass</string>
     <string name="widget_info_gps_speed_name">GPS Hastighet</string>
     <string name="widget_info_gps_speed_label">Hastighet</string>
     <string name="widget_info_gps_trip_max_speed_name">Høyeste hastighet</string>
@@ -465,6 +406,8 @@
     <string name="obd_protocols_title">OBD Protokoll</string>
     <string name="obd_reader_config_title">Konfigurasjonsinnstillinger for OBD-leser</string>
     <string name="obd_reader_config_summary">Legg inn kommandoer til OBD-leser, skill med ny linje</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Henter verdir fra WunderLINQ API istedet for OBD2</string>
     <string name="obd_select_device_title">Velg parret OBD-enhet</string>
     <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at din enhet er parret først!</string>
     <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetoothenhet</string>
@@ -812,6 +755,8 @@
     <string name="map_layers_routing_transparency_line">Gjennomsiktighet</string>
     <string name="map_layers_routing_pins_size">Størrelse på nåler</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_load_error_title">GPX innlastingsfeil</string>
+    <string name="gpx_manager_load_error_message">Feil oppstod ved innlasting av GPX-fil. DMD2 vil ikke forsøke å laste den inn på nytt. Vennligst prøv en annen fil.</string>
     <string name="gpx_manager_title">GPX-håndtering</string>
     <string name="gpx_manager_load_file">Last inn</string>
     <string name="gpx_manager_no_file_loaded">Ingen filer. Trykk last inn.</string>
@@ -902,6 +847,9 @@
     <string name="map_settings_ui_cat_title">Innstillinger for grensesnitt</string>
     <string name="map_settings_ui_enable_track_progress">Aktiver infoboks for fremdrift</string>
     <string name="map_settings_ui_enable_track_progress_summary">En infoboks på venstre side viser fremdrift på sporet og avstand til neste POI og kartnål.</string>
+    <string name="map_settings_ui_enable_street_name">Vis gatenavn</string>
+    <string name="map_settings_ui_enable_street_name_summary">Viser aktuelt gatenavn nederst på kartet</string>
+    <string name="reverse_geo_unnamed_road">Vei uten navn!</string>
     <string name="map_settings_ui_disable_touch_on_lock">Deaktiver kartberøring når skjermen er låst</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Deaktiverer skjermens berøringsfølsomhet slik at kartet ikke forstyrres av berøring, regn osv. Nyttig når du bruker fjernkontroll!</string>
     <string name="map_settings_ui_lock_on_move_title">Automatisk skjermlås ved bevegelse</string>
@@ -970,6 +918,30 @@
     <string name="map_poi_no_valid_location_yet">Mangler GPS! Prøv igjen senerer.</string>
     <string name="map_poi_distance_long_press_no_fix">Avstand utilgjnegelig, GPS-data mangler.</string>
     <string name="map_poi_show_pin_for_location">Laster inn POI-søk for kartnålens plassering</string>
+    <string name="map_poi_search_name">Navnesøk</string>
+    <string name="map_poi_cat_fuel">Drivstoff</string>
+    <string name="map_poi_cat_accommodation">Overnatting</string>
+    <string name="map_poi_cat_restaurants">Restaurant</string>
+    <string name="map_poi_cat_cafe">Kafé, Pub &amp; Bar</string>
+    <string name="map_poi_cat_shop">Butikk &amp; Marked</string>
+    <string name="map_poi_cat_moto_repair">Motorsykkelverksted</string>
+    <string name="map_poi_cat_car_repair">Bilverksted</string>
+    <string name="map_poi_cat_parking">Parkeringsplass</string>
+    <string name="map_poi_cat_rental">Utleie, Vask &amp; Lading</string>
+    <string name="map_poi_cat_money">Bank &amp; Minibank</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Vann</string>
+    <string name="map_poi_cat_camping">Camping &amp; Bobil</string>
+    <string name="map_poi_cat_recreation">Friområde</string>
+    <string name="map_poi_cat_natural_places">Naturopplevlser</string>
+    <string name="map_poi_cat_hospital">Sykehus</string>
+    <string name="map_poi_cat_pharmacy">Apotek</string>
+    <string name="map_poi_cat_tourism">Turisme</string>
+    <string name="map_poi_cat_historic">Historiske steder</string>
+    <string name="map_poi_cat_pub_transport">Offentlig kommunikasjon</string>
+    <string name="map_poi_cat_pub_entertainment">Underholdning</string>
+    <string name="map_poi_cat_pub_government">Offentlig administrasjon</string>
+    <string name="map_poi_cat_pub_cities">Byer, Tettsteder &amp; Landsbyer</string>
+    <string name="map_poi_cat_pub_communications">Kommunikasjon</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Trykk på sporpunkt</string>
     <string name="map_map_track_tap_track_details">Spordetaljer</string>
@@ -1051,6 +1023,7 @@
     <string name="map_route_planner_empty">Ingen aktive spor eller ruter!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online-søk på adresse</string>
+    <string name="map_place_search_cat_name">Online Adressesøk</string>
     <string name="map_place_search_instructions">Skriv minst tre bokstaver for å søke</string>
     <string name="map_place_search_dialog_type_label">Navn eller adresse:</string>
     <string name="map_place_search_distance">Avstand i luftlinje:</string>
@@ -1108,5 +1081,15 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Ingen kartnåler sålangt!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Bekreft sletting</string>
     <string name="map_gpx_recorder_confirm_delete_message">Er du sikker på at du vil slette denne filen? Dette kan ikke angres!</string>
-
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">Mine steder</string>
+    <string name="location_manager_save_location_button">Lagre posisjon</string>
+    <string name="location_manager_save_location_name">Stedsnavn</string>
+    <string name="location_manager_save_location_dialog_title">Lagre til mine steder</string>
+    <string name="location_manager_save_location_unnamed">Sted uten navn</string>
+    <string name="location_manager_save_location_no_description">Ingen beskrivelse!</string>
+    <string name="location_manager_save_location_saved">Posisjon lagret!</string>
+    <string name="location_manager_save_keep_on_map">Behold synlig på kartet</string>
+    <string name="location_manager_save_new">Legg til ny</string>
+    
 </resources>
