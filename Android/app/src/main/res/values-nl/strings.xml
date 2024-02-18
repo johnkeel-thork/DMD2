@@ -3,64 +3,64 @@
 
     <!-- New Untranslated -->
 
-    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
-    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
-    <string name="exit_confirm_dialog_send_to_background">Background</string>
+    <string name="exit_confirm_dialog">DMD2 sluiten of naar de achtergrond?</string>
+    <string name="exit_confirm_dialog_message">Wanneer je DMD2 sluit tellen trip meters niet en stopt GPX opname!</string>
+    <string name="exit_confirm_dialog_send_to_background">Achtergrond</string>
 
-    <string name="fall_alert_title">SOS Fall Alert Received!</string>
-    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
-    <string name="fall_alert_show_on_map">View &amp; Help</string>
-    <string name="fall_alert_ignore">Ignore</string>
+    <string name="fall_alert_title">SOS Val Alarm Ontvangen!</string>
+    <string name="fall_alert_message">Je hebt een val alarm ontvangen! Volledig bericht:</string>
+    <string name="fall_alert_show_on_map">Bekijk &amp; Help</string>
+    <string name="fall_alert_ignore">Negeren</string>
     <string name="fall_alert_open_sms">Open SMS</string>
-    <string name="fall_alert_mode_on">SOS Mode!</string>
-    <string name="fall_alert_center_map">Center Map</string>
-    <string name="fall_alert_share">Share Location</string>
-    <string name="fall_alert_finish">Finish SOS</string>
-    <string name="fall_alert_navigate">Navigate To</string>
+    <string name="fall_alert_mode_on">SOS Modus!</string>
+    <string name="fall_alert_center_map">Centreer Kaart</string>
+    <string name="fall_alert_share">Locatie Delen</string>
+    <string name="fall_alert_finish">SOS beëindigen</string>
+    <string name="fall_alert_navigate">Navigeer naar</string>
 
-    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+    <string name="settings_dmd_devices_category">DMD-T Apparaat Specifiek</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Houd GPS aan bij scherm uit</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Wanneer aan blijven de trip en GPS functies zoals GPX opnames draaien als het scherm uit is</string>
 
-    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
-    <string name="widget_info_gps_cardinal_label">Compass</string>
+    <string name="widget_info_gps_cardinal_name">Kardinaal Kompas</string>
+    <string name="widget_info_gps_cardinal_label">Kompas</string>
 
-    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Haalt waarden uit WunderLINQ API in plaats van OBD2</string>
 
-    <string name="gpx_manager_load_error_title">GPX Load Error</string>
-    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+    <string name="gpx_manager_load_error_title">Fout bij laden GPX</string>
+    <string name="gpx_manager_load_error_message">Fout bij het inlezen van het GPX bestand. DMD2 doet geen tweede poging. Probeer een ander bestand!</string>
 
-    <string name="map_settings_ui_enable_street_name">Show street name</string>
-    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
-    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+    <string name="map_settings_ui_enable_street_name">Toon straatnaam</string>
+    <string name="map_settings_ui_enable_street_name_summary">Toont de huidige straatnaam onderaan de kaart</string>
+    <string name="reverse_geo_unnamed_road">Onbekende Weg</string>
 
-    <string name="map_poi_search_name">Search Name</string>
-    <string name="map_poi_cat_fuel">Gas Station</string>
-    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="map_poi_search_name">Zoek Naam</string>
+    <string name="map_poi_cat_fuel">Tankstation</string>
+    <string name="map_poi_cat_accommodation">Accomodatie</string>
     <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Shop &amp; Market</string>
-    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
-    <string name="map_poi_cat_car_repair">Car Repair</string>
-    <string name="map_poi_cat_parking">Parking Place</string>
-    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
-    <string name="map_poi_cat_money">Bank &amp; ATM</string>
+    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Winkel &amp; Markt</string>
+    <string name="map_poi_cat_moto_repair">Motorfiets Reparatie</string>
+    <string name="map_poi_cat_car_repair">Auto Reparatie</string>
+    <string name="map_poi_cat_parking">Parkeerplaats</string>
+    <string name="map_poi_cat_rental">Autohuur, -was &amp; -laden</string>
+    <string name="map_poi_cat_money">Bank &amp; Pinautomaat</string>
     <string name="map_poi_cat_wc_water">WC &amp; Water</string>
     <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreation</string>
-    <string name="map_poi_cat_natural_places">Natural Places</string>
-    <string name="map_poi_cat_hospital">Hospital</string>
-    <string name="map_poi_cat_pharmacy">Pharmacy</string>
-    <string name="map_poi_cat_tourism">Tourism</string>
-    <string name="map_poi_cat_historic">Historic Places</string>
-    <string name="map_poi_cat_pub_transport">Public Transports</string>
-    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
-    <string name="map_poi_cat_pub_government">Government</string>
-    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+    <string name="map_poi_cat_recreation">Recreatie</string>
+    <string name="map_poi_cat_natural_places">Natuur Plekken</string>
+    <string name="map_poi_cat_hospital">Ziekenhuis</string>
+    <string name="map_poi_cat_pharmacy">Apotheek</string>
+    <string name="map_poi_cat_tourism">Toerisme</string>
+    <string name="map_poi_cat_historic">Historische Plekken</string>
+    <string name="map_poi_cat_pub_transport">Openbaar Vervoer</string>
+    <string name="map_poi_cat_pub_entertainment">Vermaak</string>
+    <string name="map_poi_cat_pub_government">Overheid</string>
+    <string name="map_poi_cat_pub_cities">Steden &amp; Dorpen</string>
+    <string name="map_poi_cat_pub_communications">Communicatie</string>
 
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Online Adres</string>
 
     <!-- Location Manager -->
     <string name="location_manager_my_locations_cat">My Places</string>
@@ -782,7 +782,7 @@
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Laad bestand</string>
-    <string name="gpx_manager_no_file_loaded">Geenbestand geladen. Klik Laad Bestand.</string>
+    <string name="gpx_manager_no_file_loaded">Geen bestand geladen. Klik Laad Bestand.</string>
     <string name="gpx_manager_reloading_files_please_wait">Bestanden worden opnieuw geladen. Even geduld.</string>
     <string name="gpx_manager_tracks">Tracks</string>
     <string name="gpx_manager_waypoints">Waypoints</string>
