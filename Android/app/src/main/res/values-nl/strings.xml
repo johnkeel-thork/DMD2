@@ -1,82 +1,5 @@
 <resources>
-
-
-    <!-- New Untranslated -->
-
-    <string name="exit_confirm_dialog">DMD2 sluiten of naar de achtergrond?</string>
-    <string name="exit_confirm_dialog_message">Wanneer je DMD2 sluit tellen trip meters niet en stopt GPX opname!</string>
-    <string name="exit_confirm_dialog_send_to_background">Achtergrond</string>
-
-    <string name="fall_alert_title">SOS Val Alarm Ontvangen!</string>
-    <string name="fall_alert_message">Je hebt een val alarm ontvangen! Volledig bericht:</string>
-    <string name="fall_alert_show_on_map">Bekijk &amp; Help</string>
-    <string name="fall_alert_ignore">Negeren</string>
-    <string name="fall_alert_open_sms">Open SMS</string>
-    <string name="fall_alert_mode_on">SOS Modus!</string>
-    <string name="fall_alert_center_map">Centreer Kaart</string>
-    <string name="fall_alert_share">Locatie Delen</string>
-    <string name="fall_alert_finish">SOS beëindigen</string>
-    <string name="fall_alert_navigate">Navigeer naar</string>
-
-    <string name="settings_dmd_devices_category">DMD-T Apparaat Specifiek</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">Houd GPS aan bij scherm uit</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">Wanneer aan blijven de trip en GPS functies zoals GPX opnames draaien als het scherm uit is</string>
-
-    <string name="widget_info_gps_cardinal_name">Kardinaal Kompas</string>
-    <string name="widget_info_gps_cardinal_label">Kompas</string>
-
-    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Haalt waarden uit WunderLINQ API in plaats van OBD2</string>
-
-    <string name="gpx_manager_load_error_title">Fout bij laden GPX</string>
-    <string name="gpx_manager_load_error_message">Fout bij het inlezen van het GPX bestand. DMD2 doet geen tweede poging. Probeer een ander bestand!</string>
-
-    <string name="map_settings_ui_enable_street_name">Toon straatnaam</string>
-    <string name="map_settings_ui_enable_street_name_summary">Toont de huidige straatnaam onderaan de kaart</string>
-    <string name="reverse_geo_unnamed_road">Onbekende Weg</string>
-
-    <string name="map_poi_search_name">Zoek Naam</string>
-    <string name="map_poi_cat_fuel">Tankstation</string>
-    <string name="map_poi_cat_accommodation">Accomodatie</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Winkel &amp; Markt</string>
-    <string name="map_poi_cat_moto_repair">Motorfiets Reparatie</string>
-    <string name="map_poi_cat_car_repair">Auto Reparatie</string>
-    <string name="map_poi_cat_parking">Parkeerplaats</string>
-    <string name="map_poi_cat_rental">Autohuur, -was &amp; -laden</string>
-    <string name="map_poi_cat_money">Bank &amp; Pinautomaat</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreatie</string>
-    <string name="map_poi_cat_natural_places">Natuur Plekken</string>
-    <string name="map_poi_cat_hospital">Ziekenhuis</string>
-    <string name="map_poi_cat_pharmacy">Apotheek</string>
-    <string name="map_poi_cat_tourism">Toerisme</string>
-    <string name="map_poi_cat_historic">Historische Plekken</string>
-    <string name="map_poi_cat_pub_transport">Openbaar Vervoer</string>
-    <string name="map_poi_cat_pub_entertainment">Vermaak</string>
-    <string name="map_poi_cat_pub_government">Overheid</string>
-    <string name="map_poi_cat_pub_cities">Steden &amp; Dorpen</string>
-    <string name="map_poi_cat_pub_communications">Communicatie</string>
-
-    <string name="map_place_search_cat_name">Online Adres</string>
-
-    <!-- Location Manager -->
-    <string name="location_manager_my_locations_cat">My Places</string>
-    <string name="location_manager_save_location_button">Save Location</string>
-    <string name="location_manager_save_location_name">Location Name</string>
-    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
-    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
-    <string name="location_manager_save_location_no_description">No description</string>
-    <string name="location_manager_save_location_saved">Location Saved!</string>
-    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
-    <string name="location_manager_save_new">Add New</string>
-
-
-    <!-- End Of New Untranslated -->
-
-
+ 
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -150,6 +73,20 @@
     <string name="error_file_new_name_title">Hernoem bestand</string>
     <string name="share_file_with">Deel bestand met</string>
     <string name="connect_to_internet">Zorg ervoor dat u verbonden bent met het internet!</string>
+    <string name="exit_confirm_dialog">DMD2 sluiten of naar de achtergrond sturen?</string>
+    <string name="exit_confirm_dialog_message">Sluit je DMD2 af, dan stijgen de tripwaarden niet en stopt de GPX-opname!</string>
+    <string name="exit_confirm_dialog_send_to_background">Achtergrond</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS Val Alarm Ontvangen!</string>
+    <string name="fall_alert_message">Je hebt een val alarm ontvangen! Volledig bericht:</string>
+    <string name="fall_alert_show_on_map">Bekijk &amp; Help</string>
+    <string name="fall_alert_ignore">Negeren</string>
+    <string name="fall_alert_open_sms">Open SMS</string>
+    <string name="fall_alert_mode_on">SOS Modus!</string>
+    <string name="fall_alert_center_map">Centreer Kaart</string>
+    <string name="fall_alert_share">Deel locatie</string>
+    <string name="fall_alert_finish">SOS beëindigen</string>
+    <string name="fall_alert_navigate">Navigeer naar</string>
     <!-- App Update -->
     <string name="app_update_title">DMD2 Update beschikbaar</string>
     <string name="app_update_message">Er is een update beschikbaar voor DMD2, wil je nu updaten? \n Wat is er nieuw:</string>
@@ -205,6 +142,37 @@
         <item>Geel</item>
         <item>Roze</item>
     </string-array>
+    <string name="remote_controller_category">Instellingen Remote Controller</string>
+    <string name="controller_selection">Selecteer remote controller model</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+    <string name="controller_dialog_title">Remote Controller App Installeren</string>
+    <string name="controller_dialog_message">Om optimaal gebruik te kunnen maken van de DMD-Remote Controller moet u het hulpprogramma installeren. Wil u het nu installeren?</string>
+    <string name="controller_dialog_download_title">Downloaden Controller App</string>
+    <string name="settings_dmd_devices_category">DMD-T Apparaat Specifiek</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Houd GPS aan bij scherm uit</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Indien ingeschakeld blijven Trip- en GPS-gerelateerde functies zoals GPX-opname actief, zelfs als het scherm is uitgeschakeld</string>
     <string name="settings_screen_category">Scherm</string>
     <string name="settings_screen_lock_rotation">Zet scherm oriëntatie vast</string>
     <string name="settings_screen_lock_rotation_summary">Verhinder dat het scherm per ongeluk roteert tijdens het rijden.</string>
@@ -273,11 +241,6 @@
     <string name="settings_gps_settings_title">GPS instellingen</string>
     <string name="settings_bypass_acc_filter_title">Verlaag GPS nauwkeurigheids filter</string>
     <string name="settings_bypass_acc_filter_message">Voor toestellen met minder optimale GPS kwaliteit</string>
-    <string name="remote_controller_category">Instellingen Remote Controller</string>
-    <string name="controller_selection">Selecteer remote controller model</string>
-    <string name="controller_dialog_title">Remote Controller App Installeren</string>
-    <string name="controller_dialog_message">Om optimaal gebruik te kunnen maken van de DMD-Remote Controller moet u het hulpprogramma installeren. Wil u het nu installeren?</string>
-    <string name="controller_dialog_download_title">Downloaden Controller App</string>
     <!-- Storage -->
     <string name="map_storage_location_cat_title">Opslag</string>
     <string name="map_storage_location_select_title">Zet opslag naar verwijderbare SD-card</string>
@@ -323,6 +286,12 @@
     <string name="home_widget_speed_title">SNELHEID</string>
     <string name="home_widget_speed_title_long">GPS Snelheid</string>
     <string name="home_widget_speed_description">Een numerieke waarde van je huidige snelheid gebaseerd op GPS data.</string>
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_odo_description">Een bewerkbare odometer</string>
+    <string name="home_widget_odo_dialog_title">Odometer opties</string>
+    <string name="home_widget_odo_dialog_message">Reset de odometerwaarde of bewerk de huidige waarde</string>
+    <string name="home_widget_odo_dialog_edit_title">Bewerk odometer waarde</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS &amp; OBD Indicators</string>
     <string name="home_widget_numeric_values_description">Door gebruiker geselecteerde waarden van OBD sensors en GPS data.</string>
@@ -355,13 +324,6 @@
     <string name="home_widget_trip_travel_time">Reistijd</string>
     <string name="home_widget_trip_stop_time">Stop tijd</string>
     <string name="home_widget_trip_avg_average">Gemiddelde snelheid</string>
-    <!-- Widget Odo -->
-    <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">Een bewerkbare odometer</string>
-    <string name="home_widget_odo_dialog_title">Odometer Opties</string>
-    <string name="home_widget_odo_dialog_message">Reset de odometerwaarde of bewerk de huidige waarde</string>
-    <string name="home_widget_odo_dialog_edit_title">Bewerk Odometer waarde</string>
     <!-- Widget Info: GPS & OBD Sensor Selector -->
     <string name="widget_info_selector_dialog_title">Selecteer GPS/OBD Sensor</string>
     <string name="widget_info_gps_altitude_name">GPS hoogte</string>
@@ -369,6 +331,8 @@
     <string name="widget_info_gps_heading_name">GPS richting</string>
     <string name="widget_info_clock_name">Tijd</string>
     <string name="widget_info_gps_heading_label">Richting</string>
+    <string name="widget_info_gps_cardinal_name">Kardinaal Kompas</string>
+    <string name="widget_info_gps_cardinal_label">Kompas</string>
     <string name="widget_info_gps_speed_name">GPS snelheid</string>
     <string name="widget_info_gps_speed_label">Snelheid</string>
     <string name="widget_info_gps_trip_max_speed_name">Trip max snelheid</string>
@@ -442,6 +406,8 @@
     <string name="obd_protocols_title">OBD Protocol</string>
     <string name="obd_reader_config_title">Reader configuratie opdrachten</string>
     <string name="obd_reader_config_summary">Opdrachten om de Bluetooth-lezer te configureren, opdrachten scheiden door een nieuwe regel</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Krijgt waarden uit WunderLINQ API in plaats van OBD2</string>
     <string name="obd_select_device_title">Kies gekoppeld OBD Device</string>
     <string name="obd_bluetooth_list_devices_summary">Selecteer uit gekoppelde bluetooth devices. Zorg ervoor dat de dongle eerst is gekoppeld!</string>
     <string name="obd_bluetooth_list_devices_title">Selecteer ELM327 bluetooth device</string>
@@ -512,7 +478,6 @@
     <string name="obd_service_notification_title">OBD-monitorservice actief</string>
     <string name="obd_service_obd_connected">Verbonden met dongel!</string>
     <string name="obd_service_obd_disconnected">Verbinding met dongle verbroken!</string>
-
     <!-- License -->
     <string name="obd_license_title">OBD2 Demo Mode</string>
     <string name="obd_license_message">Demo mode is gelimiteerd tot 15 minuten per sessie. Koop de OBD Plugin om deze vrij te geven!</string>
@@ -574,8 +539,13 @@
     <string name="roadbook_controller_button_left_long">Knop Links - Lang indrukken (alleen wanneer vastgezet)</string>
     <string name="roadbook_controller_button_zoomin">Knop A ( + )</string>
     <string name="roadbook_controller_button_zoomout">Knop B ( - )</string>
+    <string name="roadbook_controller_switch_minus">Schakel Min</string>
+    <string name="roadbook_controller_switch_plus">Schakel Plus</string>
     <string name="roadbook_controller_scroll_amount_title">Rolverplaatsing hoeveelheid per click</string>
     <string name="roadbook_controller_scroll_amount_message">Pas de hoeveelheid verplaatsing aan voor de papierrol bij omhoog en omlaag</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Schakel toetsherhaling in voor 2-wegschakelaar</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Indien ingeschakeld herhaalt de 2-wegschakelaar zich wanneer deze wordt vastgehouden.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Stel de herhaalsnelheid in voor de 2-wegschakelaar</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_title">Activeer knop herhaling voor de joystick</string>
     <string name="roadbook_controller_enable_key_repeat_joystick_message">Wanneer geactiveerd zullen de knoppen voor omhoog, omlaag, links, rechts herhaald worden wanneer ze ingedrukt blijven.</string>
     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Stel de herhaal snelheid voor Joystick in</string>
@@ -595,11 +565,6 @@
     <string name="roadbook_controller_enable_key_repeat_buttons_title">Activeer knop herhaling voor knoppen</string>
     <string name="roadbook_controller_enable_key_repeat_buttons_message">Wanneer geactiveerd zullen knop A en knop B herhaald worden wanneer ingedrukt gehouden.</string>
     <string name="roadbook_controller_paper_scroll_on_partial_reset">Blader papierrol 1 klik omlaag bij gedeeltelijke reset</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Schakel toetsherhaling in voor 2-wegschakelaar</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">Indien ingeschakeld herhaalt de 2-wegschakelaar zich wanneer deze wordt vastgehouden.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Stel de herhaalsnelheid in voor de 2-wegschakelaar</string>
-    <string name="roadbook_controller_switch_minus">Schakel Min</string>
-    <string name="roadbook_controller_switch_plus">Schakel Plus</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Totale afstand</string>
     <string name="roadbook_totals_dialog_text">Selecteer een optie voor het Totale afstand instrument</string>
@@ -780,6 +745,8 @@
     <string name="map_layers_routing_transparency_line">Lijn transparantie</string>
     <string name="map_layers_routing_pins_size">Grootte van aanwijzingen</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_load_error_title">GPX-laadfout</string>
+    <string name="gpx_manager_load_error_message">Fout bij het inlezen van het GPX bestand. DMD2 doet geen tweede poging. Probeer een ander bestand!</string>
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Laad bestand</string>
     <string name="gpx_manager_no_file_loaded">Geen bestand geladen. Klik Laad Bestand.</string>
@@ -878,6 +845,11 @@
     <string name="map_settings_ui_cat_title">Interface opties</string>
     <string name="map_settings_ui_enable_track_progress">Activeer track voortgang info box</string>
     <string name="map_settings_ui_enable_track_progress_summary">Toont een box op de zijkant van het scherm met track voortgang en afstand tot volgende POIs en Waypoints.</string>
+
+    <string name="map_settings_ui_enable_street_name">Toon straatnaam</string>
+    <string name="map_settings_ui_enable_street_name_summary">Toont de huidige straatnaam onderaan de kaart</string>
+    <string name="reverse_geo_unnamed_road">Naamloze weg</string>
+
     <string name="map_settings_ui_disable_touch_on_lock">Schakel kaart-aanraken uit wanneer vergrendeld</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specifiek handig wanneer je een controller hebt, schakelt de schermaanraking volledig uit.</string>
     <string name="map_settings_ui_lock_on_move_title">Automatisch vergrendelen wanneer onderweg</string>
@@ -940,14 +912,39 @@
     <string name="map_poi_no_opening_hours">Geen openingsuren beschikbaar</string>
     <string name="map_poi_search_dialog_title">Zoek POI bij Naam</string>
     <string name="map_poi_search_button">Zoek</string>
-    <string name="map_poi_not_a_valid_keyword">Geen geldige zoek-entry!</string>
-    <string name="map_poi_no_valid_location_yet">Nog geen GPS-locatie! Probeer het later opnieuw.</string>
-    <string name="map_poi_distance_long_press_no_fix">Afstand niet beschikbaar, nog geen GPX Fix.</string>
-    <string name="map_poi_show_pin_for_location">Laden van POI Zoeken voor PIN lokatie</string>
     <string name="map_poi_coordinates">Coordinaten</string>
     <string name="map_poi_insert_coordinates">Coordinaten invoegen</string>
     <string name="map_poi_insert_coordinates_example">Voorbeeld (DD): 41.193376, -8.298463 of (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
     <string name="map_poi_insert_coordinates_not_valid">Coördinaten zijn niet geldig!</string>
+    <string name="map_poi_not_a_valid_keyword">Geen geldige zoek-entry!</string>
+    <string name="map_poi_no_valid_location_yet">Nog geen GPS-locatie! Probeer het later opnieuw.</string>
+    <string name="map_poi_distance_long_press_no_fix">Afstand niet beschikbaar, nog geen GPX Fix.</string>
+    <string name="map_poi_show_pin_for_location">Laden van POI Zoeken voor PIN lokatie</string>
+    <string name="map_poi_search_name">Zoek Naam</string>
+    <string name="map_poi_cat_fuel">Tankstation</string>
+    <string name="map_poi_cat_accommodation">Accomodatie</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bar</string>
+    <string name="map_poi_cat_shop">Winkel &amp; Markt</string>
+    <string name="map_poi_cat_moto_repair">Motorfiets reparatie</string>
+    <string name="map_poi_cat_car_repair">Auto reparatie</string>
+    <string name="map_poi_cat_parking">Parkeerplaats</string>
+    <string name="map_poi_cat_rental">Autohuur, -was &amp; -laden</string>
+    <string name="map_poi_cat_money">Bank &amp; Pinautomaat</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Recreatie</string>
+    <string name="map_poi_cat_natural_places">Natuurlijke plaatsen</string>
+    <string name="map_poi_cat_hospital">Ziekenhuis</string>
+    <string name="map_poi_cat_pharmacy">Apotheek</string>
+    <string name="map_poi_cat_tourism">Toerisme</string>
+    <string name="map_poi_cat_historic">Historische plaatsen</string>
+    <string name="map_poi_cat_pub_transport">Openbaar vervoer</string>
+    <string name="map_poi_cat_pub_entertainment">Amusement</string>
+    <string name="map_poi_cat_pub_government">Overheid</string>
+    <string name="map_poi_cat_pub_cities">Steden &amp; Dorpen</string>
+    <string name="map_poi_cat_pub_communications">Communicatie</string>
+
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Track punt tikken</string>
     <string name="map_map_track_tap_track_details">Track details</string>
@@ -1029,6 +1026,7 @@
     <string name="map_route_planner_empty">Geen actieve track of route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online adres zoeken</string>
+    <string name="map_place_search_cat_name">Online Adres</string>
     <string name="map_place_search_dialog_type_label">Geef een naam of adres:</string>
     <string name="map_place_search_distance">Afstand in rechte lijn:</string>
     <string name="map_place_search_instructions">Typ minstens 3 letters op resultaten te zien</string>
@@ -1086,5 +1084,15 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nog geen Waypoint!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Bevestiging verwijderen</string>
     <string name="map_gpx_recorder_confirm_delete_message">Weet u zeker dat u dit bestand wilt verwijderen? Deze actie kan niet worden terug gedraaid!</string>
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">Mijn plaatsen</string>
+    <string name="location_manager_save_location_button">Locatie opslaan</string>
+    <string name="location_manager_save_location_name">Locatie naam</string>
+    <string name="location_manager_save_location_dialog_title">Opslaan in Mijn locaties</string>
+    <string name="location_manager_save_location_unnamed">Naamloze locatie</string>
+    <string name="location_manager_save_location_no_description">Geen beschrijving</string>
+    <string name="location_manager_save_location_saved">Locatie opgeslagen!</string>
+    <string name="location_manager_save_keep_on_map">Blijf zichtbaar op de kaart</string>
+    <string name="location_manager_save_new">Nieuw toevoegen</string>
 
 </resources>
