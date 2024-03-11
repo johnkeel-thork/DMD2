@@ -1,5 +1,40 @@
 <resources>
 
+
+    <!-- New Untranslated -->
+
+    <string name="settings_backup_cat">Backup and Restore</string>
+    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
+    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
+    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
+    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
+    <string name="settings_run_in_background">Run DMD2 as Service</string>
+    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
+
+
+    <string name="home_widget_places_title">Places</string>
+    <string name="home_widget_places_title_long">Favorite Places</string>
+    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
+    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
+    <string name="home_widget_places_selector_title">Select Place</string>
+
+
+    <string name="map_layers_poi_water">Drinking Water</string>
+    <string name="map_layers_poi_rv_park">RV Parking</string>
+    <string name="map_layers_poi_border_control">Border Control</string>
+
+
+    <string name="gpx_manager_track_start">Start!</string>
+    <string name="gpx_manager_track_end">End!</string>
+
+
+    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+
+
+    <!-- End Of New Untranslated -->
+    
+    
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -308,8 +343,8 @@
     <string name="home_widget_map_progress_title_long">Mapear actividad de progreso</string>
     <string name="home_widget_map_progress_description">Muestra las instrucciones de navegación o el progreso de la pista GPX dependiendo del estado activo entre los dos.</string>
     <string name="home_widget_empty_title">VACÍO</string>
-<string name="home_widget_empty_title_long">Ninguno - Quitar espacio</string>
-<string name="home_widget_empty_description">Eliminar espacio para hacer crecer el diseño verticalmente</string>
+    <string name="home_widget_empty_title_long">Ninguno - Quitar espacio</string>
+    <string name="home_widget_empty_description">Eliminar espacio para hacer crecer el diseño verticalmente</string>
     <string name="home_widget_settings_dialog_title">Seleccionar Widget</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Panel izquierdo</string>
@@ -909,7 +944,7 @@
     <string name="map_poi_search_button">Búsqueda</string>
     <string name="map_poi_coordinates">Coordenadas</string>
     <string name="map_poi_insert_coordinates">Insertar coordenadas</string>
-    <string name="map_poi_insert_coordinates_example">Ejemplo- (DD): 41.193376, -8.298463 o (DMS): 41°11'36.2"N, 8°17'54.5"W</string>
+    <string name="map_poi_insert_coordinates_example">Ejemplo- (DD): 41.193376, -8.298463 o (DMS): 41°11\'36.2"N, 8°17'54.5"W</string>
     <string name="map_poi_insert_coordinates_not_valid">¡Las coordenadas no son válidas!</string>
     <string name="map_poi_not_a_valid_keyword">¡No es una entrada de búsqueda válida!</string>
     <string name="map_poi_no_valid_location_yet">¡Aún no hay ubicación GPS! Inténtalo más tarde.</string>
