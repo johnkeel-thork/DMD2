@@ -1,80 +1,38 @@
 <resources>
 
-    <!-- New Translated -->
+    <!-- New Untranslated -->
 
-    <string name="exit_confirm_dialog">DMD2 schliessen oder in den Hintergrund schieben?</string>
-    <string name="exit_confirm_dialog_message">Wenn Du DMD2 schließt, werden Trip-Werte nicht weitergezählt und die GPX-Aufzeichnung wird gestoppt!</string>
-    <string name="exit_confirm_dialog_send_to_background">In den Hintergrund</string>
-
-    <string name="fall_alert_title">SOS-Meldung empfangen!</string>
-    <string name="fall_alert_message">Du hast eine Unfall-Meldung erhalten! Ganze Nachricht:</string>
-    <string name="fall_alert_show_on_map">Anzeigen &amp; Hilfe</string>
-    <string name="fall_alert_ignore">Ignorieren</string>
-    <string name="fall_alert_open_sms">Öffne SMS</string>
-    <string name="fall_alert_mode_on">SOS Modus!</string>
-    <string name="fall_alert_center_map">Karte zentrieren</string>
-    <string name="fall_alert_share">Standort teilen</string>
-    <string name="fall_alert_finish">SOS beenden</string>
-    <string name="fall_alert_navigate">Navigiere zu</string>
-
-    <string name="settings_dmd_devices_category">DMD-T Geräte-Spezifisch</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">GPS bei ausgeschaltetem Bildschirm</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">Wenn aktiviert, laufen Trip- und GPS-Funktionen, wie z.B. GPX-Aufzeichnung bei ausgeschaltetem Bildschirm weiter.</string>
-
-    <string name="widget_info_gps_cardinal_name">Kompass</string>
-    <string name="widget_info_gps_cardinal_label">Kompass</string>
-
-    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Benutzt Werte von der WunderLINQ API anstelle von OBD2</string>
-
-    <string name="gpx_manager_load_error_title">GPX Lade-Fehler</string>
-    <string name="gpx_manager_load_error_message">Fehler beim Laden der GPX-Datei ... Bitte versuche es mit einer anderen Datei!</string>
-
-    <string name="map_settings_ui_enable_street_name">Zeige Straßennamen</string>
-    <string name="map_settings_ui_enable_street_name_summary">Zeigt den aktuellen Straßennamen am unteren Kartenrand</string>
-    <string name="reverse_geo_unnamed_road">Straße ohne Namen</string>
-
-    <string name="map_poi_search_name">Suche Name</string>
-    <string name="map_poi_cat_fuel">Tankstelle</string>
-    <string name="map_poi_cat_accommodation">Unterkunft</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafés &amp; Bars</string>
-    <string name="map_poi_cat_shop">Geschäfte</string>
-    <string name="map_poi_cat_moto_repair">Motorrad-Werkstatt</string>
-    <string name="map_poi_cat_car_repair">Auto-Werkstatt</string>
-    <string name="map_poi_cat_parking">Parkplatz</string>
-    <string name="map_poi_cat_rental">Mietwagen, Waschen &amp; Laden</string>
-    <string name="map_poi_cat_money">Bank &amp; Geldautomaten</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Wasser</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Erholung</string>
-    <string name="map_poi_cat_natural_places">Natur</string>
-    <string name="map_poi_cat_hospital">Krankenhaus</string>
-    <string name="map_poi_cat_pharmacy">Apotheke</string>
-    <string name="map_poi_cat_tourism">Tourismus</string>
-    <string name="map_poi_cat_historic">Historische Plätze</string>
-    <string name="map_poi_cat_pub_transport">Öffentlicher Verkehr</string>
-    <string name="map_poi_cat_pub_entertainment">Unterhaltung</string>
-    <string name="map_poi_cat_pub_government">Behörden</string>
-    <string name="map_poi_cat_pub_cities">Städte &amp; Dörfer</string>
-    <string name="map_poi_cat_pub_communications">Kommunikation</string>
-
-    <string name="map_place_search_cat_name">Online Addressen</string>
-
-    <string name="location_manager_my_locations_cat">Meine Orte</string>
-    <string name="location_manager_save_location_button">Ort speichern</string>
-    <string name="location_manager_save_location_name">Name</string>
-    <string name="location_manager_save_location_dialog_title">Speichern in Meine Orte</string>
-    <string name="location_manager_save_location_unnamed">Unbenannter Ort</string>
-    <string name="location_manager_save_location_no_description">Keine Beschreibung</string>
-    <string name="location_manager_save_location_saved">Ort gespeichert!</string>
-    <string name="location_manager_save_keep_on_map">Immer sichtbar auf der Karte</string>
-    <string name="location_manager_save_new">Neu hinzufügen</string>
+    <string name="settings_backup_cat">Backup and Restore</string>
+    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
+    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
+    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
+    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
+    <string name="settings_run_in_background">Run DMD2 as Service</string>
+    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
 
 
-    <!-- End Of New Translated -->
+    <string name="home_widget_places_title">Places</string>
+    <string name="home_widget_places_title_long">Favorite Places</string>
+    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
+    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
+    <string name="home_widget_places_selector_title">Select Place</string>
 
 
+    <string name="map_layers_poi_water">Drinking Water</string>
+    <string name="map_layers_poi_rv_park">RV Parking</string>
+    <string name="map_layers_poi_border_control">Border Control</string>
+
+
+    <string name="gpx_manager_track_start">Start!</string>
+    <string name="gpx_manager_track_end">End!</string>
+
+
+    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+
+
+    <!-- End Of New Untranslated -->
+    
+    
 
     <string name="app_name">DMD2</string>
 
@@ -149,6 +107,20 @@
     <string name="error_file_new_name_title">Datei umbenennen</string>
     <string name="share_file_with">Datei teilen mit</string>
     <string name="connect_to_internet">Stelle sicher, dass eine Internet-Verbindung besteht!</string>
+    <string name="exit_confirm_dialog">DMD2 schliessen oder in den Hintergrund schieben?</string>
+    <string name="exit_confirm_dialog_message">Wenn Du DMD2 schließt, werden Trip-Werte nicht weitergezählt und die GPX-Aufzeichnung wird gestoppt!</string>
+    <string name="exit_confirm_dialog_send_to_background">In den Hintergrund</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS-Meldung empfangen!</string>
+    <string name="fall_alert_message">Du hast eine Unfall-Meldung erhalten! Ganze Nachricht:</string>
+    <string name="fall_alert_show_on_map">Anzeigen &amp; Hilfe</string>
+    <string name="fall_alert_ignore">Ignorieren</string>
+    <string name="fall_alert_open_sms">Öffne SMS</string>
+    <string name="fall_alert_mode_on">SOS Modus!</string>
+    <string name="fall_alert_center_map">Karte zentrieren</string>
+    <string name="fall_alert_share">Standort teilen</string>
+    <string name="fall_alert_finish">SOS beenden</string>
+    <string name="fall_alert_navigate">Navigiere zu</string>
     <!-- App Update -->
     <string name="app_update_title">DMD2 Update verfügbar</string>
     <string name="app_update_message">Es ist ein Update für DMD2 verfügbar, jetzt aktualisieren? \n Neues:</string>
@@ -232,6 +204,9 @@
     <string name="controller_dialog_title">Installation Fernbedienungs-App</string>
     <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, musst Du die Utility-App installieren. Jetzt installieren?</string>
     <string name="controller_dialog_download_title">Lade Fernbedienungs-App</string>
+    <string name="settings_dmd_devices_category">DMD-T Geräte-Spezifisch</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">GPS bei ausgeschaltetem Bildschirm</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Wenn aktiviert, laufen Trip- und GPS-Funktionen, wie z.B. GPX-Aufzeichnung bei ausgeschaltetem Bildschirm weiter.</string>
     <string name="settings_screen_category">Bildschirm</string>
     <string name="settings_screen_lock_rotation">Bildschirmausrichtung sperren</string>
     <string name="settings_screen_lock_rotation_summary">Verhindern, dass sich die Bildschirmausrichtung während der Fahrt versehentlich verstellt</string>
@@ -309,7 +284,7 @@
     <string name="map_storage_sd_card_missing_switch_retry">Wiederholen</string>
     <string name="map_storage_sd_card_missing_switch_internal">Internen Speicher verwenden</string>
     <string name="map_storage_sd_card_mounting_title">SD-Karte wird eingebunden</string>
-    <string name="map_storage_sd_card_mounting_message">Bitte warten, bis das Einbinden der SD-Karte abgeschlossen ist ...</string>
+    <string name="map_storage_sd_card_mounting_message">Bitte warten, bis das Einbinden der SD-Karte abgeschlossen ist …</string>
     <string name="map_storage_sd_card_mounting_button">Abbrechen &amp; internen Speicher nutzen</string>
     <string name="map_storage_sd_card_different_error_title">Andere SD-Karte!</string>
     <string name="map_storage_sd_card_different_error_message">Es scheint, dass die SD-Karte ausgetauscht wurde. Soll diese Karte verwendet werden? Wenn nicht, setze bitte die richtige Karte wieder ein!</string>
@@ -390,6 +365,8 @@
     <string name="widget_info_clock_name">Uhrzeit</string>
     <string name="widget_info_gps_heading_name">GPS Kurs</string>
     <string name="widget_info_gps_heading_label">Kurs</string>
+    <string name="widget_info_gps_cardinal_name">Kompass</string>
+    <string name="widget_info_gps_cardinal_label">Kompass</string>
     <string name="widget_info_gps_speed_name">GPS Geschwindigkeit</string>
     <string name="widget_info_gps_speed_label">km/h</string>
     <string name="widget_info_gps_trip_max_speed_name">Trip Max Geschwindigkeit</string>
@@ -463,6 +440,8 @@
     <string name="obd_protocols_title">OBD-Protokoll</string>
     <string name="obd_reader_config_title">Leser-Konfigurationsbefehle</string>
     <string name="obd_reader_config_summary">Befehle zur Konfiguration des Bluetooth-Lesegeräts, durch neue Zeile trennen</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Benutzt Werte von der WunderLINQ API anstelle von OBD2</string>
     <string name="obd_select_device_title">Gekoppeltes OBD-Gerät auswählen</string>
     <string name="obd_bluetooth_list_devices_summary">Wähle aus gekoppelten Bluetooth-Geräten. Sicherstellen, dass der Dongle zuerst gekoppelt wird!</string>
     <string name="obd_bluetooth_list_devices_title">Wähle ELM327 Bluetooth Gerät</string>
@@ -800,6 +779,8 @@
     <string name="map_layers_routing_transparency_line">Linien Transparenz</string>
     <string name="map_layers_routing_pins_size">Abbiegepfeil-Größe</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_load_error_title">GPX Lade-Fehler</string>
+    <string name="gpx_manager_load_error_message">Fehler beim Laden der GPX-Datei … Bitte versuche es mit einer anderen Datei!</string>
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Datei laden</string>
     <string name="gpx_manager_no_file_loaded">Keine Datei geladen. Drücke "Datei laden".</string>
@@ -898,6 +879,9 @@
     <string name="map_settings_ui_cat_title">Anzeige Optionen</string>
     <string name="map_settings_ui_enable_track_progress">Track-Fortschritt anzeigen</string>
     <string name="map_settings_ui_enable_track_progress_summary">Zeigt auf der linken Seite des Bildschirms ein Feld mit dem Track-Fortschritt und den Entfernungen zu den nächsten POIs und Wegpunkten an.</string>
+    <string name="map_settings_ui_enable_street_name">Zeige Straßennamen</string>
+    <string name="map_settings_ui_enable_street_name_summary">Zeigt den aktuellen Straßennamen am unteren Kartenrand</string>
+    <string name="reverse_geo_unnamed_road">Straße ohne Namen</string>
     <string name="map_settings_ui_disable_touch_on_lock">Kartenberührung deaktivieren, wenn gesperrt</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Besonders nützlich, wenn man einen Controller nutzt, deaktiviert den Touchscreen.</string>
     <string name="map_settings_ui_lock_on_move_title">Auto-Sperre bei Bewegung</string>
@@ -960,6 +944,30 @@
     <string name="map_poi_no_valid_location_yet">Noch kein GPS-Standort. Bitte später versuchen.</string>
     <string name="map_poi_distance_long_press_no_fix">Entfernung nicht verfügbar, noch kein GPS-Fix</string>
     <string name="map_poi_show_pin_for_location">Laden der POI-Suche für PIN-Standort</string>
+    <string name="map_poi_search_name">Suche Name</string>
+    <string name="map_poi_cat_fuel">Tankstelle</string>
+    <string name="map_poi_cat_accommodation">Unterkunft</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafés &amp; Bars</string>
+    <string name="map_poi_cat_shop">Geschäfte</string>
+    <string name="map_poi_cat_moto_repair">Motorrad-Werkstatt</string>
+    <string name="map_poi_cat_car_repair">Auto-Werkstatt</string>
+    <string name="map_poi_cat_parking">Parkplatz</string>
+    <string name="map_poi_cat_rental">Mietwagen, Waschen &amp; Laden</string>
+    <string name="map_poi_cat_money">Bank &amp; Geldautomaten</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Wasser</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
+    <string name="map_poi_cat_recreation">Erholung</string>
+    <string name="map_poi_cat_natural_places">Natur</string>
+    <string name="map_poi_cat_hospital">Krankenhaus</string>
+    <string name="map_poi_cat_pharmacy">Apotheke</string>
+    <string name="map_poi_cat_tourism">Tourismus</string>
+    <string name="map_poi_cat_historic">Historische Plätze</string>
+    <string name="map_poi_cat_pub_transport">Öffentlicher Verkehr</string>
+    <string name="map_poi_cat_pub_entertainment">Unterhaltung</string>
+    <string name="map_poi_cat_pub_government">Behörden</string>
+    <string name="map_poi_cat_pub_cities">Städte &amp; Dörfer</string>
+    <string name="map_poi_cat_pub_communications">Kommunikation</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Trackpunkt antippen</string>
     <string name="map_map_track_tap_track_details">Track Details</string>
@@ -1041,6 +1049,7 @@
     <string name="map_route_planner_empty">Kein aktiver Track oder Route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressen Suche</string>
+    <string name="map_place_search_cat_name">Online Addressen</string>
     <string name="map_place_search_instructions">Mindestens 3 Buchstaben eingeben um Ergebnisse zu sehen</string>
     <string name="map_place_search_dialog_type_label">Schreibe einen Namen oder Adresse:</string>
     <string name="map_place_search_distance">Entfernung in gerader Linie:</string>
@@ -1098,5 +1107,14 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Noch keine Wegpunkte!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Lösch-Bestätigung</string>
     <string name="map_gpx_recorder_confirm_delete_message">Diese Datei löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!</string>
-
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">Meine Orte</string>
+    <string name="location_manager_save_location_button">Ort speichern</string>
+    <string name="location_manager_save_location_name">Name</string>
+    <string name="location_manager_save_location_dialog_title">Speichern in Meine Orte</string>
+    <string name="location_manager_save_location_unnamed">Unbenannter Ort</string>
+    <string name="location_manager_save_location_no_description">Keine Beschreibung</string>
+    <string name="location_manager_save_location_saved">Ort gespeichert!</string>
+    <string name="location_manager_save_keep_on_map">Immer sichtbar auf der Karte</string>
+    <string name="location_manager_save_new">Neu hinzufügen</string>
 </resources>
