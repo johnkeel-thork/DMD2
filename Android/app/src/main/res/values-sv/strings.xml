@@ -2,75 +2,75 @@
 
     <!-- Not Translated -->
 
-    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
-    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
-    <string name="exit_confirm_dialog_send_to_background">Background</string>
+    <string name="exit_confirm_dialog">Stänga DMD2 eller skicka till bakgrund?</string>
+    <string name="exit_confirm_dialog_message">Om du stänger DMD2 kommer tripp inte att räkna upp och GPX-inspelning stoppar!</string>
+    <string name="exit_confirm_dialog_send_to_background">Bakgrund</string>
 
-    <string name="fall_alert_title">SOS Fall Alert Received!</string>
-    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
-    <string name="fall_alert_show_on_map">View &amp; Help</string>
-    <string name="fall_alert_ignore">Ignore</string>
-    <string name="fall_alert_open_sms">Open SMS</string>
-    <string name="fall_alert_mode_on">SOS Mode!</string>
-    <string name="fall_alert_center_map">Center Map</string>
-    <string name="fall_alert_share">Share Location</string>
-    <string name="fall_alert_finish">Finish SOS</string>
-    <string name="fall_alert_navigate">Navigate To</string>
+    <string name="fall_alert_title">SOS Kraschlarm Mottaget!</string>
+    <string name="fall_alert_message">Du har fått ett kraschlarm! Hela meddelandet:</string>
+    <string name="fall_alert_show_on_map">Se &amp; Hjälp</string>
+    <string name="fall_alert_ignore">Ignorera</string>
+    <string name="fall_alert_open_sms">Öppna SMS</string>
+    <string name="fall_alert_mode_on">SOS-läge!</string>
+    <string name="fall_alert_center_map">Centrera Karta</string>
+    <string name="fall_alert_share">Dela Plats</string>
+    <string name="fall_alert_finish">Avsluta SOS</string>
+    <string name="fall_alert_navigate">Navigera Till</string>
 
-    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+    <string name="settings_dmd_devices_category">DMD-T Enhetsinställningar</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Kör GPS när skärmen är släckt</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Om aktiverad kommer Tripp och GPS-funktioner som GPX-inspelning fortsätta även om skärmen är släckt.</string>
 
-    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
-    <string name="widget_info_gps_cardinal_label">Compass</string>
+    <string name="widget_info_gps_cardinal_name">Kardinalkompass</string>
+    <string name="widget_info_gps_cardinal_label">Kompass</string>
 
-    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ-läge (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Hämtar värden från WunderLINQ API istället för OBD2</string>
 
-    <string name="gpx_manager_load_error_title">GPX Load Error</string>
-    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+    <string name="gpx_manager_load_error_title">GPX Laddningsfel</string>
+    <string name="gpx_manager_load_error_message">Fel vid laddning av GPX-fil. DMD2 kommer inte att försöka ladda den igen. Försök med en annan fil!</string>
 
-    <string name="map_settings_ui_enable_street_name">Show street name</string>
-    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
-    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+    <string name="map_settings_ui_enable_street_name">Visa gatunamn</string>
+    <string name="map_settings_ui_enable_street_name_summary">Visar aktuellt gatunamn i underkant av kartan</string>
+    <string name="reverse_geo_unnamed_road">Okänd Väg</string>
 
-    <string name="map_poi_search_name">Search Name</string>
-    <string name="map_poi_cat_fuel">Gas Station</string>
-    <string name="map_poi_cat_accommodation">Accommodation</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Shop &amp; Market</string>
-    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
-    <string name="map_poi_cat_car_repair">Car Repair</string>
-    <string name="map_poi_cat_parking">Parking Place</string>
-    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
-    <string name="map_poi_cat_money">Bank &amp; ATM</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreation</string>
-    <string name="map_poi_cat_natural_places">Natural Places</string>
-    <string name="map_poi_cat_hospital">Hospital</string>
-    <string name="map_poi_cat_pharmacy">Pharmacy</string>
-    <string name="map_poi_cat_tourism">Tourism</string>
-    <string name="map_poi_cat_historic">Historic Places</string>
-    <string name="map_poi_cat_pub_transport">Public Transports</string>
-    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
-    <string name="map_poi_cat_pub_government">Government</string>
-    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+    <string name="map_poi_search_name">Sök Namn</string>
+    <string name="map_poi_cat_fuel">Bensinstation</string>
+    <string name="map_poi_cat_accommodation">Boende</string>
+    <string name="map_poi_cat_restaurants">Restauranger</string>
+    <string name="map_poi_cat_cafe">Kaféer, Pubar &amp; Barer</string>
+    <string name="map_poi_cat_shop">Affär &amp; Marknad</string>
+    <string name="map_poi_cat_moto_repair">Motorcykelverkstad</string>
+    <string name="map_poi_cat_car_repair">Bilverkstad</string>
+    <string name="map_poi_cat_parking">P-plats</string>
+    <string name="map_poi_cat_rental">Hyrbil, Tvätt &amp; Laddning</string>
+    <string name="map_poi_cat_money">Bank &amp; Bankomat</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Vatten</string>
+    <string name="map_poi_cat_camping">Camping &amp; Husvagn</string>
+    <string name="map_poi_cat_recreation">Rekreation</string>
+    <string name="map_poi_cat_natural_places">Naturplatser</string>
+    <string name="map_poi_cat_hospital">Sjukhus</string>
+    <string name="map_poi_cat_pharmacy">Apotek</string>
+    <string name="map_poi_cat_tourism">Turism</string>
+    <string name="map_poi_cat_historic">Historiska Platser</string>
+    <string name="map_poi_cat_pub_transport">Kommunal Kommunikation</string>
+    <string name="map_poi_cat_pub_entertainment">Nöje</string>
+    <string name="map_poi_cat_pub_government">Myndighet</string>
+    <string name="map_poi_cat_pub_cities">Städer &amp; Byar</string>
+    <string name="map_poi_cat_pub_communications">Kommunikation</string>
 
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Online-adress</string>
 
     <!-- Location Manager -->
-    <string name="location_manager_my_locations_cat">My Places</string>
-    <string name="location_manager_save_location_button">Save Location</string>
-    <string name="location_manager_save_location_name">Location Name</string>
-    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
-    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
-    <string name="location_manager_save_location_no_description">No description</string>
-    <string name="location_manager_save_location_saved">Location Saved!</string>
-    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
-    <string name="location_manager_save_new">Add New</string>
+    <string name="location_manager_my_locations_cat">Mina Platser</string>
+    <string name="location_manager_save_location_button">Spara Plats</string>
+    <string name="location_manager_save_location_name">Platsnamn</string>
+    <string name="location_manager_save_location_dialog_title">Spara Till Mina Platser</string>
+    <string name="location_manager_save_location_unnamed">Odöpt Plats</string>
+    <string name="location_manager_save_location_no_description">Ingen beskrivning</string>
+    <string name="location_manager_save_location_saved">Plats Sparad!</string>
+    <string name="location_manager_save_keep_on_map">Visa på karta</string>
+    <string name="location_manager_save_new">Lägg Till</string>
     
 
     <!-- End Of Not Translated -->
