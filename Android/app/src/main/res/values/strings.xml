@@ -119,6 +119,13 @@
     <string name="download_manager_active_download_in_queue">In queue…</string>
 
     <!-- Settings -->
+    <string name="settings_backup_cat">Backup and Restore</string>
+    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
+    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
+    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
+    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
+    <string name="settings_run_in_background">Run DMD2 as Service</string>
+    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
     <string name="settings_localization_options">Localization</string>
     <string name="settings_hour_format">Use 24h format</string>
     <string name="settings_use_fahrenheit">Use Fahrenheit instead of Celsius</string>
@@ -286,6 +293,11 @@
     <string name="home_widget_speed_title">SPEED</string>
     <string name="home_widget_speed_title_long">GPS Speed</string>
     <string name="home_widget_speed_description">A big numeric speed value showing your current travel speed based on GPS data.</string>
+    <string name="home_widget_places_title">Places</string>
+    <string name="home_widget_places_title_long">Favorite Places</string>
+    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
+    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
+    <string name="home_widget_places_selector_title">Select Place</string>
     <string name="home_widget_odo_title">ODO</string>
     <string name="home_widget_odo_title_long">Odometer</string>
     <string name="home_widget_odo_description">An editable odometer</string>
@@ -717,6 +729,9 @@
     <string name="map_layers_poi_atm">ATM</string>
     <string name="map_layers_poi_bank">Bank</string>
     <string name="map_layers_poi_gas">Gas Station</string>
+    <string name="map_layers_poi_water">Drinking Water</string>
+    <string name="map_layers_poi_rv_park">RV Parking</string>
+    <string name="map_layers_poi_border_control">Border Control</string>
     <string name="map_layers_poi_moto_repair">Motorcycle Repair</string>
     <string name="map_layers_theme_title">Map Type &amp; Style</string>
     <string name="map_layers_theme_description">Select the default minimal and clean map type or a more detailed off-road topographic type. Also set the light and dark color modes.</string>
@@ -745,6 +760,8 @@
     <string name="map_layers_routing_transparency_line">Line Opacity</string>
     <string name="map_layers_routing_pins_size">Indications Size</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_track_start">Start!</string>
+    <string name="gpx_manager_track_end">End!</string>
     <string name="gpx_manager_load_error_title">GPX Load Error</string>
     <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
     <string name="gpx_manager_title">GPX Manager</string>
@@ -780,6 +797,21 @@
     <string name="gpx_manager_settings_load_poi_message">Automatically load POI along the track up to 3 categories</string>
     <string name="gpx_manager_settings_load_poi_enable_label">Enable auto POI load along the track:</string>
     <string name="gpx_manager_settings_poi_cat_select_cats">Select POI categories to load:</string>
+    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
+    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
+    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string-array name="gpx_manager_settings_auto_waypoint_distance_entries" translatable="true">
+        <item>5Km / 5Mi</item>
+        <item>10Km / 10Mi</item>
+        <item>25Km / 25Mi</item>
+        <item>50Km / 50Mi</item>
+        <item>100Km / 100Mi</item>
+        <item>250Km / 250Mi</item>
+    </string-array>
     <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any tracks!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
@@ -845,11 +877,9 @@
     <string name="map_settings_ui_cat_title">Interface Options</string>
     <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
     <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
-
     <string name="map_settings_ui_enable_street_name">Show street name</string>
     <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
     <string name="reverse_geo_unnamed_road">Unnamed Road</string>
-
     <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
     <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
     <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
@@ -1093,5 +1123,6 @@
     <string name="location_manager_save_location_saved">Location Saved!</string>
     <string name="location_manager_save_keep_on_map">Keep visible on map</string>
     <string name="location_manager_save_new">Add New</string>
+    <string name="location_manager_no_locations_yet">No saved places yet…</string>
 
 </resources>
