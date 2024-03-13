@@ -2,40 +2,40 @@
 
     <!-- Not Translated -->
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
+    <string name="settings_backup_cat">Backup och Återställ</string>
+    <string name="settings_backup_gdrive_start">Skapa Zip och Spara</string>
+    <string name="settings_backup_gdrive_message">Skapar en zip-fil som kan skickas, vi rekommenderar Google Drive! Notera: Kartor inkluderas inte.</string>
+    <string name="settings_import_gdrive_start">Importera Zip och Återställ</string>
+    <string name="settings_import_gdrive_message">Notera: Om du rensade app-utrymme behöver du manuellt ladda ner dina offline-kartor.</string>
+    <string name="settings_run_in_background">Kör DMD2 som Service</string>
+    <string name="settings_run_in_background_desc">Om aktiverad kommer GPX-inspelning och trippfunktioner att köras som service, när du växlar mellan DMD2 och andra appar.</string>
 
 
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
+    <string name="home_widget_places_title">Platser</string>
+    <string name="home_widget_places_title_long">Favoritplatser</string>
+    <string name="home_widget_places_title_description">Skapa genvägar för dina sparade favoritplatser</string>
+    <string name="home_widget_places_no_locations">Inga sparade platser, du kan spara platser i kartvyn!</string>
+    <string name="home_widget_places_selector_title">Välj Plats</string>
 
 
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
+    <string name="map_layers_poi_water">Dricksvatten</string>
+    <string name="map_layers_poi_rv_park">Ställplats</string>
+    <string name="map_layers_poi_border_control">Gränskontroll</string>
 
 
     <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="gpx_manager_track_end">Slut!</string>
 
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="location_manager_no_locations_yet">Inga sparade platser…</string>
 
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_closest_point_title">Linje till Närmaste Punkt</string>
+    <string name="gpx_manager_settings_closest_point_desc">Drar en linje mellan nuvarande position och närmaste punkt på spåret - om du är minst 200 m från spåret, men inom 5 km.</string>
+    <string name="gpx_manager_settings_closest_point_label">Aktivera Linje</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto-vägpunkter</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-genererad Distansbasederad Vägpunkt</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Aktivera Auto-vägpunkter</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distans-intervall</string>
 
     <!-- End Of Not Translated -->
 
