@@ -2,40 +2,40 @@
 
     <!-- New Untranslated -->
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
+    <string name="settings_backup_cat">Sikkerhetskopiering og gjenoppretting</string>
+    <string name="settings_backup_gdrive_start">Lag Zip-fil og lagre</string>
+    <string name="settings_backup_gdrive_message">Lager en Zip-fil og gir deg muligheten til å sende/lagre den. Vi anbefaler Google Drive! NB: Kart inkluderes ikke!.</string>
+    <string name="settings_import_gdrive_start">Importer sikkerhetskopi</string>
+    <string name="settings_import_gdrive_message">NB: HVis du har slettet alle app-data (clear app storage) må du laste ned kart på nytt eterpå.</string>
+    <string name="settings_run_in_background">Kjør DMD2 som tjeneste</string>
+    <string name="settings_run_in_background_desc">Når aktivert vil DMDM2 kjøre trip og ruteopptak som bakgrunnstjeneste.</string>
 
 
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
+    <string name="home_widget_places_title">Steder</string>
+    <string name="home_widget_places_title_long">Favorittsteder</string>
+    <string name="home_widget_places_title_description">Lagre snarveier til dine favorittsteder</string>
+    <string name="home_widget_places_no_locations">Ingen steder lagret ennå! Du kan lagre dem via kartet!</string>
+    <string name="home_widget_places_selector_title">Velg sted</string>
 
 
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
+    <string name="map_layers_poi_water">Drikkevann</string>
+    <string name="map_layers_poi_rv_park">Bobilparkering</string>
+    <string name="map_layers_poi_border_control">Grenseovergang</string>
 
 
     <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="gpx_manager_track_end">Slutt!</string>
 
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="location_manager_no_locations_yet">Ingen steder lagret ennå…</string>
 
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_closest_point_title">Linje til nærmeste punkt</string>
+    <string name="gpx_manager_settings_closest_point_desc">Tegner en direkte linje mellom din posisjon og nærmeste punkt på ruta - hvis du er mellom 200m og 5 km fra ruta.</string>
+    <string name="gpx_manager_settings_closest_point_label">Aktiver linje</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatiske oppretting av kartnåler</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Opprett automatisk kartnåler med jevne intervaller</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Aktiver automatiske kartnåler</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">AVstand mellom kartnålene</string>
 
 
     <!-- End Of New Untranslated -->
@@ -249,7 +249,7 @@
     <!-- Trip Settings-->
     <string name="settings_trip_options">Trip innstillinger</string>
     <string name="settings_trip_auto_reset_title">Automatisk nullstilling</string>
-    <string name="settings_trip_auto_reset_summary">Trip will automatisk nullstilles hvis DMD2 ikke startes innefor valgt tidsrom</string>
+    <string name="settings_trip_auto_reset_summary">Trip vil automatisk nullstilles hvis DMD2 ikke startes innefor valgt tidsrom</string>
     <string name="settings_trip_auto_reset_time_title">Automatisk nullstillingstid</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 timer</item>
