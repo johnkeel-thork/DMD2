@@ -187,7 +187,7 @@
     <string name="remote_controller_category">Fjernkontrollinnstillinger</string>
     <string name="controller_selection">Velg fjernkontroll</string>
     <string-array name="controller_selection_names" translatable="true">
-        <item>Auto Detect</item>
+        <item>DMD2 velger selv!</item>
         <item>DMD Remote1</item>
         <item>ARN Remote Pro</item>
         <item>SilverFox B8J</item>
@@ -306,7 +306,7 @@
     <!-- Home-->
     <!-- Widget Types-->
     <string name="home_widget_trip_title">Kjørecomputer</string>
-    <string name="home_widget_trip_title_long">Statistikk</string>
+    <string name="home_widget_trip_title_long">Kjørecomputer</string>
     <string name="home_widget_trip_description">Se kjørelengde, kjøretid, reisetid, stopptid og gjennomsnittshastighet.</string>
     <string name="home_widget_apps_title">Snarveier</string>
     <string name="home_widget_apps_title_long">Snarveier</string>
@@ -449,7 +449,7 @@
     <string name="obd_reader_config_title">Konfigurasjonsinnstillinger for OBD-leser</string>
     <string name="obd_reader_config_summary">Legg inn kommandoer til OBD-leser, skill med ny linje</string>
     <string name="obd_set_wunderlinq_title">WunderLINQ Modus (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Henter verdir fra WunderLINQ API istedet for OBD2</string>
+    <string name="obd_set_wunderlinq_summary">Henter verdier fra WunderLINQ API istedet for OBD2</string>
     <string name="obd_select_device_title">Velg parret OBD-enhet</string>
     <string name="obd_bluetooth_list_devices_summary">Velg fra listen over parrede BT-enheter. Sørg for at din enhet er parret først!</string>
     <string name="obd_bluetooth_list_devices_title">Velg ELM327 Bluetoothenhet</string>
