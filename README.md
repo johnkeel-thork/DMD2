@@ -18,6 +18,7 @@ Following the Android schemas:
 
 - Example for Portuguese translation folder: "values-pt"
 - Example for Spanish translation folder: "values-es"
+- Example for Estonia translation folder: "values-et"
 
 
 ## Links:
@@ -41,11 +42,15 @@ Following the Android schemas:
 * [KayDubbya](https://github.com/KayDubbya) : For being my Sponsor
 * [nezgrath](https://github.com/nezgrath) : For being my Sponsor
 * [raschaa](https://github.com/raschaa) : For being my Sponsor
-* [eMRobert](https://github.com/eMRobert) : For the beta testing and translations
-* [LongRideZone](https://www.facebook.com/longridezone) : For the beta testing and translations
+* [eMRobert](https://github.com/eMRobert) : For beta testing and translations
+* [LongRideZone](https://www.facebook.com/longridezone) : For beta testing and translations
 * [Thundinator](https://github.com/Thundinatorp) : For translations
 * [Minas Pachnis](https://github.com/mpachnis) : For translations
 * [samikokkonen](https://github.com/samikokkonen) : For translations
 * [Psionic79](https://github.com/Psionic79) : For translations
-
-
+* [Jan Verlaan](https://github.com/jverlaan) : For beta testing and translations
+* [Rasmus](https://github.com/respodk) : For translations
+* [Jose Miguel Piñero Parra](https://github.com/jmpinerop) : For translations
+* [Folxam](https://github.com/Folxam) : For translations
+* [CapnRene](https://github.com/CapnRene) : For translations
+* [Tomasz Lichota](https://github.com/tomlin96) : For translations
