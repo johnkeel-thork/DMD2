@@ -1027,7 +1027,7 @@
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
-    <string name="map_route_planner_instruction_turn_right_sharp">Sharf rechts in</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Scharf rechts in</string>
     <string name="map_route_planner_instruction_turn_slight_left">Halb links in</string>
     <string name="map_route_planner_instruction_turn_slight_right">Halb rechts in</string>
     <string name="map_route_planner_instruction_keep_left">Links halten in</string>
