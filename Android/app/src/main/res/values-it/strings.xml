@@ -814,7 +814,7 @@
     <string name="gpx_manager_track_manager_title">Gestore Traccia</string>
     <string name="gpx_manager_track_manager_no_description">Nessuna descrizione della traccia disponibile.</string>
     <string name="gpx_manager_track_manager_track_length">Lunghezza Traccia</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviga Verso...</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviga Verso…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Naviga Verso Punto Traccia</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Seleziona a quale punto del tracciato vuoi navigare.</string>
     <string name="gpx_manager_track_manager_navigate_start">Inizio Traccia</string>
@@ -838,7 +838,7 @@
     <string name="gpx_manager_waypoint_no_valid_location_yet">In attesa del segnale GPS</string>
     <string name="gpx_manager_waypoint_share_app">Seleziona app per condividere</string>
     <string name="gpx_manager_gpx_loading_message">Caricamento File GPX</string>
-    <string name="gpx_manager_poi_loading_message">Caricamento ricerca POI sul tracciato, ci potrebbe volere del tempo...</string>
+    <string name="gpx_manager_poi_loading_message">Caricamento ricerca POI sul tracciato, ci potrebbe volere del tempo…</string>
     <string name="gpx_manager_advanced_title">Opzioni Avanzate</string>
     <string name="gpx_manager_advanced_invert_orientation">Inverti Direzione di Viaggio</string>
     <string name="gpx_manager_advanced_convert_to_route">Tentativo di convertire l\'intero file in navigazione:</string>
