@@ -2,20 +2,48 @@
 
     <!-- New Untranslated -->
 
-    <string name="exit_confirm_dialog">Fermer DMD2 ou envoyer en arrière-plan?</string>
-    <string name="exit_confirm_dialog_message">Si vous fermez DMD2, les valeurs du trip ne seront pas incrémentées et l\'enregistrement GPX sera stoppé!</string>
-    <string name="exit_confirm_dialog_send_to_background">Arrière-plan</string>
+    <string name="settings_backup_cat">Backup and Restore</string>
+    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
+    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
+    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
+    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
+    <string name="settings_run_in_background">Run DMD2 as Service</string>
+    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
 
-    <string name="fall_alert_title">SOS Alerte de chute reçue!</string>
-    <string name="fall_alert_message">Vous avez reçu une alerte de chute! Message complet:</string>
-    <string name="fall_alert_show_on_map">Voir &amp; Aide</string>
-    <string name="fall_alert_ignore">Ignorer</string>
-    <string name="fall_alert_open_sms">Ouvrir les SMS</string>
-    <string name="fall_alert_mode_on">Mode SOS!</string>
-    <string name="fall_alert_center_map">Centrer la carte</string>
-    <string name="fall_alert_share">Partager ma localisation</string>
-    <string name="fall_alert_finish">Terminer le SOS</string>
-    <string name="fall_alert_navigate">Navigation vers</string>
+
+    <string name="home_widget_places_title">Places</string>
+    <string name="home_widget_places_title_long">Favorite Places</string>
+    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
+    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
+    <string name="home_widget_places_selector_title">Select Place</string>
+
+
+    <string name="map_layers_poi_water">Drinking Water</string>
+    <string name="map_layers_poi_rv_park">RV Parking</string>
+    <string name="map_layers_poi_border_control">Border Control</string>
+
+
+    <string name="gpx_manager_track_start">Start!</string>
+    <string name="gpx_manager_track_end">End!</string>
+
+
+    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+
+    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
+    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
+    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+
+
+    <!-- End Of New Untranslated -->
+
+
+
+
+
 
     <string name="settings_dmd_devices_category">Spécifications des appareils DMD-T</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">Garder le GPS allumé lorsque l\'écran est éteint</string>
@@ -25,7 +53,7 @@
     <string name="widget_info_gps_cardinal_label">Boussole</string>
 
     <string name="obd_set_wunderlinq_title">Mode WunderLINQ (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Récupérera les valeurs de l\'API WunderLINQ à la place de l'ODB2</string>
+    <string name="obd_set_wunderlinq_summary">Récupérera les valeurs de l\'API WunderLINQ à la place de l\'ODB2</string>
 
     <string name="gpx_manager_load_error_title">Erreur de chargement GPX</string>
     <string name="gpx_manager_load_error_message">Erreur de chargement du fichier GPX. DMD2 n\'essaiera pas de le charger à nouveau. Veuillez essayer un autre fichier!</string>
@@ -34,30 +62,7 @@
     <string name="map_settings_ui_enable_street_name_summary">Affiche le nom de la rue actuelle en bas de la carte</string>
     <string name="reverse_geo_unnamed_road">Route sans nom</string>
 
-    <string name="map_poi_search_name">Rechercher un nom</string>
-    <string name="map_poi_cat_fuel">Station essence</string>
-    <string name="map_poi_cat_accommodation">Hébergement</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bars</string>
-    <string name="map_poi_cat_shop">Magasins &amp; Supermarchés</string>
-    <string name="map_poi_cat_moto_repair">Garage Moto</string>
-    <string name="map_poi_cat_car_repair">Garage Voiture</string>
-    <string name="map_poi_cat_parking">Place de Parking</string>
-    <string name="map_poi_cat_rental">Location, Lavage &amp; Charge</string>
-    <string name="map_poi_cat_money">Banque &amp; ATM</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Point d\'eau</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravane</string>
-    <string name="map_poi_cat_recreation">Loisirs</string>
-    <string name="map_poi_cat_natural_places">Lieux naturels</string>
-    <string name="map_poi_cat_hospital">Hôpital</string>
-    <string name="map_poi_cat_pharmacy">Pharmacie</string>
-    <string name="map_poi_cat_tourism">Tourisme</string>
-    <string name="map_poi_cat_historic">Lieux Historiques</string>
-    <string name="map_poi_cat_pub_transport">Transports Publics</string>
-    <string name="map_poi_cat_pub_entertainment">Divertissement</string>
-    <string name="map_poi_cat_pub_government">Gouvernement</string>
-    <string name="map_poi_cat_pub_cities">Métropoles, Villes &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+
 
     <string name="map_place_search_cat_name">Adresse en ligne </string>
 
@@ -95,7 +100,7 @@
     <string name="roadbook_controller_switch_plus">Bouton Plus</string>
 
     <string name="download_manager_active_download_cannot_abort">Impossible d\'annuler le fichier en cours, veuillez patienter!</string>
-    <string name="download_manager_active_download_in_queue">Dans la file d'attente…</string>
+    <string name="download_manager_active_download_in_queue">Dans la file d\'attente…</string>
 
     <string name="map_gpx_recorder_confirm_delete_title">Confirmation de suppression</string>
     <string name="map_gpx_recorder_confirm_delete_message">Êtes-vous sûr de vouloir supprimer ce fichier? Cette action est irréversible!</string>
@@ -169,7 +174,7 @@
     <string name="map_layers_poi_peaks">Sommets</string>
     <string name="map_layers_poi_parking">Parking</string>
 
-    <string name="map_settings_navigation_recalculation_distance">Distance de recalcul automatique de l'\itinéraire</string>
+    <string name="map_settings_navigation_recalculation_distance">Distance de recalcul automatique de l\'itinéraire</string>
     <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
         <item>50m</item>
         <item>100m</item>
@@ -198,7 +203,7 @@
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">Enregistreur GPX</string>
     <string name="map_gpx_recorder_dialog_my_recordings">Enregistrements</string>
-    <string name="map_gpx_recorder_dialog_status">Status de l'\enregistrement:</string>
+    <string name="map_gpx_recorder_dialog_status">Status de l\'enregistrement:</string>
     <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
     <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
     <string name="map_gpx_recorder_dialog_recording_tracks">Pistes:</string>
@@ -219,9 +224,9 @@
     <string name="map_gpx_recorder_dialog_points_short">pts</string>
     <string name="map_gpx_recorder_new_track_title">Nom de la nouvelle Trace</string>
     <string name="map_gpx_recorder_new_track_add_track">Ajouter la Trace</string>
-    <string name="map_gpx_recorder_inactive_warning">Impossible. Pas d'\enregistrement!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Terminer l'\enregistrement</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Veuillez choisir soit de l\'enregistrer dans un fichier GPX, de l'\ignorer et de supprimer l\'enregistrement, ou de fermer cette boîte de dialogue et de continuer l\'enregistrement.</string>
+    <string name="map_gpx_recorder_inactive_warning">Impossible. Pas d\'enregistrement!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Terminer l\'enregistrement</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Veuillez choisir soit de l\'enregistrer dans un fichier GPX, de l\'ignorer et de supprimer l\'enregistrement, ou de fermer cette boîte de dialogue et de continuer l\'enregistrement.</string>
     <string name="map_gpx_recorder_finish_name_file_title">Nom du fichier GPX</string>
     <string name="map_gpx_recorder_finish_name_file_discard">Ignorer / Supprimer</string>
     <string name="map_gpx_recorder_finish_name_file_already_exists_title">Le fichier existe déjà</string>
@@ -253,6 +258,30 @@
     <string name="home_widget_empty_description">Libérer l\'emplacement pour agrandir la disposition verticale</string>
 
     <string name="map_poi_show_pin_for_location">Chargement de la recherche POI pour la localisation de l\'épingle</string>
+    <string name="map_poi_search_name">Rechercher un nom</string>
+    <string name="map_poi_cat_fuel">Station essence</string>
+    <string name="map_poi_cat_accommodation">Hébergement</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bars</string>
+    <string name="map_poi_cat_shop">Magasins &amp; Supermarchés</string>
+    <string name="map_poi_cat_moto_repair">Garage Moto</string>
+    <string name="map_poi_cat_car_repair">Garage Voiture</string>
+    <string name="map_poi_cat_parking">Place de Parking</string>
+    <string name="map_poi_cat_rental">Location, Lavage &amp; Charge</string>
+    <string name="map_poi_cat_money">Banque &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Point d\'eau</string>
+    <string name="map_poi_cat_camping">Camping &amp; Caravane</string>
+    <string name="map_poi_cat_recreation">Loisirs</string>
+    <string name="map_poi_cat_natural_places">Lieux naturels</string>
+    <string name="map_poi_cat_hospital">Hôpital</string>
+    <string name="map_poi_cat_pharmacy">Pharmacie</string>
+    <string name="map_poi_cat_tourism">Tourisme</string>
+    <string name="map_poi_cat_historic">Lieux Historiques</string>
+    <string name="map_poi_cat_pub_transport">Transports Publics</string>
+    <string name="map_poi_cat_pub_entertainment">Divertissement</string>
+    <string name="map_poi_cat_pub_government">Gouvernement</string>
+    <string name="map_poi_cat_pub_cities">Métropoles, Villes &amp; Villages</string>
+    <string name="map_poi_cat_pub_communications">Communications</string>
 
     <string name="map_settings_follow_cat_title">Suivre les modes de localisation</string>
     <string name="map_settings_follow_north_oriented">Orienté Nord</string>
@@ -264,17 +293,14 @@
     <string name="map_settings_follow_north_next_indication">Orienté Nord - Prochain Waypoint / Indication</string>
     <string name="map_settings_follow_north_next_indication_summary">Identique à Orienté Nord mais avec un zoom délimitant votre emplacement et le prochain waypoint ou indication de navigation</string>
     <string name="map_settings_follow_travel_oriented">Orienté destination</string>
-    <string name="map_settings_follow_travel_oriented_summary">Suit l'emplacement avec la rotation de la carte afin que le haut corresponde à votre destination</string>
+    <string name="map_settings_follow_travel_oriented_summary">Suit l\'emplacement avec la rotation de la carte afin que le haut corresponde à votre destination</string>
 
     <string name="home_widget_odo_title">ODO</string>
     <string name="home_widget_odo_title_long">Odomètre</string>
     <string name="home_widget_odo_description">Odomètre modifiable</string>
     <string name="home_widget_odo_dialog_title">Options de l\'Odomètre</string>
-    <string name="home_widget_odo_dialog_message">Réinitialiser la valeur de l'\Odomètre ou modifier la valeur actuelle</string>
-    <string name="home_widget_odo_dialog_edit_title">Modifier la valeur de l'\Odomètre</string>
-
-    <!-- End Of New Untranslated -->
-
+    <string name="home_widget_odo_dialog_message">Réinitialiser la valeur de l\'Odomètre ou modifier la valeur actuelle</string>
+    <string name="home_widget_odo_dialog_edit_title">Modifier la valeur de l\'Odomètre</string>
 
 
 
@@ -340,6 +366,20 @@
     <string name="error_file_new_name_title">Renommer le fichier</string>
     <string name="share_file_with">Partager le fichier avec</string>
     <string name="connect_to_internet">Assurez-vous d\'être connecté à internet !</string>
+    <string name="exit_confirm_dialog">Fermer DMD2 ou envoyer en arrière-plan?</string>
+    <string name="exit_confirm_dialog_message">Si vous fermez DMD2, les valeurs du trip ne seront pas incrémentées et l\'enregistrement GPX sera stoppé!</string>
+    <string name="exit_confirm_dialog_send_to_background">Arrière-plan</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS Alerte de chute reçue!</string>
+    <string name="fall_alert_message">Vous avez reçu une alerte de chute! Message complet:</string>
+    <string name="fall_alert_show_on_map">Voir &amp; Aide</string>
+    <string name="fall_alert_ignore">Ignorer</string>
+    <string name="fall_alert_open_sms">Ouvrir les SMS</string>
+    <string name="fall_alert_mode_on">Mode SOS!</string>
+    <string name="fall_alert_center_map">Centrer la carte</string>
+    <string name="fall_alert_share">Partager ma localisation</string>
+    <string name="fall_alert_finish">Terminer le SOS</string>
+    <string name="fall_alert_navigate">Navigation vers</string>
     <!-- App Update -->
     <string name="app_update_title">Mise à jour DMD2 disponible</string>
     <string name="app_update_message">Il y a une mise à jour DMD2 disponible, voulez-vous l\'appliquer maintenant ? \n Nouveauté(s):</string>
