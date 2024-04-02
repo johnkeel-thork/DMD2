@@ -2,40 +2,40 @@
 
     <!-- New Untranslated -->
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
+    <string name="settings_backup_cat">Backup und Wiederherstellung</string>
+    <string name="settings_backup_gdrive_start">Backup-Datei erstellen und sichern</string>
+    <string name="settings_backup_gdrive_message">Erstellt eine Zip-Datei als Sicherung, die anschließend verschickt werden kann. Zum Beispiel an Google Drive. Hinweis: Die Kartendaten werden nicht mit gesichert!</string>
+    <string name="settings_import_gdrive_start">Backup-Datei importieren und wiederherstellen</string>
+    <string name="settings_import_gdrive_message">Hinweis: Wenn der App Speicher gelöscht wurde, müssen die Kartendaten erneut heruntergeladen werden.</string>
+    <string name="settings_run_in_background">DMD2 als Hintergrund-Service ausführen</string>
+    <string name="settings_run_in_background_desc">Wenn aktivert, laufen die Trip- und GPX-Aufzeichnung im Hintergrund weiter auch wenn eine andere App im Vordergrund ausgeführt wird.</string>
 
 
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
+    <string name="home_widget_places_title">Orte</string>
+    <string name="home_widget_places_title_long">Lieblingsorte</string>
+    <string name="home_widget_places_title_description">Erstelle Shortcuts für Lieblingsorte</string>
+    <string name="home_widget_places_no_locations">Keine Orte gespeichert. Speichere Orte in der Kartenansicht.</string>
+    <string name="home_widget_places_selector_title">Ort auswählen</string>
 
 
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
+    <string name="map_layers_poi_water">Trinkwasser</string>
+    <string name="map_layers_poi_rv_park">Stellplatz für Wohnmobile</string>
+    <string name="map_layers_poi_border_control">Grenzkontrolle</string>
 
 
-    <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="gpx_manager_track_start">Starten!</string>
+    <string name="gpx_manager_track_end">Beenden!</string>
 
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="location_manager_no_locations_yet">Keine Orte gespeichert ...</string>
 
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_closest_point_title">Linie zum nächsten Punkt</string>
+    <string name="gpx_manager_settings_closest_point_desc">Zeichnet eine direkte Linie zwischen der aktuellen Position und dem aktivem Track. Wenn die Entfernung zum Track zwichen 200 m und 5 km beträgt.</string>
+    <string name="gpx_manager_settings_closest_point_label">Linie einschalten</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatische Wegpunkte</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Erstellt Wegpunkte in einem festgelegten Abstand auf dem ausgewählten Track.</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Automatische Wegpunkte einschalten</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Abstand</string>
 
 
     <!-- End Of New Untranslated -->
@@ -55,7 +55,7 @@
     <string name="menu_apps">Apps</string>
     <string name="menu_roadbook">Roadbook</string>
     <string name="menu_map">Landkarte</string>
-    <string name="menu_obd">OBD Sensoren</string>
+    <string name="menu_obd">OBD-Sensoren</string>
     <!-- Menu Editor -->
     <string name="menu_edit_title">Editiere unteres Menü</string>
     <string name="menu_edit_message">Menü-Einträge anordnen, ein- und ausschalten</string>
@@ -83,7 +83,7 @@
     <!-- Buttons -->
     <string name="back">Zurück</string>
     <string name="abort">Abbrechen</string>
-    <string name="ok">OK</string>
+    <string name="ok">Ok</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="save">Speichern</string>
@@ -117,7 +117,7 @@
     <string name="connect_to_internet">Stelle sicher, dass eine Internet-Verbindung besteht!</string>
     <string name="exit_confirm_dialog">DMD2 schliessen oder in den Hintergrund schieben?</string>
     <string name="exit_confirm_dialog_message">Wenn Du DMD2 schließt, werden Trip-Werte nicht weitergezählt und die GPX-Aufzeichnung wird gestoppt!</string>
-    <string name="exit_confirm_dialog_send_to_background">In den Hintergrund</string>
+    <string name="exit_confirm_dialog_send_to_background">Hintergrund</string>
     <!-- Fall Alerts -->
     <string name="fall_alert_title">SOS-Meldung empfangen!</string>
     <string name="fall_alert_message">Du hast eine Unfall-Meldung erhalten! Ganze Nachricht:</string>
@@ -135,17 +135,17 @@
     <string name="app_update_download_notification">DMD2 Update herunterladen</string>
     <string name="app_update_download_progress">Fortschritt:</string>
     <!-- Controller App Update -->
-    <string name="controller_app_update_dialogue_title">Controller App Update</string>
-    <string name="controller_app_update_dialogue_message">Es ist ein Update für das Controller App verfügbar, jetzt aktualisieren? \n Neues:</string>
+    <string name="controller_app_update_dialogue_title">Controller-App Update</string>
+    <string name="controller_app_update_dialogue_message">Es ist ein Update für die Controller-App verfügbar, jetzt aktualisieren? \n Neues:</string>
     <string name="controller_app_update_download_notification">Update Herunterladen</string>
     <string name="controller_app_update_download_progress">Fortschritt:</string>
     <!-- T93 Dialog -->
-    <string name="t93_trial_title">DMD2 Trial Mode</string>
-    <string name="t93_trial_message">30 Tage gratis Probezeit. Solltest Du einen DMD2 Edition Key besitzen, diesen bitte eingeben.</string>
+    <string name="t93_trial_title">DMD2 Probe Modus</string>
+    <string name="t93_trial_message">30 Tage gratis Probezeit. Solltest Du einen DMD2-Edition Schlüssel besitzen, diesen bitte eingeben.</string>
     <string name="t93_trial_button">Probezeit fortsetzen</string>
-    <string name="t93_dmd2_edition_button">Key eingeben</string>
+    <string name="t93_dmd2_edition_button">Schlüssel eingeben</string>
     <string name="t93_finish_trial_button">Ende der Probezeit</string>
-    <string name="t93_dmd2_edition_insert_key_title">DMD2-Edition Key eingeben:</string>
+    <string name="t93_dmd2_edition_insert_key_title">DMD2-Edition Schlüssel eingeben:</string>
     <!-- Download Manager -->
     <string name="download_manager_active_download_short">DL:</string>
     <string name="download_manager_active_download_active">Aktiv</string>
@@ -155,9 +155,9 @@
     <string name="download_manager_active_download_interrupted">Unterbrochen</string>
     <string name="download_manager_active_download_interrupted_file">Unterbrochene Datei:</string>
     <string name="download_manager_active_download_no_net">Kein Internet!</string>
-    <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung…</string>
+    <string name="download_manager_active_download_no_net_waiting">Warte auf Internetverbindung ...</string>
     <string name="download_manager_active_download_cannot_abort">Aktuelle Datei kann nicht abgebrochen werden, bitte warten!</string>
-    <string name="download_manager_active_download_in_queue">In der Warteschlange…</string>
+    <string name="download_manager_active_download_in_queue">In der Warteschlange ...</string>
     <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
 
     <!-- Settings -->
@@ -184,7 +184,7 @@
         <item>Gelb</item>
         <item>Pink</item>
     </string-array>
-    <string name="remote_controller_category">Fernbedienung Einstellungen</string>
+    <string name="remote_controller_category">Fernbedienung</string>
     <string name="controller_selection">Fernbedienung auswählen</string>
     <string-array name="controller_selection_names" translatable="true">
         <item>Auto Detect</item>
@@ -212,7 +212,7 @@
     <string name="controller_dialog_title">Installation Fernbedienungs-App</string>
     <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, musst Du die Utility-App installieren. Jetzt installieren?</string>
     <string name="controller_dialog_download_title">Lade Fernbedienungs-App</string>
-    <string name="settings_dmd_devices_category">DMD-T Geräte-Spezifisch</string>
+    <string name="settings_dmd_devices_category">Nur für DMD-T Geräte</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">GPS bei ausgeschaltetem Bildschirm</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Wenn aktiviert, laufen Trip- und GPS-Funktionen, wie z.B. GPX-Aufzeichnung bei ausgeschaltetem Bildschirm weiter.</string>
     <string name="settings_screen_category">Bildschirm</string>
@@ -322,7 +322,7 @@
     <string name="home_widget_media_title">MEDIEN</string>
     <string name="home_widget_media_title_long">Medienspieler Kontrolle</string>
     <string name="home_widget_media_description">Ermöglicht die Kontrolle der aktuellen Mediensitzung, enthält Albumcover sowie Titel- und Künstlernamen (erfordert Zugriffsberechtigung für Benachrichtigungen).</string>
-    <string name="home_widget_map_title">NAVI</string>
+    <string name="home_widget_map_title">NAVIGATION</string>
     <string name="home_widget_map_title_long">Kartenansicht</string>
     <string name="home_widget_map_description">Die Kartenansicht mit allen geladenen Inhalten und aktivierten Infos, enthält keine Kartensteuerelemente und kann nur im linken Bereich geladen werden.</string>
     <string name="home_widget_speed_title">KM/H</string>
@@ -551,7 +551,7 @@
     <string name="roadbook_settings_distance_multi_factor_message">Füge einen Korrekturfaktor für die Gesamt- und Teilstrecke hinzu (für den Fall, dass eine Anpassung an die Roadbook-Entfernungen gebraucht wird).</string>
     <string name="roadbook_settings_no_instruments_title">Instrumentenanzeige ausblenden</string>
     <string name="roadbook_settings_no_instruments_message">Wenn es gesonderte Instrumente gibt und nur die PDF-Rolle angezeigt werden soll.</string>
-    <string name="roadbook_settings_reset_session_title">ktuelle Sitzung zurücksetzen</string>
+    <string name="roadbook_settings_reset_session_title">Aktuelle Sitzung zurücksetzen</string>
     <string name="roadbook_settings_reset_session_message">Entlädt die aktuelle PDF-Datei und setzt alle Statistiken und Entfernungen zurück.</string>
     <string name="roadbook_settings_reset_session_confirm_title">Zurücksetzen bestätigen</string>
     <string name="roadbook_settings_reset_session_confirm_message">Bist Du sicher, dass der aktuelle Fortschritt zurückgesetzt werden soll? Dies entlädt die aktuelle PDF-Datei und setzt alle Statistiken und Entfernungen zurück!</string>
@@ -567,8 +567,8 @@
         <item>Gesamtstrecke zurücksetzen</item>
         <item>Teilstrecke zurücksetzen</item>
         <item>Papierfarbe umkehren</item>
-        <item>Sperren / Entsperren</item>
-        <item>Abspielen / Pause</item>
+        <item>Sperren/Entsperren</item>
+        <item>Abspielen/Pause</item>
         <item>Nichts tun</item>
     </string-array>
     <string name="roadbook_controller_button_up">Hoch</string>
@@ -769,7 +769,7 @@
     <string name="map_layers_map_type_always_dark">Dunkel</string>
     <string name="map_layers_map_type_follow_theme">Thema</string>
     <string name="map_layers_map_type_light_sensor">Sensor</string>
-    <string name="map_layers_topo_advanced_title">Topo fortgeschrittene Optionen</string>
+    <string name="map_layers_topo_advanced_title">Topo (erweiterte Optionen)</string>
     <string name="map_layers_topo_advanced_description">Feineinstellung des topografischen Kartentyps Off-Road</string>
     <string name="map_layers_topo_high_contrast_mode">Kontrastreicher Modus</string>
     <string name="map_layers_topo_options_altitude_line">Zeige Höhenlinien</string>
@@ -1027,7 +1027,7 @@
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
-    <string name="map_route_planner_instruction_turn_right_sharp">Sharf rechts in</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Scharf rechts in</string>
     <string name="map_route_planner_instruction_turn_slight_left">Halb links in</string>
     <string name="map_route_planner_instruction_turn_slight_right">Halb rechts in</string>
     <string name="map_route_planner_instruction_keep_left">Links halten in</string>
