@@ -121,7 +121,7 @@
     <!-- Settings -->
     <string name="settings_backup_cat">Backup e Ripristino</string>
     <string name="settings_backup_gdrive_start">Crea Zip e Salva</string>
-    <string name="settings_backup_gdrive_message">Crea un file zip e consente di inviarlo, si consiglia su Google Drive! Nota: le mappe non sono incluse.</string>
+    <string name="settings_backup_gdrive_message">Consente di creare e inviare un file zip. Si consiglia l'uso di Google Drive! Nota: le mappe non sono incluse.</string>
     <string name="settings_import_gdrive_start">Importa file Zip e ripristino</string>
     <string name="settings_import_gdrive_message">Nota: se è stata cancellata la memoria dell\'app, è necessario scaricare nuovamente le mappe offline.</string>
     <string name="settings_run_in_background">Avvia DMD2 come Servizio</string>
@@ -180,17 +180,17 @@
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Se abilitato, le informazioni relative al viaggio e al GPS, come per esempio la registrazione GPX, continueranno a funzionare anche se lo schermo è spento.</string>
     <string name="settings_screen_category">Schermo</string>
     <string name="settings_screen_lock_rotation">Blocco rotazione schermo</string>
-    <string name="settings_screen_lock_rotation_summary">Previene la rotazione accidentale anche quando si sta guidando</string>
+    <string name="settings_screen_lock_rotation_summary">Previene la rotazione accidentale quando si sta guidando</string>
     <string name="settings_screen_orientation">Blocca rotazione schermo in:</string>
     <string-array name="settings_screen_orientation_lock_names" translatable="true">
-        <item>Orrizontale (Tablet)</item>
-        <item>Orrizzontale capovolto (Tablet)</item>
+        <item>Orizzontale (Tablet)</item>
+        <item>Orizzontale capovolto (Tablet)</item>
         <item>Verticale (Phone)</item>
         <item>Verticale capovolto (Phone)</item>
     </string-array>
     <string name="settings_notifications_category">Notifiche</string>
     <string name="settings_notifications_enable_title">Abilita il pop-up delle notifiche (autorizzazione necessaria)</string>
-    <string name="settings_notifications_enable_summary">Mostrare le notifiche dalle App selezionate dall\'utente</string>
+    <string name="settings_notifications_enable_summary">Mostra le notifiche dalle App selezionate dall\'utente</string>
     <string name="settings_notifications_dismiss">Tempo di visualizzazione</string>
     <string-array name="settings_notifications_dismiss_names" translatable="true">
         <item>Nascondi dopo 5s</item>
@@ -203,7 +203,7 @@
     <string name="settings_notifications_controller_lock_title">Azione del Controller da manubrio</string>
     <string name="settings_notifications_controller_lock_message">Quando una notifica è visibile, il telecomando si concentra su di essa. Il tasto Invio avvia l\'azione di visualizzazione e il tasto Indietro la cancella.</string>
     <string name="settings_notifications_apps_selection_title">Filtro App</string>
-    <string name="settings_notifications_apps_selection_message">Selezionare per quali App si desidera visualizzare il pop-up di notifica.</string>
+    <string name="settings_notifications_apps_selection_message">Selezionare per quali App si desidera visualizzare il pop-up delle notifiche.</string>
     <string name="settings_notifications_group_title">Mostra solo l\'ultima notifica di ogni gruppo</string>
     <string name="settings_notifications_group_message">Se è attivata, verrà visualizzato solo l\'ultima notifica per ciascun gruppo di notifiche. Ad esempio, l\'ultimo messaggio di una notifica di chat.</string>
     <string name="settings_notifications_app_selection_dialog_title">Mostra le notifiche per:</string>
@@ -212,7 +212,7 @@
     <!-- Trip Settings-->
     <string name="settings_trip_options">Opzioni di viaggio</string>
     <string name="settings_trip_auto_reset_title">Azzeramento automatico del viaggio</string>
-    <string name="settings_trip_auto_reset_summary">I dati di viaggio si azzerano automaticamente se il DMD2 non viene avviato per un periodo di tempo configurabile.</string>
+    <string name="settings_trip_auto_reset_summary">I dati di viaggio si azzerano automaticamente se il DMD2 non viene avviato per un periodo di tempo configurato.</string>
     <string name="settings_trip_auto_reset_time_title">Azzeramento dati del viaggio dopo:</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 ore</item>
@@ -433,15 +433,15 @@
     <string name="obd_speed_gps_source_summary">Utilizza il GPS invece del valore Velocità OBD (che potrebbe non essere disponibile)</string>
     <string name="obd_max_rpm_title">Imposta valore massimo RPM</string>
     <string name="obd_max_rpm_summary">Imposta il valore massimo dei giri del tuo veicolo</string>
-    <string name="obd_redline_rpm_title">Imposta RPM Massimo</string>
-    <string name="obd_redline_rpm_summary">Imposta il valore massimo dei giri del tuo veicolo</string>
+    <string name="obd_redline_rpm_title">Imposta valore fuorigiri</string>
+    <string name="obd_redline_rpm_summary">Imposta il valore d'entrata in fuorigiri motore del tuo veicolo</string>
     <string name="obd_throttle_options">Opzioni Acceleratore</string>
     <string name="obd_use_raw_throttle_title">Utilizza il valore fornito di posizione acceleratore</string>
     <string name="obd_use_raw_throttle_message">Utilizza il valore OBD2 effettivo o calibra le posizioni minima e massima</string>
     <string name="obd_calibrate_throttle_title">Calibra la posizione dell\'Acceleratore</string>
     <string name="obd_calibrate_throttle_message">Questo avvierà una finestra di dialogo con istruzioni per la calibrazione della posizione minima/massima dell\'acceleratore. Richiede che l\'ECU sia ACCESO e che il dongle OBD sia collegato, il motore dovrebbe essere spento. Ciò NON modificherà alcun valore nella tua ECU!</string>
     <!-- Sensors-->
-    <string name="obd_sensors_coolant_short_label">LIQUIDO</string>
+    <string name="obd_sensors_coolant_short_label">REFRIGERANTE</string>
     <string name="obd_sensors_coolant_long_label">Temperatura Liquido Refrigerante</string>
     <string name="obd_sensors_voltage_short_label">TENSIONE</string>
     <string name="obd_sensors_voltage_long_label">Tensione</string>
@@ -668,13 +668,13 @@
     <string name="map_lock_button_long_press_unlock">Premi e tieni premuto per sbloccare!</string>
     <!--Map Layers Manager-->
     <string name="map_layers_dialog_title">Livelli della Mappa</string>
-    <string name="map_layers_base_map_title">Origine della Mappa di Base</string>
+    <string name="map_layers_base_map_title">Origine della Mappa</string>
     <string name="map_layers_base_map_description">Dati di base per terreni, strade, edifici, indirizzi ed elevazioni.</string>
     <string name="map_layers_3D_buildings_title">Edifici in 3D</string>
     <string name="map_layers_3D_buildings_description">Converte le aree degli edifici in forme 3D estruse di base</string>
     <string name="map_layers_scale_visibility_title">Scala e Visibilità</string>
     <string name="map_layers_scale_visibility_description">Regola la scala e la visibilità della mappa, delle etichette e dei simboli</string>
-    <string name="map_layers_scale_map_layer_label">Scala della Mappa</string>
+    <string name="map_layers_scale_map_layer_label">Scala Mappa</string>
     <string name="map_layers_enable_layer_label">Abilita Livello</string>
     <string name="map_layers_enable_labels_layer_label">Abilita Etichette</string>
     <string name="map_layers_scale_labels_layer_label">Scala Etichette</string>
@@ -722,7 +722,7 @@
     <string name="map_layers_poi_historic">Storico</string>
     <string name="map_layers_poi_natural">Naturale</string>
     <string name="map_layers_poi_parking_place">Posto Auto</string>
-    <string name="map_layers_poi_car_repair">Riparazione Auto</string>
+    <string name="map_layers_poi_car_repair">Officina Auto</string>
     <string name="map_layers_poi_monument">Monumento</string>
     <string name="map_layers_poi_atm">ATM</string>
     <string name="map_layers_poi_bank">Banca</string>
@@ -730,7 +730,7 @@
     <string name="map_layers_poi_water">Acqua Potabile</string>
     <string name="map_layers_poi_rv_park">Parcheggio Camper</string>
     <string name="map_layers_poi_border_control">Controllo di Frontiera</string>
-    <string name="map_layers_poi_moto_repair">Riparazione Motociclette</string>
+    <string name="map_layers_poi_moto_repair">Officina Moto</string>
     <string name="map_layers_theme_title">Tipo e Stile della Mappa</string>
     <string name="map_layers_theme_description">Seleziona il tipo di mappa predefinito minimale e pulito o un tipo di mappa topografica fuoristrada più dettagliato. Imposta anche le modalità di colore chiaro e scuro.</string>
     <string name="map_layers_map_type_default_title">Predefinito Minimale</string>
@@ -740,23 +740,23 @@
     <string name="map_layers_map_type_always_dark">Scuro</string>
     <string name="map_layers_map_type_follow_theme">Tema</string>
     <string name="map_layers_map_type_light_sensor">Sensore</string>
-    <string name="map_layers_topo_advanced_title">Opzioni Avanzate Topografiche</string>
+    <string name="map_layers_topo_advanced_title">Opz. Avanzate Topografiche</string>
     <string name="map_layers_topo_advanced_description">Regola finemente il tipo di mappa topografica fuoristrada</string>
     <string name="map_layers_topo_high_contrast_mode">Modalità Alto Contrasto</string>
     <string name="map_layers_topo_options_altitude_line">Mostra Linee di Altitudine</string>
-    <string name="map_layers_topo_options_low_zoom_unpaved">Evidenzia Non Pavimentate (visibili a basso zoom)</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Visualizza Sterrati (visibili a basso zoom)</string>
     <string name="map_layers_topo_options_show_motorway">Mostra Autostrade</string>
     <string name="map_layers_topo_options_show_primary">Mostra Strade Principali</string>
     <string name="map_layers_topo_options_show_secondary">Mostra Strade Secondarie</string>
     <string name="map_layers_reset">Tutte le impostazioni sono state ripristinate ai valori predefiniti!</string>
-    <string name="map_layers_hillshading_title">Ombreggiatura Colline (online)</string>
+    <string name="map_layers_hillshading_title">Ombreg. Rilievo(online)</string>
     <string name="map_layers_hillshading_description">Mostra la forma topografica di colline e montagne utilizzando l\'ombreggiatura</string>
     <string name="map_layers_hillshading_transparency">Trasparenza</string>
-    <string name="map_layers_routing_title">Interfaccia Utente di Instradamento</string>
+    <string name="map_layers_routing_title">Ipostazioni traccia di nav.</string>
     <string name="map_layers_routing_description">Regola la larghezza della linea di percorso calcolata sulla mappa</string>
     <string name="map_layers_routing_width_line">Larghezza Linea</string>
     <string name="map_layers_routing_transparency_line">Trasparenza Linea</string>
-    <string name="map_layers_routing_pins_size">Dimensione Indicazioni</string>
+    <string name="map_layers_routing_pins_size">Dim.Indicazioni</string>
     <!--GPX Manager-->
     <string name="gpx_manager_track_start">Inizio!</string>
     <string name="gpx_manager_track_end">Fine!</string>
@@ -775,32 +775,32 @@
     <string name="gpx_manager_settings_tracks_visibility">Mostra Tutti i Tracciati GPX Abilitati</string>
     <string name="gpx_manager_settings_direction_arrows_visibility">Mostra Frecce Direzione Traccia</string>
     <string name="gpx_manager_settings_waypoints_visibility">Mostra Tutti i Punti di Interesse Abilitati</string>
-    <string name="gpx_manager_settings_waypoints_titles">Mostra Testo Titolo Punto di Interesse</string>
-    <string name="gpx_manager_settings_waypoints_zoom">Nascondi Punti di Interesse su Bassi Zoom</string>
+    <string name="gpx_manager_settings_waypoints_titles">Mostra Nome Punto di Interesse</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Nascondi Punti di Interesse su Zoom Ampio</string>
     <string name="gpx_manager_settings_style_title">Dimensioni e Opacità</string>
     <string name="gpx_manager_settings_style_message">Imposta le dimensioni e l\'opacità predefinite degli elementi GPX</string>
-    <string name="gpx_manager_settings_defaults_title">Predefiniti Colore</string>
+    <string name="gpx_manager_settings_defaults_title">Colore Predefinito</string>
     <string name="gpx_manager_settings_defaults_message">Colore predefinito della linea del tracciato e sovrascritture di colore</string>
     <string name="gpx_manager_settings_track_width">Larghezza Linea Tracciato</string>
     <string name="gpx_manager_settings_track_transparency">Opacità Tracciato</string>
-    <string name="gpx_manager_settings_arrow_size">Dimensione Freccia Direzione</string>
+    <string name="gpx_manager_settings_arrow_size">Dimensione Freccia</string>
     <string name="gpx_manager_settings_waypoint_size">Dimensione Pin Punto di Interesse</string>
     <string name="gpx_manager_settings_hide_all">Nascondi Tutto</string>
     <string name="gpx_manager_settings_show_all">Mostra Tutto</string>
     <string name="gpx_manager_settings_delete_all">Cancella Tutto</string>
     <string name="gpx_manager_settings_default_track_color">Colore predefinito del tracciato (quando nessun colore è specificato o impostato dall\'utente):</string>
-    <string name="gpx_manager_settings_default_overwrite_all_colors">Sovrascrivi tutti i colori impostati nei file con il colore predefinito:</string>
-    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Sovrascrivi tutti i colori impostati dall\'utente con il colore predefinito:</string>
-    <string name="gpx_manager_settings_load_poi_title">Caricamento Automatico POI</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Sovrascrivi tutti i colori con il colore predefinito:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Sovrascrivi tutti i colori impostati dall\'utente:</string>
+    <string name="gpx_manager_settings_load_poi_title">Auto-caricamento POI</string>
     <string name="gpx_manager_settings_load_poi_message">Carica automaticamente i POI lungo il tracciato fino a 3 categorie</string>
     <string name="gpx_manager_settings_load_poi_enable_label">Abilita caricamento automatico POI lungo il tracciato:</string>
     <string name="gpx_manager_settings_poi_cat_select_cats">Seleziona le categorie dei POI da caricare:</string>
     <string name="gpx_manager_settings_closest_point_title">Linea al Punto Più Vicino</string>
     <string name="gpx_manager_settings_closest_point_desc">Disegna una linea diretta tra la tua posizione e il punto del tracciato più vicino - se ti trovi a più di 200m dal tracciato e il tracciato è a una distanza di 5Km.</string>
-    <string name="gpx_manager_settings_closest_point_label">Abilita Linea</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Punto di Interesse Automatico</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Punto di Interesse Generato Automaticamente Basato sulla Distanza</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Abilita Punto di Interesse Automatico</string>
+    <string name="gpx_manager_settings_closest_point_label">Abilita</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Intervallo Automatico Traccia</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Visualizza Automaticamente Un Marcatore Basato sulla Distanza</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Visualizza Intervallo Distanza</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_distance">Intervallo di Distanza</string>
     <string-array name="gpx_manager_settings_auto_waypoint_distance_entries" translatable="true">
         <item>5Km / 5Mi</item>
@@ -873,19 +873,19 @@
     <string name="map_settings_auto_tilt_title">Abilita livello di inclinazione automatico</string>
     <string name="map_settings_auto_nav_only">Modalità automatica solo durante la navigazione attiva</string>
     <string name="map_settings_ui_cat_title">Opzioni Interfaccia</string>
-    <string name="map_settings_ui_enable_track_progress">Abilita riquadro di progresso traccia</string>
-    <string name="map_settings_ui_enable_track_progress_summary">Mostra un riquadro sul lato dello schermo con il progresso della traccia e le distanze ai prossimi POI e waypoint.</string>
+    <string name="map_settings_ui_enable_track_progress">Abilita riquadro di progressione traccia</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Mostra un riquadro sul lato dello schermo con la linea di progresso della traccia e le distanze ai prossimi POI e waypoint.</string>
     <string name="map_settings_ui_enable_street_name">Mostra nome della via</string>
     <string name="map_settings_ui_enable_street_name_summary">Mostra il nome della via corrente nella parte inferiore della mappa</string>
     <string name="reverse_geo_unnamed_road">Strada Senza Nome</string>
     <string name="map_settings_ui_disable_touch_on_lock">Disabilita tocco mappa quando bloccato</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Particolarmente utile se si dispone di un controller, disabilita il tocco dello schermo intero</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Particolarmente utile se si dispone di un controller, disabilita il tocco dell'intero schermo</string>
     <string name="map_settings_ui_lock_on_move_title">Blocco automatico durante il movimento</string>
     <string name="map_settings_ui_lock_on_move_message">La mappa bloccherà automaticamente l\'interfaccia utente quando inizierai a muoverti</string>
     <string name="map_settings_ui_unlock_on_stop_title">Sblocco automatico quando fermo</string>
     <string name="map_settings_ui_unlock_on_stop_message">La mappa sbloccherà automaticamente l\'interfaccia utente quando smetterai di muoverti</string>
-    <string name="map_settings_ui_hide_widget_labels_title">Nascondi Titoli Widget</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Nasconde i titoli dei widget per aumentare la dimensione delle etichette di valore</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Nascondi il nome del Widget</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Nasconde i nomi dei widget per aumentare la dimensione dei dati</string>
     <string name="map_settings_language_cat_title">Lingua Mappa</string>
     <string name="map_settings_language_load_mode_title">Lingua Mappa</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
@@ -895,13 +895,13 @@
         <item>Tedesco > Inglese o alfabeto latino disponibile</item>
     </string-array>
     <string name="map_settings_navigation_cat_title">Navigazione</string>
-    <string name="map_settings_navigation_start_ask_title">Naviga A: Chiedi di usare DMD2 o Esterno</string>
-    <string name="map_settings_navigation_start_ask_message">Se abilitato, DMD2 chiederà se vuoi utilizzare DMD2 o un\'altra app. Se disabilitato, usa DMD2 per impostazione predefinita.</string>
+    <string name="map_settings_navigation_start_ask_title">Naviga A: Chiedi di usare DMD2 o Applicazione esterna</string>
+    <string name="map_settings_navigation_start_ask_message">Se abilitato, DMD2 chiederà se vuoi utilizzare DMD2 o un\'altra app. Se disabilitato, usa DMD2 come impostazione predefinita.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Abilita Istruzioni Vocali</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Utilizzerà la sintesi vocale per fornire istruzioni vocali per la navigazione.</string>
     <string name="map_settings_navigation_show_waypoints_title">Mostra Waypoints sulla Mappa</string>
-    <string name="map_settings_navigation_show_waypoints_message">Mostrerà il pin del waypoint di istruzioni di routing sulla mappa.</string>
-    <string name="map_settings_navigation_recalculation_distance">Distanza di ricalcolo del percorso automatico</string>
+    <string name="map_settings_navigation_show_waypoints_message">Mostrerà il pin del waypoint e le istruzioni di routing sulla mappa.</string>
+    <string name="map_settings_navigation_recalculation_distance">Distanza di scostamento prima di ricalcolore il percorso</string>
     <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
         <item>50m</item>
         <item>100m</item>
@@ -914,9 +914,9 @@
     <string name="map_settings_controller_cat_title">Impostazioni Controller</string>
     <string name="map_settings_controller_disable_pan_spot_title">Disabilita Spot Target Modalità Pan</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Disabilita le nuove azioni spot target della modalità pan</string>
-    <string name="map_settings_follow_cat_title">Modalità Segui Posizione</string>
+    <string name="map_settings_follow_cat_title">Modalità di percorrenza</string>
     <string name="map_settings_follow_north_oriented">Orientato a Nord</string>
-    <string name="map_settings_follow_north_oriented_summary">Segue la posizione con la parte superiore della mappa fissata a nord</string>
+    <string name="map_settings_follow_north_oriented_summary">Segue il percorso con la parte superiore della mappa fissata a nord</string>
     <string name="map_settings_follow_north_oriented_track">Orientato a Nord "T"- Zoom sulla Traccia Attiva o Navigazione</string>
     <string name="map_settings_follow_north_oriented_track_summary">Come Orientato a Nord ma con zoom vincolato alla traccia attiva o alla navigazione</string>
     <string name="map_settings_follow_north_oriented_file">Orientato a Nord "F"- Zoom su GPX Attivo Completo o Navigazione</string>
@@ -929,7 +929,7 @@
     <string name="map_poi_search_manager">Ricerca Luogo</string>
     <string name="map_poi_search_call">Chiama</string>
     <string name="map_poi_type_name">Inserisci Nome</string>
-    <string name="map_poi_error_no_offline_map_loaded">Errore: nessuna mappa caricata ancora! Scarica prima le mappe offline.</string>
+    <string name="map_poi_error_no_offline_map_loaded">Errore: nessuna mappa è ancora caricata! Scarica prima le mappe offline.</string>
     <string name="map_poi_error_no_poi_found">Errore: nessun POI trovato!</string>
     <string name="map_poi_search_more">Cerca Online</string>
     <string name="map_poi_no_phone_available_error">Nessun numero di telefono disponibile</string>
@@ -949,29 +949,29 @@
     <string name="map_poi_distance_long_press_no_fix">Distanza non disponibile, nessuna fissazione GPS ancora.</string>
     <string name="map_poi_show_pin_for_location">Caricamento ricerca POI per la posizione PIN</string>
     <string name="map_poi_search_name">Cerca Nome</string>
-    <string name="map_poi_cat_fuel">Distributore di Benzina</string>
-    <string name="map_poi_cat_accommodation">Alloggio</string>
+    <string name="map_poi_cat_fuel">Benzinai</string>
+    <string name="map_poi_cat_accommodation">Alloggi</string>
     <string name="map_poi_cat_restaurants">Ristoranti</string>
     <string name="map_poi_cat_cafe">Caffè, Pub &amp; Bar</string>
-    <string name="map_poi_cat_shop">Negozio &amp; Mercato</string>
-    <string name="map_poi_cat_moto_repair">Riparazione Moto</string>
-    <string name="map_poi_cat_car_repair">Riparazione Auto</string>
-    <string name="map_poi_cat_parking">Parcheggio</string>
-    <string name="map_poi_cat_rental">Noleggio, Lavaggio &amp; Ricarica</string>
-    <string name="map_poi_cat_money">Banca &amp; Bancomat</string>
+    <string name="map_poi_cat_shop">Negozi &amp; Mercati</string>
+    <string name="map_poi_cat_moto_repair">Officine Moto</string>
+    <string name="map_poi_cat_car_repair">Officine Auto</string>
+    <string name="map_poi_cat_parking">Parcheggi</string>
+    <string name="map_poi_cat_rental">Noleggi, Lavaggi &amp; Ricariche</string>
+    <string name="map_poi_cat_money">Banche &amp; Bancomat</string>
     <string name="map_poi_cat_wc_water">WC &amp; Acqua</string>
-    <string name="map_poi_cat_camping">Campeggio &amp; Caravan</string>
+    <string name="map_poi_cat_camping">Campeggi &amp; Caravan</string>
     <string name="map_poi_cat_recreation">Tempo Libero</string>
     <string name="map_poi_cat_natural_places">Luoghi Naturali</string>
-    <string name="map_poi_cat_hospital">Ospedale</string>
-    <string name="map_poi_cat_pharmacy">Farmacia</string>
+    <string name="map_poi_cat_hospital">Ospedali</string>
+    <string name="map_poi_cat_pharmacy">Farmacie</string>
     <string name="map_poi_cat_tourism">Turismo</string>
     <string name="map_poi_cat_historic">Luoghi Storici</string>
     <string name="map_poi_cat_pub_transport">Trasporti Pubblici</string>
     <string name="map_poi_cat_pub_entertainment">Intrattenimento</string>
-    <string name="map_poi_cat_pub_government">Governo</string>
+    <string name="map_poi_cat_pub_government">Polizia, PA</string>
     <string name="map_poi_cat_pub_cities">Città, Paesi &amp; Villaggi</string>
-    <string name="map_poi_cat_pub_communications">Comunicazioni</string>
+    <string name="map_poi_cat_pub_communications">Poste e comun.</string>
     <!-- Track Tap -->
     <string name="map_map_track_tap_dialog_title">Tocca il Punto del Percorso</string>
     <string name="map_map_track_tap_track_details">Dettagli del Percorso</string>
@@ -1067,8 +1067,8 @@
     <string name="map_gpx_recorder_dialog_recording_waypoints">Punti di Passaggio:</string>
     <string name="map_gpx_recorder_dialog_recording_start_time">Inizio:</string>
     <string name="map_gpx_recorder_dialog_recording_elapsed_time">Trascorso:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Velocità Media:</string>
-    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Guadagno di Altitudine:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Vel.Media:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Dislivello:</string>
     <string name="map_gpx_recorder_dialog_record">Registra</string>
     <string name="map_gpx_recorder_dialog_pause">Metti in Pausa</string>
     <string name="map_gpx_recorder_dialog_resume">Riprendi</string>
