@@ -225,12 +225,6 @@
     <string name="settings_interface_options">Käyttöliittymän valinnat</string>
     <string name="settings_theme_category">Teema</string>
     <string name="settings_color_theme">Väriteema (Tumma / Vaalea):</string>
-    <string-array name="settings_color_themes" translatable="true">
-        <item>Aina tumma tila</item>
-        <item>Aina vaalea tila</item>
-        <item>Automaattinen (käyttää järjestelmän tilaa) tila</item>
-        <item>Käytä valoisuusanturia tilan valintaan</item>
-    </string-array>
     <string name="settings_accent_color_title">Korostusväri:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
         <item>Sininen</item>
@@ -619,6 +613,7 @@
         <item>Käänteiset värit</item>
         <item>Lukitse / Vapauta</item>
         <item>Play / Pause</item>
+        <item>Show Map</item>
         <item>Älä tee mitään</item>
     </string-array>
     <string name="roadbook_controller_button_up">Ylös-painike</string>
