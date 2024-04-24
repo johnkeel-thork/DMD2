@@ -3,45 +3,45 @@
 
     <!-- Not Translated -->
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
+    <string name="settings_backup_cat">Varmuuskopio ja palautus</string>
+    <string name="settings_backup_gdrive_start">Luo Zip ja tallenna</string>
+    <string name="settings_backup_gdrive_message">Luo zip-tiedosto ja lähetä se. Suosittelemme Google Drivea! Huom: Kartat eivät sisälly.</string>
+    <string name="settings_import_gdrive_start">Lataa Zip ja palauta</string>
+    <string name="settings_import_gdrive_message">Huom: Jos tyhjensit sovelluksen tallennustilan, sinun tulee ladata kartat uudelleen.</string>
+    <string name="settings_run_in_background">Suorita DMD2 taustapalveluna</string>
+    <string name="settings_run_in_background_desc">Jos valittuna, vaihtaessasi toiseen sovellukseen DMD2 jatkaa tallennusta ja matkan seurantaa taustalla.</string>
 
 
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
+    <string name="home_widget_places_title">Paikat</string>
+    <string name="home_widget_places_title_long">Suosikkipaikat</string>
+    <string name="home_widget_places_title_description">Luo pikakuvakkeita omiin suosikkipaikkoihisi</string>
+    <string name="home_widget_places_no_locations">Ei tallennettuja paikkoja, voit tallentaa niitä karttanäkymässä!</string>
+    <string name="home_widget_places_selector_title">Valitse paikka</string>
 
 
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
+    <string name="map_layers_poi_water">Juomavesi</string>
+    <string name="map_layers_poi_rv_park">Matkailuautopysäköinti</string>
+    <string name="map_layers_poi_border_control">Raja-asema</string>
 
 
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_closest_point_title">Viiva lähimpään pisteeseen</string>
+    <string name="gpx_manager_settings_closest_point_desc">Piirtää suoran viivan sijainnistasi lähimpään jäljen/reitin pisteeseen - jos olet yli 200 metrin ja alle 5 kilometrin päässä jäljestä.</string>
+    <string name="gpx_manager_settings_closest_point_label">Näytä viiva</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Automaattiset reittipisteet</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Automaattisesti luodut reittipisteet</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Luo automaattisesti reittipisteitä</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Pisteiden etäisyys</string>
 
 
-    <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="gpx_manager_track_start">Aloita!</string>
+    <string name="gpx_manager_track_end">Lopeta!</string>
 
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="location_manager_no_locations_yet">Ei vielä tallennettuja paikkoja…</string>
 
-    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
-    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
-    <string name="exit_confirm_dialog_send_to_background">Background</string>
+    <string name="exit_confirm_dialog">Sulje DMD2 tai siirrä se taustalle?</string>
+    <string name="exit_confirm_dialog_message">Jos suljet DMD2:n, matkatietoja tai reittiä ei tallenneta!</string>
+    <string name="exit_confirm_dialog_send_to_background">Taustalle</string>
 
     <string name="fall_alert_title">SOS Fall Alert Received!</string>
     <string name="fall_alert_message">You have received a fall alert! Full message:</string>
@@ -58,55 +58,55 @@
     <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
 
-    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
-    <string name="widget_info_gps_cardinal_label">Compass</string>
+    <string name="widget_info_gps_cardinal_name">Pääkompassi</string>
+    <string name="widget_info_gps_cardinal_label">Kompassi</string>
 
     <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
     <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
 
-    <string name="gpx_manager_load_error_title">GPX Load Error</string>
-    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+    <string name="gpx_manager_load_error_title">GPX-latauksen virhe</string>
+    <string name="gpx_manager_load_error_message">Virhe GPX-tiedoston latauksessa. DMD2 ei yritä ladata sitä uudelleen. Kokeile toista tiedostoa.</string>
 
-    <string name="map_settings_ui_enable_street_name">Show street name</string>
-    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
-    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+    <string name="map_settings_ui_enable_street_name">Näytä tien nimi</string>
+    <string name="map_settings_ui_enable_street_name_summary">Näyttää nykyisen tien nimen kartan alaosassa</string>
+    <string name="reverse_geo_unnamed_road">Nimetön tie</string>
 
-    <string name="map_poi_search_name">Search Name</string>
-    <string name="map_poi_cat_fuel">Gas Station</string>
-    <string name="map_poi_cat_accommodation">Accommodation</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Shop &amp; Market</string>
-    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
-    <string name="map_poi_cat_car_repair">Car Repair</string>
-    <string name="map_poi_cat_parking">Parking Place</string>
-    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
-    <string name="map_poi_cat_money">Bank &amp; ATM</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreation</string>
-    <string name="map_poi_cat_natural_places">Natural Places</string>
-    <string name="map_poi_cat_hospital">Hospital</string>
-    <string name="map_poi_cat_pharmacy">Pharmacy</string>
-    <string name="map_poi_cat_tourism">Tourism</string>
-    <string name="map_poi_cat_historic">Historic Places</string>
-    <string name="map_poi_cat_pub_transport">Public Transports</string>
-    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
-    <string name="map_poi_cat_pub_government">Government</string>
-    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+    <string name="map_poi_search_name">Etsi nimellä</string>
+    <string name="map_poi_cat_fuel">Huoltoasema</string>
+    <string name="map_poi_cat_accommodation">Majoitus</string>
+    <string name="map_poi_cat_restaurants">Ravintola</string>
+    <string name="map_poi_cat_cafe">Kahvila, pubi &amp; baari</string>
+    <string name="map_poi_cat_shop">Kauppa</string>
+    <string name="map_poi_cat_moto_repair">MP-korjaamo</string>
+    <string name="map_poi_cat_car_repair">Autokorjaamo</string>
+    <string name="map_poi_cat_parking">Parkkipaikka</string>
+    <string name="map_poi_cat_rental">Vuokraa, pese &amp; lataa</string>
+    <string name="map_poi_cat_money">Pankki &amp; automaatti</string>
+    <string name="map_poi_cat_wc_water">WC &amp; vesi</string>
+    <string name="map_poi_cat_camping">Leirintäalue</string>
+    <string name="map_poi_cat_recreation">Virkistys</string>
+    <string name="map_poi_cat_natural_places">Luontopaikat</string>
+    <string name="map_poi_cat_hospital">Sairaala</string>
+    <string name="map_poi_cat_pharmacy">Apteekki</string>
+    <string name="map_poi_cat_tourism">Turismi</string>
+    <string name="map_poi_cat_historic">Historialliset paikat</string>
+    <string name="map_poi_cat_pub_transport">Julkinen liikenne</string>
+    <string name="map_poi_cat_pub_entertainment">Viihde</string>
+    <string name="map_poi_cat_pub_government">Hallinto</string>
+    <string name="map_poi_cat_pub_cities">Kaupngit &amp; kylät</string>
+    <string name="map_poi_cat_pub_communications">Viestintä</string>
 
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Online-osoitteet</string>
 
-    <string name="location_manager_my_locations_cat">My Places</string>
-    <string name="location_manager_save_location_button">Save Location</string>
-    <string name="location_manager_save_location_name">Location Name</string>
-    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
-    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
-    <string name="location_manager_save_location_no_description">No description</string>
-    <string name="location_manager_save_location_saved">Location Saved!</string>
-    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
-    <string name="location_manager_save_new">Add New</string>
+    <string name="location_manager_my_locations_cat">Omat paikat</string>
+    <string name="location_manager_save_location_button">Tallenna Paikka</string>
+    <string name="location_manager_save_location_name">Paikan nimi</string>
+    <string name="location_manager_save_location_dialog_title">Tallenna omiin paikkoihin</string>
+    <string name="location_manager_save_location_unnamed">Nimettömät paikat</string>
+    <string name="location_manager_save_location_no_description">Ei kuvausta</string>
+    <string name="location_manager_save_location_saved">Paikka tallennettu!</string>
+    <string name="location_manager_save_keep_on_map">Pidä näkyvissä kartalla</string>
+    <string name="location_manager_save_new">Lisää uusi</string>
 
 
     <!-- End Of Not Translated -->
