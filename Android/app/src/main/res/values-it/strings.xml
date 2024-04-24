@@ -121,7 +121,7 @@
     <!-- Settings -->
     <string name="settings_backup_cat">Backup e Ripristino</string>
     <string name="settings_backup_gdrive_start">Crea Zip e Salva</string>
-    <string name="settings_backup_gdrive_message">Consente di creare e inviare un file zip. Si consiglia l'uso di Google Drive! Nota: le mappe non sono incluse.</string>
+    <string name="settings_backup_gdrive_message">Consente di creare e inviare un file zip. Si consiglia l\'uso di Google Drive! Nota: le mappe non sono incluse.</string>
     <string name="settings_import_gdrive_start">Importa file Zip e ripristino</string>
     <string name="settings_import_gdrive_message">Nota: se è stata cancellata la memoria dell\'app, è necessario scaricare nuovamente le mappe offline.</string>
     <string name="settings_run_in_background">Avvia DMD2 come Servizio</string>
@@ -255,7 +255,7 @@
     <string name="map_storage_sd_card_missing_switch_retry">Riprova</string>
     <string name="map_storage_sd_card_missing_switch_internal">Utilizzare la memoria interna</string>
     <string name="map_storage_sd_card_mounting_title">Attendere il montaggio della scheda SD</string>
-    <string name="map_storage_sd_card_mounting_message">Attendere il completamento del montaggio della scheda SD...</string>
+    <string name="map_storage_sd_card_mounting_message">Attendere il completamento del montaggio della scheda SD…</string>
     <string name="map_storage_sd_card_mounting_button">Interruzione &amp; Passare alla memoria interna</string>
     <string name="map_storage_sd_card_different_error_title">Scheda SD differente!</string>
     <string name="map_storage_sd_card_different_error_message">Sembra che abbiate sostituito la scheda SD, volete utilizzare questa scheda? In caso contrario, inserire la scheda corretta!</string>
@@ -434,7 +434,7 @@
     <string name="obd_max_rpm_title">Imposta valore massimo RPM</string>
     <string name="obd_max_rpm_summary">Imposta il valore massimo dei giri del tuo veicolo</string>
     <string name="obd_redline_rpm_title">Imposta valore fuorigiri</string>
-    <string name="obd_redline_rpm_summary">Imposta il valore d'entrata in fuorigiri motore del tuo veicolo</string>
+    <string name="obd_redline_rpm_summary">Imposta il valore d\'entrata in fuorigiri motore del tuo veicolo</string>
     <string name="obd_throttle_options">Opzioni Acceleratore</string>
     <string name="obd_use_raw_throttle_title">Utilizza il valore fornito di posizione acceleratore</string>
     <string name="obd_use_raw_throttle_message">Utilizza il valore OBD2 effettivo o calibra le posizioni minima e massima</string>
@@ -537,6 +537,7 @@
         <item>Inverti Colore Carta</item>
         <item>Blocca/Sblocca</item>
         <item>Play/Pausa</item>
+        <item>Show Map</item>
         <item>Niente</item>
     </string-array>
     <string name="roadbook_controller_button_up">Tasto Su</string>
@@ -879,7 +880,7 @@
     <string name="map_settings_ui_enable_street_name_summary">Mostra il nome della via corrente nella parte inferiore della mappa</string>
     <string name="reverse_geo_unnamed_road">Strada Senza Nome</string>
     <string name="map_settings_ui_disable_touch_on_lock">Disabilita tocco mappa quando bloccato</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Particolarmente utile se si dispone di un controller, disabilita il tocco dell'intero schermo</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Particolarmente utile se si dispone di un controller, disabilita il tocco dell\'intero schermo</string>
     <string name="map_settings_ui_lock_on_move_title">Blocco automatico durante il movimento</string>
     <string name="map_settings_ui_lock_on_move_message">La mappa bloccherà automaticamente l\'interfaccia utente quando inizierai a muoverti</string>
     <string name="map_settings_ui_unlock_on_stop_title">Sblocco automatico quando fermo</string>
