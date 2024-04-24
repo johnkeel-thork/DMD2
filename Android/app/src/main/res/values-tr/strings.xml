@@ -1,0 +1,1127 @@
+<resources>
+
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_online_status">Online</string>
+    <string name="status_bar_offline_status">Offline</string>
+
+    <!-- Bottom Menu -->
+    <string name="menu_global_settings">Ayarlar</string>
+    <string name="menu_exit">Çıkış</string>
+    <string name="menu_home">Ev</string>
+    <string name="menu_apps">Apps</string>
+    <string name="menu_roadbook">Yol Kitabı</string>
+    <string name="menu_map">Harita</string>
+    <string name="menu_obd">OBD Sensorleri</string>
+    <!-- Menu Editor -->
+    <string name="menu_edit_title">Alt Menüyü Düzenle</string>
+    <string name="menu_edit_message">Menü girişlerini yeniden sıralayın ve etkinleştirin/devre dışı bırakın</string>
+    <string name="menu_sorter_instructions">Bir öğeyi taşımak için dokunup basılı tutun. Göstermek veya gizlemek için anahtarı kullanın.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Pil Göstergesi (güncellenmesi birkaç dakika sürebilir)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Yüzde</item>
+        <item>Şimdiki Zaman<</item>
+        <item>Sıcaklık</item>
+    </string-array>
+
+    <!-- Global -->
+    <!-- Units -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/h</string>
+    <string name="meters">metre</string>
+    <string name="feet">feet</string>
+    <string name="yards">yards</string>
+    <string name="kilometer">kilometre</string>
+    <string name="kilometers">kilometreler</string>
+    <string name="miles">miles</string>
+    <!-- Buttons -->
+    <string name="back">Geri</string>
+    <string name="abort">İptal et</string>
+    <string name="ok">Tamam</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="close">Kapat</string>
+    <string name="delete">Sil</string>
+    <string name="replace">Değiştir</string>
+    <string name="rename">Yeniden Adlandır</string>
+    <string name="reset">Sıfırla</string>
+    <string name="refresh">Yenile</string>
+    <string name="enable">Etkin</string>
+    <string name="download">İndir</string>
+    <string name="load">Yükle</string>
+    <string name="unload">Yüklemeyi kaldır</string>
+    <string name="update">Güncelle</string>
+    <string name="share">Paylaş</string>
+    <string name="advanced">Gelişmiş</string>
+    <string name="settings">Ayarlar</string>
+    <string name="hide">Gizle</string>
+    <string name="later">Sonra</string>
+    <string name="finish">Bitti</string>
+    <string name="abort_download">İndirmeyi iptal et</string>
+    <string name="start">Başlat</string>
+    <!-- Messages / Errors & Warnings -->
+    <string name="error_creating_directory">Kullanıcı Dizini Oluşturulurken Hata!</string>
+    <string name="error_deleting_file">Dosya Silinirken Hata!</string>
+    <string name="error_file_already_exists_title">Dosya Değiştirme Uyarısı</string>
+    <string name="error_file_already_exists_message">Aynı isimde bir dosya zaten mevcut, ne yapmak istiyorsunuz?</string>
+    <string name="error_file_new_name_title">Dosyayı yeniden adlandır</string>
+    <string name="share_file_with">Dosyayı Şununla Paylaş:</string>
+    <string name="connect_to_internet">Lütfen internete bağlı olduğunuzdan emin olun!</string>
+    <string name="exit_confirm_dialog">DMD2 kapatılsın mı yoksa arka plana mı gönderilsin?</string>
+    <string name="exit_confirm_dialog_message">DMD2'yi kapatırsanız yolculuk değerleri artmayacak ve GPX kaydı duracaktır!</string>
+    <string name="exit_confirm_dialog_send_to_background">Arka plan</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">SOS Düşme Uyarısı Alındı!</string>
+    <string name="fall_alert_message">Düşme uyarısı aldınız! Tam mesaj:</string>
+    <string name="fall_alert_show_on_map">Görüntüle ve göster Yardım</string>
+    <string name="fall_alert_ignore">Yoksay</string>
+    <string name="fall_alert_open_sms">Aç SMS</string>
+    <string name="fall_alert_mode_on">SOS Mode!</string>
+    <string name="fall_alert_center_map">Haritayı ortala</string>
+    <string name="fall_alert_share">Yeri Paylaş</string>
+    <string name="fall_alert_finish">Bitti SOS</string>
+    <string name="fall_alert_navigate">Şu yöne rotayı ayarla</string>
+    <!-- App Update -->
+    <string name="app_update_title">DMD2 Güncellemesi Mevcut</string>
+    <string name="app_update_message">DMD2 için bir güncelleme mevcut, şimdi güncellemek istiyor musunuz? \n Yenilikler:</string>
+    <string name="app_update_download_notification">DMD2 Güncellemesini İndirme</string>
+    <string name="app_update_download_progress">İndirme ilerlemesi:</string>
+    <!-- Controller App Update -->
+    <string name="controller_app_update_dialogue_title">Denetleyici Uygulama Güncellemesi</string>
+    <string name="controller_app_update_dialogue_message">Kumanda uygulaması için bir güncelleme var, şimdi güncellemek istiyor musunuz? \Yenilikler:</string>
+    <string name="controller_app_update_download_notification">Güncelleme indiriliyor</string>
+    <string name="controller_app_update_download_progress">İndirme ilerlemesi:</string>
+    <!-- T93 Dialog -->
+    <string name="t93_trial_title">DMD2 Deneme Sürümü</string>
+    <string name="t93_trial_message">Y30 günlük ücretsiz deneme süreniz var. Özel bir DMD2 Sürümü lisans anahtarınız varsa, lütfen bunu talep etmek için ekleyin.</string>
+    <string name="t93_trial_button">Deneme sürümüne devam et</string>
+    <string name="t93_dmd2_edition_button">Anahtar Gir</string>
+    <string name="t93_finish_trial_button">Deneme Sürümünü Sonlandır</string>
+    <string name="t93_dmd2_edition_insert_key_title">DMD2-sürüm Anahtarını Gir:</string>
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Actif</string>
+    <string name="download_manager_active_download_paused">Duraklatıldı</string>
+    <string name="download_manager_active_download_error">Hata</string>
+    <string name="download_manager_active_download_downloading">İndiriliyor</string>
+    <string name="download_manager_active_download_downloading_no_progress">İndiriliyor ancak ilerleme gösterilemiyor</string>
+    <string name="download_manager_active_download_interrupted">Kesintiye uğradı</string>
+    <string name="download_manager_active_download_interrupted_file">Kesintiye uğrayan dosya:</string>
+    <string name="download_manager_active_download_no_net">Internet Yok!</string>
+    <string name="download_manager_active_download_no_net_waiting">internet Bağlantısı Bekleniyor...</string>
+    <string name="download_manager_active_download_cannot_abort">Mevcut dosya iptal edilemiyor, lütfen bekleyin!</string>
+    <string name="download_manager_active_download_in_queue">Sırada…</string>
+
+    <!-- Settings -->
+    <string name="settings_backup_cat">Yedekle ve Geri yükle</string>
+    <string name="settings_backup_gdrive_start">Zip Oluştur ve Kaydet</string>
+    <string name="settings_backup_gdrive_message">Bir zip dosyası oluşturur ve onu göndermenize olanak tanır, Google Drive'a öneririz! Not: Haritalar dahil değildir.</string>
+    <string name="settings_import_gdrive_start">Zip'i İçe Aktar ve Geri Yükle</string>
+    <string name="settings_import_gdrive_message">Not: Uygulama depolama alanını temizlediyseniz lütfen çevrimdışı haritalarınızı manuel olarak indirmeniz gerektiğini unutmayın.</string>
+    <string name="settings_run_in_background">DMD2'yi Hizmet olarak çalıştırın</string>
+    <string name="settings_run_in_background_desc">Etkinleştirilirse DMD2'den başka bir uygulamaya geçtiğinizde gezi ve GPX kaydedici hizmet olarak çalışacaktır.</string>
+    <string name="settings_localization_options">Yerelleştirme</string>
+    <string name="settings_hour_format">24 saat biçimini kullan</string>
+    <string name="settings_use_fahrenheit">Celsius yerine Fahrenheit kullanın</string>
+    <string name="settings_use_imperial_units">İngiliz ölçü birimlerini kullanın</string>
+    <string name="settings_interface_options">Arayüz Seçenekleri</string>
+    <string name="settings_theme_category">Tema</string>
+    <string name="settings_color_theme">Renk teması (Koyu / Açık):</string>
+    <string-array name="settings_color_themes" translatable="true">
+        <item>Daima Karanlık Mod</item>
+        <item>Daima Işık Modu</item>
+        <item>Otomatik (sistemi takip et)</item>
+        <item>Işık Sensörünü Kullan</item>
+    </string-array>
+    <string name="settings_accent_color_title">Vurgu rengi:</string>
+    <string-array name="settings_accent_colors_names" translatable="true">
+        <item>Mavi</item>
+        <item>Koyu Mavi</item>
+        <item>Kırmızı</item>
+        <item>Turuncu</item>
+        <item>Yeşil</item>
+        <item>Sarı</item>
+        <item>Pembe</item>
+    </string-array>
+    <string name="remote_controller_category">Uzaktan Kumanda Ayarları</string>
+    <string name="controller_selection">Uzaktan kumanda modelini seçin</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Otomatik algılama</item>
+        <item>DMD Remote1</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+    </string-array>
+    <string name="controller_dialog_title">Uzaktan Kumanda Uygulaması Kurulumu</string>
+    <string name="controller_dialog_message">DMD Uzaktan Kumandanın tüm avantajlarından yararlanmak için yardımcı program uygulamasını yüklemeniz gerekir. Şimdi yüklemek istiyor musunuz?</string>
+    <string name="controller_dialog_download_title">Denetleyici Uygulamasını İndirme</string>
+    <string name="settings_dmd_devices_category">DMD-T Cihazlarının Özellikleri</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Ekran kapalıyken GPS'i çalışır durumda tutun</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Etkinleştirilirse, GPX kaydı gibi Gezi ve GPS ile ilgili işlevler ekran kapatılsa bile çalışmaya devam eder</string>
+    <string name="settings_screen_category">Ekran</string>
+    <string name="settings_screen_lock_rotation">Ekran yönünü kilitle</string>
+    <string name="settings_screen_lock_rotation_summary">Sürüş sırasında ekranın yanlışlıkla dönmesini önleyin</string>
+    <string name="settings_screen_orientation">Yönü şu şekilde kilitle:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Yatay (Tablet)</item>
+        <item>Tersine Yatay (Tablet)</item>
+        <item>Dik (Phone)</item>
+        <item>Tersine Dik (Phone)</item>
+    </string-array>
+    <string name="settings_notifications_category">Bildirimler</string>
+    <string name="settings_notifications_enable_title">Bildirim açılır penceresini etkinleştir (izin gerekli)</string>
+    <string name="settings_notifications_enable_summary">Kullanıcının seçebileceği bir uygulama listesinden bildirimleri göster</string>
+    <string name="settings_notifications_dismiss">Yöntemi reddet</string>
+    <string-array name="settings_notifications_dismiss_names" translatable="true">
+        <item>5 saniye sonra</item>
+        <item>10 saniye sonra</item>
+        <item>15 saniye sonra</item>
+        <item>30 saniye sonra</item>
+        <item>60 saniye sonra</item>
+        <item>Manuel olarak (Kaydırma veya Kontrol Cihazı)</item>
+    </string-array>
+    <string name="settings_notifications_controller_lock_title">Gidon denetleyicisi odağı</string>
+    <string name="settings_notifications_controller_lock_message">Bir bildirim göründüğünde uzaktan kumanda ona odaklanacaktır. Enter tuşu bildirim eylemini başlatır ve geri tuşu bildirimi temizler.</string>
+    <string name="settings_notifications_apps_selection_title">Uygulama filtresi</string>
+    <string name="settings_notifications_apps_selection_message">Bildirim açılır penceresini hangi uygulamalar için görmek istediğinizi seçin</string>
+    <string name="settings_notifications_group_title">Her gruptan yalnızca son bildirimi göster</string>
+    <string name="settings_notifications_group_message">Etkinleştirilirse, her bildirim grubu için yalnızca en son bildirim güncellemesini göreceksiniz. Örneğin, bir sohbet bildirimindeki en son mesaj.</string>
+    <string name="settings_notifications_app_selection_dialog_title">Şunun için Bildirimleri Göster:</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Hepsi yok</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Kapat</string>
+    <!-- Trip Settings-->
+    <string name="settings_trip_options">Trip Options</string>
+    <string name="settings_trip_auto_reset_title">Otomatik Trip Resetle</string>
+    <string name="settings_trip_auto_reset_summary">DMD2 yapılandırılabilir bir süreden daha uzun süre başlatılmazsa yolculuk otomatik olarak sıfırlanır</string>
+    <string name="settings_trip_auto_reset_time_title">Otomatik Trip Sıfırlama Süresi</string>
+    <string-array name="settings_trip_reset_time_entries" translatable="true">
+        <item>6 Saat</item>
+        <item>12 Saat</item>
+        <item>1 Gün</item>
+        <item>2 Gün</item>
+        <item>5 Gün</item>
+    </string-array>
+    <!-- OEM Registration-->
+    <string name="settings_oem_registration">OEM Kaydı</string>
+    <string name="settings_oem_check">Kayıt İşlemi (internet bağlantısı gerektirir)</string>
+    <string name="settings_oem_check_summary">OYalnızca motosikletiniz, Drive Mode Dashboard 2'nin önceden yüklenmiş olduğu bir Android cihazla donatılmış olarak geldiyse kullanın.</string>
+    <!-- Info & Links -->
+    <string name="settings_info_and_links">Bilgi ve Bağlantılar</string>
+    <string name="settings_app_version">DMD2 Version</string>
+    <string name="settings_app_installed_version">Kurulu sürüm:</string>
+    <string name="settings_dmd2_website">Resmi web sitesinde DMD2 uygulaması hakkında daha fazla bilgi edinin</string>
+    <string name="settings_developer_website_title">DMD2 size tarafından sunulmaktadır</string>
+    <string name="settings_tripltek_website_title">TDMD2 sürümü Tripltek cihazları için optimize edilmiştir</string>
+    <string name="settings_follow_us_facebook">En son haberler için Facebook sayfamızı ziyaret edin ve takip edin</string>
+    <string name="settings_join_us_facebook">Facebook grubumuza katılın</string>
+    <string name="settings_dmd2_forum">Yeni özellikler, hatalar ve istekler hakkındaki tartışmaya katılın</string>
+    <string name="settings_license_title">Özel Lisans Anahtarları</string>
+    <string name="settings_dmd2_edition_redeem_title">Deneme / DMD2 Sürümü</string>
+    <string name="settings_dmd2_edition_redeem_message">Denemeyi Yönetin veya DMD2 Sürümü anahtarını ekleyin</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_dmd2_title">DMD2 Denemesine Hoş Geldiniz</string>
+    <string name="welcome_dmd2_message">DMD2, cihazınızı özellikle maceraya ve off-road'a odaklanan motosikletler ve arabalar için eksiksiz bir kontrol paneline dönüştürmek üzere tasarlanmıştır. Navigasyon için bir Harita, bir Yol Kitabı, OBD2 Sensörleri ve çok daha fazlasını içerir.</string>
+    <string name="welcome_dmd2_lets_go">Başlat</string>
+    <!-- GPS Settings -->
+    <string name="settings_gps_settings_title">GPS Ayarları</string>
+    <string name="settings_bypass_acc_filter_title">Düşük GPS Doğruluğu Filtresi</string>
+    <string name="settings_bypass_acc_filter_message">Optimumun altında GPS kalitesine sahip cihazlar için</string>
+    <!-- Storage -->
+    <string name="map_storage_location_cat_title">Depolama</string>
+    <string name="map_storage_location_select_title">Depolamayı Çıkarılabilir SD Karta Ayarlayın</string>
+    <string name="map_storage_location_select_message">Çevrimdışı harita dosyaları ve kullanıcı dosyaları için.</string>
+    <string name="map_storage_sd_card_missing_error_title">SD Kart Eksik!</string>
+    <string name="map_storage_sd_card_missing_error_message">Daha önce kullanılmış SDCard eksik, lütfen takın!</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Yeniden dene</string>
+    <string name="map_storage_sd_card_missing_switch_internal">Dahili Belleği Kullan</string>
+    <string name="map_storage_sd_card_mounting_title">SD Kartın Takılması Bekleniyor</string>
+    <string name="map_storage_sd_card_mounting_message">Lütfen SD Kart takma işleminin tamamlanmasını bekleyin…</string>
+    <string name="map_storage_sd_card_mounting_button">iptal et Dahili Belleğe Geç</string>
+    <string name="map_storage_sd_card_different_error_title">Farklı SD Kart!</string>
+    <string name="map_storage_sd_card_different_error_message">Görünüşe göre SD Kartınızı değiştirmişsiniz, bu kartı kullanmak istiyor musunuz? Değilse lütfen doğru kartı takın!</string>
+    <string name="map_storage_sd_card_different_error_recheck">Tekrar Kontrol Et</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">SD Kart hala bulunamadı! Lütfen tekrar kontrol edin!</string>
+    <string name="map_storage_sd_card_move_map_files_title">Harita Dosyaları Taşınsın mı?</string>
+    <string name="map_storage_sd_card_move_map_files_external">Harita dosyalarını dahili bellekten SD Karta taşımak istiyor musunuz? Yeterli alanınız yoksa bu işlem başarısız olabilir!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Harita dosyalarını çıkarılabilir SD Karttan dahili belleğe taşımak istiyor musunuz? Yeterli alanınız yoksa bu işlem başarısız olabilir!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Dosyalar taşınıyor, lütfen bekleyin! Uygulamayı kapatmayın veya başka bir ekrana geçmeyin!</string>
+
+    <!-- Home-->
+    <!-- Widget Types-->
+    <string name="home_widget_trip_title">YOLCULUK</string>
+     <string name="home_widget_trip_title_long">Seyahat İstatistikleri</string>
+     <string name="home_widget_trip_description">Yolculuğunuzla ilgili gerçek zamanlı değerleri, mesafe, toplam süre, seyahat süresi, durma süresi ve ortalama hız gibi bilgileri görüntüleyin.</string>
+     <string name="home_widget_apps_title">UYGULAMALAR</string>
+     <string name="home_widget_apps_title_long">Uygulama Kısayolları</string>
+     <string name="home_widget_apps_description">Favori uygulamalarınızı başlatmak için hızlı erişim uygulaması kısayollarını ayarlayın.</string>
+    <string name="home_widget_apps_selection_dialog_title">Uygulama Kısayolunu Seçin veya Yuvayı Temizle</string>
+     <string name="home_widget_apps_clear_selection">Yuvayı Temizle</string>
+     <string name="home_widget_obd_rpm_title">OBD RPM</string>
+     <string name="home_widget_obd_rpm_title_long">OBD RPM Göstergesi</string>
+     <string name="home_widget_obd_rpm_description">Temiz bir tasarıma sahip, kırmızı çizgi renk değişimi ve sayısal gösterge içeren OBD tabanlı bir RPM çubuğu.</string>
+     <string name="home_widget_heading_title">HEADING</string>
+     <string name="home_widget_heading_title_long">GPS Yönü</string>
+     <string name="home_widget_heading_description">Geçerli yönünüz için GPS verilerini temel alan grafiksel bir gösterge, sayısal derece değerini içerir.</string>
+     <string name="home_widget_media_title">MEDYA</string>
+     <string name="home_widget_media_title_long">Medya Oynatıcı Kontrolü</string>
+     <string name="home_widget_media_description">Aktif medya oturumunuzu kontrol etmenize olanak tanır; albüm resmini, parçayı ve sanatçı adını içerir (bildirimlere erişim izni gerektirir).</string>
+     <string name="home_widget_map_title">NAV</string>
+     <string name="home_widget_map_title_long">Harita Görünümü</string>
+     <string name="home_widget_map_description">Yüklenen tüm içeriğin ve etkin durumların yer aldığı harita görünümünüz, harita kontrollerini içermez ve yalnızca sol panelden yüklenebilir.</string>
+     <string name="home_widget_speed_title">HIZ</string>
+     <string name="home_widget_speed_title_long">GPS Hızı</string>
+     <string name="home_widget_speed_description">GPS verilerine dayalı olarak mevcut seyahat hızınızı gösteren büyük bir sayısal hız değeri.</string>
+     <string name="home_widget_places_title">Yerler</string>
+     <string name="home_widget_places_title_long">Favori Yerler</string>
+     <string name="home_widget_places_title_description">Kullanıcıların kaydettiği favori yerleriniz için kısayollar oluşturun</string>
+   <string name="home_widget_places_no_locations">Henüz kayıtlı yer yok, bunları harita görünümüne kaydedebilirsiniz!</string>
+     <string name="home_widget_places_selector_title">Yer Seç</string>
+     <string name="home_widget_odo_title">ODO</string>
+     <string name="home_widget_odo_title_long">Kilometre sayacı</string>
+     <string name="home_widget_odo_description">Düzenlenebilir bir kilometre sayacı</string>
+     <string name="home_widget_odo_dialog_title">Kilometre Sayacı Seçenekleri</string>
+     <string name="home_widget_odo_dialog_message">Odometre değerini sıfırlayın veya mevcut değeri düzenleyin</string>
+     <string name="home_widget_odo_dialog_edit_title">Kilometre Sayacı Değerini Düzenle</string>
+     <string name="home_widget_numeric_values_title">BİLGİ</string>
+     <string name="home_widget_numeric_values_title_long">GPS ve amp; OBD Göstergeleri</string>
+     <string name="home_widget_numeric_values_description">OBD sensörlerinden ve GPS verilerinden kullanıcı tarafından seçilebilen değerler.</string>
+     <string name="home_widget_notifications_list_title">BİLDİRİMLER</string>
+     <string name="home_widget_notifications_list_title_long">Bildirim Listesi</string>
+     <string name="home_widget_notifications_list_description">Şu anda etkin olan bildirimlerinizin listesi.</string>
+     <string name="home_widget_notifications_list_no_notification">Henüz bildirim yok</string>
+     <string name="home_widget_system_title">HARİCİ WIDGET</string>
+     <string name="home_widget_system_title_long">Sistem Widget'ı</string>
+     <string name="home_widget_system_description">Yüklü uygulamalarınızdan Android sistem widget'larını yükleyin.</string>
+     <string name="home_widget_big_clock_title">SAAT</string>
+     <string name="home_widget_big_clock_title_long">Büyük Bir Saat</string>
+     <string name="home_widget_big_clock_description">Zamanın sizin için çok önemli olması durumunda yalnızca basit, büyük bir dijital saat.</string>
+    <string name="home_widget_map_progress_title">İLERLEME</string>
+     <string name="home_widget_map_progress_title_long">Harita İlerleme Etkinliği</string>
+     <string name="home_widget_map_progress_description">İkisi arasındaki etkin duruma bağlı olarak gezinme talimatlarını veya GPX izleme ilerlemesini gösterir.</string>
+     <string name="home_widget_empty_title">YOK</string>
+     <string name="home_widget_empty_title_long">Yok</string>
+     <string name="home_widget_empty_description">Düzeni dikey olarak büyütmek için yuva alanını temizleyin</string>
+     <string name="home_widget_settings_dialog_title">Widget'ı Seçin</string>
+     <!-- Home Editor -->
+     <string name="home_widget_editor_left_panel_title">Sol Panel</string>
+     <string name="home_widget_editor_right_panel_title">Sağ Panel</string>
+     <string name="home_widget_editor_center_top_title">Orta Üst</string>
+     <string name="home_widget_editor_center_bottom_title">Orta Alt</string>
+     <string name="home_widget_editor_left_panel_edit_button">Widget'ı Değiştir</string>
+     <!-- Widget Trip -->
+     <string name="home_widget_trip_distance">Mesafe</string>
+     <string name="home_widget_trip_total_time">Toplam Süre</string>
+     <string name="home_widget_trip_travel_time">Seyahat Süresi</string>
+     <string name="home_widget_trip_stop_time">Durdurma Zamanı</string>
+     <string name="home_widget_trip_avg_average">Ort. Hız</string>
+     <!-- Widget Info: GPS & OBD Sensor Selector -->
+     <string name="widget_info_selector_dialog_title">GPS/OBD Sensörünü Seçin</string>
+     <string name="widget_info_gps_altitude_name">GPS Yüksekliği</string>
+     <string name="widget_info_gps_altitude_label">Yükseklik</string>
+     <string name="widget_info_gps_heading_name">GPS Yönü</string>
+     <string name="widget_info_clock_name">Zaman</string>
+     <string name="widget_info_gps_heading_label">Başlık</string>
+     <string name="widget_info_gps_cardinal_name">Anahtar Pusula</string>
+     <string name="widget_info_gps_cardinal_label">Pusula</string>
+     <string name="widget_info_gps_speed_name">GPS Hızı</string>
+     <string name="widget_info_gps_speed_label">Hız</string>
+     <string name="widget_info_gps_trip_max_speed_name">Yolculuk Maksimum Hızı</string>
+     <string name="widget_info_gps_trip_max_speed_label">Maksimum Hız</string>
+     <string name="widget_info_gps_trip_distance_name">Yolculuk Mesafesi</string>
+     <string name="widget_info_gps_trip_total_time_name">Yolculuk Toplam Süresi</string>
+     <string name="widget_info_gps_trip_travel_time_name">Yolculuk Seyahat Süresi</string>
+     <string name="widget_info_gps_trip_stop_time_name">Seyahat Durma Süresi</string>
+     <string name="widget_info_gps_trip_avg_speed_name">Yolculuk Ortalama Hızı</string>
+     <string name="widget_info_obd_speed_label">OBD Hızı</string>
+     <string name="widget_info_obd_rpm_label">RPM</string>
+     <string name="widget_info_obd_coolant_label">Soğutma sıvısı</string>
+     <string name="widget_info_obd_voltage_label">Voltaj</string>
+     <string name="widget_info_obd_fuel_label">Yakıt</string>
+     <string name="widget_info_obd_tbposition_label">Gaz</string>
+     <string name="widget_info_obd_spark_label">Kıvılcım</string>
+     <string name="widget_info_obd_map_label">HARİTA</string>
+     <string name="widget_info_obd_intake_temp_label">IAT</string>
+     <string name="widget_info_obd_intake_maf_label">MAF</string>
+     <string name="widget_info_obd_none_title">Görünmez</string>
+     <string name="widget_info_obd_none_reset">Sıfırla</string>
+     <string name="widget_info_adv_voltage_label">AdvCtrl Gerilimi</string>
+     <!-- Widget Media Control Permission Dialog -->
+     <string name="media_notifications_enable_dialog_title_media">Medya Denetim İzni</string>
+     <string name="media_notifications_enable_dialog_message_media">Medya Kontrol Widget'ı, başlık, sanatçı, albüm adı ve kapak resmi gibi medya oynatıcı içeriğini okumak için bildirimlere erişim gerektirir. Bu izne izin vermek istiyor musunuz?</string>
+     <!-- Widget Trip Reset Dialog -->
+     <string name="trip_reset_confirmation_title">Yolculuk Sıfırlama</string>
+     <string name="trip_reset_confirmation_message">Yolculuk istatistiklerini sıfırlamak istediğinizden emin misiniz?</string>
+   
+
+   <!-- Notifications -->
+    <!-- Permission Dialog -->
+    <string name="notifications_enable_dialog_title">Bildirimler Açılır Penceresi</string>
+     <string name="notifications_enable_dialog_message">DMD2'nin, herhangi bir yeni bildirim için size bir açılır pencere göstermesi için bildirimlere erişmesini istiyor musunuz? Hangi uygulamalar için pop-up görmek istediğinizi Ayarlar > Bildirimler'de yapılandırabilirsiniz.</string>
+    <!-- Notification List Widget -->
+    <string name="notifications_list_widget_new_notifications">Yeni Bildirimler</string>
+     <string name="notifications_controller_arrow_instructions">Sol/Sağ - Kapat</string>
+   
+   <!-- Apps-->
+    <!-- Settings-->
+    <string name="apps_view_top_title">Favori Uygulamalar</string>
+     <string name="apps_view_app_filter_category_title">Uygulama Filtresi</string>
+     <string name="apps_filter_enable_title">Uygulama filtresini etkinleştirin</string>
+     <string name="apps_filter_enable_description">Uygulama filtre listesinde ayarlanan uygulamaları gizler</string>
+     <string name="apps_sorting_category_title">Sıralama</string>
+     <string name="apps_sorting_setting_title">Uygulama kısayollarının nasıl sıralanacağını seçin</string>
+     <string-array name = "apps_sorting_options_list" translatable = "true">
+         <item>Uygulama Adı - Alfabetik</item>
+         <item>Uygulama Geliştirici Adı - Alfabetik</item>
+         <item>Yükleme Tarihine Göre</item>
+         <item>Son Güncellemeye Göre</item>
+     </string-array>
+     <string name="apps_sorting_direction_setting_title">Sıralama Yönü</string>
+     <string-array name = "apps_sorting_direction_options_list" translatable = "true">
+         <item>Artan</item>
+         <item>Azalan</item>
+     </string-array>
+     <string name="apps_filter_dialog_start_title">Gizli uygulamaları ayarlama</string>
+     <string name="apps_filter_dialog_start_dialog">Hangi uygulamaların gizleneceğini veya gösterileceğini ayarlamak için burayı tıklayın</string>
+     <string name="apps_filter_dialog_dialog_title">Gizlenecek Uygulamaları Seçin</string>
+     <string name="apps_long_press_actions_dialog_text">Bu uygulama için mevcut işlemler:</string>
+     <string name="apps_long_press_actions_dialog_uninstall">Yüklemeyi kaldır</string>
+     <string name="apps_long_press_actions_dialog_hide">Gizle</string>
+     <string name="apps_long_press_actions_dialog_cancel">İptal</string>
+   
+   <!-- OBD-->
+    <!-- Settings-->
+    <string name="obd_cat_title_pref">OBD Tercihleri</string>
+     <string name="obd_device_setup">OBD Bluetooth Cihaz Kurulumu</string>
+     <string name="obd_protocols_summary">Hangi OBD Protokolünün kullanılacağını seçin</string>
+     <string name="obd_protocols_title">OBD Protokolü</string>
+     <string name="obd_reader_config_title">Okuyucu Yapılandırma Komutları</string>
+     <string name="obd_reader_config_summary">Bluetooth okuyucuyu yapılandırma komutları, yeni bir satırla ayırın</string>
+     <string name="obd_set_wunderlinq_title">WunderLINQ Modu (Beta)</string>
+     <string name="obd_set_wunderlinq_summary">Değerleri OBD2 yerine WunderLINQ API'sinden alacak</string>
+     <string name="obd_select_device_title">Eşlenen OBD Cihazını Seçin</string>
+     <string name="obd_bluetooth_list_devices_summary">Eşlenen Bluetooth cihazları arasından seçim yapın. Öncelikle donanım kilidinin eşlendiğinden emin olun!</string>
+     <string name="obd_bluetooth_list_devices_title">ELM327 Bluetooth Cihazını Seçin</string>
+     <string name="obd_settings_use_alt_voltage_title">Dongle'dan Gerilim Alma</string>
+     <string name="obd_settings_use_alt_voltage_message">Voltaj okumak için ECU PID yerine ST komutunu kullanın</string>
+     <string name="obd_fuel_level_settings">Yakıt Seviyesi Ayarları</string>
+     <string name="obd_fuel_level_calculated">Yakıt seviyesini hesapla</string>
+     <string name="obd_fuel_level_calculated_summary">Seviyeniz ECU tarafından raporlanmıyorsa, DMD2'nin bunu tank başına ortalama kilometreye göre hesaplamasına izin verebilirsiniz. Yakıt doldurduğunuzda sıfırlamak için yakıt simgesine basın.</string>
+     <string name="obd_fuel_level_avg_mileage">Yakıt Deposu Ortalama Kilometresi</string>
+     <string name="obd_fuel_level_avg_mileage_summary">Dolu depoyla ortalama kilometreniz nedir</string>
+     <string name="obd_speed_rpm_cat_title">Hız ve RPM Seçenekleri</string>
+     <string name="obd_speed_gps_source_title">GPS Hız Değeri Kaynağı</string>
+     <string name="obd_speed_gps_source_summary">OBD Hız değeri yerine GPS kullanın (bu mevcut olmayabilir)</string>
+     <string name="obd_max_rpm_title">Maksimum RPM'yi Ayarla</string>
+     <string name="obd_max_rpm_summary">Aracınızın maksimum RPM değerini ayarlayın</string>
+     <string name="obd_redline_rpm_title">Redline RPM'yi ayarla</string>
+     <string name="obd_redline_rpm_summary">Redline RPM değerinizi ayarlayın</string>
+     <string name="obd_throttle_options">Kısma Seçenekleri</string>
+     <string name="obd_use_raw_throttle_title">RAW Gaz Kelebeği Konumu değerini kullan</string>
+     <string name="obd_use_raw_throttle_message">Gerçek OBD2 ham değerini kullanın veya minimum ve maksimum konumları kalibre edin</string>
+     <string name="obd_calibrate_throttle_title">Gaz Kelebeği Konumunu Kalibre Et</string>
+     <string name="obd_calibrate_throttle_message">Bu, gaz kelebeği minimum/maksimum konum kalibrasyonu talimatlarını içeren bir iletişim kutusu başlatacaktır. ECU'nun AÇIK ve OBD dongle'ının bağlı olmasını gerektirir, motor kapalı olmalıdır. Bu, ECU'nuzdaki herhangi bir değeri DEĞİŞTİRMEZ!</string>
+    <!-- Sensors-->
+    <string name="obd_sensors_coolant_short_label">SOĞUTMA SIVISI</string>
+     <string name="obd_sensors_coolant_long_label">Soğutma Suyu Sıcaklığı</string>
+     <string name="obd_sensors_voltage_short_label">VOLTAGE</string>
+     <string name="obd_sensors_voltage_long_label">Voltaj</string>
+     <string name="obd_sensors_throttle_short_label">THROTTLE</string>
+     <string name="obd_sensors_throttle_long_label">Gaz Kelebeği Konumu</string>
+     <string name="obd_sensors_fuel_short_label">YAKIT</string>
+     <string name="obd_sensors_fuel_long_label">Yakıt Seviyesi</string>
+     <string name="obd_sensors_timing_short_label">SPARK</string>
+     <string name="obd_sensors_timing_long_label">Spark Advance</string>
+     <string name="obd_sensors_intake_temp_short_label">IAT</string>
+     <string name="obd_sensors_intake_temp_long_label">Giriş Sıcaklığı</string>
+     <string name="obd_sensors_intake_maf_short_label">MAF</string>
+     <string name="obd_sensors_intake_maf_long_label">Kütlesel Hava Akışı</string>
+     <string name="obd_sensors_intake_map_short_label">HARİTA</string>
+     <string name="obd_sensors_intake_map_long_label">Kütle Hava Basıncı</string>
+     <!-- Sensör İletişim Kutusunu Seçin-->
+     <string name="obd_sensors_select_dialog_title">OBD Sensörünü Seçin</string>
+     <string name="obd_sensors_select_dialog_message">Bu yuva için yeni bir OBD Sensörü ayarlayın</string>
+     <!-- Gaz Kelebeği Kalibrasyonu-->
+     <string name="obd_min_throttle_calib_dialog_title">Minimum Gaz Kelebeği Konumu Kalibrasyonu</string>
+     <string name="obd_min_throttle_calib_dialog_message">LÜTFEN MOTORU ÇALIŞTIRIN! Aracın ısınma sonrası rölantide sabit olduğundan emin olun!!! Gaz kelebeğiniz minimum konumda olmalıdır (rölantide/tamamen kapalı). Hazır olduğunuzda Ayarla düğmesine basın.</string>
+     <string name="obd_throttle_calib_set_minimum">Minimum Ayarla</string>
+     <string name="obd_max_throttle_calib_dialog_title">Maksimum Gaz Kelebeği Konumu Kalibrasyonu</string>
+     <string name="obd_max_throttle_calib_dialog_message">LÜTFEN MOTORU KAPATIN! Kontağın AÇIK olduğundan emin olun ve ardından gaz kelebeği konumunuzu maksimum konuma (tam açık gaz kelebeği) itin. Hazır olduğunuzda Ayarla düğmesine basın.</string>
+     <string name="obd_throttle_calib_set_maximum">Maksimum Ayarla</string>
+     <string name="obd_cant_calib_obd_disconnected">Lütfen Önce OBD Dongle'a Bağlayın!</string>
+     <!-- Yakıt Seviyesi Seçenekleri -->
+     <string name="obd_fuel_dialog_title">Yakıt Seviyesi Seçenekleri</string>
+     <string name="obd_fuel_dialog_message">Deponuzu yeni doldurduysanız veya kalan yakıt mesafesini manuel olarak düzenlediyseniz yakıt seviyesini sıfırlayın.</string>
+     <string name="obd_fuel_dialog_reset">Sıfırla</string>
+     <string name="obd_fuel_dialog_edit">Düzenle</string>
+     <string name="obd_fuel_dialog_edit_title">Kalan Yakıt Mesafesini Ayarlayın</string>
+     <string name="obd_fuel_dialog_edit_message">Kalan mesafeyi ayarlayın</string>
+     <string name="obd_fuel_dialog_edit_error">Hata: değer tank kapasitesinden yüksek veya 1'den düşük olamaz</string>
+     <string name="obd_fuel_dialog_edit_error2">Hata: geçerli bir mesafe numarası değil!</string>
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">DTC Hatası Yok</string>
+     <string name="obd_dtc_dialog_title">DTC Hataları</string>
+     <string name="obd_dtc_dialog_reset_errors">Hataları Sıfırla</string>
+     <string name="obd_dtc_dialog_error_options">Hata Seçenekleri</string>
+     <string name="obd_dtc_dialog_error_ignore_error">Hatayı Yoksay:</string>
+     <string name="obd_dtc_dialog_error_reset_error">Hata: ECU'ya bağlı değilsiniz!</string>
+     <!-- Service -->
+     <string name="obd_service_notification_title">OBD Monitör Hizmeti Çalışıyor</string>
+     <string name="obd_service_obd_connected">Dongle'a bağlanıldı!</string>
+     <string name="obd_service_obd_disconnected">Dongle bağlantısı kesildi!</string>
+     <!-- Licence -->
+     <string name="obd_license_title">OBD2 Demo Modu</string>
+     <string name="obd_license_message">Demo modu oturum başına 15 dakikayla sınırlıdır. Kilidini açmak için OBD Eklentisini satın alın!</string>
+     <string name="obd_buy_button">Eklentiyi Satın Al</string>
+
+    <!-- Roadbook -->
+    <!-- Settings -->
+    <string name="roadbook_settings_instrumets_cat_title">Cihaz Ayarları</string>
+     <string name="roadbook_settings_auto_start_title">Cihazları Otomatik Olarak Başlat</string>
+     <string name="roadbook_settings_auto_start_message">Yol Kitabı görünümü girişinde tüm ölçümleri başlat (Oynat)</string>
+     <string name="roadbook_settings_totals_single_decimal_title">Toplam Mesafe - Tek Ondalık Basamak</string>
+     <string name="roadbook_settings_totals_single_decimal_summary">Toplam mesafeyi iki yerine tek bir ondalık basamakla gösterecek</string>
+     <string name="roadbook_settings_partial_single_decimal_title">Kısmi - Tek Ondalık Basamak</string>
+     <string name="roadbook_settings_partial_single_decimal_summary">Kısmi mesafeyi iki yerine tek bir ondalık basamakla gösterecek</string>
+     <string name="roadbook_settings_visual_settings_cat_title">Görsel Ayarlar</string>
+     <string name="roadbook_settings_invert_paper_color_title">PDF Renklerini Ters Çevir</string>
+     <string name="roadbook_settings_invert_paper_color_message">Kağıt rengini tersine çevirir, gece sürüşü için yararlı olabilir.</string>
+     <string name="roadbook_settings_locker_cat_title">Kilit Ayarları</string>
+     <string name="roadbook_settings_locker_disable_paper_touch_title">Kilit ayrıca kağıt dokunuşunu da devre dışı bırakır</string>
+     <string name="roadbook_settings_locker_disable_paper_touch_message">Kilit etkinleştirildiğinde herhangi bir kağıt dokunuşu göz ardı edilir. Bu, kazara yapılan hareketleri veya yağmur damlası hareketlerini önlemeye yardımcı olur.</string>
+     <string name="roadbook_settings_locker_disable_instruments_title">Kilit aynı zamanda aletleri de devre dışı bırakır</string>
+     <string name="roadbook_settings_locker_disable_instruments_message">Kilit etkinleştirildiğinde cihaza dokunma eylemleri de devre dışı bırakılacaktır.</string>
+     <string name="roadbook_settings_locker_disable_topmenu_title">Kilitle ayrıca üst menüyü de devre dışı bırakır</string>
+     <string name="roadbook_settings_locker_disable_topmenu_message">Kilit etkinleştirildiğinde üst menü de devre dışı bırakılacak ve yalnızca kilitleme düğmesi çalışacaktır.</string>
+     <string name="roadbook_settings_locker_play_pause_title">Oynat/duraklat ile senkronizasyon kilidi</string>
+     <string name="roadbook_settings_locker_play_pause_message">Kilitleme oynatmayı tetikleyecek ve kilidin açılması duraklatmayı tetikleyecektir.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Ayarlar</string>
+     <string name="roadbook_settings_distance_multi_factor_title">Mesafe Çarpanı</string>
+     <string name="roadbook_settings_distance_multi_factor_message">Toplam ve Kısmi mesafeye bir düzeltme faktörü ekleyin (Yol Kitabı mesafeleriyle eşleştirmeniz gerekmesi durumunda)</string>
+     <string name="roadbook_settings_no_instruments_title">Göstergeler Panelini Gizle</string>
+     <string name="roadbook_settings_no_instruments_message">Kendi özel araçlarınız varsa ve yalnızca PDF rulosunu kullanmak istiyorsanız.</string>
+     <string name="roadbook_settings_reset_session_title">Oturumu Sıfırla</string>
+     <string name="roadbook_settings_reset_session_message">Geçerli PDF dosyasını kaldırır ve tüm istatistikleri ve mesafeleri sıfırlar.</string>
+     <string name="roadbook_settings_reset_session_confirm_title">Sıfırlamayı Onayla</string>
+     <string name="roadbook_settings_reset_session_confirm_message">Mevcut ilerlemeyi sıfırlamak istediğinizden emin misiniz? Bu, mevcut PDF dosyasını kaldırır ve tüm istatistikleri ve mesafeleri sıfırlar!</string>
+     <string name="roadbook_settings_reset_session_confirm_reset_button">Sıfırla</string>
+     <string name="roadbook_settings_controller_setup_cat_title">Uzaktan Kumanda Kurulumu</string>
+     <string-array name = "roadbook_controller_button_options" translatable = "true">
+         <item>Kağıt Rulosu</item>
+         <item>Kağıt Rulosu Aşağı</item>
+         <item>Toplamı Artır</item>
+         <item>Toplamı Azalt</item>
+         <item>Kısmi Artır</item>
+         <item>Kısmiyi Azalt</item>
+         <item>Toplamı Sıfırla</item>
+         <item>Kısmi Sıfırla</item>
+         <item>Kağıt Rengini Ters Çevir</item>
+         <item>Kilitle / Kilidini Aç</item>
+         <item>Oynat / Duraklat</item>
+         <item>Hiçbir Şey Yapma</item>
+   </string-array>
+     <string name="roadbook_controller_button_up">Yukarı Tuşu</string>
+     <string name="roadbook_controller_button_down">Aşağı Tuşu</string>
+     <string name="roadbook_controller_button_left">Sol Tuş</string>
+     <string name="roadbook_controller_button_right">Sağ Tuş</string>
+     <string name="roadbook_controller_button_enter">A Düğmesi</string>
+     <string name="roadbook_controller_button_enter_long">A Düğmesi (Giriş) Tuşu Uzun Basma (yalnızca Kilitliyken)</string>
+     <string name="roadbook_controller_button_right_long">Sağ Tuşa Uzun Basma</string>
+     <string name="roadbook_controller_button_left_long">Sol Tuşa Uzun Basma (yalnızca Kilitliyken)</string>
+     <string name="roadbook_controller_button_zoomin">A Düğmesi</string>
+     <string name="roadbook_controller_button_zoomout">B Düğmesi</string>
+     <string name="roadbook_controller_switch_minus">Anahtar Eksi</string>
+     <string name="roadbook_controller_switch_plus">Switch Plus</string>
+     <string name="roadbook_controller_scroll_amount_title">Tıklama başına kaydırma miktarı</string>
+     <string name="roadbook_controller_scroll_amount_message">Kağıt kaydırmanın yukarı ve aşağı hareket miktarını ayarlayın</string>
+     <string name="roadbook_controller_enable_key_repeat_switch_title">2 Yönlü Anahtar için Tuş Tekrarını Etkinleştir</string>
+     <string name="roadbook_controller_enable_key_repeat_switch_message">Etkinleştirilirse, iki yönlü anahtar basılı tutulduğunda tekrarlanır.</string>
+     <string name="roadbook_controller_set_key_repeat_switch_time_title">2 Yönlü Anahtar için Tekrarlama Hızını Ayarlama</string>
+     <string name="roadbook_controller_enable_key_repeat_joystick_title">Joystick için Tuş Tekrarını Etkinleştir</string>
+     <string name="roadbook_controller_enable_key_repeat_joystick_message">Etkinleştirilirse Yukarı, Aşağı, Sol, Sağ tuşları basılı tutulduğunda tekrarlanır.</string>
+     <string name="roadbook_controller_set_key_repeat_joystick_time_title">Joystick için Tekrarlama Hızını Ayarlama</string>
+     <string name="roadbook_controller_set_key_repeat_buttons_time_title">Düğmeler için Tekrarlama Hızını Ayarlama</string>
+     <string-array name = "roadbook_controller_repeat" translatable = "true">
+<item>50ms</item>
+         <item>100ms</item>
+         <item>150ms</item>
+         <item>200ms</item>
+         <item>250ms</item>
+         <item>300ms</item>
+         <item>350ms</item>
+         <item>400ms</item>
+         <item>450ms</item>
+         <item>500ms</item>
+     </string-array>
+     <string name="roadbook_controller_enable_key_repeat_buttons_title">Düğmeler için Tuş Tekrarını Etkinleştir</string>
+     <string name="roadbook_controller_enable_key_repeat_buttons_message">Etkinleştirilirse, A Düğmesi ve B Düğmesi tuşları basılı tutulduğunda tekrarlanır.</string>
+     <string name="roadbook_controller_paper_scroll_on_partial_reset">Kısmi sıfırlamada kağıdı bir tıklamayla aşağı kaydırın</string>
+    <!-- Instrument On Tap Dialogs -->
+    <string name="roadbook_totals_dialog_title">Toplam Mesafe</string>
+     <string name="roadbook_totals_dialog_text">Lütfen Toplam mesafe aracı için bir seçenek seçin</string>
+     <string name="roadbook_partials_dialog_title">Kısmi Mesafe</string>
+     <string name="roadbook_partials_dialog_text">Lütfen Kısmi mesafe enstrümanı için bir seçenek seçin</string>
+     <string name="roadbook_total_partial_dialog_reset">Sıfırla</string>
+     <string name="roadbook_total_partial_dialog_edit">Düzenle</string>
+     <string name="roadbook_total_edit_message_dialog">Toplam Mesafeyi Düzenle</string>
+     <string name="roadbook_partial_edit_message_dialog">Kısmi Mesafeyi Düzenle</string>
+     <!-- Enstrüman Seçimi İletişim Kutuları -->
+     <string name="roadbook_instrument_select_dialog_title">Enstrüman Seç</string>
+     <!-- Enstrüman Adları -->
+     <string name="roadbook_instrument_name_total">Toplam Mesafe</string>
+     <string name="roadbook_instrument_name_partial">Kısmi Mesafe</string>
+     <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensörü</string>
+    <!-- View -->
+    <string name="roadbook_error_not_ready">Roadbook Hizmeti henüz hazır değil! Lütfen tekrar deneyin.</string>
+     <string name="roadbook_error_no_action">Bu enstrüman için herhangi bir işlem yok.</string>
+     <string name="roadbook_stats_title">İstatistikler</string>
+     <string name="roadbook_filename_label">Dosya Adı:</string>
+     <string name="roadbook_filename_no_file">Yüklü dosya yok</string>
+     <string name="roadbook_totaltime_label">Toplam Süre:</string>
+     <string name="roadbook_traveltime_label">Seyahat Süresi:</string>
+     <string name="roadbook_stoptime_label">Durdurma Süresi:</string>
+     <string name="roadbook_avgspeed_label">Ortalama Hız:</string>
+     <string name="roadbook_maxspeed_label">Maksimum Hız:</string>
+     <string name="roadbook_reset_stats_button">Sıfırla</string>
+     <string name="roadbook_open_new_dialog_title">Yeni Dosya Aç</string>
+     <string name="roadbook_open_new_dialog_message">Geçerli oturum silinip yeni bir oturum başlatılsın mı, yoksa daha sonra devam edebilmek için önce ilerleme kaydedilsin mi?</string>
+     <string name="roadbook_open_new_dialog_open_button">Şimdi Başlayın</string>
+     <string name="roadbook_open_new_dialog_save_first_button">Önce Kaydet</string>
+     <string name="roadbook_open_parsing_error_title">Dosya Açılırken Hata</string>
+     <string name="roadbook_open_parsing_error_message">Bu PDF dosyasını okurken bir sorun var gibi görünüyor. Muhtemelen uyumlu değil!</string>
+    <string name="roadbook_adjust_distance_multi">Mesafe Düzeltme Faktörü:</string>
+     <string name="roadbook_open_file_or_session_title">Dosyayı veya Oturumu Aç</string>
+     <string name="roadbook_open_file_or_session_message">Yeni PDF dosyası içe aktarılsın mı veya Oturum Yöneticisi açılsın mı (önceki kayıtlı oturumlar yönetilsin)?</string>
+     <string name="roadbook_open_file_or_session_new_file">Dosya</string>
+     <string name="roadbook_open_file_or_session_open_session">Oturum</string>
+     <string name="roadbook_session_save_input_name">Bu oturuma bir ad verin</string>
+     <string name="roadbook_session_save_input_empty_name_error">Oturum adı boş olamaz!</string>
+     <string name="roadbook_session_save_nothing_error">Kaydedilecek bir şey yok! Belki yeni bir Yol Kitabı Dosyası açarak başlayabilirsiniz.</string>
+     <string name="roadbook_session_save_replace_or_add_new_title">Değiştir veya Yeni Ekle</string>
+     <string name="roadbook_session_save_replace_or_add_new_message">Geçerli oturumların üzerine yazılsın mı yoksa yeni bir giriş mi eklensin?</string>
+     <string name="roadbook_session_save_replace_or_add_new_overwrite">Üzerine yaz</string>
+     <string name="roadbook_session_save_replace_or_add_new_new_entry">Yeni Giriş</string>
+     <string name="roadbook_session_save_name_already_exists_title">Oturum Adı Zaten Mevcut</string>
+     <string name="roadbook_session_save_name_already_exists_message">Bu ada sahip bir oturum zaten mevcut, adı değiştirmek mi yoksa düzenlemek mi istiyorsunuz?</string>
+     <string name="roadbook_session_save_name_already_exists_replace">Değiştir</string>
+     <string name="roadbook_session_save_name_already_exists_edit">Adı Düzenle</string>
+    <!-- Session Manager -->
+    <string name="roadbook_session_manager_title">Oturum Yöneticisi</string>
+     <string name="roadbook_session_manager_no_sessions_yet">Henüz kayıtlı oturum yok! Önce bir tanesini kaydedin.</string>
+     <string name="roadbook_session_date">Tarih:</string>
+     <string name="roadbook_session_file_name">PDF Dosyası:</string>
+     <string name="roadbook_session_total_distance">Toplam Mesafe:</string>
+     <string name="roadbook_session_total_time">Toplam Süre:</string>
+     <string name="roadbook_session_travel_time">Seyahat Süresi:</string>
+     <string name="roadbook_session_avg_speed">Ortalama Hız:</string>
+     <string name="roadbook_session_load_file">Yükle</string>
+     <string name="roadbook_session_rename_file">Yeniden Adlandır</string>
+     <string name="roadbook_session_location">Konum</string>
+     <string name="roadbook_session_new_name">Bu oturum adını düzenleyin</string>
+     <string name="roadbook_session_new_name_already_exists">Bu oturum adı zaten alınmış, lütfen başka bir şey seçin.</string>
+     <string name="roadbook_session_file_does_not_exist">HATA: Bu oturumun PDF dosyası artık mevcut değil!</string>
+     <string name="roadbook_session_load_confirmation_title">Oturum Yükleme Onayı</string>
+     <string name="roadbook_session_load_confirmation_message">Bu oturumu yüklemek istediğinizden emin misiniz? Kaydedilmemiş Yol Kitabı ilerlemesi kaybolacak!</string>
+     <!-- Licence -->
+     <string name="roadbook_license_title">Roadbook Demo Modu</string>
+     <string name="roadbook_license_message">Demo modu oturum başına 15 dakikayla sınırlıdır. Kilidini açmak için Roadbook Eklentisini satın alın!</string>
+     <string name="roadbook_buy_button">Eklentiyi Satın Al</string>
+     <string name="roadbook_non_playstore_purchase_title">Lisans Satın Alma</string>
+     <string name="roadbook_non_playstore_purchase_message">Cihazınızda Play Store yüklü değil, yine de web sitemizden bir anahtar satın alabilir ve etkinleştirmek için onu takabilirsiniz!</string>
+     <string name="roadbook_insert_key">Anahtar Ekle</string>
+     <string name="roadbook_purchase_key">Satın Alma</string>
+     <string name="roadbook_insert_key_title">Eklentiyi etkinleştirmek için lütfen lisans anahtarınızı girin:</string>
+     <string name="roadbook_purchase_key_activate">Etkinleştir</string>
+     <string name="roadbook_purchase_key_activate_error_title">Lisans Etkinleştirmede Hata</string>
+     <string name="roadbook_purchase_key_activate_error_message">Yanlış lisans kodu veya başka bir cihazda zaten etkinleştirilmiş, Thork Racing hesap sayfanızdaki lisansları kontrol edin veya destek ekibiyle iletişime geçin.</string>
+     <string name="roadbook_purchase_key_activate_success_title">Lisans Etkinleştirildi</string>
+     <string name="roadbook_purchase_key_activate_success_message">Eklenti artık etkin! Desteğiniz için teşekkür ederiz.</string>
+
+    <!-- MAP VIEW -->
+    <string name="map_first_run_download_maps_title">Henüz İndirilen Harita Yok</string>
+     <string name="map_first_run_download_maps_message">Henüz herhangi bir harita dosyası indirmediniz. Bunu şimdi yapmak istiyor musunuz?</string>
+     <string name="map_first_run_download_maps_starting_layers">Katmanlar Yöneticisini Başlatıyorum!</string>
+     <string name="map_navigation_selection_dialog_title">Gezinme Modunu Seçin</string>
+     <string name="map_navigation_selection_dialog_message">Rotayı hesaplamak için DMD2 mi kullanılsın yoksa harici bir uygulama mı kullanılsın?</string>
+     <string name="map_navigation_selection_dialog_use_dmd2">DMD2'yi kullan</string>
+     <string name="map_navigation_selection_dialog_use_external">Harici Uygulama</string>
+     <string name="map_panning_mode_enable">Kaydırma Modu Etkin</string>
+     <string name="map_lock_button_long_press_unlock">Kilidi açmak için basılı tutun!</string>
+     <!--Harita Katmanları Yöneticisi-->
+     <string name="map_layers_dialog_title">Harita Katmanları</string>
+     <string name="map_layers_base_map_title">Temel Harita Kaynağı</string>
+     <string name="map_layers_base_map_description">Arazi, yollar, binalar, adresler ve rakım için temel veriler.</string>
+     <string name="map_layers_3D_buildings_title">3D Binalar</string>
+     <string name="map_layers_3D_buildings_description">Bina alanlarını temel ekstrüzyonlu 3D şekillere dönüştürür</string>
+     <string name="map_layers_scale_visibility_title">Ölçekle ve amp; Görünürlük</string>
+     <string name="map_layers_scale_visibility_description">Haritanın, etiketlerin ve simgelerin ölçeğini ve görünürlüğünü ayarlayın</string>
+     <string name="map_layers_scale_map_layer_label">Harita Ölçeği</string>
+     <string name="map_layers_enable_layer_label">Katmanı Etkinleştir</string>
+     <string name="map_layers_enable_labels_layer_label">Etiketleri Etkinleştir</string>
+     <string name="map_layers_scale_labels_layer_label">Etiket Ölçeği</string>
+     <string name="map_layers_enable_symbols_layer_label">Sembolleri Etkinleştir</string>
+     <string name="map_layers_scale_symbols_layer_label">Sembol Ölçeği</string>
+     <string name="map_layers_location_title">Konum Simgesi</string>
+     <string name="map_layers_location_description">Geçerli konum simgesini ayarlayın</string>
+     <string name="map_layers_icon_scale">Simge Ölçeği</string>
+     <string name="map_layers_icon_show_accuracy_range">Doğruluk Aralığını Göster</string>
+     <string name="map_layers_hillshading_enable_shadows_label">Gölgeleri Etkinleştir</string>sd
+     <string name="map_layers_map_base_download_more">Haritaları İndir</string>
+     <string name="map_layers_map_base_title">Yüklenecek Haritaları Seçin</string>
+     <string name="map_layers_map_base_file_missing">Hata: Harita dosyaları eksik, lütfen onları tekrar indirin!</string>
+   <string name="map_layers_map_base_no_map_yet">Henüz indirilmiş harita yok, indirmek için Haritaları İndir'i tıklayın!</string>
+     <string name="map_layers_downloader_region_title">Bölge Seç</string>
+     <string name="map_layers_downloader_map_title">Harita Seç</string>
+     <string name="map_layers_downloader_country_downloaded_label">İndirildi:</string>
+     <string name="map_layers_downloader_country_date_label">Son Güncelleme:</string>
+     <string name="map_layers_downloader_country_size_label">Boyut:</string>
+     <string name="map_layers_downloader_country_region_label">Bölge:</string>
+     <string name="map_layers_downloader_country_filename_label">Dosya Adı:</string>
+     <string name="map_layers_downloader_country_loaded_label">Haritayı Yükle:</string>
+     <string name="map_layers_downloader_no_update_label">Güncelleme Yok</string>
+     <string name="map_layers_downloader_notification_title">DMD2 İndiriliyor</string>
+     <string name="map_layers_downloader_wait_until_finished">Lütfen indirme işleminin tamamlanmasını bekleyin!</string>
+     <string name="map_layers_downloader_cant_connect">Sunucuya bağlanılamıyor, daha sonra tekrar deneyin!</string>
+     <string name="map_layers_downloader_not_enough_space">Yeterli depolama alanı yok!</string>
+     <string name="map_layers_poi_highlight_title">İÇN Simgesini Vurgulama</string>
+     <string name="map_layers_poi_highlight_description">İÇN simgelerini daha düşük yakınlaştırma düzeylerinde gösterilecek şekilde ayarlayın (maks. 500 m yakınlaştırma)(yakıt/hastane/zirveler her zaman etkindir).</string>
+     <string name="map_layers_poi_fuel">Yakıt</string>
+     <string name="map_layers_poi_hospital">Hastane</string>
+     <string name="map_layers_poi_peaks">Zirveler</string>
+     <string name="map_layers_poi_parking">Park etme</string>
+     <string name="map_layers_poi_restaurant">Restoran</string>
+     <string name="map_layers_poi_cafe">Kafe</string>
+     <string name="map_layers_poi_pub">Yayın</string>
+     <string name="map_layers_poi_cafe_and_Pub">Kafe veamp; Yayın</string>
+     <string name="map_layers_poi_hotel">Otel</string>
+     <string name="map_layers_poi_hostel">Hostel</string>
+     <string name="map_layers_poi_accommodation">Konaklama</string>
+     <string name="map_layers_poi_camping">Kampçılık</string>
+     <string name="map_layers_poi_supermarket">Süpermarket</string>
+     <string name="map_layers_poi_attraction">Cazibe</string>
+     <string name="map_layers_poi_view_point">Görüntüleme Noktası</string>
+     <string name="map_layers_poi_historic">Tarihsel</string>
+     <string name="map_layers_poi_natural">Doğal</string>
+     <string name="map_layers_poi_parking_place">Park Yeri</string>
+     <string name="map_layers_poi_car_repair">Araba Tamiri</string>
+     <string name="map_layers_poi_monument">Anıt</string>
+     <string name="map_layers_poi_atm">ATM</string>
+     <string name="map_layers_poi_bank">Banka</string>
+     <string name="map_layers_poi_gas">Benzin İstasyonu</string>
+     <string name="map_layers_poi_water">İçme Suyu</string>
+     <string name="map_layers_poi_rv_park">Karavan Park Etme</string>
+     <string name="map_layers_poi_border_control">Sınır Kontrolü</string>
+     <string name="map_layers_poi_moto_repair">Motosiklet Tamiri</string>
+     <string name="map_layers_theme_title">Harita Türü veamp; Stil</string>
+     <string name="map_layers_theme_description">Varsayılan minimum ve temiz harita türünü veya daha ayrıntılı bir arazi topografik türünü seçin. Ayrıca açık ve koyu renk modlarını da ayarlayın.</string>
+     <string name="map_layers_map_type_default_title">Varsayılan Minimum</string>
+     <string name="map_layers_map_type_topo_title">Yol Dışı Topo</string>
+     <string name="map_layers_map_type_light_or_dark">Açık/Karanlık Modu:</string>
+     <string name="map_layers_map_type_always_light">Işık</string>
+     <string name="map_layers_map_type_always_dark">Koyu</string>
+     <string name="map_layers_map_type_follow_theme">Tema</string>
+     <string name="map_layers_map_type_light_sensor">Sensör</string>
+     <string name="map_layers_topo_advanced_title">Topo Gelişmiş Seçenekleri</string>
+     <string name="map_layers_topo_advanced_description">Yol Dışı Topografik harita türüne ince ayar yapın</string>
+     <string name="map_layers_topo_high_contrast_mode">Yüksek Kontrast Modu</string>
+     <string name="map_layers_topo_options_altitude_line">Yükseklik Çizgilerini Göster</string>
+     <string name="map_layers_topo_options_low_zoom_unpaved">Asfaltlanmamış Vurgu (düşük yakınlaştırmada görünür)</string>
+     <string name="map_layers_topo_options_show_motorway">Otoyolları Göster</string>
+     <string name="map_layers_topo_options_show_primary">Birincil Yolları Göster</string>
+     <string name="map_layers_topo_options_show_secondary">İkincil Yolları Göster</string>
+     <string name="map_layers_reset">Tüm ayarlar varsayılanlara sıfırlandı!</string>
+     <string name="map_layers_hillshading_title">HillShading (çevrimiçi)</string>
+     <string name="map_layers_hillshading_description">Gölgelendirmeyi kullanarak tepelerin ve dağların topografik şeklini gösterir</string>
+    <string name="map_layers_hillshading_transparency">Opaklık</string>
+     <string name="map_layers_routing_title">Yönlendirme Kullanıcı Arayüzü</string>
+     <string name="map_layers_routing_description">Haritada hesaplanan rota çizgisinin genişliğini ayarlayın</string>
+     <string name="map_layers_routing_width_line">Çizgi Genişliği</string>
+     <string name="map_layers_routing_transparency_line">Çizgi Opaklığı</string>
+     <string name="map_layers_routing_pins_size">Gösterge Boyutu</string>
+     <!--GPX Manager-->
+     <string name="gpx_manager_track_start">Başlat!</string>
+     <string name="gpx_manager_track_end">Son!</string>
+     <string name="gpx_manager_load_error_title">GPX Yükleme Hatası</string>
+     <string name="gpx_manager_load_error_message">GPX dosyası yüklenirken hata oluştu. DMD2 onu tekrar yüklemeye çalışmayacaktır. Lütfen başka bir dosya deneyin!</string>
+     <string name="gpx_manager_title">GPX Yöneticisi</string>
+     <string name="gpx_manager_load_file">Dosyayı Yükle</string>
+     <string name="gpx_manager_no_file_loaded">Dosya yüklenmedi. Dosya Yükle'ye basın.</string>
+     <string name="gpx_manager_reloading_files_please_wait">Dosyalar Yeniden Yükleniyor. Lütfen bekleyin.</string>
+     <string name="gpx_manager_tracks">Parçalar</string>
+     <string name="gpx_manager_waypoints">Yol noktaları</string>
+     <string name="gpx_manager_center_map_button">Merkez Haritası</string>
+     <string name="gpx_manager_settings_title">GPX Ayarları</string>
+     <string name="gpx_manager_settings_visibility_title">Göster veya Gizle</string>
+     <string name="gpx_manager_settings_visibility_message">GPX öğelerini gösterin veya gizleyin (tüm dosyalar için). Bu, bireysel dosya ayarlarına göre önceliklidir.</string>
+     <string name="gpx_manager_settings_tracks_visibility">Tüm Etkin GPX Parçalarını Göster</string>
+     <string name="gpx_manager_settings_direction_arrows_visibility">Parça Yön Oklarını Göster</string>
+     <string name="gpx_manager_settings_waypoints_visibility">Tüm Etkin Yol Noktalarını Göster</string>
+     <string name="gpx_manager_settings_waypoints_titles">Yol Noktası Başlık Metnini Göster</string>
+     <string name="gpx_manager_settings_waypoints_zoom">Düşük Yakınlaştırmada Yol Noktalarını Gizle</string>
+     <string name="gpx_manager_settings_style_title">Boyutlar ve amp; Opaklık</string>
+     <string name="gpx_manager_settings_style_message">GPX öğelerinin varsayılan boyutlarını &amp; opaklık</string>
+     <string name="gpx_manager_settings_defaults_title">Renk Varsayılanları</string>
+     <string name="gpx_manager_settings_defaults_message">İzleme satırı varsayılan rengi ve rengin üzerine yazma işlemleri</string>
+     <string name="gpx_manager_settings_track_width">İz Satırı Genişliği</string>
+     <string name="gpx_manager_settings_track_transparency">İzleme Opaklığı</string>
+     <string name="gpx_manager_settings_arrow_size">Yön Oku Boyutu</string>
+     <string name="gpx_manager_settings_waypoint_size">Yol Noktası Pin Boyutu</string>
+     <string name="gpx_manager_settings_hide_all">Tümünü Gizle</string>
+     <string name="gpx_manager_settings_show_all">Tümünü Göster</string>
+     <string name="gpx_manager_settings_delete_all">Tümünü Sil</string>
+     <string name="gpx_manager_settings_default_track_color">Varsayılan parça rengi (kullanıcı tarafından hiçbir renk belirtilmediğinde veya ayarlanmadığında):</string>
+     <string name="gpx_manager_settings_default_overwrite_all_colors">Dosyalarda ayarlanan tüm renklerin üzerine varsayılan rengi yaz:</string>
+     <string name="gpx_manager_settings_default_overwrite_all_colors_user">Kullanıcı tarafından varsayılan renge ayarlanan tüm renklerin üzerine yaz:</string>
+     <string name="gpx_manager_settings_load_poi_title">İÇN'leri Otomatik Yükle</string>
+     <string name="gpx_manager_settings_load_poi_message">3 kategoriye kadar yol boyunca POI'yi otomatik olarak yükle</string>
+     <string name="gpx_manager_settings_load_poi_enable_label">Yol boyunca otomatik POI yüklemeyi etkinleştirin:</string>
+     <string name="gpx_manager_settings_poi_cat_select_cats">Yüklenecek İÇN kategorilerini seçin:</string>
+     <string name="gpx_manager_settings_closest_point_title">En Yakın Noktaya Doğru</string>
+     <string name="gpx_manager_settings_closest_point_desc">Konumunuz ile en yakın parkur noktası arasına doğrudan bir çizgi çizer - parkurdan 200 metreden daha uzaktaysanız ve parkur 5 km'lik bir aralıktaysa.</string>
+     <string name="gpx_manager_settings_closest_point_label">Satırı Etkinleştir</string>
+     <string name="gpx_manager_settings_auto_waypoint_distance_title">Otomatik Yol Noktası</string>
+     <string name="gpx_manager_settings_auto_waypoint_distance_desc">Otomatik Olarak Oluşturulan Mesafeye Dayalı Yol Noktası</string>
+     <string name="gpx_manager_settings_auto_waypoint_distance_switch">Otomatik Yol Noktasını Etkinleştir</string>
+     <string name="gpx_manager_settings_auto_waypoint_distance_distance">Mesafe Aralığı</string>
+     <string-array name = "gpx_manager_settings_auto_waypoint_distance_entries" translatable = "true">
+        <item>5Km / 5Mi</item>
+        <item>10Km / 10Mi</item>
+        <item>25Km / 25Mi</item>
+        <item>50Km / 50Mi</item>
+        <item>100Km / 100Mi</item>
+        <item>250Km / 250Mi</item>
+    </string-array>
+<string name="gpx_manager_no_tracks_warning">Seçili GPX dosyası herhangi bir parça içermiyor!</string>
+     <string name="gpx_manager_track_manager_title">İzleme Yöneticisi</string>
+     <string name="gpx_manager_track_manager_no_description">Parça açıklaması yok.</string>
+     <string name="gpx_manager_track_manager_track_length">Parça Uzunluğu</string>
+     <string name="gpx_manager_track_manager_navigate_to_start_end">Şuraya Git…</string>
+     <string name="gpx_manager_track_manager_navigate_dialog_title">İzleme Noktasına Git</string>
+     <string name="gpx_manager_track_manager_navigate_dialog_message">Hangi yol noktasına gitmek istediğinizi seçin.</string>
+     <string name="gpx_manager_track_manager_navigate_start">İz Başlangıcı</string>
+     <string name="gpx_manager_track_manager_navigate_closest">En Yakın Nokta</string>
+     <string name="gpx_manager_track_manager_navigate_end">Parça Sonu</string>
+     <string name="gpx_manager_track_manager_convert_to_route">Rotaya Dönüştür</string>
+     <string name="gpx_manager_advanced_convert_to_route3">Lütfen bu işlemin gerçekten zahmetli ve yavaş olduğuna dikkat edin. Sonuç aynı zamanda orijinal parçayla mükemmel bir eşleşme olmayabilir! Dikkatli kullanın.</string>
+     <string name="gpx_manager_track_manager_select_nav_app">Navigasyon Uygulamasını Seçin</string>
+     <string name="gpx_manager_track_manager_poi_search">İÇN Arama</string>
+     <string name="gpx_manager_no_waypoint_warning">Seçili GPX dosyası herhangi bir ara nokta içermiyor!</string>
+     <string name="gpx_manager_waypoints_manager_title">Yol Noktaları Yöneticisi</string>
+     <string name="gpx_manager_waypoints_navigate_to">Şuraya Git</string>
+     <string name="gpx_manager_waypoints_share_location">Konumu Paylaş</string>
+     <string name="gpx_manager_waypoints_search_at_location">Yakınlarda Ara</string>
+     <string name="gpx_manager_waypoint_no_description">Ara nokta açıklaması yok.</string>
+     <string name="gpx_manager_waypoint_straight_line_distance">Düz Çizgi Mesafesi</string>
+     <string name="gpx_manager_waypoint_distance_on_track">Sizden uzaklık</string>
+     <string name="gpx_manager_waypoint_distance_more">İzleme Noktası Mesafesi</string>
+     <string name="gpx_manager_waypoint_distance_from_track_start">Yol başlangıcından uzaklık</string>
+     <string name="gpx_manager_waypoint_not_on_track">Mesafe bilgilerini almak için aynı GPX dosyasını kullanıyor olmanız gerekir.</string>
+     <string name="gpx_manager_waypoint_no_valid_location_yet">GPS Düzeltmesi Bekleniyor</string>
+     <string name="gpx_manager_waypoint_share_app">Paylaşılacak uygulamayı seçin</string>
+     <string name="gpx_manager_gpx_loading_message">GPX Dosyası Yükleniyor</string>
+     <string name="gpx_manager_poi_loading_message">Parça İÇN araması yükleniyor, bu işlem biraz zaman alabilir…</string>
+     <string name="gpx_manager_advanced_title">Gelişmiş Seçenekler</string>
+     <string name="gpx_manager_advanced_invert_orientation">Seyahat Yönünü Ters Çevir</string>
+     <string name="gpx_manager_advanced_convert_to_route">Dosyanın tamamını navigasyona dönüştürmeyi deneyin:</string>
+     <string name="gpx_manager_advanced_convert_no_tracks">Bu GPX dosyası herhangi bir parça içermiyor!</string>
+    <!-- Map Press Actions -->
+ <string name="map_long_press_point_title">Uzun Basma Eylemlerini Eşleme</string>
+     <string name="map_long_press_point_no_info">Bu noktaya ilişkin bilgi yok!</string>
+     <string name="map_long_press_point_close_to">içinde</string>
+     <string name="map_long_press_point_nearest_city">en yakın şehir</string>
+     <string name="map_long_press_point_navigate">Gezin</string>
+     <string name="map_long_press_point_share">Paylaş</string>
+     <string name="map_long_press_search_poi">İÇN ara</string>
+     <string name="map_long_press_online_weather">Çevrimiçi Hava Durumu</string>
+     <string name="map_long_press_online_weather_no_info">Bu noktaya ilişkin bilgi yok!</string>
+     <!-- Lisans -->
+     <string name="map_license_title">Harita Demo Modu</string>
+     <string name="map_license_message">Demo modu oturum başına 15 dakikayla sınırlıdır. Kilidini açmak için Harita Eklentisini satın alın!</string>
+     <string name="map_buy_button">Eklentiyi Satın Al</string>
+     <string name="map_buy_dialog_title">Harita Eklentisi Satın Alma</string>
+     <string name="map_buy_dialog_message1">Abonelik süresini seçin.</string>
+     <string name="map_buy_dialog_message2">12 Aylık Abonelik</string>
+     <string name="map_buy_dialog_message3">Ömür Boyu Satın Alma</string>
+     <string name="map_buy_dialog_message4">6 Aylık Abonelik</string>
+     <string name="map_buy_button_12_month">12 Ay</string>
+     <string name="map_buy_button_6_month">6 Ay</string>
+     <string name="map_buy_button_lifetime">Ömür boyu</string>
+     <string name="license_limitation_message">Bu seçenek yalnızca lisanslı kullanıcılar için geçerlidir!</string>
+    <!-- Map Settings -->
+<string name="map_settings_auto_zoom_cat_title">Otomatik Yakınlaştırma ve amp; Eğim</string>
+     <string name="map_settings_auto_zoom_title">Otomatik yakınlaştırma düzeyini etkinleştir</string>
+     <string name="map_settings_auto_tilt_title">Otomatik eğim düzeyini etkinleştir</string>
+     <string name="map_settings_auto_nav_only">Yalnızca etkin gezinmede otomatik mod</string>
+     <string name="map_settings_ui_cat_title">Arayüz Seçenekleri</string>
+     <string name="map_settings_ui_enable_track_progress">İlerleme durumunu izleme bilgi kutusunu etkinleştir</string>
+     <string name="map_settings_ui_enable_track_progress_summary">Ekranın yan tarafında, izleme ilerlemesini ve sonraki İÇN'lere ve Yol Noktalarına olan mesafeleri gösteren bir kutu gösterilecektir.</string>
+     <string name="map_settings_ui_enable_street_name">Sokak adını göster</string>
+     <string name="map_settings_ui_enable_street_name_summary">Haritanın alt kısmında mevcut cadde adını gösterir</string>
+     <string name="reverse_geo_unnamed_road">Adsız Yol</string>
+     <string name="map_settings_ui_disable_touch_on_lock">Kilitlendiğinde haritaya dokunmayı devre dışı bırak</string>
+     <string name="map_settings_ui_disable_touch_on_lock_message">Kontrol cihazınız varsa özellikle kullanışlıdır; tüm ekrana dokunmayı devre dışı bırakır</string>
+     <string name="map_settings_ui_lock_on_move_title">Taşınırken otomatik kilitleme</string>
+     <string name="map_settings_ui_lock_on_move_message">Harita, hareket etmeye başladığınızda kullanıcı arayüzünü otomatik olarak kilitleyecektir</string>
+     <string name="map_settings_ui_unlock_on_stop_title">Durdurulduğunda otomatik kilit açma</string>
+     <string name="map_settings_ui_unlock_on_stop_message">Harita, hareket etmeyi bıraktığınızda kullanıcı arayüzünün kilidini otomatik olarak açacaktır</string>
+     <string name="map_settings_ui_hide_widget_labels_title">Widget Başlıklarını Gizle</string>
+     <string name="map_settings_ui_hide_widget_labels_message">Değer etiketi boyutunu artırmak için widget başlıklarını gizler</string>
+     <string name="map_settings_language_cat_title">Harita Dili</string>
+     <string name="map_settings_language_load_mode_title">Harita Dili</string>
+     <string-array name = "map_settings_language_load_mode_entries" translatable = "true">
+         <item>Yerelleştirilmiş Harita Dili</item>
+         <item>İngilizce veya mevcut latin alfabesi</item>
+         <item>Fransızca > İngilizce veya mevcut latin alfabesi</item>
+         <item>Almanca > İngilizce veya mevcut latin alfabesi</item>
+     </string-array>
+     <string name="map_settings_navigation_cat_title">Gezinme</string>
+     <string name="map_settings_navigation_start_ask_title">Şuraya Git: DMD2 veya Harici kullanmayı isteyin</string>
+     <string name="map_settings_navigation_start_ask_message">Etkinleştirilirse DMD2, DMD2'yi mi yoksa başka bir uygulamayı mı kullanmak istediğinizi soracaktır. Devre dışı bırakılırsa varsayılan olarak DMD2 olur.</string>
+     <string name="map_settings_navigation_use_voice_instructions_title">Sesli Talimatları Etkinleştir</string>
+     <string name="map_settings_navigation_use_voice_instructions_summary">Navigasyon için sesli talimatlar sağlamak amacıyla Text-To-Speech'i kullanacak.</string>
+     <string name="map_settings_navigation_show_waypoints_title">Haritada Yol Noktalarını Göster</string>
+     <string name="map_settings_navigation_show_waypoints_message">Haritada yönlendirme talimatı yol noktası pinini görüntüleyecektir.</string>
+     <string name="map_settings_navigation_recalculation_distance">Otomatik rota yeniden hesaplama mesafesi</string>
+     <string-array name = "map_settings_navigation_recalculation_distance_names" translatable = "true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1Km</item>
+        <item>Never</item>
+    </string-array>
+ <string name="map_settings_controller_cat_title">Denetleyici Ayarları</string>
+     <string name="map_settings_controller_disable_pan_spot_title">Kaydırma Modu Hedefini Devre Dışı Bırak</string>
+     <string name="map_settings_controller_disable_pan_spot_summary">Yeni kaydırma modu hedef nokta eylemlerini devre dışı bırakır</string>
+     <string name="map_settings_follow_cat_title">Konum Modlarını Takip Et</string>
+     <string name="map_settings_follow_north_tained">Kuzey Yönelimli</string>
+     <string name="map_settings_follow_north_Orient_summary">Haritanın üst kısmı kuzeye sabitlenmiş olarak konumu takip eder</string>
+     <string name="map_settings_follow_north_Orient_track">Kuzey Yönelimli "T" - Etkin İzlemi veya Navigasyonu Yakınlaştır</string>
+     <string name="map_settings_follow_north_tained_track_summary">Kuzey Yönelimli ile aynı ancak yakınlaştırmanın aktif izleme veya navigasyona sınırlanmasıyla</string>
+     <string name="map_settings_follow_north_tained_file">Kuzey Yönelimli "F"- Etkin GPX'e veya Navigasyona Yakınlaştır</string>
+     <string name="map_settings_follow_north_tained_file_summary">Kuzey Yönelimli ile aynı ancak yakınlaştırmanın tam etkin GPX dosyasına veya navigasyona sınırlanmasıyla</string>
+     <string name="map_settings_follow_north_next_indication">Kuzey Yönelimli "N"- Sonraki Yol Noktası / Gösterge</string>
+     <string name="map_settings_follow_north_next_indication_summary">Kuzey Yönelimli ile aynıdır ancak yakınlaştırma konumunuzu ve sonraki Yol Noktası veya Nav göstergesini sınırlar</string>
+     <string name="map_settings_follow_travel_tained">Seyahat Odaklı</string>
+     <string name="map_settings_follow_travel_tained_summary">Üst kısmı seyahat yönünüze uyacak şekilde konumu harita dönüşüyle takip eder</string>
+    <!-- Poi Search -->
+  <string name="map_poi_search_manager">Yer Arama</string>
+     <string name="map_poi_search_call">Ara</string>
+     <string name="map_poi_type_name">Tür Adı</string>
+     <string name="map_poi_error_no_offline_map_loaded">Hata: henüz harita yüklenmedi! Önce çevrimdışı haritaları indirin.</string>
+     <string name="map_poi_error_no_poi_found">Hata: İÇN bulunamadı!</string>
+     <string name="map_poi_search_more">Çevrimiçi Ara</string>
+     <string name="map_poi_no_phone_available_error">Telefon numarası yok</string>
+     <string name="map_poi_no_phone_app_available_error">Telefon uygulaması yok</string>
+     <string name="map_poi_no_address">Adres mevcut değil</string>
+     <string name="map_poi_no_phone">Telefon yok</string>
+     <string name="map_poi_no_website">Kullanılabilir web sitesi yok</string>
+     <string name="map_poi_no_opening_hours">Açılış saati mevcut değil</string>
+     <string name="map_poi_search_dialog_title">İÇN'yi Ada Göre Ara</string>
+     <string name="map_poi_search_button">Arama</string>
+     <string name="map_poi_coorders">Koordinatlar</string>
+     <string name="map_poi_insert_coorders">Koordinatları Ekle</string>
+     <string name="map_poi_insert_coorders_example">Örnek- (DD): 41.193376, -8.298463 veya (DMS): 41°11\'36.2\"K, 8°17\'54.5\"W</string>
+     <string name="map_poi_insert_coorders_not_valid">Koordinatlar geçerli değil!</string>
+     <string name="map_poi_not_a_valid_keyword">Geçerli bir arama girişi değil!</string>
+     <string name="map_poi_no_valid_location_yet">Henüz GPS konumu yok! Lütfen daha sonra tekrar deneyin.</string>
+     <string name="map_poi_distance_long_press_no_fix">Mesafe mevcut değil, henüz GPS Düzeltmesi yok.</string>
+     <string name="map_poi_show_pin_for_location">PIN konumu için İÇN Araması yükleniyor</string>
+     <string name="map_poi_search_name">Arama Adı</string>
+     <string name="map_poi_cat_fuel">Benzin İstasyonu</string>
+     <string name="map_poi_cat_accommodation">Konaklama</string>
+     <string name="map_poi_cat_restaurants">Restoranlar</string>
+     <string name="map_poi_cat_cafe">Kafeler, Publar veamp; Çubuk</string>
+     <string name="map_poi_cat_shop">Alışveriş ve amp; Pazar</string>
+     <string name="map_poi_cat_moto_repair">Motosiklet Tamiri</string>
+     <string name="map_poi_cat_car_repair">Araba Tamiri</string>
+     <string name="map_poi_cat_parking">Park Yeri</string>
+     <string name="map_poi_cat_rental">Kiralama, Yıkama ve amp; Şarj</string>
+     <string name="map_poi_cat_money">Banka veamp; Bankamatik</string>
+     <string name="map_poi_cat_wc_water">WC veamp; Su</string>
+     <string name="map_poi_cat_camping">Kamp veamp; Karavan</string>
+     <string name="map_poi_cat_recreation">Eğlence</string>
+     <string name="map_poi_cat_natural_places">Doğal Yerler</string>
+     <string name="map_poi_cat_hospital">Hastane</string>
+     <string name="map_poi_cat_pharmacy">Eczane</string>
+     <string name="map_poi_cat_tourism">Turizm</string>
+     <string name="map_poi_cat_historic">Tarihi Yerler</string>
+     <string name="map_poi_cat_pub_transport">Toplu Taşıma Araçları</string>
+     <string name="map_poi_cat_pub_entertainment">Eğlence</string>
+     <string name="map_poi_cat_pub_government">Hükümet</string>
+     <string name="map_poi_cat_pub_cities">Şehirler, Kasabalar veamp; Köyler</string>
+     <string name="map_poi_cat_pub_communications">İletişim</string>
+    <!-- Track Tap -->
+<string name="map_map_track_tap_dialog_title">İzleme Noktasına Dokunma</string>
+     <string name="map_map_track_tap_track_details">İzleme Ayrıntıları</string>
+     <string name="map_map_track_tap_track_point_distances">Nokta konumu mesafeleri:</string>
+     <string name="map_map_track_tap_track_point_distances_to_you">Mesafe ve amp; konumunuza kalan süre:</string>
+     <string name="map_map_track_tap_on_track">Bu yoldasınız!</string>
+     <string name="map_map_track_tap_not_on_track_but_on_gpx">Başka bir yoldasınız.</string>
+     <string name="map_map_track_tap_not_on_gpx">Bu parkurda veya aynı GPX dosyasındaki başka bir aktif parkurda sürüş yapmıyorsunuz.</string>
+     <string name="map_map_track_tap_point_distance_from_track_start">Parça Başlangıcı:</string>
+     <string name="map_map_track_tap_point_distance_to_track_end">Parça Sonu:</string>
+     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Başlangıç:</string>
+     <string name="map_map_track_tap_point_distance_to_gpx_end">GPX Sonu:</string>
+     <string name="map_map_track_tap_point_distance_to_you">Mesafe:</string>
+     <string name="map_map_track_tap_point_time_to_you">Seyahat Süresi:</string>
+     <string name="map_map_track_tap_point_behind">arkasında</string>
+     <string name="map_map_track_tap_point_ahead">ileride</string>
+     <string name="map_map_track_tap_distance_to_another_point">Başka bir noktaya olan mesafeyi öğrenin</string>
+     <string name="map_map_track_tap_points_distance_title">Puan Mesafesi</string>
+     <string name="map_map_track_tap_points_distance_tap_on">Noktalar arasındaki mesafeyi öğrenmek için başka bir noktaya dokunun</string>
+     <string name="map_map_track_tap_points_distance_not_same_gpx">Lütfen aynı GPX dosyasının parçası olan bir nokta seçin!</string>
+     <string name="map_map_track_tap_points_distance_both_same_track">Seçilen her iki nokta da aynı GPX Parkurunda</string>
+     <string name="map_map_track_tap_points_distance_ Different_track">Puanlar aynı GPX Parçasında değil ancak yollar birbirine bağlı</string>
+     <string name="map_map_track_tap_points_distance_ Different_track_error">Birden fazla bağlantıya sahip farklı izler üzerinde ölçüm yapılamıyor!</string>
+    <!-- Left Panel Progress -->
+<string name="map_ui_left_progress_panel_finish_label">Bitti:</string>
+    <!-- Route Planner -->
+<string name="map_route_planner_dialog_root_title">Rota Planlayıcı</string>
+     <string name="map_route_planner_road_fast">Yolda Hızlı</string>
+     <string name="map_route_planner_road_fun">Yol Eğlencesi</string>
+     <string name="map_route_planner_offroad">Yol Dışı</string>
+     <string name="map_route_planner_avoid_tolls">Ücretlerden Kaçının</string>
+     <string name="map_route_planner_avoid_motorways">Otoyollardan Kaçının</string>
+     <string name="map_route_planner_offroad_easy">Kolay</string>
+     <string name="map_route_planner_offroad_medium">Orta</string>
+     <string name="map_route_planner_offroad_hard">Zor</string>
+     <string name="map_route_planner_profile_label">Profil Seç</string>
+     <string name="map_route_planner_profile_option">Profil Seçeneklerini Belirleyin</string>
+     <string name="map_route_calculated_message">Rota hesaplanıyor…</string>
+     <string name="map_route_loading_message">Rota Yükleniyor…</string>
+     <string name="map_route_analyzing_message">Rota Analiz Ediliyor…</string>
+     <string name="map_route_calculated_message_retry">Hata!</string>
+     <string name="map_route_calculated_message_options">Seçenekler</string>
+     <string name="map_route_planner_no_gps_fix">Henüz GPS düzeltmesi yok, daha sonra tekrar deneyin!</string>
+     <string name="map_route_planner_cancel_active_dialog_title">Etkin Rota iptal edilsin mi?</string>
+     <string name="map_route_planner_cancel_active_dialog_message">Etkin bir navigasyon var. İptal edip yeni bir tane başlatmak istiyor musunuz?</string>
+     <string name="map_route_planner_instruction_now">Şimdi</string>
+     <string name="map_route_planner_instruction_arrrived">Hedefinize ulaştınız!</string>
+     <string name="map_route_planner_instruction_keep_same_road">Devam et</string>
+     <string name="map_route_planner_instruction_turn_left">Sola dönün</string>
+     <string name="map_route_planner_instruction_turn_right">Sağa dönün</string>
+     <string name="map_route_planner_instruction_turn_left_sharp">Keskin Sola doğru</string>
+     <string name="map_route_planner_instruction_turn_right_sharp">Keskin Sağa Gir</string>
+     <string name="map_route_planner_instruction_turn_slight_left">Hafif Sola Dön</string>
+     <string name="map_route_planner_instruction_turn_slight_right">Hafif Sağa Dön</string>
+     <string name="map_route_planner_instruction_keep_left">Solda Kal</string>
+     <string name="map_route_planner_instruction_keep_right">Doğrudan içeride kalın</string>
+     <string name="map_route_planner_instruction_uturn">U Dönüşü</string>
+     <string name="map_route_planner_instruction_straight">Doğrudan ilerleyin</string>
+     <string name="map_route_planner_instruction_take_exit_1">İlk Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_2">İkinci Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_3">Üçüncü Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_4">Dördüncü Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_5">Beşinci Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_6">Altıncı Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_7">Yedinci Çıkış</string>
+     <string name="map_route_planner_instruction_take_exit_8">Sekiz Çıkış içinde</string>
+     <string name="map_route_planner_instruction_destination">Hedef şuradaki</string>
+     <string name="map_route_planner_nav_options">Seçenekler</string>
+     <string name="map_route_planner_nav_options_title">Etkin Gezinme Seçenekleri</string>
+     <string name="map_route_planner_nav_options_message">Etkin navigasyon için mevcut seçenekler:</string>
+     <string name="map_route_planner_nav_options_share_as_gpx">GPX Olarak Paylaş</string>
+     <string name="map_route_planner_error_missing_calc_file_title">Eksik Hesaplama Dosyaları</string>
+     <string name="map_route_planner_error_missing_calc_file_message">Hesaplama dosyaları eksik. Hesaplama dosyalarının indirildiğinden emin olmak için lütfen harita dosyalarınızı yeniden indirin!</string>
+     <string name="map_route_planner_error_other_title">Hesaplama Hatası</string>
+     <string name="map_route_planner_error_other_message">Rota hesaplanırken bir hata oluştu! Lütfen tekrar deneyin, eğer arazideyseniz Karma profili deneyin!</string>
+     <string name="map_route_planner_dialog_download_calc_file_title">Rota Planlayıcı Dosyaları Eksik</string>
+     <string name="map_route_planner_dialog_download_calc_file_message">DMD2 rota planlama özellikleri için ek dosyalar indirmeniz gerekir. Bunu şimdi yapmak istiyor musunuz?</string>
+     <string name="map_route_planner_dialog_download_progress">Hesaplama dosyası indiriliyor</string>
+     <string name="map_route_planner_empty">Etkin parkur veya rota yok!</string>
+    <!-- Place Search -->
+<string name="map_place_search_dialog_title">Çevrimiçi Adres Arama</string>
+     <string name="map_place_search_cat_name">Çevrimiçi Adres</string>
+     <string name="map_place_search_dialog_type_label">Bir adı veya adresi aramak için yazın:</string>
+     <string name="map_place_search_distance">Düz Çizgi Mesafesi:</string>
+     <string name="map_place_search_instructions">Sonuçları görüntülemek için en az üç harf yazın</string>
+    <!-- GPX Recorder -->
+<string name="map_gpx_recorder_dialog_title">GPX Kaydedici</string>
+     <string name="map_gpx_recorder_dialog_my_recordings">Kayıtlar</string>
+     <string name="map_gpx_recorder_dialog_status">Kayıt Durumu:</string>
+     <string name="map_gpx_recorder_dialog_recording_distance">Mesafe:</string>
+     <string name="map_gpx_recorder_dialog_recording_points">Puanlar:</string>
+     <string name="map_gpx_recorder_dialog_recording_tracks">Parçalar:</string>
+     <string name="map_gpx_recorder_dialog_recording_waypoints">Yol noktaları:</string>
+     <string name="map_gpx_recorder_dialog_recording_start_time">Başladı:</string>
+     <string name="map_gpx_recorder_dialog_recording_elapsed_time">Geçen Süre:</string>
+     <string name="map_gpx_recorder_dialog_recording_avg_speed">Ort. Hız:</string>
+     <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alternatif Kazanç:</string>
+     <string name="map_gpx_recorder_dialog_record">Kayıt</string>
+     <string name="map_gpx_recorder_dialog_pause">Duraklat</string>
+     <string name="map_gpx_recorder_dialog_resume">Devam ettir</string>
+     <string name="map_gpx_recorder_dialog_finish">Bitir</string>
+     <string name="map_gpx_recorder_dialog_add_track">Yeni Parça</string>
+     <string name="map_gpx_recorder_dialog_add_waypoint">Yol Noktası Ekle</string>
+     <string name="map_gpx_recorder_dialog_status_stopped">Kayıt yapılmıyor, başlamak için Kaydet düğmesine basın</string>
+     <string name="map_gpx_recorder_dialog_status_recording">GPX kaydediliyor, bitirmek ve kaydetmek için Son'a basın</string>
+     <string name="map_gpx_recorder_dialog_status_paused">Kaydedici Duraklatıldı, devam ettirin veya bitirin</string>
+     <string name="map_gpx_recorder_dialog_points_short">puan</string>
+     <string name="map_gpx_recorder_new_track_title">Yeni Parça Adı</string>
+     <string name="map_gpx_recorder_new_track_add_track">Parça Ekle</string>
+     <string name="map_gpx_recorder_inactive_warning">Bunu yapamazsınız. Kaydedilmiyor!</string>
+     <string name="map_gpx_recorder_finish_gpx_title">Kaydı Bitir</string>
+     <string name="map_gpx_recorder_finish_gpx_message">Lütfen onu bir GPX dosyasına kaydetmeyi, atmayı ve kaydı silmeyi veya bu iletişim kutusunu kapatıp kayda devam etmeyi seçin.</string>
+     <string name="map_gpx_recorder_finish_name_file_title">GPX Dosyasının Adı</string>
+     <string name="map_gpx_recorder_finish_name_file_discard">Sil / Sil</string>
+     <string name="map_gpx_recorder_finish_name_file_already_exists_title">Dosya Zaten Mevcut</string>
+     <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Tekrar Dene</string>
+     <string name="map_gpx_recorder_recordings_list">Kayıt Listesi</string>
+     <string name="map_gpx_recorder_recordings_list_no_file_yet">Henüz kayıtlı GPX dosyası yok!</string>
+     <string name="map_gpx_recorder_recordings_list_load_gpx">GPX'i yükle</string>
+     <string name="map_gpx_recorder_recordings_list_rename_gpx">Yeni Dosya Adını Yazın:</string>
+     <string name="map_gpx_recorder_add_waypoint_title">Yeni Yol Noktası</string>
+     <string name="map_gpx_recorder_add_waypoint_hint_name">Yol Noktası Adı</string>
+     <string name="map_gpx_recorder_add_waypoint_hint_description">Açıklama Metni</string>
+     <string name="map_gpx_recorder_add_waypoint_point_map">Konum'a dokunun</string>
+     <string name="map_gpx_recorder_add_waypoint_auto_fill">Otomatik Doldur</string>
+     <string name="map_gpx_recorder_add_waypoint_number">Yol noktası</string>
+     <string name="map_gpx_recorder_add_waypoint_tap_map_title">Konuma Giden Haritaya Dokunun</string>
+     <string name="map_gpx_recorder_add_waypoint_tap_map_message">Yol noktası için yeni konuma dokunun ve ardından ayarla düğmesine tıklayın!</string>
+<string name="map_gpx_recorder_add_waypoint_tap_save">Konumu Ayarla</string>
+     <string name="map_gpx_recorder_tracks_edit">Kaydedici İzleri Düzenleyicisi</string>
+     <string name="map_gpx_recorder_tracks_edit_no_tracks">Henüz Parça Yok!</string>
+     <string name="map_gpx_recorder_track_edit_name">Parça Adı</string>
+     <string name="map_gpx_recorder_track_edit_description">Parça Açıklaması</string>
+     <string name="map_gpx_recorder_track_edit_color">Renk:</string>
+     <string name="map_gpx_recorder_waypoints_edit">Kaydedici Yol Noktaları Düzenleyicisi</string>
+     <string name="map_gpx_recorder_waypoint_edit_pin">Pin Simgesi:</string>
+     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Henüz Ara Nokta Yok!</string>
+     <string name="map_gpx_recorder_confirm_delete_title">Silme Onayı</string>
+     <string name="map_gpx_recorder_confirm_delete_message">Bu dosyayı silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!</string>
+    <!-- Location Manager -->
+<string name="location_manager_my_locations_cat">Yerlerim</string>
+     <string name="location_manager_save_location_button">Konumu Kaydet</string>
+     <string name="location_manager_save_location_name">Konum Adı</string>
+     <string name="location_manager_save_location_dialog_title">Konumlarıma Kaydet</string>
+     <string name="location_manager_save_location_unnamed">Adsız Konum</string>
+     <string name="location_manager_save_location_no_description">Açıklama yok</string>
+     <string name="location_manager_save_location_saved">Konum Kaydedildi!</string>
+     <string name="location_manager_save_keep_on_map">Haritada görünür tut</string>
+     <string name="location_manager_save_new">Yeni Ekle</string>
+     <string name="location_manager_no_locations_yet">Henüz kayıtlı yer yok…</string>
+
+</resources>
