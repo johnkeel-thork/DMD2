@@ -715,62 +715,62 @@
 
     <!-- Roadbook -->
     <!-- Settings -->
-    <string name="roadbook_settings_instrumets_cat_title">Instruments Settings</string>
-    <string name="roadbook_settings_totals_single_decimal_title">Total Distance - Single Decimal Place</string>
-    <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
-    <string name="roadbook_settings_partial_single_decimal_summary">Will show the Partial distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_visual_settings_cat_title">Visual Settings</string>
-    <string name="roadbook_settings_invert_paper_color_title">Invert PDF Colors</string>
-    <string name="roadbook_settings_invert_paper_color_message">Inverts the paper color, might be useful for riding during the night.</string>
-    <string name="roadbook_settings_locker_cat_title">Lock Settings</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_title">Lock also disables paper touch</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled any paper touch is ignored. This helps prevent accidental movements or rain drop actions.</string>
-    <string name="roadbook_settings_locker_disable_instruments_title">Lock also disables instruments</string>
-    <string name="roadbook_settings_locker_disable_instruments_message">When lock is enabled the instrument tap actions will also be disabled.</string>
-    <string name="roadbook_settings_locker_disable_topmenu_title">Lock also disables top menu</string>
-    <string name="roadbook_settings_locker_disable_topmenu_message">When lock is enabled the top menu will also be disabled and only the lock button will work.</string>
-    <string name="roadbook_settings_locker_play_pause_title">Sync lock with play/pause</string>
-    <string name="roadbook_settings_locker_play_pause_message">Locking will trigger play and unlocking will trigger pause.</string>
-    <string name="roadbook_settings_adjustment_cat_title">Adjustments</string>
-    <string name="roadbook_settings_distance_multi_factor_title">Distance Multiplier</string>
-    <string name="roadbook_settings_distance_multi_factor_message">Add a correction factor to Total and Partial distance (in case you need to match to Roadbook distances)</string>
-    <string name="roadbook_settings_no_instruments_title">Hide Instruments Panel</string>
-    <string name="roadbook_settings_no_instruments_message">If you have your own dedicated instruments and just want to use the PDF roll.</string>
-    <string name="roadbook_settings_reset_session_title">Reset Session</string>
-    <string name="roadbook_settings_reset_session_message">Unloads current PDF file and resets all statistics and distances.</string>
-    <string name="roadbook_settings_reset_session_confirm_title">Confirm Reset</string>
-    <string name="roadbook_settings_reset_session_confirm_message">Are you sure you want to reset the current progress? This unloads current PDF file and resets all statistics and distances!</string>
-    <string name="roadbook_settings_reset_session_confirm_reset_button">Reset</string>
-    <string name="roadbook_settings_controller_setup_cat_title">Remote Controller Setup</string>
+    <string name="roadbook_settings_instrumets_cat_title">Paramètres des instruments</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Distance totale - une décimale</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Affichera la distance totale avec une seule décimale à la place de deux</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Partielle - une décimale</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Affichera la distance partielle avec une seule décimale à la place de deux</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Paramètres visuel</string>
+    <string name="roadbook_settings_invert_paper_color_title">Inverser les couleurs PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Inverse la couleur du papier, peut-être utile en roulant de nuit.</string>
+    <string name="roadbook_settings_locker_cat_title">Paramètres de verouillage</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">Le verrouillage désactive également le contact avec le papier</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Lorsque le verrouillage est activé, toute touche de papier est ignorée. Cela permet d'éviter les mouvements accidentels ou les actions de gouttes de pluie.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Le verrouillage désactive également les instruments</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Lorsque le verrouillage est activé, les actions de l'instrument sont également désactivées.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Le verouillage désactive également le menu supérieur</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Lorsque le verrouillage est activé, le menu supérieur sera également désactivé et seul le bouton de verrouillage fonctionnera.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Synchroniser le verouillage avec play/pause</string>
+    <string name="roadbook_settings_locker_play_pause_message">Le verrouillage déclenchera la lecture et le déverrouillage déclenchera la pause.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Ajustements</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Multiplicateur de distance</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Ajoute un facteur de correction à la distance totale et partielle (au cas où vous auriez besoin de correspondre aux distances du Roadbook)</string>
+    <string name="roadbook_settings_no_instruments_title">Cacher le panneau d'instruments</string>
+    <string name="roadbook_settings_no_instruments_message">Si vous disposez de vos propres instruments et souhaitez simplement utiliser le rouleau PDF.</string>
+    <string name="roadbook_settings_reset_session_title">Reinitialiser de la session</string>
+    <string name="roadbook_settings_reset_session_message">Décharge le fichier PDF actuel et réinitialise toutes les statistiques et distances.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Confirmer la réinitialisation</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Etes-vous sûr de vouloir réinitialiser la progression actuelle ? Cela décharge le fichier PDF actuel et réinitialise toutes les statistiques et distances!</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Réinitialiser</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Configuration de la télécommande</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
-        <item>Paper Roll Up</item>
-        <item>Paper Roll Down</item>
-        <item>Increase Total</item>
-        <item>Decrease Total</item>
-        <item>Increase Partial</item>
-        <item>Decrease Partial</item>
-        <item>Reset Total</item>
-        <item>Reset Partial</item>
-        <item>Invert Paper Color</item>
-        <item>Lock / Unlock</item>
+        <item>Enrouler vers le haut</item>
+        <item>Enrouler vers le bas</item>
+        <item>Augmentation totale</item>
+        <item>Diminution totale</item>
+        <item>Augmentation partielle</item>
+        <item>Diminution partielle</item>
+        <item>Réinitialisation totale</item>
+        <item>Réinitialisation partielle</item>
+        <item>Inverser la couleur du papier</item>
+        <item>Verouiller / Dévérouiller</item>
         <item>Play / Pause</item>
-        <item>Do Nothing</item>
+        <item>Ne rien faire</item>
     </string-array>
-    <string name="roadbook_controller_button_up">Up Key</string>
-    <string name="roadbook_controller_button_down">Down Key</string>
-    <string name="roadbook_controller_button_left">Left Key</string>
-    <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Enter Key (no repeat)</string>
-    <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked / no repeat)</string>
-    <string name="roadbook_controller_button_zoomin">Button A ( + )</string>
-    <string name="roadbook_controller_button_zoomout">Button B ( - )</string>
-    <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
-    <string name="roadbook_controller_scroll_amount_message">Adjust the amount of movement for the paper scroll up and down</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when held.</string>
-    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Set Repeat Speed for Joystick</string>
-    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Set Repeat Speed for Buttons</string>
+    <string name="roadbook_controller_button_up">Touche haut</string>
+    <string name="roadbook_controller_button_down">Touche bas</string>
+    <string name="roadbook_controller_button_left">Touche gauche</string>
+    <string name="roadbook_controller_button_right">Touche droite</string>
+    <string name="roadbook_controller_button_enter">Touche Entrée (sans répétition)</string>
+    <string name="roadbook_controller_button_enter_long">Touche Entrée appui long (uniquement lorsque verrouillé / sans répétition)</string>
+    <string name="roadbook_controller_button_zoomin">Bouton A ( + )</string>
+    <string name="roadbook_controller_button_zoomout">Bouton B ( - )</string>
+    <string name="roadbook_controller_scroll_amount_title">Ascenseur de défilement par clic</string>
+    <string name="roadbook_controller_scroll_amount_message">Ajuste la quantité de mouvement pour le défilement du papier de haut en bas</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Activer la répétition des touches pour le joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Si elles sont activées, les touches Haut, Bas, Gauche et Droite se répéteront lorsqu\'elles seront maintenues enfoncées.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Définir la vitesse de répétition pour le joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Définir la vitesse de répétition pour les boutons</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
         <item>50ms</item>
         <item>100ms</item>
@@ -783,173 +783,173 @@
         <item>450ms</item>
         <item>500ms</item>
     </string-array>
-    <string name="roadbook_controller_enable_key_repeat_buttons_title">Enable Key Repeat for Buttons</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_message">If enabled the keys for Button A and Button B will repeat when held.</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll paper down one click on partial reset</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Activer la répétition des touches pour les boutons</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Si elles sont activées, les touches du bouton A et du bouton B se répéteront lorsqu\'elles seront maintenues enfoncées.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Fait défiler le papier vers le bas en un clic lors d\'une réinitialisation partielle</string>
     <!-- Instrument On Tap Dialogs -->
-    <string name="roadbook_totals_dialog_title">Total Distance</string>
-    <string name="roadbook_totals_dialog_text">Please select an option for the Total distance instrument</string>
-    <string name="roadbook_partials_dialog_title">Partial Distance</string>
-    <string name="roadbook_partials_dialog_text">Please select an option for the Partial distance instrument</string>
-    <string name="roadbook_total_partial_dialog_reset">Reset</string>
-    <string name="roadbook_total_partial_dialog_edit">Edit</string>
-    <string name="roadbook_total_edit_message_dialog">Edit Total Distance</string>
-    <string name="roadbook_partial_edit_message_dialog">Edit Partial Distance</string>
+    <string name="roadbook_totals_dialog_title">Distance Totale</string>
+    <string name="roadbook_totals_dialog_text">Merci de sélectionner une option pour l\'instrument de distance totale</string>
+    <string name="roadbook_partials_dialog_title">Disantce Partielle</string>
+    <string name="roadbook_partials_dialog_text">Merci de sélectionner une option pour l\'instrument de distance partielle</string>
+    <string name="roadbook_total_partial_dialog_reset">Réinitialiser</string>
+    <string name="roadbook_total_partial_dialog_edit">Modifier</string>
+    <string name="roadbook_total_edit_message_dialog">Modifier la distance totale</string>
+    <string name="roadbook_partial_edit_message_dialog">Modifier la distance partielle</string>
     <!-- Instrument Selection Dialogs -->
-    <string name="roadbook_instrument_select_dialog_title">Select Instrument</string>
+    <string name="roadbook_instrument_select_dialog_title">Sélectionner l\'instrument</string>
     <!-- Instrument Names -->
-    <string name="roadbook_instrument_name_total">Total Distance</string>
-    <string name="roadbook_instrument_name_partial">Partial Distance</string>
-    <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensor</string>
+    <string name="roadbook_instrument_name_total">Distance Totale</string>
+    <string name="roadbook_instrument_name_partial">Disantce Partielle</string>
+    <string name="roadbook_instrument_name_obd2">Capteur GPS/OBD2</string>
     <!-- View -->
-    <string name="roadbook_error_not_ready">Roadbook Service not ready yet! Please try again.</string>
-    <string name="roadbook_error_no_action">There is no action for this instrument.</string>
-    <string name="roadbook_stats_title">Statistics</string>
-    <string name="roadbook_filename_label">File Name:</string>
-    <string name="roadbook_filename_no_file">No loaded file</string>
-    <string name="roadbook_totaltime_label">Total Time:</string>
-    <string name="roadbook_traveltime_label">Travel Time:</string>
-    <string name="roadbook_stoptime_label">Stop Time:</string>
-    <string name="roadbook_avgspeed_label">Average Speed:</string>
-    <string name="roadbook_maxspeed_label">Maximum Speed:</string>
-    <string name="roadbook_reset_stats_button">Reset</string>
-    <string name="roadbook_open_new_dialog_title">Open New File</string>
-    <string name="roadbook_open_new_dialog_message">Discard current session and start new one or save progress first so that you can resume it later?</string>
-    <string name="roadbook_open_new_dialog_open_button">Start Now</string>
-    <string name="roadbook_open_new_dialog_save_first_button">Save First</string>
-    <string name="roadbook_open_parsing_error_title">Error Opening File</string>
-    <string name="roadbook_open_parsing_error_message">There seems to be a problem reading this PDF file. It is probably not compatible!</string>
-    <string name="roadbook_adjust_distance_multi">Distance Correction Factor:</string>
-    <string name="roadbook_open_file_or_session_title">Open File or Session</string>
-    <string name="roadbook_open_file_or_session_message">Import new PDF file or open Session Manager (manage previous saved sessions)?</string>
-    <string name="roadbook_open_file_or_session_new_file">File</string>
+    <string name="roadbook_error_not_ready">Le service Roadbook n’est pas encore prêt ! Veuillez réessayer.</string>
+    <string name="roadbook_error_no_action">Il n\'y a aucune action pour cet instrument.</string>
+    <string name="roadbook_stats_title">Statistiques</string>
+    <string name="roadbook_filename_label">Nom du fichier:</string>
+    <string name="roadbook_filename_no_file">Fichier non chargé</string>
+    <string name="roadbook_totaltime_label">Temps total:</string>
+    <string name="roadbook_traveltime_label">Temps de voyage:</string>
+    <string name="roadbook_stoptime_label">Temps d\'arrêt:</string>
+    <string name="roadbook_avgspeed_label">Vitesse moyenne:</string>
+    <string name="roadbook_maxspeed_label">Vitesse max:</string>
+    <string name="roadbook_reset_stats_button">Réinitialiser</string>
+    <string name="roadbook_open_new_dialog_title">Ouvrir un nouveau fichier</string>
+    <string name="roadbook_open_new_dialog_message">Supprimer la session en cours et en démarrer une nouvelle ou enregistrer d\'abord la progression afin de pouvoir la reprendre plus tard ?</string>
+    <string name="roadbook_open_new_dialog_open_button">Démarrer maintenant</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Sauvegarder d\'abord</string>
+    <string name="roadbook_open_parsing_error_title">Erreur lors de l\'ouverture du fichier</string>
+    <string name="roadbook_open_parsing_error_message">Il semble y avoir un problème lors de la lecture de ce fichier PDF. Fichier incompatible!</string>
+    <string name="roadbook_adjust_distance_multi">Facteur de correction de distance:</string>
+    <string name="roadbook_open_file_or_session_title">Ouvrir un fichier ou une session</string>
+    <string name="roadbook_open_file_or_session_message">Importer un nouveau fichier PDF ou ouvrir le gestionnaire de sessions (gérer les sessions enregistrées précédentes)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Fichier</string>
     <string name="roadbook_open_file_or_session_open_session">Session</string>
-    <string name="roadbook_session_save_input_name">Give this session a name</string>
-    <string name="roadbook_session_save_input_empty_name_error">The session name cannot be empty!</string>
-    <string name="roadbook_session_save_nothing_error">Nothing to save! Maybe start by opening a new Roadbook File.</string>
-    <string name="roadbook_session_save_replace_or_add_new_title">Replace or Add New</string>
-    <string name="roadbook_session_save_replace_or_add_new_message">Overwrite the current sessions or add a new entry?</string>
-    <string name="roadbook_session_save_replace_or_add_new_overwrite">Overwrite</string>
-    <string name="roadbook_session_save_replace_or_add_new_new_entry">New Entry</string>
-    <string name="roadbook_session_save_name_already_exists_title">Session Name Already Exists</string>
-    <string name="roadbook_session_save_name_already_exists_message">A session with this name already exists, do you want to replace or edit the name?</string>
-    <string name="roadbook_session_save_name_already_exists_replace">Replace</string>
-    <string name="roadbook_session_save_name_already_exists_edit">Edit Name</string>
+    <string name="roadbook_session_save_input_name">Enter un nom pour cette session</string>
+    <string name="roadbook_session_save_input_empty_name_error">Le nom de la session ne peut pas être vide!</string>
+    <string name="roadbook_session_save_nothing_error">Rien à sauvegarder! Commencez peut-être par ouvrir un nouveau fichier Roadbook.</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Remplacer ou ajouter une nouvelle</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Ecraser la session courante ou ajouter une nouvelle entrée?</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Ecraser</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Nouvelle entrée</string>
+    <string name="roadbook_session_save_name_already_exists_title">Le nom de session existe déjà</string>
+    <string name="roadbook_session_save_name_already_exists_message">Une session avec ce nom existe déjà, voulez-vous la remplacer ou changer de nom?</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Remplacer</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Changer de nom</string>
     <!-- Session Manager -->
-    <string name="roadbook_session_manager_title">Session Manager</string>
-    <string name="roadbook_session_manager_no_sessions_yet">No saved sessions yet! Save one first.</string>
+    <string name="roadbook_session_manager_title">Gestionnaire de session</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Aucune session enregistrée pour l\'instant! Enregistrez-en une d\’abord.</string>
     <string name="roadbook_session_date">Date:</string>
-    <string name="roadbook_session_file_name">PDF File:</string>
-    <string name="roadbook_session_total_distance">Total Distance:</string>
-    <string name="roadbook_session_total_time">Total Time:</string>
-    <string name="roadbook_session_travel_time">Travel Time:</string>
-    <string name="roadbook_session_avg_speed">Average Speed:</string>
-    <string name="roadbook_session_load_file">Load</string>
-    <string name="roadbook_session_rename_file">Rename</string>
-    <string name="roadbook_session_location">Location</string>
-    <string name="roadbook_session_new_name">Edit this session name</string>
-    <string name="roadbook_session_new_name_already_exists">This session name is already taken, please choose something else.</string>
-    <string name="roadbook_session_file_does_not_exist">ERROR: The PDF file for this session does not exist anymore!</string>
-    <string name="roadbook_session_load_confirmation_title">Session Load Confirmation</string>
-    <string name="roadbook_session_load_confirmation_message">Are you sure you want to load this session? Any unsaved Roadbook progress will be lost!</string>
+    <string name="roadbook_session_file_name">Fichier PDF:</string>
+    <string name="roadbook_session_total_distance">Distance Totale:</string>
+    <string name="roadbook_session_total_time">Temps Total:</string>
+    <string name="roadbook_session_travel_time">Temps de voyage:</string>
+    <string name="roadbook_session_avg_speed">Vitesse moyenne:</string>
+    <string name="roadbook_session_load_file">Charger</string>
+    <string name="roadbook_session_rename_file">Renommer</string>
+    <string name="roadbook_session_location">Emplacement</string>
+    <string name="roadbook_session_new_name">Modifier ce nom de session</string>
+    <string name="roadbook_session_new_name_already_exists">Ce nom de session est déjà pris, veuillez en choisir un autre.</string>
+    <string name="roadbook_session_file_does_not_exist">ERREUR: Le fichier PDF de cette session n\'existe plus!</string>
+    <string name="roadbook_session_load_confirmation_title">Confirmation de chargement de session</string>
+    <string name="roadbook_session_load_confirmation_message">Êtes-vous sûr de vouloir charger cette session? Toute progression du Roadbook non enregistrée sera perdue!</string>
     <!-- License -->
-    <string name="roadbook_license_title">Roadbook Demo Mode</string>
-    <string name="roadbook_license_message">Demo mode is limited to 15 minutes per session. Buy the Roadbook Plugin to unlock!</string>
-    <string name="roadbook_buy_button">Buy Plugin</string>
-    <string name="roadbook_non_playstore_purchase_title">License Purchase</string>
-    <string name="roadbook_non_playstore_purchase_message">Your device does not have Play Store installed, you can still purchase a key in our website and then insert it to activate it!</string>
-    <string name="roadbook_insert_key">Insert Key</string>
-    <string name="roadbook_purchase_key">Purchase</string>
-    <string name="roadbook_insert_key_title">Please insert your license key to activate the plugin:</string>
-    <string name="roadbook_purchase_key_activate">Activate</string>
-    <string name="roadbook_purchase_key_activate_error_title">Error Activating License</string>
-    <string name="roadbook_purchase_key_activate_error_message">Wrong license code or already activated on another device, check licenses in your Thork Racing account page or contact support.</string>
-    <string name="roadbook_purchase_key_activate_success_title">License Activated</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank you for your support.</string>
+    <string name="roadbook_license_title">Mode démo du roadbook</string>
+    <string name="roadbook_license_message">Le mode démo est limité à 15 minutes par session. Achetez le plugin Roadbook pour débloquer!</string>
+    <string name="roadbook_buy_button">Acheter le plugin</string>
+    <string name="roadbook_non_playstore_purchase_title">Achat de licence</string>
+    <string name="roadbook_non_playstore_purchase_message">PlayStore n\'est pas installé sur votre appareil, vous pouvez toujours acheter une clé sur notre site Web, puis l\'insérer pour l\'activer!</string>
+    <string name="roadbook_insert_key">Insérer la cléy</string>
+    <string name="roadbook_purchase_key">Acheter</string>
+    <string name="roadbook_insert_key_title">Merci de rentrer votre clé de licence pour activer le plugin:</string>
+    <string name="roadbook_purchase_key_activate">Activer</string>
+    <string name="roadbook_purchase_key_activate_error_title">Erreur d\'activation de licence</string>
+    <string name="roadbook_purchase_key_activate_error_message">Code de licence erroné ou déjà activé sur un autre appareil, vérifiez les licences sur la page de votre compte Thork Racing ou contactez le support.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Licence activée</string>
+    <string name="roadbook_purchase_key_activate_success_message">Le plugin est maintenant actif ! Merci pour votre soutien.</string>
 
     <!-- MAP VIEW -->
-    <string name="map_first_run_download_maps_title">No Maps Downloaded Yet</string>
-    <string name="map_first_run_download_maps_message">You have not yet downloaded any map files. Do you want to do it now?</string>
-    <string name="map_first_run_download_maps_starting_layers">Starting Layers Manager!</string>
-    <string name="map_navigation_selection_dialog_title">Select Navigation Mode</string>
-    <string name="map_navigation_selection_dialog_message">Use DMD2 to calculate the route or use an external app?</string>
-    <string name="map_navigation_selection_dialog_use_dmd2">Use DMD2</string>
-    <string name="map_navigation_selection_dialog_use_external">External App</string>
-    <string name="map_panning_mode_enable">Panning Mode Enabled</string>
+    <string name="map_first_run_download_maps_title">Aucune carte téléchargée pour l\'instant</string>
+    <string name="map_first_run_download_maps_message">Vous n'avez encore téléchargé aucune carte. Voulez-vous le faire maintenant?</string>
+    <string name="map_first_run_download_maps_starting_layers">Démarrage du gestionnaire de calques!</string>
+    <string name="map_navigation_selection_dialog_title">Sélectionner le mode de navigation</string>
+    <string name="map_navigation_selection_dialog_message">Utiliser DMD2 pour calculer l\'itinéraire ou utiliser une application externe?</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">Utiliser DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Application Externe</string>
+    <string name="map_panning_mode_enable">Mode panoramique activé</string>
     <!--Map Layers Manager-->
-    <string name="map_layers_dialog_title">Map Layers</string>
-    <string name="map_layers_base_map_title">Base Map Source</string>
-    <string name="map_layers_base_map_description">Base data for terrain, roads, buildings, addresses, and elevation.</string>
-    <string name="map_layers_3D_buildings_title">3D Buildings</string>
-    <string name="map_layers_3D_buildings_description">Converts building areas into basic extruded 3D shapes</string>
-    <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
-    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
-    <string name="map_layers_scale_map_layer_label">Map Scale</string>
-    <string name="map_layers_enable_layer_label">Enable Layer</string>
-    <string name="map_layers_enable_labels_layer_label">Enable Labels</string>
-    <string name="map_layers_scale_labels_layer_label">Labels Scale</string>
-    <string name="map_layers_enable_symbols_layer_label">Enable Symbols</string>
-    <string name="map_layers_scale_symbols_layer_label">Symbols Scale</string>
-    <string name="map_layers_hillshading_enable_shadows_label">Enable Shadows</string>sd
-    <string name="map_layers_map_base_download_more">Download Maps</string>
-    <string name="map_layers_map_base_title">Select Maps to Load</string>
-    <string name="map_layers_map_base_file_missing">Error: The map files are missing, please download them again!</string>
-    <string name="map_layers_map_base_no_map_yet">No downloaded maps yet, click Download Maps to download!</string>
-    <string name="map_layers_downloader_region_title">Select Region</string>
-    <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
-    <string name="map_layers_downloader_country_date_label">Last Update:</string>
-    <string name="map_layers_downloader_country_size_label">Size:</string>
-    <string name="map_layers_downloader_country_region_label">Region:</string>
-    <string name="map_layers_downloader_country_filename_label">File Name:</string>
-    <string name="map_layers_downloader_country_loaded_label">Load Map:</string>
-    <string name="map_layers_downloader_no_update_label">No Update</string>
-    <string name="map_layers_downloader_notification_title">DMD2 Downloading</string>
-    <string name="map_layers_downloader_wait_until_finished">Please wait for the download to complete!</string>
-    <string name="map_layers_downloader_cant_connect">Cannot connect to server, try again later!</string>
-    <string name="map_layers_downloader_not_enough_space">Not enough storage space!</string>
-    <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
-    <string name="map_layers_poi_highlight_description">Set POI icons to show at lower zoom levels (500m zoom max)(fuel/hospital/peaks are always enabled).</string>
+    <string name="map_layers_dialog_title">Couches de carte</string>
+    <string name="map_layers_base_map_title">Carte de basece</string>
+    <string name="map_layers_base_map_description">Données de base pour le terrain, les routes, les bâtiments, les adresses et l\'altitude.</string>
+    <string name="map_layers_3D_buildings_title">Immeubles en 3D</string>
+    <string name="map_layers_3D_buildings_description">Convertit les zones de construction en formes 3D extrudées de base</string>
+    <string name="map_layers_scale_visibility_title">Échelle &amp; Visibilité</string>
+    <string name="map_layers_scale_visibility_description">Ajuster l\'échelle et la visibilité de la carte, des étiquettes et des symboles</string>
+    <string name="map_layers_scale_map_layer_label">Échelle de la carte</string>
+    <string name="map_layers_enable_layer_label">Activer le calque</string>
+    <string name="map_layers_enable_labels_layer_label">Activer les labels</string>
+    <string name="map_layers_scale_labels_layer_label">Échelle des labels</string>
+    <string name="map_layers_enable_symbols_layer_label">Activer les symboles</string>
+    <string name="map_layers_scale_symbols_layer_label">Échelle des symboles</string>
+    <string name="map_layers_hillshading_enable_shadows_label">Acitver les ombres</string>sd
+    <string name="map_layers_map_base_download_more">Télécharger des cartes</string>
+    <string name="map_layers_map_base_title">Sélectionner les cartes à charger</string>
+    <string name="map_layers_map_base_file_missing">Erreur: Les fichiers de carte sont manquants, veuillez les télécharger à nouveau!</string>
+    <string name="map_layers_map_base_no_map_yet">Aucune carte téléchargée pour l\'instant, cliquez sur Télécharger des cartes!</string>
+    <string name="map_layers_downloader_region_title">Selectionner la région</string>
+    <string name="map_layers_downloader_country_downloaded_label">Téléchargée:</string>
+    <string name="map_layers_downloader_country_date_label">Dernière mise à jour:</string>
+    <string name="map_layers_downloader_country_size_label">Taille:</string>
+    <string name="map_layers_downloader_country_region_label">Région:</string>
+    <string name="map_layers_downloader_country_filename_label">Nom du fichier:</string>
+    <string name="map_layers_downloader_country_loaded_label">Charger la carte:</string>
+    <string name="map_layers_downloader_no_update_label">Aucune mise à jour</string>
+    <string name="map_layers_downloader_notification_title">DMD2 télécharge</string>
+    <string name="map_layers_downloader_wait_until_finished">Veuillez attendre la fin du téléchargement!</string>
+    <string name="map_layers_downloader_cant_connect">Impossible de se connecter au serveur, réessayez plus tard!</string>
+    <string name="map_layers_downloader_not_enough_space">Pas assez d\'espace de stockage!</string>
+    <string name="map_layers_poi_highlight_title">Icône de POI mise en surbrillance</string>
+    <string name="map_layers_poi_highlight_description">Définir les icônes de POI pour qu\'elles s\'affichent à des niveaux de zoom inférieurs (zoom maximum de 500 m) (carburant/hôpital/pics sont toujours activés).</string>
     <string name="map_layers_poi_restaurant">Restaurant</string>
-    <string name="map_layers_poi_cafe">Cafe</string>
+    <string name="map_layers_poi_cafe">Café</string>
     <string name="map_layers_poi_pub">Pub</string>
-    <string name="map_layers_poi_cafe_and_Pub">Cafe &amp; Pub</string>
-    <string name="map_layers_poi_hotel">Hotel</string>
+    <string name="map_layers_poi_cafe_and_Pub">Café &amp; Pub</string>
+    <string name="map_layers_poi_hotel">Hôtel</string>
     <string name="map_layers_poi_hostel">Hostel</string>
-    <string name="map_layers_poi_accommodation">Accommodation</string>
+    <string name="map_layers_poi_accommodation">Hébergement</string>
     <string name="map_layers_poi_camping">Camping</string>
-    <string name="map_layers_poi_supermarket">Supermarket</string>
+    <string name="map_layers_poi_supermarket">Supermarché</string>
     <string name="map_layers_poi_attraction">Attraction</string>
-    <string name="map_layers_poi_view_point">View Point</string>
-    <string name="map_layers_poi_historic">Historic</string>
-    <string name="map_layers_poi_natural">Natural</string>
-    <string name="map_layers_poi_parking_place">Parking Place</string>
-    <string name="map_layers_poi_car_repair">Car Repair</string>
+    <string name="map_layers_poi_view_point">Point de vue</string>
+    <string name="map_layers_poi_historic">Historique</string>
+    <string name="map_layers_poi_natural">Nature</string>
+    <string name="map_layers_poi_parking_place">Place de stationnement</string>
+    <string name="map_layers_poi_car_repair">Garage</string>
     <string name="map_layers_poi_monument">Monument</string>
-    <string name="map_layers_poi_atm">ATM</string>
-    <string name="map_layers_poi_bank">Bank</string>
-    <string name="map_layers_poi_gas">Gas Station</string>
-    <string name="map_layers_poi_moto_repair">Motorcycle Repair</string>
-    <string name="map_layers_theme_title">Map Type &amp; Style</string>
-    <string name="map_layers_theme_description">Select the default minimal and clean map type or a more detailed off-road topographic type. Also set the light and dark color modes.</string>
-    <string name="map_layers_map_type_default_title">Default Minimal</string>
-    <string name="map_layers_map_type_topo_title">Off-Road Topo</string>
-    <string name="map_layers_map_type_light_or_dark">Light / Dark Mode:</string>
-    <string name="map_layers_map_type_always_light">Light</string>
-    <string name="map_layers_map_type_always_dark">Dark</string>
-    <string name="map_layers_map_type_follow_theme">Theme</string>
-    <string name="map_layers_map_type_light_sensor">Sensor</string>
-    <string name="map_layers_topo_advanced_title">Topo Advanced Options</string>
-    <string name="map_layers_topo_advanced_description">Fine tune the Off-road Topographic map type</string>
-    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
-    <string name="map_layers_topo_options_altitude_line">Show Altitude Lines</string>
-    <string name="map_layers_topo_options_low_zoom_unpaved">Unpaved Highlight (visible at low zoom)</string>
-    <string name="map_layers_topo_options_show_motorway">Show Motorways</string>
-    <string name="map_layers_topo_options_show_primary">Show Primary Roads</string>
-    <string name="map_layers_topo_options_show_secondary">Show Secondary Roads</string>
-    <string name="map_layers_reset">All settings have been reset to defaults!</string>
-    <string name="map_layers_hillshading_title">HillShading (online)</string>
-    <string name="map_layers_hillshading_description">Shows the topographical shape of hills and mountains using shading</string>
-    <string name="map_layers_hillshading_transparency">Transparency</string>
+    <string name="map_layers_poi_atm">Distributeur</string>
+    <string name="map_layers_poi_bank">Banque</string>
+    <string name="map_layers_poi_gas">Station essence</string>
+    <string name="map_layers_poi_moto_repair">Garage moto</string>
+    <string name="map_layers_theme_title">Type de carte &amp; Style</string>
+    <string name="map_layers_theme_description">Sélectionner le type de carte par défaut ou un type topographique Off-Road plus détaillé. Définir également les modes de couleur clair et sombre.</string>
+    <string name="map_layers_map_type_default_title">Minimum par défaut</string>
+    <string name="map_layers_map_type_topo_title">Topo Off-Road</string>
+    <string name="map_layers_map_type_light_or_dark">Mode Clair / Sombre:</string>
+    <string name="map_layers_map_type_always_light">Clair</string>
+    <string name="map_layers_map_type_always_dark">Sombre</string>
+    <string name="map_layers_map_type_follow_theme">Thème</string>
+    <string name="map_layers_map_type_light_sensor">Capteur</string>
+    <string name="map_layers_topo_advanced_title">Options avancées de Topo</string>
+    <string name="map_layers_topo_advanced_description">Ajuster le type de carte topographique Off-Road</string>
+    <string name="map_layers_topo_high_contrast_mode">Mode contraste élevé</string>
+    <string name="map_layers_topo_options_altitude_line">Afficher les courbes de niveaux</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Surligner les routes non-pavées (visible avec un zoom faible)</string>
+    <string name="map_layers_topo_options_show_motorway">Afficher les autoroutes</string>
+    <string name="map_layers_topo_options_show_primary">Afficher les routes primaires</string>
+    <string name="map_layers_topo_options_show_secondary">Afficher les routes secondaires</string>
+    <string name="map_layers_reset">ATous les paramètres ont été réinitialisés aux valeurs par défaut!</string>
+    <string name="map_layers_hillshading_title">Ombrage des collines (en ligne)</string>
+    <string name="map_layers_hillshading_description">Affiche la forme topographique des collines et des montagnes à l\'aide d'un ombrage</string>
+    <string name="map_layers_hillshading_transparency">Transparence</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX Manager</string>
     <string name="gpx_manager_load_file">Load File</string>
