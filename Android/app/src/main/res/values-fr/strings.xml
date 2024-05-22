@@ -6,7 +6,7 @@
     <string name="settings_backup_gdrive_start">Créer un Zip et sauvegarder</string>
     <string name="settings_backup_gdrive_message">Crée un fichier zip et vous permet de l\'envoyer, nous vous recommandons Google Drive ! Remarque : cartes non incluses.</string>
     <string name="settings_import_gdrive_start">Importer le zip et restaurer</string>
-    <string name="settings_import_gdrive_message">Remarque : Si vous avez effacé le stockage de l'application, veuillez noter que vous devez retélécharger manuellement vos cartes hors ligne.</string>
+    <string name="settings_import_gdrive_message">Remarque : Si vous avez effacé le stockage de l\'application, veuillez noter que vous devez retélécharger manuellement vos cartes hors ligne.</string>
     <string name="settings_run_in_background">Lancer DMD2 en tant que service.</string>
     <string name="settings_run_in_background_desc">Si activé, lorsque vous passez de DMD2 à une autre application, l\'enregistreur de trace et de GPX fonctionnera en tant que service.</string>
 
@@ -409,8 +409,6 @@
     <string-array name="settings_color_themes" translatable="true">
         <item>Mode nuit toujours activé</item>
         <item>Mode jour toujours activé</item>
-        <item>Automatique (selon paramètres système)</item>
-        <item>Utiliser le capteur de luminosité ambiante</item>
     </string-array>
     <string name="settings_accent_color_title">Couleur d\'accentuation:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
@@ -667,9 +665,9 @@
     <string name="obd_sensors_voltage_short_label">TENSION</string>
     <string name="obd_sensors_voltage_long_label">Tension</string>
     <string name="obd_sensors_throttle_short_label">ACCÉLÉRATEUR</string>
-    <string name="obd_sensors_throttle_long_label">Position de l'accélérateur</string>
+    <string name="obd_sensors_throttle_long_label">Position de l\'accélérateur</string>
     <string name="obd_sensors_fuel_short_label">Essence</string>
-    <string name="obd_sensors_fuel_long_label">Niveau d'essence</string>
+    <string name="obd_sensors_fuel_long_label">Niveau d\'essence</string>
     <string name="obd_sensors_timing_short_label">SPARK</string>
     <string name="obd_sensors_timing_long_label">Spark Advance</string>
     <string name="obd_sensors_intake_temp_short_label">IAT</string>
@@ -686,7 +684,7 @@
     <string name="obd_min_throttle_calib_dialog_message">VEUILLEZ ALLUMER LE MOTEUR! Assurez-vous que le véhicule est au ralenti stable après le préchauffage! Votre manette des gaz doit être en position minimale (au ralenti / totalement éteinte). Appuyez sur le bouton Définir lorsque vous êtes prêt.</string>
     <string name="obd_throttle_calib_set_minimum">Définir le Minimum</string>
     <string name="obd_max_throttle_calib_dialog_title">Étalonnage de la position maximale de l\'accélérateur</string>
-    <string name="obd_max_throttle_calib_dialog_message">VEUILLEZ ÉTEINDRE LE MOTEUR! Assurez-vous que le contact est mis, puis poussez la position de l\'accélérateur jusqu'à la position maximale (accélérateur à fond). Appuyez sur le bouton Définir lorsque vous êtes prêt.</string>
+    <string name="obd_max_throttle_calib_dialog_message">VEUILLEZ ÉTEINDRE LE MOTEUR! Assurez-vous que le contact est mis, puis poussez la position de l\'accélérateur jusqu\'à la position maximale (accélérateur à fond). Appuyez sur le bouton Définir lorsque vous êtes prêt.</string>
     <string name="obd_throttle_calib_set_maximum">Définir le Maximum</string>
     <string name="obd_cant_calib_obd_disconnected">Veuillez d\'abord vous connecter au dongle OBD!</string>
     <!-- Fuel Level Options -->
@@ -726,9 +724,9 @@
     <string name="roadbook_settings_invert_paper_color_message">Inverse la couleur du papier, peut-être utile en roulant de nuit.</string>
     <string name="roadbook_settings_locker_cat_title">Paramètres de verouillage</string>
     <string name="roadbook_settings_locker_disable_paper_touch_title">Le verrouillage désactive également le contact avec le papier</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_message">Lorsque le verrouillage est activé, toute touche de papier est ignorée. Cela permet d'éviter les mouvements accidentels ou les actions de gouttes de pluie.</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Lorsque le verrouillage est activé, toute touche de papier est ignorée. Cela permet d\'éviter les mouvements accidentels ou les actions de gouttes de pluie.</string>
     <string name="roadbook_settings_locker_disable_instruments_title">Le verrouillage désactive également les instruments</string>
-    <string name="roadbook_settings_locker_disable_instruments_message">Lorsque le verrouillage est activé, les actions de l'instrument sont également désactivées.</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Lorsque le verrouillage est activé, les actions de l\'instrument sont également désactivées.</string>
     <string name="roadbook_settings_locker_disable_topmenu_title">Le verouillage désactive également le menu supérieur</string>
     <string name="roadbook_settings_locker_disable_topmenu_message">Lorsque le verrouillage est activé, le menu supérieur sera également désactivé et seul le bouton de verrouillage fonctionnera.</string>
     <string name="roadbook_settings_locker_play_pause_title">Synchroniser le verouillage avec play/pause</string>
@@ -736,7 +734,7 @@
     <string name="roadbook_settings_adjustment_cat_title">Ajustements</string>
     <string name="roadbook_settings_distance_multi_factor_title">Multiplicateur de distance</string>
     <string name="roadbook_settings_distance_multi_factor_message">Ajoute un facteur de correction à la distance totale et partielle (au cas où vous auriez besoin de correspondre aux distances du Roadbook)</string>
-    <string name="roadbook_settings_no_instruments_title">Cacher le panneau d'instruments</string>
+    <string name="roadbook_settings_no_instruments_title">Cacher le panneau d\'instruments</string>
     <string name="roadbook_settings_no_instruments_message">Si vous disposez de vos propres instruments et souhaitez simplement utiliser le rouleau PDF.</string>
     <string name="roadbook_settings_reset_session_title">Reinitialiser de la session</string>
     <string name="roadbook_settings_reset_session_message">Décharge le fichier PDF actuel et réinitialise toutes les statistiques et distances.</string>
@@ -756,6 +754,7 @@
         <item>Inverser la couleur du papier</item>
         <item>Verouiller / Dévérouiller</item>
         <item>Play / Pause</item>
+        <item>Toggle Map</item>
         <item>Ne rien faire</item>
     </string-array>
     <string name="roadbook_controller_button_up">Touche haut</string>
@@ -870,7 +869,7 @@
 
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">Aucune carte téléchargée pour l\'instant</string>
-    <string name="map_first_run_download_maps_message">Vous n'avez encore téléchargé aucune carte. Voulez-vous le faire maintenant?</string>
+    <string name="map_first_run_download_maps_message">Vous n\'avez encore téléchargé aucune carte. Voulez-vous le faire maintenant?</string>
     <string name="map_first_run_download_maps_starting_layers">Démarrage du gestionnaire de calques!</string>
     <string name="map_navigation_selection_dialog_title">Sélectionner le mode de navigation</string>
     <string name="map_navigation_selection_dialog_message">Utiliser DMD2 pour calculer l\'itinéraire ou utiliser une application externe?</string>
@@ -1010,7 +1009,7 @@
     <string name="gpx_manager_advanced_convert_no_tracks">Ce fichier GPX ne contient aucune trace!</string>
 
     <!-- Map Press Actions -->
-    <string name="map_long_press_point_title">Actions d'appui long sur la carte</string>
+    <string name="map_long_press_point_title">Actions d\'appui long sur la carte</string>
     <string name="map_long_press_point_no_info">Aucune information pour ce point!</string>
     <string name="map_long_press_point_close_to">dans</string>
     <string name="map_long_press_point_nearest_city">La ville la plus proche est</string>
@@ -1035,7 +1034,7 @@
     <!-- Map Settings -->
     <string name="map_settings_auto_zoom_cat_title">Zoom auto &amp; Inclinaison</string>
     <string name="map_settings_auto_zoom_title">Activer le niveau de zoom automatique</string>
-    <string name="map_settings_auto_tilt_title">Activer le niveau d'inclinaison automatique</string>
+    <string name="map_settings_auto_tilt_title">Activer le niveau d\'inclinaison automatique</string>
     <string name="map_settings_auto_nav_only">Mode automatique uniquement en navigation active</string>
     <string name="map_settings_ui_cat_title">Options d\'Interface</string>
     <string name="map_settings_ui_enable_track_progress">Activer la boîte d\'informations sur le suivi de la progression</string>
@@ -1111,13 +1110,13 @@
     <string name="map_route_planner_offroad_hard">Dur</string>
     <string name="map_route_planner_profile_label">Sélectionner le profil</string>
     <string name="map_route_planner_profile_option">Sélectionner les options de profil</string>
-    <string name="map_route_calculating_message">Calcul de l'itinéraire…</string>
+    <string name="map_route_calculating_message">Calcul de l\'itinéraire…</string>
     <string name="map_route_loading_message">Chargement de l\'itinéraire…</string>
     <string name="map_route_analyzing_message">Analyse de l\'itinéraire…</string>
     <string name="map_route_calculating_message_retry">Erreur!</string>
     <string name="map_route_calculating_message_options">Options</string>
     <string name="map_route_planner_no_gps_fix">Aucun positionnement GPS, réessayez plus tard!</string>
-    <string name="map_route_planner_cancel_active_dialog_title">Annuler l'itinéraire actuel?</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Annuler l\'itinéraire actuel?</string>
     <string name="map_route_planner_cancel_active_dialog_message">Il y a un itinéraire actif. Voulez-vous annuler et en commencer un nouveau?</string>
     <string name="map_route_planner_instruction_now">Maintenant</string>
     <string name="map_route_planner_instruction_arrived">Vous avez atteint votre destination!</string>
