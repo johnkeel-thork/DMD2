@@ -76,6 +76,10 @@
     <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
     <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
     <string name="exit_confirm_dialog_send_to_background">Background</string>
+    <!-- DMD Devices Update -->
+    <string name="dmd_device_update_dialog_title">System Update Available</string>
+    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
     <!-- Fall Alerts -->
     <string name="fall_alert_title">SOS Fall Alert Received!</string>
     <string name="fall_alert_message">You have received a fall alert! Full message:</string>
@@ -136,8 +140,6 @@
     <string-array name="settings_color_themes" translatable="true">
         <item>Always Dark Mode</item>
         <item>Always Light Mode</item>
-        <item>Automatic (follow system)</item>
-        <item>Use Light Sensor</item>
     </string-array>
     <string name="settings_accent_color_title">Accent color:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
@@ -173,6 +175,7 @@
         <item>Generic 7 Keys</item>
         <item>Generic 5 Keys</item>
         <item>Generic 4 Keys</item>
+        <item>SilverFox H1</item>
     </string-array>
     <string name="controller_dialog_title">Remote Controller App Install</string>
     <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
@@ -180,6 +183,9 @@
     <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
+    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
     <string name="settings_screen_category">Screen</string>
     <string name="settings_screen_lock_rotation">Lock screen orientation</string>
     <string name="settings_screen_lock_rotation_summary">Prevent screen from accidentally rotating while driving</string>
@@ -539,14 +545,15 @@
         <item>Invert Paper Color</item>
         <item>Lock / Unlock</item>
         <item>Play / Pause</item>
+        <item>Toggle Map</item>
         <item>Do Nothing</item>
     </string-array>
     <string name="roadbook_controller_button_up">Up Key</string>
     <string name="roadbook_controller_button_down">Down Key</string>
     <string name="roadbook_controller_button_left">Left Key</string>
     <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Button A</string>
-    <string name="roadbook_controller_button_enter_long">Button A (Enter) Key Long Press (only when Locked)</string>
+    <string name="roadbook_controller_button_enter">Button Enter</string>
+    <string name="roadbook_controller_button_enter_long">Button Enter - Key Long Press (only when Locked)</string>
     <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
     <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
     <string name="roadbook_controller_button_zoomin">Button A</string>
@@ -802,7 +809,8 @@
     <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
+    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Track Distance Waypoint</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
     <string-array name="gpx_manager_settings_auto_waypoint_distance_entries" translatable="true">
         <item>5Km / 5Mi</item>
@@ -841,10 +849,21 @@
     <string name="gpx_manager_waypoint_share_app">Select app to share</string>
     <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
     <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
+    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
     <string name="gpx_manager_advanced_title">Advanced Options</string>
     <string name="gpx_manager_advanced_invert_orientation">Invert Travel Direction</string>
     <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
+    <string name="gpx_warnings_setting">Progress Warnings</string>
+    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
+    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
+    <string name="gpx_warning_turn_around">Turn Around!</string>
+    <string name="gpx_warning_away_from_track">Away from Track!</string>
+    <string name="gpx_warning_correct_direction">Return to Line!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
+    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
+    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
+    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Map Long Press Actions</string>
@@ -950,7 +969,7 @@
     <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
     <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPS Fix yet.</string>
     <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
-    <string name="map_poi_search_name">Search Name</string>
+    <string name="map_poi_search_name">Offline Search</string>
     <string name="map_poi_cat_fuel">Gas Station</string>
     <string name="map_poi_cat_accommodation">Accommodation</string>
     <string name="map_poi_cat_restaurants">Restaurants</string>
@@ -1055,7 +1074,7 @@
     <string name="map_route_planner_empty">No active track or route!</string>
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Address Search</string>
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Online Search</string>
     <string name="map_place_search_dialog_type_label">Type to search a name or address:</string>
     <string name="map_place_search_distance">Straight Line Distance:</string>
     <string name="map_place_search_instructions">Type at least three letters to view results</string>
@@ -1124,5 +1143,23 @@
     <string name="location_manager_save_keep_on_map">Keep visible on map</string>
     <string name="location_manager_save_new">Add New</string>
     <string name="location_manager_no_locations_yet">No saved places yet…</string>
+
+    <!-- Event Mode -->
+    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
+    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
+    <string name="event_mode_warning_dialog_close">Close Event</string>
+    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
+    <string name="event_mode_warning_dialog_cancel">Cancel</string>
+    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
+    <string name="event_mode_roadbook_help_button">I need help!</string>
+    <string name="event_mode_roadbook_quit_event">Quit Event</string>
+    <string name="event_mode_roadbook_page">Page #</string>
+    <string name="event_mode_roadbook_total">Total will be</string>
+    <string name="event_mode_loading_event">Loading Event</string>
+    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
+    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
+    <string name="event_mode_generating_file">Saving decrypted file…</string>
+    <string name="event_mode_unpacking_file">Unpacking files…</string>
+    <string name="event_mode_loading_settings">Loading all files and settings.</string>
 
 </resources>
