@@ -1,5 +1,52 @@
 <resources>
 
+    <!-- New Untranslated -->
+
+    <string name="gpx_warnings_setting">Progress Warnings</string>
+    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
+    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
+    <string name="gpx_warning_turn_around">Turn Around!</string>
+    <string name="gpx_warning_away_from_track">Away from Track!</string>
+    <string name="gpx_warning_correct_direction">Return to Line!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
+    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
+    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
+    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
+
+    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
+
+    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+
+    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
+    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
+
+    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
+    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
+    <string name="event_mode_warning_dialog_close">Close Event</string>
+    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
+    <string name="event_mode_warning_dialog_cancel">Cancel</string>
+    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
+    <string name="event_mode_roadbook_help_button">I need help!</string>
+    <string name="event_mode_roadbook_quit_event">Quit Event</string>
+    <string name="event_mode_roadbook_page">Page #</string>
+    <string name="event_mode_roadbook_total">Total will be</string>
+    <string name="event_mode_loading_event">Loading Event</string>
+    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
+    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
+    <string name="event_mode_generating_file">Saving decrypted file…</string>
+    <string name="event_mode_unpacking_file">Unpacking files…</string>
+    <string name="event_mode_loading_settings">Loading all files and settings.</string>
+
+    <string name="dmd_device_update_dialog_title">System Update Available</string>
+    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+
+
+    <!-- End Of New Untranslated -->
+
+
+
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -149,29 +196,6 @@
     </string-array>
     <string name="remote_controller_category">Instellingen Remote Controller</string>
     <string name="controller_selection">Selecteer remote controller model</string>
-    <string-array name="controller_selection_names" translatable="true">
-        <item>Auto Detect</item>
-        <item>DMD Remote1</item>
-        <item>ARN Remote Pro</item>
-        <item>SilverFox B8J</item>
-        <item>Remotek One</item>
-        <item>WunderLINQ</item>
-        <item>Hesanav</item>
-        <item>Ursae</item>
-        <item>Summiot</item>
-        <item>Joymap</item>
-        <item>Bar Buttons</item>
-        <item>CARPE Ci Ctrl</item>
-        <item>CARPE Adventure Control</item>
-        <item>CARPE Terrain Command Gen1</item>
-        <item>CARPE Terrain Command Gen2</item>
-        <item>CARPE Terrain Command Gen3</item>
-        <item>CARPE BMW Controller</item>
-        <item>Generic 8 Keys</item>
-        <item>Generic 7 Keys</item>
-        <item>Generic 5 Keys</item>
-        <item>Generic 4 Keys</item>
-    </string-array>
     <string name="controller_dialog_title">Remote Controller App Installeren</string>
     <string name="controller_dialog_message">Om optimaal gebruik te kunnen maken van de DMD-Remote Controller moet u het hulpprogramma installeren. Wil u het nu installeren?</string>
     <string name="controller_dialog_download_title">Downloaden Controller App</string>
@@ -537,6 +561,7 @@
         <item>Papier kleur omkeren</item>
         <item>Vastzetten / Losmaken</item>
         <item>Speel af / Pauze</item>
+        <item>Show Map</item>
         <item>Niets doen</item>
     </string-array>
     <string name="roadbook_controller_button_up">Knop omhoog</string>
