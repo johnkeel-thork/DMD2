@@ -1,47 +1,5 @@
 <resources>
 
-    <!-- New Untranslated -->
-
-    <string name="settings_backup_cat">Backup und Wiederherstellung</string>
-    <string name="settings_backup_gdrive_start">Backup-Datei erstellen und sichern</string>
-    <string name="settings_backup_gdrive_message">Erstellt eine Zip-Datei als Sicherung, die anschließend verschickt werden kann. Zum Beispiel an Google Drive. Hinweis: Die Kartendaten werden nicht mit gesichert!</string>
-    <string name="settings_import_gdrive_start">Backup-Datei importieren und wiederherstellen</string>
-    <string name="settings_import_gdrive_message">Hinweis: Wenn der App Speicher gelöscht wurde, müssen die Kartendaten erneut heruntergeladen werden.</string>
-    <string name="settings_run_in_background">DMD2 als Hintergrund-Service ausführen</string>
-    <string name="settings_run_in_background_desc">Wenn aktivert, laufen die Trip- und GPX-Aufzeichnung im Hintergrund weiter auch wenn eine andere App im Vordergrund ausgeführt wird.</string>
-
-
-    <string name="home_widget_places_title">Orte</string>
-    <string name="home_widget_places_title_long">Lieblingsorte</string>
-    <string name="home_widget_places_title_description">Erstelle Shortcuts für Lieblingsorte</string>
-    <string name="home_widget_places_no_locations">Keine Orte gespeichert. Speichere Orte in der Kartenansicht.</string>
-    <string name="home_widget_places_selector_title">Ort auswählen</string>
-
-
-    <string name="map_layers_poi_water">Trinkwasser</string>
-    <string name="map_layers_poi_rv_park">Stellplatz für Wohnmobile</string>
-    <string name="map_layers_poi_border_control">Grenzkontrolle</string>
-
-
-    <string name="gpx_manager_track_start">Starten!</string>
-    <string name="gpx_manager_track_end">Beenden!</string>
-
-
-    <string name="location_manager_no_locations_yet">Keine Orte gespeichert ...</string>
-
-    <string name="gpx_manager_settings_closest_point_title">Linie zum nächsten Punkt</string>
-    <string name="gpx_manager_settings_closest_point_desc">Zeichnet eine direkte Linie zwischen der aktuellen Position und dem aktivem Track. Wenn die Entfernung zum Track zwichen 200 m und 5 km beträgt.</string>
-    <string name="gpx_manager_settings_closest_point_label">Linie einschalten</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatische Wegpunkte</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Erstellt Wegpunkte in einem festgelegten Abstand auf dem ausgewählten Track.</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Automatische Wegpunkte einschalten</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Abstand</string>
-
-
-    <!-- End Of New Untranslated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -118,6 +76,10 @@
     <string name="exit_confirm_dialog">DMD2 schliessen oder in den Hintergrund schieben?</string>
     <string name="exit_confirm_dialog_message">Wenn Du DMD2 schließt, werden Trip-Werte nicht weitergezählt und die GPX-Aufzeichnung wird gestoppt!</string>
     <string name="exit_confirm_dialog_send_to_background">Hintergrund</string>
+    <!-- DMD Devices Update -->
+    <string name="dmd_device_update_dialog_title">System Update Verfügbar</string>
+    <string name="dmd_device_update_configuration_dialog_message">Eine neue Konfigurationsdatei ist verfügbar. Möchtest Du sie jetzt installieren? Wenn du sie jetzt installierst, wird das Update im Hintergrund heruntergeladen und dein Gerät startet nach der Installation automatisch neu.</string>
+    <string name="dmd_device_update_system_dialog_message">Eine neue Firmware ist verfügbar. Möchtest Du sie jetzt installieren? Wenn du sie jetzt installierst, wird das Update im Hintergrund heruntergeladen und dein Gerät startet nach der Installation automatisch neu.</string>
     <!-- Fall Alerts -->
     <string name="fall_alert_title">SOS-Meldung empfangen!</string>
     <string name="fall_alert_message">Du hast eine Unfall-Meldung erhalten! Ganze Nachricht:</string>
@@ -131,12 +93,12 @@
     <string name="fall_alert_navigate">Navigiere zu</string>
     <!-- App Update -->
     <string name="app_update_title">DMD2 Update verfügbar</string>
-    <string name="app_update_message">Es ist ein Update für DMD2 verfügbar, jetzt aktualisieren? \n Neues:</string>
+    <string name="app_update_message">Es ist ein Update für DMD2 verfügbar, jetzt aktualisieren? \n Das ist neu:</string>
     <string name="app_update_download_notification">DMD2 Update herunterladen</string>
     <string name="app_update_download_progress">Fortschritt:</string>
     <!-- Controller App Update -->
     <string name="controller_app_update_dialogue_title">Controller-App Update</string>
-    <string name="controller_app_update_dialogue_message">Es ist ein Update für die Controller-App verfügbar, jetzt aktualisieren? \n Neues:</string>
+    <string name="controller_app_update_dialogue_message">Es ist ein Update für die Controller-App verfügbar, jetzt aktualisieren? \n Das ist neu:</string>
     <string name="controller_app_update_download_notification">Update Herunterladen</string>
     <string name="controller_app_update_download_progress">Fortschritt:</string>
     <!-- T93 Dialog -->
@@ -161,6 +123,13 @@
     <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
 
     <!-- Settings -->
+    <string name="settings_backup_cat">Backup und Wiederherstellung</string>
+    <string name="settings_backup_gdrive_start">Backup-Datei erstellen und sichern</string>
+    <string name="settings_backup_gdrive_message">Erstellt eine Zip-Datei als Sicherung, die anschließend verschickt werden kann. Zum Beispiel an Google Drive. Hinweis: Die Kartendaten werden nicht mit gesichert!</string>
+    <string name="settings_import_gdrive_start">Backup-Datei importieren und wiederherstellen</string>
+    <string name="settings_import_gdrive_message">Hinweis: Wenn der App Speicher gelöscht wurde, müssen die Kartendaten erneut heruntergeladen werden.</string>
+    <string name="settings_run_in_background">DMD2 als Hintergrund-Service ausführen</string>
+    <string name="settings_run_in_background_desc">Wenn aktivert, laufen die Trip- und GPX-Aufzeichnung im Hintergrund weiter auch wenn eine andere App im Vordergrund ausgeführt wird.</string>
     <string name="settings_localization_options">Lokalisierung</string>
     <string name="settings_hour_format">Nutze 24h Format</string>
     <string name="settings_use_fahrenheit">Nutze Fahrenheit statt Celsius</string>
@@ -171,8 +140,6 @@
     <string-array name="settings_color_themes" translatable="true">
         <item>Immer dunkler Modus</item>
         <item>Immer heller Modus</item>
-        <item>Automatisch (vom System)</item>
-        <item>Nutze den Helligkeits-Sensor</item>
     </string-array>
     <string name="settings_accent_color_title">Akzent-Farbe:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
@@ -208,6 +175,7 @@
         <item>Generic 7 Keys</item>
         <item>Generic 5 Keys</item>
         <item>Generic 4 Keys</item>
+        <item>SilverFox H1</item>
     </string-array>
     <string name="controller_dialog_title">Installation Fernbedienungs-App</string>
     <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, musst Du die Utility-App installieren. Jetzt installieren?</string>
@@ -215,6 +183,9 @@
     <string name="settings_dmd_devices_category">Nur für DMD-T Geräte</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">GPS bei ausgeschaltetem Bildschirm</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Wenn aktiviert, laufen Trip- und GPS-Funktionen, wie z.B. GPX-Aufzeichnung bei ausgeschaltetem Bildschirm weiter.</string>
+    <string name="settings_dmd_devices_updates_automatic">Automatisch nach neuen Updates suchen</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">... nur bei WLAN-Verbindung</string>
+    <string name="settings_dmd_devices_updates_manual">Suche jetzt nach Updates!</string>
     <string name="settings_screen_category">Bildschirm</string>
     <string name="settings_screen_lock_rotation">Bildschirmausrichtung sperren</string>
     <string name="settings_screen_lock_rotation_summary">Verhindern, dass sich die Bildschirmausrichtung während der Fahrt versehentlich verstellt</string>
@@ -235,7 +206,7 @@
         <item>Abweisen nach 15s</item>
         <item>Abweisen nach 30s</item>
         <item>Abweisen nach 60s</item>
-        <item>Manuell (Wischen oder Controller)</item>
+        <item>Manuell (Wischen oder per Controller)</item>
     </string-array>
     <string name="settings_notifications_controller_lock_title">Lenkerfernbedienung Fokus</string>
     <string name="settings_notifications_controller_lock_message">Lenkerfernbedienung Fokus wenn eine Benachrichtigung sichtbar ist. Enter-Taste löst die Benachrichtigungs-Aktion aus, die Zurück-Taste löscht die Benachrichtigung.</string>
@@ -252,8 +223,8 @@
     <string name="settings_trip_auto_reset_summary">Trip wird automatisch nach voreingestellter Zeit zurückgesetzt.</string>
     <string name="settings_trip_auto_reset_time_title">Automatische Trip Rücksetz-Zeit</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
-        <item>6 Std.</item>
-        <item>12 Std.</item>
+        <item>6 Stunden</item>
+        <item>12 Stunden</item>
         <item>1 Tag</item>
         <item>2 Tage</item>
         <item>5 Tage</item>
@@ -328,6 +299,11 @@
     <string name="home_widget_speed_title">KM/H</string>
     <string name="home_widget_speed_title_long">GPS km/h</string>
     <string name="home_widget_speed_description">Eine große numerische Geschwindigkeitsanzeige, der die aktuelle Reisegeschwindigkeit auf der Grundlage von GPS-Daten anzeigt.</string>
+    <string name="home_widget_places_title">Orte</string>
+    <string name="home_widget_places_title_long">Lieblingsorte</string>
+    <string name="home_widget_places_title_description">Erstelle Shortcuts für Lieblingsorte</string>
+    <string name="home_widget_places_no_locations">Keine Orte gespeichert. Speichere Orte in der Kartenansicht.</string>
+    <string name="home_widget_places_selector_title">Ort auswählen</string>
     <string name="home_widget_odo_title">km-Zähler</string>
     <string name="home_widget_odo_title_long">km-Zähler</string>
     <string name="home_widget_odo_description">Ein editierbarer km-Zähler</string>
@@ -370,8 +346,8 @@
     <string name="widget_info_selector_dialog_title">Wähle GPS/OBD Sensor</string>
     <string name="widget_info_gps_altitude_name">GPS Höhenmesser</string>
     <string name="widget_info_gps_altitude_label">Höhe</string>
-    <string name="widget_info_clock_name">Uhrzeit</string>
     <string name="widget_info_gps_heading_name">GPS Kurs</string>
+    <string name="widget_info_clock_name">Uhrzeit</string>
     <string name="widget_info_gps_heading_label">Kurs</string>
     <string name="widget_info_gps_cardinal_name">Kompass</string>
     <string name="widget_info_gps_cardinal_label">Kompass</string>
@@ -569,6 +545,7 @@
         <item>Papierfarbe umkehren</item>
         <item>Sperren/Entsperren</item>
         <item>Abspielen/Pause</item>
+        <item>Karte ein/aus</item>
         <item>Nichts tun</item>
     </string-array>
     <string name="roadbook_controller_button_up">Hoch</string>
@@ -759,6 +736,9 @@
     <string name="map_layers_poi_atm">Bankautomat</string>
     <string name="map_layers_poi_bank">Bank</string>
     <string name="map_layers_poi_gas">Tankstelle</string>
+    <string name="map_layers_poi_water">Trinkwasser</string>
+    <string name="map_layers_poi_rv_park">Stellplatz für Wohnmobile</string>
+    <string name="map_layers_poi_border_control">Grenzkontrolle</string>
     <string name="map_layers_poi_moto_repair">Motorrad-Werkstatt</string>
     <string name="map_layers_theme_title">Kartentyp &amp; Stil</string>
     <string name="map_layers_theme_description">Wähle zwischen einem standardmäßigen, minimalen Kartentyp oder einem detaillierteren topografischen Gelände-Kartentyp. Lege auch den hellen und dunklen Farbmodus fest.</string>
@@ -787,6 +767,8 @@
     <string name="map_layers_routing_transparency_line">Linien Transparenz</string>
     <string name="map_layers_routing_pins_size">Abbiegepfeil-Größe</string>
     <!--GPX Manager-->
+    <string name="gpx_manager_track_start">Starten!</string>
+    <string name="gpx_manager_track_end">Beenden!</string>
     <string name="gpx_manager_load_error_title">GPX Lade-Fehler</string>
     <string name="gpx_manager_load_error_message">Fehler beim Laden der GPX-Datei … Bitte versuche es mit einer anderen Datei!</string>
     <string name="gpx_manager_title">GPX Manager</string>
@@ -822,6 +804,22 @@
     <string name="gpx_manager_settings_load_poi_message">Automatisches Laden von POI entlang der Strecke (bis zu 3 Kategorien)</string>
     <string name="gpx_manager_settings_load_poi_enable_label">Automatisches Laden von POIs entlang der Strecke aktivieren:</string>
     <string name="gpx_manager_settings_poi_cat_select_cats">POI-Kategorien zum Laden auswählen:</string>
+    <string name="gpx_manager_settings_closest_point_title">Linie zum nächsten Punkt</string>
+    <string name="gpx_manager_settings_closest_point_desc">Zeichnet eine direkte Linie zwischen der aktuellen Position und dem aktivem Track. Wenn die Entfernung zum Track zwichen 200 m und 5 km beträgt.</string>
+    <string name="gpx_manager_settings_closest_point_label">Linie einschalten</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatische Wegpunkte</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Erstellt Wegpunkte in einem festgelegten Abstand auf dem ausgewählten Track.</string>
+    <string name="gpx_manager_settings_start_end">Zeige Start- und End-Wegpunkt</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Automatische Wegpunkte einschalten</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Abstand</string>
+    <string-array name="gpx_manager_settings_auto_waypoint_distance_entries" translatable="true">
+        <item>5 km / 5 mi</item>
+        <item>10 km / 10 mi</item>
+        <item>25 km / 25 mi</item>
+        <item>50 km / 50 mi</item>
+        <item>100 km / 100 mi</item>
+        <item>250 km / 250 mi</item>
+    </string-array>
     <string name="gpx_manager_no_tracks_warning">Die ausgewählte GPX-Datei enthält keinen Track!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Keine Trackbeschreibung verfügbar.</string>
@@ -851,10 +849,21 @@
     <string name="gpx_manager_waypoint_share_app">App zum Teilen auswählen</string>
     <string name="gpx_manager_gpx_loading_message">Lade GPX-Datei</string>
     <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern…</string>
+    <string name="gpx_manager_poi_busy_message">POIs werden geladen! Bitte etwas Geduld</string>
     <string name="gpx_manager_advanced_title">Erweiterte Optionen</string>
     <string name="gpx_manager_advanced_invert_orientation">Fahrtrichtung umkehren</string>
     <string name="gpx_manager_advanced_convert_to_route">Versuche, die vollständige Datei in eine Navigation umzuwandeln:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Diese GPX-Datei enthält keinen Track!</string>
+    <string name="gpx_warnings_setting">Warnhinweise</string>
+    <string name="gpx_warnings_setting_desc">Warnhinweise für falsche Richtung und Verlassen des Tracks.</string>
+    <string name="gpx_warning_wrong_direction">Falsche Richtung!</string>
+    <string name="gpx_warning_turn_around">Bitte Umdrehen!</string>
+    <string name="gpx_warning_away_from_track">Track verlassen!</string>
+    <string name="gpx_warning_correct_direction">Zurück zum Track!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Falsche Richtung</string>
+    <string name="gpx_warning_show_away_from_track_option">Track verlassen</string>
+    <string name="gpx_warning_show_screen_flash">Bildschirm auflackern</string>
+    <string name="gpx_warning_play_voice_warning">Sprachhinweise</string>
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Aktionen für langes Tippen auf der Karte</string>
@@ -914,6 +923,15 @@
     <string name="map_settings_navigation_show_waypoints_title">Zeige Wegpunkte auf der Karte</string>
     <string name="map_settings_navigation_show_waypoints_message">Zeigt Wegpunkt-Markierungen mit Anweisungen auf der Karte an.</string>
     <string name="map_settings_navigation_recalculation_distance">Entfernung für automatische Routen-Neuberechnung</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50 m</item>
+        <item>100 m</item>
+        <item>150 m</item>
+        <item>250 m</item>
+        <item>500 m</item>
+        <item>1 km</item>
+        <item>nie</item>
+    </string-array>
     <string name="map_settings_controller_cat_title">Controller Einstellungen</string>
     <string name="map_settings_controller_disable_pan_spot_title">Deaktiviere Schwenken-Modus Zielpunkt</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Deaktiviert die neuen Zielpunktaktionen im Schwenken-Modus.</string>
@@ -928,7 +946,6 @@
     <string name="map_settings_follow_north_next_indication_summary">Norden oben mit Kartenausschnitt des Standortes und des nächsten Wegpunktes oder Navi-Anweisung.</string>
     <string name="map_settings_follow_travel_oriented">In Fahrtrichtung</string>
     <string name="map_settings_follow_travel_oriented_summary">Folgt dem Standort mit Kartendrehung, so dass die Ausrichtung der Karte der Fahrtrichtung entspricht</string>
-
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Orte Suche</string>
     <string name="map_poi_search_call">Anrufen</string>
@@ -1014,11 +1031,11 @@
     <string name="map_route_planner_profile_label">Wähle Profil</string>
     <string name="map_route_planner_profile_option">Wähle Profiloptionen</string>
     <string name="map_route_calculating_message">Route berechnen…</string>
-    <string name="map_route_calculating_message_retry">Fehler!</string>
-    <string name="map_route_calculating_message_options">Optionen</string>
     <string name="map_route_loading_message">Lade Route…</string>
     <string name="map_route_analyzing_message">Analysiere Route…</string>
-    <string name="map_route_planner_no_gps_fix">Kein GPS-Fix. Später erneut versuchen!</string>
+    <string name="map_route_calculating_message_retry">Fehler bei der Routenberechnung!</string>
+    <string name="map_route_calculating_message_options">Optionen</string>
+    <string name="map_route_planner_no_gps_fix">Kein GPS-Fix! Später erneut versuchen!</string>
     <string name="map_route_planner_cancel_active_dialog_title">Aktive Route abbrechen?</string>
     <string name="map_route_planner_cancel_active_dialog_message">Es gibt eine aktive Navigation. Abbrechen und eine neue Navigation starten?</string>
     <string name="map_route_planner_instruction_now">Jetzt</string>
@@ -1058,9 +1075,9 @@
     <!-- Place Search -->
     <string name="map_place_search_dialog_title">Online Adressen Suche</string>
     <string name="map_place_search_cat_name">Online Addressen</string>
-    <string name="map_place_search_instructions">Mindestens 3 Buchstaben eingeben um Ergebnisse zu sehen</string>
     <string name="map_place_search_dialog_type_label">Schreibe einen Namen oder Adresse:</string>
     <string name="map_place_search_distance">Entfernung in gerader Linie:</string>
+    <string name="map_place_search_instructions">Mindestens 3 Buchstaben eingeben um Ergebnisse zu sehen</string>
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX-Recorder</string>
     <string name="map_gpx_recorder_dialog_my_recordings">Aufzeichnungen</string>
@@ -1125,4 +1142,6 @@
     <string name="location_manager_save_location_saved">Ort gespeichert!</string>
     <string name="location_manager_save_keep_on_map">Immer sichtbar auf der Karte</string>
     <string name="location_manager_save_new">Neu hinzufügen</string>
+    <string name="location_manager_no_locations_yet">Keine Orte gespeichert ...</string>
+
 </resources>
