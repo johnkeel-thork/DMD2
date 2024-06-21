@@ -14,6 +14,50 @@
     <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
     <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
 
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
+    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+
+    <string name="tpms_rear_sensor_title">Rear Tyre</string>
+    <string name="tpms_front_sensor_title">Front Tyre</string>
+    <string name="tpms_sensor_select">Not Setup</string>
+    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
+    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
+    <string name="tpms_sensor_dialog_select">Select</string>
+
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
+
+    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Left</string>
+    <string name="map_gpx_real_time_right">Right</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">for</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
+    <string name="map_gpx_real_time_straight">Straight</string>
+    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
+    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+
+    <!-- Event Mode -->
+    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
+    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
+    <string name="event_mode_help_dialog_title">Event Help Options</string>
+    <string name="event_mode_help_dialog_message">Your Position</string>
+    <string name="event_mode_help_call_1">Call #1</string>
+    <string name="event_mode_help_call_2">Call #2</string>
+    <string name="event_mode_downloading">Downloading Event</string>
+    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
+
+
     <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
 
     <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
@@ -42,7 +86,7 @@
     <string name="dmd_device_update_dialog_title">System Update Available</string>
     <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
     <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-    
+
 
     <string name="settings_backup_cat">Backup and Restore</string>
     <string name="settings_backup_gdrive_start">Create Zip and Save</string>
