@@ -1,35 +1,51 @@
 <resources>
 
 
-    <!-- Not Translated -->
+    <!-- New Untranslated -->
 
-    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
-    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
-    <string name="event_mode_warning_dialog_close">Close Event</string>
-    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
-    <string name="event_mode_warning_dialog_cancel">Cancel</string>
-    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
-    <string name="event_mode_roadbook_help_button">I need help!</string>
-    <string name="event_mode_roadbook_quit_event">Quit Event</string>
-    <string name="event_mode_roadbook_page">Page #</string>
-    <string name="event_mode_roadbook_total">Total will be</string>
-    <string name="event_mode_loading_event">Loading Event</string>
-    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
-    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
-    <string name="event_mode_generating_file">Saving decrypted file…</string>
-    <string name="event_mode_unpacking_file">Unpacking files…</string>
-    <string name="event_mode_loading_settings">Loading all files and settings.</string>
+    <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
 
-    <string name="dmd_device_update_dialog_title">System Update Available</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Cannot measure on different tracks with multiple connections!</string>
+
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
+    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+
+    <string name="tpms_rear_sensor_title">Rear Tyre</string>
+    <string name="tpms_front_sensor_title">Front Tyre</string>
+    <string name="tpms_sensor_select">Not Setup</string>
+    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
+    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
+    <string name="tpms_sensor_dialog_select">Select</string>
+
+
+    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Left</string>
+    <string name="map_gpx_real_time_right">Right</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">for</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
+    <string name="map_gpx_real_time_straight">Straight</string>
+    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
+    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+
+
+    <string name="dmd_device_update_dialog_title">Actualização de Sistema Disponível</string>
     <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
     <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
 
     <string name="gpx_warnings_setting">Progress Warnings</string>
     <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
-    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
-    <string name="gpx_warning_turn_around">Turn Around!</string>
-    <string name="gpx_warning_away_from_track">Away from Track!</string>
-    <string name="gpx_warning_correct_direction">Return to Line!</string>
+    <string name="gpx_warning_wrong_direction">Direcção Errada!</string>
+    <string name="gpx_warning_turn_around">Inverter!</string>
+    <string name="gpx_warning_away_from_track">Fora de rota!</string>
+    <string name="gpx_warning_correct_direction">Corrigir Rota!</string>
     <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
     <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
     <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
@@ -592,18 +608,18 @@
     <string name="obd_sensors_select_dialog_title">Selectionar Sensor</string>
     <string name="obd_sensors_select_dialog_message">Selecionar novo sensor para este slot</string>
     <!-- Throttle Calibration-->
-    <string name="obd_min_throttle_calib_dialog_title">Minimum Throttle Position Calibration</string>
+    <string name="obd_min_throttle_calib_dialog_title">Calibração da Posição Mínima do Acelerador</string>
     <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_minimum">Set Minimum</string>
-    <string name="obd_max_throttle_calib_dialog_title">Maximum Throttle Position Calibration</string>
+    <string name="obd_throttle_calib_set_minimum">Definir Minímo</string>
+    <string name="obd_max_throttle_calib_dialog_title">Calibração da Posição Máxima do Acelerador</string>
     <string name="obd_max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE! Make sure ignition is ON and then push your throttle position to the maximum position (full open throttle). Press the Set button when ready.</string>
-    <string name="obd_throttle_calib_set_maximum">Set Maximum</string>
-    <string name="obd_cant_calib_obd_disconnected">Please Connect to the OBD Dongle First!</string>
+    <string name="obd_throttle_calib_set_maximum">Definir Máximo</string>
+    <string name="obd_cant_calib_obd_disconnected">Por favor conecta o dongle OBD primeiro!</string>
     <!-- Fuel Level Options -->
     <string name="obd_fuel_dialog_title">Fuel Level Options</string>
     <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
     <string name="obd_fuel_dialog_reset">Reset</string>
-    <string name="obd_fuel_dialog_edit">Edit</string>
+    <string name="obd_fuel_dialog_edit">Editar</string>
     <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
     <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
     <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
@@ -626,17 +642,19 @@
 
     <!-- Roadbook -->
     <!-- Settings -->
-    <string name="roadbook_settings_instrumets_cat_title">Instruments Settings</string>
-    <string name="roadbook_settings_auto_start_title">Start Instruments Automatically</string>
-    <string name="roadbook_settings_auto_start_message">Start all measurements (Play) on Roadbook view enter</string>
-    <string name="roadbook_settings_totals_single_decimal_title">Total Distance - Single Decimal Place</string>
-    <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
-    <string name="roadbook_settings_partial_single_decimal_summary">Will show the Partial distance with a single decimal place instead of two</string>
-    <string name="roadbook_settings_visual_settings_cat_title">Visual Settings</string>
-    <string name="roadbook_settings_invert_paper_color_title">Invert PDF Colors</string>
-    <string name="roadbook_settings_invert_paper_color_message">Inverts the paper color, might be useful for riding during the night.</string>
-    <string name="roadbook_settings_locker_cat_title">Lock Settings</string>
+    <string name="roadbook_settings_instrumets_cat_title">Opções de Instrumentos</string>
+    <string name="roadbook_settings_auto_start_title">Iniciar Instrumentos Automáticamente</string>
+    <string name="roadbook_settings_auto_start_message">Iniciar contagens em todos os instrumentos (Play) sempre que entra na vista de Roadbook</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Distância Total - Uma Casa Decimal</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Mostra o valor do instrumento de distância total com apenas uma casa decimal em vez de duas casas</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Distância Parcial - Uma Casa Decimal</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Mostra o valor do instrumento de distância parcial com apenas uma casa decimal em vez de duas casas</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Mostrar Botões Ajuste Manual</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Mostra botoes de + e - para ajusta manual de distanica total e parcial</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Opções Visuais</string>
+    <string name="roadbook_settings_invert_paper_color_title">Inverter cores PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Inverte todas as cores do PDF, útil em utilização nocturna.</string>
+    <string name="roadbook_settings_locker_cat_title">Opções de Bloqueio</string>
     <string name="roadbook_settings_locker_disable_paper_touch_title">Lock also disables paper touch</string>
     <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled any paper touch is ignored. This helps prevent accidental movements or rain drop actions.</string>
     <string name="roadbook_settings_locker_disable_instruments_title">Lock also disables instruments</string>
@@ -752,22 +770,22 @@
     <string name="roadbook_session_save_name_already_exists_replace">Replace</string>
     <string name="roadbook_session_save_name_already_exists_edit">Edit Name</string>
     <!-- Session Manager -->
-    <string name="roadbook_session_manager_title">Session Manager</string>
-    <string name="roadbook_session_manager_no_sessions_yet">No saved sessions yet! Save one first.</string>
-    <string name="roadbook_session_date">Date:</string>
-    <string name="roadbook_session_file_name">PDF File:</string>
-    <string name="roadbook_session_total_distance">Total Distance:</string>
-    <string name="roadbook_session_total_time">Total Time:</string>
-    <string name="roadbook_session_travel_time">Travel Time:</string>
-    <string name="roadbook_session_avg_speed">Average Speed:</string>
-    <string name="roadbook_session_load_file">Load</string>
-    <string name="roadbook_session_rename_file">Rename</string>
-    <string name="roadbook_session_location">Location</string>
-    <string name="roadbook_session_new_name">Edit this session name</string>
-    <string name="roadbook_session_new_name_already_exists">This session name is already taken, please choose something else.</string>
-    <string name="roadbook_session_file_does_not_exist">ERROR: The PDF file for this session does not exist anymore!</string>
-    <string name="roadbook_session_load_confirmation_title">Session Load Confirmation</string>
-    <string name="roadbook_session_load_confirmation_message">Are you sure you want to load this session? Any unsaved Roadbook progress will be lost!</string>
+    <string name="roadbook_session_manager_title">Gestor de Sessão</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Ainda não gravou nenhuma sessão. Grave uma primeiro.</string>
+    <string name="roadbook_session_date">Data:</string>
+    <string name="roadbook_session_file_name">PDF:</string>
+    <string name="roadbook_session_total_distance">Dist. Total:</string>
+    <string name="roadbook_session_total_time">Tempo Total:</string>
+    <string name="roadbook_session_travel_time">Tempo Viágem:</string>
+    <string name="roadbook_session_avg_speed">Vel. Média:</string>
+    <string name="roadbook_session_load_file">Carregar</string>
+    <string name="roadbook_session_rename_file">Renomear</string>
+    <string name="roadbook_session_location">Localização</string>
+    <string name="roadbook_session_new_name">Editar nome de sessão</string>
+    <string name="roadbook_session_new_name_already_exists">O nome da sessão já está atribuído, escolhe outro!</string>
+    <string name="roadbook_session_file_does_not_exist">ERRO: O ficheiro PDF para esta sessão já não existe!</string>
+    <string name="roadbook_session_load_confirmation_title">Confirmar Carregamento de Sessão</string>
+    <string name="roadbook_session_load_confirmation_message">Tens a certeza que pretendes carregar esta sessão? Qual progresso actual será perdido!</string>
     <!-- License -->
     <string name="roadbook_license_title">Roadbook Demo Mode</string>
     <string name="roadbook_license_message">Demo mode is limited to 15 minutes per session. Buy the Roadbook Plugin to unlock!</string>
@@ -1008,74 +1026,73 @@
         <item>250m</item>
         <item>500m</item>
         <item>1Km</item>
-        <item>Never</item>
+        <item>Nunca</item>
     </string-array>
-    <string name="map_settings_controller_cat_title">Controller Settings</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Disable Panning Mode Target</string>
-    <string name="map_settings_controller_disable_pan_spot_summary">Disables the new panning mode target spot actions</string>
+    <string name="map_settings_controller_cat_title">Opções de Controlador</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Desactivar Panning com Alvo</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Desactiva o modo de panning do mapa com alvo e acção</string>
     <!-- Poi Search -->
-    <string name="map_poi_search_manager">Place Search</string>
-    <string name="map_poi_search_call">Call</string>
-    <string name="map_poi_type_name">Type Name</string>
-    <string name="map_poi_error_no_offline_map_loaded">Error: no map loaded yet! Download offline maps first.</string>
-    <string name="map_poi_error_no_poi_found">Error: no POIs found!</string>
-    <string name="map_poi_search_more">Search Online</string>
-    <string name="map_poi_no_phone_available_error">No phone number available</string>
-    <string name="map_poi_no_phone_app_available_error">No phone app available</string>
-    <string name="map_poi_no_address">No address available</string>
-    <string name="map_poi_no_phone">No phone available</string>
-    <string name="map_poi_no_website">No website available</string>
-    <string name="map_poi_no_opening_hours">No opening hours available</string>
-    <string name="map_poi_search_dialog_title">Search POI By Name</string>
-    <string name="map_poi_search_button">Search</string>
-    <string name="map_poi_not_a_valid_keyword">Not a valid search entry!</string>
-    <string name="map_poi_no_valid_location_yet">No GPS location yet! Please try again later.</string>
-    <string name="map_poi_distance_long_press_no_fix">Distance not available, no GPX Fix yet.</string>
+    <string name="map_poi_search_manager">Pesquisa de Localizações</string>
+    <string name="map_poi_search_call">Chamar</string>
+    <string name="map_poi_type_name">Inserir Nome</string>
+    <string name="map_poi_error_no_offline_map_loaded">Erro: nenhum mapa carregado! Faz o download de maps primeiro.</string>
+    <string name="map_poi_error_no_poi_found">Erro: nenhum POIs encontrado!</string>
+    <string name="map_poi_search_more">Procura Online</string>
+    <string name="map_poi_no_phone_available_error">Sem número de telefone disponível</string>
+    <string name="map_poi_no_phone_app_available_error">Não foi encontrada a app de telefonia</string>
+    <string name="map_poi_no_address">Sem endereço</string>
+    <string name="map_poi_no_phone">Sem telefóne</string>
+    <string name="map_poi_no_website">Sem website</string>
+    <string name="map_poi_no_opening_hours">Sem horário</string>
+    <string name="map_poi_search_dialog_title">Procurar por Nome</string>
+    <string name="map_poi_search_button">Procurar</string>
+    <string name="map_poi_not_a_valid_keyword">Pesquisa inválida!</string>
+    <string name="map_poi_no_valid_location_yet">A aguardar fix GPS! tenta novamente mais tarde.</string>
+    <string name="map_poi_distance_long_press_no_fix">Distancias indisponíveis, sem fix GPS.</string>
     <!-- Track Tap -->
-    <string name="map_map_track_tap_dialog_title">Track Point Tap</string>
-    <string name="map_map_track_tap_track_details">Track Details</string>
-    <string name="map_map_track_tap_track_point_distances">Point position distances:</string>
-    <string name="map_map_track_tap_track_point_distances_to_you">Distance &amp; time to your position:</string>
-    <string name="map_map_track_tap_on_track">You are on this track!</string>
-    <string name="map_map_track_tap_not_on_track_but_on_gpx">You are on another track.</string>
-    <string name="map_map_track_tap_not_on_gpx">You are not riding on this track or any other active track on the same GPX file.</string>
-    <string name="map_map_track_tap_point_distance_from_track_start">Track Start:</string>
-    <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
-    <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
-    <string name="map_map_track_tap_point_distance_to_gpx_end">GPX End:</string>
-    <string name="map_map_track_tap_point_distance_to_you">Distance:</string>
-    <string name="map_map_track_tap_point_time_to_you">Travel-Time:</string>
-    <string name="map_map_track_tap_point_behind">behind</string>
-    <string name="map_map_track_tap_point_ahead">ahead</string>
-    <string name="map_map_track_tap_distance_to_another_point">Get distance to another point</string>
-    <string name="map_map_track_tap_points_distance_title">Points Distance</string>
-    <string name="map_map_track_tap_points_distance_tap_on">Tap another point to get the distance between points</string>
-    <string name="map_map_track_tap_points_distance_not_same_gpx">Please select a point that is part of the same GPX file!</string>
-    <string name="map_map_track_tap_points_distance_both_same_track">Both selected points are on the same GPX Track</string>
-    <string name="map_map_track_tap_points_distance_different_track">Points are not on the same GPX Track but tracks are connected</string>
-    <string name="map_map_track_tap_points_distance_different_track_error">Cannot measure on different tracks with multiple connections!</string>
+    <string name="map_map_track_tap_dialog_title">Distancias do Ponto</string>
+    <string name="map_map_track_tap_track_details">Detalhes Track</string>
+    <string name="map_map_track_tap_track_point_distances">Distancias do ponto:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Distancia &amp; tempo para a tua posição:</string>
+    <string name="map_map_track_tap_on_track">Estás neste track!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">Estás em outro track.</string>
+    <string name="map_map_track_tap_not_on_gpx">Não estás neste track ou em qualquer track do mesmo GPX.</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Início de Track:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Fim de Track:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">Início GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">Fim GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Distancia:</string>
+    <string name="map_map_track_tap_point_time_to_you">Tempo Viagem:</string>
+    <string name="map_map_track_tap_point_behind">atrás</string>
+    <string name="map_map_track_tap_point_ahead">à frente</string>
+    <string name="map_map_track_tap_distance_to_another_point">Obter distance para outro ponto</string>
+    <string name="map_map_track_tap_points_distance_title">Distancia entre Pontos</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Clica em outro ponto para obter distancia entre pontos</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Seleciona um ponto do mesmo GPX!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Ambos os pontos no mesmo GPX</string>
+    <string name="map_map_track_tap_points_distance_different_track">Pontos em tracks diferentes - tracks estão ligadas</string>
     <!-- Left Panel Progress -->
-    <string name="map_ui_left_progress_panel_finish_label">Finish:</string>
+    <string name="map_ui_left_progress_panel_finish_label">Fim:</string>
     <!-- Route Planner -->
-    <string name="map_route_planner_dialog_root_title">Route Planner</string>
-    <string name="map_route_planner_road_fast">Road Fast</string>
-    <string name="map_route_planner_road_fun">Road Fun</string>
-    <string name="map_route_planner_offroad">Off-Road</string>
-    <string name="map_route_planner_avoid_tolls">Avoid Tolls</string>
-    <string name="map_route_planner_avoid_motorways">Avoid Motorways</string>
-    <string name="map_route_planner_offroad_easy">Easy</string>
-    <string name="map_route_planner_offroad_medium">Medium</string>
-    <string name="map_route_planner_offroad_hard">Hard</string>
-    <string name="map_route_planner_profile_label">Select Profile</string>
-    <string name="map_route_planner_profile_option">Select Profile Options</string>
-    <string name="map_route_calculating_message">Calculating route…</string>
-    <string name="map_route_loading_message">Loading Route…</string>
-    <string name="map_route_analyzing_message">Analyzing Route…</string>
-    <string name="map_route_calculating_message_retry">Error!</string>
-    <string name="map_route_calculating_message_options">Options</string>
-    <string name="map_route_planner_no_gps_fix">No GPS fix yet, try again later!</string>
-    <string name="map_route_planner_cancel_active_dialog_title">Cancel Active Route?</string>
-    <string name="map_route_planner_cancel_active_dialog_message">There is an active navigation. Do you want to cancel and start a new one?</string>
+    <string name="map_route_planner_dialog_root_title">Planeador de Rota</string>
+    <string name="map_route_planner_road_fast">Estrada Rápido</string>
+    <string name="map_route_planner_road_fun">Estrada Divertido</string>
+    <string name="map_route_planner_offroad">Fora de Estrada</string>
+    <string name="map_route_planner_avoid_tolls">Evitar Portagens</string>
+    <string name="map_route_planner_avoid_motorways">Evitar Auto-Estradas</string>
+    <string name="map_route_planner_offroad_easy">Fácil</string>
+    <string name="map_route_planner_offroad_medium">Médio</string>
+    <string name="map_route_planner_offroad_hard">Difícil</string>
+    <string name="map_route_planner_profile_label">Selecionar Perfil</string>
+    <string name="map_route_planner_profile_option">Opções de Perfíl de Cálculo</string>
+    <string name="map_route_calculating_message">A calcular rota…</string>
+    <string name="map_route_loading_message">A Carregar Rota…</string>
+    <string name="map_route_analyzing_message">A Analisar Rota…</string>
+    <string name="map_route_calculating_message_retry">Erro!</string>
+    <string name="map_route_calculating_message_options">Opções</string>
+    <string name="map_route_planner_no_gps_fix">Sem fix de GPS, tente novamente!</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Cancelar Navegação?</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Existe uma navegação activa, pretende cancelar e iniciar uma nova rota?</string>
     <string name="map_route_planner_instruction_now">Agora</string>
     <string name="map_route_planner_instruction_arrived">Chegou ao seu destino!</string>
     <string name="map_route_planner_instruction_keep_same_road">Continuar por</string>
@@ -1087,7 +1104,7 @@
     <string name="map_route_planner_instruction_turn_slight_right">Direita Ligeira em</string>
     <string name="map_route_planner_instruction_keep_left">Manter à Esquerda em</string>
     <string name="map_route_planner_instruction_keep_right">Manter à Direita em</string>
-    <string name="map_route_planner_instruction_uturn">U-Turn in</string>
+    <string name="map_route_planner_instruction_uturn">Inverter em</string>
     <string name="map_route_planner_instruction_straight">Manter em Frente em</string>
     <string name="map_route_planner_instruction_take_exit_1">Primeira Saida em</string>
     <string name="map_route_planner_instruction_take_exit_2">Segunda Saida em</string>
@@ -1098,23 +1115,20 @@
     <string name="map_route_planner_instruction_take_exit_7">Sétima Saida em</string>
     <string name="map_route_planner_instruction_take_exit_8">Oitava Saida em</string>
     <string name="map_route_planner_instruction_destination">Destino em</string>
-    <string name="map_route_planner_nav_options">Options</string>
-    <string name="map_route_planner_nav_options_title">Active Navigation Options</string>
-    <string name="map_route_planner_nav_options_message">Available options for the active navigation:</string>
-    <string name="map_route_planner_nav_options_share_as_gpx">Share As GPX</string>
-    <string name="map_route_planner_error_missing_calc_file_title">Missing Calculation Files</string>
-    <string name="map_route_planner_error_missing_calc_file_message">There are missing calculation files. Please re-download your map files to make sure calculation files are downloaded!</string>
-    <string name="map_route_planner_error_other_title">Calculation Error</string>
-    <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
-    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
-    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
-    <string name="map_route_planner_dialog_download_progress">Downloading calculation file</string>
-    <string name="map_route_planner_empty">No active track or route!</string>
+    <string name="map_route_planner_nav_options">Opções</string>
+    <string name="map_route_planner_nav_options_title">Opções da Navegação</string>
+    <string name="map_route_planner_nav_options_message">Opções para a navegação activa:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Converter GPX</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Ficheiros de Rota em Falta</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Ficheiros de calculo de rota em falta. Por favor faça download do mapa da area!</string>
+    <string name="map_route_planner_error_other_title">Erro a Calcular Rota</string>
+    <string name="map_route_planner_dialog_download_progress">A efectuar download de ficheiros de rota</string>
+    <string name="map_route_planner_empty">Sem tracks ou rotas activas!</string>
     <!-- Place Search -->
-    <string name="map_place_search_dialog_title">Online Address Search</string>
-    <string name="map_place_search_dialog_type_label">Type a name or address:</string>
-    <string name="map_place_search_distance">Straight Line Distance:</string>
-    <string name="map_place_search_instructions">Type at least three letters to view results</string>
+    <string name="map_place_search_dialog_title">Pesquisa Online de Endereços</string>
+    <string name="map_place_search_dialog_type_label">Inserir nome ou endereço:</string>
+    <string name="map_place_search_distance">Distância Linha Recta:</string>
+    <string name="map_place_search_instructions">Insira no minímo 3 letras para obter resultados</string>
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
     <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
@@ -1170,5 +1184,36 @@
     <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
     <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
 
+
+    <!-- Event Mode -->
+    <string name="event_mode_warning_dialog_title">Evento Activo</string>
+    <string name="event_mode_warning_dialog_message">Estás em modo de evento, para abrir um novo ficheiro é necessário encerrar o evento!</string>
+    <string name="event_mode_warning_dialog_close">Encerrar</string>
+    <string name="event_mode_warning_dialog_quit_event">Tens a certeza que desejas encerrar o evento activo? Para voltares ao evento será necessário fazer o download novamente!</string>
+    <string name="event_mode_warning_dialog_cancel">Cancelar</string>
+    <string name="event_mode_instrument_locked_by_event">Não é possível fazer alterações a este instrumento. Está bloqueado pelo modo evento!</string>
+    <string name="event_mode_roadbook_help_button">AJUDA!</string>
+    <string name="event_mode_roadbook_quit_event">Terminar Evento</string>
+    <string name="event_mode_roadbook_page">Página #</string>
+    <string name="event_mode_roadbook_total">Total será</string>
+    <string name="event_mode_loading_event">A Carregar Evento</string>
+    <string name="event_mode_cleaning_setting_dirs">A efectuar limpeza de ficheiros</string>
+    <string name="event_mode_decrypt">A desencriptar ficheiros, esta operação pode demorar algum tempo…</string>
+    <string name="event_mode_generating_file">A guardar ficheiros…</string>
+    <string name="event_mode_unpacking_file">A descompactar ficheiros…</string>
+    <string name="event_mode_loading_settings">A carregar todos os ficheiros e configurações.</string>
+    <string name="event_mode_waiting_for_start">A aguardar data e hora de início!</string>
+    <string name="event_mode_waiting_for_start_time">Início do evento:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">A Aguardar Início do Evento!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Existe um evento activo a aguardar hora de início. Continuar a aguardar ou encerrar?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Aguardar</string>
+    <string name="event_mode_waiting_notification_no_internet_title">A aguardar por uma ligação à internet!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Necessário para validar início de evento.</string>
+    <string name="event_mode_help_dialog_title">Opções de Ajuda</string>
+    <string name="event_mode_help_dialog_message">A tua posição</string>
+    <string name="event_mode_help_call_1">Chamar #1</string>
+    <string name="event_mode_help_call_2">Chamar #2</string>
+    <string name="event_mode_downloading">Download do Evento</string>
+    <string name="event_mode_downloading_message">A efectuar o download do evento, por favor aguarde…</string>
 
 </resources>
