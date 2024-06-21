@@ -3,6 +3,90 @@
 
     <!-- New Untranslated -->
 
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
+    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+
+    <string name="tpms_rear_sensor_title">Rear Tyre</string>
+    <string name="tpms_front_sensor_title">Front Tyre</string>
+    <string name="tpms_sensor_select">Not Setup</string>
+    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
+    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
+    <string name="tpms_sensor_dialog_select">Select</string>
+
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
+
+    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Left</string>
+    <string name="map_gpx_real_time_right">Right</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">for</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
+    <string name="map_gpx_real_time_straight">Straight</string>
+    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
+    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+
+    <!-- Event Mode -->
+    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
+    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
+    <string name="event_mode_help_dialog_title">Event Help Options</string>
+    <string name="event_mode_help_dialog_message">Your Position</string>
+    <string name="event_mode_help_call_1">Call #1</string>
+    <string name="event_mode_help_call_2">Call #2</string>
+    <string name="event_mode_downloading">Downloading Event</string>
+    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
+    
+    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
+    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
+    <string name="event_mode_warning_dialog_close">Close Event</string>
+    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
+    <string name="event_mode_warning_dialog_cancel">Cancel</string>
+    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
+    <string name="event_mode_roadbook_help_button">I need help!</string>
+    <string name="event_mode_roadbook_quit_event">Quit Event</string>
+    <string name="event_mode_roadbook_page">Page #</string>
+    <string name="event_mode_roadbook_total">Total will be</string>
+    <string name="event_mode_loading_event">Loading Event</string>
+    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
+    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
+    <string name="event_mode_generating_file">Saving decrypted file…</string>
+    <string name="event_mode_unpacking_file">Unpacking files…</string>
+    <string name="event_mode_loading_settings">Loading all files and settings.</string>
+
+
+    <string name="gpx_warnings_setting">Progress Warnings</string>
+    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
+    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
+    <string name="gpx_warning_turn_around">Turn Around!</string>
+    <string name="gpx_warning_away_from_track">Away from Track!</string>
+    <string name="gpx_warning_correct_direction">Return to Line!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
+    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
+    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
+    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
+
+    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
+
+    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+
+    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
+    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
+
+    <string name="dmd_device_update_dialog_title">System Update Available</string>
+    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+
     <string name="settings_backup_cat">Backup and Restore</string>
     <string name="settings_backup_gdrive_start">Create Zip and Save</string>
     <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
@@ -229,8 +313,6 @@
     <string-array name="settings_color_themes" translatable="true">
         <item>Altid mørk tilstand</item>
         <item>Altid lys tilstand</item>
-        <item>Automatisk (følg systemet)</item>
-        <item>Brug lyssensor</item>
     </string-array>
     <string name="settings_accent_color_title">Accent farve:</string>
     <string-array name="settings_accent_colors_names" translatable="true">
@@ -244,29 +326,6 @@
     </string-array>
     <string name="remote_controller_category">Indstilling for fjernbetjening.</string>
     <string name="controller_selection">Vælg remote controller model</string>
-    <string-array name="controller_selection_names" translatable="true">
-        <item>Auto Detect</item>
-        <item>DMD Remote1</item>
-        <item>ARN Remote Pro</item>
-        <item>SilverFox B8J</item>
-        <item>Remotek One</item>
-        <item>WunderLINQ</item>
-        <item>Hesanav</item>
-        <item>Ursae</item>
-        <item>Summiot</item>
-        <item>Joymap</item>
-        <item>Bar Buttons</item>
-        <item>CARPE Ci Ctrl</item>
-        <item>CARPE Adventure Control</item>
-        <item>CARPE Terrain Command Gen1</item>
-        <item>CARPE Terrain Command Gen2</item>
-        <item>CARPE Terrain Command Gen3</item>
-        <item>CARPE BMW Controller</item>
-        <item>Generic 8 Keys</item>
-        <item>Generic 7 Keys</item>
-        <item>Generic 5 Keys</item>
-        <item>Generic 4 Keys</item>
-    </string-array>
     <string name="controller_dialog_title">Installation af fjernbetjeningsapp</string>
     <string name="controller_dialog_message">For at udnytte DMD Remote Controller fuldt ud skal du installere hjælpeprogrammet. Ønsker du at installere det nu?</string>
     <string name="controller_dialog_download_title">Downloader fjernbetjeningsapp</string>
@@ -621,6 +680,7 @@
         <item>Inverter papirfarve</item>
         <item>Lås / lås op</item>
         <item>Afspil / Pause</item>
+        <item>Show Map</item>
         <item>Gør ingenting</item>
     </string-array>
     <string name="roadbook_controller_button_up">Pil op</string>
