@@ -2,111 +2,106 @@
 
 
     <!-- New Untranslated -->
+    
+    <string name="settings_backup_cat">Backup og Gendan</string>
+    <string name="settings_backup_gdrive_start">Opret Zip og Gem</string>
+    <string name="settings_backup_gdrive_message">Opretter en zip-fil og giver dig mulighed for at sende den, vi anbefaler til Google Drive! Bemærk: Kort er ikke inkluderet.</string>
+    <string name="settings_import_gdrive_start">Importer Zip og Gendan</string>
+    <string name="settings_import_gdrive_message">Bemærk: Hvis du har ryddet app-lagringen, skal du bemærke, at du manuelt skal downloade dine offline-kort.</string>
+    <string name="settings_run_in_background">Kør DMD2 som Service</string>
+    <string name="settings_run_in_background_desc">Hvis aktiveret, vil tur- og GPX-optager køre som service, når du skifter fra DMD2 til en anden app.</string>
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
-
-
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
-
-
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
-
+    <string name="home_widget_places_title">Steder</string>
+    <string name="home_widget_places_title_long">Favoritsteder</string>
+    <string name="home_widget_places_title_description">Opret genveje til dine yndlingssteder, der er gemt af brugeren</string>
+    <string name="home_widget_places_no_locations">Ingen gemte steder endnu, du kan gemme dem i kortvisningen!</string>
+    <string name="home_widget_places_selector_title">Vælg Sted</string>
+    
+    <string name="map_layers_poi_water">Drikkevand</string>
+    <string name="map_layers_poi_rv_park">RV Parkering</string>
+    <string name="map_layers_poi_border_control">Grænsekontrol</string>
 
     <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="gpx_manager_track_end">Slut!</string>
 
+    <string name="location_manager_no_locations_yet">Ingen gemte steder endnu...</string>
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="exit_confirm_dialog">Luk DMD2 eller send til baggrunden?</string>
+    <string name="exit_confirm_dialog_message">Hvis du lukker DMD2, vil rejseværdier ikke blive opdateret og GPX-optagelse stopper!</string>
+    <string name="exit_confirm_dialog_send_to_background">Baggrund</string>
 
-    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
-    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
-    <string name="exit_confirm_dialog_send_to_background">Background</string>
+    <string name="fall_alert_title">SOS Fald Alarm Modtaget!</string>
+    <string name="fall_alert_message">Du har modtaget en faldalarm! Fuld besked:</string>
+    <string name="fall_alert_show_on_map">Se &amp; Hjælp</string>
+    <string name="fall_alert_ignore">Ignorer</string>
+    <string name="fall_alert_open_sms">Åbn SMS</string>
+    <string name="fall_alert_mode_on">SOS Tilstand!</string>
+    <string name="fall_alert_center_map">Centrér Kort</string>
+    <string name="fall_alert_share">Del Placering</string>
+    <string name="fall_alert_finish">Afslut SOS</string>
+    <string name="fall_alert_navigate">Naviger Til</string>
 
-    <string name="fall_alert_title">SOS Fall Alert Received!</string>
-    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
-    <string name="fall_alert_show_on_map">View &amp; Help</string>
-    <string name="fall_alert_ignore">Ignore</string>
-    <string name="fall_alert_open_sms">Open SMS</string>
-    <string name="fall_alert_mode_on">SOS Mode!</string>
-    <string name="fall_alert_center_map">Center Map</string>
-    <string name="fall_alert_share">Share Location</string>
-    <string name="fall_alert_finish">Finish SOS</string>
-    <string name="fall_alert_navigate">Navigate To</string>
+    <string name="settings_dmd_devices_category">DMD-T Enhedsspecifikke</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Hold GPS kørende med skærmen slukket</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Hvis aktiveret, vil rejse- og GPS-relaterede funktioner som GPX-optagelse fortsætte, selvom skærmen er slukket</string>
 
-    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+    <string name="widget_info_gps_cardinal_name">Hovedkompas</string>
+    <string name="widget_info_gps_cardinal_label">Kompas</string>
 
-    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
-    <string name="widget_info_gps_cardinal_label">Compass</string>
+    <string name="obd_set_wunderlinq_title">WunderLINQ Tilstand (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Vil hente værdier fra WunderLINQ API i stedet for OBD2</string>
 
-    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+    <string name="gpx_manager_load_error_title">GPX Indlæsningsfejl</string>
+    <string name="gpx_manager_load_error_message">Fejl ved indlæsning af GPX-filen. DMD2 vil ikke forsøge at indlæse den igen. Prøv en anden fil!</string>
 
-    <string name="gpx_manager_load_error_title">GPX Load Error</string>
-    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+    <string name="map_settings_ui_enable_street_name">Vis gadenavn</string>
+    <string name="map_settings_ui_enable_street_name_summary">Viser det nuværende gadenavn i bunden af kortet</string>
+    <string name="reverse_geo_unnamed_road">Unavngiven Vej</string>
 
-    <string name="map_settings_ui_enable_street_name">Show street name</string>
-    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
-    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
-
-    <string name="map_poi_search_name">Search Name</string>
-    <string name="map_poi_cat_fuel">Gas Station</string>
-    <string name="map_poi_cat_accommodation">Accommodation</string>
-    <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Shop &amp; Market</string>
-    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
-    <string name="map_poi_cat_car_repair">Car Repair</string>
-    <string name="map_poi_cat_parking">Parking Place</string>
-    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
-    <string name="map_poi_cat_money">Bank &amp; ATM</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreation</string>
-    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_search_name">Søg Navn</string>
+    <string name="map_poi_cat_fuel">Tankstation</string>
+    <string name="map_poi_cat_accommodation">Overnatning</string>
+    <string name="map_poi_cat_restaurants">Restauranter</string>
+    <string name="map_poi_cat_cafe">Caféer, Pubber &amp; Barer</string>
+    <string name="map_poi_cat_shop">Butik &amp; Marked</string>
+    <string name="map_poi_cat_moto_repair">Motorcykel Reparation</string>
+    <string name="map_poi_cat_car_repair">Bil Reparation</string>
+    <string name="map_poi_cat_parking">Parkeringsplads</string>
+    <string name="map_poi_cat_rental">Udlejning, Vask &amp; Opladning</string>
+    <string name="map_poi_cat_money">Bank &amp; Hæveautomat</string>
+    <string name="map_poi_cat_wc_water">Toilet &amp; Vand</string>
+    <string name="map_poi_cat_camping">Camping &amp; Campingvogn</string>
+    <string name="map_poi_cat_recreation">Rekreation</string>
+    <string name="map_poi_cat_natural_places">Naturlige Steder</string>
     <string name="map_poi_cat_hospital">Hospital</string>
-    <string name="map_poi_cat_pharmacy">Pharmacy</string>
-    <string name="map_poi_cat_tourism">Tourism</string>
-    <string name="map_poi_cat_historic">Historic Places</string>
-    <string name="map_poi_cat_pub_transport">Public Transports</string>
-    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
-    <string name="map_poi_cat_pub_government">Government</string>
-    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+    <string name="map_poi_cat_pharmacy">Apotek</string>
+    <string name="map_poi_cat_tourism">Turisme</string>
+    <string name="map_poi_cat_historic">Historiske Steder</string>
+    <string name="map_poi_cat_pub_transport">Offentlig Transport</string>
+    <string name="map_poi_cat_pub_entertainment">Underholdning</string>
+    <string name="map_poi_cat_pub_government">Regering</string>
+    <string name="map_poi_cat_pub_cities">Byer, Byer &amp; Landsbyer</string>
+    <string name="map_poi_cat_pub_communications">Kommunikationer</string>
 
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Online Adresse</string>
 
-    <string name="location_manager_my_locations_cat">My Places</string>
-    <string name="location_manager_save_location_button">Save Location</string>
-    <string name="location_manager_save_location_name">Location Name</string>
-    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
-    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
-    <string name="location_manager_save_location_no_description">No description</string>
-    <string name="location_manager_save_location_saved">Location Saved!</string>
-    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
-    <string name="location_manager_save_new">Add New</string>
+    <string name="location_manager_my_locations_cat">Mine Steder</string>
+    <string name="location_manager_save_location_button">Gem Placering</string>
+    <string name="location_manager_save_location_name">Stednavn</string>
+    <string name="location_manager_save_location_dialog_title">Gem Til Mine Steder</string>
+    <string name="location_manager_save_location_unnamed">Unavngiven Placering</string>
+    <string name="location_manager_save_location_no_description">Ingen beskrivelse</string>
+    <string name="location_manager_save_location_saved">Placering Gemt!</string>
+    <string name="location_manager_save_keep_on_map">Behold synlig på kortet</string>
+    <string name="location_manager_save_new">Tilføj Ny</string>
 
-
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
+    <string name="gpx_manager_settings_closest_point_title">Linje til Nærmeste Punkt</string>
+    <string name="gpx_manager_settings_closest_point_desc">Trækker en direkte linje mellem din position og det nærmeste sporpunkt - hvis du er mere end 200m væk fra sporet og sporet er inden for en 5 km rækkevidde.</string>
+    <string name="gpx_manager_settings_closest_point_label">Aktivér Linje</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Automatisk Genereret Afstandsbaseret Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Aktivér Auto Waypoint</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Afstandsinterval</string>
 
 
 
