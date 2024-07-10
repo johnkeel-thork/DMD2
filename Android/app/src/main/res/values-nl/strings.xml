@@ -3,87 +3,87 @@
     <!-- New Untranslated -->
 
     <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+    <string name="home_widget_tpms_title_long">Bandenspanning Sensors</string>
+    <string name="home_widget_tpms_description">Monitor bandenspanning en temperatuur met DMD TPMS</string>
 
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
+    <string name="tpms_rear_sensor_title">Achterband</string>
+    <string name="tpms_front_sensor_title">Voorband</string>
+    <string name="tpms_sensor_select">Niet instellen</string>
+    <string name="tpms_sensor_tap_to_start">Tik om in te stellen</string>
+    <string name="tpms_sensor_dialog_select_sensor">Selecteer Sensor</string>
+    <string name="tpms_sensor_dialog_select">Selecteer</string>
 
-    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
-    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Aanpassingsknoppen op het scherm weergeven</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Toont een + en - voor het handmatig aanpassen van de totale en gedeeltelijke afstand</string>
 
-    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+    <string name="map_route_planner_instruction_keep_going">Blijf doorrijden</string>
 
     <!-- GPX Instructions -->
-    <string name="map_gpx_real_time_left">Left</string>
-    <string name="map_gpx_real_time_right">Right</string>
+    <string name="map_gpx_real_time_left">Links</string>
+    <string name="map_gpx_real_time_right">Rechts</string>
     <string name="map_gpx_real_time_in">in</string>
-    <string name="map_gpx_real_time_for">for</string>
-    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
-    <string name="map_gpx_real_time_straight">Straight</string>
-    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
-    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+    <string name="map_gpx_real_time_for">voor</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">naar</string>
+    <string name="map_gpx_real_time_straight">Rechtstreeks</string>
+    <string name="map_gpx_real_time_instructions_title">Keren-instructies</string>
+    <string name="map_gpx_real_time_instructions_desc">Realtime bochtanalyse en feedback voor actieve track</string>
+    <string name="map_gpx_real_time_instructions_setting">Schakel instructies voor keren in</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Schakel gesproken instructies in</string>
 
     <!-- Event Mode -->
-    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
-    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
-    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
-    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
-    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
-    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
-    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
-    <string name="event_mode_help_dialog_title">Event Help Options</string>
-    <string name="event_mode_help_dialog_message">Your Position</string>
-    <string name="event_mode_help_call_1">Call #1</string>
-    <string name="event_mode_help_call_2">Call #2</string>
-    <string name="event_mode_downloading">Downloading Event</string>
-    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
+    <string name="event_mode_waiting_for_start">Wachten op de starttijd van het evenement!</string>
+    <string name="event_mode_waiting_for_start_time">Startdatum en -tijd:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Wachten op de start van het evenement!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Je hebt een geladen evenement en je wacht op de starttijd. Blijven wachten of afsluiten?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Wacht</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Wachten op internet connectie!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Vereist om de start van het evenement te valideren.</string>
+    <string name="event_mode_help_dialog_title">Help-opties voor evenement</string>
+    <string name="event_mode_help_dialog_message">Uw positie</string>
+    <string name="event_mode_help_call_1">Melding #1</string>
+    <string name="event_mode_help_call_2">Melding #2</string>
+    <string name="event_mode_downloading">Evenement downloaden</string>
+    <string name="event_mode_downloading_message">Wacht tot het downloaden is voltooid!</string>
 
-    <string name="gpx_warnings_setting">Progress Warnings</string>
-    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
-    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
-    <string name="gpx_warning_turn_around">Turn Around!</string>
-    <string name="gpx_warning_away_from_track">Away from Track!</string>
-    <string name="gpx_warning_correct_direction">Return to Line!</string>
-    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
-    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
-    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
-    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
+    <string name="gpx_warnings_setting">Voortgangswaarschuwingen</string>
+    <string name="gpx_warnings_setting_desc">Triggerwaarschuwing voor weg van de track en verkeerde richting.</string>
+    <string name="gpx_warning_wrong_direction">Verkeerde richting!</string>
+    <string name="gpx_warning_turn_around">Draai om!</string>
+    <string name="gpx_warning_away_from_track">Weg van de track!</string>
+    <string name="gpx_warning_correct_direction">Ga terug naar lijn!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Toon waarschuwing voor verkeerde richting</string>
+    <string name="gpx_warning_show_away_from_track_option">Toon waarschuwing weg van track</string>
+    <string name="gpx_warning_show_screen_flash">Gebruik schermflits</string>
+    <string name="gpx_warning_play_voice_warning">Speel stemwaarschuwing af</string>
 
-    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
+    <string name="gpx_manager_poi_busy_message">Bezig met verwerken van POI, wordt hierna hervat!</string>
 
-    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+    <string name="gpx_manager_settings_start_end">Toon track start- en eindwaypoint</string>
 
-    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
-    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
-    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
+    <string name="settings_dmd_devices_updates_automatic">Controleer automatisch op app-updates</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Controleer updates alleen via wifi-verbinding</string>
+    <string name="settings_dmd_devices_updates_manual">Controleer nu op updates!</string>
 
-    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
-    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
-    <string name="event_mode_warning_dialog_close">Close Event</string>
-    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
-    <string name="event_mode_warning_dialog_cancel">Cancel</string>
-    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
-    <string name="event_mode_roadbook_help_button">I need help!</string>
-    <string name="event_mode_roadbook_quit_event">Quit Event</string>
-    <string name="event_mode_roadbook_page">Page #</string>
-    <string name="event_mode_roadbook_total">Total will be</string>
-    <string name="event_mode_loading_event">Loading Event</string>
-    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
-    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
-    <string name="event_mode_generating_file">Saving decrypted file…</string>
-    <string name="event_mode_unpacking_file">Unpacking files…</string>
-    <string name="event_mode_loading_settings">Loading all files and settings.</string>
+    <string name="event_mode_warning_dialog_title">Actieve Eventement Mode</string>
+    <string name="event_mode_warning_dialog_message">U bevindt zich momenteel in de evenement modus. Weet u zeker dat u deze wilt stoppen en het nieuwe bestand wilt openen?</string>
+    <string name="event_mode_warning_dialog_close">Sluit Evenement</string>
+    <string name="event_mode_warning_dialog_quit_event">Weet je zeker dat je het evenement wilt sluiten? Om het opnieuw te openen, moet u het van dezelfde bron downloaden.</string>
+    <string name="event_mode_warning_dialog_cancel">Annuleren</string>
+    <string name="event_mode_instrument_locked_by_event">Je kunt dit instrument niet wijzigen, het is vergrendeld door evenement instellingen!</string>
+    <string name="event_mode_roadbook_help_button">Ik heb hulp nodig!</string>
+    <string name="event_mode_roadbook_quit_event">Stop Evenement</string>
+    <string name="event_mode_roadbook_page">Pagina #</string>
+    <string name="event_mode_roadbook_total">Totaal zal zijn</string>
+    <string name="event_mode_loading_event">Laden Evenement</string>
+    <string name="event_mode_cleaning_setting_dirs">Opruimen en instellen van directories</string>
+    <string name="event_mode_decrypt">Bestand decoderen, deze bewerking kan enige tijd duren...</string>
+    <string name="event_mode_generating_file">Gedecodeerd bestand opslaan…</string>
+    <string name="event_mode_unpacking_file">uitpakken van files…</string>
+    <string name="event_mode_loading_settings">Alle bestanden en instellingen laden.</string>
 
-    <string name="dmd_device_update_dialog_title">System Update Available</string>
-    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_dialog_title">Systeem Update beschikbaar</string>
+    <string name="dmd_device_update_configuration_dialog_message">Nieuwe systeemconfiguratie beschikbaar. Wil je nu updaten? Als u ervoor kiest om nu te updaten, start de download op de achtergrond en wordt het apparaat opnieuw opgestart als u klaar bent.</string>
+    <string name="dmd_device_update_system_dialog_message">Nieuwe systeemfirmware-update beschikbaar. Wil je nu updaten? Als u ervoor kiest om nu te updaten, start de download op de achtergrond en wordt het apparaat opnieuw opgestart als u klaar bent.</string>
 
 
     <!-- End Of New Untranslated -->
