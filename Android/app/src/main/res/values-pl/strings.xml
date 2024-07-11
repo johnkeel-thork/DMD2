@@ -3,6 +3,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
 
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
@@ -193,14 +207,11 @@
     <string name="location_manager_save_location_saved">Location Saved!</string>
     <string name="location_manager_save_keep_on_map">Keep visible on map</string>
     <string name="location_manager_save_new">Add New</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
     <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
     <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
 
     <string name="map_layers_downloader_map_title">Select Map</string>
@@ -993,7 +1004,6 @@
     <string name="gpx_manager_gpx_loading_message">Ładowanie pliku GPX</string>
     <string name="gpx_manager_poi_loading_message">Ładowanie wyszukiwania POI, może to zająć trochę czasu…</string>
     <string name="gpx_manager_advanced_title">Zaawansowane opcje</string>
-    <string name="gpx_manager_advanced_invert_orientation">Odwrócone kierunek podróży</string>
     <string name="gpx_manager_advanced_convert_to_route">Próba przekonwertowania pełnego pliku na nawigację:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Ten plik GPX nie zawiera żadnej ścieżki!</string>
 
@@ -1161,7 +1171,6 @@
     <string name="map_route_planner_empty">Brak aktywnego toru ani trasy!</string>
         <!--  Place Search -->
     <string name="map_place_search_dialog_title">Wyszukiwanie adresów online</string>
-    <string name="map_place_search_button_label">Typ adres</string>
     <string name="map_place_search_dialog_type_label">Wpisz nazwę lub adres:</string>
     <string name="map_place_search_distance">Odległość linii prostej:</string>
     <string name="map_place_search_instructions">Wpisz co najmniej trzy litery, aby wyświetlić wyniki</string>
