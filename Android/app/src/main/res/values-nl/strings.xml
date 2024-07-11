@@ -2,6 +2,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -882,13 +896,11 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Geen track beschrijving beschikbaar.</string>
     <string name="gpx_manager_track_manager_track_length">Track lengte</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeer naar…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeer naar trackpunt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Selecteer naar welk trackpunt je wilt navigeren.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Dichtsbijzijnde punt</string>
     <string name="gpx_manager_track_manager_navigate_end">Track einde</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Converteer naar route</string>
     <string name="gpx_manager_advanced_convert_to_route3">Houd er rekening mee dat deze operatie erg veeleisend en langzaam is. Het resultaat is mogelijk ook geen perfecte match met de originele track! Voorzichtig gebruiken.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Selecteer Navigatie App</string>
     <string name="gpx_manager_track_manager_poi_search">POI zoeken</string>
@@ -908,7 +920,6 @@
     <string name="gpx_manager_gpx_loading_message">GPX bestand laden</string>
     <string name="gpx_manager_poi_loading_message">Laden track POI zoek resultaat, dit kan wat tijd in beslag name…</string>
     <string name="gpx_manager_advanced_title">Geavanceerde opties</string>
-    <string name="gpx_manager_advanced_invert_orientation">Rijrichting omkeren</string>
     <string name="gpx_manager_advanced_convert_to_route">Probeer volledig bestand te converteren naar navigatie:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Dit GPX-bestand bevat geen tracks!</string>
 
