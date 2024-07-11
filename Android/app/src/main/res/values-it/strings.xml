@@ -3,6 +3,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -882,13 +896,11 @@
     <string name="gpx_manager_track_manager_title">Gestore Traccia</string>
     <string name="gpx_manager_track_manager_no_description">Nessuna descrizione della traccia disponibile.</string>
     <string name="gpx_manager_track_manager_track_length">Lunghezza Traccia</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviga Verso…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Naviga Verso Punto Traccia</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Seleziona a quale punto del tracciato vuoi navigare.</string>
     <string name="gpx_manager_track_manager_navigate_start">Inizio Traccia</string>
     <string name="gpx_manager_track_manager_navigate_closest">Punto Più Vicino</string>
     <string name="gpx_manager_track_manager_navigate_end">Fine Traccia</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Converti in Percorso</string>
     <string name="gpx_manager_advanced_convert_to_route3">Si prega di notare che questa operazione è molto impegnativa e lenta. Il risultato potrebbe anche non corrispondere perfettamente alla traccia originale! Usare con cautela.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Seleziona App di Navigazione</string>
     <string name="gpx_manager_track_manager_poi_search">Ricerca POI</string>
@@ -908,7 +920,6 @@
     <string name="gpx_manager_gpx_loading_message">Caricamento File GPX</string>
     <string name="gpx_manager_poi_loading_message">Caricamento ricerca POI sul tracciato, ci potrebbe volere del tempo…</string>
     <string name="gpx_manager_advanced_title">Opzioni Avanzate</string>
-    <string name="gpx_manager_advanced_invert_orientation">Inverti Direzione di Viaggio</string>
     <string name="gpx_manager_advanced_convert_to_route">Tentativo di convertire l\'intero file in navigazione:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Questo file GPX non contiene alcuna traccia!</string>
 
