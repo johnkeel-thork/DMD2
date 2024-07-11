@@ -3,6 +3,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -873,13 +887,11 @@
     <string name="gpx_manager_track_manager_title">Spårhantering</string>
     <string name="gpx_manager_track_manager_no_description">Ingen spårbeskrivning tillgänglig.</string>
     <string name="gpx_manager_track_manager_track_length">Spårlängd</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigera Till…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigera Till Spårpunkt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Välj vilken spårpunkt du vill navigera till.</string>
     <string name="gpx_manager_track_manager_navigate_start">Spårets Början</string>
     <string name="gpx_manager_track_manager_navigate_closest">Närmaste Punkt</string>
     <string name="gpx_manager_track_manager_navigate_end">Spårets Slut</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Konvertera till Rutt</string>
     <string name="gpx_manager_advanced_convert_to_route3">Vänligen notera att åtgärden kommer att vara krävande och långsam. Resultatet kanske inte exakt matchar spåret! Använd med försiktighet.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Välj Navigationsapp</string>
     <string name="gpx_manager_track_manager_poi_search">Sök POI</string>
@@ -899,7 +911,6 @@
     <string name="gpx_manager_gpx_loading_message">Laddar GPX-fil</string>
     <string name="gpx_manager_poi_loading_message">Laddar POI-sökning för spår, det kan en stund …</string>
     <string name="gpx_manager_advanced_title">Avancerade Val</string>
-    <string name="gpx_manager_advanced_invert_orientation">Invertera Riktning</string>
     <string name="gpx_manager_advanced_convert_to_route">Försök att konvertera hela filen till navigering:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">GPX-filen innehåller inga spår!</string>
 
