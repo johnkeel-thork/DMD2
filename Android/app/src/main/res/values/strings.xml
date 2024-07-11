@@ -155,7 +155,9 @@
     <string name="controller_selection">Select remote controller model</string>
     <string-array name="controller_selection_names" translatable="true">
         <item>Auto Detect</item>
-        <item>DMD Remote1</item>
+        <item>DMD Remote 1</item>
+        <item>DMD Remote 2</item>
+        <item>DMD Remote 3</item>
         <item>ARN Remote Pro</item>
         <item>SilverFox B8J</item>
         <item>Remotek One</item>
@@ -306,6 +308,9 @@
     <string name="home_widget_places_selector_title">Select Place</string>
     <string name="home_widget_odo_title">ODO</string>
     <string name="home_widget_odo_title_long">Odometer</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
+    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
     <string name="home_widget_odo_description">An editable odometer</string>
     <string name="home_widget_odo_dialog_title">Odometer Options</string>
     <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
@@ -379,7 +384,13 @@
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Trip Reset</string>
     <string name="trip_reset_confirmation_message">Are you sure you want to reset the trip statistics?</string>
-
+    <!-- Widget TPMS -->
+    <string name="tpms_rear_sensor_title">Rear Tyre</string>
+    <string name="tpms_front_sensor_title">Front Tyre</string>
+    <string name="tpms_sensor_select">Not Setup</string>
+    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
+    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
+    <string name="tpms_sensor_dialog_select">Select</string>
 
     <!-- Notifications -->
     <!-- Permission Dialog -->
@@ -417,6 +428,8 @@
     <string name="apps_long_press_actions_dialog_cancel">Cancel</string>
 
     <!-- OBD-->
+    <!-- Main UI-->
+    <string name="obd_view_speed">SPEED</string>
     <!-- Settings-->
     <string name="obd_cat_title_pref">OBD Preferences</string>
     <string name="obd_device_setup">OBD Bluetooth Device Setup</string>
@@ -510,6 +523,8 @@
     <string name="roadbook_settings_totals_single_decimal_summary">Will show the Total distance with a single decimal place instead of two</string>
     <string name="roadbook_settings_partial_single_decimal_title">Partial - Single Decimal Place</string>
     <string name="roadbook_settings_partial_single_decimal_summary">Will show the Partial distance with a single decimal place instead of two</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
     <string name="roadbook_settings_visual_settings_cat_title">Visual Settings</string>
     <string name="roadbook_settings_invert_paper_color_title">Invert PDF Colors</string>
     <string name="roadbook_settings_invert_paper_color_message">Inverts the paper color, might be useful for riding during the night.</string>
@@ -776,6 +791,7 @@
     <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
     <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
     <string name="gpx_manager_tracks">Tracks</string>
+    <string name="gpx_manager_routes">Routes</string>
     <string name="gpx_manager_waypoints">Waypoints</string>
     <string name="gpx_manager_center_map_button">Center Map</string>
     <string name="gpx_manager_settings_title">GPX Settings</string>
@@ -821,16 +837,18 @@
         <item>250Km / 250Mi</item>
     </string-array>
     <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any tracks!</string>
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
     <string name="gpx_manager_track_manager_track_length">Track Length</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
     <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
     <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Search</string>
@@ -851,7 +869,7 @@
     <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
     <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
     <string name="gpx_manager_advanced_title">Advanced Options</string>
-    <string name="gpx_manager_advanced_invert_orientation">Invert Travel Direction</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
     <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
     <string name="gpx_warnings_setting">Progress Warnings</string>
@@ -1041,6 +1059,7 @@
     <string name="map_route_planner_instruction_now">Now</string>
     <string name="map_route_planner_instruction_arrived">You have reached your destination!</string>
     <string name="map_route_planner_instruction_keep_same_road">Continue for</string>
+    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
     <string name="map_route_planner_instruction_turn_left">Turn Left in</string>
     <string name="map_route_planner_instruction_turn_right">Turn Right in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Sharp Left in</string>
@@ -1132,6 +1151,18 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
     <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Left</string>
+    <string name="map_gpx_real_time_right">Right</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">for</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
+    <string name="map_gpx_real_time_straight">Straight</string>
+    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
+    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+
     <!-- Location Manager -->
     <string name="location_manager_my_locations_cat">My Places</string>
     <string name="location_manager_save_location_button">Save Location</string>
@@ -1143,6 +1174,7 @@
     <string name="location_manager_save_keep_on_map">Keep visible on map</string>
     <string name="location_manager_save_new">Add New</string>
     <string name="location_manager_no_locations_yet">No saved places yet…</string>
+
 
     <!-- Event Mode -->
     <string name="event_mode_warning_dialog_title">Active Event Mode</string>
@@ -1161,5 +1193,18 @@
     <string name="event_mode_generating_file">Saving decrypted file…</string>
     <string name="event_mode_unpacking_file">Unpacking files…</string>
     <string name="event_mode_loading_settings">Loading all files and settings.</string>
+    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
+    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
+    <string name="event_mode_help_dialog_title">Event Help Options</string>
+    <string name="event_mode_help_dialog_message">Your Position</string>
+    <string name="event_mode_help_call_1">Call #1</string>
+    <string name="event_mode_help_call_2">Call #2</string>
+    <string name="event_mode_downloading">Downloading Event</string>
+    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
 
 </resources>
