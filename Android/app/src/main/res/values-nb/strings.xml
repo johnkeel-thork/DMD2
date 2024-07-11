@@ -2,21 +2,25 @@
 
     <!-- New Untranslated -->
 
-    <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Dekktrykksensor</string>
-    <string name="home_widget_tpms_description">Overvåk dektrykk og dekktemperatur med DMD TPMS</string>
+    <string name="obd_view_speed">SPEED</string>
 
-    <string name="tpms_rear_sensor_title">Bakdekk</string>
-    <string name="tpms_front_sensor_title">Fordek</string>
-    <string name="tpms_sensor_select">Ikke tilkoblet</string>
-    <string name="tpms_sensor_tap_to_start">Trykk for å koble til</string>
-    <string name="tpms_sensor_dialog_select_sensor">Velg sensor</string>
-    <string name="tpms_sensor_dialog_select">Velg</string>
+    <string name="gpx_manager_routes">Routes</string>
 
-    <string name="roadbook_settings_show_on_screen_adjust_buttons">Vis justeringsknapper på skjermen</string>
-    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Vil vise +  og - for manuell justering av hel- og deltrip</string>
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
 
-    <string name="map_route_planner_instruction_keep_going">Fortsett rett frem</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
+    
+
+    
+
+    
 
     <!-- GPX Instructions -->
     <string name="map_gpx_real_time_left">Venstre</string>
@@ -394,6 +398,9 @@
     <string name="home_widget_speed_description">Stort felt med aktuell hastighet fra GPS.</string>
     <string name="home_widget_odo_title">KM.STAND</string>
     <string name="home_widget_odo_title_long">Kilometerstand</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Dekktrykksensor</string>
+    <string name="home_widget_tpms_description">Overvåk dektrykk og dekktemperatur med DMD TPMS</string>
     <string name="home_widget_odo_description">Redigerbar kilometerstand</string>
     <string name="home_widget_odo_dialog_title">Innstillinger for kilometerstand</string>
     <string name="home_widget_odo_dialog_message">Nullstill eller endre kilometerstand</string>
@@ -467,6 +474,13 @@
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Nullstille tripdata</string>
     <string name="trip_reset_confirmation_message">Sikker på at du vil nullstille tripdata?</string>
+    <!-- Widget TPMS -->
+    <string name="tpms_rear_sensor_title">Bakdekk</string>
+    <string name="tpms_front_sensor_title">Fordek</string>
+    <string name="tpms_sensor_select">Ikke tilkoblet</string>
+    <string name="tpms_sensor_tap_to_start">Trykk for å koble til</string>
+    <string name="tpms_sensor_dialog_select_sensor">Velg sensor</string>
+    <string name="tpms_sensor_dialog_select">Velg</string>
 
 
     <!-- Notifications -->
@@ -596,18 +610,18 @@
     <string name="roadbook_settings_auto_start_message">Start alle instrumenter såsnart Roadbook-fremvisningen velges</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Aktiver opplest veivisning</string>
     <string name="map_settings_navigation_use_voice_instructions_summary">Aktiverer bruk av tekst-til-tale for opplesing av vevisning under navigasjon.</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Naviger til…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Naviger til punkt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Velg hvilket punkt på sporet du vil navigere til.</string>
     <string name="gpx_manager_track_manager_navigate_start">Sporstart</string>
     <string name="gpx_manager_track_manager_navigate_closest">Nærmeste punkt</string>
     <string name="gpx_manager_track_manager_navigate_end">Sporslutt</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Konverter spor til navigasjonsrute</string>
     <string name="gpx_manager_advanced_convert_to_route3">NB! Dette er tidkrevende. Resultatet kan også avvike fra det opprinnelige sporet! Brukes med varsomhet.</string>
     <string name="roadbook_settings_totals_single_decimal_title">Total kjørelengde - Kun én desimal</string>
     <string name="roadbook_settings_totals_single_decimal_summary">Total kjørelende vises med én desimal i stedet for to.</string>
     <string name="roadbook_settings_partial_single_decimal_title">Delvis kjørelengde - Kun én desimal</string>
     <string name="roadbook_settings_partial_single_decimal_summary">Delvis kjørelende vises med én desimal i stedet for to.</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Vis justeringsknapper på skjermen</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Vil vise +  og - for manuell justering av hel- og deltrip</string>
     <string name="roadbook_settings_visual_settings_cat_title">Utseende</string>
     <string name="roadbook_settings_invert_paper_color_title">Negativ farge på PDF</string>
     <string name="roadbook_settings_invert_paper_color_message">Negativ papirfarge, kan være nyttig på natt.</string>
@@ -919,7 +933,6 @@
     <string name="gpx_manager_gpx_loading_message">Laster inn GPX-fil.</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
-    <string name="gpx_manager_advanced_invert_orientation">Snu kjøreretning på sporet</string>
     <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
@@ -1097,6 +1110,7 @@
     <string name="map_route_planner_instruction_now">Nå</string>
     <string name="map_route_planner_instruction_arrived">Du har ankommet målet for turen!</string>
     <string name="map_route_planner_instruction_keep_same_road">Fortsett i</string>
+    <string name="map_route_planner_instruction_keep_going">Fortsett rett frem</string>
     <string name="map_route_planner_instruction_turn_left">Ta til venstre om</string>
     <string name="map_route_planner_instruction_turn_right">Ta til høyre om</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Skarp venstre om</string>
