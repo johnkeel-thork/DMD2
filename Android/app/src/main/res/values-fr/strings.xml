@@ -2,6 +2,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -199,13 +213,11 @@
     <string name="roadbook_settings_auto_start_title">Démarrer les instruments automatiquement</string>
     <string name="roadbook_settings_auto_start_message">Démarrer toutes les mesures (Play) en entrant sur la vue Roadbook</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Aller vers…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Aller au point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Sélectionner le point vers lequel vous souhaitez aller.</string>
     <string name="gpx_manager_track_manager_navigate_start">Démarrer la trace</string>
     <string name="gpx_manager_track_manager_navigate_closest">Point le plus proche</string>
     <string name="gpx_manager_track_manager_navigate_end">Terminer la trace</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convertir en itinéraire</string>
     <string name="gpx_manager_advanced_convert_to_route3">Veuillez noter que cette opération est très exigeante et lente. Le résultat pourrait également ne pas correspondre parfaitement à la trace originale! A utiliser avec précaution.</string>
 
 
@@ -1085,7 +1097,6 @@
     <string name="gpx_manager_waypoint_share_app">Sélectionner l\'application à partager</string>
     <string name="gpx_manager_poi_loading_message">Chargement de la recherche de POI sur la trace, cela peut prendre un certain temps…</string>
     <string name="gpx_manager_advanced_title">Options avancées</string>
-    <string name="gpx_manager_advanced_invert_orientation">Inverser la direction du déplacement</string>
     <string name="gpx_manager_advanced_convert_to_route">Convertir le fichier complet en navigation:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Ce fichier GPX ne contient aucune trace!</string>
 
