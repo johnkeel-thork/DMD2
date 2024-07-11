@@ -3,6 +3,21 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
+
     <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
     <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
     <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
@@ -937,13 +952,11 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
     <string name="gpx_manager_track_manager_track_length">Track Length</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigate To…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
     <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convert to Route</string>
     <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Search</string>
@@ -963,7 +976,6 @@
     <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
     <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
     <string name="gpx_manager_advanced_title">Advanced Options</string>
-    <string name="gpx_manager_advanced_invert_orientation">Invert Travel Direction</string>
     <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
     <!-- Map Press Actions -->
