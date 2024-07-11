@@ -2,6 +2,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -900,13 +914,11 @@
     <string name="gpx_manager_track_manager_title">İzleme Yöneticisi</string>
     <string name="gpx_manager_track_manager_no_description">Parça açıklaması yok.</string>
     <string name="gpx_manager_track_manager_track_length">Parça Uzunluğu</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Şuraya Git…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">İzleme Noktasına Git</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Hangi yol noktasına gitmek istediğinizi seçin.</string>
     <string name="gpx_manager_track_manager_navigate_start">İz Başlangıcı</string>
     <string name="gpx_manager_track_manager_navigate_closest">En Yakın Nokta</string>
     <string name="gpx_manager_track_manager_navigate_end">Parça Sonu</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Rotaya Dönüştür</string>
     <string name="gpx_manager_advanced_convert_to_route3">Lütfen bu işlemin gerçekten zahmetli ve yavaş olduğuna dikkat edin. Sonuç aynı zamanda orijinal parçayla mükemmel bir eşleşme olmayabilir! Dikkatli kullanın.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Navigasyon Uygulamasını Seçin</string>
     <string name="gpx_manager_track_manager_poi_search">İÇN Arama</string>
@@ -926,7 +938,6 @@
     <string name="gpx_manager_gpx_loading_message">GPX Dosyası Yükleniyor</string>
     <string name="gpx_manager_poi_loading_message">Parça İÇN araması yükleniyor, bu işlem biraz zaman alabilir…</string>
     <string name="gpx_manager_advanced_title">Gelişmiş Seçenekler</string>
-    <string name="gpx_manager_advanced_invert_orientation">Seyahat Yönünü Ters Çevir</string>
     <string name="gpx_manager_advanced_convert_to_route">Dosyanın tamamını navigasyona dönüştürmeyi deneyin:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Bu GPX dosyası herhangi bir parça içermiyor!</string>
     <!-- Map Press Actions -->

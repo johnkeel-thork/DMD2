@@ -3,6 +3,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="gpx_warnings_setting">Progress Warnings</string>
     <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
     <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
@@ -885,13 +899,11 @@
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">No hay descripción de la pista disponible.</string>
     <string name="gpx_manager_track_manager_track_length">Longitud de ruta</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navegar a</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navegar hasta el punto de seguimiento</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Seleccione el punto de seguimiento al que desea navegar.</string>
     <string name="gpx_manager_track_manager_navigate_start">Rastrear fecha de comienzo</string>
     <string name="gpx_manager_track_manager_navigate_closest">Punto más cercano</string>
     <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Convertir en ruta</string>
     <string name="gpx_manager_advanced_convert_to_route3">Tenga en cuenta que esta operación es muy exigente y lenta. ¡El resultado también podría no ser una combinación perfecta con la pista original! Utiliza esta opción con precaución.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Seleccionar aplicación de navegación</string>
     <string name="gpx_manager_track_manager_poi_search">Búsqueda de PDI</string>
@@ -911,7 +923,6 @@
     <string name="gpx_manager_gpx_loading_message">Cargando archivo GPX</string>
     <string name="gpx_manager_poi_loading_message">Cargando búsqueda de POI de seguimiento, esto puede llevar algún tiempo…</string>
     <string name="gpx_manager_advanced_title">Opciones avanzadas</string>
-    <string name="gpx_manager_advanced_invert_orientation">Invertir dirección de viaje</string>
     <string name="gpx_manager_advanced_convert_to_route">Intento de convertir el archivo completo a navegación:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">¡Este archivo GPX no contiene ninguna pista!</string>
 

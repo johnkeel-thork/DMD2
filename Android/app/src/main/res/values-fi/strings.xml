@@ -3,6 +3,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -875,13 +889,11 @@
     <string name="gpx_manager_track_manager_title">Jälkien hallinta</string>
     <string name="gpx_manager_track_manager_no_description">Jäljen kuvausta ei ole käytettävissä.</string>
     <string name="gpx_manager_track_manager_track_length">Jäljen pituus</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigoi</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigoi jäljen pisteeseen</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Valitse mihin pisteeseen jäljellä haluat navigoida.</string>
     <string name="gpx_manager_track_manager_navigate_start">Jäljen alku</string>
     <string name="gpx_manager_track_manager_navigate_closest">Lähin piste</string>
     <string name="gpx_manager_track_manager_navigate_end">Jäljen loppu</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Muuta reitiksi</string>
     <string name="gpx_manager_advanced_convert_to_route3">Huomioi että tämä toimenpide on vaativa ja hidas. Tulos ei välttämättä seuraa alkuperäistä jälkeä täydellisesti! Käytä harkiten.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valitse navigointisovellus</string>
     <string name="gpx_manager_track_manager_poi_search">POI-haku</string>
@@ -901,7 +913,6 @@
     <string name="gpx_manager_gpx_loading_message">Ladataan GPX-tiedostoa</string>
     <string name="gpx_manager_poi_loading_message">Ladataan jäljen POI-hakua, tämä voi hieman kestää…</string>
     <string name="gpx_manager_advanced_title">Lisäasetukset</string>
-    <string name="gpx_manager_advanced_invert_orientation">Käännä suunta</string>
     <string name="gpx_manager_advanced_convert_to_route">Yritetään konvertoida koko tiedosto navigoitavaksi:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Tämä GPX-tiedosto ei sisällä jälkiä!</string>
 

@@ -3,6 +3,21 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -220,30 +235,6 @@
     </string-array>
     <string name="remote_controller_category">Fernbedienung</string>
     <string name="controller_selection">Fernbedienung auswählen</string>
-    <string-array name="controller_selection_names" translatable="true">
-        <item>Auto Detect</item>
-        <item>DMD Remote1</item>
-        <item>ARN Remote Pro</item>
-        <item>SilverFox B8J</item>
-        <item>Remotek One</item>
-        <item>WunderLINQ</item>
-        <item>Hesanav</item>
-        <item>Ursae</item>
-        <item>Summiot</item>
-        <item>Joymap</item>
-        <item>Bar Buttons</item>
-        <item>CARPE Ci Ctrl</item>
-        <item>CARPE Adventure Control</item>
-        <item>CARPE Terrain Command Gen1</item>
-        <item>CARPE Terrain Command Gen2</item>
-        <item>CARPE Terrain Command Gen3</item>
-        <item>CARPE BMW Controller</item>
-        <item>Generic 8 Keys</item>
-        <item>Generic 7 Keys</item>
-        <item>Generic 5 Keys</item>
-        <item>Generic 4 Keys</item>
-        <item>SilverFox H1</item>
-    </string-array>
     <string name="controller_dialog_title">Installation Fernbedienungs-App</string>
     <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, musst Du die Utility-App installieren. Jetzt installieren?</string>
     <string name="controller_dialog_download_title">Lade Fernbedienungs-App</string>

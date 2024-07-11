@@ -2,6 +2,20 @@
 
     <!-- New Untranslated -->
 
+    <string name="obd_view_speed">SPEED</string>
+
+    <string name="gpx_manager_routes">Routes</string>
+
+    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+
+    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+
+    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+
+    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+
     <string name="home_widget_tpms_title">TPMS</string>
     <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
     <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
@@ -934,13 +948,11 @@
     <string name="gpx_manager_track_manager_title">Raja haldur</string>
     <string name="gpx_manager_track_manager_no_description">Raja kirjeldust ei ole saadaval.</string>
     <string name="gpx_manager_track_manager_track_length">Raja pikkus</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigeeri…</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeeri rajapunkti</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Valige, millisesse rajapunkti soovite navigeerida.</string>
     <string name="gpx_manager_track_manager_navigate_start">Raja algus</string>
     <string name="gpx_manager_track_manager_navigate_closest">Lähim punkt</string>
     <string name="gpx_manager_track_manager_navigate_end">Raja lõpp</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Teisenda marsruudiks</string>
     <string name="gpx_manager_advanced_convert_to_route3">NB! See toiming on arvutusmahukas ja aeglane. Tulemus ei pruugi ka algse rajaga ideaalselt sobida! Kasuta ettevaatlikult.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Valige Navigeerimisrakendus</string>
     <string name="gpx_manager_track_manager_poi_search">POI otsing</string>
@@ -960,7 +972,6 @@
     <string name="gpx_manager_gpx_loading_message">GPX-faili laadimine</string>
     <string name="gpx_manager_poi_loading_message">Raja POI otsingu laadimine, see võib veidi aega võtta…</string>
     <string name="gpx_manager_advanced_title">Täpsemad sätted</string>
-    <string name="gpx_manager_advanced_invert_orientation">Pööra reisisuunda</string>
     <string name="gpx_manager_advanced_convert_to_route">Proovige teisendada terve fail navigeerimiseks:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">See GPX-fail ei sisalda ühtegi rada!</string>
 
