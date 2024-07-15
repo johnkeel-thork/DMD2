@@ -1,109 +1,5 @@
 <resources>
 
-    <!-- New Untranslated -->
-
-    <string name="obd_view_speed">SPEED</string>
-
-    <string name="gpx_manager_routes">Routes</string>
-
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
-
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
-
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
-
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
-
-    <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
-
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
-
-    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
-    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
-
-    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
-
-    <!-- GPX Instructions -->
-    <string name="map_gpx_real_time_left">Left</string>
-    <string name="map_gpx_real_time_right">Right</string>
-    <string name="map_gpx_real_time_in">in</string>
-    <string name="map_gpx_real_time_for">for</string>
-    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
-    <string name="map_gpx_real_time_straight">Straight</string>
-    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
-    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
-
-    <!-- Event Mode -->
-    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
-    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
-    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
-    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
-    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
-    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
-    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
-    <string name="event_mode_help_dialog_title">Event Help Options</string>
-    <string name="event_mode_help_dialog_message">Your Position</string>
-    <string name="event_mode_help_call_1">Call #1</string>
-    <string name="event_mode_help_call_2">Call #2</string>
-    <string name="event_mode_downloading">Downloading Event</string>
-    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
-
-    <string name="gpx_warnings_setting">Progress Warnings</string>
-    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
-    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
-    <string name="gpx_warning_turn_around">Turn Around!</string>
-    <string name="gpx_warning_away_from_track">Away from Track!</string>
-    <string name="gpx_warning_correct_direction">Return to Line!</string>
-    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
-    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
-    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
-    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
-
-    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
-
-    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
-
-    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
-    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
-    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
-
-    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
-    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
-    <string name="event_mode_warning_dialog_close">Close Event</string>
-    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
-    <string name="event_mode_warning_dialog_cancel">Cancel</string>
-    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
-    <string name="event_mode_roadbook_help_button">I need help!</string>
-    <string name="event_mode_roadbook_quit_event">Quit Event</string>
-    <string name="event_mode_roadbook_page">Page #</string>
-    <string name="event_mode_roadbook_total">Total will be</string>
-    <string name="event_mode_loading_event">Loading Event</string>
-    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
-    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
-    <string name="event_mode_generating_file">Saving decrypted file…</string>
-    <string name="event_mode_unpacking_file">Unpacking files…</string>
-    <string name="event_mode_loading_settings">Loading all files and settings.</string>
-
-    <string name="dmd_device_update_dialog_title">System Update Available</string>
-    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-
-
-    <!-- End Of New Untranslated -->
-
-
-
     <string name="app_name">DMD2</string>
 
     <!-- Status Bar -->
@@ -180,6 +76,10 @@
     <string name="exit_confirm_dialog">DMD2 sluiten of naar de achtergrond sturen?</string>
     <string name="exit_confirm_dialog_message">Sluit je DMD2 af, dan stijgen de tripwaarden niet en stopt de GPX-opname!</string>
     <string name="exit_confirm_dialog_send_to_background">Achtergrond</string>
+    <!-- DMD Devices Update -->
+    <string name="dmd_device_update_dialog_title">Systeem Update beschikbaar</string>
+    <string name="dmd_device_update_configuration_dialog_message">Nieuwe systeemconfiguratie beschikbaar. Wil je nu updaten? Als u ervoor kiest om nu te updaten, start de download op de achtergrond en wordt het apparaat opnieuw opgestart als u klaar bent.</string>
+    <string name="dmd_device_update_system_dialog_message">Nieuwe systeemfirmware-update beschikbaar. Wil je nu updaten? Als u ervoor kiest om nu te updaten, start de download op de achtergrond en wordt het apparaat opnieuw opgestart als u klaar bent.</string>
     <!-- Fall Alerts -->
     <string name="fall_alert_title">SOS Val Alarm Ontvangen!</string>
     <string name="fall_alert_message">Je hebt een val alarm ontvangen! Volledig bericht:</string>
@@ -253,12 +153,41 @@
     </string-array>
     <string name="remote_controller_category">Instellingen Remote Controller</string>
     <string name="controller_selection">Selecteer remote controller model</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Auto Detect</item>
+        <item>DMD Remote 1</item>
+        <item>DMD Remote 2</item>
+        <item>DMD Remote 3</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Generic 8 Keys</item>
+        <item>Generic 7 Keys</item>
+        <item>Generic 5 Keys</item>
+        <item>Generic 4 Keys</item>
+        <item>SilverFox H1</item>
+    </string-array>
     <string name="controller_dialog_title">Remote Controller App Installeren</string>
     <string name="controller_dialog_message">Om optimaal gebruik te kunnen maken van de DMD-Remote Controller moet u het hulpprogramma installeren. Wil u het nu installeren?</string>
     <string name="controller_dialog_download_title">Downloaden Controller App</string>
     <string name="settings_dmd_devices_category">DMD-T Apparaat Specifiek</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">Houd GPS aan bij scherm uit</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Indien ingeschakeld blijven Trip- en GPS-gerelateerde functies zoals GPX-opname actief, zelfs als het scherm is uitgeschakeld</string>
+    <string name="settings_dmd_devices_updates_automatic">Controleer automatisch op app-updates</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Controleer updates alleen via wifi-verbinding</string>
+    <string name="settings_dmd_devices_updates_manual">Controleer nu op updates!</string>
     <string name="settings_screen_category">Scherm</string>
     <string name="settings_screen_lock_rotation">Zet scherm oriëntatie vast</string>
     <string name="settings_screen_lock_rotation_summary">Verhinder dat het scherm per ongeluk roteert tijdens het rijden.</string>
@@ -383,6 +312,9 @@
     <string name="home_widget_odo_dialog_title">Odometer opties</string>
     <string name="home_widget_odo_dialog_message">Reset de odometerwaarde of bewerk de huidige waarde</string>
     <string name="home_widget_odo_dialog_edit_title">Bewerk odometer waarde</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Bandenspanning Sensors</string>
+    <string name="home_widget_tpms_description">Monitor bandenspanning en temperatuur met DMD TPMS</string>
     <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">GPS &amp; OBD Indicators</string>
     <string name="home_widget_numeric_values_description">Door gebruiker geselecteerde waarden van OBD sensors en GPS data.</string>
@@ -452,7 +384,13 @@
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Trip opnieuw instellen</string>
     <string name="trip_reset_confirmation_message">Ben je zeker dat je de trip statistieken opnieuw wilt instellen?</string>
-
+    <!-- Widget TPMS -->
+    <string name="tpms_rear_sensor_title">Achterband</string>
+    <string name="tpms_front_sensor_title">Voorband</string>
+    <string name="tpms_sensor_select">Niet instellen</string>
+    <string name="tpms_sensor_tap_to_start">Tik om in te stellen</string>
+    <string name="tpms_sensor_dialog_select_sensor">Selecteer Sensor</string>
+    <string name="tpms_sensor_dialog_select">Selecteer</string>
 
     <!-- Notifications -->
     <!-- Permission Dialog -->
@@ -490,6 +428,8 @@
     <string name="apps_long_press_actions_dialog_cancel">Annuleer</string>
 
     <!-- OBD-->
+    <!-- Main UI--> 
+    <string name="obd_view_speed">SNELHEID</string>
     <!-- Settings-->
     <string name="obd_cat_title_pref">OBD Voorkeuren</string>
     <string name="obd_device_setup">OBD Bluetooth Instellingen</string>
@@ -583,6 +523,8 @@
     <string name="roadbook_settings_totals_single_decimal_summary">Toont de totale afstand met 1 decimaal ipv 2</string>
     <string name="roadbook_settings_partial_single_decimal_title">Gedeeltelijke afstand - 1 decimaal</string>
     <string name="roadbook_settings_partial_single_decimal_summary">Toont de gedeeltelijke afstand met 1 decimaal ipv 2</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Aanpassingsknoppen op het scherm weergeven</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Toont een + en - voor het handmatig aanpassen van de totale en gedeeltelijke afstand</string>
     <string name="roadbook_settings_visual_settings_cat_title">Visuele instellingen</string>
     <string name="roadbook_settings_invert_paper_color_title">PDF kleuren omkeren</string>
     <string name="roadbook_settings_invert_paper_color_message">Draait de papierkleur om, kan handig zijn bij rijden in het donker.</string>
@@ -849,6 +791,7 @@
     <string name="gpx_manager_no_file_loaded">Geen bestand geladen. Klik Laad Bestand.</string>
     <string name="gpx_manager_reloading_files_please_wait">Bestanden worden opnieuw geladen. Even geduld.</string>
     <string name="gpx_manager_tracks">Tracks</string>
+    <string name="gpx_manager_routes">Routes</string>
     <string name="gpx_manager_waypoints">Waypoints</string>
     <string name="gpx_manager_center_map_button">Centreer Kaart</string>
     <string name="gpx_manager_settings_title">GPX instellingen</string>
@@ -882,6 +825,7 @@
     <string name="gpx_manager_settings_closest_point_label">Lijn inschakelen</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatisch waypoint</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_desc">Automatisch gegenereerd, op afstand gebaseerd waypoint</string>
+    <string name="gpx_manager_settings_start_end">Toon track start- en eindwaypoint</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_switch">Schakel Automatisch waypoint in</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_distance">Afstandsinterval</string>
     <string-array name="gpx_manager_settings_auto_waypoint_distance_entries" translatable="true">
@@ -893,14 +837,18 @@
         <item>250Km / 250Mi</item>
     </string-array>
     <string name="gpx_manager_no_tracks_warning">Het geselecteerde GPX-bestand bevat geen tracks!</string>
+    <string name="gpx_manager_no_routes_warning">Het geselecteerde GPX-bestand bevat geen routes!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Geen track beschrijving beschikbaar.</string>
     <string name="gpx_manager_track_manager_track_length">Track lengte</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Navigeer naar Start / Einde</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigeer naar trackpunt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Selecteer naar welk trackpunt je wilt navigeren.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Dichtsbijzijnde punt</string>
     <string name="gpx_manager_track_manager_navigate_end">Track einde</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Navigeer naar dichtstbijzijnde punt</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Profiel instellen</string>
     <string name="gpx_manager_advanced_convert_to_route3">Houd er rekening mee dat deze operatie erg veeleisend en langzaam is. Het resultaat is mogelijk ook geen perfecte match met de originele track! Voorzichtig gebruiken.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Selecteer Navigatie App</string>
     <string name="gpx_manager_track_manager_poi_search">POI zoeken</string>
@@ -919,9 +867,21 @@
     <string name="gpx_manager_waypoint_share_app">Selecteer app om te delen</string>
     <string name="gpx_manager_gpx_loading_message">GPX bestand laden</string>
     <string name="gpx_manager_poi_loading_message">Laden track POI zoek resultaat, dit kan wat tijd in beslag name…</string>
+    <string name="gpx_manager_poi_busy_message">Bezig met verwerken van POI, wordt hierna hervat!</string>
     <string name="gpx_manager_advanced_title">Geavanceerde opties</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Richting omkeren</string>
     <string name="gpx_manager_advanced_convert_to_route">Probeer volledig bestand te converteren naar navigatie:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Dit GPX-bestand bevat geen tracks!</string>
+    <string name="gpx_warnings_setting">Voortgangswaarschuwingen</string>
+    <string name="gpx_warnings_setting_desc">Triggerwaarschuwing voor weg van de track en verkeerde richting.</string>
+    <string name="gpx_warning_wrong_direction">Verkeerde richting!</string>
+    <string name="gpx_warning_turn_around">Draai om!</string>
+    <string name="gpx_warning_away_from_track">Weg van de track!</string>
+    <string name="gpx_warning_correct_direction">Ga terug naar lijn!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Toon waarschuwing voor verkeerde richting</string>
+    <string name="gpx_warning_show_away_from_track_option">Toon waarschuwing weg van track</string>
+    <string name="gpx_warning_show_screen_flash">Gebruik schermflits</string>
+    <string name="gpx_warning_play_voice_warning">Speel stemwaarschuwing af</string>
 
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Kaart actie LANG DUWEN</string>
@@ -1099,6 +1059,7 @@
     <string name="map_route_planner_instruction_now">Nu</string>
     <string name="map_route_planner_instruction_arrived">U bent op uw bestemming aangekomen!</string>
     <string name="map_route_planner_instruction_keep_same_road">Volg voor</string>
+    <string name="map_route_planner_instruction_keep_going">Blijf doorrijden</string>
     <string name="map_route_planner_instruction_turn_left">Links af na</string>
     <string name="map_route_planner_instruction_turn_right">Rechts af na</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scherpe bocht links na</string>
@@ -1190,6 +1151,18 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nog geen Waypoint!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Bevestiging verwijderen</string>
     <string name="map_gpx_recorder_confirm_delete_message">Weet u zeker dat u dit bestand wilt verwijderen? Deze actie kan niet worden terug gedraaid!</string>
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Links</string>
+    <string name="map_gpx_real_time_right">Rechts</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">voor</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">naar</string>
+    <string name="map_gpx_real_time_straight">Rechtstreeks</string>
+    <string name="map_gpx_real_time_instructions_title">Keren-instructies</string>
+    <string name="map_gpx_real_time_instructions_desc">Realtime bochtanalyse en feedback voor actieve track</string>
+    <string name="map_gpx_real_time_instructions_setting">Schakel instructies voor keren in</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Schakel gesproken instructies in</string>
+
     <!-- Location Manager -->
     <string name="location_manager_my_locations_cat">Mijn plaatsen</string>
     <string name="location_manager_save_location_button">Locatie opslaan</string>
@@ -1201,5 +1174,37 @@
     <string name="location_manager_save_keep_on_map">Blijf zichtbaar op de kaart</string>
     <string name="location_manager_save_new">Nieuw toevoegen</string>
     <string name="location_manager_no_locations_yet">Nog geen opgeslagen plaatsen…</string>
+
+
+    <!-- Event Mode -->
+    <string name="event_mode_warning_dialog_title">Actieve Eventement Mode</string>
+    <string name="event_mode_warning_dialog_message">U bevindt zich momenteel in de evenement modus. Weet u zeker dat u deze wilt stoppen en het nieuwe bestand wilt openen?</string>
+    <string name="event_mode_warning_dialog_close">Sluit Evenement</string>
+    <string name="event_mode_warning_dialog_quit_event">Weet je zeker dat je het evenement wilt sluiten? Om het opnieuw te openen, moet u het van dezelfde bron downloaden.</string>
+    <string name="event_mode_warning_dialog_cancel">Annuleren</string>
+    <string name="event_mode_instrument_locked_by_event">Je kunt dit instrument niet wijzigen, het is vergrendeld door evenement instellingen!</string>
+    <string name="event_mode_roadbook_help_button">Ik heb hulp nodig!</string>
+    <string name="event_mode_roadbook_quit_event">Stop Evenement</string>
+    <string name="event_mode_roadbook_page">Pagina #</string>
+    <string name="event_mode_roadbook_total">Totaal zal zijn</string>
+    <string name="event_mode_loading_event">Laden Evenement</string>
+    <string name="event_mode_cleaning_setting_dirs">Opruimen en instellen van directories</string>
+    <string name="event_mode_decrypt">Bestand decoderen, deze bewerking kan enige tijd duren...</string>
+    <string name="event_mode_generating_file">Gedecodeerd bestand opslaan…</string>
+    <string name="event_mode_unpacking_file">uitpakken van files…</string>
+    <string name="event_mode_loading_settings">Alle bestanden en instellingen laden.</string>
+    <string name="event_mode_waiting_for_start">Wachten op de starttijd van het evenement!</string>
+    <string name="event_mode_waiting_for_start_time">Startdatum en -tijd:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Wachten op de start van het evenement!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Je hebt een geladen evenement en je wacht op de starttijd. Blijven wachten of afsluiten?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Wacht</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Wachten op internet connectie!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Vereist om de start van het evenement te valideren.</string>
+    <string name="event_mode_help_dialog_title">Help-opties voor evenement</string>
+    <string name="event_mode_help_dialog_message">Uw positie</string>
+    <string name="event_mode_help_call_1">Melding #1</string>
+    <string name="event_mode_help_call_2">Melding #2</string>
+    <string name="event_mode_downloading">Evenement downloaden</string>
+    <string name="event_mode_downloading_message">Wacht tot het downloaden is voltooid!</string>
 
 </resources>
