@@ -2,19 +2,19 @@
 
     <!-- New Untranslated -->
 
-    <string name="obd_view_speed">SPEED</string>
+    <string name="obd_view_speed">HASTIGHET</string>
 
-    <string name="gpx_manager_routes">Routes</string>
+    <string name="gpx_manager_routes">Ruter</string>
 
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+    <string name="gpx_manager_no_routes_warning">Den valgte GPX-fila inneholder ingen ruter!</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Naviger til Start / Mål</string>
 
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Naviger til nærmeste punkt</string>
 
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Velg profil</string>
 
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Snu kjøreretning</string>
 
     
 
@@ -933,7 +933,7 @@
     <string name="gpx_manager_gpx_loading_message">Laster inn GPX-fil.</string>
     <string name="gpx_manager_poi_loading_message">Laster inn POI-søk langs sporet. Dette kan ta litt tid!</string>
     <string name="gpx_manager_advanced_title">Avanserte innstillinger</string>
-    <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til navigering:</string>
+    <string name="gpx_manager_advanced_convert_to_route">Forsøk å konvertere hele GPX-filen til rute:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Denne GPX-filen inneholder ingen spor!</string>
 
     <!-- Map Press Actions -->
