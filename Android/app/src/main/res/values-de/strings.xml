@@ -1,93 +1,11 @@
-<resources>
-
-
-    <!-- New Untranslated -->
-
-    <string name="obd_view_speed">SPEED</string>
-
-    <string name="gpx_manager_routes">Routes</string>
-
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
-
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
-
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
-
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
-
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
-
-
-    <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
-
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
-
-    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
-    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
-
-    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
-
-    <!-- GPX Instructions -->
-    <string name="map_gpx_real_time_left">Left</string>
-    <string name="map_gpx_real_time_right">Right</string>
-    <string name="map_gpx_real_time_in">in</string>
-    <string name="map_gpx_real_time_for">for</string>
-    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
-    <string name="map_gpx_real_time_straight">Straight</string>
-    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
-    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
-
-    <!-- Event Mode -->
-    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
-    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
-    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
-    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
-    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
-    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
-    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
-    <string name="event_mode_help_dialog_title">Event Help Options</string>
-    <string name="event_mode_help_dialog_message">Your Position</string>
-    <string name="event_mode_help_call_1">Call #1</string>
-    <string name="event_mode_help_call_2">Call #2</string>
-    <string name="event_mode_downloading">Downloading Event</string>
-    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
-
-    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
-    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
-    <string name="event_mode_warning_dialog_close">Close Event</string>
-    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
-    <string name="event_mode_warning_dialog_cancel">Cancel</string>
-    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
-    <string name="event_mode_roadbook_help_button">I need help!</string>
-    <string name="event_mode_roadbook_quit_event">Quit Event</string>
-    <string name="event_mode_roadbook_page">Page #</string>
-    <string name="event_mode_roadbook_total">Total will be</string>
-    <string name="event_mode_loading_event">Loading Event</string>
-    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
-    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
-    <string name="event_mode_generating_file">Saving decrypted file…</string>
-    <string name="event_mode_unpacking_file">Unpacking files…</string>
-    <string name="event_mode_loading_settings">Loading all files and settings.</string>
-
-
-    <!-- End of Untranslated -->
-
-
+<resources>    
+    
     <string name="app_name">DMD2</string>
-
+    
     <!-- Status Bar -->
     <string name="status_bar_online_status">Online</string>
     <string name="status_bar_offline_status">Offline</string>
-
+    
     <!-- Bottom Menu -->
     <string name="menu_global_settings">Einstellungen</string>
     <string name="menu_exit">Schließen</string>
@@ -107,7 +25,7 @@
         <item>Aktueller Strom</item>
         <item>Temperatur</item>
     </string-array>
-
+    
     <!-- Global -->
     <!-- Units -->
     <string name="mi">mi</string>
@@ -203,7 +121,7 @@
     <string name="download_manager_active_download_cannot_abort">Aktuelle Datei kann nicht abgebrochen werden, bitte warten!</string>
     <string name="download_manager_active_download_in_queue">In der Warteschlange …</string>
     <string name="download_manager_active_download_downloading_no_progress">Wird heruntergeladen, kann aber kein Fortschritt anzeigen</string>
-
+    
     <!-- Settings -->
     <string name="settings_backup_cat">Backup und Wiederherstellung</string>
     <string name="settings_backup_gdrive_start">Backup-Datei erstellen und sichern</string>
@@ -233,12 +151,12 @@
         <item>Gelb</item>
         <item>Pink</item>
     </string-array>
-    <string name="remote_controller_category">Fernbedienung</string>
-    <string name="controller_selection">Fernbedienung auswählen</string>
-    <string name="controller_dialog_title">Installation Fernbedienungs-App</string>
+    <string name="remote_controller_category">Controller</string>
+    <string name="controller_selection">Controller auswählen</string>
+    <string name="controller_dialog_title">Installation Controller-App</string>
     <string name="controller_dialog_message">Um die Vorteile des DMD Remote Controllers voll ausnutzen zu können, musst Du die Utility-App installieren. Jetzt installieren?</string>
-    <string name="controller_dialog_download_title">Lade Fernbedienungs-App</string>
-    <string name="settings_dmd_devices_category">Nur für DMD-T Geräte</string>
+    <string name="controller_dialog_download_title">Lade Controller-App</string>
+    <string name="settings_dmd_devices_category">Einstellungen nur für DMD-T Geräte</string>
     <string name="settings_dmd_devices_keep_running_screen_off_title">GPS bei ausgeschaltetem Bildschirm</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Wenn aktiviert, laufen Trip- und GPS-Funktionen, wie z.B. GPX-Aufzeichnung bei ausgeschaltetem Bildschirm weiter.</string>
     <string name="settings_dmd_devices_updates_automatic">Automatisch nach neuen Updates suchen</string>
@@ -266,8 +184,8 @@
         <item>Abweisen nach 60s</item>
         <item>Manuell (Wischen oder per Controller)</item>
     </string-array>
-    <string name="settings_notifications_controller_lock_title">Lenkerfernbedienung Fokus</string>
-    <string name="settings_notifications_controller_lock_message">Lenkerfernbedienung Fokus wenn eine Benachrichtigung sichtbar ist. Enter-Taste löst die Benachrichtigungs-Aktion aus, die Zurück-Taste löscht die Benachrichtigung.</string>
+    <string name="settings_notifications_controller_lock_title">Controller Fokus</string>
+    <string name="settings_notifications_controller_lock_message">Controller Fokus wenn eine Benachrichtigung sichtbar ist. Enter-Taste löst die Benachrichtigungs-Aktion aus, die Zurück-Taste löscht die Benachrichtigung.</string>
     <string name="settings_notifications_apps_selection_title">App Filter</string>
     <string name="settings_notifications_apps_selection_message">Auswahl welche Apps eine Benachrichtigung anzeigen dürfen.</string>
     <string name="settings_notifications_group_title">Nur letzte Benachrichtigung jeder Gruppe anzeigen</string>
@@ -294,7 +212,7 @@
     <!-- Info & Links -->
     <string name="settings_info_and_links">Information und Links</string>
     <string name="settings_app_version">DMD2 Version</string>
-    <string name="settings_app_installed_version">Installierte version:</string>
+    <string name="settings_app_installed_version">Installierte Version:</string>
     <string name="settings_dmd2_website">Erfahre mehr über DMD2 auf der offiziellen Webseite</string>
     <string name="settings_developer_website_title">DMD2 wird präsentiert von</string>
     <string name="settings_tripltek_website_title">Diese Version von DMD2 ist für Tripltek-Geräte optimiert</string>
@@ -331,7 +249,7 @@
     <string name="map_storage_sd_card_move_map_files_external">Kartendaten vom internen Speicher auf die SD-Karte verschieben? Dieser Vorgang kann fehlschlagen, wenn nicht genügend Speicherplatz vorhanden!</string>
     <string name="map_storage_sd_card_move_map_files_internal">Kartendaten von SD-Karte auf den internen Speicher verschieben? Dieser Vorgang kann fehlschlagen, wenn nicht genügend Speicherplatz vorhanden!</string>
     <string name="map_storage_sd_card_move_map_files_wait">Dateien werden verschoben, bitte warten! Schließe die Anwendung jetzt nicht und wechsle nicht zu einer anderen Ansicht!</string>
-
+    
     <!-- Home-->
     <!-- Widget Types-->
     <string name="home_widget_trip_title">Trip</string>
@@ -364,6 +282,9 @@
     <string name="home_widget_places_selector_title">Ort auswählen</string>
     <string name="home_widget_odo_title">km-Zähler</string>
     <string name="home_widget_odo_title_long">km-Zähler</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Reifendruck-Sensoren</string>
+    <string name="home_widget_tpms_description">Reifendruck und -temperatur mit DMD TPMS überwachen</string>
     <string name="home_widget_odo_description">Ein editierbarer km-Zähler</string>
     <string name="home_widget_odo_dialog_title">km-Zähler Optionen</string>
     <string name="home_widget_odo_dialog_message">km-Zähler Wert editieren oder zurückstellen</string>
@@ -437,8 +358,14 @@
     <!-- Widget Trip Reset Dialog -->
     <string name="trip_reset_confirmation_title">Trip zurückstellen</string>
     <string name="trip_reset_confirmation_message">Bist Du sicher, dass die Reisestatistiken zurückgesetzt werden sollen?</string>
-
-
+    <!-- Widget TPMS -->
+    <string name="tpms_rear_sensor_title">Reifen hinten</string>
+    <string name="tpms_front_sensor_title">Reifen vorne</string>
+    <string name="tpms_sensor_select">Nicht konfiguriert</string>
+    <string name="tpms_sensor_tap_to_start">Tap zum Konfigurieren</string>
+    <string name="tpms_sensor_dialog_select_sensor">Sensor wählen</string>
+    <string name="tpms_sensor_dialog_select">Auswählen</string>
+    
     <!-- Notifications -->
     <!-- Permission Dialog -->
     <string name="notifications_enable_dialog_title">Pop-Up-Benachrichtigungen</string>
@@ -446,7 +373,7 @@
     <!-- Notification List Widget -->
     <string name="notifications_list_widget_new_notifications">Neue Benachrichtigung</string>
     <string name="notifications_controller_arrow_instructions">Links/Rechts - Abweisen</string>
-
+    
     <!-- Apps-->
     <!-- Settings-->
     <string name="apps_view_top_title">Favoriten Apps</string>
@@ -473,8 +400,10 @@
     <string name="apps_long_press_actions_dialog_uninstall">Deinstallieren</string>
     <string name="apps_long_press_actions_dialog_hide">Ausblenden</string>
     <string name="apps_long_press_actions_dialog_cancel">Abbrechen</string>
-
+    
     <!-- OBD-->
+    <!-- Main UI-->
+    <string name="obd_view_speed">SPEED</string>
     <!-- Settings-->
     <string name="obd_cat_title_pref">OBD-Voreinstellungen</string>
     <string name="obd_device_setup">OBD-Bluetooth-Gerät Einstellungen</string>
@@ -558,7 +487,7 @@
     <string name="obd_license_title">OBD2 Demo Modus</string>
     <string name="obd_license_message">Der Demo-Modus ist auf 15 Minuten pro Sitzung begrenzt. Kaufe das OBD-Plugin zum Freischalten!</string>
     <string name="obd_buy_button">Plugin kaufen</string>
-
+    
     <!-- Roadbook -->
     <!-- Settings -->
     <string name="roadbook_settings_instrumets_cat_title">Instrumenten Einstellungen</string>
@@ -568,6 +497,8 @@
     <string name="roadbook_settings_totals_single_decimal_summary">Zeigt die Gesamtstrecke mit einer statt zwei Dezimalstellen an.</string>
     <string name="roadbook_settings_partial_single_decimal_title">Teilentfernung - Einzelne Nachkommastelle</string>
     <string name="roadbook_settings_partial_single_decimal_summary">Zeigt die Teilstrecke mit einer statt zwei Dezimalstellen an.</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Zeige Onscreen-Buttons</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Zeigt ein + und - für manuelle Anpassung der Distanzwerte</string>
     <string name="roadbook_settings_visual_settings_cat_title">Anzeige Einstellungen</string>
     <string name="roadbook_settings_invert_paper_color_title">Invertiere PDF Farben</string>
     <string name="roadbook_settings_invert_paper_color_message">Invertiert die Papierfarbe, könnte nützlich sein für Fahrten während der Nacht.</string>
@@ -722,7 +653,7 @@
     <string name="roadbook_purchase_key_activate_error_message">Falscher Lizenzcode oder bereits auf einem anderen Gerät aktiviert, überprüfe die Lizenzen auf der Thork Racing Kontoseite oder kontaktiere den Support.</string>
     <string name="roadbook_purchase_key_activate_success_title">Lizenz aktiviert</string>
     <string name="roadbook_purchase_key_activate_success_message">Plugin ist nun aktiviert. Danke für die Unterstützung!</string>
-
+    
     <!-- MAP VIEW -->
     <string name="map_first_run_download_maps_title">Noch keine Karten heruntergeladen</string>
     <string name="map_first_run_download_maps_message">Es scheinen noch keine Kartendateien heruntergeladen zu sein. Jetzt herunterladen?</string>
@@ -834,6 +765,7 @@
     <string name="gpx_manager_no_file_loaded">Keine Datei geladen. Drücke "Datei laden".</string>
     <string name="gpx_manager_reloading_files_please_wait">Dateien werden neu geladen. Bitte warten.</string>
     <string name="gpx_manager_tracks">Tracks …</string>
+    <string name="gpx_manager_routes">Routen</string>
     <string name="gpx_manager_waypoints">Wegpunkte …</string>
     <string name="gpx_manager_center_map_button">Karte zentrieren</string>
     <string name="gpx_manager_settings_title">GPX Einstellungen</string>
@@ -863,7 +795,7 @@
     <string name="gpx_manager_settings_load_poi_enable_label">Automatisches Laden von POIs entlang der Strecke:</string>
     <string name="gpx_manager_settings_poi_cat_select_cats">POI-Kategorien zum Laden auswählen:</string>
     <string name="gpx_manager_settings_closest_point_title">Linie zum nächsten Punkt</string>
-    <string name="gpx_manager_settings_closest_point_desc">Zeichnet eine direkte Linie zwischen der aktuellen Position und dem aktivem Track. Wenn die Entfernung zum Track zwichen 200 m und 5 km beträgt.</string>
+    <string name="gpx_manager_settings_closest_point_desc">Zeichnet eine direkte Linie zwischen der aktuellen Position und dem aktivem Track. Wenn die Entfernung zum Track zwischen 200 m und 5 km beträgt.</string>
     <string name="gpx_manager_settings_closest_point_label">Linie einschalten</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatische Wegpunkte</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_desc">Erstellt Wegpunkte in einem festgelegten Abstand auf dem ausgewählten Track.</string>
@@ -879,16 +811,18 @@
         <item>250 km / 250 mi</item>
     </string-array>
     <string name="gpx_manager_no_tracks_warning">Die ausgewählte GPX-Datei enthält keinen Track!</string>
+    <string name="gpx_manager_no_routes_warning">Die ausgewählte GPX-Datei enthält keine Route!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
     <string name="gpx_manager_track_manager_no_description">Keine Trackbeschreibung verfügbar.</string>
     <string name="gpx_manager_track_manager_track_length">Track Länge</string>
-    <string name="gpx_manager_track_manager_navigate_to_start_end">Navigiere zu …</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">zum Start / Ende</string>
     <string name="gpx_manager_track_manager_navigate_dialog_title">Navigiere zu Track-Punkt</string>
     <string name="gpx_manager_track_manager_navigate_dialog_message">Track-Punkt auswählen zu dem navigiert werden soll.</string>
     <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
     <string name="gpx_manager_track_manager_navigate_closest">Nächster Punkt</string>
     <string name="gpx_manager_track_manager_navigate_end">Track Ende</string>
-    <string name="gpx_manager_track_manager_convert_to_route">Zu Route konvertieren</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">zum nächsten Punkt</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Profil festlegen</string>
     <string name="gpx_manager_advanced_convert_to_route3">Bitte beachte: Die Berechnung ist sehr anspruchsvoll und langsam. Das Ergebnis könnte vom original Track abweichen! Mit Vorsicht nutzen.</string>
     <string name="gpx_manager_track_manager_select_nav_app">Wähle Navigations App</string>
     <string name="gpx_manager_track_manager_poi_search">POI Suche</string>
@@ -909,7 +843,7 @@
     <string name="gpx_manager_poi_loading_message">Laden der POI-Suche, dies kann einige Zeit dauern …</string>
     <string name="gpx_manager_poi_busy_message">POIs werden geladen! Bitte etwas Geduld</string>
     <string name="gpx_manager_advanced_title">Erweiterte Optionen</string>
-    <string name="gpx_manager_advanced_invert_orientation">Fahrtrichtung umkehren</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Richtung umkehren</string>
     <string name="gpx_manager_advanced_convert_to_route">Versuche, die vollständige Datei in eine Navigation umzuwandeln:</string>
     <string name="gpx_manager_advanced_convert_no_tracks">Diese GPX-Datei enthält keinen Track!</string>
     <string name="gpx_warnings_setting">Warnhinweise</string>
@@ -922,7 +856,7 @@
     <string name="gpx_warning_show_away_from_track_option">Track verlassen</string>
     <string name="gpx_warning_show_screen_flash">Bildschirm auflackern</string>
     <string name="gpx_warning_play_voice_warning">Sprachhinweise</string>
-
+    
     <!-- Map Press Actions -->
     <string name="map_long_press_point_title">Aktionen für langes Tippen auf der Karte</string>
     <string name="map_long_press_point_no_info">Keine Informationen für diesen Punkt!</string>
@@ -1099,6 +1033,7 @@
     <string name="map_route_planner_instruction_now">Jetzt</string>
     <string name="map_route_planner_instruction_arrived">Ziel erreicht!</string>
     <string name="map_route_planner_instruction_keep_same_road">Weiterfahren für</string>
+    <string name="map_route_planner_instruction_keep_going">Geradeaus</string>
     <string name="map_route_planner_instruction_turn_left">Links abbiegen in</string>
     <string name="map_route_planner_instruction_turn_right">Rechts abbiegen in</string>
     <string name="map_route_planner_instruction_turn_left_sharp">Scharf links in</string>
@@ -1190,6 +1125,19 @@
     <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Noch keine Wegpunkte!</string>
     <string name="map_gpx_recorder_confirm_delete_title">Lösch-Bestätigung</string>
     <string name="map_gpx_recorder_confirm_delete_message">Diese Datei löschen? Dieser Vorgang kann nicht rückgängig gemacht werden!</string>
+    
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Links</string>
+    <string name="map_gpx_real_time_right">Rechts</string>
+    <string name="map_gpx_real_time_in">in</string>
+    <string name="map_gpx_real_time_for">für</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">bis</string>
+    <string name="map_gpx_real_time_straight">Geradeaus</string>
+    <string name="map_gpx_real_time_instructions_title">Abbiegehinweise</string>
+    <string name="map_gpx_real_time_instructions_desc">Echtzeit Abbiege-Analyse und -Rückmeldung für den aktiven Track</string>
+    <string name="map_gpx_real_time_instructions_setting">Abbiegehinweise einschalten</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Sprach-Hinweise einschalten</string>
+    
     <!-- Location Manager -->
     <string name="location_manager_my_locations_cat">Meine Orte</string>
     <string name="location_manager_save_location_button">Ort speichern</string>
@@ -1201,5 +1149,37 @@
     <string name="location_manager_save_keep_on_map">Immer sichtbar auf der Karte</string>
     <string name="location_manager_save_new">Neu hinzufügen</string>
     <string name="location_manager_no_locations_yet">Keine Orte gespeichert …</string>
-
+    
+    
+    <!-- Event Mode -->
+    <string name="event_mode_waiting_for_start">Warte auf Event-Startzeit!</string>
+    <string name="event_mode_waiting_for_start_time">Start Datum und Uhrzeit:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Warte auf Event-Start!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Du hast ein Event geladen, das noch nicht gestartet ist. Weiter warten oder schliessen?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Warten</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Warte auf Internet-Verbindung!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Erforderlich um Event-Start zu validieren.</string>
+    <string name="event_mode_help_dialog_title">Event Hilfe Optionen</string>
+    <string name="event_mode_help_dialog_message">Deine Position</string>
+    <string name="event_mode_help_call_1">Anruf #1</string>
+    <string name="event_mode_help_call_2">Anruf #2</string>
+    <string name="event_mode_downloading">Event laden</string>
+    <string name="event_mode_downloading_message">Bitte warten bis der Download abgeschlossen wurde!</string>
+    <string name="event_mode_warning_dialog_title">Active Event Modus</string>
+    <string name="event_mode_warning_dialog_message">Du bist im Event Modus, bist du sicher, dass du es beenden möchtest?</string>
+    <string name="event_mode_warning_dialog_close">Event schliessen</string>
+    <string name="event_mode_warning_dialog_quit_event">Bist du sicher, dass du das Event schliessen möchtest? Um es wieder zu öffnen musst du es von derselben Quelle erneut laden.</string>
+    <string name="event_mode_warning_dialog_cancel">Abbrechen</string>
+    <string name="event_mode_instrument_locked_by_event">Du kannst dieses Instrument nicht schliessen, es ist in den Event-Einstellungen gesperrt!</string>
+    <string name="event_mode_roadbook_help_button">Ich brauche Hilfe!</string>
+    <string name="event_mode_roadbook_quit_event">Event beenden</string>
+    <string name="event_mode_roadbook_page">Seite #</string>
+    <string name="event_mode_roadbook_total">Gesamt wird</string>
+    <string name="event_mode_loading_event">Lade Event</string>
+    <string name="event_mode_cleaning_setting_dirs">Räume Einstellungen und Verzeichnisse auf</string>
+    <string name="event_mode_decrypt">Datei wird entschlüsselt, das kann etwas dauern ...</string>
+    <string name="event_mode_generating_file">Verschlüsselte Datei wird gespeichert ...</string>
+    <string name="event_mode_unpacking_file">Dateien werden entpackt ...</string>
+    <string name="event_mode_loading_settings">Dateien und Einstellungen werden geladen.</string>    
+    
 </resources>
