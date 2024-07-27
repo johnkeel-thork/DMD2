@@ -272,17 +272,17 @@
     <string name="status_bar_offline_status">Offline</string>
 
     <!--  Bottom Menu -->
-    <string name="menu_global_settings">UstawieniaUstawienia ogólne</string>
+    <string name="menu_global_settings">Ustawienia ogólne</string>
     <string name="menu_exit">Wyjście</string>
     <string name="menu_home">Dom</string>
     <string name="menu_apps">Aplikacje</string>
-    <string name="menu_roadbook">OKKsiążka drogowa</string>
+    <string name="menu_roadbook">Książka drogowa</string>
     <string name="menu_map">Mapa</string>
     <string name="menu_obd">Czujniki OBD</string>
     <!--  Menu Editor -->
     <string name="menu_edit_title">Edytuj dolne menu</string>
-    <string name="menu_edit_message">Ponownie zamów i włącz/wyłącz wpisy menu</string>
-    <string name="menu_sorter_instructions">Dotknij i przytrzymaj, aby przenieść przedmiot. Użyj przełącznika, aby pokazać lub ukryć.</string>
+    <string name="menu_edit_message">Włącz/wyłącz wpisy menu</string>
+    <string name="menu_sorter_instructions">Dotknij i przytrzymaj, aby przenieść element. Użyj przełącznika, aby pokazać lub ukryć.</string>
     <!--  Top Menu -->
     <string name="top_menu_battery_indicator">Wskaźnik baterii (może zająć kilka minut)</string>
     <string-array name="top_menu_battery_indicator_names" translatable="true">
@@ -332,7 +332,7 @@
     <string name="start">Start</string>
     <!--  Messages / Errors & Warnings -->
     <string name="error_creating_directory">Błąd tworzenia katalogu użytkowników!</string>
-    <string name="error_deleting_file">Plik usuwania błędu!</string>
+    <string name="error_deleting_file">Błąd usuwania pliku!</string>
     <string name="error_file_already_exists_title">Plik wymień ostrzeżenie</string>
     <string name="error_file_already_exists_message">Plik o tej samej nazwie już istnieje, co chcesz zrobić?</string>
     <string name="error_file_new_name_title">Zmień nazwę pliku</string>
@@ -361,7 +361,7 @@
     <string name="download_manager_active_download_paused">Zatrzymany</string>
     <string name="download_manager_active_download_error">Błąd</string>
     <string name="download_manager_active_download_downloading">Pobieranie</string>
-    <string name="download_manager_active_download_downloading_no_progress">Pobieranie, ale nie może pokazać postępu</string>
+    <string name="download_manager_active_download_downloading_no_progress">Pobieranie, ale nie można pokazać postępu</string>
     <string name="download_manager_active_download_interrupted">Przerwane</string>
     <string name="download_manager_active_download_interrupted_file">Przerwany plik:</string>
     <string name="download_manager_active_download_no_net">Brak internetu!</string>
@@ -370,7 +370,7 @@
     <!--  Settings -->
     <string name="settings_localization_options">Lokalizacja</string>
     <string name="settings_hour_format">Użyj formatu 24H</string>
-    <string name="settings_use_fahrenheit">Użyj Fahrenheita zamiast Celsjusza</string>
+    <string name="settings_use_fahrenheit">Użyj stopni Fahrenheita zamiast Celsjusza</string>
     <string name="settings_use_imperial_units">Użyj imperialnych jednostek pomiaru</string>
     <string name="settings_interface_options">Opcje interfejsu</string>
     <string name="settings_theme_category">Motyw</string>
@@ -402,19 +402,19 @@
     <string name="settings_notifications_category">Powiadomienia</string>
     <string name="settings_notifications_enable_title">Włącz powiadomienia wyskakujące (wymagane pozwolenie)</string>
     <string name="settings_notifications_enable_summary">Pokaż powiadomienia z listy aplikacji do wyboru użytkownika</string>
-    <string name="settings_notifications_dismiss">Metoda zwolnienia</string>
+    <string name="settings_notifications_dismiss">Metoda ignorowania</string>
     <string-array name="settings_notifications_dismiss_names" translatable="true">
-        <item>Przerwa po 5s</item>
-        <item>Przerwa po 10s</item>
-        <item>Przerwa po 15s</item>
-        <item>Przerwa po 30s</item>
-        <item>Przerwa po 60s</item>
+        <item>Ukryj po 5s</item>
+        <item>Ukryj po 10s</item>
+        <item>Ukryj po 15s</item>
+        <item>Ukryj po 30s</item>
+        <item>Ukryj po 60s</item>
         <item>Ręcznie (przeciągnięcie lub kontroler)</item>
     </string-array>
-    <string name="settings_notifications_controller_lock_title">Skupienie kontrolera kierownicy</string>
+    <string name="settings_notifications_controller_lock_title">Focus kontrolera kierownicy</string>
     <string name="settings_notifications_controller_lock_message">Gdy powiadomienie jest widoczne, kontroler CARPE skupi się na nim. Klucz Enter uruchamia akcję powiadomienia, a klucz tylny usuwa powiadomienie.</string>
     <string name="settings_notifications_apps_selection_title">Filtr aplikacji</string>
-    <string name="settings_notifications_apps_selection_message">Wybierz aplikacje, które chcesz zobaczyć okienko powiadomienia</string>
+    <string name="settings_notifications_apps_selection_message">Wybierz aplikacje, dla których chcesz zobaczyć okienko powiadomienia</string>
     <string name="settings_notifications_group_title">Pokaż tylko ostatnie powiadomienie z każdej grupy</string>
     <string name="settings_notifications_group_message">Jeśli zostanie włączony, zobaczysz tylko najnowszą aktualizację powiadomienia dla każdej grupy powiadomień. Na przykład najnowsza wiadomość z powiadomienia czatu.</string>
     <string name="settings_notifications_app_selection_dialog_title">Pokaż powiadomienia dla:</string>
@@ -423,7 +423,7 @@
     <!--  Trip Settings-->
     <string name="settings_trip_options">Opcje podróży</string>
     <string name="settings_trip_auto_reset_title">Automatyczne resetowanie podróży</string>
-    <string name="settings_trip_auto_reset_summary">Wycieczka automatycznie zresetuje, jeśli DMD2 nie zostanie uruchomiony przez więcej niż konfigurowalny czas</string>
+    <string name="settings_trip_auto_reset_summary">Podróż automatycznie zresetuje, jeśli DMD2 nie zostanie uruchomiony przez więcej niż konfigurowalny czas</string>
     <string name="settings_trip_auto_reset_time_title">Automatyczny czas resetowania podróży</string>
     <string-array name="settings_trip_reset_time_entries" translatable="true">
         <item>6 godzin</item>
@@ -435,13 +435,13 @@
     <!--  OEM Registration-->
     <string name="settings_oem_registration">Rejestracja OEM</string>
     <string name="settings_oem_check">Proces rejestracji (wymaga połączenia internetowego)</string>
-    <string name="settings_oem_check_summary">Użyj tylko wtedy, gdy twój motocykl był wyposażony w urządzenie z Androidem z deską rozdzielczą 2.</string>
+    <string name="settings_oem_check_summary">Użyj tylko wtedy, gdy twój motocykl był wyposażony w urządzenie z Androidem z preinstalowanym DMD2.</string>
     <!--  Info & Links -->
     <string name="settings_info_and_links">Informacje i linki</string>
     <string name="settings_app_version">Wersja DMD2</string>
     <string name="settings_app_installed_version">Zainstalowana wersja:</string>
     <string name="settings_dmd2_website">Dowiedz się więcej o aplikacji DMD2 na oficjalnej stronie internetowej</string>
-    <string name="settings_developer_website_title">DMD2 jest wam przez</string>
+    <string name="settings_developer_website_title">DMD2 stworzone dla Was przez</string>
     <string name="settings_tripltek_website_title">Ta wersja DMD2 jest zoptymalizowana pod kątem urządzeń TriplTek</string>
     <string name="settings_follow_us_facebook">Odwiedź i śledź naszą stronę na Facebooku, aby uzyskać najnowsze wiadomości</string>
     <string name="settings_join_us_facebook">Dołącz do naszej grupy na Facebooku</string>
@@ -450,36 +450,36 @@
     <string name="settings_dmd2_edition_redeem_title">Edycja próbna / DMD2</string>
     <string name="settings_dmd2_edition_redeem_message">Zarządzaj próbą lub wstaw klucz edycji DMD2</string>
     <!-- Welcome Screen -->
-    <string name="welcome_dmd2_title">Witamy w procesie DMD2</string>
+    <string name="welcome_dmd2_title">Witamy w wersji próbnej DMD2</string>
     <string name="welcome_dmd2_message">DMD2 został zaprojektowany tak, aby przekształcić urządzenie w kompletną deskę rozdzielczą na motocykle i samochody, ze szczególnym naciskiem na przygodę i teren. Zawiera mapę nawigacji, roadbook, czujniki OBD2 i wiele więcej.</string>
-    <string name="welcome_dmd2_lets_go">Początek</string>
+    <string name="welcome_dmd2_lets_go">Start</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">Ustawienia GPS</string>
     <string name="settings_bypass_acc_filter_title">Niższy filtr dokładności GPS</string>
     <string name="settings_bypass_acc_filter_message">W przypadku urządzeń o nieoptymalnej jakości GPS</string>
     <!-- Storage -->
-    <string name="map_storage_location_cat_title">Składowanie</string>
+    <string name="map_storage_location_cat_title">Pamięc masowa</string>
     <string name="map_storage_location_select_title">Ustaw pamięć masową na wymienną kartę SD</string>
     <string name="map_storage_location_select_message">Dla plików mapy offline i plików użytkownika.</string>
     <string name="map_storage_sd_card_missing_error_title">Brakuje karty SD!</string>
     <string name="map_storage_sd_card_missing_error_message">Wcześniej używana karta SD została usunięta, proszę włożyć ją ponownie!</string>
-    <string name="map_storage_sd_card_missing_switch_retry">Spróbować ponownie</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Spróbuj ponownie</string>
     <string name="map_storage_sd_card_missing_switch_internal">Użyj pamięci wewnętrznej</string>
-    <string name="map_storage_sd_card_mounting_title">Czekam na montaż kartę SD</string>
-    <string name="map_storage_sd_card_mounting_message">Poczekaj, aż mocowanie karty SD skończy…</string>
+    <string name="map_storage_sd_card_mounting_title">Czekam na montaż karty SD</string>
+    <string name="map_storage_sd_card_mounting_message">Poczekaj, aż montowanie karty SD skończy…</string>
     <string name="map_storage_sd_card_mounting_button">Przerwij i przełącz na pamięć wewnętrzną</string>
     <string name="map_storage_sd_card_different_error_title">Inna karta SD!</string>
-    <string name="map_storage_sd_card_different_error_message">Wygląda na to, że zastąpiłeś swoją kartę SD, czy chcesz użyć tej karty? Jeśli nie, wstaw właściwą kartę!</string>
+    <string name="map_storage_sd_card_different_error_message">Wygląda na to, że zastąpiłeś swoją kartę SD, czy chcesz użyć tej karty? Jeśli nie, zainstaluj właściwą kartę!</string>
     <string name="map_storage_sd_card_different_error_recheck">Przejrzyj ponownie</string>
     <string name="map_storage_sd_card_different_error_recheck_fail">Karta SD wciąż nieznaleziona! Proszę Sprawdź ponownie!</string>
-    <string name="map_storage_sd_card_move_map_files_title">Przenieś pliki mapy?</string>
+    <string name="map_storage_sd_card_move_map_files_title">Przenieść pliki mapy?</string>
     <string name="map_storage_sd_card_move_map_files_external">Czy chcesz przenieść pliki map z pamięci wewnętrznej na kartę SD? Ta operacja może się nie powieść, jeśli nie masz wystarczającej ilości miejsca!</string>
     <string name="map_storage_sd_card_move_map_files_internal">Czy chcesz przenieść pliki map z wymienionej karty SD do pamięci wewnętrznej? Ta operacja może się nie powieść, jeśli nie masz wystarczającej ilości miejsca!</string>
-    <string name="map_storage_sd_card_move_map_files_wait">Przenieś pliki, poczekaj! Nie zamykaj aplikacji ani nie przejmuj się na inny ekran!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Przenoszę pliki, proszę czekać! Nie zamykaj aplikacji ani nie przełączaj się na inny ekran!</string>
 
     <!--  Home-->
     <!--  Widget Types-->
-    <string name="home_widget_trip_title">WYCIECZKA</string>
+    <string name="home_widget_trip_title">PODRÓŻ</string>
     <string name="home_widget_trip_title_long">Statystyka podróży</string>
     <string name="home_widget_trip_description">Zobacz wartości w czasie rzeczywistym na temat jazdy, informacji, takich jak odległość, całkowity czas, czas podróży, czas zatrzymania i średnia prędkość.</string>
     <string name="home_widget_apps_title">Aplikacje</string>
@@ -489,27 +489,27 @@
     <string name="home_widget_apps_clear_selection">Wyraźne miejsce</string>
     <string name="home_widget_obd_rpm_title">OBD RPM</string>
     <string name="home_widget_obd_rpm_title_long">Wskaźnik OBD RPM</string>
-    <string name="home_widget_obd_rpm_description">Pasek RPM oparty na OBD z czystym konstrukcją, zawiera zmianę koloru czerwonego i wskaźnik numeryczny.</string>
-    <string name="home_widget_heading_title">NAGŁÓWEK</string>
-    <string name="home_widget_heading_title_long">GPS nagłówka</string>
-    <string name="home_widget_heading_description">Wskaźnik graficzny dla bieżącego nagłówka oparty na danych GPS, obejmuje liczbową wartość stopnia.</string>
-    <string name="home_widget_media_title">GŁOSKA BEZDŹWIĘCZNA</string>
+    <string name="home_widget_obd_rpm_description">Pasek RPM oparty na OBD, zawiera zmianę koloru czerwonego i wskaźnik numeryczny.</string>
+    <string name="home_widget_heading_title">Kierunek</string>
+    <string name="home_widget_heading_title_long">Kierunek GPS</string>
+    <string name="home_widget_heading_description">Wskaźnik graficzny dla bieżącego kierunku oparty na danych GPS, obejmuje liczbową wartość stopni.</string>
+    <string name="home_widget_media_title">MEDIA</string>
     <string name="home_widget_media_title_long">Kontrola odtwarzacza multimedialnego</string>
-    <string name="home_widget_media_description">Umożliwia kontrolowanie aktywnej sesji multimedialnej, zawiera dzieła sztuki albumu, utwory i nazwę artysty (wymaga uprawnień dostępu do powiadomień).</string>
-    <string name="home_widget_map_title">Nav</string>
+    <string name="home_widget_media_description">Umożliwia kontrolowanie aktywnej sesji multimedialnej, zawiera albumy, utwory i nazwę artysty (wymaga uprawnień dostępu do powiadomień).</string>
+    <string name="home_widget_map_title">NAV</string>
     <string name="home_widget_map_title_long">Widok mapy</string>
-    <string name="home_widget_map_description">Twój widok mapy ze wszystkimi załadowanymi zawartością i aktywnymi stanami nie zawiera sterowania mapą i można go załadować tylko na lewym panelu.</string>
+    <string name="home_widget_map_description">Twój widok mapy z ustawioną zawartością i aktywnymi stanami. Nie zawiera sterowania mapą i można go załadować tylko na lewym panelu.</string>
     <string name="home_widget_speed_title">PRĘDKOŚĆ</string>
     <string name="home_widget_speed_title_long">Prędkość GPS</string>
-    <string name="home_widget_speed_description">Duża wartość prędkości liczbowa pokazująca obecną prędkość podróży na podstawie danych GPS.</string>
-    <string name="home_widget_numeric_values_title">Informacje</string>
+    <string name="home_widget_speed_description">Duży wskaźnik prędkości pokazująca obecną prędkość podróży na podstawie danych GPS.</string>
+    <string name="home_widget_numeric_values_title">INFO</string>
     <string name="home_widget_numeric_values_title_long">Wskaźniki GPS i OBD</string>
-    <string name="home_widget_numeric_values_description">Wartości wyboru użytkownika z czujników OBD i danych GPS.</string>
-    <string name="home_widget_notifications_list_title">Powiadomienia</string>
+    <string name="home_widget_numeric_values_description">Wartości z czujników OBD i danych GPS wybrane przez użytkownika.</string>
+    <string name="home_widget_notifications_list_title">POWIADOMIENIA</string>
     <string name="home_widget_notifications_list_title_long">Lista powiadomień</string>
     <string name="home_widget_notifications_list_description">Lista aktualnie aktywnych powiadomień.</string>
     <string name="home_widget_notifications_list_no_notification">Nie ma jeszcze powiadomień</string>
-    <string name="home_widget_system_title">Widżet zewnętrzny</string>
+    <string name="home_widget_system_title">WIDŻET ZEW</string>
     <string name="home_widget_system_title_long">Widżet systemowy</string>
     <string name="home_widget_system_description">Załaduj widżety systemu Android z zainstalowanych aplikacji.</string>
     <string name="home_widget_big_clock_title">ZEGAR</string>
@@ -530,23 +530,23 @@
     <string name="home_widget_trip_total_time">Czas całkowity</string>
     <string name="home_widget_trip_travel_time">Czas podróży</string>
     <string name="home_widget_trip_stop_time">Zatrzymaj czas</string>
-    <string name="home_widget_trip_avg_average">Prędkość AVG</string>
+    <string name="home_widget_trip_avg_average">Prędkość średnia</string>
     <!--  Widget Info: GPS & OBD Sensor Selector -->
     <string name="widget_info_selector_dialog_title">Wybierz czujnik GPS/OBD</string>
     <string name="widget_info_gps_altitude_name">Wysokość GPS</string>
     <string name="widget_info_gps_altitude_label">Wysokość</string>
-    <string name="widget_info_gps_heading_name">GPS nagłówka</string>
+    <string name="widget_info_gps_heading_name">Kierunek GPS</string>
     <string name="widget_info_clock_name">Czas</string>
-    <string name="widget_info_gps_heading_label">Nagłówek</string>
+    <string name="widget_info_gps_heading_label">Kierunek</string>
     <string name="widget_info_gps_speed_name">Prędkość GPS</string>
     <string name="widget_info_gps_speed_label">Prędkość</string>
-    <string name="widget_info_gps_trip_max_speed_name">Trip Max Prędkość</string>
+    <string name="widget_info_gps_trip_max_speed_name">Maksymalna prędkość trasy</string>
     <string name="widget_info_gps_trip_max_speed_label">Maksymalna prędkość</string>
     <string name="widget_info_gps_trip_distance_name">Odległość podróży</string>
     <string name="widget_info_gps_trip_total_time_name">Całkowity czas podróży</string>
     <string name="widget_info_gps_trip_travel_time_name">Czas podróży</string>
     <string name="widget_info_gps_trip_stop_time_name">Czas zatrzymania podróży</string>
-    <string name="widget_info_gps_trip_avg_speed_name">Trip AVG Prędkość</string>
+    <string name="widget_info_gps_trip_avg_speed_name">>Prędkość średnia podróży</string>
     <string name="widget_info_obd_speed_label">Prędkość OBD</string>
     <string name="widget_info_obd_rpm_label">RPM</string>
     <string name="widget_info_obd_coolant_label">Płyn chłodzący</string>
@@ -556,7 +556,7 @@
     <string name="widget_info_obd_spark_label">Iskra</string>
     <string name="widget_info_obd_map_label">MAPA</string>
     <string name="widget_info_obd_intake_temp_label">IAT</string>
-    <string name="widget_info_obd_intake_maf_label">Maf</string>
+    <string name="widget_info_obd_intake_maf_label">MAF</string>
     <string name="widget_info_obd_none_title">Niewidzialny</string>
     <string name="widget_info_obd_none_reset">Resetowanie</string>
     <string name="widget_info_adv_voltage_label">Napięcie Advctrl</string>
@@ -571,10 +571,10 @@
     <!--  Notifications -->
     <!--  Permission Dialog -->
     <string name="notifications_enable_dialog_title">Powiadomienia wyskakujące</string>
-    <string name="notifications_enable_dialog_message">Czy chcesz, aby DMD2 uzyskuje dostęp do powiadomień, aby pokazać wyskakujące okienko do nowego powiadomienia? Możesz skonfigurować aplikacje, dla których chcesz zobaczyć wyskakujące okienko w ustawieniach> Powiadomienia.</string>
+    <string name="notifications_enable_dialog_message">Czy chcesz, aby DMD2 uzyskało dostęp do powiadomień, aby pokazać wyskakujące okienko do nowego powiadomienia? Możesz skonfigurować aplikacje, dla których chcesz zobaczyć wyskakujące okienko w ustawieniach Powiadomienia.</string>
     <!--  Notification List Widget -->
     <string name="notifications_list_widget_new_notifications">Nowe powiadomienia</string>
-    <string name="notifications_controller_arrow_instructions">Lewy/w prawo - zwolnienie</string>
+    <string name="notifications_controller_arrow_instructions">Lewo/Prawo - wyczyść</string>
 
     <!--  Apps-->
     <!--  Settings-->
