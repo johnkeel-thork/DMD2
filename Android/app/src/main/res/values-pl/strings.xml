@@ -958,7 +958,7 @@
     <string name="gpx_manager_settings_visibility_title">Pokaż lub ukryj</string>
     <string name="gpx_manager_settings_visibility_message">Pokaż lub ukryj elementy GPX (dla wszystkich plików). Ma to pierwszeństwo przed poszczególnymi ustawieniami plików.</string>
     <string name="gpx_manager_settings_tracks_visibility">Pokaż wszystkie włączone utwory GPX</string>
-    <string name="gpx_manager_settings_direction_arrows_visibility">Pokaż strzałki kierunku ścieżki</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Pokaż strzałki kierunku trasy</string>
     <string name="gpx_manager_settings_waypoints_visibility">Pokaż wszystkie włączone punkty trasy</string>
     <string name="gpx_manager_settings_waypoints_titles">Pokaż tekst tytułowy</string>
     <string name="gpx_manager_settings_waypoints_zoom">Ukryj punkty na niskim zoomie</string>
@@ -973,7 +973,7 @@
     <string name="gpx_manager_settings_hide_all">Schowaj wszystko</string>
     <string name="gpx_manager_settings_show_all">Pokaż wszystko</string>
     <string name="gpx_manager_settings_delete_all">Usuń wszystko</string>
-    <string name="gpx_manager_settings_default_track_color">Domyślny kolor ścieżki (gdy użytkownik nie jest określony ani nie jest ustawiony):</string>
+    <string name="gpx_manager_settings_default_track_color">Domyślny kolor trasy (gdy użytkownik nie jest określony ani nie jest ustawiony):</string>
     <string name="gpx_manager_settings_default_overwrite_all_colors">Zastąp wszystkie kolory ustawione w plikach na domyślny kolor:</string>
     <string name="gpx_manager_settings_default_overwrite_all_colors_user">Zastąp wszystkie kolory ustawione przez użytkownika, aby domyślnie kolor:</string>
     <string name="gpx_manager_settings_load_poi_title">Automatycznie ładuj POI</string>
@@ -982,7 +982,7 @@
     <string name="gpx_manager_settings_poi_cat_select_cats">Wybierz kategorie POI do załadowania:</string>
     <string name="gpx_manager_no_tracks_warning">Wybrany plik GPX nie zawiera żadnych utworów!</string>
     <string name="gpx_manager_track_manager_title">Track Manager</string>
-    <string name="gpx_manager_track_manager_no_description">Brak dostępnych opisów ścieżki.</string>
+    <string name="gpx_manager_track_manager_no_description">Brak dostępnych opisów trasy.</string>
     <string name="gpx_manager_track_manager_track_length">Długość toru</string>
     <string name="gpx_manager_track_manager_select_nav_app">Wybierz aplikację nawigacyjną</string>
     <string name="gpx_manager_track_manager_poi_search">Poszukiwanie POI</string>
@@ -1003,7 +1003,7 @@
     <string name="gpx_manager_poi_loading_message">Ładowanie wyszukiwania POI, może to zająć trochę czasu…</string>
     <string name="gpx_manager_advanced_title">Zaawansowane opcje</string>
     <string name="gpx_manager_advanced_convert_to_route">Próba przekonwertowania pełnego pliku na nawigację:</string>
-    <string name="gpx_manager_advanced_convert_no_tracks">Ten plik GPX nie zawiera żadnej ścieżki!</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">Ten plik GPX nie zawiera żadnej trasy!</string>
 
         <!--  Map Press Actions -->
     <string name="map_long_press_point_title">Mapa Działania na długie prasie</string>
@@ -1095,7 +1095,7 @@
     <string name="map_map_track_tap_track_point_distances_to_you">Odległość i czas na twoją pozycję:</string>
     <string name="map_map_track_tap_on_track">Jesteś na tym utworze!</string>
     <string name="map_map_track_tap_not_on_track_but_on_gpx">Jesteś na innym torze.</string>
-    <string name="map_map_track_tap_not_on_gpx">Nie jeździsz na tej ścieżce ani żadnej innej aktywnej ścieżce na tym samym pliku GPX.</string>
+    <string name="map_map_track_tap_not_on_gpx">Nie jedziesz po tej trasie ani żadnej innej aktywnej trasie na tym samym pliku GPX.</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Start tor:</string>
     <string name="map_map_track_tap_point_distance_to_track_end">Track End:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">GPX Start:</string>
@@ -1109,8 +1109,8 @@
     <string name="map_map_track_tap_points_distance_tap_on">Stuknij inny punkt, aby uzyskać odległość między punktami</string>
     <string name="map_map_track_tap_points_distance_not_same_gpx">Wybierz punkt, który jest częścią tego samego pliku GPX!</string>
     <string name="map_map_track_tap_points_distance_both_same_track">Oba wybrane punkty znajdują się na tym samym torze GPX</string>
-    <string name="map_map_track_tap_points_distance_different_track">Punkty nie są na tej samej ścieżce GPX, ale ścieżki są podłączone</string>
-    <string name="map_map_track_tap_points_distance_different_track_error">Nie można mierzyć na różnych ścieżkach z wieloma połączeniami!</string>
+    <string name="map_map_track_tap_points_distance_different_track">Punkty nie są na tej samej trasie GPX, ale trasy są podłączone</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Nie można mierzyć na różnych trasach z wieloma połączeniami!</string>
         <!--  Left Panel Progress -->
     <string name="map_ui_left_progress_panel_finish_label">Skończyć:</string>
         <!--  Route Planner -->
@@ -1195,7 +1195,7 @@
     <string name="map_gpx_recorder_dialog_status_paused">Rejestrator wstrzymany, wznów lub zakończ</string>
     <string name="map_gpx_recorder_dialog_points_short">Pts</string>
     <string name="map_gpx_recorder_new_track_title">Nowa nazwa utworu</string>
-    <string name="map_gpx_recorder_new_track_add_track">Dodaj ścieżkę</string>
+    <string name="map_gpx_recorder_new_track_add_track">Dodaj trasę</string>
     <string name="map_gpx_recorder_inactive_warning">Nie mogę tego zrobić. Nie nagrywanie!</string>
     <string name="map_gpx_recorder_finish_gpx_title">Zakończ nagrywanie</string>
     <string name="map_gpx_recorder_finish_gpx_message">Wybierz zapisz go do pliku GPX, odrzuć go i usuń nagrywanie lub zamknij to okno dialogowe i kontynuuj nagrywanie.</string>
@@ -1216,10 +1216,10 @@
     <string name="map_gpx_recorder_add_waypoint_tap_map_title">Stuknij na mapie do pozycji</string>
     <string name="map_gpx_recorder_add_waypoint_tap_map_message">Stuknij w nową lokalizację dla punktu trasy, a następnie kliknij przycisk Ustaw!</string>
     <string name="map_gpx_recorder_add_waypoint_tap_save">Ustawić pozycję</string>
-    <string name="map_gpx_recorder_tracks_edit">Edytor ścieżek rejestratora</string>
+    <string name="map_gpx_recorder_tracks_edit">Edytor tras rejestratora</string>
     <string name="map_gpx_recorder_tracks_edit_no_tracks">Nie ma jeszcze utworów!</string>
-    <string name="map_gpx_recorder_track_edit_name">Nazwa ścieżki</string>
-    <string name="map_gpx_recorder_track_edit_description">Opis ścieżki</string>
+    <string name="map_gpx_recorder_track_edit_name">Nazwa trasy</string>
+    <string name="map_gpx_recorder_track_edit_description">Opis trasy</string>
     <string name="map_gpx_recorder_track_edit_color">Kolor:</string>
     <string name="map_gpx_recorder_waypoints_edit">EDYTOR PUNKTÓW TRASY</string>
     <string name="map_gpx_recorder_waypoint_edit_pin">Ikona pin:</string>
