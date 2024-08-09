@@ -3,30 +3,30 @@
 
     <!-- New Untranslated -->
 
-    <string name="obd_view_speed">SPEED</string>
+    <string name="obd_view_speed">HASTIGHET</string>
 
-    <string name="gpx_manager_routes">Routes</string>
+    <string name="gpx_manager_routes">Rutter</string>
 
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+    <string name="gpx_manager_no_routes_warning">Vald GPX-fil innehåller inga rutter!</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Navigera till Start / Slut</string>
 
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Navigera till Närmsta Punkt</string>
 
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Sätt Profil</string>
 
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Inverta Riktning</string>
 
     <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+    <string name="home_widget_tpms_title_long">Däcktrycksensorer</string>
+    <string name="home_widget_tpms_description">Övervaka däcktryck och -temperatur med DMD TPMS</string>
 
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
+    <string name="tpms_rear_sensor_title">Bakdäck</string>
+    <string name="tpms_front_sensor_title">Framdäck</string>
+    <string name="tpms_sensor_select">Inte Inställt</string>
+    <string name="tpms_sensor_tap_to_start">Tryck för Inställning</string>
+    <string name="tpms_sensor_dialog_select_sensor">Välj Sensor</string>
+    <string name="tpms_sensor_dialog_select">Välj</string>
 
     <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
     <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
