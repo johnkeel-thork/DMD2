@@ -1,0 +1,1216 @@
+<resources>
+
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_online_status">Συνδεδεμένο</string>
+    <string name="status_bar_offline_status">Αποσυνδεδεμένο</string>
+
+    <!-- Bottom Menu -->
+    <string name="menu_global_settings">Γενικές Ρυθμίσεις</string>
+    <string name="menu_exit">Έξοδος</string>
+    <string name="menu_home">Αρχική</string>
+    <string name="menu_apps">Εφαρμογές</string>
+    <string name="menu_roadbook">Οδηγός Δρόμου</string>
+    <string name="menu_map">Χάρτης</string>
+    <string name="menu_obd">Αισθητήρες OBD</string>
+    <!-- Menu Editor -->
+    <string name="menu_edit_title">Επεξεργασία Κάτω Μενού</string>
+    <string name="menu_edit_message">Αναδιάταξη και ενεργοποίηση/απενεργοποίηση καταχωρήσεων μενού</string>
+    <string name="menu_sorter_instructions">Πατήστε και κρατήστε για να μετακινήσετε ένα στοιχείο. Χρησιμοποιήστε τον διακόπτη για εμφάνιση ή απόκρυψη.</string>
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Ένδειξη Μπαταρίας (μπορεί να χρειαστούν λίγα λεπτά για να ενημερωθεί)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Ποσοστό</item>
+        <item>Τρέχων Ρεύμα</item>
+        <item>Θερμοκρασία</item>
+    </string-array>
+
+    <!-- Global -->
+    <!-- Units -->
+    <string name="mi">Mi</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/h</string>
+    <string name="meters">μέτρα</string>
+    <string name="feet">πόδια</string>
+    <string name="yards">γιάρδες</string>
+    <string name="kilometer">χιλιόμετρο</string>
+    <string name="kilometers">χιλιόμετρα</string>
+    <string name="miles">μίλια</string>
+    <!-- Buttons -->
+    <string name="back">Πίσω</string>
+    <string name="abort">Ακύρωση</string>
+    <string name="ok">ΟΚ</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="save">Αποθήκευση</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="delete">Διαγραφή</string>
+    <string name="replace">Αντικατάσταση</string>
+    <string name="rename">Μετονομασία</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="refresh">Ανανέωση</string>
+    <string name="enable">Ενεργοποίηση</string>
+    <string name="download">Λήψη</string>
+    <string name="load">Φόρτωση</string>
+    <string name="unload">Αποφόρτωση</string>
+    <string name="update">Ενημέρωση</string>
+    <string name="share">Κοινή χρήση</string>
+    <string name="advanced">Για προχωρημένους</string>
+    <string name="settings">Ρυθμίσεις</string>
+    <string name="hide">Απόκρυψη</string>
+    <string name="later">Αργότερα</string>
+    <string name="finish">Τέλος</string>
+    <string name="abort_download">Ακύρωση Λήψης</string>
+    <string name="start">Έναρξη</string>
+    <!-- Messages / Errors & Warnings -->
+    <string name="error_creating_directory">Σφάλμα στη Δημιουργία Καταλόγου Χρήστη!</string>
+    <string name="error_deleting_file">Σφάλμα Διαγραφής Αρχείου!</string>
+    <string name="error_file_already_exists_title">Προειδοποίηση Αντικατάστασης Αρχείου</string>
+    <string name="error_file_already_exists_message">Ένα αρχείο με το ίδιο όνομα υπάρχει ήδη, τι θέλετε να κάνετε;</string>
+    <string name="error_file_new_name_title">Μετονομασία Αρχείου</string>
+    <string name="share_file_with">Κοινή Χρήση Αρχείου Με</string>
+    <string name="connect_to_internet">Βεβαιωθείτε ότι είστε συνδεδεμένοι στο διαδίκτυο!</string>
+    <string name="exit_confirm_dialog">Κλείστε το DMD2 ή στείλτε το στο παρασκήνιο;</string>
+    <string name="exit_confirm_dialog_message">Εάν κλείσετε το DMD2, οι τιμές του ταξιδιού δεν θα αυξηθούν και η εγγραφή GPX θα σταματήσει!</string>
+    <string name="exit_confirm_dialog_send_to_background">Παρασκήνιο</string>
+   <!-- DMD Devices Update -->
+    <string name="dmd_device_update_dialog_title">Διαθέσιμη Ενημέρωση Συστήματος</string>
+    <string name="dmd_device_update_configuration_dialog_message">Διαθέσιμη νέα διαμόρφωση συστήματος. Θέλετε να ενημερώσετε τώρα; Εάν επιλέξετε να ενημερώσετε τώρα, η λήψη θα ξεκινήσει στο παρασκήνιο και η συσκευή θα επανεκκινήσει όταν ολοκληρωθεί.</string>
+    <string name="dmd_device_update_system_dialog_message">Διαθέσιμη νέα ενημέρωση υλικολογισμικού συστήματος. Θέλετε να ενημερώσετε τώρα; Εάν επιλέξετε να ενημερώσετε τώρα, η λήψη θα ξεκινήσει στο παρασκήνιο και η συσκευή θα επανεκκινήσει όταν ολοκληρωθεί.</string>
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">Ελήφθη Ειδοποίηση Πτώσης SOS!</string>
+    <string name="fall_alert_message">Έχετε λάβει ειδοποίηση πτώσης! Πλήρες μήνυμα:</string>
+    <string name="fall_alert_show_on_map">Προβολή &amp; Βοήθεια</string>
+    <string name="fall_alert_ignore">Παράβλεψη</string>
+    <string name="fall_alert_open_sms">Άνοιγμα SMS</string>
+    <string name="fall_alert_mode_on">Λειτουργία SOS!</string>
+    <string name="fall_alert_center_map">Κεντράρισμα Χάρτη</string>
+    <string name="fall_alert_share">Κοινή Χρήση Τοποθεσίας</string>
+    <string name="fall_alert_finish">Τέλος SOS</string>
+    <string name="fall_alert_navigate">Πλοήγηση Προς</string>
+    <!-- App Update -->
+    <string name="app_update_title">Διαθέσιμη Ενημέρωση DMD2</string>
+    <string name="app_update_message">Υπάρχει διαθέσιμη ενημέρωση για το DMD2, θέλετε να ενημερώσετε τώρα; \n Τι νέο υπάρχει:</string>
+    <string name="app_update_download_notification">Λήψη Ενημέρωσης DMD2</string>
+    <string name="app_update_download_progress">Πρόοδος λήψης:</string>
+    <!-- Controller App Update -->
+    <string name="controller_app_update_dialogue_title">Ενημέρωση Εφαρμογής Ελεγκτή</string>
+    <string name="controller_app_update_dialogue_message">Υπάρχει διαθέσιμη ενημέρωση για την εφαρμογή ελεγκτή, θέλετε να ενημερώσετε τώρα; \n Τι νέο υπάρχει:</string>
+    <string name="controller_app_update_download_notification">Λήψη Ενημέρωσης</string>
+    <string name="controller_app_update_download_progress">Πρόοδος λήψης:</string>
+   <!-- T93 Dialog -->
+    <string name="t93_trial_title">Δοκιμαστική Έκδοση DMD2</string>
+    <string name="t93_trial_message">Έχετε 30 ημέρες δωρεάν δοκιμής. Εάν έχετε έναν ειδικό κωδικό άδειας DMD2 Edition, εισαγάγετέ τον για να τον ενεργοποιήσετε.</string>
+    <string name="t93_trial_button">Συνέχεια Δοκιμής</string>
+    <string name="t93_dmd2_edition_button">Εισαγωγή Κωδικού</string>
+    <string name="t93_finish_trial_button">Τέλος Δοκιμής</string>
+    <string name="t93_dmd2_edition_insert_key_title">Εισαγάγετε τον Κωδικό DMD2-Edition:</string>
+    <!-- Download Manager -->
+     <string name="download_manager_active_download_short">Λήψη:</string>
+    <string name="download_manager_active_download_active">Ενεργό</string>
+    <string name="download_manager_active_download_paused">Σε Παύση</string>
+    <string name="download_manager_active_download_error">Σφάλμα</string>
+    <string name="download_manager_active_download_downloading">Λήψη</string>
+    <string name="download_manager_active_download_downloading_no_progress">Γίνεται λήψη αλλά δεν είναι δυνατή η προβολή της προόδου</string>
+    <string name="download_manager_active_download_interrupted">Διακοπή</string>
+    <string name="download_manager_active_download_interrupted_file">Διακοπή αρχείου:</string>
+    <string name="download_manager_active_download_no_net">Χωρίς Διαδίκτυο!</string>
+    <string name="download_manager_active_download_no_net_waiting">Αναμονή για σύνδεση στο διαδίκτυο…</string>
+    <string name="download_manager_active_download_cannot_abort">Δεν είναι δυνατή η ακύρωση του τρέχοντος αρχείου, παρακαλώ περιμένετε!</string>
+    <string name="download_manager_active_download_in_queue">Σε ουρά…</string>
+
+ <!-- Settings -->
+    <string name="settings_backup_cat">Αντίγραφα Ασφαλείας και Επαναφορά</string>
+    <string name="settings_backup_gdrive_start">Δημιουργία Zip και Αποθήκευση</string>
+    <string name="settings_backup_gdrive_message">Δημιουργεί ένα αρχείο zip και σας επιτρέπει να το στείλετε, προτείνουμε το Google Drive! Σημείωση: Οι χάρτες δεν περιλαμβάνονται.</string>
+    <string name="settings_import_gdrive_start">Εισαγωγή Zip και Επαναφορά</string>
+    <string name="settings_import_gdrive_message">Σημείωση: Εάν διαγράψατε τον χώρο αποθήκευσης εφαρμογής, παρακαλώ σημειώστε ότι πρέπει να κατεβάσετε χειροκίνητα τους χάρτες εκτός σύνδεσης.</string>
+    <string name="settings_run_in_background">Εκτέλεση DMD2 ως Υπηρεσία</string>
+    <string name="settings_run_in_background_desc">Εάν είναι ενεργοποιημένο, όταν μετακινήστε από το DMD2 σε άλλη εφαρμογή, το trip και η εγγραφή GPX θα τρέχουν ως υπηρεσία.</string>
+    <string name="settings_localization_options">Προσαρμογή στη γλώσσα και στον τόπο</string>
+    <string name="settings_hour_format">Χρήση μορφής 24ωρου</string>
+    <string name="settings_use_fahrenheit">Χρήση Φαρενάιτ αντί Κελσίου</string>
+    <string name="settings_use_imperial_units">Χρήση βρετανικού συστήματος μονάδων μέτρησης</string>
+    <string name="settings_interface_options">Επιλογές Διεπαφής</string>
+    <string name="settings_theme_category">Θέμα</string>
+    <string name="settings_color_theme">Χρωματικό θέμα (Σκοτεινό / Φωτεινό):</string>
+    <string-array name="settings_color_themes" translatable="true">
+        <item>Πάντα Σκοτεινό</item>
+        <item>Πάντα Φωτεινό</item>
+    </string-array>
+    <string name="settings_accent_color_title">Χρώμα Τονισμού:</string>
+    <string-array name="settings_accent_colors_names" translatable="true">
+        <item>Μπλε</item>
+        <item>Σκούρο Μπλε</item>
+        <item>Κόκκινο</item>
+        <item>Πορτοκαλί</item>
+        <item>Πράσινο</item>
+        <item>Κίτρινο</item>
+        <item>Ροζ</item>
+    </string-array>
+    <string name="remote_controller_category">Ρυθμίσεις Απομακρυσμένου Χειριστηρίου</string>
+    <string name="controller_selection">Επιλογή μοντέλου απομακρυσμένου Χειριστηρίου</string>
+    <string-array name="controller_selection_names" translatable="true">
+        <item>Αυτόματη Ανίχνευση</item>
+        <item>DMD Remote 1</item>
+        <item>DMD Remote 2</item>
+        <item>DMD Remote 3</item>
+        <item>ARN Remote Pro</item>
+        <item>SilverFox B8J</item>
+        <item>Remotek One</item>
+        <item>WunderLINQ</item>
+        <item>Hesanav</item>
+        <item>Ursae</item>
+        <item>Summiot</item>
+        <item>Joymap</item>
+        <item>Bar Buttons</item>
+        <item>CARPE Ci Ctrl</item>
+        <item>CARPE Adventure Control</item>
+        <item>CARPE Terrain Command Gen1</item>
+        <item>CARPE Terrain Command Gen2</item>
+        <item>CARPE Terrain Command Gen3</item>
+        <item>CARPE BMW Controller</item>
+        <item>Γενικό 8 Κουμπιά</item>
+        <item>Γενικό 7 Κουμπιά</item>
+        <item>Γενικό 5 Κουμπιά</item>
+        <item>Γενικό 4 Κουμπιά</item>
+        <item>SilverFox H1</item>
+    </string-array>
+    <string name="controller_dialog_title">Εγκατάσταση Εφαρμογής Απομακρυσμένου Χειριστηρίου</string>
+    <string name="controller_dialog_message">Για να επωφεληθείτε πλήρως από το απομακρυσμένο χειριστήριο DMD, πρέπει να εγκαταστήσετε την εφαρμογή βοηθητικών εργαλείων. Θέλετε να την εγκαταστήσετε τώρα;</string>
+    <string name="controller_dialog_download_title">Λήψη Εφαρμογής Χειριστηρίου</string>
+    <string name="settings_dmd_devices_category">Συγκεκριμένα Συστήματα DMD-T</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Διατήρηση GPS ενεργού με απενεργοποιημένη οθόνη</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Εάν είναι ενεργοποιημένο, οι λειτουργίες Trip και GPS όπως η εγγραφή GPX θα συνεχίσουν να λειτουργούν ακόμα και αν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="settings_dmd_devices_updates_automatic">Αυτόματος Έλεγχος για Ενημερώσεις Εφαρμογών</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Έλεγχος ενημερώσεων μόνο μέσω WiFi</string>
+    <string name="settings_dmd_devices_updates_manual">Έλεγχος για ενημερώσεις τώρα!</string>
+    <string name="settings_screen_category">Οθόνη</string>
+    <string name="settings_screen_lock_rotation">Κλείδωμα προσανατολισμού οθόνης</string>
+    <string name="settings_screen_lock_rotation_summary">Αποτροπή τυχαίας περιστροφής της οθόνης κατά την οδήγηση</string>
+    <string name="settings_screen_orientation">Κλείδωμα προσανατολισμού σε:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Οριζόντια (Tablet)</item>
+        <item>Αντίστροφη Οριζόντια (Tablet)</item>
+        <item>Κάθετη (Τηλέφωνο)</item>
+        <item>Αντίστροφη Κάθετη (Τηλέφωνο)</item>
+    </string-array>
+    <string name="settings_notifications_category">Ειδοποιήσεις</string>
+    <string name="settings_notifications_enable_title">Ενεργοποίηση αναδυόμενων ειδοποιήσεων (απαιτείται άδεια)</string>
+    <string name="settings_notifications_enable_summary">Εμφάνιση ειδοποιήσεων από μια λίστα εφαρμογών που επιλέγει ο χρήστης</string>
+    <string name="settings_notifications_dismiss">Μέθοδος απόρριψης</string>
+    <string-array name="settings_notifications_dismiss_names" translatable="true">
+        <item>Χρονικό Όριο μετά από 5 δευτερόλεπτα</item>
+        <item>Χρονικό Όριο μετά από 10 δευτερόλεπτα</item>
+        <item>Χρονικό Όριο μετά από 15 δευτερόλεπτα</item>
+        <item>Χρονικό Όριο μετά από 30 δευτερόλεπτα</item>
+        <item>Χρονικό Όριο μετά από 60 δευτερόλεπτα</item>
+        <item>Χειροκίνητα (Σύρετε ή με το χειριστήριο)</item>
+    </string-array>
+    <string name="settings_notifications_controller_lock_title">Εστίαση χειριστηρίου στο τιμόνι</string>
+    <string name="settings_notifications_controller_lock_message">Όταν εμφανίζεται μια ειδοποίηση, το απομακρυσμένο χειριστήριο θα εστιάσει σε αυτήν. Το πλήκτρο enter εκκινεί τη δράση της ειδοποίησης και το πλήκτρο back καθαρίζει την ειδοποίηση.</string>
+    <string name="settings_notifications_apps_selection_title">Φίλτρο εφαρμογών</string>
+    <string name="settings_notifications_apps_selection_message">Επιλέξτε για ποιες εφαρμογές θέλετε να εμφανίζονται οι αναδυόμενες ειδοποιήσεις</string>
+    <string name="settings_notifications_group_title">Εμφάνιση μόνο της τελευταίας ειδοποίησης από κάθε ομάδα</string>
+    <string name="settings_notifications_group_message">Εάν είναι ενεργοποιημένο, θα δείτε μόνο την τελευταία ενημέρωση ειδοποίησης για κάθε ομάδα ειδοποιήσεων. Για παράδειγμα, το τελευταίο μήνυμα από μια ειδοποίηση συνομιλίας.</string>
+    <string name="settings_notifications_app_selection_dialog_title">Εμφάνιση Ειδοποιήσεων Για:</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Όλα / Κανένα</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Κλείσιμο</string>
+    <!-- Trip Settings-->
+    <string name="settings_trip_options">Επιλογές Ταξιδιού</string>
+    <string name="settings_trip_auto_reset_title">Αυτόματη Επαναφορά Ταξιδιού</string>
+    <string name="settings_trip_auto_reset_summary">Το ταξίδι θα επαναφέρεται αυτόματα εάν το DMD2 δεν ξεκινήσει για περισσότερες από μια καθορίσιμη χρονική περίοδο</string>
+    <string name="settings_trip_auto_reset_time_title">Χρόνος Αυτόματης Επαναφοράς Ταξιδιού</string>
+    <string-array name="settings_trip_reset_time_entries" translatable="true">
+        <item>6 ώρες</item>
+        <item>12 ώρες</item>
+        <item>1 ημέρα</item>
+        <item>2 ημέρες</item>
+        <item>5 ημέρες</item>
+    </string-array>
+    <!-- OEM Registration-->
+    <string name="settings_oem_registration">Εγγραφή OEM</string>
+    <string name="settings_oem_check">Διαδικασία Εγγραφής (απαιτείται σύνδεση στο διαδίκτυο)</string>
+    <string name="settings_oem_check_summary">Χρησιμοποιήστε το μόνο εάν η μοτοσικλέτα σας είναι εξοπλισμένη με μια συσκευή Android με προεγκατεστημένο το Drive Mode Dashboard 2.</string>
+    <!-- Info & Links -->
+    <string name="settings_info_and_links">Πληροφορίες και Σύνδεσμοι</string>
+    <string name="settings_app_version">Έκδοση DMD2</string>
+    <string name="settings_app_installed_version">Εγκατεστημένη έκδοση:</string>
+    <string name="settings_dmd2_website">Μάθετε περισσότερα για την εφαρμογή DMD2 στην επίσημη ιστοσελίδα</string>
+    <string name="settings_developer_website_title">Το DMD2 προσφέρεται από</string>
+    <string name="settings_tripltek_website_title">Αυτή η έκδοση του DMD2 είναι βελτιστοποιημένη για συσκευές Tripltek</string>
+    <string name="settings_follow_us_facebook">Επισκεφθείτε και ακολουθήστε τη σελίδα μας στο Facebook για τα τελευταία νέα</string>
+    <string name="settings_join_us_facebook">Συμμετάσχετε στην ομάδα μας στο Facebook</string>
+    <string name="settings_dmd2_forum">Συμμετάσχετε στη συζήτηση για νέες λειτουργίες, σφάλματα και αιτήματα</string>
+    <string name="settings_license_title">Ειδικοί Κωδικοί Άδειας</string>
+    <string name="settings_dmd2_edition_redeem_title">Δοκιμή / DMD2 Edition</string>
+    <string name="settings_dmd2_edition_redeem_message">Διαχείριση δοκιμής ή εισαγωγή κλειδιού DMD2 Edition</string>
+    <!-- Welcome Screen -->
+    <string name="welcome_dmd2_title">Καλώς Ήρθατε στη Δοκιμαστική Έκδοση του DMD2</string>
+    <string name="welcome_dmd2_message">Το DMD2 έχει σχεδιαστεί για να μετατρέπει τη συσκευή σας σε έναν πλήρη πίνακα ελέγχου για μοτοσικλέτες και αυτοκίνητα με ειδική έμφαση στην περιπέτεια και την εκτός δρόμου οδήγηση. Περιλαμβάνει έναν χάρτη για πλοήγηση, οδηγό δρόμου, αισθητήρες OBD2 και πολλά άλλα.</string>
+    <string name="welcome_dmd2_lets_go">Έναρξη</string>
+    <!-- GPS Settings -->
+    <string name="settings_gps_settings_title">Ρυθμίσεις GPS</string>
+    <string name="settings_bypass_acc_filter_title">Χαμηλότερο Φίλτρο Ακρίβειας GPS</string>
+    <string name="settings_bypass_acc_filter_message">Για συσκευές με υποβέλτιστη ποιότητα GPS</string>
+    <!-- Storage -->
+    <string name="map_storage_location_cat_title">Αποθήκευση</string>
+    <string name="map_storage_location_select_title">Ορισμός Αποθήκευσης σε Αφαιρούμενη Κάρτα SD</string>
+    <string name="map_storage_location_select_message">Για αρχεία χαρτών εκτός σύνδεσης και αρχεία χρήστη.</string>
+    <string name="map_storage_sd_card_missing_error_title">Η Κάρτα SD Λείπει!</string>
+    <string name="map_storage_sd_card_missing_error_message">Η κάρτα SD που χρησιμοποιήθηκε προηγουμένως λείπει, παρακαλώ εισαγάγετέ την!</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Προσπάθεια Ξανά</string>
+    <string name="map_storage_sd_card_missing_switch_internal">Χρήση Εσωτερικής Μνήμης</string>
+    <string name="map_storage_sd_card_mounting_title">Αναμονή για Μοντάρισμα Κάρτας SD</string>
+    <string name="map_storage_sd_card_mounting_message">Παρακαλώ περιμένετε να ολοκληρωθεί το μοντάρισμα της Κάρτας SD…</string>
+    <string name="map_storage_sd_card_mounting_button">Ακύρωση &amp; Εναλλαγή σε Εσωτερική Μνήμη</string>
+    <string name="map_storage_sd_card_different_error_title">Διαφορετική Κάρτα SD!</string>
+    <string name="map_storage_sd_card_different_error_message">Φαίνεται ότι έχετε αντικαταστήσει την Κάρτα SD, θέλετε να χρησιμοποιήσετε αυτήν την κάρτα; Εάν όχι, παρακαλώ εισαγάγετε την σωστή κάρτα!</string>
+    <string name="map_storage_sd_card_different_error_recheck">Επανέλεγχος</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">Η Κάρτα SD δεν βρέθηκε ακόμη! Παρακαλώ ελέγξτε ξανά!</string>
+    <string name="map_storage_sd_card_move_map_files_title">Μετακίνηση Αρχείων Χαρτών;</string>
+    <string name="map_storage_sd_card_move_map_files_external">Θέλετε να μετακινήσετε τα αρχεία χαρτών από την εσωτερική μνήμη στην Κάρτα SD; Αυτή η λειτουργία μπορεί να αποτύχει εάν δεν έχετε αρκετό χώρο!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Θέλετε να μετακινήσετε τα αρχεία χαρτών από την αφαιρούμενη Κάρτα SD στην εσωτερική μνήμη; Αυτή η λειτουργία μπορεί να αποτύχει εάν δεν έχετε αρκετό χώρο!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">Μετακίνηση αρχείων, παρακαλώ περιμένετε! Μην κλείσετε την εφαρμογή ή μεταβείτε σε άλλη οθόνη!</string>
+
+    <!-- Home-->
+    <!-- Widget Types-->
+    <string name="home_widget_trip_title">ΤΑΞΙΔΙ</string>
+    <string name="home_widget_trip_title_long">Στατιστικά Ταξιδιού</string>
+    <string name="home_widget_trip_description">Προβολή τιμών σε πραγματικό χρόνο για την οδήγηση σας, πληροφορίες όπως απόσταση, συνολικός χρόνος, χρόνος ταξιδιού, χρόνος στάσης και μέση ταχύτητα.</string>
+    <string name="home_widget_apps_title">ΕΦΑΡΜΟΓΕΣ</string>
+    <string name="home_widget_apps_title_long">Συντομεύσεις Εφαρμογών</string>
+    <string name="home_widget_apps_description">Ορίστε συντομεύσεις για γρήγορη πρόσβαση στις αγαπημένες σας εφαρμογές.</string>
+    <string name="home_widget_apps_selection_dialog_title">Επιλέξτε Συντόμευση Εφαρμογής ή Καθαρισμός Θέσης</string>
+    <string name="home_widget_apps_clear_selection">Καθαρισμός Θέσης</string>
+    <string name="home_widget_obd_rpm_title">RPM OBD</string>
+    <string name="home_widget_obd_rpm_title_long">Ένδειξη RPM OBD</string>
+    <string name="home_widget_obd_rpm_description">Μία γραμμή RPM βασισμένη στο OBD με καθαρό σχεδιασμό, περιλαμβάνει αλλαγή χρώματος στο κόκκινο και αριθμητική ένδειξη.</string>
+    <string name="home_widget_heading_title">ΠΟΡΕΙΑ</string>
+    <string name="home_widget_heading_title_long">Πορεία GPS</string>
+    <string name="home_widget_heading_description">Ένας γραφικός δείκτης για την τρέχουσα πορεία σας με βάση τα δεδομένα GPS, περιλαμβάνει την αριθμητική τιμή της γωνίας.</string>
+    <string name="home_widget_media_title">ΜΕΣΑ</string>
+    <string name="home_widget_media_title_long">Έλεγχος Αναπαραγωγής Μέσων</string>
+    <string name="home_widget_media_description">Σας επιτρέπει να ελέγχετε τη δραστηριότητα αναπαραγωγής μέσων, περιλαμβάνει το έργο τέχνης του άλμπουμ και το όνομα του τραγουδιού και του καλλιτέχνη (απαιτείται άδεια πρόσβασης στις ειδοποιήσεις).</string>
+    <string name="home_widget_map_title">ΠΛΟΗΓΗΣΗ</string>
+    <string name="home_widget_map_title_long">Προβολή Χάρτη</string>
+    <string name="home_widget_map_description">Η προβολή χάρτη σας με όλο το φορτωμένο περιεχόμενο και τις ενεργές καταστάσεις, δεν περιλαμβάνει τα χειριστήρια χάρτη και μπορεί να φορτωθεί μόνο στο αριστερό πάνελ.</string>
+    <string name="home_widget_speed_title">ΤΑΧΥΤΗΤΑ</string>
+    <string name="home_widget_speed_title_long">Ταχύτητα GPS</string>
+    <string name="home_widget_speed_description">Ένας μεγάλος αριθμητικός δείκτης ταχύτητας που δείχνει την τρέχουσα ταχύτητα σας με βάση τα δεδομένα GPS.</string>
+    <string name="home_widget_places_title">Μέρη</string>
+    <string name="home_widget_places_title_long">Αγαπημένα Μέρη</string>
+    <string name="home_widget_places_title_description">Δημιουργία συντομεύσεων για τα αγαπημένα σας αποθηκευμένα μέρη</string>
+    <string name="home_widget_places_no_locations">Δεν υπάρχουν αποθηκευμένα μέρη ακόμα, μπορείτε να τα αποθηκεύσετε στην προβολή χάρτη!</string>
+    <string name="home_widget_places_selector_title">Επιλογή Μέρους</string>
+    <string name="home_widget_odo_title">ΟΔΟΜΕΤΡΟ</string>
+    <string name="home_widget_odo_title_long">Οδόμετρο</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Αισθητήρες Πίεσης Ελαστικών</string>
+    <string name="home_widget_tpms_description">Παρακολούθηση πίεσης και θερμοκρασίας ελαστικών με το DMD TPMS</string>
+    <string name="home_widget_odo_description">Ένα επεξεργάσιμο οδόμετρο</string>
+    <string name="home_widget_odo_dialog_title">Επιλογές Οδομέτρου</string>
+    <string name="home_widget_odo_dialog_message">Επαναφορά της τιμής του οδομέτρου ή επεξεργασία της τρέχουσας τιμής</string>
+    <string name="home_widget_odo_dialog_edit_title">Επεξεργασία Τιμής Οδομέτρου</string>
+    <string name="home_widget_numeric_values_title">ΠΛΗΡΟΦΟΡΙΕΣ</string>
+    <string name="home_widget_numeric_values_title_long">Δείκτες GPS &amp; OBD</string>
+    <string name="home_widget_numeric_values_description">Επιλέξιμες τιμές από αισθητήρες OBD και δεδομένα GPS από τον χρήστη.</string>
+    <string name="home_widget_notifications_list_title">ΕΙΔΟΠΟΙΗΣΕΙΣ</string>
+    <string name="home_widget_notifications_list_title_long">Λίστα Ειδοποιήσεων</string>
+    <string name="home_widget_notifications_list_description">Μία λίστα με τις τρέχουσες ενεργές ειδοποιήσεις σας.</string>
+    <string name="home_widget_notifications_list_no_notification">Δεν υπάρχουν ειδοποιήσεις ακόμα</string>
+    <string name="home_widget_system_title">ΕΞΩΤΕΡΙΚΟ WIDGET</string>
+    <string name="home_widget_system_title_long">Σύστημα Widget</string>
+    <string name="home_widget_system_description">Φορτώστε τα widgets συστήματος Android από τις εγκατεστημένες εφαρμογές σας.</string>
+    <string name="home_widget_big_clock_title">ΡΟΛΟΪ</string>
+    <string name="home_widget_big_clock_title_long">Ένα Μεγάλο Ρολόι</string>
+    <string name="home_widget_big_clock_description">Ένα απλό μεγάλο ψηφιακό ρολόι, σε περίπτωση που ο χρόνος είναι κρίσιμος για εσάς.</string>
+    <string name="home_widget_map_progress_title">ΠΡΟΟΔΟΣ</string>
+    <string name="home_widget_map_progress_title_long">Δραστηριότητα Προόδου Χάρτη</string>
+    <string name="home_widget_map_progress_description">Εμφανίζει οδηγίες πλοήγησης ή πρόοδο διαδρομής GPX ανάλογα με την ενεργή κατάσταση μεταξύ των δύο.</string>
+    <string name="home_widget_empty_title">ΚΑΝΕΝΑ</string>
+    <string name="home_widget_empty_title_long">Κανένα</string>
+    <string name="home_widget_empty_description">Καθαρισμός θέσης για να μεγαλώσει η διάταξη κάθετα</string>
+    <string name="home_widget_settings_dialog_title">Επιλογή Widget</string>
+    <!-- Home Editor -->
+    <string name="home_widget_editor_left_panel_title">Αριστερό Πάνελ</string>
+    <string name="home_widget_editor_right_panel_title">Δεξιό Πάνελ</string>
+    <string name="home_widget_editor_center_top_title">Κέντρο Πάνω</string>
+    <string name="home_widget_editor_center_bottom_title">Κέντρο Κάτω</string>
+    <string name="home_widget_editor_left_panel_edit_button">Αλλαγή Widget</string>
+    <!-- Widget Trip -->
+    <string name="home_widget_trip_distance">Απόσταση</string>
+    <string name="home_widget_trip_total_time">Συνολικός Χρόνος</string>
+    <string name="home_widget_trip_travel_time">Χρόνος Ταξιδιού</string>
+    <string name="home_widget_trip_stop_time">Χρόνος Στάσης</string>
+    <string name="home_widget_trip_avg_average">Μέση Ταχύτητα</string>
+    <!-- Widget Info: GPS & OBD Sensor Selector -->
+    <string name="widget_info_selector_dialog_title">Επιλογή Αισθητήρα GPS/OBD</string>
+    <string name="widget_info_gps_altitude_name">Υψόμετρο GPS</string>
+    <string name="widget_info_gps_altitude_label">Υψόμετρο</string>
+    <string name="widget_info_gps_heading_name">Πορεία GPS</string>
+    <string name="widget_info_clock_name">Ώρα</string>
+    <string name="widget_info_gps_heading_label">Πορεία</string>
+    <string name="widget_info_gps_cardinal_name">Πυξίδα Καρδινάλιων</string>
+    <string name="widget_info_gps_cardinal_label">Πυξίδα</string>
+    <string name="widget_info_gps_speed_name">Ταχύτητα GPS</string>
+    <string name="widget_info_gps_speed_label">Ταχύτητα</string>
+    <string name="widget_info_gps_trip_max_speed_name">Μέγιστη Ταχύτητα Ταξιδιού</string>
+    <string name="widget_info_gps_trip_max_speed_label">Μέγιστη Ταχύτητα</string>
+    <string name="widget_info_gps_trip_distance_name">Απόσταση Ταξιδιού</string>
+    <string name="widget_info_gps_trip_total_time_name">Συνολικός Χρόνος Ταξιδιού</string>
+    <string name="widget_info_gps_trip_travel_time_name">Χρόνος Ταξιδιού</string>
+    <string name="widget_info_gps_trip_stop_time_name">Χρόνος Στάσης Ταξιδιού</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Μέση Ταχύτητα Ταξιδιού</string>
+    <string name="widget_info_obd_speed_label">Ταχύτητα OBD</string>
+    <string name="widget_info_obd_rpm_label">RPM</string>
+    <string name="widget_info_obd_coolant_label">Ψυκτικό</string>
+    <string name="widget_info_obd_voltage_label">Τάση</string>
+    <string name="widget_info_obd_fuel_label">Καύσιμα</string>
+    <string name="widget_info_obd_tbposition_label">Θέση Γκαζιού</string>
+    <string name="widget_info_obd_spark_label">Σπινθήρας</string>
+    <string name="widget_info_obd_map_label">MAP</string>
+    <string name="widget_info_obd_intake_temp_label">ΙΑΤ</string>
+    <string name="widget_info_obd_intake_maf_label">MAF</string>
+    <string name="widget_info_obd_none_title">Αόρατο</string>
+    <string name="widget_info_obd_none_reset">Επαναφορά</string>
+    <string name="widget_info_adv_voltage_label">Τάση AdvCtrl</string>
+    <!-- Widget Media Control Permission Dialog -->
+    <string name="media_notifications_enable_dialog_title_media">Άδεια Ελέγχου Μέσων</string>
+    <string name="media_notifications_enable_dialog_message_media">Το Widget Ελέγχου Μέσων απαιτεί πρόσβαση στις ειδοποιήσεις για να διαβάσει περιεχόμενο αναπαραγωγής όπως τίτλος, καλλιτέχνης, όνομα άλμπουμ και έργο τέχνης. Θέλετε να επιτρέψετε αυτήν την άδεια;</string>
+    <!-- Widget Trip Reset Dialog -->
+    <string name="trip_reset_confirmation_title">Επαναφορά Ταξιδιού</string>
+    <string name="trip_reset_confirmation_message">Είστε βέβαιοι ότι θέλετε να επαναφέρετε τα στατιστικά του ταξιδιού;</string>
+    <!-- Widget TPMS -->
+    <string name="tpms_rear_sensor_title">Οπίσθιο Ελαστικό</string>
+    <string name="tpms_front_sensor_title">Εμπρόσθιο Ελαστικό</string>
+    <string name="tpms_sensor_select">Δεν έχει Οριστεί</string>
+    <string name="tpms_sensor_tap_to_start">Πατήστε για Ρύθμιση</string>
+    <string name="tpms_sensor_dialog_select_sensor">Επιλογή Αισθητήρα</string>
+    <string name="tpms_sensor_dialog_select">Επιλογή</string>
+
+    <!-- Notifications -->
+    <!-- Permission Dialog -->
+    <string name="notifications_enable_dialog_title">Αναδυόμενες Ειδοποιήσεις</string>
+    <string name="notifications_enable_dialog_message">Θέλετε να επιτρέψετε στο DMD2 να έχει πρόσβαση στις ειδοποιήσεις για να σας εμφανίζει ένα αναδυόμενο παράθυρο για οποιαδήποτε νέα ειδοποίηση; Μπορείτε να ρυθμίσετε ποιες εφαρμογές θέλετε να εμφανίζονται ως αναδυόμενες ειδοποιήσεις στις Ρυθμίσεις > Ειδοποιήσεις.</string>
+    <!-- Notification List Widget -->
+    <string name="notifications_list_widget_new_notifications">Νέες Ειδοποιήσεις</string>
+    <string name="notifications_controller_arrow_instructions">Αριστερά/Δεξιά - Απόρριψη</string>
+
+    <!-- Apps-->
+    <!-- Settings-->
+    <string name="apps_view_top_title">Αγαπημένες Εφαρμογές</string>
+    <string name="apps_view_app_filter_category_title">Φίλτρο Εφαρμογών</string>
+    <string name="apps_filter_enable_title">Ενεργοποίηση φίλτρου εφαρμογών</string>
+    <string name="apps_filter_enable_description">Αποκρύπτει τις εφαρμογές που έχουν οριστεί στη λίστα φίλτρων εφαρμογών</string>
+    <string name="apps_sorting_category_title">Ταξινόμηση</string>
+    <string name="apps_sorting_setting_title">Επιλέξτε πώς να ταξινομήσετε τις συντομεύσεις εφαρμογών</string>
+    <string-array name="apps_sorting_options_list" translatable="true">
+        <item>Όνομα Εφαρμογής - Αλφαβητική Σειρά</item>
+        <item>Όνομα Προγραμματιστή Εφαρμογής - Αλφαβητική Σειρά</item>
+        <item>Κατά Ημερομηνία Εγκατάστασης</item>
+        <item>Κατά Τελευταία Ενημέρωση</item>
+    </string-array>
+    <string name="apps_sorting_direction_setting_title">Κατεύθυνση Ταξινόμησης</string>
+    <string-array name="apps_sorting_direction_options_list" translatable="true">
+        <item>Αύξουσα</item>
+        <item>Φθίνουσα</item>
+    </string-array>
+    <string name="apps_filter_dialog_start_title">Ορισμός κρυφών εφαρμογών</string>
+    <string name="apps_filter_dialog_start_dialog">Πατήστε εδώ για να ορίσετε ποιες εφαρμογές θα αποκρύψετε ή θα εμφανίσετε</string>
+    <string name="apps_filter_dialog_dialog_title">Επιλογή Εφαρμογών προς Απόκρυψη</string>
+    <string name="apps_long_press_actions_dialog_text">Διαθέσιμες ενέργειες για αυτή την εφαρμογή:</string>
+    <string name="apps_long_press_actions_dialog_uninstall">Απεγκατάσταση</string>
+    <string name="apps_long_press_actions_dialog_hide">Απόκρυψη</string>
+    <string name="apps_long_press_actions_dialog_cancel">Ακύρωση</string>
+
+    <!-- OBD-->
+    <!-- Main UI-->
+    <string name="obd_view_speed">ΤΑΧΥΤΗΤΑ</string>
+    <!-- Settings-->
+    <string name="obd_cat_title_pref">Προτιμήσεις OBD</string>
+    <string name="obd_device_setup">Ρύθμιση Συσκευής Bluetooth OBD</string>
+    <string name="obd_protocols_summary">Επιλογή Πρωτοκόλλου OBD</string>
+    <string name="obd_protocols_title">Πρωτόκολλο OBD</string>
+    <string name="obd_reader_config_title">Εντολές Ρύθμισης Αναγνώστη</string>
+    <string name="obd_reader_config_summary">Εντολές για τη ρύθμιση του αναγνώστη bluetooth, χωρίστε με νέα γραμμή</string>
+    <string name="obd_set_wunderlinq_title">Λειτουργία WunderLINQ (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Θα λαμβάνει τιμές από το API του WunderLINQ αντί για το OBD2</string>
+    <string name="obd_select_device_title">Επιλέξτε Συνδεδεμένη Συσκευή OBD</string>
+    <string name="obd_bluetooth_list_devices_summary">Επιλέξτε από τις συνδεδεμένες συσκευές Bluetooth. Βεβαιωθείτε ότι ο αντάπτορας είναι συνδεδεμένος πρώτα!</string>
+    <string name="obd_bluetooth_list_devices_title">Επιλέξτε Συσκευή Bluetooth ELM327</string>
+    <string name="obd_settings_use_alt_voltage_title">Λήψη Τάσης από τον Αντάπτορα</string>
+    <string name="obd_settings_use_alt_voltage_message">Χρησιμοποιήστε την εντολή ST για την ανάγνωση της τάσης αντί του PID ECU</string>
+    <string name="obd_fuel_level_settings">Ρυθμίσεις Επιπέδου Καυσίμου</string>
+    <string name="obd_fuel_level_calculated">Υπολογισμός Επιπέδου Καυσίμου</string>
+    <string name="obd_fuel_level_calculated_summary">Εάν το επίπεδό σας δεν αναφέρεται από την ECU, μπορείτε να αφήσετε το DMD2 να το υπολογίσει με βάση τη μέση απόσταση ανά δεξαμενή. Για επαναφορά, πατήστε το εικονίδιο καυσίμων όταν γεμίσετε.</string>
+    <string name="obd_fuel_level_avg_mileage">Μέση Απόσταση Δεξαμενής Καυσίμου</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Ποια είναι η μέση σας απόσταση με γεμάτη δεξαμενή</string>
+    <string name="obd_speed_rpm_cat_title">Ρυθμίσεις Ταχύτητας και Στροφών</string>
+    <string name="obd_speed_gps_source_title">Πηγή Τιμής Ταχύτητας GPS</string>
+    <string name="obd_speed_gps_source_summary">Χρησιμοποιήστε GPS αντί για την τιμή ταχύτητας OBD (η οποία μπορεί να μην είναι διαθέσιμη)</string>
+    <string name="obd_max_rpm_title">Ορισμός Μέγιστων Στροφών</string>
+    <string name="obd_max_rpm_summary">Ορίστε τη μέγιστη τιμή των στροφών του οχήματός σας</string>
+    <string name="obd_redline_rpm_title">Ορισμός κόκκινων στροφών</string>
+    <string name="obd_redline_rpm_summary">Ορίστε τη μέγιστη τιμή των κόκκινων στροφών σας</string>
+    <string name="obd_throttle_options">Επιλογές Θέσης Γκαζιού</string>
+    <string name="obd_use_raw_throttle_title">Χρήση Ακατέργαστης Τιμής Θέσης Γκαζιού</string>
+    <string name="obd_use_raw_throttle_message">Χρησιμοποιήστε την πραγματική τιμή ακατέργαστου OBD2 ή βαθμονομήστε τις ελάχιστες και μέγιστες θέσεις</string>
+    <string name="obd_calibrate_throttle_title">Βαθμονόμηση Θέσης Γκαζιού</string>
+    <string name="obd_calibrate_throttle_message">Αυτό θα ξεκινήσει έναν διάλογο με οδηγίες για τη βαθμονόμηση της ελάχιστης/μέγιστης θέσης του γκαζιού. Απαιτείται να είναι ενεργοποιημένη η ECU και να συνδεθεί το OBD dongle, ο κινητήρας πρέπει να είναι απενεργοποιημένος. Αυτό ΔΕΝ θα αλλάξει καμία τιμή στην ECU σας!</string>
+    <!-- Sensors-->
+    <string name="obd_sensors_coolant_short_label">ΨΥΚΤΙΚΟ</string>
+    <string name="obd_sensors_coolant_long_label">Θερμοκρασία Ψυκτικού</string>
+    <string name="obd_sensors_voltage_short_label">ΤΑΣΗ</string>
+    <string name="obd_sensors_voltage_long_label">Τάση</string>
+    <string name="obd_sensors_throttle_short_label">ΓΚΑΖΙ</string>
+    <string name="obd_sensors_throttle_long_label">Θέση Γκαζιού</string>
+    <string name="obd_sensors_fuel_short_label">ΚΑΥΣΙΜΑ</string>
+    <string name="obd_sensors_fuel_long_label">Επίπεδο Καυσίμου</string>
+    <string name="obd_sensors_timing_short_label">ΣΠΙΝΘΗΡΑΣ</string>
+    <string name="obd_sensors_timing_long_label">Προανάφλεξη Σπινθήρα</string>
+    <string name="obd_sensors_intake_temp_short_label">IAT</string>
+    <string name="obd_sensors_intake_temp_long_label">Θερμοκρασία Εισαγωγής</string>
+    <string name="obd_sensors_intake_maf_short_label">MAF</string>
+    <string name="obd_sensors_intake_maf_long_label">Ροή Μάζας Αέρα</string>
+    <string name="obd_sensors_intake_map_short_label">MAP</string>
+    <string name="obd_sensors_intake_map_long_label">Πίεση Μάζας Αέρα</string>
+    <!-- Select Sensor Dialog-->
+    <string name="obd_sensors_select_dialog_title">Επιλογή Αισθητήρα OBD</string>
+    <string name="obd_sensors_select_dialog_message">Ορίστε έναν νέο αισθητήρα OBD για αυτή τη θέση</string>
+    <!-- Throttle Calibration-->
+    <string name="obd_min_throttle_calib_dialog_title">Βαθμονόμηση Ελάχιστης Θέσης Γκαζιού</string>
+    <string name="obd_min_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΟΥΜΕ ΕΝΕΡΓΟΠΟΙΗΣΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ! Βεβαιωθείτε ότι το όχημα βρίσκεται σε σταθερή θέση μετά την προθέρμανση!!! Το γκάζι σας θα πρέπει να είναι στη χαμηλότερη θέση (σε ακινησία / τελείως κλειστό). Πατήστε το κουμπί Set όταν είστε έτοιμοι.</string>
+    <string name="obd_throttle_calib_set_minimum">Ορισμός Ελάχιστου</string>
+    <string name="obd_max_throttle_calib_dialog_title">Βαθμονόμηση Μέγιστης Θέσης Γκαζιού</string>
+    <string name="obd_max_throttle_calib_dialog_message">ΠΑΡΑΚΑΛΟΥΜΕ ΑΠΕΝΕΡΓΟΠΟΙΗΣΤΕ ΤΟΝ ΚΙΝΗΤΗΡΑ! Βεβαιωθείτε ότι η ανάφλεξη είναι ενεργοποιημένη και, στη συνέχεια, πιέστε τη θέση του γκαζιού στη μέγιστη θέση (πλήρες άνοιγμα γκαζιού). Πατήστε το κουμπί Set όταν είστε έτοιμοι.</string>
+    <string name="obd_throttle_calib_set_maximum">Ορισμός Μέγιστου</string>
+    <string name="obd_cant_calib_obd_disconnected">Παρακαλώ Συνδεθείτε με το OBD Dongle Πρώτα!</string>
+    <!-- Fuel Level Options -->
+    <string name="obd_fuel_dialog_title">Επιλογές Επιπέδου Καυσίμου</string>
+    <string name="obd_fuel_dialog_message">Επαναφέρετε το επίπεδο καυσίμου αν μόλις γεμίσατε το ρεζερβουάρ σας ή επεξεργαστείτε χειροκίνητα την υπόλοιπη απόσταση καυσίμου.</string>
+    <string name="obd_fuel_dialog_reset">Επαναφορά</string>
+    <string name="obd_fuel_dialog_edit">Επεξεργασία</string>
+    <string name="obd_fuel_dialog_edit_title">Ορισμός Υπόλοιπης Απόστασης Καυσίμου</string>
+    <string name="obd_fuel_dialog_edit_message">Ορισμός υπόλοιπης απόστασης</string>
+    <string name="obd_fuel_dialog_edit_error">Σφάλμα: η τιμή δεν μπορεί να είναι υψηλότερη από τη χωρητικότητα της δεξαμενής ή χαμηλότερη από 1</string>
+    <string name="obd_fuel_dialog_edit_error2">Σφάλμα: δεν είναι έγκυρος αριθμός απόστασης!</string>
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">Δεν υπάρχουν σφάλματα DTC</string>
+    <string name="obd_dtc_dialog_title">Σφάλματα DTC</string>
+    <string name="obd_dtc_dialog_reset_errors">Επαναφορά Σφαλμάτων</string>
+    <string name="obd_dtc_dialog_error_options">Επιλογές Σφάλματος</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Παράβλεψη Σφάλματος:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Σφάλμα: Δεν είστε συνδεδεμένοι με την ECU!</string>
+    <!-- Service -->
+    <string name="obd_service_notification_title">Η Υπηρεσία Παρακολούθησης OBD Λειτουργεί</string>
+    <string name="obd_service_obd_connected">Συνδεδεμένο με το dongle!</string>
+    <string name="obd_service_obd_disconnected">Αποσυνδεδεμένο από το dongle!</string>
+    <!-- License -->
+    <string name="obd_license_title">Δοκιμαστική Λειτουργία OBD2</string>
+    <string name="obd_license_message">Η δοκιμαστική λειτουργία περιορίζεται σε 15 λεπτά ανά συνεδρία. Αγοράστε το Plugin OBD για να το ξεκλειδώσετε!</string>
+    <string name="obd_buy_button">Αγορά Plugin</string>
+
+    <!-- Roadbook -->
+    <!-- Settings -->
+    <string name="roadbook_settings_instrumets_cat_title">Ρυθμίσεις Οργάνων</string>
+    <string name="roadbook_settings_auto_start_title">Αυτόματη Εκκίνηση Οργάνων</string>
+    <string name="roadbook_settings_auto_start_message">Εκκινήστε όλες τις μετρήσεις (Play) κατά την είσοδο στην προβολή Roadbook</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Συνολική Απόσταση - Ένα Δεκαδικό Ψηφίο</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Θα εμφανίζει τη συνολική απόσταση με ένα δεκαδικό ψηφίο αντί για δύο</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Μερική Απόσταση - Ένα Δεκαδικό Ψηφίο</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Θα εμφανίζει τη μερική απόσταση με ένα δεκαδικό ψηφίο αντί για δύο</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Εμφάνιση Κουμπιών Ρύθμισης στην Οθόνη</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Θα εμφανίζει κουμπιά + και - για χειροκίνητη ρύθμιση της συνολικής και μερικής απόστασης</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Ρυθμίσεις Οπτικών</string>
+    <string name="roadbook_settings_invert_paper_color_title">Αντιστροφή Χρωμάτων PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Αντιστρέφει το χρώμα του χαρτιού, μπορεί να είναι χρήσιμο κατά την οδήγηση τη νύχτα.</string>
+    <string name="roadbook_settings_locker_cat_title">Ρυθμίσεις Κλειδώματος</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">Το Κλείδωμα Απενεργοποιεί Επίσης την Αφή του Χαρτιού</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Όταν το κλείδωμα είναι ενεργοποιημένο, οποιαδήποτε επαφή με το χαρτί αγνοείται. Αυτό βοηθά στην αποφυγή τυχαίων κινήσεων ή ενεργειών από σταγόνες βροχής.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Το Κλείδωμα Απενεργοποιεί Επίσης τα Όργανα</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Όταν το κλείδωμα είναι ενεργοποιημένο, οι ενέργειες αφής των οργάνων θα απενεργοποιούνται επίσης.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">Το Κλείδωμα Απενεργοποιεί Επίσης το Επάνω Μενού</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Όταν το κλείδωμα είναι ενεργοποιημένο, το επάνω μενού θα απενεργοποιηθεί επίσης και θα λειτουργεί μόνο το κουμπί κλειδώματος.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Συγχρονισμός Κλειδώματος με Αναπαραγωγή/Παύση</string>
+    <string name="roadbook_settings_locker_play_pause_message">Το κλείδωμα θα ενεργοποιήσει την αναπαραγωγή και το ξεκλείδωμα θα ενεργοποιήσει την παύση.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Ρυθμίσεις Προσαρμογών</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Συντελεστής Πολ/σμού Απόστασης</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Προσθέστε έναν συντελεστή διόρθωσης στη συνολική και μερική απόσταση (σε περίπτωση που χρειάζεται να ταιριάξετε με τις αποστάσεις του Roadbook)</string>
+    <string name="roadbook_settings_no_instruments_title">Απόκρυψη Πίνακα Οργάνων</string>
+    <string name="roadbook_settings_no_instruments_message">Εάν έχετε τα δικά σας αποκλειστικά όργανα και θέλετε να χρησιμοποιήσετε μόνο το PDF.</string>
+    <string name="roadbook_settings_reset_session_title">Επαναφορά Συνεδρίας</string>
+    <string name="roadbook_settings_reset_session_message">Απεγκατάσταση του τρέχοντος αρχείου PDF και επαναφορά όλων των στατιστικών και αποστάσεων.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Επιβεβαίωση Επαναφοράς</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Είστε βέβαιοι ότι θέλετε να επαναφέρετε την τρέχουσα πρόοδο; Αυτό απεγκαθιστά το τρέχον αρχείο PDF και επαναφέρει όλα τα στατιστικά και τις αποστάσεις!</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Επαναφορά</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Ρύθμιση Τηλεχειριστηρίου</string>
+    <string-array name="roadbook_controller_button_options" translatable="true">
+        <item>Μετακίνηση Χαρτιού Πάνω</item>
+        <item>Μετακίνηση Χαρτιού Κάτω</item>
+        <item>Αύξηση Συνολικής Απόστασης</item>
+        <item>Μείωση Συνολικής Απόστασης</item>
+        <item>Αύξηση Μερικής Απόστασης</item>
+        <item>Μείωση Μερικής Απόστασης</item>
+        <item>Επαναφορά Συνολικής Απόστασης</item>
+        <item>Επαναφορά Μερικής Απόστασης</item>
+        <item>Αντιστροφή Χρωμάτων Χαρτιού</item>
+        <item>Κλείδωμα / Ξεκλείδωμα</item>
+        <item>Αναπαραγωγή / Παύση</item>
+        <item>Εναλλαγή Χάρτη</item>
+        <item>Καμία Ενέργεια</item>
+    </string-array>
+    <string name="roadbook_controller_button_up">Πάνω Πλήκτρο</string>
+    <string name="roadbook_controller_button_down">Κάτω Πλήκτρο</string>
+    <string name="roadbook_controller_button_left">Αριστερό Πλήκτρο</string>
+    <string name="roadbook_controller_button_right">Δεξιό Πλήκτρο</string>
+    <string name="roadbook_controller_button_enter">Πλήκτρο Εισαγωγής</string>
+    <string name="roadbook_controller_button_enter_long">Πλήκτρο Εισαγωγής - Πατήστε το Πλήκτρο Μακρά Πατήστε (μόνο όταν είναι κλειδωμένο)</string>
+    <string name="roadbook_controller_button_right_long">Μακρά Πατήστε το Δεξιό Πλήκτρο</string>
+    <string name="roadbook_controller_button_left_long">Μακρά Πατήστε το Αριστερό Πλήκτρο (μόνο όταν είναι κλειδωμένο)</string>
+    <string name="roadbook_controller_button_zoomin">Πλήκτρο A</string>
+    <string name="roadbook_controller_button_zoomout">Πλήκτρο B</string>
+    <string name="roadbook_controller_switch_minus">Διακόπτης Μείον</string>
+    <string name="roadbook_controller_switch_plus">Διακόπτης Πλέον</string>
+    <string name="roadbook_controller_scroll_amount_title">Ποσότητα Μετακίνησης ανά Κλικ</string>
+    <string name="roadbook_controller_scroll_amount_message">Ρύθμιση της ποσότητας μετακίνησης για τη μετακίνηση του χαρτιού πάνω και κάτω</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Ενεργοποίηση Επανάληψης Πλήκτρων για Διακόπτη 2-Κατευθύνσεων</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Εάν ενεργοποιηθεί, ο διακόπτης δύο κατευθύνσεων θα επαναλαμβάνεται όταν τον κρατάτε πατημένο.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Ορισμός Ταχύτητας Επανάληψης για Διακόπτη 2-Κατευθύνσεων</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Ενεργοποίηση Επανάληψης Πλήκτρων για Joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Εάν ενεργοποιηθεί, τα πλήκτρα για Πάνω, Κάτω, Αριστερά, Δεξιά θα επαναλαμβάνονται όταν τα κρατάτε πατημένα.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Ορισμός Ταχύτητας Επανάληψης για Joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Ορισμός Ταχύτητας Επανάληψης για Πλήκτρα</string>
+    <string-array name="roadbook_controller_repeat" translatable="true">
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Ενεργοποίηση Επανάληψης Πλήκτρων για Πλήκτρα</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Εάν ενεργοποιηθεί, τα πλήκτρα για το Πλήκτρο A και το Πλήκτρο B θα επαναλαμβάνονται όταν τα κρατάτε πατημένα.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Μετακινήστε το χαρτί κάτω με ένα κλικ κατά την επαναφορά μερικής απόστασης</string>
+    <!-- Instrument On Tap Dialogs -->
+    <string name="roadbook_totals_dialog_title">Συνολική Απόσταση</string>
+    <string name="roadbook_totals_dialog_text">Παρακαλώ επιλέξτε μια επιλογή για το όργανο συνολικής απόστασης</string>
+    <string name="roadbook_partials_dialog_title">Μερική Απόσταση</string>
+    <string name="roadbook_partials_dialog_text">Παρακαλώ επιλέξτε μια επιλογή για το όργανο μερικής απόστασης</string>
+    <string name="roadbook_total_partial_dialog_reset">Επαναφορά</string>
+    <string name="roadbook_total_partial_dialog_edit">Επεξεργασία</string>
+    <string name="roadbook_total_edit_message_dialog">Επεξεργασία Συνολικής Απόστασης</string>
+    <string name="roadbook_partial_edit_message_dialog">Επεξεργασία Μερικής Απόστασης</string>
+    <!-- Instrument Selection Dialogs -->
+    <string name="roadbook_instrument_select_dialog_title">Επιλογή Οργάνου</string>
+    <!-- Instrument Names -->
+    <string name="roadbook_instrument_name_total">Συνολική Απόσταση</string>
+    <string name="roadbook_instrument_name_partial">Μερική Απόσταση</string>
+    <string name="roadbook_instrument_name_obd2">Αισθητήρας GPS/OBD2</string>
+    <!-- View -->
+    <string name="roadbook_password_dialog_title">Απαιτείται Κωδικός Πρόσβασης</string>
+    <string name="roadbook_password_dialog_message">Πληκτρολογήστε τον κωδικό πρόσβασης</string>
+    <string name="roadbook_password_dialog_unlock">Ξεκλείδωμα</string>
+    <string name="roadbook_error_not_ready">Η Υπηρεσία Roadbook δεν είναι ακόμα έτοιμη! Παρακαλώ δοκιμάστε ξανά.</string>
+    <string name="roadbook_error_no_action">Δεν υπάρχει ενέργεια για αυτό το όργανο.</string>
+    <string name="roadbook_stats_title">Στατιστικά</string>
+    <string name="roadbook_filename_label">Όνομα Αρχείου:</string>
+    <string name="roadbook_filename_no_file">Κανένα αρχείο δεν είναι φορτωμένο</string>
+    <string name="roadbook_totaltime_label">Συνολικός Χρόνος:</string>
+    <string name="roadbook_traveltime_label">Χρόνος Ταξιδιού:</string>
+    <string name="roadbook_stoptime_label">Χρόνος Στάσης:</string>
+    <string name="roadbook_avgspeed_label">Μέση Ταχύτητα:</string>
+    <string name="roadbook_maxspeed_label">Μέγιστη Ταχύτητα:</string>
+    <string name="roadbook_reset_stats_button">Επαναφορά</string>
+    <string name="roadbook_open_new_dialog_title">Άνοιγμα Νέου Αρχείου</string>
+    <string name="roadbook_open_new_dialog_message">Απόρριψη της τρέχουσας συνεδρίας και έναρξη νέας ή αποθήκευση της προόδου πρώτα για να μπορέσετε να την συνεχίσετε αργότερα;</string>
+    <string name="roadbook_open_new_dialog_open_button">Έναρξη Τώρα</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Αποθήκευση Πρώτα</string>
+    <string name="roadbook_open_parsing_error_title">Σφάλμα Ανοίγματος Αρχείου</string>
+    <string name="roadbook_open_parsing_error_message">Φαίνεται να υπάρχει πρόβλημα με την ανάγνωση αυτού του αρχείου PDF. Πιθανότατα δεν είναι συμβατό!</string>
+    <string name="roadbook_adjust_distance_multi">Συντελεστής Διόρθωσης Απόστασης:</string>
+    <string name="roadbook_open_file_or_session_title">Άνοιγμα Αρχείου ή Συνεδρίας</string>
+    <string name="roadbook_open_file_or_session_message">Εισαγωγή νέου αρχείου PDF ή άνοιγμα του Διαχειριστή Συνεδριών (διαχείριση προηγούμενων αποθηκευμένων συνεδριών);</string>
+    <string name="roadbook_open_file_or_session_new_file">Αρχείο</string>
+    <string name="roadbook_open_file_or_session_open_session">Συνεδρία</string>
+    <string name="roadbook_session_save_input_name">Δώστε όνομα σε αυτή τη συνεδρία</string>
+    <string name="roadbook_session_save_input_empty_name_error">Το όνομα της συνεδρίας δεν μπορεί να είναι κενό!</string>
+    <string name="roadbook_session_save_nothing_error">Δεν υπάρχει τίποτα για αποθήκευση! Ίσως να ξεκινήσετε ανοίγοντας ένα νέο αρχείο Roadbook.</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Αντικατάσταση ή Προσθήκη Νέας</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Θέλετε να αντικαταστήσετε την τρέχουσα συνεδρία ή να προσθέσετε μια νέα εγγραφή;</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Αντικατάσταση</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Νέα Εγγραφή</string>
+    <string name="roadbook_session_save_name_already_exists_title">Το Όνομα Συνεδρίας Υπάρχει Ήδη</string>
+    <string name="roadbook_session_save_name_already_exists_message">Μια συνεδρία με αυτό το όνομα υπάρχει ήδη, θέλετε να το αντικαταστήσετε ή να επεξεργαστείτε το όνομα;</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Αντικατάσταση</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Επεξεργασία Ονόματος</string>
+    <!-- Session Manager -->
+    <string name="roadbook_session_manager_title">Διαχειριστής Συνεδριών</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Δεν υπάρχουν αποθηκευμένες συνεδρίες ακόμα! Αποθηκεύστε μία πρώτα.</string>
+    <string name="roadbook_session_date">Ημερομηνία:</string>
+    <string name="roadbook_session_file_name">Αρχείο PDF:</string>
+    <string name="roadbook_session_total_distance">Συνολική Απόσταση:</string>
+    <string name="roadbook_session_total_time">Συνολικός Χρόνος:</string>
+    <string name="roadbook_session_travel_time">Χρόνος Ταξιδιού:</string>
+    <string name="roadbook_session_avg_speed">Μέση Ταχύτητα:</string>
+    <string name="roadbook_session_load_file">Φόρτωση</string>
+    <string name="roadbook_session_rename_file">Μετονομασία</string>
+    <string name="roadbook_session_location">Τοποθεσία</string>
+    <string name="roadbook_session_new_name">Επεξεργασία αυτού του ονόματος συνεδρίας</string>
+    <string name="roadbook_session_new_name_already_exists">Αυτό το όνομα συνεδρίας υπάρχει ήδη, παρακαλώ επιλέξτε κάτι άλλο.</string>
+    <string name="roadbook_session_file_does_not_exist">ΣΦΑΛΜΑ: Το αρχείο PDF για αυτή τη συνεδρία δεν υπάρχει πλέον!</string>
+    <string name="roadbook_session_load_confirmation_title">Επιβεβαίωση Φόρτωσης Συνεδρίας</string>
+    <string name="roadbook_session_load_confirmation_message">Είστε βέβαιοι ότι θέλετε να φορτώσετε αυτή τη συνεδρία; Οποιαδήποτε μη αποθηκευμένη πρόοδος Roadbook θα χαθεί!</string>
+    <!-- License -->
+    <string name="roadbook_license_title">Δοκιμαστική Λειτουργία Roadbook</string>
+    <string name="roadbook_license_message">Η δοκιμαστική λειτουργία περιορίζεται σε 15 λεπτά ανά συνεδρία. Αγοράστε το Plugin Roadbook για να το ξεκλειδώσετε!</string>
+    <string name="roadbook_buy_button">Αγορά Plugin</string>
+    <string name="roadbook_non_playstore_purchase_title">Αγορά Άδειας Χρήσης</string>
+    <string name="roadbook_non_playstore_purchase_message">Η συσκευή σας δεν έχει εγκατεστημένο το Play Store, μπορείτε ακόμα να αγοράσετε ένα κλειδί στον ιστότοπό μας και στη συνέχεια να το εισάγετε για να το ενεργοποιήσετε!</string>
+    <string name="roadbook_insert_key">Εισαγωγή Κλειδιού</string>
+    <string name="roadbook_purchase_key">Αγορά</string>
+    <string name="roadbook_insert_key_title">Παρακαλώ εισάγετε το κλειδί άδειας χρήσης σας για να ενεργοποιήσετε το plugin:</string>
+    <string name="roadbook_purchase_key_activate">Ενεργοποίηση</string>
+    <string name="roadbook_purchase_key_activate_error_title">Σφάλμα Ενεργοποίησης Άδειας Χρήσης</string>
+    <string name="roadbook_purchase_key_activate_error_message">Λάθος κωδικός άδειας ή ήδη ενεργοποιημένος σε άλλη συσκευή, ελέγξτε τις άδειες στη σελίδα λογαριασμού σας στο Thork Racing ή επικοινωνήστε με την υποστήριξη.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Η Άδεια Ενεργοποιήθηκε</string>
+    <string name="roadbook_purchase_key_activate_success_message">Το plugin είναι πλέον ενεργό! Ευχαριστούμε για την υποστήριξή σας.</string>
+
+    <!-- MAP VIEW -->
+    <string name="map_first_run_download_maps_title">Δεν έχουν Ληφθεί Χάρτες Ακόμα</string>
+    <string name="map_first_run_download_maps_message">Δεν έχετε κατεβάσει ακόμα κανένα αρχείο χάρτη. Θέλετε να το κάνετε τώρα;</string>
+    <string name="map_first_run_download_maps_starting_layers">Ξεκινώντας τον Διαχειριστή Στρωμάτων!</string>
+    <string name="map_navigation_selection_dialog_title">Επιλέξτε Λειτουργία Πλοήγησης</string>
+    <string name="map_navigation_selection_dialog_message">Χρησιμοποιήστε το DMD2 για να υπολογίσετε τη διαδρομή ή χρησιμοποιήστε μια εξωτερική εφαρμογή;</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">Χρησιμοποιήστε το DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Εξωτερική Εφαρμογή</string>
+    <string name="map_panning_mode_enable">Η Λειτουργία Πανοραμικής Απεικόνισης Ενεργοποιήθηκε</string>
+    <string name="map_lock_button_long_press_unlock">Πατήστε και κρατήστε πατημένο για να ξεκλειδώσετε!</string>
+    <!--Map Layers Manager-->
+    <string name="map_layers_dialog_title">Διαχειριστής Στρωμάτων Χάρτη</string>
+    <string name="map_layers_base_map_title">Πηγή Βασικού Χάρτη</string>
+    <string name="map_layers_base_map_description">Βασικά δεδομένα για έδαφος, δρόμους, κτίρια, διευθύνσεις και υψομετρικές διαφορές.</string>
+    <string name="map_layers_3D_buildings_title">3D Κτίρια</string>
+    <string name="map_layers_3D_buildings_description">Μετατρέπει τις περιοχές κτιρίων σε βασικά εξωθούμενα 3D σχήματα</string>
+    <string name="map_layers_scale_visibility_title">Κλίμακα &amp; Ορατότητα</string>
+    <string name="map_layers_scale_visibility_description">Προσαρμόστε την κλίμακα χάρτη, τις ετικέτες και τα σύμβολα και την ορατότητα</string>
+    <string name="map_layers_scale_map_layer_label">Κλίμακα Χάρτη</string>
+    <string name="map_layers_enable_layer_label">Ενεργοποίηση Στρώματος</string>
+    <string name="map_layers_enable_labels_layer_label">Ενεργοποίηση Ετικετών</string>
+    <string name="map_layers_scale_labels_layer_label">Κλίμακα Ετικετών</string>
+    <string name="map_layers_enable_symbols_layer_label">Ενεργοποίηση Συμβόλων</string>
+    <string name="map_layers_scale_symbols_layer_label">Κλίμακα Συμβόλων</string>
+    <string name="map_layers_location_title">Εικονίδιο Τοποθεσίας</string>
+    <string name="map_layers_location_description">Προσαρμόστε το τρέχον εικονίδιο τοποθεσίας</string>
+    <string name="map_layers_icon_scale">Κλίμακα Εικονιδίου</string>
+    <string name="map_layers_icon_show_accuracy_range">Εμφάνιση Εύρους Ακρίβειας</string>
+    <string name="map_layers_hillshading_enable_shadows_label">Ενεργοποίηση Σκιών</string>
+    <string name="map_layers_map_base_download_more">Λήψη Χαρτών</string>
+    <string name="map_layers_map_base_title">Επιλογή Χαρτών για Φόρτωση</string>
+    <string name="map_layers_map_base_file_missing">Σφάλμα: Τα αρχεία χάρτη λείπουν, παρακαλώ κατεβάστε τα ξανά!</string>
+    <string name="map_layers_map_base_no_map_yet">Δεν έχουν ληφθεί χάρτες ακόμα, κάντε κλικ στο Λήψη Χαρτών για να κατεβάσετε!</string>
+    <string name="map_layers_downloader_region_title">Επιλογή Περιοχής</string>
+    <string name="map_layers_downloader_map_title">Επιλογή Χάρτη</string>
+    <string name="map_layers_downloader_country_downloaded_label">Λήφθηκε:</string>
+    <string name="map_layers_downloader_country_date_label">Τελευταία Ενημέρωση:</string>
+    <string name="map_layers_downloader_country_size_label">Μέγεθος:</string>
+    <string name="map_layers_downloader_country_region_label">Περιοχή:</string>
+    <string name="map_layers_downloader_country_filename_label">Όνομα Αρχείου:</string>
+    <string name="map_layers_downloader_country_loaded_label">Φόρτωση Χάρτη:</string>
+    <string name="map_layers_downloader_no_update_label">Καμία Ενημέρωση</string>
+    <string name="map_layers_downloader_notification_title">Λήψη DMD2</string>
+    <string name="map_layers_downloader_wait_until_finished">Παρακαλώ περιμένετε μέχρι να ολοκληρωθεί η λήψη!</string>
+    <string name="map_layers_downloader_cant_connect">Δεν είναι δυνατή η σύνδεση με τον διακομιστή, δοκιμάστε ξανά αργότερα!</string>
+    <string name="map_layers_downloader_not_enough_space">Δεν υπάρχει αρκετός χώρος αποθήκευσης!</string>
+    <string name="map_layers_poi_highlight_title">Επισήμανση Εικονιδίων POI</string>
+    <string name="map_layers_poi_highlight_description">Ρυθμίστε τα εικονίδια POI να εμφανίζονται σε χαμηλότερα επίπεδα ζουμ (μέγιστο ζουμ 500μ) (τα καύσιμα/νοσοκομεία/κορυφές είναι πάντα ενεργοποιημένα).</string>
+    <string name="map_layers_poi_fuel">Καύσιμα</string>
+    <string name="map_layers_poi_hospital">Νοσοκομείο</string>
+    <string name="map_layers_poi_peaks">Κορυφές</string>
+    <string name="map_layers_poi_parking">Στάθμευση</string>
+    <string name="map_layers_poi_restaurant">Εστιατόριο</string>
+    <string name="map_layers_poi_cafe">Καφετέρια</string>
+    <string name="map_layers_poi_pub">Παμπ</string>
+    <string name="map_layers_poi_cafe_and_Pub">Καφετέρια &amp; Παμπ</string>
+    <string name="map_layers_poi_hotel">Ξενοδοχείο</string>
+    <string name="map_layers_poi_hostel">Ξενώνας</string>
+    <string name="map_layers_poi_accommodation">Διαμονή</string>
+    <string name="map_layers_poi_camping">Κατασκήνωση</string>
+    <string name="map_layers_poi_supermarket">Σούπερ Μάρκετ</string>
+    <string name="map_layers_poi_attraction">Αξιοθέατο</string>
+    <string name="map_layers_poi_view_point">Σημείο Θέασης</string>
+    <string name="map_layers_poi_historic">Ιστορικό</string>
+    <string name="map_layers_poi_natural">Φυσικό</string>
+    <string name="map_layers_poi_parking_place">Χώρος Στάθμευσης</string>
+    <string name="map_layers_poi_car_repair">Επισκευή Αυτοκινήτου</string>
+    <string name="map_layers_poi_monument">Μνημείο</string>
+    <string name="map_layers_poi_atm">ATM</string>
+    <string name="map_layers_poi_bank">Τράπεζα</string>
+    <string name="map_layers_poi_gas">Βενζινάδικο</string>
+    <string name="map_layers_poi_water">Πόσιμο Νερό</string>
+    <string name="map_layers_poi_rv_park">Χώρος Στάθμευσης RV</string>
+    <string name="map_layers_poi_border_control">Έλεγχος Συνόρων</string>
+    <string name="map_layers_poi_moto_repair">Επισκευή Μοτοσικλέτας</string>
+    <string name="map_layers_theme_title">Τύπος &amp; Στυλ Χάρτη</string>
+    <string name="map_layers_theme_description">Επιλέξτε τον προεπιλεγμένο ελάχιστο και καθαρό τύπο χάρτη ή έναν πιο λεπτομερή τοπογραφικό τύπο για off-road. Επίσης ρυθμίστε τους χρωματικούς τρόπους φωτεινότητας και σκοτεινότητας.</string>
+    <string name="map_layers_map_type_default_title">Προεπιλεγμένο Ελάχιστο</string>
+    <string name="map_layers_map_type_topo_title">Τοπογραφικός Off-Road</string>
+    <string name="map_layers_map_type_light_or_dark">Λειτουργία Φωτός / Σκοτεινού:</string>
+    <string name="map_layers_map_type_always_light">Φωτεινό</string>
+    <string name="map_layers_map_type_always_dark">Σκοτεινό</string>
+    <string name="map_layers_map_type_follow_theme">Θέμα</string>
+    <string name="map_layers_map_type_light_sensor">Αισθητήρας</string>
+    <string name="map_layers_topo_advanced_title">Προηγμένες Επιλογές Τοπογραφικού</string>
+    <string name="map_layers_topo_advanced_description">Προσαρμογή λεπτομερειών του τοπογραφικού χάρτη για off-road</string>
+    <string name="map_layers_topo_high_contrast_mode">Λειτουργία Υψηλής Αντίθεσης</string>
+    <string name="map_layers_topo_options_altitude_line">Εμφάνιση Υψομετρικών Γραμμών</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Επισήμανση Μη Στρωμένων (ορατό σε χαμηλό ζουμ)</string>
+    <string name="map_layers_topo_options_show_motorway">Εμφάνιση Αυτοκινητοδρόμων</string>
+    <string name="map_layers_topo_options_show_primary">Εμφάνιση Κύριων Δρόμων</string>
+    <string name="map_layers_topo_options_show_secondary">Εμφάνιση Δευτερευόντων Δρόμων</string>
+    <string name="map_layers_reset">Όλες οι ρυθμίσεις επανήλθαν στις προεπιλεγμένες!</string>
+    <string name="map_layers_hillshading_title">Σκίαση Λόφων (online)</string>
+    <string name="map_layers_hillshading_description">Δείχνει το τοπογραφικό σχήμα των λόφων και των βουνών χρησιμοποιώντας σκίαση</string>
+    <string name="map_layers_hillshading_transparency">Διαφάνεια</string>
+    <string name="map_layers_routing_title">Διεπαφή Δρομολόγησης</string>
+    <string name="map_layers_routing_description">Προσαρμόστε το πλάτος της υπολογισμένης διαδρομής στον χάρτη</string>
+    <string name="map_layers_routing_width_line">Πλάτος Γραμμής</string>
+    <string name="map_layers_routing_transparency_line">Διαφάνεια Γραμμής</string>
+    <string name="map_layers_routing_pins_size">Μέγεθος Ενδείξεων</string>
+    <!--GPX Manager-->
+    <string name="gpx_manager_track_start">Έναρξη!</string>
+    <string name="gpx_manager_track_end">Τέλος!</string>
+    <string name="gpx_manager_load_error_title">Σφάλμα Φόρτωσης GPX</string>
+    <string name="gpx_manager_load_error_message">Σφάλμα κατά τη φόρτωση του αρχείου GPX. Το DMD2 δεν θα προσπαθήσει να το φορτώσει ξανά. Παρακαλώ δοκιμάστε άλλο αρχείο!</string>
+    <string name="gpx_manager_title">Διαχειριστής GPX</string>
+    <string name="gpx_manager_load_file">Φόρτωση Αρχείου</string>
+    <string name="gpx_manager_no_file_loaded">Δεν έχει φορτωθεί κανένα αρχείο. Πατήστε Φόρτωση Αρχείου.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Επαναφόρτωση Αρχείων. Παρακαλώ περιμένετε.</string>
+    <string name="gpx_manager_tracks">Διαδρομές</string>
+    <string name="gpx_manager_routes">Διαδρομές</string>
+    <string name="gpx_manager_waypoints">Σημεία Ενδιαφέροντος (Waypoints)</string>
+    <string name="gpx_manager_center_map_button">Κεντράρισμα Χάρτη</string>
+    <string name="gpx_manager_settings_title">Ρυθμίσεις GPX</string>
+    <string name="gpx_manager_settings_visibility_title">Εμφάνιση ή Απόκρυψη</string>
+    <string name="gpx_manager_settings_visibility_message">Εμφάνιση ή απόκρυψη στοιχείων GPX (για όλα τα αρχεία). Αυτή η επιλογή υπερισχύει των μεμονωμένων ρυθμίσεων αρχείου.</string>
+    <string name="gpx_manager_settings_tracks_visibility">Εμφάνιση Όλων των Ενεργοποιημένων Διαδρομών GPX</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Εμφάνιση Βελών Κατεύθυνσης Διαδρομής</string>
+    <string name="gpx_manager_settings_waypoints_visibility">Εμφάνιση Όλων των Ενεργοποιημένων Σημείων Ενδιαφέροντος</string>
+    <string name="gpx_manager_settings_waypoints_titles">Εμφάνιση Τίτλων Σημείων Ενδιαφέροντος</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Απόκρυψη Σημείων Ενδιαφέροντος σε Χαμηλό Ζουμ</string>
+    <string name="gpx_manager_settings_style_title">Μέγεθος &amp; Διαφάνεια</string>
+    <string name="gpx_manager_settings_style_message">Ρυθμίστε τα προεπιλεγμένα μεγέθη και τη διαφάνεια των στοιχείων GPX</string>
+    <string name="gpx_manager_settings_defaults_title">Προεπιλογές Χρώματος</string>
+    <string name="gpx_manager_settings_defaults_message">Προεπιλεγμένο χρώμα γραμμής διαδρομής και παρακάμψεις χρωμάτων</string>
+    <string name="gpx_manager_settings_track_width">Πλάτος Γραμμής Διαδρομής</string>
+    <string name="gpx_manager_settings_track_transparency">Διαφάνεια Γραμμής</string>
+    <string name="gpx_manager_settings_arrow_size">Μέγεθος Βέλους Κατεύθυνσης</string>
+    <string name="gpx_manager_settings_waypoint_size">Μέγεθος Ενδείξεων Σημείων Ενδιαφέροντος</string>
+    <string name="gpx_manager_settings_hide_all">Απόκρυψη Όλων</string>
+    <string name="gpx_manager_settings_show_all">Εμφάνιση Όλων</string>
+    <string name="gpx_manager_settings_delete_all">Διαγραφή Όλων</string>
+    <string name="gpx_manager_settings_default_track_color">Προεπιλεγμένο χρώμα γραμμής διαδρομής (όταν δεν έχει οριστεί χρώμα από το χρήστη):</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Παράκαμψη όλων των χρωμάτων που έχουν οριστεί στα αρχεία με το προεπιλεγμένο χρώμα:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Παράκαμψη όλων των χρωμάτων που έχουν οριστεί από το χρήστη με το προεπιλεγμένο χρώμα:</string>
+    <string name="gpx_manager_settings_load_poi_title">Αυτόματη Φόρτωση Σημείων Ενδιαφέροντος (POI)</string>
+    <string name="gpx_manager_settings_load_poi_message">Αυτόματη φόρτωση POI κατά μήκος της διαδρομής μέχρι 3 κατηγορίες</string>
+    <string name="gpx_manager_settings_load_poi_enable_label">Ενεργοποίηση αυτόματης φόρτωσης POI κατά μήκος της διαδρομής:</string>
+    <string name="gpx_manager_settings_poi_cat_select_cats">Επιλογή κατηγοριών POI για φόρτωση:</string>
+    <string name="gpx_manager_settings_closest_point_title">Γραμμή μέχρι το Πλησιέστερο Σημείο</string>
+    <string name="gpx_manager_settings_closest_point_desc">Σχεδιάζει μια ευθεία γραμμή μεταξύ της θέσης σας και του πλησιέστερου σημείου της διαδρομής - αν βρίσκεστε πάνω από 200μ μακριά από τη διαδρομή και η διαδρομή είναι σε απόσταση 5Km.</string>
+    <string name="gpx_manager_settings_closest_point_label">Ενεργοποίηση Γραμμής</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Αυτόματη Δημιουργία Σημείων Ενδιαφέροντος (Waypoint)</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Αυτόματα δημιουργούμενα Waypoint βάσει απόστασης</string>
+    <string name="gpx_manager_settings_start_end">Εμφάνιση Σημείων Έναρξης και Τέλους Διαδρομής</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Ενεργοποίηση Σημείου Waypoint Απόστασης Διαδρομής</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Διαλειμματική Απόσταση</string>
+    <string-array name="gpx_manager_settings_auto_waypoint_distance_entries">
+        <item>5Km / 5Mi</item>
+        <item>10Km / 10Mi</item>
+        <item>25Km / 25Mi</item>
+        <item>50Km / 50Mi</item>
+        <item>100Km / 100Mi</item>
+        <item>250Km / 250Mi</item>
+    </string-array>
+    <string name="gpx_manager_no_tracks_warning">Το επιλεγμένο αρχείο GPX δεν περιέχει καμία διαδρομή!</string>
+    <string name="gpx_manager_no_routes_warning">Το επιλεγμένο αρχείο GPX δεν περιέχει καμία διαδρομή!</string>
+    <string name="gpx_manager_track_manager_title">Διαχειριστής Διαδρομών</string>
+    <string name="gpx_manager_track_manager_no_description">Δεν υπάρχει περιγραφή διαδρομής διαθέσιμη.</string>
+    <string name="gpx_manager_track_manager_track_length">Μήκος Διαδρομής</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Πλοήγηση στην Έναρξη / Τέλος</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Πλοήγηση σε Σημείο Διαδρομής</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Επιλέξτε σε ποιο σημείο της διαδρομής θέλετε να πλοηγηθείτε.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Έναρξη Διαδρομής</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Πλησιέστερο Σημείο</string>
+    <string name="gpx_manager_track_manager_navigate_end">Τέλος Διαδρομής</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Πλοήγηση στο Πλησιέστερο Σημείο</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Ορισμός Προφίλ</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Παρακαλώ σημειώστε ότι αυτή η λειτουργία είναι πολύ απαιτητική και αργή. Το αποτέλεσμα μπορεί επίσης να μην είναι απόλυτα σύμφωνο με την αρχική διαδρομή! Χρησιμοποιήστε με προσοχή.</string>
+    <string name="gpx_manager_track_manager_select_nav_app">Επιλογή Εφαρμογής Πλοήγησης</string>
+    <string name="gpx_manager_track_manager_poi_search">Αναζήτηση POI</string>
+    <string name="gpx_manager_no_waypoint_warning">Το επιλεγμένο αρχείο GPX δεν περιέχει κανένα σημείο διαδρομής (waypoints)!</string>
+    <string name="gpx_manager_waypoints_manager_title">Διαχειριστής Σημείων Διαδρομής (Waypoints)</string>
+    <string name="gpx_manager_waypoints_navigate_to">Πλοήγηση Προς</string>
+    <string name="gpx_manager_waypoints_share_location">Κοινοποίηση Τοποθεσίας</string>
+    <string name="gpx_manager_waypoints_search_at_location">Αναζήτηση Κοντά</string>
+    <string name="gpx_manager_waypoint_no_description">Δεν υπάρχει διαθέσιμη περιγραφή σημείου διαδρομής.</string>
+    <string name="gpx_manager_waypoint_straight_line_distance">Απόσταση Ευθείας Γραμμής</string>
+    <string name="gpx_manager_waypoint_distance_on_track">Απόσταση από εσάς</string>
+    <string name="gpx_manager_waypoint_distance_more">Απόσταση Σημείου Διαδρομής</string>
+    <string name="gpx_manager_waypoint_distance_from_track_start">Απόσταση από την αρχή της διαδρομής</string>
+    <string name="gpx_manager_waypoint_not_on_track">Πρέπει να είστε στην ίδια GPX διαδρομή για να δείτε πληροφορίες αποστάσεων.</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Αναμονή για GPS σήμα</string>
+    <string name="gpx_manager_waypoint_share_app">Επιλέξτε εφαρμογή για κοινοποίηση</string>
+    <string name="gpx_manager_gpx_loading_message">Φόρτωση GPX αρχείου</string>
+    <string name="gpx_manager_poi_loading_message">Φόρτωση αναζήτησης POI διαδρομής, αυτό μπορεί να πάρει λίγο χρόνο...</string>
+    <string name="gpx_manager_poi_busy_message">Απασχολημένο με την επεξεργασία POI, θα συνεχιστεί μετά από αυτό!</string>
+    <string name="gpx_manager_advanced_title">Προχωρημένες Επιλογές</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Αντιστροφή Κατεύθυνσης</string>
+    <string name="gpx_manager_advanced_convert_to_route">Προσπάθεια μετατροπής του πλήρους αρχείου σε πλοήγηση:</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">Αυτό το GPX αρχείο δεν περιέχει καμία διαδρομή!</string>
+    <string name="gpx_warnings_setting">Προειδοποιήσεις Προόδου</string>
+    <string name="gpx_warnings_setting_desc">Ενεργοποίηση προειδοποίησης για απόκλιση από τη διαδρομή και λάθος κατεύθυνση.</string>
+    <string name="gpx_warning_wrong_direction">Λάθος Κατεύθυνση!</string>
+    <string name="gpx_warning_turn_around">Στρέψτε Πίσω!</string>
+    <string name="gpx_warning_away_from_track">Μακριά από τη Διαδρομή!</string>
+    <string name="gpx_warning_correct_direction">Επιστροφή στη Γραμμή!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Εμφάνιση Προειδοποίησης Λάθος Κατεύθυνσης</string>
+    <string name="gpx_warning_show_away_from_track_option">Εμφάνιση Προειδοποίησης Μακριά από τη Διαδρομή</string>
+    <string name="gpx_warning_show_screen_flash">Χρήση Αναβοσβήνισης Οθόνης</string>
+    <string name="gpx_warning_play_voice_warning">Αναπαραγωγή Φωνητικής Προειδοποίησης</string>
+
+    <!-- Map Press Actions -->
+    <string name="map_long_press_point_title">Ενέργειες Με Παρατεταμένο Πάτημα Χάρτη</string>
+    <string name="map_long_press_point_no_info">Δεν υπάρχουν πληροφορίες για αυτό το σημείο!</string>
+    <string name="map_long_press_point_close_to">σε</string>
+    <string name="map_long_press_point_nearest_city">η πλησιέστερη πόλη είναι</string>
+    <string name="map_long_press_point_navigate">Πλοήγηση</string>
+    <string name="map_long_press_point_share">Κοινοποίηση</string>
+    <string name="map_long_press_search_poi">Αναζήτηση POI</string>
+    <string name="map_long_press_online_weather">Καιρός Online</string>
+    <string name="map_long_press_online_weather_no_info">Δεν υπάρχουν πληροφορίες για αυτό το σημείο!</string>
+    <!-- License -->
+    <string name="map_license_title">Λειτουργία Επίδειξης Χάρτη</string>
+    <string name="map_license_message">Η λειτουργία επίδειξης περιορίζεται σε 15 λεπτά ανά συνεδρία. Αγοράστε το πρόσθετο Χάρτη για ξεκλείδωμα!</string>
+    <string name="map_buy_button">Αγορά Προσθήκης</string>
+    <string name="map_buy_dialog_title">Αγορά Προσθήκης Χάρτη</string>
+    <string name="map_buy_dialog_message1">Επιλέξτε διάρκεια συνδρομής.</string>
+    <string name="map_buy_dialog_message2">Συνδρομή 12 Μηνών</string>
+    <string name="map_buy_dialog_message3">Αγορά Δια Βίου</string>
+    <string name="map_buy_dialog_message4">Συνδρομή 6 Μηνών</string>
+    <string name="map_buy_button_12_month">12 Μήνες</string>
+    <string name="map_buy_button_6_month">6 Μήνες</string>
+    <string name="map_buy_button_lifetime">Δια Βίου</string>
+    <string name="license_limitation_message">Αυτή η επιλογή είναι διαθέσιμη μόνο για αδειοδοτημένους χρήστες!</string>
+    <!-- Map Settings -->
+    <string name="map_settings_auto_zoom_cat_title">Αυτόματη Εστίαση &amp; Κλίση</string>
+    <string name="map_settings_auto_zoom_title">Ενεργοποίηση αυτόματης εστίασης</string>
+    <string name="map_settings_auto_tilt_title">Ενεργοποίηση αυτόματης κλίσης</string>
+    <string name="map_settings_auto_nav_only">Αυτόματη λειτουργία μόνο σε ενεργή πλοήγηση</string>
+    <string name="map_settings_ui_cat_title">Επιλογές Διεπαφής</string>
+    <string name="map_settings_ui_enable_track_progress">Ενεργοποίηση κουτιού πληροφοριών προόδου διαδρομής</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Θα εμφανίζεται ένα κουτί στην πλευρά της οθόνης με την πρόοδο της διαδρομής και τις αποστάσεις από τα επόμενα POI και Waypoints.</string>
+    <string name="map_settings_ui_enable_street_name">Εμφάνιση ονόματος δρόμου</string>
+    <string name="map_settings_ui_enable_street_name_summary">Εμφανίζει το όνομα του τρέχοντος δρόμου στο κάτω μέρος του χάρτη</string>
+    <string name="reverse_geo_unnamed_road">Ανώνυμος Δρόμος</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Απενεργοποίηση αφής χάρτη όταν είναι κλειδωμένος</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Ιδιαίτερα χρήσιμο αν έχετε χειριστήριο, απενεργοποιεί την όλη αφή της οθόνης</string>
+    <string name="map_settings_ui_lock_on_move_title">Αυτόματο κλείδωμα κατά την κίνηση</string>
+    <string name="map_settings_ui_lock_on_move_message">Ο χάρτης θα κλειδώσει αυτόματα τη διεπαφή όταν αρχίσετε να κινείστε</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Αυτόματο ξεκλείδωμα όταν σταματήσετε</string>
+    <string name="map_settings_ui_unlock_on_stop_message">Ο χάρτης θα ξεκλειδώσει αυτόματα τη διεπαφή όταν σταματήσετε να κινείστε</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Απόκρυψη τίτλων widgets</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Αποκρύπτει τους τίτλους των widgets για να αυξήσει το μέγεθος της ετικέτας τιμής</string>
+    <string name="map_settings_language_cat_title">Γλώσσα Χάρτη</string>
+    <string name="map_settings_language_load_mode_title">Γλώσσα Χάρτη</string>
+    <string-array name="map_settings_language_load_mode_entries" translatable="true">
+        <item>Τοπική Γλώσσα Χάρτη</item>
+        <item>Αγγλικά ή διαθέσιμο λατινικό αλφάβητο</item>
+        <item>Γαλλικά > Αγγλικά ή διαθέσιμο λατινικό αλφάβητο</item>
+        <item>Γερμανικά > Αγγλικά ή διαθέσιμο λατινικό αλφάβητο</item>
+    </string-array>
+    <string name="map_settings_navigation_cat_title">Πλοήγηση</string>
+    <string name="map_settings_navigation_start_ask_title">Πλοήγηση Προς: Ερώτηση για χρήση DMD2 ή Εξωτερικής</string>
+    <string name="map_settings_navigation_start_ask_message">Αν είναι ενεργοποιημένο, το DMD2 θα ρωτήσει αν θέλετε να χρησιμοποιήσετε το DMD2 ή μια άλλη εφαρμογή. Αν είναι απενεργοποιημένο, προεπιλέγει το DMD2.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Ενεργοποίηση Φωνητικών Οδηγιών</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Θα χρησιμοποιεί Μετατροπή Κειμένου σε Ομιλία για να παρέχει φωνητικές οδηγίες για την πλοήγηση.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Εμφάνιση Waypoints στον Χάρτη</string>
+    <string name="map_settings_navigation_show_waypoints_message">Θα εμφανίζει το waypoint της διαδρομής στον χάρτη.</string>
+    <string name="map_settings_navigation_recalculation_distance">Απόσταση αυτόματης επανυπολογισμού διαδρομής</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50μ</item>
+        <item>100μ</item>
+        <item>150μ</item>
+        <item>250μ</item>
+        <item>500μ</item>
+        <item>1χλμ</item>
+        <item>Ποτέ</item>
+    </string-array>
+    <string name="map_settings_controller_cat_title">Ρυθμίσεις Χειριστηρίου</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Απενεργοποίηση Στόχου Λειτουργίας Σάρωσης</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Απενεργοποιεί τις νέες ενέργειες στόχου λειτουργίας σάρωσης</string>
+    <string name="map_settings_follow_cat_title">Λειτουργίες Παρακολούθησης Τοποθεσίας</string>
+    <string name="map_settings_follow_north_oriented">Προσανατολισμένο στον Βορρά</string>
+    <string name="map_settings_follow_north_oriented_summary">Παρακολουθεί την τοποθεσία με σταθερό προσανατολισμό χάρτη στον βορρά</string>
+    <string name="map_settings_follow_north_oriented_track">Προσανατολισμένο στον Βορρά "Τ"- Εστίαση στην Ενεργή Διαδρομή ή Πλοήγηση</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Όπως το Προσανατολισμένο στον Βορρά, αλλά με εστίαση στην ενεργή διαδρομή ή πλοήγηση</string>
+    <string name="map_settings_follow_north_oriented_file">Προσανατολισμένο στον Βορρά "F"- Εστίαση στο Ενεργό GPX ή Πλοήγηση</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Όπως το Προσανατολισμένο στον Βορρά, αλλά με εστίαση στο πλήρες ενεργό αρχείο GPX ή πλοήγηση</string>
+    <string name="map_settings_follow_north_next_indication">Προσανατολισμένο στον Βορρά "N"- Επόμενο Waypoint / Ένδειξη</string>
+    <string name="map_settings_follow_north_next_indication_summary">Όπως το Προσανατολισμένο στον Βορρά, αλλά με εστίαση στην τοποθεσία σας και το επόμενο Waypoint ή Ένδειξη Πλοήγησης</string>
+    <string name="map_settings_follow_travel_oriented">Προσανατολισμένο στην Κίνηση</string>
+    <string name="map_settings_follow_travel_oriented_summary">Παρακολουθεί την τοποθεσία με περιστροφή χάρτη έτσι ώστε η κορυφή να ταιριάζει με την κατεύθυνση της κίνησής σας</string>
+    <!-- Poi Search -->
+    <string name="map_poi_search_manager">Αναζήτηση Τοποθεσίας</string>
+    <string name="map_poi_search_call">Κλήση</string>
+    <string name="map_poi_type_name">Πληκτρολογήστε Όνομα</string>
+    <string name="map_poi_error_no_offline_map_loaded">Σφάλμα: δεν έχει φορτωθεί ακόμα χάρτης! Κατεβάστε πρώτα τους offline χάρτες.</string>
+    <string name="map_poi_error_no_poi_found">Σφάλμα: δεν βρέθηκαν POI!</string>
+    <string name="map_poi_search_more">Αναζήτηση Online</string>
+    <string name="map_poi_no_phone_available_error">Δεν υπάρχει διαθέσιμος αριθμός τηλεφώνου</string>
+    <string name="map_poi_no_phone_app_available_error">Δεν υπάρχει διαθέσιμη εφαρμογή τηλεφώνου</string>
+    <string name="map_poi_no_address">Δεν υπάρχει διαθέσιμη διεύθυνση</string>
+    <string name="map_poi_no_phone">Δεν υπάρχει διαθέσιμος αριθμός τηλεφώνου</string>
+    <string name="map_poi_no_website">Δεν υπάρχει διαθέσιμος ιστότοπος</string>
+    <string name="map_poi_no_opening_hours">Δεν υπάρχουν διαθέσιμες ώρες λειτουργίας</string>
+    <string name="map_poi_search_dialog_title">Αναζήτηση POI Με Όνομα</string>
+    <string name="map_poi_search_button">Αναζήτηση</string>
+    <string name="map_poi_coordinates">Συντεταγμένες</string>
+    <string name="map_poi_insert_coordinates">Εισάγετε Συντεταγμένες</string>
+    <string name="map_poi_insert_coordinates_example">Παράδειγμα- (DD): 41.193376, -8.298463 ή (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Οι συντεταγμένες δεν είναι έγκυρες!</string>
+    <string name="map_poi_not_a_valid_keyword">Μη έγκυρη αναζήτηση!</string>
+    <string name="map_poi_no_valid_location_yet">Δεν υπάρχει ακόμα GPS τοποθεσία! Παρακαλώ δοκιμάστε ξανά αργότερα.</string>
+    <string name="map_poi_distance_long_press_no_fix">Δεν υπάρχει διαθέσιμη απόσταση, δεν υπάρχει ακόμα GPS σήμα.</string>
+    <string name="map_poi_show_pin_for_location">Φόρτωση Αναζήτησης POI για τοποθεσία PIN</string>
+    <string name="map_poi_search_name">Αναζήτηση Offline</string>
+    <string name="map_poi_cat_fuel">Βενζινάδικο</string>
+    <string name="map_poi_cat_accommodation">Διαμονή</string>
+    <string name="map_poi_cat_restaurants">Εστιατόρια</string>
+    <string name="map_poi_cat_cafe">Καφέ, Παμπ &amp; Μπαρ</string>
+    <string name="map_poi_cat_shop">Κατάστημα &amp; Αγορά</string>
+    <string name="map_poi_cat_moto_repair">Επισκευή Μοτοσικλέτας</string>
+    <string name="map_poi_cat_car_repair">Επισκευή Αυτοκινήτου</string>
+    <string name="map_poi_cat_parking">Χώρος Στάθμευσης</string>
+    <string name="map_poi_cat_rental">Ενοικίαση, Πλύσιμο &amp; Φόρτιση</string>
+    <string name="map_poi_cat_money">Τράπεζα &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Νερό</string>
+    <string name="map_poi_cat_camping">Κάμπινγκ &amp; Τροχόσπιτο</string>
+    <string name="map_poi_cat_recreation">Αναψυχή</string>
+    <string name="map_poi_cat_natural_places">Φυσικά Τοπία</string>
+    <string name="map_poi_cat_hospital">Νοσοκομείο</string>
+    <string name="map_poi_cat_pharmacy">Φαρμακείο</string>
+    <string name="map_poi_cat_tourism">Τουρισμός</string>
+    <string name="map_poi_cat_historic">Ιστορικά Μέρη</string>
+    <string name="map_poi_cat_pub_transport">Δημόσιες Συγκοινωνίες</string>
+    <string name="map_poi_cat_pub_entertainment">Διασκέδαση</string>
+    <string name="map_poi_cat_pub_government">Κυβέρνηση</string>
+    <string name="map_poi_cat_pub_cities">Πόλεις, Κωμοπόλεις &amp; Χωριά</string>
+    <string name="map_poi_cat_pub_communications">Επικοινωνίες</string>
+    <!-- Track Tap -->
+    <string name="map_map_track_tap_dialog_title">Πάτημα Σημείου Διαδρομής</string>
+    <string name="map_map_track_tap_track_details">Λεπτομέρειες Διαδρομής</string>
+    <string name="map_map_track_tap_track_point_distances">Αποστάσεις σημείου:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Απόσταση &amp; χρόνος μέχρι τη θέση σας:</string>
+    <string name="map_map_track_tap_on_track">Είστε σε αυτήν τη διαδρομή!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">Είστε σε άλλη διαδρομή.</string>
+    <string name="map_map_track_tap_not_on_gpx">Δεν είστε σε αυτήν τη διαδρομή ή σε οποιαδήποτε άλλη ενεργή διαδρομή στο ίδιο GPX αρχείο.</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Αρχή Διαδρομής:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Τέλος Διαδρομής:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">Αρχή GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">Τέλος GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Απόσταση:</string>
+    <string name="map_map_track_tap_point_time_to_you">Χρόνος Ταξιδιού:</string>
+    <string name="map_map_track_tap_point_behind">πίσω</string>
+    <string name="map_map_track_tap_point_ahead">μπροστά</string>
+    <string name="map_map_track_tap_distance_to_another_point">Λήψη απόστασης από άλλο σημείο</string>
+    <string name="map_map_track_tap_points_distance_title">Απόσταση Σημείων</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Πατήστε άλλο σημείο για να λάβετε την απόσταση μεταξύ σημείων</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Παρακαλώ επιλέξτε ένα σημείο που είναι μέρος του ίδιου αρχείου GPX!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Και τα δύο επιλεγμένα σημεία είναι στην ίδια διαδρομή GPX</string>
+    <string name="map_map_track_tap_points_distance_different_track">Τα σημεία δεν είναι στην ίδια διαδρομή GPX αλλά οι διαδρομές συνδέονται</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Δεν μπορεί να μετρηθεί σε διαφορετικές διαδρομές με πολλαπλές συνδέσεις!</string>
+    <!-- Left Panel Progress -->
+    <string name="map_ui_left_progress_panel_finish_label">Τέλος:</string>
+    <!-- Route Planner -->
+    <string name="map_route_planner_dialog_root_title">Προγραμματιστής Διαδρομής</string>
+    <string name="map_route_planner_road_fast">Γρήγορη Διαδρομή</string>
+    <string name="map_route_planner_road_fun">Διασκεδαστική Διαδρομή</string>
+    <string name="map_route_planner_offroad">Εκτός Δρόμου</string>
+    <string name="map_route_planner_avoid_tolls">Αποφυγή Διοδίων</string>
+    <string name="map_route_planner_avoid_motorways">Αποφυγή Αυτοκινητοδρόμων</string>
+    <string name="map_route_planner_offroad_easy">Εύκολο</string>
+    <string name="map_route_planner_offroad_medium">Μεσαίο</string>
+    <string name="map_route_planner_offroad_hard">Δύσκολο</string>
+    <string name="map_route_planner_profile_label">Επιλογή Προφίλ</string>
+    <string name="map_route_planner_profile_option">Επιλογή Επιλογών Προφίλ</string>
+    <string name="map_route_calculating_message">Υπολογισμός διαδρομής…</string>
+    <string name="map_route_loading_message">Φόρτωση Διαδρομής…</string>
+    <string name="map_route_analyzing_message">Ανάλυση Διαδρομής…</string>
+    <string name="map_route_calculating_message_retry">Σφάλμα!</string>
+    <string name="map_route_calculating_message_options">Επιλογές</string>
+    <string name="map_route_planner_no_gps_fix">Δεν υπάρχει ακόμα GPS σήμα, δοκιμάστε ξανά αργότερα!</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Ακύρωση Ενεργής Διαδρομής;</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Υπάρχει ενεργή πλοήγηση. Θέλετε να ακυρώσετε και να ξεκινήσετε νέα;</string>
+    <string name="map_route_planner_instruction_now">Τώρα</string>
+    <string name="map_route_planner_instruction_arrived">Φτάσατε στον προορισμό σας!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Συνεχίστε για</string>
+    <string name="map_route_planner_instruction_keep_going">Συνεχίστε Ευθεία</string>
+    <string name="map_route_planner_instruction_turn_left">Στρίψτε Αριστερά σε</string>
+    <string name="map_route_planner_instruction_turn_right">Στρίψτε Δεξιά σε</string>
+    <string name="map_route_planner_instruction_turn_left_sharp">Απότομη Αριστερή στροφή σε</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Απότομη Δεξιά στροφή σε</string>
+    <string name="map_route_planner_instruction_turn_slight_left">Ελαφρά Αριστερά σε</string>
+    <string name="map_route_planner_instruction_turn_slight_right">Ελαφρά Δεξιά σε</string>
+    <string name="map_route_planner_instruction_keep_left">Κρατηθείτε Αριστερά σε</string>
+    <string name="map_route_planner_instruction_keep_right">Κρατηθείτε Δεξιά σε</string>
+    <string name="map_route_planner_instruction_uturn">Αναστροφή σε</string>
+    <string name="map_route_planner_instruction_straight">Συνεχίστε Ευθεία σε</string>
+    <string name="map_route_planner_instruction_take_exit_1">Πρώτη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_2">Δεύτερη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_3">Τρίτη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_4">Τέταρτη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_5">Πέμπτη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_6">Έκτη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_7">Έβδομη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_take_exit_8">Όγδοη Έξοδος σε</string>
+    <string name="map_route_planner_instruction_destination">Προορισμός σε</string>
+    <string name="map_route_planner_nav_options">Επιλογές</string>
+    <string name="map_route_planner_nav_options_title">Επιλογές Ενεργής Πλοήγησης</string>
+    <string name="map_route_planner_nav_options_message">Διαθέσιμες επιλογές για την ενεργή πλοήγηση:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Κοινοποίηση Ως GPX</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Απουσία Αρχείων Υπολογισμού</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Λείπουν αρχεία υπολογισμού. Παρακαλούμε κατεβάστε ξανά τα αρχεία χαρτών για να διασφαλίσετε ότι τα αρχεία υπολογισμού έχουν κατέβει!</string>
+    <string name="map_route_planner_error_other_title">Σφάλμα Υπολογισμού</string>
+    <string name="map_route_planner_error_other_message">Παρουσιάστηκε σφάλμα κατά τον υπολογισμό της διαδρομής! Παρακαλούμε δοκιμάστε ξανά, αν είστε εκτός δρόμου δοκιμάστε το Μικτό προφίλ!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Απουσία Αρχείων Προγραμματιστή Διαδρομής</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Για τα χαρακτηριστικά προγραμματισμού διαδρομής του DMD2 χρειάζεται να κατεβάσετε επιπλέον αρχεία. Θέλετε να το κάνετε τώρα;</string>
+    <string name="map_route_planner_dialog_download_progress">Κατέβασμα αρχείου υπολογισμού</string>
+    <string name="map_route_planner_empty">Δεν υπάρχει ενεργή διαδρομή ή πορεία!</string>
+    <!-- Place Search -->
+    <string name="map_place_search_dialog_title">Αναζήτηση Διεύθυνσης Online</string>
+    <string name="map_place_search_cat_name">Αναζήτηση Online</string>
+    <string name="map_place_search_dialog_type_label">Πληκτρολογήστε για να αναζητήσετε ένα όνομα ή διεύθυνση:</string>
+    <string name="map_place_search_distance">Απόσταση Ευθείας Γραμμής:</string>
+    <string name="map_place_search_instructions">Πληκτρολογήστε τουλάχιστον τρία γράμματα για να δείτε τα αποτελέσματα</string>
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">Εγγραφέας GPX</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Εγγραφές</string>
+    <string name="map_gpx_recorder_dialog_status">Κατάσταση Εγγραφής:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Απόσταση:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Σημεία:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Διαδρομές:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Σημεία Αναφοράς:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Έναρξη:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Χρόνος Που Πέρασε:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Μέση Ταχύτητα:</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Αύξηση Υψομέτρου:</string>
+    <string name="map_gpx_recorder_dialog_record">Εγγραφή</string>
+    <string name="map_gpx_recorder_dialog_pause">Παύση</string>
+    <string name="map_gpx_recorder_dialog_resume">Συνέχεια</string>
+    <string name="map_gpx_recorder_dialog_finish">Τέλος</string>
+    <string name="map_gpx_recorder_dialog_add_track">Νέα Διαδρομή</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Προσθήκη Σημείου Αναφοράς</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Δεν καταγράφεται, πατήστε το κουμπί Εγγραφή για να ξεκινήσετε</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Καταγραφή GPX, πατήστε Τέλος για να τελειώσετε και να αποθηκεύσετε</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Ο Καταγραφέας έχει παύσει, συνεχίστε ή τελειώστε</string>
+    <string name="map_gpx_recorder_dialog_points_short">σημ</string>
+    <string name="map_gpx_recorder_new_track_title">Νέο Όνομα Διαδρομής</string>
+    <string name="map_gpx_recorder_new_track_add_track">Προσθήκη Διαδρομής</string>
+    <string name="map_gpx_recorder_inactive_warning">Δεν μπορεί να γίνει. Δεν Καταγράφεται!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Τέλος Καταγραφής</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Παρακαλούμε επιλέξτε είτε να το αποθηκεύσετε σε αρχείο GPX, να το απορρίψετε και να διαγράψετε την καταγραφή ή να κλείσετε αυτόν τον διάλογο και να συνεχίσετε την καταγραφή.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Όνομα Αρχείου GPX</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Απόρριψη / Διαγραφή</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">Το Αρχείο Υπάρχει Ήδη</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Δοκιμάστε Ξανά</string>
+    <string name="map_gpx_recorder_recordings_list">Λίστα Εγγραφών</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Δεν υπάρχουν καταγεγραμμένα αρχεία GPX ακόμα!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Φόρτωση GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Πληκτρολογήστε Νέο Όνομα Αρχείου:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Νέο Σημείο Αναφοράς</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Όνομα Σημείου Αναφοράς</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Κείμενο Περιγραφής</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Πατήστε Θέση</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Αυτόματη Συμπλήρωση</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Σημείο Αναφοράς</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Πατήστε στον Χάρτη για Θέση</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Πατήστε στη νέα θέση για το σημείο αναφοράς και στη συνέχεια κάντε κλικ στο κουμπί ρύθμισης!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Ορισμός Θέσης</string>
+    <string name="map_gpx_recorder_tracks_edit">Επεξεργαστής Διαδρομών Καταγραφέα</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Δεν υπάρχουν Διαδρομές Ακόμα!</string>
+    <string name="map_gpx_recorder_track_edit_name">Όνομα Διαδρομής</string>
+    <string name="map_gpx_recorder_track_edit_description">Περιγραφή Διαδρομής</string>
+    <string name="map_gpx_recorder_track_edit_color">Χρώμα:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Επεξεργαστής Σημείων Αναφοράς Καταγραφέα</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Εικονίδιο Καρφίτσας:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Δεν υπάρχει Σημείο Αναφοράς Ακόμα!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Επιβεβαίωση Διαγραφής</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Είστε σίγουροι ότι θέλετε να διαγράψετε αυτό το αρχείο; Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!</string>
+    <string name="map_gpx_recorder_saving_progress_title">Αποθήκευση GPX</string>
+    <string name="map_gpx_recorder_saving_progress_message">Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η διαδικασία!</string>
+
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Αριστερά</string>
+    <string name="map_gpx_real_time_right">Δεξιά</string>
+    <string name="map_gpx_real_time_in">σε</string>
+    <string name="map_gpx_real_time_for">για</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">μέχρι</string>
+    <string name="map_gpx_real_time_straight">Ευθεία</string>
+    <string name="map_gpx_real_time_instructions_title">Οδηγίες Στροφών</string>
+    <string name="map_gpx_real_time_instructions_desc">Ανάλυση στροφών σε πραγματικό χρόνο και ανατροφοδότηση για ενεργή διαδρομή</string>
+    <string name="map_gpx_real_time_instructions_setting">Ενεργοποίηση Οδηγιών Στροφών</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Ενεργοποίηση Φωνητικών Οδηγιών</string>
+
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">Οι Τοποθεσίες Μου</string>
+    <string name="location_manager_save_location_button">Αποθήκευση Τοποθεσίας</string>
+    <string name="location_manager_save_location_name">Όνομα Τοποθεσίας</string>
+    <string name="location_manager_save_location_dialog_title">Αποθήκευση Στις Τοποθεσίες Μου</string>
+    <string name="location_manager_save_location_unnamed">Ανώνυμη Τοποθεσία</string>
+    <string name="location_manager_save_location_no_description">Χωρίς περιγραφή</string>
+    <string name="location_manager_save_location_saved">Η Τοποθεσία Αποθηκεύτηκε!</string>
+    <string name="location_manager_save_keep_on_map">Διατήρηση στον χάρτη</string>
+    <string name="location_manager_save_new">Προσθήκη Νέας</string>
+    <string name="location_manager_no_locations_yet">Δεν υπάρχουν αποθηκευμένες τοποθεσίες ακόμα…</string>
+
+
+    <!-- Event Mode -->
+    <string name="event_mode_warning_dialog_title">Ενεργή Λειτουργία Εκδήλωσης</string>
+    <string name="event_mode_warning_dialog_message">Είστε σε λειτουργία εκδήλωσης, είστε σίγουροι ότι θέλετε να την τερματίσετε και να ανοίξετε το νέο αρχείο;</string>
+    <string name="event_mode_warning_dialog_close">Κλείσιμο Εκδήλωσης</string>
+    <string name="event_mode_warning_dialog_quit_event">Είστε σίγουροι ότι θέλετε να κλείσετε την εκδήλωση; Για να την ανοίξετε ξανά, θα πρέπει να την κατεβάσετε από την ίδια πηγή.</string>
+    <string name="event_mode_warning_dialog_cancel">Άκυρο</string>
+    <string name="event_mode_instrument_locked_by_event">Δεν μπορείτε να αλλάξετε αυτό το όργανο, είναι κλειδωμένο από τις ρυθμίσεις της εκδήλωσης!</string>
+    <string name="event_mode_roadbook_help_button">Χρειάζομαι βοήθεια!</string>
+    <string name="event_mode_roadbook_quit_event">Έξοδος από Εκδήλωση</string>
+    <string name="event_mode_roadbook_page">Σελίδα #</string>
+    <string name="event_mode_roadbook_total">Σύνολο θα είναι</string>
+    <string name="event_mode_loading_event">Φόρτωση Εκδήλωσης</string>
+    <string name="event_mode_cleaning_setting_dirs">Καθαρισμός και ρύθμιση φακέλων</string>
+    <string name="event_mode_decrypt">Αποκρυπτογράφηση αρχείου, αυτή η διαδικασία μπορεί να πάρει λίγο χρόνο…</string>
+    <string name="event_mode_generating_file">Αποθήκευση αποκρυπτογραφημένου αρχείου…</string>
+    <string name="event_mode_unpacking_file">Αποσυμπίεση αρχείων…</string>
+    <string name="event_mode_loading_settings">Φόρτωση όλων των αρχείων και ρυθμίσεων.</string>
+    <string name="event_mode_waiting_for_start">Αναμονή για την έναρξη της εκδήλωσης!</string>
+    <string name="event_mode_waiting_for_start_time">Ημερομηνία και ώρα έναρξης:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Αναμονή για την έναρξη της εκδήλωσης!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Έχετε φορτωμένη εκδήλωση και περιμένετε την ώρα έναρξης. Συνεχίστε την αναμονή ή κλείστε την;</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Αναμονή</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Αναμονή για σύνδεση στο διαδίκτυο!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Απαιτείται για την επικύρωση της έναρξης της εκδήλωσης.</string>
+    <string name="event_mode_help_dialog_title">Επιλογές Βοήθειας Εκδήλωσης</string>
+    <string name="event_mode_help_dialog_message">Η Θέση Σας</string>
+    <string name="event_mode_help_call_1">Κλήση #1</string>
+    <string name="event_mode_help_call_2">Κλήση #2</string>
+    <string name="event_mode_downloading">Κατέβασμα Εκδήλωσης</string>
+    <string name="event_mode_downloading_message">Παρακαλούμε περιμένετε μέχρι να ολοκληρωθεί η λήψη!</string>
+
+</resources>
