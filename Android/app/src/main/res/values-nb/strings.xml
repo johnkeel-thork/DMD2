@@ -8,7 +8,7 @@
 
     <string name="gpx_manager_no_routes_warning">Den valgte GPX-fila inneholder ingen ruter!</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Naviger til Start / Mål</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Naviger til Start/Mål</string>
 
     <string name="gpx_manager_track_manager_convert_to_route2">Naviger til nærmeste punkt</string>
 
