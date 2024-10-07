@@ -80,27 +80,29 @@
     <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
     <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
 
-    <string name="gpx_warnings_setting">Progress Warnings</string>
-    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
-    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
-    <string name="gpx_warning_turn_around">Turn Around!</string>
-    <string name="gpx_warning_away_from_track">Away from Track!</string>
-    <string name="gpx_warning_correct_direction">Return to Line!</string>
-    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
-    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
-    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
-    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
-
-    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
-
-    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
-
-    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
-    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
-    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
-
 
     <!-- End Of New Untranslated -->
+
+
+    <string name="gpx_warnings_setting">Avertissements sur l'état d'avancement</string>
+    <string name="gpx_warnings_setting_desc">Avertir pour "sortie de piste" et "mauvaise direction".</string>
+    <string name="gpx_warning_wrong_direction">Mauvaise direction !</string>
+    <string name="gpx_warning_turn_around">Faites demi-tour !</string>
+    <string name="gpx_warning_away_from_track">Éloigné de la trace</string>
+    <string name="gpx_warning_correct_direction">Retournez sur la trace</string>
+    
+    <string name="gpx_warning_show_wrong_direction_option">Afficher \"Avertissement de mauvaise direction\"</string>
+    <string name="gpx_warning_show_away_from_track_option">Afficher \"Avertissement de sortie de piste\"</string>
+    <string name="gpx_warning_show_screen_flash">Utiliser le flash écran</string>
+    <string name="gpx_warning_play_voice_warning">Jouer l'alerte vocale</string>
+
+    <string name="gpx_manager_poi_busy_message">POI en cours de traitement. Le traitement reprendra plus tard</string>
+
+    <string name="gpx_manager_settings_start_end">Afficher les points de départ et d'arrivée de la piste</string>
+
+    <string name="settings_dmd_devices_updates_automatic">Vérifier la mise à jour de l\'application automatiquement</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Vérifier les mises à jour via Wifi uniquement</string>
+    <string name="settings_dmd_devices_updates_manual">Vérifier les mises à jour</string>
 
 
     <string name="home_widget_places_title">Lieux</string>
