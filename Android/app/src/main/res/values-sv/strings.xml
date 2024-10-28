@@ -53,7 +53,7 @@
     <string name="map_gpx_real_time_instructions_setting_voice">Aktivera röstinstruktioner</string>
 
     <!-- Event Mode -->
-    <string name="event_mode_waiting_for_start">Väntar på att evenemangets starttid!</string>
+    <string name="event_mode_waiting_for_start">Väntar på evenemangets starttid!</string>
 
     <string name="event_mode_warning_dialog_title">Eventläge Aktivt</string>
     <string name="event_mode_warning_dialog_message">Du är i Eventläge, vill du avsluta och öppna en ny fil?</string>
