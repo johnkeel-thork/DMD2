@@ -977,8 +977,8 @@
         <item>Aldrig</item>
     </string-array>
     <string name="map_settings_controller_cat_title">Inställningar Fjärrkontroll</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Avaktivera Panorering Disable Panning Mode Target</string>
-    <string name="map_settings_controller_disable_pan_spot_summary">Avaktiverar det nya panoreringsläget  Disables the new panning mode target spot actions</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Avaktivera Mittmärke vid Panorering</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Avaktiverar mittmarkeringen vid panorering</string>
     <string name="map_settings_follow_cat_title">Follow Location Modes</string>
     <string name="map_settings_follow_north_oriented">Norr Uppåt</string>
     <string name="map_settings_follow_north_oriented_summary">Följer plats med kartan uppåt mot norr</string>
