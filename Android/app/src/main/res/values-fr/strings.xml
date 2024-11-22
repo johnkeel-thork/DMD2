@@ -1,106 +1,102 @@
 <resources>
 
-    <!-- New Untranslated -->
 
-    <string name="obd_view_speed">SPEED</string>
+    <string name="obd_view_speed">VITESSE</string>
 
-    <string name="gpx_manager_routes">Routes</string>
+    <string name="gpx_manager_routes">Itinéraires</string>
 
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+    <string name="gpx_manager_no_routes_warning">Le fichier GPX sélectionné ne contient aucun itinéraire !</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Naviguer vers Début / Fin</string>
 
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Naviguer vers le Point le Plus Proche</string>
 
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Définir le Profil</string>
 
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Inverser la Direction</string>
 
     <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+    <string name="home_widget_tpms_title_long">Capteurs de Pression des Pneus</string>
+    <string name="home_widget_tpms_description">Surveillez la pression et la température des pneus avec DMD TPMS</string>
 
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
+    <string name="tpms_rear_sensor_title">Pneu Arrière</string>
+    <string name="tpms_front_sensor_title">Pneu Avant</string>
+    <string name="tpms_sensor_select">Non Configuré</string>
+    <string name="tpms_sensor_tap_to_start">Touchez pour Configurer</string>
+    <string name="tpms_sensor_dialog_select_sensor">Sélectionner le Capteur</string>
+    <string name="tpms_sensor_dialog_select">Sélectionner</string>
 
-    <string name="roadbook_settings_show_on_screen_adjust_buttons">Show On Screen Adjust Buttons</string>
-    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Will show a + and - for manually adjusting total and partial distance</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Afficher les Boutons de Réglage à l'Écran</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Affichera des boutons + et - pour ajuster manuellement les distances totales et partielles</string>
 
-    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+    <string name="map_route_planner_instruction_keep_going">Continuez Tout Droit</string>
 
-    <!-- GPX Instructions -->
-    <string name="map_gpx_real_time_left">Left</string>
-    <string name="map_gpx_real_time_right">Right</string>
-    <string name="map_gpx_real_time_in">in</string>
-    <string name="map_gpx_real_time_for">for</string>
-    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
-    <string name="map_gpx_real_time_straight">Straight</string>
-    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
-    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+<!-- Instructions GPX -->
+    <string name="map_gpx_real_time_left">Gauche</string>
+    <string name="map_gpx_real_time_right">Droite</string>
+    <string name="map_gpx_real_time_in">dans</string>
+    <string name="map_gpx_real_time_for">pour</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">vers</string>
+    <string name="map_gpx_real_time_straight">Tout Droit</string>
+    <string name="map_gpx_real_time_instructions_title">Instructions de Virage</string>
+    <string name="map_gpx_real_time_instructions_desc">Analyse et retour en temps réel pour la piste active</string>
+    <string name="map_gpx_real_time_instructions_setting">Activer les Instructions de Virage</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Activer les Instructions Vocales</string>
 
-    <!-- Event Mode -->
-    <string name="event_mode_waiting_for_start">Waiting for event start time!</string>
-    <string name="event_mode_waiting_for_start_time">Start date and time:</string>
-    <string name="event_mode_waiting_notification_tap_dialog_title">Waiting for event start!</string>
-    <string name="event_mode_waiting_notification_tap_dialog_message">You have a loaded event and you are waiting for the start time. Keep waiting or close it?</string>
-    <string name="event_mode_waiting_notification_tap_dialog_wait">Wait</string>
-    <string name="event_mode_waiting_notification_no_internet_title">Waiting for internet connection!</string>
-    <string name="event_mode_waiting_notification_no_internet_message">Required to validate event start.</string>
-    <string name="event_mode_help_dialog_title">Event Help Options</string>
-    <string name="event_mode_help_dialog_message">Your Position</string>
-    <string name="event_mode_help_call_1">Call #1</string>
-    <string name="event_mode_help_call_2">Call #2</string>
-    <string name="event_mode_downloading">Downloading Event</string>
-    <string name="event_mode_downloading_message">Please wait for the download to finish!</string>
+<!-- Mode Événement -->
+    <string name="event_mode_waiting_for_start">En attente du début de l'événement !</string>
+    <string name="event_mode_waiting_for_start_time">Date et heure de début :</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">En attente du début de l'événement !</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Vous avez un événement chargé et vous attendez l'heure de début. Continuez d'attendre ou fermez-le ?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Attendre</string>
+    <string name="event_mode_waiting_notification_no_internet_title">En attente de connexion Internet !</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Nécessaire pour valider le début de l'événement.</string>
+    <string name="event_mode_help_dialog_title">Options d'Aide de l'Événement</string>
+    <string name="event_mode_help_dialog_message">Votre Position</string>
+    <string name="event_mode_help_call_1">Appeler #1</string>
+    <string name="event_mode_help_call_2">Appeler #2</string>
+    <string name="event_mode_downloading">Téléchargement de l'Événement</string>
+    <string name="event_mode_downloading_message">Veuillez attendre la fin du téléchargement !</string>
 
-    <string name="event_mode_warning_dialog_title">Active Event Mode</string>
-    <string name="event_mode_warning_dialog_message">You are currently in Event Mode, are you sure you want to stop it and open the new file?</string>
-    <string name="event_mode_warning_dialog_close">Close Event</string>
-    <string name="event_mode_warning_dialog_quit_event">Are you sure you want to close the event? To open it again you will need to download it from the same source.</string>
-    <string name="event_mode_warning_dialog_cancel">Cancel</string>
-    <string name="event_mode_instrument_locked_by_event">You cannot change this instrument, it is locked by event settings!</string>
-    <string name="event_mode_roadbook_help_button">I need help!</string>
-    <string name="event_mode_roadbook_quit_event">Quit Event</string>
+    <string name="event_mode_warning_dialog_title">Mode Événement Actif</string>
+    <string name="event_mode_warning_dialog_message">Vous êtes actuellement en mode Événement, êtes-vous sûr de vouloir l'arrêter et ouvrir le nouveau fichier ?</string>
+    <string name="event_mode_warning_dialog_close">Fermer l'Événement</string>
+    <string name="event_mode_warning_dialog_quit_event">Êtes-vous sûr de vouloir fermer l'événement ? Pour le rouvrir, vous devrez le télécharger depuis la même source.</string>
+    <string name="event_mode_warning_dialog_cancel">Annuler</string>
+    <string name="event_mode_instrument_locked_by_event">Vous ne pouvez pas modifier cet instrument, il est verrouillé par les paramètres de l'événement !</string>
+    <string name="event_mode_roadbook_help_button">J'ai besoin d'aide !</string>
+    <string name="event_mode_roadbook_quit_event">Quitter l'Événement</string>
     <string name="event_mode_roadbook_page">Page #</string>
-    <string name="event_mode_roadbook_total">Total will be</string>
-    <string name="event_mode_loading_event">Loading Event</string>
-    <string name="event_mode_cleaning_setting_dirs">Cleaning up and setting up directories</string>
-    <string name="event_mode_decrypt">Decrypting file, this operation can take a while…</string>
-    <string name="event_mode_generating_file">Saving decrypted file…</string>
-    <string name="event_mode_unpacking_file">Unpacking files…</string>
-    <string name="event_mode_loading_settings">Loading all files and settings.</string>
+    <string name="event_mode_roadbook_total">Le total sera</string>
+    <string name="event_mode_loading_event">Chargement de l'Événement</string>
+    <string name="event_mode_cleaning_setting_dirs">Nettoyage et configuration des répertoires</string>
+    <string name="event_mode_decrypt">Déchiffrement du fichier, cette opération peut prendre du temps…</string>
+    <string name="event_mode_generating_file">Enregistrement du fichier déchiffré…</string>
+    <string name="event_mode_unpacking_file">Décompression des fichiers…</string>
+    <string name="event_mode_loading_settings">Chargement de tous les fichiers et paramètres.</string>
 
-    <string name="dmd_device_update_dialog_title">System Update Available</string>
-    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_dialog_title">Mise à Jour Système Disponible</string>
+    <string name="dmd_device_update_configuration_dialog_message">Nouvelle configuration système disponible. Voulez-vous mettre à jour maintenant ? Si vous choisissez de mettre à jour maintenant, le téléchargement commencera en arrière-plan et l'appareil redémarrera une fois terminé.</string>
+    <string name="dmd_device_update_system_dialog_message">Nouvelle mise à jour du firmware système disponible. Voulez-vous mettre à jour maintenant ? Si vous choisissez de mettre à jour maintenant, le téléchargement commencera en arrière-plan et l'appareil redémarrera une fois terminé.</string>
 
-    <string name="gpx_warnings_setting">Progress Warnings</string>
-    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
-    <string name="gpx_warning_wrong_direction">Wrong Direction!</string>
-    <string name="gpx_warning_turn_around">Turn Around!</string>
-    <string name="gpx_warning_away_from_track">Away from Track!</string>
-    <string name="gpx_warning_correct_direction">Return to Line!</string>
-    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
-    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
-    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
-    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
+    <string name="gpx_warnings_setting">Avertissements de Progression</string>
+    <string name="gpx_warnings_setting_desc">Déclencher un avertissement pour éloignement de la piste et mauvaise direction.</string>
+    <string name="gpx_warning_wrong_direction">Mauvaise Direction !</string>
+    <string name="gpx_warning_turn_around">Faites Demi-tour !</string>
+    <string name="gpx_warning_away_from_track">Hors de la Piste !</string>
+    <string name="gpx_warning_correct_direction">Revenez sur la Ligne !</string>
+    <string name="gpx_warning_show_wrong_direction_option">Afficher l'Avertissement de Mauvaise Direction</string>
+    <string name="gpx_warning_show_away_from_track_option">Afficher l'Avertissement Hors de la Piste</string>
+    <string name="gpx_warning_show_screen_flash">Utiliser le Flash de l'Écran</string>
+    <string name="gpx_warning_play_voice_warning">Jouer l'Avertissement Vocal</string>
 
-    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
+    <string name="gpx_manager_poi_busy_message">Traitement des POI en cours, reprendra après cela !</string>
 
-    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+    <string name="gpx_manager_settings_start_end">Afficher les Points de Départ et d'Arrivée de la Piste</string>
 
-    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
-    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
-    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
-
-
-    <!-- End Of New Untranslated -->
+    <string name="settings_dmd_devices_updates_automatic">Vérifier automatiquement les mises à jour de l'application</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Vérifier les mises à jour uniquement en Wi-Fi</string>
+    <string name="settings_dmd_devices_updates_manual">Vérifiez les mises à jour maintenant !</string>
 
 
     <string name="home_widget_places_title">Lieux</string>
