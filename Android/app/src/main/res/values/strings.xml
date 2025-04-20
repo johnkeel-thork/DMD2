@@ -865,7 +865,7 @@
     <string name="gpx_manager_waypoint_distance_on_track">Distance from you</string>
     <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
     <string name="gpx_manager_waypoint_distance_from_track_start">Distance from track start</string>
-    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
+    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distance information.</string>
     <string name="gpx_manager_waypoint_no_valid_location_yet">Waiting for GPS Fix</string>
     <string name="gpx_manager_waypoint_share_app">Select app to share</string>
     <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
