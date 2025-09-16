@@ -1,0 +1,1214 @@
+<resources>
+
+    <!-- New translated -->
+    <string name="obd_view_speed">VELOCITAT</string>
+    <string name="gpx_manager_routes">Rutes</string>
+    <string name="gpx_manager_no_routes_warning">El fitxer GPX seleccionat no conté cap ruta!</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Navega a inici / final</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Navega al punt més proper</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Establir perfil</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Invertir direcció</string>
+    <string name="gpx_warnings_setting">Advertències de progrés</string>
+    <string name="gpx_warnings_setting_desc">Avís de disparador per fora de pista i direcció incorrecta.</string>
+    <string name="gpx_warning_wrong_direction">Direcció incorrecta!</string>
+    <string name="gpx_warning_turn_around">Gira!</string>
+    <string name="gpx_warning_away_from_track">Fora de la pista!</string>
+    <string name="gpx_warning_correct_direction">Torna a la línia!</string>
+    <string name="gpx_warning_show_wrong_direction_option">Mostra advertència de direcció incorrecta</string>
+    <string name="gpx_warning_show_away_from_track_option">Mostra advertència fora de pista</string>
+    <string name="gpx_warning_show_screen_flash">Utilitza flaix de pantalla</string>
+    <string name="gpx_warning_play_voice_warning">Reprodueix avís de veu</string>
+    <string name="home_widget_tpms_title">TPMS</string>
+    <string name="home_widget_tpms_title_long">Sensors de pressió de pneumàtics</string>
+    <string name="home_widget_tpms_description">Monitoritza la pressió i la temperatura dels pneumàtics amb DMD TPMS</string>
+    <string name="tpms_rear_sensor_title">Pneumàtic posterior</string>
+    <string name="tpms_front_sensor_title">Pneumàtic davanter</string>
+    <string name="tpms_sensor_select">No configurat</string>
+    <string name="tpms_sensor_tap_to_start">Toca per configurar</string>
+    <string name="tpms_sensor_dialog_select_sensor">Seleccionar sensor</string>
+    <string name="tpms_sensor_dialog_select">Seleccionar</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons">Mostra botons d'ajust a pantalla</string>
+    <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Mostrarà un + i un - per ajustar manualment la distància total i parcial</string>
+    <string name="map_route_planner_instruction_keep_going">Mantenir recta</string>
+
+    <!-- GPX Instructions -->
+    <string name="map_gpx_real_time_left">Esquerra</string>
+    <string name="map_gpx_real_time_right">Dreta</string>
+    <string name="map_gpx_real_time_in">en</string>
+    <string name="map_gpx_real_time_for">per</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">a</string>
+    <string name="map_gpx_real_time_straight">Recta</string>
+    <string name="map_gpx_real_time_instructions_title">Instruccions de gir</string>
+    <string name="map_gpx_real_time_instructions_desc">Anàlisi de gir en temps real i retroalimentació per a la pista activa</string>
+    <string name="map_gpx_real_time_instructions_setting">Activar instruccions de gir</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Activar instruccions de veu</string>
+
+    <!-- Event Mode -->
+    <string name="event_mode_waiting_for_start">Esperant l'hora d'inici de l'esdeveniment!</string>
+    <string name="event_mode_waiting_for_start_time">Data i hora d'inici:</string>
+    <string name="event_mode_waiting_notification_tap_dialog_title">Esperant l'inici de l'esdeveniment!</string>
+    <string name="event_mode_waiting_notification_tap_dialog_message">Tens un esdeveniment carregat i estàs esperant l'hora d'inici. Vols continuar esperant o tancar-lo?</string>
+    <string name="event_mode_waiting_notification_tap_dialog_wait">Esperar</string>
+    <string name="event_mode_waiting_notification_no_internet_title">Esperant connexió a internet!</string>
+    <string name="event_mode_waiting_notification_no_internet_message">Necessari per validar l'inici de l'esdeveniment.</string>
+    <string name="event_mode_help_dialog_title">Opcions d'ajuda de l'esdeveniment</string>
+    <string name="event_mode_help_dialog_message">La teva posició</string>
+    <string name="event_mode_help_call_1">Trucada #1</string>
+    <string name="event_mode_help_call_2">Trucada #2</string>
+    <string name="event_mode_downloading">Descarregant esdeveniment</string>
+    <string name="event_mode_downloading_message">Si us plau, espereu que la descàrrega finalitzi!</string>
+    <string name="gpx_manager_poi_busy_message">Ocupat processant POI, es reprendrà després!</string>
+    <string name="gpx_manager_settings_start_end">Mostrar punts de referència d'inici i final de pista</string>
+    <string name="settings_dmd_devices_updates_automatic">Comprova les actualitzacions de l'aplicació automàticament</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Comprova les actualitzacions només amb Wifi</string>
+    <string name="settings_dmd_devices_updates_manual">Comprova les actualitzacions ara!</string>
+    <string name="event_mode_warning_dialog_title">Mode esdeveniment actiu</string>
+    <string name="event_mode_warning_dialog_message">Esteu en mode Esdeveniment. Esteu segur que voleu aturar-lo i obrir el fitxer nou?</string>
+    <string name="event_mode_warning_dialog_close">Tancar esdeveniment</string>
+    <string name="event_mode_warning_dialog_quit_event">Esteu segur que voleu tancar l'esdeveniment? Per tornar-lo a obrir, haureu de descarregar-lo des del mateixa font.</string>
+    <string name="event_mode_warning_dialog_cancel">Cancel·lar</string>
+    <string name="event_mode_instrument_locked_by_event">No pots canviar aquest instrument, està bloquejat per la configuració de l'esdeveniment!</string>
+    <string name="event_mode_roadbook_help_button">Necessito ajuda!</string>
+    <string name="event_mode_roadbook_quit_event">Sortir de l'esdeveniment</string>
+    <string name="event_mode_roadbook_page">Pàg. núm.</string>
+    <string name="event_mode_roadbook_total">El total serà</string>
+    <string name="event_mode_loading_event">Carregant esdeveniment</string>
+    <string name="event_mode_cleaning_setting_dirs">Netejant i configurant directoris</string>
+    <string name="event_mode_decrypt">Desxifrant el fitxer, aquesta operació pot trigar una mica...</string>
+    <string name="event_mode_generating_file">Desant fitxer desxifrat...</string>
+    <string name="event_mode_unpacking_file">Desempaquetant fitxers...</string>
+    <string name="event_mode_loading_settings">Carregant tots els fitxers i configuracions.</string>
+    <string name="dmd_device_update_dialog_title">Actualització del sistema disponible</string>
+    <string name="dmd_device_update_configuration_dialog_message">Nova configuració del sistema disponible. Voleu actualitzar ara? Si seleccioneu actualitzar ara, la descàrrega començarà en segon pla i el dispositiu es reiniciarà quan acabi.</string>
+    <string name="dmd_device_update_system_dialog_message">Hi ha disponible una nova actualització del firmware del sistema. Voleu actualitzar-lo ara? Si seleccioneu actualitzar ara, la descàrrega començarà en segon pla i el dispositiu es reiniciarà quan acabi.</string>
+    <string name="settings_backup_cat">Còpia de seguretat i restauració</string>
+    <string name="settings_backup_gdrive_start">Crea Zip i desa</string>
+    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
+    <string name="settings_import_gdrive_start">Importa Zip i restaura</string>
+    <string name="settings_import_gdrive_message">Nota: Si heu buidat l'emmagatzematge de l'aplicació, tingueu en compte que heu de descarregar manualment els mapes fora de línia.</string>
+    <string name="settings_run_in_background">Executar DMD2 com a Servei</string>
+    <string name="settings_run_in_background_desc">Si està activat, quan canvieu de DMD2 a una altra aplicació, el viatge i l'enregistrador GPX s'executaran com a servei.</string>
+    <string name="home_widget_places_title">Llocs</string>
+    <string name="home_widget_places_title_long">Llocs preferits</string>
+    <string name="home_widget_places_title_description">Crea dreceres per als teus llocs preferits desats per l'usuari</string>
+    <string name="home_widget_places_no_locations">Encara no hi ha llocs desats, els podeu desar a la vista del mapa!</string>
+    <string name="home_widget_places_selector_title">Seleccionar lloc</string>
+    <string name="map_layers_poi_water">Aigua per beure</string>
+    <string name="map_layers_poi_rv_park">Aparcament de càmping</string>
+    <string name="map_layers_poi_border_control">Control fronterer</string>
+    <string name="gpx_manager_track_start">Començar!</string>
+    <string name="gpx_manager_track_end">Final!</string>
+    <string name="location_manager_no_locations_yet">Encara no hi ha llocs desats...</string>
+    <string name="gpx_manager_settings_closest_point_title">Línia al punt més proper</string>
+    <string name="gpx_manager_settings_closest_point_desc">Dibuixa una línia directa entre la teva posició i el punt de la pista més proper: si ets a més de 200 m de la pista i la pista es troba a una distància de 5 km.</string>
+    <string name="gpx_manager_settings_closest_point_label">Activar línia</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Punt de referència automàtic</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Punt de referència generat automàticament basat en la distància</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Habilita punt de referència automàtic</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Interval de distància</string>
+
+    <!-- End Of New translated -->
+    <string name="app_name">DMD2</string>
+
+    <!-- Status Bar -->
+    <string name="status_bar_online_status">En línia</string>
+    <string name="status_bar_offline_status">Desconnectat</string>
+
+    <!-- Bottom Menu -->
+    <string name="menu_global_settings">Configuració global</string>
+    <string name="menu_exit">Sortir</string>
+    <string name="menu_home">Inici</string>
+    <string name="menu_apps">Aplicacions</string>
+    <string name="menu_roadbook">Roadbook</string>
+    <string name="menu_map">Mapa</string>
+    <string name="menu_obd">Sensors OBD</string>
+
+    <!-- Menu Editor -->
+    <string name="menu_edit_title">Edita el menú inferior</string>
+    <string name="menu_edit_message">Reordenar i habilitar/deshabilitar entradas de menú</string>
+    <string name="menu_sorter_instructions">Mantingueu premut per moure un element. Utilitzeu l'interruptor per mostrar o amagar.</string>
+
+    <!-- Top Menu -->
+    <string name="top_menu_battery_indicator">Indicador de bateria (pot trigar uns minuts a actualitzar-se)</string>
+    <string-array name="top_menu_battery_indicator_names" translatable="true">
+        <item>Percentatge</item>
+        <item>Ara mateix</item>
+        <item>Temperatura</item>
+    </string-array>
+
+     <!-- Global Units -->
+    <string name="mi">El meu</string>
+    <string name="mph">Mph</string>
+    <string name="km">Km</string>
+    <string name="kmh">Km/h</string>
+    <string name="meters">metres</string>
+    <string name="feet">peus</string>
+    <string name="yards">iardes</string>
+    <string name="kilometer">quilòmetre</string>
+    <string name="kilometers">quilòmetres</string>
+    <string name="miles">milles</string>
+
+    <!--Bottons-->
+    <string name="back">Enrere</string>
+    <string name="abort">Anul·lar</string>
+    <string name="ok">D'acord</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="save">Desa</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="close">Tancar</string>
+    <string name="delete">Elimina</string>
+    <string name="replace">Reemplaçar</string>
+    <string name="rename">Canviar nom</string>
+    <string name="reset">Restablir</string>
+    <string name="refresh">Actualitzar</string>
+    <string name="enable">Activa</string>
+    <string name="download">Descarregar</string>
+    <string name="load">Càrrega</string>
+    <string name="unload">Descarregar</string>
+    <string name="update">Actualitzar</string>
+    <string name="share">Comparte</string>
+    <string name="advanced">Avançat</string>
+    <string name="settings">Configuració</string>
+    <string name="hide">Oculta</string>
+    <string name="later">Més tard</string>
+    <string name="finish">Acabar</string>
+    <string name="abort_download">Aborta la descàrrega</string>
+    <string name="start">Inici</string>
+
+    <!-- Messages / Errors & Warnings -->
+    <string name="error_creating_directory">Error en crear el directori d'usuaris!</string>
+    <string name="error_deleting_file">Error en esborrar fitxer</string>
+    <string name="error_file_already_exists_title">Advertència de reemplaçament de fitxers</string>
+    <string name="error_file_already_exists_message">Ja existeix un fitxer amb el mateix nom, què voleu fer?</string>
+    <string name="error_file_new_name_title">Canvia el nom del fitxer</string>
+    <string name="share_file_with">Comparteix fitxer</string>
+    <string name="connect_to_internet">Si us plau, assegureu-vos que esteu connectat a Internet.</string>
+    <string name="exit_confirm_dialog">Tancar DMD2 o enviar al segon pla?</string>
+    <string name="exit_confirm_dialog_message">Si tanqueu DMD2, els valors del viatge no s'incrementaran i l'enregistrament de GPX s'aturarà!</string>
+    <string name="exit_confirm_dialog_send_to_background">Fons</string>
+
+    <!-- Fall Alerts -->
+    <string name="fall_alert_title">Alerta de caiguda SOS rebuda!</string>
+    <string name="fall_alert_message">Heu rebut una alerta de caiguda! Missatge complet:</string>
+    <string name="fall_alert_show_on_map">Veure i ajudar</string>
+    <string name="fall_alert_ignore">Ignora</string>
+    <string name="fall_alert_open_sms">Obrir SMS</string>
+    <string name="fall_alert_mode_on">Mode SOS!</string>
+    <string name="fall_alert_center_map">Centra mapa</string>
+    <string name="fall_alert_share">Comparteix ubicació</string>
+    <string name="fall_alert_finish">Finalitzar SOS</string>
+    <string name="fall_alert_navigate">Navega cap a</string>
+
+    <!-- App Update -->
+    <string name="app_update_title">Actualització disponible</string>
+    <string name="app_update_message">Hi ha una actualització disponible per a DMD2, voleu actualitzar-la ara? \n Novetats:</string>
+    <string name="app_update_download_notification">Descarregant l'actualització DMD2</string>
+    <string name="app_update_download_progress">Descàrrega en curs:</string>
+
+    <!-- Controller App Update -->
+    <string name="controller_app_update_dialogue_title">Actualització de l'aplicació CARPE CONTROLLER</string>
+    <string name="controller_app_update_dialogue_message">Hi ha una actualització per a l'aplicació del controlador, voleu actualitzar-la ara? \n Novetats:</string>
+    <string name="controller_app_update_download_notification">Descarregant l'actualització de CARPE</string>
+    <string name="controller_app_update_download_progress">Descàrrega en curs:</string>
+
+    <!-- T93 Dialog -->
+    <string name="t93_trial_title">Prova DMD2</string>
+    <string name="t93_trial_message">Tens una prova gratuïta de 30 dies. Si teniu una clau de llicència especial de DMD2 Edition, inseriu-la per reclamar-la.</string>
+    <string name="t93_trial_button">Continua el període de prova</string>
+    <string name="t93_dmd2_edition_button">Introdueix la clau</string>
+    <string name="t93_finish_trial_button">Finalització de la prova</string>
+    <string name="t93_dmd2_edition_insert_key_title">Introduïu la clau DMD2 Edition:</string>
+
+    <!-- Download Manager -->
+    <string name="download_manager_active_download_short">DL:</string>
+    <string name="download_manager_active_download_active">Actiu</string>
+    <string name="download_manager_active_download_paused">En pausa</string>
+    <string name="download_manager_active_download_error">Error</string>
+    <string name="download_manager_active_download_downloading">Descarregant</string>
+    <string name="download_manager_active_download_downloading_no_progress">Descarregant però no pot mostrar el progrés</string>
+    <string name="download_manager_active_download_interrupted">Interromput</string>
+    <string name="download_manager_active_download_interrupted_file">Fitxer interromput:</string>
+    <string name="download_manager_active_download_no_net">Sense connexió a internet</string>
+    <string name="download_manager_active_download_no_net_waiting">Esperant connexió a Internet</string>
+    <string name="download_manager_active_download_cannot_abort">No es pot avortar el fitxer actual, espereu!</string>
+    <string name="download_manager_active_download_in_queue">A la cua</string>
+
+    <!-- Settings -->
+    <string name="settings_localization_options">Localització</string>
+    <string name="settings_hour_format">Utilitzar format 24h</string>
+    <string name="settings_use_fahrenheit">Utilitzar Fahrenheit en lloc de Celsius</string>
+    <string name="settings_use_imperial_units">Utilitzar unitats de mesura imperials</string>
+    <string name="settings_interface_options">Opcions d'interfície</string>
+    <string name="settings_theme_category">Tema</string>
+    <string name="settings_color_theme">Tema de color (fosc/clar):</string>
+    <string-array name="settings_color_themes" translatable="true">
+        <item>Mode sempre fosc</item>
+        <item>Mode sempre il·luminat</item>
+    </string-array>
+    <string name="settings_accent_color_title">Color primari:</string>
+    <string-array name="settings_accent_colors_names" translatable="true">
+        <item>Blau</item>
+        <item>Blau fosc</item>
+        <item>Vermell</item>
+        <item>Taronja</item>
+        <item>Verd</item>
+        <item>Groc</item>
+        <item>Rosa</item>
+    </string-array>
+    <string name="remote_controller_category">Configuració del comandament a distància</string>
+    <string name="controller_selection">Seleccionar model de comandament a distància</string>
+    <string name="controller_dialog_title">Instal·lar aplicació de control remot</string>
+    <string name="controller_dialog_message">Per aprofitar al màxim el Control Remot DMD, necessiteu instal·lar l'aplicació. Vols instal·lar-la ara?</string>
+    <string name="controller_dialog_download_title">Descarregant l'aplicació del controlador</string>
+    <string name="settings_dmd_devices_category">Especificacions de dispositius DMD-T</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Mantenir el GPS actiu amb la pantalla apagada</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Si està activat, les funcions relacionades amb el viatge i el GPS, com ara l'enregistrament de GPX, continuaran funcionant fins i tot si la pantalla està apagada</string>
+    <string name="settings_screen_category">Pantalla</string>
+    <string name="settings_screen_lock_rotation">Bloquejar l'orientació de la pantalla</string>
+    <string name="settings_screen_lock_rotation_summary">Evita que la pantalla giri accidentalment mentre condueixes</string>
+    <string name="settings_screen_orientation">Bloquejar orientació a:</string>
+    <string-array name="settings_screen_orientation_lock_names" translatable="true">
+        <item>Horitzontal (tauleta)</item>
+        <item>Horitzontal invertit (tauleta)</item>
+        <item>Vertical (mòbil)</item>
+        <item>Vertical invertit (mòbil)</item>
+    </string-array>
+    <string name="settings_notifications_category">Notificacions</string>
+    <string name="settings_notifications_enable_title">Habilitar la finestra emergent de notificacions (es requereix permís)</string>
+    <string name="settings_notifications_enable_summary">Mostra notificacions d'una llista d'aplicacions seleccionades per l'usuari</string>
+    <string name="settings_notifications_dismiss">Descarta el mètode</string>
+    <string-array name="settings_notifications_dismiss_names" translatable="true">
+        <item>Temps d'espera després de 5s</item>
+        <item>Temps d'espera després de 10s</item>
+        <item>Temps d'espera després de 15s</item>
+        <item>Temps d'espera després de 30s</item>
+        <item>Temps d'espera després de 60s</item>
+        <item>Manualment (lliscar o controlar)</item>
+    </string-array>
+    <string name="settings_notifications_controller_lock_title">Bloqueig d'ús amb comandament</string>
+    <string name="settings_notifications_controller_lock_message">Quan una notificació és visible, el comandament a distància s'hi centrarà. La tecla Intro inicia l'acció de notificació i la tecla Enrere esborra la notificació.</string>
+    <string name="settings_notifications_apps_selection_title">Filtre d'aplicacions</string>
+    <string name="settings_notifications_apps_selection_message">Seleccioneu les aplicacions per a les quals voleu veure la finestra emergent de notificació</string>
+    <string name="settings_notifications_group_title">Mostrar només la darrera notificació de cada grup</string>
+    <string name="settings_notifications_group_message">Si està habilitat, només veureu la darrera actualització de notificació per a cada grup de notificacions. Per exemple, el darrer missatge d'una notificació de xat.</string>
+    <string name="settings_notifications_app_selection_dialog_title">Mostrar notificacions per a:</string>
+    <string name="settings_notifications_app_selection_dialog_button1">Totes / ninguna</string>
+    <string name="settings_notifications_app_selection_dialog_button2">Tancar</string>
+
+    <!-- Trip Settings -->
+    <string name="settings_trip_options">Opcions de viatge</string>
+    <string name="settings_trip_auto_reset_title">Restabliment automàtic de viatge</string>
+    <string name="settings_trip_auto_reset_summary">El viatge es restablirà automàticament si DMD2 no comença durant més d'un temps configurable</string>
+    <string name="settings_trip_auto_reset_time_title">Temps de restabliment de viatge automàtic</string>
+    <string-array name="settings_trip_reset_time_entries" translatable="true">
+        <item>6 hores</item>
+        <item>12 hores</item>
+        <item>1 dia</item>
+        <item>2 dies</item>
+        <item>5 dies</item>
+    </string-array>
+
+    <!-- OEM Registration -->
+    <string name="settings_oem_registration">Registre OEM</string>
+    <string name="settings_oem_check">Procés de registre (requereix connexió a Internet)</string>
+    <string name="settings_oem_check_summary">Fes-lo servir només si la teva motocicleta ve equipada amb un dispositiu Android amb Drive Mode Dashboard 2 preinstal·lat.</string>
+
+    <!-- Info & Links -->
+    <string name="settings_info_and_links">Informació i enllaços</string>
+    <string name="settings_app_version">Versió DMD2</string>
+    <string name="settings_app_installed_version">Versió instal·lada:</string>
+    <string name="settings_dmd2_website">Visita el lloc web oficial de DMD2</string>
+    <string name="settings_developer_website_title">DMD2 està desenvolupat per</string>
+    <string name="settings_tripltek_website_title">Esta versión de DMD2 está optimizada para dispositivos Tripltek</string>
+    <string name="settings_follow_us_facebook">Visita i segueix la nostra pàgina de Facebook per conèixer les últimes notícies</string>
+    <string name="settings_join_us_facebook">Uneix-te al nostre grup de Facebook</string>
+    <string name="settings_dmd2_forum">Discussió de noves funcions i informes d'errors</string>
+    <string name="settings_license_title">Claus de registre especials</string>
+    <string name="settings_dmd2_edition_redeem_title">Edició de prova / DMD2 Edition</string>
+    <string name="settings_dmd2_edition_redeem_message">Utilitzar la versió de prova o introdueix la clau de DMD2 Edition</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_dmd2_title">Benvingut a la prova de DMD2</string>
+    <string name="welcome_dmd2_message">DMD2 està dissenyat per transformar el teu dispositiu en un quadre de comandament complet per a motocicletes i cotxes, amb un enfocament especial en l'aventura i el tot terreny. Inclou un mapa per a la navegació, un llibre de ruta, sensors OBD2 i molt més.</string>
+    <string name="welcome_dmd2_lets_go">Inici</string>
+
+    <!-- GPS Settings -->
+    <string name="settings_gps_settings_title">Ajustament GPS</string>
+    <string name="settings_bypass_acc_filter_title">Filtre de precisió GPS inferior</string>
+    <string name="settings_bypass_acc_filter_message">Per a dispositius amb baixa precisió GPS</string>
+
+    <!-- Storage -->
+    <string name="map_storage_location_cat_title">Emmagatzematge</string>
+    <string name="map_storage_location_select_title">Estableix l'emmagatzematge a la targeta SD extraïble</string>
+    <string name="map_storage_location_select_message">Per a fitxers de mapa fora de línia i fitxers d'usuari.</string>
+    <string name="map_storage_sd_card_missing_error_title">Falta la targeta SD!</string>
+    <string name="map_storage_sd_card_missing_error_message">La targeta SD que has utilitzat anteriorment no està disponible, torna-la a inserir!</string>
+    <string name="map_storage_sd_card_missing_switch_retry">Reintenta</string>
+    <string name="map_storage_sd_card_missing_switch_internal">Memòria interna</string>
+    <string name="map_storage_sd_card_mounting_title">Esperant que es carregui la targeta SD</string>
+    <string name="map_storage_sd_card_mounting_message">Si us plau, espereu que la targeta SD acabi d'inicialitzar-se...</string>
+    <string name="map_storage_sd_card_mounting_button">Avorta - Utilitzar la memòria interna</string>
+    <string name="map_storage_sd_card_different_error_title">Una altra targeta SD!</string>
+    <string name="map_storage_sd_card_different_error_message">Sembla que has canviat la targeta SD. Vols utilitzar la targeta nova? Si no, insereix la targeta correcta!</string>
+    <string name="map_storage_sd_card_different_error_recheck">Torna a verificar</string>
+    <string name="map_storage_sd_card_different_error_recheck_fail">No s'ha trobat la targeta SD! Torneu-ho a comprovar!</string>
+    <string name="map_storage_sd_card_move_map_files_title">Voleu moure els mapes fora de línia?</string>
+    <string name="map_storage_sd_card_move_map_files_external">Voleu moure fitxers de la memòria interna a la targeta SD? Aquesta operació pot fallar si no hi ha prou espai!</string>
+    <string name="map_storage_sd_card_move_map_files_internal">Pretende mover os ficheiros do cartão SD para a memória interna? Esta operação pode falhar se não existir espaço suficiente!</string>
+    <string name="map_storage_sd_card_move_map_files_wait">S'estan movent fitxers, espereu! No tanqueu l'aplicació ni canvieu de pantalla!</string>
+
+    <!-- Home Widget Types -->
+    <string name="home_widget_trip_title">VIATGE</string>
+    <string name="home_widget_trip_title_long">Estadístiques del teu viatge</string>
+    <string name="home_widget_trip_description">Consulta les estadístiques del teu viatge, distància, temps i velocitat mitjana.</string>
+    <string name="home_widget_apps_title">APLICACIONS</string>
+    <string name="home_widget_apps_title_long">Dreceres d'aplicacions</string>
+    <string name="home_widget_apps_description">Configura dreceres a les teves aplicacions preferides.</string>
+    <string name="home_widget_apps_selection_dialog_title">Selecciona l'aplicació o esborra la selecció</string>
+    <string name="home_widget_apps_clear_selection">Desmarcar</string>
+    <string name="home_widget_obd_rpm_title">RPM OBD</string>
+    <string name="home_widget_obd_rpm_title_long">Indicador RPM OBD</string>
+    <string name="home_widget_obd_rpm_description">Una barra indicadora de RPM OBD, inclou una línia vermella.</string>
+    <string name="home_widget_heading_title">RUMB</string>
+    <string name="home_widget_heading_title_long">Rumb GPS</string>
+    <string name="home_widget_heading_description">Un indicador gràfic del teu recorregut en moviment. Inclou un valor en graus.</string>
+    <string name="home_widget_media_title">MULTIMEDIA</string>
+    <string name="home_widget_media_title_long">Control del reproductor multimèdia</string>
+    <string name="home_widget_media_description">Et permet controlar una sessió multimèdia activa; requereix permisos d'accés a les notificacions.</string>
+    <string name="home_widget_map_title">MAPA</string>
+    <string name="home_widget_map_title_long">Mapa</string>
+    <string name="home_widget_map_description">Mostra el mapa en un panell, sense botons.</string>
+    <string name="home_widget_speed_title">VELOCITAT</string>
+    <string name="home_widget_speed_title_long">Velocitat del GPS</string>
+    <string name="home_widget_speed_description">Un indicador numèric amb la teva velocitat actual segons la informació del GPS.</string>
+    <string name="home_widget_odo_title">ODO</string>
+    <string name="home_widget_odo_title_long">Odòmetre</string>
+    <string name="home_widget_odo_description">Un odòmetre editable</string>
+    <string name="home_widget_odo_dialog_title">Opcions d'odòmetre</string>
+    <string name="home_widget_odo_dialog_message">Restablir el valor de l'odòmetre o editar el valor actual</string>
+    <string name="home_widget_odo_dialog_edit_title">Editar valor de l'odòmetre</string>
+    <string name="home_widget_numeric_values_title">INFORMACIÓ</string>
+    <string name="home_widget_numeric_values_title_long">Indicadors GPS i OBD</string>
+    <string name="home_widget_numeric_values_description">Seleccioneu diferents banderes basades en els valors OBD i GPS.</string>
+    <string name="home_widget_notifications_list_title">NOTIFICACIONS</string>
+    <string name="home_widget_notifications_list_title_long">Llista de notificacions</string>
+    <string name="home_widget_notifications_list_description">Una llista de les notificacions rebudes.</string>
+    <string name="home_widget_notifications_list_no_notification">Sense noves notificacions</string>
+    <string name="home_widget_system_title">WIDGET EXTERN</string>
+    <string name="home_widget_system_title_long">Widget extern</string>
+    <string name="home_widget_system_description">Carrega widgets d'altres aplicacions instal·lades al dispositiu.</string>
+    <string name="home_widget_big_clock_title">RELLOTGE</string>
+    <string name="home_widget_big_clock_title_long">Un rellotge gran</string>
+    <string name="home_widget_big_clock_description">In simple rellotge gran!</string>
+    <string name="home_widget_map_progress_title">PROGRÉS</string>
+    <string name="home_widget_map_progress_title_long">Progrés del mapa</string>
+    <string name="home_widget_map_progress_description">Mostra el progrés de la navegació o el GPX actiu</string>
+    <string name="home_widget_empty_title">CAP</string>
+    <string name="home_widget_empty_title_long">Cap - Eliminar espai</string>
+    <string name="home_widget_empty_description">Eliminar espai per fer créixer el disseny verticalment</string>
+    <string name="home_widget_settings_dialog_title">Seleccionar widget</string>
+
+    <!-- Home Editor -->
+    <string name="home_widget_editor_left_panel_title">Panell esquerre</string>
+    <string name="home_widget_editor_right_panel_title">Panell dret</string>
+    <string name="home_widget_editor_center_top_title">Centrat a dalt</string>
+    <string name="home_widget_editor_center_bottom_title">Centrat a baix</string>
+    <string name="home_widget_editor_left_panel_edit_button">Canviar widget</string>
+
+    <!-- Widget Trip -->
+    <string name="home_widget_trip_distance">Distància</string>
+    <string name="home_widget_trip_total_time">Temps total</string>
+    <string name="home_widget_trip_travel_time">Temps de viatge</string>
+    <string name="home_widget_trip_stop_time">Temps de parada</string>
+    <string name="home_widget_trip_avg_average">Velocitat mitjana</string>
+
+    <!-- Widget Info: GPS & OBD Sensor Selector -->
+    <string name="widget_info_selector_dialog_title">Seleccionar sensor GPS/OBD</string>
+    <string name="widget_info_gps_altitude_name">Altitud GPS</string>
+    <string name="widget_info_gps_altitude_label">Altitud</string>
+    <string name="widget_info_gps_heading_name">Capçalera GPS</string>
+    <string name="widget_info_clock_name">Hora</string>
+    <string name="widget_info_gps_heading_label">Capçalera</string>
+    <string name="widget_info_gps_cardinal_name">Brúixola cardinal</string>
+    <string name="widget_info_gps_cardinal_label">Brúixola</string>
+    <string name="widget_info_gps_speed_name">Velocitat del GPS</string>
+    <string name="widget_info_gps_speed_label">Velocitat</string>
+    <string name="widget_info_gps_trip_max_speed_name">Velocitat màxima</string>
+    <string name="widget_info_gps_trip_max_speed_label">Velocitat màxima</string>
+    <string name="widget_info_gps_trip_distance_name">Distància de viatge</string>
+    <string name="widget_info_gps_trip_total_time_name">Temps total</string>
+    <string name="widget_info_gps_trip_travel_time_name">Temps de viatge</string>
+    <string name="widget_info_gps_trip_stop_time_name">Hora de parada del viatge</string>
+    <string name="widget_info_gps_trip_avg_speed_name">Velocitat mitjana del viatge</string>
+    <string name="widget_info_obd_speed_label">Velocitat OBD</string>
+    <string name="widget_info_obd_rpm_label">RPM</string>
+    <string name="widget_info_obd_coolant_label">Refrigerant</string>
+    <string name="widget_info_obd_voltage_label">Voltatge</string>
+    <string name="widget_info_obd_fuel_label">Combustible</string>
+    <string name="widget_info_obd_tbposition_label">Accelerador</string>
+    <string name="widget_info_obd_spark_label">Spark</string>
+    <string name="widget_info_obd_map_label">MAPA</string>
+    <string name="widget_info_obd_intake_temp_label">IAT</string>
+    <string name="widget_info_obd_intake_maf_label">MAF</string>
+    <string name="widget_info_obd_none_title">Invisible</string>
+    <string name="widget_info_obd_none_reset">Restablir</string>
+    <string name="widget_info_adv_voltage_label">Tensió AdvCtrl</string>
+
+    <!-- Widget Media Control Permission Dialog -->
+    <string name="media_notifications_enable_dialog_title_media">Permís de control multimèdia</string>
+    <string name="media_notifications_enable_dialog_message_media">El widget de control multimèdia requereix accés a les notificacions per llegir el contingut del reproductor multimèdia com ara el títol, l'artista, el nom de l'àlbum i la il·lustració. Voleu permetre aquest permís?</string>
+
+    <!-- Widget Trip Reset Dialog -->
+    <string name="trip_reset_confirmation_title">Posada a zero dels quilòmetres recorreguts</string>
+    <string name="trip_reset_confirmation_message">Esteu segur que voleu restablir les estadístiques del viatge?</string>
+
+    <!-- Notifications Permission Dialog -->
+    <string name="notifications_enable_dialog_title">Notificacions emergents</string>
+    <string name="notifications_enable_dialog_message">El widget de control multimèdia requereix accés a les notificacions per llegir el contingut del reproductor multimèdia com ara el títol, l'artista, el nom de l'àlbum i la il·lustració. Voleu permetre aquest permís?</string>
+
+    <!-- Notification List Widget -->
+    <string name="notifications_list_widget_new_notifications">Notificacions noves</string>
+    <string name="notifications_controller_arrow_instructions">Esquerra/Dreta - Descartar</string>
+
+    <!-- Apps Settings -->
+    <string name="apps_view_top_title">Aplicacions preferides</string>
+    <string name="apps_view_app_filter_category_title">Filtre d'aplicacions</string>
+    <string name="apps_filter_enable_title">Habilitar filtre d'aplicacions</string>
+    <string name="apps_filter_enable_description">Amagar les aplicacions definides a la llista de filtres d'aplicacions</string>
+    <string name="apps_sorting_category_title">Ordenar</string>
+    <string name="apps_sorting_setting_title">Selecciona com ordenar les dreceres de l'aplicació</string>
+    <string-array name="apps_sorting_options_list" translatable="true">
+        <item>Nom de l'aplicació - Alfabètic</item>
+        <item>Nom del desenvolupador de l'aplicació - Alfabètic</item>
+        <item>Data d'instal·lació</item>
+        <item>Per última actualització</item>
+    </string-array>
+    <string name="apps_sorting_direction_setting_title">Direcció de l'ordenació</string>
+    <string-array name="apps_sorting_direction_options_list" translatable="true">
+        <item>Ascendent</item>
+        <item>Descendent</item>
+    </string-array>
+    <string name="apps_filter_dialog_start_title">Establir aplicacions ocultes</string>
+    <string name="apps_filter_dialog_start_dialog">Feu clic aquí per definir quines aplicacions voleu ocultar o mostrar</string>
+    <string name="apps_filter_dialog_dialog_title">Selecciona Aplicacions per ocultar-les.</string>
+    <string name="apps_long_press_actions_dialog_text">Accions disponibles per a aquesta aplicació:</string>
+    <string name="apps_long_press_actions_dialog_uninstall">Desinstal·lar</string>
+    <string name="apps_long_press_actions_dialog_hide">Amaga</string>
+    <string name="apps_long_press_actions_dialog_cancel">Cancel·lar</string>
+
+    <!-- OBD Settings -->
+    <string name="obd_cat_title_pref">Preferències OBD</string>
+    <string name="obd_device_setup">Configuració de dispositiu Bluetooth</string>
+    <string name="obd_protocols_summary">Seleccioneu quin protocol OBD utilitzar</string>
+    <string name="obd_protocols_title">Protocol OBD</string>
+    <string name="obd_reader_config_title">Comandes de configuració del lector</string>
+    <string name="obd_reader_config_summary">Comandes per configurar el lector Bluetooth, separades amb una nova línia</string>
+    <string name="obd_set_wunderlinq_title">Mode WunderLINQ (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Obtindrà valors de l'API de WunderLINQ en comptes d'OBD2</string>
+    <string name="obd_select_device_title">Escolliu un dispositiu OBD aparellat</string>
+    <string name="obd_bluetooth_list_devices_summary">Escolliu entre els dispositius Bluetooth emparellats. Assegura't primer que el dongle estigui emparellat!</string>
+    <string name="obd_bluetooth_list_devices_title">Escollir el dispositiu Bluetooth ELM327</string>
+    <string name="obd_settings_use_alt_voltage_title">Obtenir el voltatge del dongle</string>
+    <string name="obd_settings_use_alt_voltage_message">Utilitzeu la comanda ST per a la lectura de voltatge en lloc del PID de la ECU</string>
+    <string name="obd_fuel_level_settings">Configuració del nivell de combustible</string>
+    <string name="obd_fuel_level_calculated">Calcular el nivell de combustible</string>
+    <string name="obd_fuel_level_calculated_summary">Si l'ECU no informa del nivell, podeu deixar que el DMD2 el calculi en funció del quilometratge mitjà per dipòsit. Per reiniciar-lo, premeu la icona de combustible quan ompliu el dipòsit.</string>
+    <string name="obd_fuel_level_avg_mileage">Quilometratge mitjà del dipòsit de combustible</string>
+    <string name="obd_fuel_level_avg_mileage_summary">Quin és el quilometratge mitjà amb el dipòsit ple?</string>
+    <string name="obd_speed_rpm_cat_title">Opcions de velocitat i RPM</string>
+    <string name="obd_speed_gps_source_title">Font de valor de velocitat GPS</string>
+    <string name="obd_speed_gps_source_summary">Utilitza el GPS en lloc del valor de velocitat OBD (que potser no està disponible)</string>
+    <string name="obd_max_rpm_title">Estableix les RPM màximes</string>
+    <string name="obd_max_rpm_summary">Estableix el valor màxim de RPM del teu vehicle</string>
+    <string name="obd_redline_rpm_title">Estableix la línia vermella de les RPM</string>
+    <string name="obd_redline_rpm_summary">Estableix el teu valor de RPM de línia vermella</string>
+    <string name="obd_throttle_options">Opcions de l'accelerador</string>
+    <string name="obd_use_raw_throttle_title">Utilitza el valor de la posició de l'accelerador sense procesar</string>
+    <string name="obd_use_raw_throttle_message">Utilitzeu el valor brut OBD2 actual o les posicions mínimes i màximes calibrades</string>
+    <string name="obd_calibrate_throttle_title">Calibrar la posició de l'accelerador</string>
+    <string name="obd_calibrate_throttle_message">Això obrirà un quadre de diàleg amb instruccions per al calibratge de la posició mínima/màxima. Cal que la ECU estigui engegada i que el dongle OBD estigui connectat, i que el motor estigui apagat. Això NO canviarà cap valor de la vostra ECU!</string>
+
+    <!-- Sensors -->
+    <string name="obd_sensors_coolant_short_label">Refrigerant</string>
+    <string name="obd_sensors_coolant_long_label">Temperatura del refrigerant</string>
+    <string name="obd_sensors_voltage_short_label">TENSIÓ</string>
+    <string name="obd_sensors_voltage_long_label">Voltatge</string>
+    <string name="obd_sensors_throttle_short_label">ACCELERACIÓ</string>
+    <string name="obd_sensors_throttle_long_label">POSICIÓ DE L'ESCALA</string>
+    <string name="obd_sensors_fuel_short_label">COMBUSTIBLE</string>
+    <string name="obd_sensors_fuel_long_label">Nivell de combustible</string>
+    <string name="obd_sensors_timing_short_label">CHISPA</string>
+    <string name="obd_sensors_timing_long_label">Avançament d'encesa</string>
+    <string name="obd_sensors_intake_temp_short_label">IAT:</string>
+    <string name="obd_sensors_intake_temp_long_label">Temperatura de l'aire d'admissió</string>
+    <string name="obd_sensors_intake_maf_short_label">MAF</string>
+    <string name="obd_sensors_intake_maf_long_label">Flux de massa d'aire</string>
+    <string name="obd_sensors_intake_map_short_label">MAPA</string>
+    <string name="obd_sensors_intake_map_long_label">Pressió de l'aire</string>
+
+    <!-- Select Sensor Dialog -->
+    <string name="obd_sensors_select_dialog_title">Selecciona sensor OBD</string>
+    <string name="obd_sensors_select_dialog_message">Configurar un nou sensor OBD per a aquesta ranura</string>
+
+    <!-- Throttle Calibration -->
+    <string name="obd_min_throttle_calib_dialog_title">Calibració de la posició mínima de l'accelerador</string>
+    <string name="obd_min_throttle_calib_dialog_message">SI US PLAU, ENGEGEU EL MOTOR! Assegureu-vos que el vehicle estigui al ralentí estable després de l'escalfament!!! L'accelerador ha d'estar a la posició mínima (al ralentí / totalment apagat). Premeu el botó Configura quan estigueu a punt.</string>
+    <string name="obd_throttle_calib_set_minimum">Estableix mínim</string>
+    <string name="obd_max_throttle_calib_dialog_title">Calibració de la posició màxima de l'accelerador</string>
+    <string name="obd_max_throttle_calib_dialog_message">SI US PLAU, APAGEU EL MOTOR! Assegureu-vos que el contacte estigui engegat i, a continuació, premeu l'accelerador fins a la posició màxima (accelerador completament obert). Premeu el botó Configura quan estigueu a punt.</string>
+    <string name="obd_throttle_calib_set_maximum">Estableix màxim</string>
+    <string name="obd_cant_calib_obd_disconnected">Connecteu-vos primer al dongle OBD!</string>
+
+    <!-- Fuel Level Options -->
+    <string name="obd_fuel_dialog_title">Opcions de nivell de combustible</string>
+    <string name="obd_fuel_dialog_message">Restableix el nivell de combustible si acabes d'omplir el dipòsit o edita manualment la distància restant per recarregar combustible.</string>
+    <string name="obd_fuel_dialog_reset">Restablir</string>
+    <string name="obd_fuel_dialog_edit">Edita</string>
+    <string name="obd_fuel_dialog_edit_title">Establir distància de combustible restant</string>
+    <string name="obd_fuel_dialog_edit_message">Establir la distància restant</string>
+    <string name="obd_fuel_dialog_edit_error">Error: el valor no pot ser superior a la capacitat del dipòsit ni inferior a 1</string>
+    <string name="obd_fuel_dialog_edit_error2">Error: no és un número de distància vàlid!</string>
+
+    <!-- DTC Errors Dialog -->
+    <string name="obd_dtc_no_error">Sense errors DTC</string>
+    <string name="obd_dtc_dialog_title">Errors DTC</string>
+    <string name="obd_dtc_dialog_reset_errors">Restablir tots els errors</string>
+    <string name="obd_dtc_dialog_error_options">Opcions d'error</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Ignora aquest error</string>
+    <string name="obd_dtc_dialog_error_reset_error">Error: no està connectat a la ECU!</string>
+
+    <!-- Service -->
+    <string name="obd_service_notification_title">Servei de monitorització OBD en execució</string>
+    <string name="obd_service_obd_connected">Connectat al dongle!</string>
+    <string name="obd_service_obd_disconnected">Desconnectat del dongle!</string>
+
+    <!-- License -->
+    <string name="obd_license_title">Mode de demostració OBD2</string>
+    <string name="obd_license_message">El mode demo està limitat a 15 minuts per sessió. Compra el complement OBD per desbloquejar-lo!</string>
+    <string name="obd_buy_button">Comprar el complement</string>
+
+    <!-- Roadbook Settings -->
+    <string name="roadbook_settings_instrumets_cat_title">Ajustos d'instruments</string>
+    <string name="roadbook_settings_auto_start_title">Inicia instruments automàticament</string>
+    <string name="roadbook_settings_auto_start_message">Comença a comptar en tots els instruments (Reprodueix) sempre que entris a la vista de Roadbook</string>
+    <string name="roadbook_settings_totals_single_decimal_title">Distància total - Decimal únic</string>
+    <string name="roadbook_settings_totals_single_decimal_summary">Mostrarà la distància total amb un sol decimal en lloc de dos</string>
+    <string name="roadbook_settings_partial_single_decimal_title">Parcial - Decimal únic</string>
+    <string name="roadbook_settings_partial_single_decimal_summary">Mostrarà la distancia parcial amb un sol decimal en lloc de dos</string>
+    <string name="roadbook_settings_visual_settings_cat_title">Configuració visual</string>
+    <string name="roadbook_settings_invert_paper_color_title">Invertir colors del PDF</string>
+    <string name="roadbook_settings_invert_paper_color_message">Inverteix el color del paper, útil en viatge nocturn.</string>
+    <string name="roadbook_settings_locker_cat_title">Configuració de bloqueig</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">El bloqueig també desactiva el tacte del paper</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Quan el bloqueig està activat, qualsevol toc de paper s'ignora. Això ajuda a evitar moviments accidentals o accions de gotes de pluja.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">El bloqueig també desactiva els instruments</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Quan el bloqueig està habilitat, les accions de toc de l'instrument també es desactivaran.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">El bloqueig també desactiva el menú superior</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Quan el bloqueig està habilitat, el menú superior també es desactivarà i només funcionarà el botó de bloqueig.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Bloqueig de sincronització amb reproducció/pausa</string>
+    <string name="roadbook_settings_locker_play_pause_message">El bloqueig activarà la reproducció i el desbloqueig activarà la pausa.</string>
+    <string name="roadbook_settings_adjustment_cat_title">Ajustos</string>
+    <string name="roadbook_settings_distance_multi_factor_title">Multiplicador de distància</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Afegeix un factor de correcció a la distància total i parcial (en cas que necessitis que coincideixin amb les distàncies del Roadbook)</string>
+    <string name="roadbook_settings_no_instruments_title">Amagar panell d'instruments</string>
+    <string name="roadbook_settings_no_instruments_message">Si teniu els vostres propis instruments dedicats i només voleu utilitzar el rotlle PDF.</string>
+    <string name="roadbook_settings_reset_session_title">Reinicia sessió</string>
+    <string name="roadbook_settings_reset_session_message">Descarrega el fitxer PDF actual i restableix totes les estadístiques i distàncies.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Confirma restabliment</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Esteu segur que voleu restablir el progrés actual? Això descarrega el fitxer PDF actual i restableix totes les estadístiques i distàncies!</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Restablir</string>
+    <string name="roadbook_settings_controller_setup_cat_title">Configuració del comandament a distància</string>
+    <string-array name="roadbook_controller_button_options" translatable="true">
+        <item>Pujar rotllo de paper</item>
+        <item>Baixar rotllo de paper</item>
+        <item>Augmenta el total</item>
+        <item>Disminueix el total</item>
+        <item>Augmenta el parcial</item>
+        <item>Disminueix el parcial</item>
+        <item>Restabliment complet</item>
+        <item>Restableix el parcial</item>
+        <item>Invertir el color del paper</item>
+        <item>Bloquejar / desbloquejar</item>
+        <item>Reprodueix / Pausa</item>
+        <item>Mostra el mapa</item>
+        <item>No fer res</item>
+    </string-array>
+    <string name="roadbook_controller_button_up">Tecla amunt</string>
+    <string name="roadbook_controller_button_down">Tecla avall</string>
+    <string name="roadbook_controller_button_left">Tecla esquerra</string>
+    <string name="roadbook_controller_button_right">Tecla dreta</string>
+    <string name="roadbook_controller_button_enter">Tecla intro</string>
+    <string name="roadbook_controller_button_enter_long">Tecla Intro premuda sostingudament (només quan està bloquejada)</string>
+    <string name="roadbook_controller_button_right_long">Tecla Dreta premuda sostingudament</string>
+    <string name="roadbook_controller_button_left_long">Tecla esquerra premuda sostingudament (només quan està bloquejada)</string>
+    <string name="roadbook_controller_button_zoomin">Botó A</string>
+    <string name="roadbook_controller_button_zoomout">Botó B</string>
+    <string name="roadbook_controller_switch_minus">Interruptor Menys</string>
+    <string name="roadbook_controller_switch_plus">Interruptor Més</string>
+    <string name="roadbook_controller_scroll_amount_title">Quantitat de desplaçament per clic</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Habilita la repetició de tecles per a l'interruptor bidireccional</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Si està activat, l'interruptor bidireccional es repetirà quan es mantingui premut.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Estableix la velocitat de repetició per a l'interruptor de 2 vies</string>
+    <string name="roadbook_controller_scroll_amount_message">Ajusta la quantitat de moviment per al desplaçament del paper amunt i avall</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Habilitar repetició de tecles pel al joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Si les tecles Amunt, Avall, Esquerra i Dreta estan habilitades, es repetirà quan es mantinguin premudes.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Estableix la velocitat de repetició per al joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Estableix la velocitat de repetició per als botons</string>
+    <string-array name="roadbook_controller_repeat" translatable="true">
+        <item>50ms</item>
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Habilita la repetició de tecles per als botons</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Si està activat, les tecles del botó A i del botó B es repetiran quan es mantinguin premudes.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Desplaceu el paper cap avall amb un clic en el reinici parcial</string>
+
+    <!-- Instrument On Tap Dialogs -->
+    <string name="roadbook_totals_dialog_title">Distància total</string>
+    <string name="roadbook_totals_dialog_text">Seleccioneu una opció per a l'instrument de distància total</string>
+    <string name="roadbook_partials_dialog_title">Distància parcial</string>
+    <string name="roadbook_partials_dialog_text">Seleccioneu una opció per a l'instrument de distància parcial</string>
+    <string name="roadbook_total_partial_dialog_reset">Restablir</string>
+    <string name="roadbook_total_partial_dialog_edit">Edita</string>
+    <string name="roadbook_total_edit_message_dialog">Distància total</string>
+    <string name="roadbook_partial_edit_message_dialog">Distància parcial</string>
+
+    <!-- Instrument Selection Dialogs -->
+    <string name="roadbook_instrument_select_dialog_title">Selecciona instrument</string>
+
+    <!-- Instrument Names -->
+    <string name="roadbook_instrument_name_total">Distància total</string>
+    <string name="roadbook_instrument_name_partial">Distància parcial</string>
+    <string name="roadbook_instrument_name_obd2">Sensor GPS/OBD2</string>
+
+    <!-- View -->
+    <string name="roadbook_error_not_ready">El servei de roadbook encara no està a punt! Si us plau, torneu-ho a intentar.</string>
+    <string name="roadbook_error_no_action">Cap acció per a aquest instrument.</string>
+    <string name="roadbook_stats_title">Estadístiques</string>
+    <string name="roadbook_filename_label">Nom del fitxer:</string>
+    <string name="roadbook_filename_no_file">No s'ha carregat cap fitxer</string>
+    <string name="roadbook_totaltime_label">Temps Total:</string>
+    <string name="roadbook_traveltime_label">Temps de Trasllat</string>
+    <string name="roadbook_stoptime_label">Hora de Parada:</string>
+    <string name="roadbook_avgspeed_label">Velocitat Mitjana:</string>
+    <string name="roadbook_maxspeed_label">Velocitat Màxima</string>
+    <string name="roadbook_reset_stats_button">Restablir</string>
+    <string name="roadbook_open_new_dialog_title">Obre un fitxer nou</string>
+    <string name="roadbook_open_new_dialog_message">Voleu descartar la sessió actual i començar-ne una de nova o desar el progrés primer per poder reprendre-la més tard?</string>
+    <string name="roadbook_open_new_dialog_open_button">Comença ara</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Guardar primer</string>
+    <string name="roadbook_open_parsing_error_title">Error en obrir fitxer</string>
+    <string name="roadbook_open_parsing_error_message">Sembla que hi ha un problema en llegir aquest fitxer PDF. Probablement no és compatible!</string>
+    <string name="roadbook_adjust_distance_multi">Factor de correcció de distància:</string>
+    <string name="roadbook_open_file_or_session_title">Obrir fitxer o sessió</string>
+    <string name="roadbook_open_file_or_session_message">Voleu importar un fitxer PDF nou o obrir el Gestor de sessions (gestionar les sessions desades anteriorment)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Arxiu</string>
+    <string name="roadbook_open_file_or_session_open_session">Sessió</string>
+    <string name="roadbook_session_save_input_name">Dona un nom a aquesta sessió</string>
+    <string name="roadbook_session_save_input_empty_name_error">El nom de la sessió no pot estar buit!</string>
+    <string name="roadbook_session_save_nothing_error">Res per desar! Potser començar per obrir un nou fitxer de Roadbook.</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Reemplaçar o Afegir nou</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Voleu sobreescriure les sessions actuals o afegir-ne una de nova?</string>
+    <string name="roadbook_session_save_replace_or_add_new_overwrite">Sobreescriure</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Nova entrada</string>
+    <string name="roadbook_session_save_name_already_exists_title">El nom de la sessió ja existeix</string>
+    <string name="roadbook_session_save_name_already_exists_message">Ja existeix una sessió amb aquest nom. Voleu substituir o editar el nom?</string>
+    <string name="roadbook_session_save_name_already_exists_replace">Reemplaçar</string>
+    <string name="roadbook_session_save_name_already_exists_edit">Modificar nom</string>
+
+    <!-- Session Manager -->
+    <string name="roadbook_session_manager_title">Administrador de sessions</string>
+    <string name="roadbook_session_manager_no_sessions_yet">Encara no hi ha cap sessió desada! Primer desa'n una.</string>
+    <string name="roadbook_session_date">Data:</string>
+    <string name="roadbook_session_file_name">Fitxer PDF:</string>
+    <string name="roadbook_session_total_distance">Distància total:</string>
+    <string name="roadbook_session_total_time">Temps total:</string>
+    <string name="roadbook_session_travel_time">Temps de Trasllat:</string>
+    <string name="roadbook_session_avg_speed">Velocitat Mitjana:</string>
+    <string name="roadbook_session_load_file">Càrrega</string>
+    <string name="roadbook_session_rename_file">Canviar el nom</string>
+    <string name="roadbook_session_location">Ubicació</string>
+    <string name="roadbook_session_new_name">Editar el nom d'aquesta sessió</string>
+    <string name="roadbook_session_new_name_already_exists">El nom de sessió ja està en ús, trieu-ne un altre.</string>
+    <string name="roadbook_session_file_does_not_exist">ERROR: El fitxer PDF per a aquesta sessió ja no existeix!</string>
+    <string name="roadbook_session_load_confirmation_title">Confirmació de càrrega de sessió</string>
+    <string name="roadbook_session_load_confirmation_message">Segur que vols carregar aquesta sessió? Es perdrà qualsevol progrés del Roadbook no desat!</string>
+
+    <!-- License -->
+    <string name="roadbook_license_title">Mode de demostració del Roadbook</string>
+    <string name="roadbook_license_message">El mode demo està limitat a 15 minuts per sessió. Compra el complement Roadbook per desbloquejar-lo!</string>
+    <string name="roadbook_buy_button">Comprar el complement</string>
+    <string name="roadbook_non_playstore_purchase_title">Comprar llicència</string>
+    <string name="roadbook_non_playstore_purchase_message">El teu dispositiu no té instal·lada la Play Store, però encara pots comprar una clau al nostre lloc web i inserir-la per activar-la!</string>
+    <string name="roadbook_insert_key">Introdueix la clau</string>
+    <string name="roadbook_purchase_key">Comprar</string>
+    <string name="roadbook_insert_key_title">Si us plau, introduïu la vostra clau de llicència per activar el complement:</string>
+    <string name="roadbook_purchase_key_activate">Activar</string>
+    <string name="roadbook_purchase_key_activate_error_title">Error activant la llicència</string>
+    <string name="roadbook_purchase_key_activate_error_message">Códi de llicència incorrecte o ja ha estat activat previament en un altre dispositiu, comprova les llicències a la pàgina del teu compte de Thork Racing o contacta amb el servei d'assistència.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Llicència activada</string>
+    <string name="roadbook_purchase_key_activate_success_message">El complement ja està actiu! Gràcies pel vostre suport.</string>
+
+    <!-- MAP VIEW -->
+    <string name="map_first_run_download_maps_title">Encara no s'ha descarregat cap mapa</string>
+    <string name="map_first_run_download_maps_message">Encara no has descarregat cap fitxer de mapa. Vols fer-ho ara?</string>
+    <string name="map_first_run_download_maps_starting_layers">Iniciant el Gestor de capes!</string>
+    <string name="map_navigation_selection_dialog_title">Seleccionar el mode de navegació</string>
+    <string name="map_navigation_selection_dialog_message">Faig servir DMD2 per calcular la ruta o faig servir una aplicació externa?</string>
+    <string name="map_navigation_selection_dialog_use_dmd2">Utilitzar DMD2</string>
+    <string name="map_navigation_selection_dialog_use_external">Aplicació externa</string>
+    <string name="map_panning_mode_enable">Mode panoràmic activat</string>
+    <string name="map_lock_button_long_press_unlock">Mantén premut per desbloquejar!</string>
+
+    <!-- Map Layers Manager -->
+    <string name="map_layers_dialog_title">Capes del mapa</string>
+    <string name="map_layers_base_map_title">Font del mapa base</string>
+    <string name="map_layers_base_map_description">Dades bàsiques de terreny, carreteres, edificis, adreces i elevació.</string>
+    <string name="map_layers_3D_buildings_title">Edificis 3D</string>
+    <string name="map_layers_3D_buildings_description">Converteix les àrees de construcció en formes 3D extruïdes bàsiques</string>
+    <string name="map_layers_scale_visibility_title">Escala i visibilitat</string>
+    <string name="map_layers_scale_visibility_description">Ajustar l'escala i la visibilitat del mapa, les etiquetes i els símbols</string>
+    <string name="map_layers_scale_map_layer_label">Escala de mapes</string>
+    <string name="map_layers_enable_layer_label">Habilitar capa</string>
+    <string name="map_layers_enable_labels_layer_label">Habilitar etiquetes</string>
+    <string name="map_layers_scale_labels_layer_label">Escala d'etiquetes</string>
+    <string name="map_layers_enable_symbols_layer_label">Habilitar símbols</string>
+    <string name="map_layers_scale_symbols_layer_label">Escala de símbols</string>
+    <string name="map_layers_location_title">Ubicació de l'icona</string>
+    <string name="map_layers_location_description">Ajusta la icona de ubicació actual</string>
+    <string name="map_layers_icon_scale">Escala d'icones</string>
+    <string name="map_layers_icon_show_accuracy_range">Camp de precisió</string>
+    <string name="map_layers_hillshading_enable_shadows_label">Habilitar ombres</string>
+    <string name="map_layers_map_base_download_more">Descarrega mapes</string>
+    <string name="map_layers_map_base_title">Seleccionar mapes per carregar</string>
+    <string name="map_layers_map_base_file_missing">Error: Falten els fitxers del mapa. Torneu-los a descarregar.</string>
+    <string name="map_layers_map_base_no_map_yet">Encara no s'han descarregat mapes. Feu clic a Descarrega mapes per descarregar-los.</string>
+    <string name="map_layers_downloader_region_title">Selecciona la regió</string>
+    <string name="map_layers_downloader_map_title">Selecciona el mapa</string>
+    <string name="map_layers_downloader_country_downloaded_label">Descarregat:</string>
+    <string name="map_layers_downloader_country_date_label">Última actualització:</string>
+    <string name="map_layers_downloader_country_size_label">Mida:</string>
+    <string name="map_layers_downloader_country_region_label">Regió:</string>
+    <string name="map_layers_downloader_country_filename_label">Nom del fitxer:</string>
+    <string name="map_layers_downloader_country_loaded_label">Carrega el mapa</string>
+    <string name="map_layers_downloader_no_update_label">No actualitzar</string>
+    <string name="map_layers_downloader_notification_title">Descàrrega de DMD2</string>
+    <string name="map_layers_downloader_wait_until_finished">Si us plau, espereu que s'acabi la descàrrega!</string>
+    <string name="map_layers_downloader_cant_connect">No es pot connectar al servidor, torna-ho a intentar més tard!</string>
+    <string name="map_layers_downloader_not_enough_space">No hi ha prou espai d'emmagatzematge!</string>
+    <string name="map_layers_poi_highlight_title">Resaltat de l'icona de PDI</string>
+    <string name="map_layers_poi_highlight_description">Configura les icones de PDI perquè es mostrin a nivells de zoom més baixos (zoom màxim de 500 m)(combustible/hospital/puntes de pic sempre estan habilitades).</string>
+    <string name="map_layers_poi_fuel">Combustible</string>
+    <string name="map_layers_poi_hospital">Hospital</string>
+    <string name="map_layers_poi_peaks">Punts àlgids</string>
+    <string name="map_layers_poi_parking">Aparcament</string>
+    <string name="map_layers_poi_restaurant">Restaurant</string>
+    <string name="map_layers_poi_cafe">Cafeteria</string>
+    <string name="map_layers_poi_pub">Pub</string>
+    <string name="map_layers_poi_cafe_and_Pub">Cafeteria i pub</string>
+    <string name="map_layers_poi_hotel">Hotel</string>
+    <string name="map_layers_poi_hostel">Hostal</string>
+    <string name="map_layers_poi_accommodation">Allotjament</string>
+    <string name="map_layers_poi_camping">Càmping</string>
+    <string name="map_layers_poi_supermarket">Supermercat</string>
+    <string name="map_layers_poi_attraction">Atracció</string>
+    <string name="map_layers_poi_view_point">Mirador</string>
+    <string name="map_layers_poi_historic">Història</string>
+    <string name="map_layers_poi_natural">Natural</string>
+    <string name="map_layers_poi_parking_place">Plaça d'aparcament</string>
+    <string name="map_layers_poi_car_repair">Reparació d'automòbil</string>
+    <string name="map_layers_poi_monument">Monument</string>
+    <string name="map_layers_poi_atm">Caixer automàtic</string>
+    <string name="map_layers_poi_bank">Banca</string>
+    <string name="map_layers_poi_gas">Gasolinera</string>
+    <string name="map_layers_poi_moto_repair">Reparació de motocicleta</string>
+    <string name="map_layers_theme_title">Tipus i estil de mapa</string>
+    <string name="map_layers_theme_description">Seleccione el tipo de mapa mínimo y limpio predeterminado o un tipo topográfico todoterreno más detallado. También configure los modos de color claro y oscuro.</string>
+    <string name="map_layers_map_type_default_title">Mínim predeterminat</string>
+    <string name="map_layers_map_type_topo_title">Mapa tot terreny</string>
+    <string name="map_layers_map_type_light_or_dark">Mode Clar/Fosc</string>
+    <string name="map_layers_map_type_always_light">Curat</string>
+    <string name="map_layers_map_type_always_dark">Fosc</string>
+    <string name="map_layers_map_type_follow_theme">Tema</string>
+    <string name="map_layers_map_type_light_sensor">Sensor</string>
+    <string name="map_layers_topo_advanced_title">Opcions avançades</string>
+    <string name="map_layers_topo_advanced_description">Ajusta el tipus de mapa topogràfic tot terreny</string>
+    <string name="map_layers_topo_high_contrast_mode">Mode d'alt contrast</string>
+    <string name="map_layers_topo_options_altitude_line">Mostrar línies d'altitud</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Ressaltat sense pavimentar (visible amb zoom baix)</string>
+    <string name="map_layers_topo_options_show_motorway">Mostra autopistes</string>
+    <string name="map_layers_topo_options_show_primary">Camins primaris</string>
+    <string name="map_layers_topo_options_show_secondary">Vies secundàries</string>
+    <string name="map_layers_reset">Todos los ajustes se han restablecido a sus valores predeterminados.</string>
+    <string name="map_layers_hillshading_title">Ombrejat de pendents (en línia)</string>
+    <string name="map_layers_hillshading_description">Muestra la forma topográfica de colinas y montañas con sombreado</string>
+    <string name="map_layers_hillshading_transparency">Opacitat</string>
+    <string name="map_layers_routing_title">Interfície d'usuari d'encaminament</string>
+    <string name="map_layers_routing_description">Ajuste el ancho de la línea de ruta calculada en el mapa</string>
+    <string name="map_layers_routing_width_line">Amplada de línia</string>
+    <string name="map_layers_routing_transparency_line">Opacitat de la línia</string>
+    <string name="map_layers_routing_pins_size">Mida de les indicacions</string>
+
+    <!-- GPX Manager -->
+    <string name="gpx_manager_load_error_title">Error en carregar GPX</string>
+    <string name="gpx_manager_load_error_message">Error al cargar el archivo GPX. DMD2 no intentará cargarlo de nuevo. ¡Por favor, pruebe otro archivo!</string>
+    <string name="gpx_manager_title">Gestor GPX</string>
+    <string name="gpx_manager_load_file">Carrega fitxer</string>
+    <string name="gpx_manager_no_file_loaded">Cap fitxer carregat. Premeu per carregar fitxer.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Recarregant fitxers. Si us plau, espereu</string>
+    <string name="gpx_manager_tracks">Tracks / Pistes</string>
+    <string name="gpx_manager_waypoints">Balises</string>
+    <string name="gpx_manager_center_map_button">Centra el mapa</string>
+    <string name="gpx_manager_settings_title">Configuració de GPX</string>
+    <string name="gpx_manager_settings_visibility_title">Mostrar o ocultar</string>
+    <string name="gpx_manager_settings_visibility_message">Mostrar u ocultar elementos GPX (para todos los archivos). Esto tiene prioridad sobre la configuración de archivos individuales.</string>
+    <string name="gpx_manager_settings_tracks_visibility">Mostra totes les pistes GPX habilitades</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Mostrar fletxes de direcció de la pista</string>
+    <string name="gpx_manager_settings_waypoints_visibility">Mostrar totes les balises habilitades</string>
+    <string name="gpx_manager_settings_waypoints_titles">Mostrar text del títol de balisa</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Amaga balises amb zoom baix</string>
+    <string name="gpx_manager_settings_style_title">Mides i opacitat</string>
+    <string name="gpx_manager_settings_style_message">Establecer los tamaños y la opacidad predeterminados de los elementos GPX</string>
+    <string name="gpx_manager_settings_defaults_title">Valors predeterminats de color</string>
+    <string name="gpx_manager_settings_defaults_message">Color predeterminado de la línea de pista y sobreescrituras de color</string>
+    <string name="gpx_manager_settings_track_width">Ample de la línia de seguiment</string>
+    <string name="gpx_manager_settings_track_transparency">Opacitat de la pista</string>
+    <string name="gpx_manager_settings_arrow_size">Fletxa de direcció</string>
+    <string name="gpx_manager_settings_waypoint_size">Mida del pin de balisa</string>
+    <string name="gpx_manager_settings_hide_all">Oculta-ho tot</string>
+    <string name="gpx_manager_settings_show_all">Mostra-ho tot</string>
+    <string name="gpx_manager_settings_delete_all">Eliminar tot</string>
+    <string name="gpx_manager_settings_default_track_color">Color de pista predeterminado (cuando el usuario no especifica ni establece ningún color):</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Sobrescribir todos los colores establecidos en los archivos al color predeterminado:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Sobrescribir todos los colores establecidos por el usuario al color predeterminado:</string>
+    <string name="gpx_manager_settings_load_poi_title">Càrrega automàtica de punts d'interès</string>
+    <string name="gpx_manager_settings_load_poi_message">Cargue automáticamente el PDI a lo largo de la pista hasta 3 categorías</string>
+    <string name="gpx_manager_settings_load_poi_enable_label">Habilite la carga automática de PDI a lo largo de la pista:</string>
+    <string name="gpx_manager_settings_poi_cat_select_cats">Seleccioneu les categories de PDI a carregar:</string>
+    <string name="gpx_manager_no_tracks_warning">El fitxer GPX seleccionat no conté cap pista!</string>
+    <string name="gpx_manager_track_manager_title">Gestor de pistes</string>
+    <string name="gpx_manager_track_manager_no_description">Cap descripció de la pista disponible.</string>
+    <string name="gpx_manager_track_manager_track_length">Longitud de la ruta</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navegar fins al punt de seguiment</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Selecciona el punt de seguiment al qual vols navegar.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Data d'inici del seguiment</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Punt més proper</string>
+    <string name="gpx_manager_track_manager_navigate_end">Final de pista</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Tenga en cuenta que esta operación es muy exigente y lenta. ¡El resultado también podría no ser una combinación perfecta con la pista original! Utiliza esta opción con precaución.</string>
+    <string name="gpx_manager_track_manager_select_nav_app">Seleccionar aplicació de navegació</string>
+    <string name="gpx_manager_track_manager_poi_search">Cerca de PDI</string>
+    <string name="gpx_manager_no_waypoint_warning">El fitxer GPX seleccionat no conté cap punt de referència!</string>
+    <string name="gpx_manager_waypoints_manager_title">Gestor de balises</string>
+    <string name="gpx_manager_waypoints_navigate_to">Navega a</string>
+    <string name="gpx_manager_waypoints_share_location">Compartir ubicació</string>
+    <string name="gpx_manager_waypoints_search_at_location">Cerca a prop:</string>
+    <string name="gpx_manager_waypoint_no_description">Cap descripció de balisa disponible.</string>
+    <string name="gpx_manager_waypoint_straight_line_distance">Distància en línia recta</string>
+    <string name="gpx_manager_waypoint_distance_on_track">Distància (des de tu)</string>
+    <string name="gpx_manager_waypoint_distance_more">Dist. de punt de via</string>
+    <string name="gpx_manager_waypoint_distance_from_track_start">Distància des de l'inici de la pista</string>
+    <string name="gpx_manager_waypoint_not_on_track">Necesitas viajar en el mismo archivo GPX para obtener información sobre las distancias.</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Esperant la reparació del GPS</string>
+    <string name="gpx_manager_waypoint_share_app">Selecciona per compartir</string>
+    <string name="gpx_manager_gpx_loading_message">Carregant fitxer GPX</string>
+    <string name="gpx_manager_poi_loading_message">Cargando búsqueda de PDI de seguimiento, esto puede llevar algún tiempo…</string>
+    <string name="gpx_manager_advanced_title">Opcions avançades</string>
+    <string name="gpx_manager_advanced_convert_to_route">Intent de convertir el fitxer complet a navegació:</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">Aquest fitxer GPX no conté cap pista!</string>
+
+    <!-- Map Press Actions -->
+    <string name="map_long_press_point_title">Mapa d'accions de premsa llarga</string>
+    <string name="map_long_press_point_no_info">Cap informació per a aquest punt!</string>
+    <string name="map_long_press_point_close_to">en</string>
+    <string name="map_long_press_point_nearest_city">la ciutat més propera és</string>
+    <string name="map_long_press_point_navigate">Navega</string>
+    <string name="map_long_press_point_share">Comparteix</string>
+    <string name="map_long_press_search_poi">Cerca PDI</string>
+    <string name="map_long_press_online_weather">Temps en línia.</string>
+    <string name="map_long_press_online_weather_no_info">Cap informació per a aquest punt!</string>
+
+    <!-- License -->
+    <string name="map_license_title">Mode de demostració del mapa</string>
+    <string name="map_license_message">El mode demo està limitat a 15 minuts per sessió. Compra el complement Map per desbloquejar-lo!</string>
+    <string name="map_buy_button">Compra el complement</string>
+    <string name="map_buy_dialog_title">Compra de complements</string>
+    <string name="map_buy_dialog_message1">Selecciona la durada de la subscripció.</string>
+    <string name="map_buy_dialog_message2">Subscripció PRO de 12 mesos</string>
+    <string name="map_buy_dialog_message3">Compra per a tota la vida</string>
+    <string name="map_buy_dialog_message4">Subscripció de 6 mesos</string>
+    <string name="map_buy_button_12_month">12 mesos</string>
+    <string name="map_buy_button_6_month">6 mesos</string>
+    <string name="map_buy_button_lifetime">Permanent</string>
+    <string name="license_limitation_message">Aquesta opció només està disponible per a usuaris amb llicència!</string>
+
+    <!-- Map Settings -->
+    <string name="map_settings_auto_zoom_cat_title">Zoom i inclinació automàtics</string>
+    <string name="map_settings_auto_zoom_title">Habilitar nivell de zoom automàtic</string>
+    <string name="map_settings_auto_tilt_title">Habilitar nivell d'inclinació automàtic</string>
+    <string name="map_settings_auto_nav_only">Mode automàtic només en navegació activa</string>
+    <string name="map_settings_ui_cat_title">Opcions d'interfície</string>
+    <string name="map_settings_ui_enable_track_progress">Habilita el quadre d'informació de seguiment del progrés</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Mostrarà un quadre al lateral de la pantalla amb el progrés del recorregut i les distàncies fins als propers PDI i punts de referència.</string>
+    <string name="map_settings_ui_enable_street_name">Mostrar nom del carrer</string>
+    <string name="map_settings_ui_enable_street_name_summary">Mostra el nom del carrer actual a la part inferior del mapa</string>
+    <string name="reverse_geo_unnamed_road">Carrer sense nom</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Desactiva el tacte del mapa quan està bloquejat</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Especialment útil si teniu un controlador, desactiva tota la pantalla tàctil</string>
+    <string name="map_settings_ui_lock_on_move_title">Bloqueig automàtic en moviment</string>
+    <string name="map_settings_ui_lock_on_move_message">El mapa bloquejarà automàticament la interfície d'usuari quan comenceu a moure'us.</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Desbloqueig automàtic en aturar-se</string>
+    <string name="map_settings_ui_unlock_on_stop_message">El mapa desbloquejarà automàticament la interfície d'usuari quan deixis de moure't.</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Amaga títols dels widgets</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Amaga els títols dels widgets per augmentar la mida de l'etiqueta de valor</string>
+    <string name="map_settings_language_cat_title">Idioma del mapa</string>
+    <string name="map_settings_language_load_mode_title">Idioma del mapa</string>
+    <string-array name="map_settings_language_load_mode_entries" translatable="true">
+        <item>Idioma del mapa localitzat</item>
+        <item>Alfabet anglès o llatí disponible</item>
+        <item>Francès > Anglès o alfabet llatí disponible</item>
+        <item>Alemany > Anglès o alfabet llatí disponible</item>
+    </string-array>
+    <string name="map_settings_navigation_cat_title">Navegació</string>
+    <string name="map_settings_navigation_start_ask_title">Navega a: Demana si vols utilitzar DMD2 o External</string>
+    <string name="map_settings_navigation_start_ask_message">Si activeu DMD2, us preguntarà si voleu utilitzar DMD2 o una altra aplicació. Si està desactivat, per defecte s'utilitza DMD2.</string>
+    <string name="map_settings_navigation_use_voice_instructions_title">Habilitar instruccions de veu</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Utilitzarà la funció de text a veu per proporcionar instruccions de veu per a la navegació.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Mostrar punts de referència al mapa</string>
+    <string name="map_settings_navigation_show_waypoints_message">Mostrarà el pin del punt de referència amb instruccions d'enrutament al mapa.</string>
+    <string name="map_settings_navigation_recalculation_distance">Distància de recàlcul automàtic de la ruta</string>
+    <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
+        <item>50m</item>
+        <item>100m</item>
+        <item>150m</item>
+        <item>250m</item>
+        <item>500m</item>
+        <item>1km</item>
+        <item>Mai</item>
+    </string-array>
+    <string name="map_settings_controller_cat_title">Navegació</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Desactiva el mode de panoràmica de l'objectiu</string>
+    <string name="map_settings_controller_disable_pan_spot_summary">Desactiva les noves accions del punt de mira del mode de panoràmica.</string>
+    <string name="map_settings_follow_cat_title">Mètodes de seguiment d'ubicació</string>
+    <string name="map_settings_follow_north_oriented">Orientat al nord</string>
+    <string name="map_settings_follow_north_oriented_summary">Segueix la ubicació amb la part superior del mapa fixada al nord</string>
+    <string name="map_settings_follow_north_oriented_track"> "T" orientada al nord: zoom a la pista o navegació activa</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Igual que orientat al nord però amb zoom que limita amb la pista o navegació activa</string>
+    <string name="map_settings_follow_north_oriented_file">Orientat al nord: zoom a GPX o navegació activa</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Igual que orientat al nord però amb zoom que limita al fitxer GPX actiu complet o a la navegació</string>
+    <string name="map_settings_follow_north_next_indication">Orientat al nord - Pròxim punt de referència / indicació</string>
+    <string name="map_settings_follow_north_next_indication_summary">Igual que amb orientació nord però amb zoom que delimita la vostra ubicació i el següent punt de referència o indicació de navegació.</string>
+    <string name="map_settings_follow_travel_oriented">Orientat a la ruta</string>
+    <string name="map_settings_follow_travel_oriented_summary">Segueix la ubicació amb la rotació del mapa de manera que la part superior coincideixi amb la teva ruta</string>
+
+    <!-- Poi Search -->
+    <string name="map_poi_search_manager">Cerca de llocs</string>
+    <string name="map_poi_search_call">Truca</string>
+    <string name="map_poi_type_name">Escriu un nom</string>
+    <string name="map_poi_error_no_offline_map_loaded">Error: encara no s'ha carregat cap mapa! Baixeu primer els mapes fora de línia.</string>
+    <string name="map_poi_error_no_poi_found">Error: no s'han trobat punts d'interès!</string>
+    <string name="map_poi_search_more">Cerca en línia</string>
+    <string name="map_poi_no_phone_available_error">Cap número de telèfon disponible</string>
+    <string name="map_poi_no_phone_app_available_error">Cap aplicació de telèfon disponible</string>
+    <string name="map_poi_no_address">Adreça no disponible</string>
+    <string name="map_poi_no_phone">No hi ha telèfon disponible</string>
+    <string name="map_poi_no_website">No hi ha lloc web disponible</string>
+    <string name="map_poi_no_opening_hours">No hi ha horaris disponibles</string>
+    <string name="map_poi_search_dialog_title">Cerca per nom</string>
+    <string name="map_poi_search_button">Cerca</string>
+    <string name="map_poi_coordinates">Coordenades</string>
+    <string name="map_poi_insert_coordinates">Insereix coordenades</string>
+    <string name="map_poi_insert_coordinates_example">Exemple- (DD): 41.193376, -8.298463 o (DMS): 41°11\'36.2"N, 8°17'54.5"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">Les coordenades no són vàlides!</string>
+    <string name="map_poi_not_a_valid_keyword">No és una entrada de cerca vàlida!</string>
+    <string name="map_poi_no_valid_location_yet">Encara no hi ha ubicació GPS! Torna-ho a provar més tard.</string>
+    <string name="map_poi_distance_long_press_no_fix">Distància no disponible, encara no hi ha fixació GPS</string>
+    <string name="map_poi_show_pin_for_location">Càrrega de la cerca de PDI per a la ubicació del PIN</string>
+    <string name="map_poi_search_name">Nom de cerca</string>
+    <string name="map_poi_cat_fuel">Gasolinera</string>
+    <string name="map_poi_cat_accommodation">Allotjament</string>
+    <string name="map_poi_cat_restaurants">Restaurants</string>
+    <string name="map_poi_cat_cafe">Cafeteries, Pubs i Bars</string>
+    <string name="map_poi_cat_shop">Botigues i Mercats</string>
+    <string name="map_poi_cat_moto_repair">Reparació de motocicletes</string>
+    <string name="map_poi_cat_car_repair">Reparació d'automòbils</string>
+    <string name="map_poi_cat_parking">Lloc d'estacionament</string>
+    <string name="map_poi_cat_rental">Lloguer, Rentat i Càrrega</string>
+    <string name="map_poi_cat_money">Banc i Caixer Automàtic</string>
+    <string name="map_poi_cat_wc_water">Lavabos i Aigua</string>
+    <string name="map_poi_cat_camping">Càmping i Caravana</string>
+    <string name="map_poi_cat_recreation">Recreació</string>
+    <string name="map_poi_cat_natural_places">Llocs naturals</string>
+    <string name="map_poi_cat_hospital">Hospital</string>
+    <string name="map_poi_cat_pharmacy">Farmàcia</string>
+    <string name="map_poi_cat_tourism">Turisme</string>
+    <string name="map_poi_cat_historic">Llocs històrics</string>
+    <string name="map_poi_cat_pub_transport">Transport públic</string>
+    <string name="map_poi_cat_pub_entertainment">Entreteniment</string>
+    <string name="map_poi_cat_pub_government">Govern</string>
+    <string name="map_poi_cat_pub_cities">Ciutats, Pobles i Llogarets</string>
+    <string name="map_poi_cat_pub_communications">Comunicacions</string>
+
+    <!-- Track Tap -->
+    <string name="map_map_track_tap_dialog_title">Prem punt de seguiment</string>
+    <string name="map_map_track_tap_track_details">Editar informació sobre la pista</string>
+    <string name="map_map_track_tap_track_point_distances">Distàncies de posició del punt:</string>
+    <string name="map_map_track_tap_track_point_distances_to_you">Distància i temps fins a la teva posició:</string>
+    <string name="map_map_track_tap_on_track">Estàs en aquest camí!</string>
+    <string name="map_map_track_tap_not_on_track_but_on_gpx">Estàs en un altre camí.</string>
+    <string name="map_map_track_tap_not_on_gpx">No esteu recorrent aquesta ruta ni cap altra ruta activa del mateix fitxer GPX.</string>
+    <string name="map_map_track_tap_point_distance_from_track_start">Data d'inici del seguiment</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Final de pista:</string>
+    <string name="map_map_track_tap_point_distance_from_gpx_start">Inici GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_gpx_end">Final GPX:</string>
+    <string name="map_map_track_tap_point_distance_to_you">Distància:</string>
+    <string name="map_map_track_tap_point_time_to_you">Temps de trasllat</string>
+    <string name="map_map_track_tap_point_behind">darrere</string>
+    <string name="map_map_track_tap_point_ahead">endavant</string>
+    <string name="map_map_track_tap_distance_to_another_point">Distància a un altre punt</string>
+    <string name="map_map_track_tap_points_distance_title">Distància de punts</string>
+    <string name="map_map_track_tap_points_distance_tap_on">Toca un altre punt per obtenir la distància entre els punts</string>
+    <string name="map_map_track_tap_points_distance_not_same_gpx">Selecciona un punt que formi part del mateix fitxer GPX!</string>
+    <string name="map_map_track_tap_points_distance_both_same_track">Els dos punts seleccionats estan a la mateixa pista GPX</string>
+    <string name="map_map_track_tap_points_distance_different_track">Els punts no es troben a la mateixa pista GPX, però les pistes estan connectades.</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">No es pot mesurar en diferents pistes amb múltiples connexions</string>
+
+    <!-- Left Panel Progress -->
+    <string name="map_ui_left_progress_panel_finish_label">Acabat:</string>
+
+    <!-- Route Planner -->
+    <string name="map_route_planner_dialog_root_title">CERCA DE RUTES</string>
+    <string name="map_route_planner_road_fast">Ruta Ràpida</string>
+    <string name="map_route_planner_road_fun">Diversió a la carretera</string>
+    <string name="map_route_planner_offroad">Tot terreny</string>
+    <string name="map_route_planner_avoid_tolls">Evita els peatges</string>
+    <string name="map_route_planner_avoid_motorways">Evita les autopistes</string>
+    <string name="map_route_planner_offroad_easy">Fàcil</string>
+    <string name="map_route_planner_offroad_medium">Mitjà</string>
+    <string name="map_route_planner_offroad_hard">Difícil</string>
+    <string name="map_route_planner_profile_label">Selecciona perfil</string>
+    <string name="map_route_planner_profile_option">Seleccionar opcions de perfil</string>
+    <string name="map_route_calculating_message">Calculant ruta...</string>
+    <string name="map_route_loading_message">Càrregant la ruta...</string>
+    <string name="map_route_analyzing_message">Analitzant ruta...</string>
+    <string name="map_route_calculating_message_retry">Error!</string>
+    <string name="map_route_calculating_message_options">Opcions</string>
+    <string name="map_route_planner_no_gps_fix">Encara no hi ha cap correcció GPS, torna-ho a provar més tard!</string>
+    <string name="map_route_planner_cancel_active_dialog_title">Cancel·lar ruta activa?</string>
+    <string name="map_route_planner_cancel_active_dialog_message">Hi ha una navegació activa. Voleu cancel·lar-la i començar-ne una de nova?</string>
+    <string name="map_route_planner_instruction_now">Ara</string>
+    <string name="map_route_planner_instruction_arrived">Has arribat a la teva destinació!</string>
+    <string name="map_route_planner_instruction_keep_same_road">Continua per</string>
+    <string name="map_route_planner_instruction_turn_left">Gira a l'esquerra</string>
+    <string name="map_route_planner_instruction_turn_right">Gira a la dreta</string>
+    <string name="map_route_planner_instruction_turn_left_sharp">Gir brusc a l'esquerra en</string>
+    <string name="map_route_planner_instruction_turn_right_sharp">Gir brusc a la dreta en</string>
+    <string name="map_route_planner_instruction_turn_slight_left">Una mica a l'esquerra en</string>
+    <string name="map_route_planner_instruction_turn_slight_right">Una mica a la teva dreta en</string>
+    <string name="map_route_planner_instruction_keep_left">Mantén-te a l'esquerra en</string>
+    <string name="map_route_planner_instruction_keep_right">Mantén-te a la dreta en</string>
+    <string name="map_route_planner_instruction_uturn">Gir en U a</string>
+    <string name="map_route_planner_instruction_straight">Segueix recte</string>
+    <string name="map_route_planner_instruction_take_exit_1">Primera sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_2">Segona sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_3">Tercera sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_4">Quarta sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_5">Cinquena sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_6">Sisena sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_7">Setena sortida a</string>
+    <string name="map_route_planner_instruction_take_exit_8">Vuitena sortida a</string>
+    <string name="map_route_planner_instruction_destination">Destinació en</string>
+    <string name="map_route_planner_nav_options">Opcions</string>
+    <string name="map_route_planner_nav_options_title">Opcions de navegació actives</string>
+    <string name="map_route_planner_nav_options_message">Opcions disponibles per a la navegació activa:</string>
+    <string name="map_route_planner_nav_options_share_as_gpx">Compartir com a GPX</string>
+    <string name="map_route_planner_error_missing_calc_file_title">Falten fitxers de càlcul</string>
+    <string name="map_route_planner_error_missing_calc_file_message">Falten fitxers de càlcul. Torneu a descarregar els fitxers del mapa per assegurar-vos que s'han descarregat.</string>
+    <string name="map_route_planner_error_other_title">Error de càlcul</string>
+    <string name="map_route_planner_error_other_message">S'ha produït un error en calcular la ruta! Torna-ho a intentar. Si ets fora de carretera, prova el perfil mixt!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Falten fitxers del planificador de rutes</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Per a les funcions de planificació de rutes del DMD2, cal descarregar fitxers addicionals. Voleu fer-ho ara?</string>
+    <string name="map_route_planner_dialog_download_progress">Descarregant fitxer de càlcul</string>
+    <string name="map_route_planner_empty">Cap pista o ruta activa!</string>
+
+    <!-- Place Search -->
+    <string name="map_place_search_dialog_title">Cerca d'adreces en línia</string>
+    <string name="map_place_search_cat_name">Direcció en línia</string>
+    <string name="map_place_search_dialog_type_label">Escriu un nom o adreça:</string>
+    <string name="map_place_search_distance">Distància en línia recta</string>
+    <string name="map_place_search_instructions">Escriviu almenys tres lletres per veure els resultats</string>
+
+    <!-- GPX Recorder -->
+    <string name="map_gpx_recorder_dialog_title">Gravadora GPX</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Gravacions</string>
+    <string name="map_gpx_recorder_dialog_status">Estat de la gravació:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distància:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Punts:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Pistes:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Balises:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Inici:</string>
+    <string name="map_gpx_recorder_dialog_recording_elapsed_time">Transcorregut:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Velocitat mitjana</string>
+    <string name="map_gpx_recorder_dialog_recording_elevation_gain">Guany d'altura:</string>
+    <string name="map_gpx_recorder_dialog_record">Registre</string>
+    <string name="map_gpx_recorder_dialog_pause">Pausa</string>
+    <string name="map_gpx_recorder_dialog_resume">Resum</string>
+    <string name="map_gpx_recorder_dialog_finish">Acaba</string>
+    <string name="map_gpx_recorder_dialog_add_track">Pista nova</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Afegeix punt de referència</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">No s'està gravant, premeu el botó Gravar per iniciar</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Gravació GPX, premeu Finalitzar per acabar i desar</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Gravadora en pausa, Reprendre o Finalitzar</string>
+    <string name="map_gpx_recorder_dialog_points_short">pts</string>
+    <string name="map_gpx_recorder_new_track_title">Nom de la ruta</string>
+    <string name="map_gpx_recorder_new_track_add_track">Afegeix ruta</string>
+    <string name="map_gpx_recorder_inactive_warning">No pots fer-ho. No s'està gravant</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Finalitza gravació</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Si us plau, escolliu entre guardar-lo en un fitxer GPX, descartar-lo i suprimir l'enregistrament o tancar aquest quadre de diàleg i continuar l'enregistrament.</string>
+    <string name="map_gpx_recorder_finish_name_file_title">Nom per al fitxer GPX</string>
+    <string name="map_gpx_recorder_finish_name_file_discard">Descartar / eliminar</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">El fitxer ja existeix</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Tornar-ho a provar</string>
+    <string name="map_gpx_recorder_recordings_list">Llista de gravacions</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Encara no hi ha fitxers GPX gravats!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Carrega el GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Escriu un nom de fitxer nou:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Nou punt de pas</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Nom de la balisa</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Text de descripció</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Selecciona ubicació</string>
+    <string name="map_gpx_recorder_add_waypoint_auto_fill">Autocompleta</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Balisa</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Toca al mapa fins a la posició</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Toqueu la nova ubicació per al punt de referència i, a continuació, feu clic al botó "Defineix"!</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_save">Assignar la posició</string>
+    <string name="map_gpx_recorder_tracks_edit">Editor de pistes de gravadora</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Cap pista encara!</string>
+    <string name="map_gpx_recorder_track_edit_name">Nom de la pista</string>
+    <string name="map_gpx_recorder_track_edit_description">Descripció de la pista</string>
+    <string name="map_gpx_recorder_track_edit_color">Color:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Editor de balises de ruta de gravadora</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Icona del pin</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Cap Balisa encara!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Confirmació d'eliminació</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Esteu segur que voleu suprimir aquest fitxer? Aquesta acció no es pot revertir!</string>
+
+    <!-- Location Manager -->
+    <string name="location_manager_my_locations_cat">Els meus llocs</string>
+    <string name="location_manager_save_location_button">Guarda ubicació</string>
+    <string name="location_manager_save_location_name">Nom de la ubicació</string>
+    <string name="location_manager_save_location_dialog_title">Guardar a les meves ubicacions</string>
+    <string name="location_manager_save_location_unnamed">Ubicació sense nom</string>
+    <string name="location_manager_save_location_no_description">Sense descripció</string>
+    <string name="location_manager_save_location_saved">Ubicació desada!</string>
+    <string name="location_manager_save_keep_on_map">Mantenir visible al mapa</string>
+    <string name="location_manager_save_new">Afegir nou</string>
+
+</resources>
