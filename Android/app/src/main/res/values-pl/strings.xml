@@ -1,8 +1,5 @@
 <resources>
 
-
-    <!-- New Untranslated -->
-
     <string name="obd_view_speed">SZYBKOŚĆ</string>
 
     <string name="gpx_manager_routes">Trasy</string>
@@ -262,8 +259,6 @@
     <string name="home_widget_odo_dialog_title">Opcje Licznika Kilometrów</string>
     <string name="home_widget_odo_dialog_message">Zresetuj wartość licznika kilometrów lub edytuj aktualną wartość</string>
     <string name="home_widget_odo_dialog_edit_title">Edytuj Wartość Licznika Kilometrów</string>
-
-    <!-- End Of New Untranslated -->
 
 
 
