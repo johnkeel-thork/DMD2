@@ -34,8 +34,8 @@
     <!-- GPX Instructions -->
     <string name="map_gpx_real_time_left">Lewo</string>
     <string name="map_gpx_real_time_right">Prawo</string>
-    <string name="map_gpx_real_time_in">w</string>
-    <string name="map_gpx_real_time_for">dla</string>
+    <string name="map_gpx_real_time_in">za</string>
+    <string name="map_gpx_real_time_for">przez</string>
     <string name="map_gpx_real_time_from_instruction_to_next">do</string>
     <string name="map_gpx_real_time_straight">Prosto</string>
     <string name="map_gpx_real_time_instructions_title">Instrukcje Skręcania</string>
@@ -58,7 +58,7 @@
     <string name="event_mode_downloading">Pobieranie Wydarzenia</string>
     <string name="event_mode_downloading_message">Poczekaj na zakończenie pobierania!</string>
 
-    <string name="gpx_warnings_setting">Ostrzeżenia Postępu</string>
+    <string name="gpx_warnings_setting">Ostrzeżenia Nawigacyjne</string>
     <string name="gpx_warnings_setting_desc">Pokaż ostrzeżenia o zjechaniu z trasy oraz złym kierunku.</string>
     <string name="gpx_warning_wrong_direction">Zły Kierunek!</string>
     <string name="gpx_warning_turn_around">Zawróć!</string>
@@ -66,10 +66,10 @@
     <string name="gpx_warning_correct_direction">Wróć na Trasę!</string>
     <string name="gpx_warning_show_wrong_direction_option">Pokaż Ostrzeżenie o Złym Kierunku</string>
     <string name="gpx_warning_show_away_from_track_option">Pokaż Ostrzeżenie o Zjechaniu z Trasy</string>
-    <string name="gpx_warning_show_screen_flash">Pokaż Migotanie Ekranu</string>
-    <string name="gpx_warning_play_voice_warning">Pokaż Ostrzeżenie Głosowe</string>
+    <string name="gpx_warning_show_screen_flash">Użyj Migotania Ekranu</string>
+    <string name="gpx_warning_play_voice_warning">Odtwórz Ostrzeżenie Głosowe</string>
 
-    <string name="gpx_manager_poi_busy_message">Przeliczanie POI w trakcie, wznowię po zakończeniu!</string>
+    <string name="gpx_manager_poi_busy_message">Przetwarzanie POI w toku, wznowię po zakończeniu!</string>
 
     <string name="gpx_manager_settings_start_end">Pokaż Punkty Startu i Końca Trasy</string>
 
@@ -101,16 +101,16 @@
 
     <string name="gpx_manager_settings_closest_point_title">Linia do Najbliższego Punktu</string>
     <string name="gpx_manager_settings_closest_point_desc">Rysuje prostą linię między Twoją pozycją a najbliższym punktem trasy - jeśli jesteś więcej niż 200m od trasy i trasa jest w zasięgu 5Km.</string>
-    <string name="gpx_manager_settings_closest_point_label">Włącz Linie</string>
+    <string name="gpx_manager_settings_closest_point_label">Włącz Linię</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_title">Automatyczny Punkt Nawigacyjny</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_desc">Automatycznie Generowany Punkt Nawigacyjny na Podstawie Odległości</string>
     <string name="gpx_manager_settings_auto_waypoint_distance_switch">Włącz Automatyczny Punkt Nawigacyjny</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Odległość Interwału</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Interwał Odległości</string>
 
 
     <string name="settings_backup_cat">Kopia Zapasowa i Przywrócenie</string>
     <string name="settings_backup_gdrive_start">Utwórz Zip i Zapisz</string>
-    <string name="settings_backup_gdrive_message">Tworzy plik zip i pozwala na wysłanie go, zalecamy Google Drive! Uwaga: Nie zawiera.</string>
+    <string name="settings_backup_gdrive_message">Tworzy plik zip i pozwala na wysłanie go, zalecamy Google Drive! Uwaga: Nie zawiera mapy.</string>
     <string name="settings_import_gdrive_start">Import Zip i Przywróć</string>
     <string name="settings_import_gdrive_message">Uwaga: Jeśli wyczyściłeś dane aplikacji, musisz ręcznie pobrać swoje mapy offline.</string>
     <string name="settings_run_in_background">Uruchom DMD2 jako Usługę</string>
@@ -154,7 +154,7 @@
     <string name="settings_dmd_devices_keep_running_screen_off_title">Utrzymaj GPS włączony z wyłączonym ekranem</string>
     <string name="settings_dmd_devices_keep_running_screen_off_summary">Jeśli włączone, pomiary trasy i GPS będą działały nawet jeśli ekran jest wyłączony</string>
 
-    <string name="widget_info_gps_cardinal_name">Kompas Kardynalny</string>
+    <string name="widget_info_gps_cardinal_name">Kompas Stron Świata</string>
     <string name="widget_info_gps_cardinal_label">Kompas</string>
 
     <string name="obd_set_wunderlinq_title">Tryb WunderLINQ (Beta)</string>
@@ -188,8 +188,8 @@
     <string name="map_poi_cat_historic">Historiczne Miejsca</string>
     <string name="map_poi_cat_pub_transport">Transport Publiczny</string>
     <string name="map_poi_cat_pub_entertainment">Rozrywka</string>
-    <string name="map_poi_cat_pub_government">Rząd</string>
-    <string name="map_poi_cat_pub_cities">Miasta, Miasta &amp; Wioski</string>
+    <string name="map_poi_cat_pub_government">Instytucje Rządowe</string>
+    <string name="map_poi_cat_pub_cities">Miasta, Miasteczka &amp; Wioski</string>
     <string name="map_poi_cat_pub_communications">Komunikacja</string>
 
     <string name="map_place_search_cat_name">Adres Online</string>
@@ -241,7 +241,7 @@
     <string name="map_settings_ui_hide_widget_labels_title">Ukryj Tytuły Widgetów</string>
     <string name="map_settings_ui_hide_widget_labels_message">Ukrywa tytuły widgetów, aby zwiększyć rozmiar zawartości</string>
 
-    <string name="map_settings_follow_cat_title">Śledź Modele Lokalizacji</string>
+    <string name="map_settings_follow_cat_title">Tryb Śledzenia Lokalizacji</string>
     <string name="map_settings_follow_north_oriented">Zorientowany na Północ</string>
     <string name="map_settings_follow_north_oriented_summary">Śledzi lokalizację z mapą zorientowaną na północ</string>
     <string name="map_settings_follow_north_oriented_track">Zorientowany na Północ - Powiększ do Aktywnej Trasy lub Nawigacji</string>
@@ -250,11 +250,11 @@
     <string name="map_settings_follow_north_oriented_file_summary">Takie samo jak Zorientowany na Północ, ale z powiększeniem ograniczonym do pełnego aktywnego pliku GPX lub nawigacji</string>
     <string name="map_settings_follow_north_next_indication">Zorientowany na Północ - Następny Punkt Nawigacyjny / Indykacja</string>
     <string name="map_settings_follow_north_next_indication_summary">Takie samo jak Zorientowany na Północ, ale z powiększeniem ograniczonym do Twojej lokalizacji i następnego punktu nawigacyjnego lub wskaźnika nawigacji</string>
-    <string name="map_settings_follow_travel_oriented">Zorientowany na Kierunek Podróy</string>
+    <string name="map_settings_follow_travel_oriented">Zorientowany na Kierunek Podróży</string>
     <string name="map_settings_follow_travel_oriented_summary">Śledzi lokalizację z mapą obróconą, tak aby góra odpowiadała Twojemu kierunkowi podróży</string>
 
-    <string name="home_widget_odo_title">Licznik Kilometrów</string>
-    <string name="home_widget_odo_title_long">Licznik PrzejechanychKilometrów</string>
+    <string name="home_widget_odo_title">LICZNIK KM</string>
+    <string name="home_widget_odo_title_long">Licznik Przejechanych Kilometrów</string>
     <string name="home_widget_odo_description">Edytowalny licznik kilometrów</string>
     <string name="home_widget_odo_dialog_title">Opcje Licznika Kilometrów</string>
     <string name="home_widget_odo_dialog_message">Zresetuj wartość licznika kilometrów lub edytuj aktualną wartość</string>
