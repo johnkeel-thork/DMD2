@@ -3,228 +3,228 @@
 
     <!-- New Untranslated -->
 
-    <string name="obd_view_speed">SPEED</string>
+    <string name="obd_view_speed">VELOCIDADE</string>
 
-    <string name="gpx_manager_routes">Routes</string>
+    <string name="gpx_manager_routes">Rotas</string>
 
-    <string name="gpx_manager_no_routes_warning">The selected GPX file does not contain any routes!</string>
+    <string name="gpx_manager_no_routes_warning">O ficheiro GPX seleccionado não contém quaisquer rotas!</string>
 
-    <string name="gpx_manager_track_manager_navigate_to_start_end2">Nav to Start / End</string>
+    <string name="gpx_manager_track_manager_navigate_to_start_end2">Navegar para Início / Fim</string>
 
-    <string name="gpx_manager_track_manager_convert_to_route2">Nav to Closest Point</string>
+    <string name="gpx_manager_track_manager_convert_to_route2">Navegar para o Ponto Mais Próximo</string>
 
-    <string name="gpx_manager_track_manager_route_change_profile">Set Profile</string>
+    <string name="gpx_manager_track_manager_route_change_profile">Definir Perfil</string>
 
-    <string name="gpx_manager_advanced_invert_orientation2">Invert Direction</string>
+    <string name="gpx_manager_advanced_invert_orientation2">Inverter Direção</string>
 
 
-    <string name="map_route_planner_error_other_message">There was an error calculating the route! Please try again, if you are off-road try the Mixed profile!</string>
-    <string name="map_route_planner_dialog_download_calc_file_title">Route Planner Files Missing</string>
-    <string name="map_route_planner_dialog_download_calc_file_message">For DMD2 route planning features you need to download additional files. Do you want to do this now?</string>
+    <string name="map_route_planner_error_other_message">Ocorreu um erro ao calcular a rota! Tente novamente; se estiver fora de estrada experimente o perfil Misto!</string>
+    <string name="map_route_planner_dialog_download_calc_file_title">Ficheiros do Planeador de Rotas em Falta</string>
+    <string name="map_route_planner_dialog_download_calc_file_message">Para usar as funcionalidades de planeamento de rotas do DMD2 tem de transferir ficheiros adicionais. Quer fazê-lo agora?</string>
 
-    <string name="map_map_track_tap_points_distance_different_track_error">Cannot measure on different tracks with multiple connections!</string>
+    <string name="map_map_track_tap_points_distance_different_track_error">Não é possível medir em tracks diferentes com múltiplas ligações!</string>
 
     <string name="home_widget_tpms_title">TPMS</string>
-    <string name="home_widget_tpms_title_long">Tyre Pressure Sensors</string>
-    <string name="home_widget_tpms_description">Monitor tyre pressure and temperature with DMD TPMS</string>
+    <string name="home_widget_tpms_title_long">Sensores de Pressão dos Pneus</string>
+    <string name="home_widget_tpms_description">Monitoriza a pressão e a temperatura dos pneus com o DMD TPMS</string>
 
-    <string name="tpms_rear_sensor_title">Rear Tyre</string>
-    <string name="tpms_front_sensor_title">Front Tyre</string>
-    <string name="tpms_sensor_select">Not Setup</string>
-    <string name="tpms_sensor_tap_to_start">Tap to Setup</string>
-    <string name="tpms_sensor_dialog_select_sensor">Select Sensor</string>
-    <string name="tpms_sensor_dialog_select">Select</string>
+    <string name="tpms_rear_sensor_title">Pneu Traseiro</string>
+    <string name="tpms_front_sensor_title">Pneu Dianteiro</string>
+    <string name="tpms_sensor_select">Não Configurado</string>
+    <string name="tpms_sensor_tap_to_start">Toque para Configurar</string>
+    <string name="tpms_sensor_dialog_select_sensor">Seleccionar Sensor</string>
+    <string name="tpms_sensor_dialog_select">Seleccionar</string>
 
 
-    <string name="map_route_planner_instruction_keep_going">Keep Straight</string>
+    <string name="map_route_planner_instruction_keep_going">Seguir em Frente</string>
 
     <!-- GPX Instructions -->
-    <string name="map_gpx_real_time_left">Left</string>
-    <string name="map_gpx_real_time_right">Right</string>
-    <string name="map_gpx_real_time_in">in</string>
-    <string name="map_gpx_real_time_for">for</string>
-    <string name="map_gpx_real_time_from_instruction_to_next">to</string>
-    <string name="map_gpx_real_time_straight">Straight</string>
-    <string name="map_gpx_real_time_instructions_title">Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_desc">Real-time turn analysis and feedback for active track</string>
-    <string name="map_gpx_real_time_instructions_setting">Enable Turn Instructions</string>
-    <string name="map_gpx_real_time_instructions_setting_voice">Enable Voice Instructions</string>
+    <string name="map_gpx_real_time_left">Esquerda</string>
+    <string name="map_gpx_real_time_right">Direita</string>
+    <string name="map_gpx_real_time_in">em</string>
+    <string name="map_gpx_real_time_for">durante</string>
+    <string name="map_gpx_real_time_from_instruction_to_next">até</string>
+    <string name="map_gpx_real_time_straight">Em Frente</string>
+    <string name="map_gpx_real_time_instructions_title">Instruções de Mudança de Direção</string>
+    <string name="map_gpx_real_time_instructions_desc">Análise e feedback em tempo real das mudanças de direção no track ativo</string>
+    <string name="map_gpx_real_time_instructions_setting">Ativar Instruções de Mudança de Direção</string>
+    <string name="map_gpx_real_time_instructions_setting_voice">Ativar Instruções por Voz</string>
 
 
     <string name="dmd_device_update_dialog_title">Actualização de Sistema Disponível</string>
-    <string name="dmd_device_update_configuration_dialog_message">New system configuration available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
-    <string name="dmd_device_update_system_dialog_message">New system firmware update available. Do you want to update now? If you select to update now, the download will start in the background and the device will restart when finished.</string>
+    <string name="dmd_device_update_configuration_dialog_message">Nova configuração de sistema disponível. Quer atualizar agora? Se escolher atualizar agora, a transferência começará em segundo plano e o dispositivo irá reiniciar no fim.</string>
+    <string name="dmd_device_update_system_dialog_message">Nova atualização de firmware de sistema disponível. Quer atualizar agora? Se escolher atualizar agora, a transferência começará em segundo plano e o dispositivo irá reiniciar no fim.</string>
 
-    <string name="gpx_warnings_setting">Progress Warnings</string>
-    <string name="gpx_warnings_setting_desc">Trigger warning for away from track and wrong direction.</string>
+    <string name="gpx_warnings_setting">Avisos de Progresso</string>
+    <string name="gpx_warnings_setting_desc">Ativa avisos para afastamento do track e direção errada.</string>
     <string name="gpx_warning_wrong_direction">Direcção Errada!</string>
     <string name="gpx_warning_turn_around">Inverter!</string>
     <string name="gpx_warning_away_from_track">Fora de rota!</string>
     <string name="gpx_warning_correct_direction">Corrigir Rota!</string>
-    <string name="gpx_warning_show_wrong_direction_option">Show Wrong Direction Warning</string>
-    <string name="gpx_warning_show_away_from_track_option">Show Away from Track Warning</string>
-    <string name="gpx_warning_show_screen_flash">Use Screen Flash</string>
-    <string name="gpx_warning_play_voice_warning">Play Voice Warning</string>
+    <string name="gpx_warning_show_wrong_direction_option">Mostrar Aviso de Direção Errada</string>
+    <string name="gpx_warning_show_away_from_track_option">Mostrar Aviso de Afastamento do Track</string>
+    <string name="gpx_warning_show_screen_flash">Usar Flash do Ecrã</string>
+    <string name="gpx_warning_play_voice_warning">Reproduzir Aviso por Voz</string>
 
-    <string name="gpx_manager_poi_busy_message">Busy processing POI, will resume after it!</string>
+    <string name="gpx_manager_poi_busy_message">A processar POI, será retomado de seguida!</string>
 
-    <string name="gpx_manager_settings_start_end">Show Track Start and End Waypoints</string>
+    <string name="gpx_manager_settings_start_end">Mostrar Waypoints de Início e Fim do Track</string>
 
-    <string name="settings_dmd_devices_updates_automatic">Check for app updates automatically</string>
-    <string name="settings_dmd_devices_updates_on_wifi_only">Check updates on Wifi only</string>
-    <string name="settings_dmd_devices_updates_manual">Check for updates now!</string>
+    <string name="settings_dmd_devices_updates_automatic">Procurar atualizações da app automaticamente</string>
+    <string name="settings_dmd_devices_updates_on_wifi_only">Procurar atualizações apenas em Wi-Fi</string>
+    <string name="settings_dmd_devices_updates_manual">Procurar atualizações agora!</string>
 
-    <string name="gpx_manager_settings_closest_point_title">Line to Closest Point</string>
-    <string name="gpx_manager_settings_closest_point_desc">Draws a direct line between your position and the closest track point - if you are more than 200m away from the track and the track is at a 5Km range.</string>
-    <string name="gpx_manager_settings_closest_point_label">Enable Line</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_title">Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Auto-Generated Distance Based Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Enable Auto Waypoint</string>
-    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Distance Interval</string>
+    <string name="gpx_manager_settings_closest_point_title">Linha para o Ponto Mais Próximo</string>
+    <string name="gpx_manager_settings_closest_point_desc">Desenha uma linha direta entre a sua posição e o ponto do track mais próximo, se estiver a mais de 200m do track e o track estiver no alcance de 5Km.</string>
+    <string name="gpx_manager_settings_closest_point_label">Ativar Linha</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_title">Ponto de Passagem Automático</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_desc">Waypoint automático gerado com base na distância</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_switch">Ativar Ponto de Passagem Automático</string>
+    <string name="gpx_manager_settings_auto_waypoint_distance_distance">Intervalo de Distância</string>
 
-    <string name="settings_backup_cat">Backup and Restore</string>
-    <string name="settings_backup_gdrive_start">Create Zip and Save</string>
-    <string name="settings_backup_gdrive_message">Creates a zip file and allows you to send it, we recommend to Google Drive! Note: Maps not included.</string>
-    <string name="settings_import_gdrive_start">Import Zip and Restore</string>
-    <string name="settings_import_gdrive_message">Note: If you cleared app storage please notice you need to manually download your offline maps.</string>
-    <string name="settings_run_in_background">Run DMD2 as Service</string>
-    <string name="settings_run_in_background_desc">If enabled, when you move from DMD2 to another app, trip and GPX recorder will run as service.</string>
-
-
-    <string name="home_widget_places_title">Places</string>
-    <string name="home_widget_places_title_long">Favorite Places</string>
-    <string name="home_widget_places_title_description">Create shortcuts for your favorite user saved places</string>
-    <string name="home_widget_places_no_locations">No saved places yet, you can save them in the map view!</string>
-    <string name="home_widget_places_selector_title">Select Place</string>
+    <string name="settings_backup_cat">Cópia de Segurança e Restauro</string>
+    <string name="settings_backup_gdrive_start">Criar ZIP e Guardar</string>
+    <string name="settings_backup_gdrive_message">Cria um ficheiro ZIP e permite enviá-lo; recomendamos o Google Drive! Nota: os mapas não estão incluídos.</string>
+    <string name="settings_import_gdrive_start">Importar ZIP e Restaurar</string>
+    <string name="settings_import_gdrive_message">Nota: se limpou os dados da app, terá de transferir manualmente os mapas offline.</string>
+    <string name="settings_run_in_background">Executar DMD2 como Serviço</string>
+    <string name="settings_run_in_background_desc">Se ativado, ao sair do DMD2 para outra app, o Trip e o gravador GPX continuam a correr como serviço.</string>
 
 
-    <string name="map_layers_poi_water">Drinking Water</string>
-    <string name="map_layers_poi_rv_park">RV Parking</string>
-    <string name="map_layers_poi_border_control">Border Control</string>
+    <string name="home_widget_places_title">Locais</string>
+    <string name="home_widget_places_title_long">Locais Favoritos</string>
+    <string name="home_widget_places_title_description">Crie atalhos para os seus locais favoritos guardados</string>
+    <string name="home_widget_places_no_locations">Ainda não existem locais guardados; pode guardá-los na vista de mapa!</string>
+    <string name="home_widget_places_selector_title">Selecionar Local</string>
 
 
-    <string name="gpx_manager_track_start">Start!</string>
-    <string name="gpx_manager_track_end">End!</string>
+    <string name="map_layers_poi_water">Água Potável</string>
+    <string name="map_layers_poi_rv_park">Estacionamento para Autocaravanas</string>
+    <string name="map_layers_poi_border_control">Controlo Fronteiriço</string>
 
 
-    <string name="location_manager_no_locations_yet">No saved places yet…</string>
+    <string name="gpx_manager_track_start">Início!</string>
+    <string name="gpx_manager_track_end">Fim!</string>
 
-    <string name="exit_confirm_dialog">Close DMD2 or send to background?</string>
-    <string name="exit_confirm_dialog_message">If you close DMD2, trip values will not increment and GPX recording will stop!</string>
-    <string name="exit_confirm_dialog_send_to_background">Background</string>
 
-    <string name="fall_alert_title">SOS Fall Alert Received!</string>
-    <string name="fall_alert_message">You have received a fall alert! Full message:</string>
-    <string name="fall_alert_show_on_map">View &amp; Help</string>
-    <string name="fall_alert_ignore">Ignore</string>
-    <string name="fall_alert_open_sms">Open SMS</string>
-    <string name="fall_alert_mode_on">SOS Mode!</string>
-    <string name="fall_alert_center_map">Center Map</string>
-    <string name="fall_alert_share">Share Location</string>
-    <string name="fall_alert_finish">Finish SOS</string>
-    <string name="fall_alert_navigate">Navigate To</string>
+    <string name="location_manager_no_locations_yet">Ainda não existem locais guardados…</string>
 
-    <string name="settings_dmd_devices_category">DMD-T Devices Specifics</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_title">Keep GPS running with screen off</string>
-    <string name="settings_dmd_devices_keep_running_screen_off_summary">If enabled, Trip and GPS related functions like GPX recording will keep running even if the screen is turned off</string>
+    <string name="exit_confirm_dialog">Fechar o DMD2 ou enviar para segundo plano?</string>
+    <string name="exit_confirm_dialog_message">Se fechar o DMD2, os valores do Trip não irão aumentar e a gravação GPX irá parar!</string>
+    <string name="exit_confirm_dialog_send_to_background">Segundo Plano</string>
 
-    <string name="widget_info_gps_cardinal_name">Cardinal Compass</string>
-    <string name="widget_info_gps_cardinal_label">Compass</string>
+    <string name="fall_alert_title">Alerta SOS de Queda Recebido!</string>
+    <string name="fall_alert_message">Recebeu um alerta de queda! Mensagem completa:</string>
+    <string name="fall_alert_show_on_map">Ver &amp; Ajudar</string>
+    <string name="fall_alert_ignore">Ignorar</string>
+    <string name="fall_alert_open_sms">Abrir SMS</string>
+    <string name="fall_alert_mode_on">Modo SOS!</string>
+    <string name="fall_alert_center_map">Centralizar Mapa</string>
+    <string name="fall_alert_share">Partilhar Localização</string>
+    <string name="fall_alert_finish">Terminar SOS</string>
+    <string name="fall_alert_navigate">Navegar para</string>
 
-    <string name="obd_set_wunderlinq_title">WunderLINQ Mode (Beta)</string>
-    <string name="obd_set_wunderlinq_summary">Will get values from WunderLINQ API instead of OBD2</string>
+    <string name="settings_dmd_devices_category">Específicos de Dispositivos DMD-T</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_title">Manter GPS ativo com ecrã desligado</string>
+    <string name="settings_dmd_devices_keep_running_screen_off_summary">Se ativado, o Trip e funções relacionadas com GPS, como a gravação GPX, continuam a correr mesmo com o ecrã desligado</string>
 
-    <string name="gpx_manager_load_error_title">GPX Load Error</string>
-    <string name="gpx_manager_load_error_message">Error loading the GPX file. DMD2 will not try to load it again. Please try another file!</string>
+    <string name="widget_info_gps_cardinal_name">Bússola Cardinal</string>
+    <string name="widget_info_gps_cardinal_label">Bússola</string>
 
-    <string name="map_settings_ui_enable_street_name">Show street name</string>
-    <string name="map_settings_ui_enable_street_name_summary">Shows the current street name in the map bottom</string>
-    <string name="reverse_geo_unnamed_road">Unnamed Road</string>
+    <string name="obd_set_wunderlinq_title">Modo WunderLINQ (Beta)</string>
+    <string name="obd_set_wunderlinq_summary">Vai obter valores da API WunderLINQ em vez de OBD2</string>
 
-    <string name="map_poi_search_name">Search Name</string>
-    <string name="map_poi_cat_fuel">Gas Station</string>
-    <string name="map_poi_cat_accommodation">Accommodation</string>
+    <string name="gpx_manager_load_error_title">Erro ao Carregar GPX</string>
+    <string name="gpx_manager_load_error_message">Erro ao carregar o ficheiro GPX. O DMD2 não irá tentar carregá-lo novamente. Tente outro ficheiro!</string>
+
+    <string name="map_settings_ui_enable_street_name">Mostrar nome da rua</string>
+    <string name="map_settings_ui_enable_street_name_summary">Mostra o nome da rua atual na parte inferior do mapa</string>
+    <string name="reverse_geo_unnamed_road">Rua sem Nome</string>
+
+    <string name="map_poi_search_name">Pesquisar Nome</string>
+    <string name="map_poi_cat_fuel">Posto de Combustível</string>
+    <string name="map_poi_cat_accommodation">Alojamento</string>
     <string name="map_poi_cat_restaurants">Restaurants</string>
-    <string name="map_poi_cat_cafe">Cafes, Pubs &amp; Bar</string>
-    <string name="map_poi_cat_shop">Shop &amp; Market</string>
-    <string name="map_poi_cat_moto_repair">Motorcycle Repair</string>
-    <string name="map_poi_cat_car_repair">Car Repair</string>
-    <string name="map_poi_cat_parking">Parking Place</string>
-    <string name="map_poi_cat_rental">Rental, Wash &amp; Charge</string>
-    <string name="map_poi_cat_money">Bank &amp; ATM</string>
-    <string name="map_poi_cat_wc_water">WC &amp; Water</string>
-    <string name="map_poi_cat_camping">Camping &amp; Caravan</string>
-    <string name="map_poi_cat_recreation">Recreation</string>
-    <string name="map_poi_cat_natural_places">Natural Places</string>
+    <string name="map_poi_cat_cafe">Cafés, Pubs &amp; Bares</string>
+    <string name="map_poi_cat_shop">Lojas &amp; Mercado</string>
+    <string name="map_poi_cat_moto_repair">Reparação de Motociclos</string>
+    <string name="map_poi_cat_car_repair">Reparação Automóvel</string>
+    <string name="map_poi_cat_parking">Lugar de Estacionamento</string>
+    <string name="map_poi_cat_rental">Aluguer, Lavagem &amp; Carregamento</string>
+    <string name="map_poi_cat_money">Banco &amp; ATM</string>
+    <string name="map_poi_cat_wc_water">WC &amp; Água</string>
+    <string name="map_poi_cat_camping">Campismo &amp; Caravanas</string>
+    <string name="map_poi_cat_recreation">Lazer</string>
+    <string name="map_poi_cat_natural_places">Locais Naturais</string>
     <string name="map_poi_cat_hospital">Hospital</string>
     <string name="map_poi_cat_pharmacy">Pharmacy</string>
-    <string name="map_poi_cat_tourism">Tourism</string>
-    <string name="map_poi_cat_historic">Historic Places</string>
-    <string name="map_poi_cat_pub_transport">Public Transports</string>
-    <string name="map_poi_cat_pub_entertainment">Entertainment</string>
-    <string name="map_poi_cat_pub_government">Government</string>
-    <string name="map_poi_cat_pub_cities">Cities, Towns &amp; Villages</string>
-    <string name="map_poi_cat_pub_communications">Communications</string>
+    <string name="map_poi_cat_tourism">Turismo</string>
+    <string name="map_poi_cat_historic">Locais Históricos</string>
+    <string name="map_poi_cat_pub_transport">Transportes Públicos</string>
+    <string name="map_poi_cat_pub_entertainment">Entretenimento</string>
+    <string name="map_poi_cat_pub_government">Governo</string>
+    <string name="map_poi_cat_pub_cities">Cidades, Vilas &amp; Aldeias</string>
+    <string name="map_poi_cat_pub_communications">Comunicações</string>
 
-    <string name="map_place_search_cat_name">Online Address</string>
+    <string name="map_place_search_cat_name">Endereço Online</string>
 
     <!-- Location Manager -->
-    <string name="location_manager_my_locations_cat">My Places</string>
-    <string name="location_manager_save_location_button">Save Location</string>
-    <string name="location_manager_save_location_name">Location Name</string>
-    <string name="location_manager_save_location_dialog_title">Save To My Locations</string>
-    <string name="location_manager_save_location_unnamed">Unnamed Location</string>
-    <string name="location_manager_save_location_no_description">No description</string>
-    <string name="location_manager_save_location_saved">Location Saved!</string>
-    <string name="location_manager_save_keep_on_map">Keep visible on map</string>
-    <string name="location_manager_save_new">Add New</string>
+    <string name="location_manager_my_locations_cat">Os Meus Locais</string>
+    <string name="location_manager_save_location_button">Guardar Localização</string>
+    <string name="location_manager_save_location_name">Nome da Localização</string>
+    <string name="location_manager_save_location_dialog_title">Guardar nas Minhas Localizações</string>
+    <string name="location_manager_save_location_unnamed">Localização sem Nome</string>
+    <string name="location_manager_save_location_no_description">Sem descrição</string>
+    <string name="location_manager_save_location_saved">Localização Guardada!</string>
+    <string name="location_manager_save_keep_on_map">Manter visível no mapa</string>
+    <string name="location_manager_save_new">Adicionar Novo</string>
 
-    <string name="controller_dialog_title">Remote Controller App Install</string>
-    <string name="controller_dialog_message">To take full advantage of the DMD Remote Controller you need to install the utility app. Do you want to install it now?</string>
-    <string name="controller_dialog_download_title">Downloading Controller App</string>
-
-
-    <string name="roadbook_controller_enable_key_repeat_switch_title">Enable Key Repeat for 2-Way Switch</string>
-    <string name="roadbook_controller_enable_key_repeat_switch_message">If enabled the two way switch will repeat when held.</string>
-    <string name="roadbook_controller_set_key_repeat_switch_time_title">Set Repeat Speed for 2-Way Switch</string>
+    <string name="controller_dialog_title">Instalação da App de Comando Remoto</string>
+    <string name="controller_dialog_message">Para tirar o máximo partido do Comando Remoto DMD precisa de instalar a app utilitária. Quer instalá-la agora?</string>
+    <string name="controller_dialog_download_title">A transferir App do Comando</string>
 
 
-    <string name="roadbook_controller_switch_minus">Switch Minus</string>
-    <string name="roadbook_controller_switch_plus">Switch Plus</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_title">Ativar Repetição de Tecla para Interruptor de 2 Vias</string>
+    <string name="roadbook_controller_enable_key_repeat_switch_message">Se ativado, o interruptor de duas vias repete enquanto estiver premido.</string>
+    <string name="roadbook_controller_set_key_repeat_switch_time_title">Definir Velocidade de Repetição para Interruptor de 2 Vias</string>
+
+
+    <string name="roadbook_controller_switch_minus">Interruptor Menos</string>
+    <string name="roadbook_controller_switch_plus">Interruptor Mais</string>
 
     <string name="home_widget_empty_title">NENHUM</string>
     <string name="home_widget_empty_title_long">Nenhum - Remover Espaço</string>
     <string name="home_widget_empty_description">Retirar o espaço e aumento layout na vertical</string>
 
-    <string name="map_poi_show_pin_for_location">Loading POI Search for PIN location</string>
+    <string name="map_poi_show_pin_for_location">A carregar pesquisa de POI para localização do pino</string>
 
-    <string name="map_poi_coordinates">Coordinates</string>
-    <string name="map_poi_insert_coordinates">Insert Coordinates</string>
-    <string name="map_poi_insert_coordinates_example">Example- (DD): 41.193376, -8.298463 or (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
-    <string name="map_poi_insert_coordinates_not_valid">Coordinates are not valid!</string>
+    <string name="map_poi_coordinates">Coordenadas</string>
+    <string name="map_poi_insert_coordinates">Inserir Coordenadas</string>
+    <string name="map_poi_insert_coordinates_example">Exemplo- (DD): 41.193376, -8.298463 ou (DMS): 41°11\'36.2\"N, 8°17\'54.5\"W</string>
+    <string name="map_poi_insert_coordinates_not_valid">As coordenadas não são válidas!</string>
 
-    <string name="map_settings_ui_hide_widget_labels_title">Hide Widget Titles</string>
-    <string name="map_settings_ui_hide_widget_labels_message">Hides widget titles to increase value label size</string>
+    <string name="map_settings_ui_hide_widget_labels_title">Ocultar Títulos dos Widgets</string>
+    <string name="map_settings_ui_hide_widget_labels_message">Oculta os títulos dos widgets para aumentar o tamanho dos valores</string>
 
-    <string name="map_settings_follow_cat_title">Follow Location Modes</string>
-    <string name="map_settings_follow_north_oriented">North Oriented</string>
-    <string name="map_settings_follow_north_oriented_summary">Follows location with map top fixed to north</string>
-    <string name="map_settings_follow_north_oriented_track">North Oriented - Zoom to Active Track or Navigation</string>
-    <string name="map_settings_follow_north_oriented_track_summary">Same as North Oriented but with zoom bounding to active track or navigation</string>
-    <string name="map_settings_follow_north_oriented_file">North Oriented - Zoom to Active GPX or Navigation</string>
-    <string name="map_settings_follow_north_oriented_file_summary">Same as North Oriented but with zoom bounding to full active GPX file or navigation</string>
-    <string name="map_settings_follow_north_next_indication">North Oriented - Next Waypoint / Indication</string>
-    <string name="map_settings_follow_north_next_indication_summary">Same as North Oriented but with zoom bounding you location and the next waypoint or Nav indication</string>
-    <string name="map_settings_follow_travel_oriented">Travel Oriented</string>
-    <string name="map_settings_follow_travel_oriented_summary">Follows location with map rotation so that top matches your travel orientation</string>
+    <string name="map_settings_follow_cat_title">Modos de Seguimento de Localização</string>
+    <string name="map_settings_follow_north_oriented">Orientado a Norte</string>
+    <string name="map_settings_follow_north_oriented_summary">Segue a localização com o topo do mapa fixo a norte</string>
+    <string name="map_settings_follow_north_oriented_track">Orientado a Norte - Zoom no Track Ativo ou Navegação</string>
+    <string name="map_settings_follow_north_oriented_track_summary">Igual a Orientado a Norte, mas com zoom ajustado ao track ativo ou navegação</string>
+    <string name="map_settings_follow_north_oriented_file">Orientado a Norte - Zoom no GPX Ativo ou Navegação</string>
+    <string name="map_settings_follow_north_oriented_file_summary">Igual a Orientado a Norte, mas com zoom ajustado ao ficheiro GPX ativo completo ou navegação</string>
+    <string name="map_settings_follow_north_next_indication">Orientado a Norte - Próximo Waypoint / Indicação</string>
+    <string name="map_settings_follow_north_next_indication_summary">Igual a Orientado a Norte, mas com zoom ajustado à sua localização e ao próximo waypoint ou indicação de navegação</string>
+    <string name="map_settings_follow_travel_oriented">Orientado à Deslocação</string>
+    <string name="map_settings_follow_travel_oriented_summary">Segue a localização com rotação do mapa para que o topo coincida com a direção de deslocação</string>
 
 
     <string name="home_widget_odo_title">ODO</string>
-    <string name="home_widget_odo_title_long">Odometer</string>
-    <string name="home_widget_odo_description">An editable odometer</string>
-    <string name="home_widget_odo_dialog_title">Odometer Options</string>
-    <string name="home_widget_odo_dialog_message">Reset the odometer value or edit the current value</string>
-    <string name="home_widget_odo_dialog_edit_title">Edit Odometer Value</string>
+    <string name="home_widget_odo_title_long">Odómetro</string>
+    <string name="home_widget_odo_description">Um odómetro editável</string>
+    <string name="home_widget_odo_dialog_title">Opções do Odómetro</string>
+    <string name="home_widget_odo_dialog_message">Repor o valor do odómetro ou editar o valor atual</string>
+    <string name="home_widget_odo_dialog_edit_title">Editar Valor do Odómetro</string>
 
 
     <!-- End Of Not Translated -->
@@ -280,7 +280,7 @@
     <string name="delete">Apagar</string>
     <string name="replace">Substituir</string>
     <string name="rename">Renomear</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Reiniciar</string>
     <string name="refresh">Actualizar</string>
     <string name="enable">Activar</string>
     <string name="download">Download</string>
@@ -293,7 +293,7 @@
     <string name="hide">Esconder</string>
     <string name="later">Adiar</string>
     <string name="finish">Finalizar</string>
-    <string name="abort_download">Abortar Download</string>
+    <string name="abort_download">Abortar download</string>
     <string name="start">Iniciar</string>
     <!-- Messages / Errors & Warnings -->
     <string name="error_creating_directory">Erro ao criar directorio de utilizador!</string>
@@ -307,31 +307,31 @@
     <string name="app_update_title">Actualização para DMD2</string>
     <string name="app_update_message">Existe um update disponível, pretende actualizar agora? \n Novidades:</string>
     <string name="app_update_download_notification">A fazer download do update</string>
-    <string name="app_update_download_progress">Progresso do Download:</string>
+    <string name="app_update_download_progress">Progresso do download:</string>
     <!-- Controller App Update -->
     <string name="controller_app_update_dialogue_title">Update para a app do controlador</string>
     <string name="controller_app_update_dialogue_message">Existe um update disponível, pretende actualizar agora? \n Novidades:</string>
     <string name="controller_app_update_download_notification">A fazer download do update</string>
-    <string name="controller_app_update_download_progress">Progresso do Download:</string>
+    <string name="controller_app_update_download_progress">Progresso do download:</string>
     <!-- T93 Dialog -->
     <string name="t93_trial_title">DMD2 Versão de Teste</string>
     <string name="t93_trial_message">Está a usar 30 dias gratuitos de teste. Se tem uma chave DMD2-Edition, insira para activar.</string>
     <string name="t93_trial_button">Continuar Teste</string>
     <string name="t93_dmd2_edition_button">Inserir Chave</string>
     <string name="t93_finish_trial_button">Terminar Teste</string>
-    <string name="t93_dmd2_edition_insert_key_title">Inserir chave DMD2-Edition:</string>
+    <string name="t93_dmd2_edition_insert_key_title">Insira a chave DMD2-Edition:</string>
     <!-- Download Manager -->
     <string name="download_manager_active_download_short">DL:</string>
     <string name="download_manager_active_download_active">Activos</string>
     <string name="download_manager_active_download_paused">Em Pausa</string>
     <string name="download_manager_active_download_error">Erro</string>
-    <string name="download_manager_active_download_downloading">Em Download</string>
+    <string name="download_manager_active_download_downloading">Baixar</string>
     <string name="download_manager_active_download_downloading_no_progress">Em download mas não pode mostrar progresso</string>
     <string name="download_manager_active_download_interrupted">Interrumpido</string>
     <string name="download_manager_active_download_interrupted_file">Ficheiro Interrumpido:</string>
     <string name="download_manager_active_download_no_net">Sem Internet!</string>
     <string name="download_manager_active_download_no_net_waiting">Aguardar connecção à internet…</string>
-    <string name="download_manager_active_download_cannot_abort">Cannot abort current file, please wait!</string>
+    <string name="download_manager_active_download_cannot_abort">Não é possível cancelar o ficheiro atual. Aguarde!</string>
     <string name="download_manager_active_download_in_queue">In queue…</string>
 
     <!-- Settings -->
@@ -386,7 +386,7 @@
     <string name="settings_notifications_apps_selection_message">Escolher para quais aplicações pretende ver a notificação pop-up.</string>
     <string name="settings_notifications_group_title">Ver apenas a última notificação de cada app.</string>
     <string name="settings_notifications_group_message">Se activo apenas mostra a última notificação de cada app ou grupo. Por exemplo, no caso de um chat, mostra apenas a última mensagem.</string>
-    <string name="settings_notifications_app_selection_dialog_title">Show Notifications For:</string>
+    <string name="settings_notifications_app_selection_dialog_title">Mostrar notificações para:</string>
     <string name="settings_notifications_app_selection_dialog_button1">Todas / Nenhuma</string>
     <string name="settings_notifications_app_selection_dialog_button2">Fechar</string>
     <!-- Trip Settings-->
@@ -403,8 +403,8 @@
     </string-array>
     <!-- OEM Registration-->
     <string name="settings_oem_registration">Registo OEM</string>
-    <string name="settings_oem_check">Registration Process (requires internet connection)</string>
-    <string name="settings_oem_check_summary">Only use if your motorcycle came equipped with an Android device with Drive Mode Dashboard 2 pre-installed.</string>
+    <string name="settings_oem_check">Processo de registro (requer conexão com a internet)</string>
+    <string name="settings_oem_check_summary">Utilize apenas se sua motocicleta vier equipada com um dispositivo Android com Drive Mode Dashboard 2 pré-instalado.</string>
     <!-- Info & Links -->
     <string name="settings_info_and_links">Informação e Links</string>
     <string name="settings_app_version">Versão da app</string>
@@ -420,8 +420,8 @@
     <string name="settings_dmd2_edition_redeem_message">Gerir avaliação ou inserir chave DMD2 Edition</string>
     <!-- Welcome Screen -->
     <string name="welcome_dmd2_title">Bemvindo à avalição DMD2</string>
-    <string name="welcome_dmd2_message">DMD2 is designed to transform your device into a complete dashboard for motorcycles and cars with special focus on adventure and off-road. It includes a Map for navigation, a Roadbook, OBD2 Sensors and much more.</string>
-    <string name="welcome_dmd2_lets_go">Start</string>
+    <string name="welcome_dmd2_message">O DMD2 foi projetado para transformar seu aparelho em um painel completo para motos e carros com foco especial em aventura e off-road. Inclui Mapa para navegação, Roadbook, Sensores OBD2 e muito mais.</string>
+    <string name="welcome_dmd2_lets_go">Começar</string>
     <!-- GPS Settings -->
     <string name="settings_gps_settings_title">Configurações de GPS</string>
     <string name="settings_bypass_acc_filter_title">Reduzir Filtro de Precisão de GPS</string>
@@ -465,7 +465,7 @@
     <string name="home_widget_media_title">MÉDIA</string>
     <string name="home_widget_media_title_long">Controlos de Media Player</string>
     <string name="home_widget_media_description">Permite controlar uma sessão de média activa, requer permissões de acesso a notificações.</string>
-    <string name="home_widget_map_title">MAP</string>
+    <string name="home_widget_map_title">MAPA</string>
     <string name="home_widget_map_title_long">Mapa</string>
     <string name="home_widget_map_description">Mostra o mapa num painel, sem qualquer botão.</string>
     <string name="home_widget_speed_title">VELOCIDADE</string>
@@ -487,7 +487,7 @@
     <string name="home_widget_map_progress_title">PROGRESSO</string>
     <string name="home_widget_map_progress_title_long">Progresso do Mapa</string>
     <string name="home_widget_map_progress_description">Mostra o progresso de navegação ou do GPX activo.</string>
-    <string name="home_widget_settings_dialog_title">Selecionar Widget</string>
+    <string name="home_widget_settings_dialog_title">Widget Selecionar</string>
     <!-- Home Editor -->
     <string name="home_widget_editor_left_panel_title">Painel Esquerdo</string>
     <string name="home_widget_editor_right_panel_title">Painel Direito</string>
@@ -523,17 +523,17 @@
     <string name="widget_info_obd_fuel_label">Combustível</string>
     <string name="widget_info_obd_tbposition_label">Acelerador</string>
     <string name="widget_info_obd_spark_label">Avanço</string>
-    <string name="widget_info_obd_map_label">MAP</string>
+    <string name="widget_info_obd_map_label">MAPA</string>
     <string name="widget_info_obd_intake_temp_label">IAT</string>
     <string name="widget_info_obd_intake_maf_label">MAF</string>
     <string name="widget_info_obd_none_title">Invisível</string>
-    <string name="widget_info_obd_none_reset">Reset</string>
+    <string name="widget_info_obd_none_reset">Reiniciar</string>
     <string name="widget_info_adv_voltage_label">AdvCtl Volt.</string>
     <!-- Widget Media Control Permission Dialog -->
     <string name="media_notifications_enable_dialog_title_media">Permissões Media Control</string>
     <string name="media_notifications_enable_dialog_message_media">O Widget de Media Control necessita de permissões especiais para poder ler as suas notificações (para apresentar informação do player de audio). Pretende conceder esta permissão?</string>
     <!-- Widget Trip Reset Dialog -->
-    <string name="trip_reset_confirmation_title">Reset Trip</string>
+    <string name="trip_reset_confirmation_title">Redefinir viagem</string>
     <string name="trip_reset_confirmation_message">Tem a certeza que pretende fazer reset a todas as estatisticas do Trip?</string>
 
 
@@ -555,7 +555,7 @@
     <string name="apps_sorting_setting_title">Selecione como pretende ordenar as apps</string>
     <string-array name="apps_sorting_options_list" translatable="true">
         <item>Nome - Alfabeticamente</item>
-        <item>Nome Developer - Alfabeticamente</item>
+        <item>Nome Desenvolvedor - Alfabeticamente</item>
         <item>Por data de instalação</item>
         <item>Por data de actualização</item>
     </string-array>
@@ -609,7 +609,7 @@
     <string name="obd_sensors_voltage_long_label">Voltagem</string>
     <string name="obd_sensors_throttle_short_label">ACELERADOR</string>
     <string name="obd_sensors_throttle_long_label">Posição do Acelerador</string>
-    <string name="obd_sensors_fuel_short_label">COMBUSTIVEL</string>
+    <string name="obd_sensors_fuel_short_label">COMBUSTÍVEL</string>
     <string name="obd_sensors_fuel_long_label">Nível de Combustivel</string>
     <string name="obd_sensors_timing_short_label">AVANÇO</string>
     <string name="obd_sensors_timing_long_label">Avanço da Ignição</string>
@@ -617,43 +617,43 @@
     <string name="obd_sensors_intake_temp_long_label">Temperatura do Ar na Admissão</string>
     <string name="obd_sensors_intake_maf_short_label">MAF</string>
     <string name="obd_sensors_intake_maf_long_label">Medição Massa Ar na Admissão</string>
-    <string name="obd_sensors_intake_map_short_label">MAP</string>
+    <string name="obd_sensors_intake_map_short_label">MAPA</string>
     <string name="obd_sensors_intake_map_long_label">Medição Pressão Ar na Admissão</string>
     <!-- Select Sensor Dialog-->
-    <string name="obd_sensors_select_dialog_title">Selectionar Sensor</string>
+    <string name="obd_sensors_select_dialog_title">Sensor Seletor</string>
     <string name="obd_sensors_select_dialog_message">Selecionar novo sensor para este slot</string>
     <!-- Throttle Calibration-->
     <string name="obd_min_throttle_calib_dialog_title">Calibração da Posição Mínima do Acelerador</string>
-    <string name="obd_min_throttle_calib_dialog_message">PLEASE TURN ON THE ENGINE! Make sure vehicle is at stable post warm-up idle!!! Your throttle should be at the minimum position (at idle / totally off). Press the Set button when ready.</string>
+    <string name="obd_min_throttle_calib_dialog_message">POR FAVOR LIGUE O MOTOR! Certifique-se de que o veículo esteja em marcha lenta pós-aquecimento estável!!! O acelerador deve estar na posição mínima (marcha lenta/totalmente desligada). Prima o botão Definir quando estiver pronto.</string>
     <string name="obd_throttle_calib_set_minimum">Definir Minímo</string>
     <string name="obd_max_throttle_calib_dialog_title">Calibração da Posição Máxima do Acelerador</string>
-    <string name="obd_max_throttle_calib_dialog_message">PLEASE TURN OFF THE ENGINE! Make sure ignition is ON and then push your throttle position to the maximum position (full open throttle). Press the Set button when ready.</string>
+    <string name="obd_max_throttle_calib_dialog_message">POR FAVOR, DESLIGUE O MOTOR! Certifique-se de que a ignição esteja LIGADA e empurre a posição do acelerador para a posição máxima (acelerador totalmente aberto). Prima o botão Definir quando estiver pronto.</string>
     <string name="obd_throttle_calib_set_maximum">Definir Máximo</string>
     <string name="obd_cant_calib_obd_disconnected">Por favor conecta o dongle OBD primeiro!</string>
     <!-- Fuel Level Options -->
     <string name="obd_fuel_dialog_title">Fuel Level Options</string>
-    <string name="obd_fuel_dialog_message">Reset fuel level if you just filled your tank or manually edit the remaining fuel distance.</string>
-    <string name="obd_fuel_dialog_reset">Reset</string>
+    <string name="obd_fuel_dialog_message">Redefina o nível de combustível se tu acabou de encher o tanque ou edite manualmente a distância restante do combustível.</string>
+    <string name="obd_fuel_dialog_reset">Reiniciar</string>
     <string name="obd_fuel_dialog_edit">Editar</string>
     <string name="obd_fuel_dialog_edit_title">Set Remaining Fuel Distance</string>
-    <string name="obd_fuel_dialog_edit_message">Set remaining distance</string>
-    <string name="obd_fuel_dialog_edit_error">Error: value cannot be higher than tank capacity or lower than 1</string>
+    <string name="obd_fuel_dialog_edit_message">Definir distância restante</string>
+    <string name="obd_fuel_dialog_edit_error">Erro: o valor não pode ser superior à capacidade do tanque ou inferior a 1</string>
     <string name="obd_fuel_dialog_edit_error2">Error: not a valid distance number!</string>
     <!-- DTC Errors Dialog -->
-    <string name="obd_dtc_no_error">No DTC Errors</string>
-    <string name="obd_dtc_dialog_title">DTC Errors</string>
-    <string name="obd_dtc_dialog_reset_errors">Reset Errors</string>
-    <string name="obd_dtc_dialog_error_options">Error Options</string>
-    <string name="obd_dtc_dialog_error_ignore_error">Ignore Error:</string>
-    <string name="obd_dtc_dialog_error_reset_error">Error: You are not connected to the ECU!</string>
+    <string name="obd_dtc_no_error">Sem erros DTC</string>
+    <string name="obd_dtc_dialog_title">Erros DTC</string>
+    <string name="obd_dtc_dialog_reset_errors">Redefinir erros</string>
+    <string name="obd_dtc_dialog_error_options">Opções de erro</string>
+    <string name="obd_dtc_dialog_error_ignore_error">Ignorar erro:</string>
+    <string name="obd_dtc_dialog_error_reset_error">Erro: Tu não está conectado à ECU!</string>
     <!-- Service -->
-    <string name="obd_service_notification_title">OBD Monitor Service Running</string>
-    <string name="obd_service_obd_connected">Connected to dongle!</string>
-    <string name="obd_service_obd_disconnected">Disconnected from dongle!</string>
+    <string name="obd_service_notification_title">Serviço de monitor OBD em execução</string>
+    <string name="obd_service_obd_connected">Conectado ao dongle!</string>
+    <string name="obd_service_obd_disconnected">Desconectado do dongle!</string>
     <!-- License -->
-    <string name="obd_license_title">OBD2 Demo Mode</string>
-    <string name="obd_license_message">Demo mode is limited to 15 minutes per session. Buy the OBD Plugin to unlock!</string>
-    <string name="obd_buy_button">Buy Plugin</string>
+    <string name="obd_license_title">Modo de demonstração OBD2</string>
+    <string name="obd_license_message">O modo de demonstração é limitado a 15 minutos por sessão. Compre o plugin OBD para desbloquear!</string>
+    <string name="obd_buy_button">Comprar plug-in</string>
 
     <!-- Roadbook -->
     <!-- Settings -->
@@ -667,59 +667,59 @@
     <string name="roadbook_settings_show_on_screen_adjust_buttons">Mostrar Botões Ajuste Manual</string>
     <string name="roadbook_settings_show_on_screen_adjust_buttons_message">Mostra botoes de + e - para ajusta manual de distanica total e parcial</string>
     <string name="roadbook_settings_visual_settings_cat_title">Opções Visuais</string>
-    <string name="roadbook_settings_invert_paper_color_title">Inverter cores PDF</string>
+    <string name="roadbook_settings_invert_paper_color_title">Núcleos do inversor PDF</string>
     <string name="roadbook_settings_invert_paper_color_message">Inverte todas as cores do PDF, útil em utilização nocturna.</string>
     <string name="roadbook_settings_locker_cat_title">Opções de Bloqueio</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_title">Lock also disables paper touch</string>
-    <string name="roadbook_settings_locker_disable_paper_touch_message">When lock is enabled any paper touch is ignored. This helps prevent accidental movements or rain drop actions.</string>
-    <string name="roadbook_settings_locker_disable_instruments_title">Lock also disables instruments</string>
-    <string name="roadbook_settings_locker_disable_instruments_message">When lock is enabled the instrument tap actions will also be disabled.</string>
-    <string name="roadbook_settings_locker_disable_topmenu_title">Lock also disables top menu</string>
-    <string name="roadbook_settings_locker_disable_topmenu_message">When lock is enabled the top menu will also be disabled and only the lock button will work.</string>
-    <string name="roadbook_settings_locker_play_pause_title">Sync lock with play/pause</string>
-    <string name="roadbook_settings_locker_play_pause_message">Locking will trigger play and unlocking will trigger pause.</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_title">O bloqueio também desativa o toque no papel</string>
+    <string name="roadbook_settings_locker_disable_paper_touch_message">Quando o bloqueio está ativado, qualquer toque no papel é ignorado. Isso ajuda a evitar movimentos acidentais ou ações de gotas de chuva.</string>
+    <string name="roadbook_settings_locker_disable_instruments_title">Lock também desativa instrumentos</string>
+    <string name="roadbook_settings_locker_disable_instruments_message">Quando o bloqueio estiver ativado, as ações de toque do instrumento também serão desativadas.</string>
+    <string name="roadbook_settings_locker_disable_topmenu_title">O bloqueio também desativa o menu superior</string>
+    <string name="roadbook_settings_locker_disable_topmenu_message">Quando o bloqueio estiver ativado, o menu superior também será desativado e apenas o botão de bloqueio funcionará.</string>
+    <string name="roadbook_settings_locker_play_pause_title">Bloqueio de sincronização com reprodução/pausa</string>
+    <string name="roadbook_settings_locker_play_pause_message">O bloqueio acionará a reprodução e o desbloqueio acionará a pausa.</string>
     <string name="roadbook_settings_adjustment_cat_title">Adjustments</string>
     <string name="roadbook_settings_distance_multi_factor_title">Distance Multiplier</string>
-    <string name="roadbook_settings_distance_multi_factor_message">Add a correction factor to Total and Partial distance (in case you need to match to Roadbook distances)</string>
+    <string name="roadbook_settings_distance_multi_factor_message">Adicione um fator de correção à distância total e parcial (caso tu precise corresponder às distâncias do Roadbook)</string>
     <string name="roadbook_settings_no_instruments_title">Hide Instruments Panel</string>
-    <string name="roadbook_settings_no_instruments_message">If you have your own dedicated instruments and just want to use the PDF roll.</string>
-    <string name="roadbook_settings_reset_session_title">Reset Session</string>
-    <string name="roadbook_settings_reset_session_message">Unloads current PDF file and resets all statistics and distances.</string>
-    <string name="roadbook_settings_reset_session_confirm_title">Confirm Reset</string>
-    <string name="roadbook_settings_reset_session_confirm_message">Are you sure you want to reset the current progress? This unloads current PDF file and resets all statistics and distances!</string>
-    <string name="roadbook_settings_reset_session_confirm_reset_button">Reset</string>
+    <string name="roadbook_settings_no_instruments_message">Se tu possui seus próprios instrumentos dedicados e deseja apenas usar o rolo PDF.</string>
+    <string name="roadbook_settings_reset_session_title">Redefinir sessão</string>
+    <string name="roadbook_settings_reset_session_message">Descarrega o ficheiro PDF atual e redefine todas as estatísticas e distâncias.</string>
+    <string name="roadbook_settings_reset_session_confirm_title">Confirmar redefinição</string>
+    <string name="roadbook_settings_reset_session_confirm_message">Tem certeza de que deseja redefinir o progresso atual? Isso descarrega o ficheiro PDF atual e redefine todas as estatísticas e distâncias!</string>
+    <string name="roadbook_settings_reset_session_confirm_reset_button">Reiniciar</string>
     <string name="roadbook_settings_controller_setup_cat_title">Remote Controller Setup</string>
     <string-array name="roadbook_controller_button_options" translatable="true">
         <item>Paper Roll Up</item>
-        <item>Paper Roll Down</item>
-        <item>Increase Total</item>
-        <item>Decrease Total</item>
-        <item>Increase Partial</item>
-        <item>Decrease Partial</item>
-        <item>Reset Total</item>
-        <item>Reset Partial</item>
-        <item>Invert Paper Color</item>
+        <item>Rolo de papel para baixo</item>
+        <item>Aumentar total</item>
+        <item>Diminuir total</item>
+        <item>Aumentar Parcial</item>
+        <item>Diminuir Parcial</item>
+        <item>Redefinir total</item>
+        <item>Redefinir parcial</item>
+        <item>Inverter cor do papel</item>
         <item>Lock / Unlock</item>
         <item>Play / Pause</item>
-        <item>Show Map</item>
-        <item>Do Nothing</item>
+        <item>Mostrar mapa</item>
+        <item>Não faça nada</item>
     </string-array>
     <string name="roadbook_controller_button_up">Up Key</string>
-    <string name="roadbook_controller_button_down">Down Key</string>
-    <string name="roadbook_controller_button_left">Left Key</string>
-    <string name="roadbook_controller_button_right">Right Key</string>
-    <string name="roadbook_controller_button_enter">Button A</string>
-    <string name="roadbook_controller_button_enter_long">Enter Key Long Press (only when Locked)</string>
-    <string name="roadbook_controller_button_right_long">Right Key Long Press</string>
-    <string name="roadbook_controller_button_left_long">Left Key Long Press (only when Locked)</string>
-    <string name="roadbook_controller_button_zoomin">Button A</string>
-    <string name="roadbook_controller_button_zoomout">Button B</string>
-    <string name="roadbook_controller_scroll_amount_title">Scroll amount per click</string>
-    <string name="roadbook_controller_scroll_amount_message">Adjust the amount of movement for the paper scroll up and down</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_title">Enable Key Repeat for Joystick</string>
-    <string name="roadbook_controller_enable_key_repeat_joystick_message">If enabled the keys for Up,Down,Left,Right will repeat when held.</string>
-    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Set Repeat Speed for Joystick</string>
-    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Set Repeat Speed for Buttons</string>
+    <string name="roadbook_controller_button_down">Tecla para baixo</string>
+    <string name="roadbook_controller_button_left">Tecla Esquerda</string>
+    <string name="roadbook_controller_button_right">Tecla Direita</string>
+    <string name="roadbook_controller_button_enter">Botão A</string>
+    <string name="roadbook_controller_button_enter_long">Enter Key Press Long (somente quando bloqueado)</string>
+    <string name="roadbook_controller_button_right_long">Pressão longa da tecla direita</string>
+    <string name="roadbook_controller_button_left_long">Pressão longa da tecla esquerda (somente quando bloqueada)</string>
+    <string name="roadbook_controller_button_zoomin">Botão A</string>
+    <string name="roadbook_controller_button_zoomout">Botão B</string>
+    <string name="roadbook_controller_scroll_amount_title">Quantidade de rolagem por toque</string>
+    <string name="roadbook_controller_scroll_amount_message">Ajuste a quantidade de movimento para o papel rolar para cima e para baixo</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_title">Habilitar repetição de tecla para joystick</string>
+    <string name="roadbook_controller_enable_key_repeat_joystick_message">Se ativadas, as teclas para Cima, Baixo, Esquerda, Direita serão repetidas quando pressionadas.</string>
+    <string name="roadbook_controller_set_key_repeat_joystick_time_title">Definir velocidade de repetição para joystick</string>
+    <string name="roadbook_controller_set_key_repeat_buttons_time_title">Definir velocidade de repetição para botões</string>
     <string-array name="roadbook_controller_repeat" translatable="true">
         <item>50ms</item>
         <item>100ms</item>
@@ -732,15 +732,15 @@
         <item>450ms</item>
         <item>500ms</item>
     </string-array>
-    <string name="roadbook_controller_enable_key_repeat_buttons_title">Enable Key Repeat for Buttons</string>
-    <string name="roadbook_controller_enable_key_repeat_buttons_message">If enabled the keys for Button A and Button B will repeat when held.</string>
-    <string name="roadbook_controller_paper_scroll_on_partial_reset">Scroll paper down one click on partial reset</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_title">Habilitar repetição de tecla para botões</string>
+    <string name="roadbook_controller_enable_key_repeat_buttons_message">Se ativado, as teclas do Botão A e do Botão B serão repetidas quando pressionadas.</string>
+    <string name="roadbook_controller_paper_scroll_on_partial_reset">Role o papel para baixo com um toque na redefinição parcial</string>
     <!-- Instrument On Tap Dialogs -->
     <string name="roadbook_totals_dialog_title">Total Distance</string>
-    <string name="roadbook_totals_dialog_text">Please select an option for the Total distance instrument</string>
+    <string name="roadbook_totals_dialog_text">Selecione uma opção para o instrumento Distância total</string>
     <string name="roadbook_partials_dialog_title">Partial Distance</string>
-    <string name="roadbook_partials_dialog_text">Please select an option for the Partial distance instrument</string>
-    <string name="roadbook_total_partial_dialog_reset">Reset</string>
+    <string name="roadbook_partials_dialog_text">Selecione uma opção para o instrumento de distância parcial</string>
+    <string name="roadbook_total_partial_dialog_reset">Reiniciar</string>
     <string name="roadbook_total_partial_dialog_edit">Edit</string>
     <string name="roadbook_total_edit_message_dialog">Edit Total Distance</string>
     <string name="roadbook_partial_edit_message_dialog">Edit Partial Distance</string>
@@ -751,37 +751,37 @@
     <string name="roadbook_instrument_name_partial">Partial Distance</string>
     <string name="roadbook_instrument_name_obd2">GPS/OBD2 Sensor</string>
     <!-- View -->
-    <string name="roadbook_error_not_ready">Roadbook Service not ready yet! Please try again.</string>
-    <string name="roadbook_error_no_action">There is no action for this instrument.</string>
-    <string name="roadbook_stats_title">Statistics</string>
-    <string name="roadbook_filename_label">File Name:</string>
-    <string name="roadbook_filename_no_file">No loaded file</string>
+    <string name="roadbook_error_not_ready">O serviço Roadbook ainda não está pronto! Por favor, tente novamente.</string>
+    <string name="roadbook_error_no_action">Não há nenhuma ação para este instrumento.</string>
+    <string name="roadbook_stats_title">Estatísticas</string>
+    <string name="roadbook_filename_label">Nome do ficheiro:</string>
+    <string name="roadbook_filename_no_file">Nenhum ficheiro carregado</string>
     <string name="roadbook_totaltime_label">Total Time:</string>
     <string name="roadbook_traveltime_label">Travel Time:</string>
-    <string name="roadbook_stoptime_label">Stop Time:</string>
-    <string name="roadbook_avgspeed_label">Average Speed:</string>
-    <string name="roadbook_maxspeed_label">Maximum Speed:</string>
-    <string name="roadbook_reset_stats_button">Reset</string>
-    <string name="roadbook_open_new_dialog_title">Open New File</string>
-    <string name="roadbook_open_new_dialog_message">Discard current session and start new one or save progress first so that you can resume it later?</string>
-    <string name="roadbook_open_new_dialog_open_button">Start Now</string>
-    <string name="roadbook_open_new_dialog_save_first_button">Save First</string>
+    <string name="roadbook_stoptime_label">Tempo de parada:</string>
+    <string name="roadbook_avgspeed_label">Velocidade média:</string>
+    <string name="roadbook_maxspeed_label">Velocidade máxima:</string>
+    <string name="roadbook_reset_stats_button">Reiniciar</string>
+    <string name="roadbook_open_new_dialog_title">Abra novo ficheiro</string>
+    <string name="roadbook_open_new_dialog_message">Descartar a sessão atual e iniciar uma nova ou salvar o progresso primeiro para poder retomá-la mais tarde?</string>
+    <string name="roadbook_open_new_dialog_open_button">Comece agora</string>
+    <string name="roadbook_open_new_dialog_save_first_button">Salve primeiro</string>
     <string name="roadbook_open_parsing_error_title">Error Opening File</string>
-    <string name="roadbook_open_parsing_error_message">There seems to be a problem reading this PDF file. It is probably not compatible!</string>
-    <string name="roadbook_adjust_distance_multi">Distance Correction Factor:</string>
-    <string name="roadbook_open_file_or_session_title">Open File or Session</string>
-    <string name="roadbook_open_file_or_session_message">Import new PDF file or open Session Manager (manage previous saved sessions)?</string>
-    <string name="roadbook_open_file_or_session_new_file">File</string>
-    <string name="roadbook_open_file_or_session_open_session">Session</string>
-    <string name="roadbook_session_save_input_name">Give this session a name</string>
-    <string name="roadbook_session_save_input_empty_name_error">The session name cannot be empty!</string>
-    <string name="roadbook_session_save_nothing_error">Nothing to save! Maybe start by opening a new Roadbook File.</string>
-    <string name="roadbook_session_save_replace_or_add_new_title">Replace or Add New</string>
-    <string name="roadbook_session_save_replace_or_add_new_message">Overwrite the current sessions or add a new entry?</string>
+    <string name="roadbook_open_parsing_error_message">Parece haver um problema ao ler este ficheiro PDF. Provavelmente não é compatível!</string>
+    <string name="roadbook_adjust_distance_multi">Fator de correção de distância:</string>
+    <string name="roadbook_open_file_or_session_title">Abrir ficheiro ou sessão</string>
+    <string name="roadbook_open_file_or_session_message">Importar um novo ficheiro PDF ou abrir o Session Manager (gerenciar sessões salvas anteriormente)?</string>
+    <string name="roadbook_open_file_or_session_new_file">Ficheiro</string>
+    <string name="roadbook_open_file_or_session_open_session">Sessão</string>
+    <string name="roadbook_session_save_input_name">Dê um nome a esta sessão</string>
+    <string name="roadbook_session_save_input_empty_name_error">O nome da sessão não pode ficar vazio!</string>
+    <string name="roadbook_session_save_nothing_error">Nada para salvar! Talvez comece abrindo um novo ficheiro Roadbook.</string>
+    <string name="roadbook_session_save_replace_or_add_new_title">Substituir ou adicionar novo</string>
+    <string name="roadbook_session_save_replace_or_add_new_message">Substituir as sessões atuais ou adicionar uma nova entrada?</string>
     <string name="roadbook_session_save_replace_or_add_new_overwrite">Overwrite</string>
-    <string name="roadbook_session_save_replace_or_add_new_new_entry">New Entry</string>
-    <string name="roadbook_session_save_name_already_exists_title">Session Name Already Exists</string>
-    <string name="roadbook_session_save_name_already_exists_message">A session with this name already exists, do you want to replace or edit the name?</string>
+    <string name="roadbook_session_save_replace_or_add_new_new_entry">Nova entrada</string>
+    <string name="roadbook_session_save_name_already_exists_title">O nome da sessão já existe</string>
+    <string name="roadbook_session_save_name_already_exists_message">Já existe uma sessão com este nome. Deseja substituir ou editar o nome?</string>
     <string name="roadbook_session_save_name_already_exists_replace">Replace</string>
     <string name="roadbook_session_save_name_already_exists_edit">Edit Name</string>
     <!-- Session Manager -->
@@ -803,67 +803,67 @@
     <string name="roadbook_session_load_confirmation_message">Tens a certeza que pretendes carregar esta sessão? Qual progresso actual será perdido!</string>
     <!-- License -->
     <string name="roadbook_license_title">Roadbook Demo Mode</string>
-    <string name="roadbook_license_message">Demo mode is limited to 15 minutes per session. Buy the Roadbook Plugin to unlock!</string>
-    <string name="roadbook_buy_button">Buy Plugin</string>
-    <string name="roadbook_non_playstore_purchase_title">License Purchase</string>
-    <string name="roadbook_non_playstore_purchase_message">Your device does not have Play Store installed, you can still purchase a key in our website and then insert it to activate it!</string>
+    <string name="roadbook_license_message">O modo de demonstração é limitado a 15 minutos por sessão. Compre o plugin Roadbook para desbloquear!</string>
+    <string name="roadbook_buy_button">Comprar plug-in</string>
+    <string name="roadbook_non_playstore_purchase_title">Compra de licença</string>
+    <string name="roadbook_non_playstore_purchase_message">Seu aparelho não possui a Play Store instalada, tu ainda pode adquirir uma chave em nosso site e depois inseri-la para ativá-la!</string>
     <string name="roadbook_insert_key">Insert Key</string>
-    <string name="roadbook_purchase_key">Purchase</string>
-    <string name="roadbook_insert_key_title">Please insert your license key to activate the plugin:</string>
+    <string name="roadbook_purchase_key">Comprar</string>
+    <string name="roadbook_insert_key_title">Por favor insira sua chave de licença para ativar o plugin:</string>
     <string name="roadbook_purchase_key_activate">Activate</string>
-    <string name="roadbook_purchase_key_activate_error_title">Error Activating License</string>
-    <string name="roadbook_purchase_key_activate_error_message">Wrong license code or already activated on another device, check licenses in your Thork Racing account page or contact support.</string>
-    <string name="roadbook_purchase_key_activate_success_title">License Activated</string>
-    <string name="roadbook_purchase_key_activate_success_message">Plugin is now active! Thank you for your support.</string>
+    <string name="roadbook_purchase_key_activate_error_title">Erro ao ativar a licença</string>
+    <string name="roadbook_purchase_key_activate_error_message">Código de licença errado ou já ativado em outro dispositivo, verifique as licenças na página da sua conta Thork Racing ou entre em contato com o suporte.</string>
+    <string name="roadbook_purchase_key_activate_success_title">Licença ativada</string>
+    <string name="roadbook_purchase_key_activate_success_message">O plug-in agora está ativo! Obrigado pelo seu apoio.</string>
 
     <!-- MAP VIEW -->
-    <string name="map_first_run_download_maps_title">No Maps Downloaded Yet</string>
-    <string name="map_first_run_download_maps_message">You have not yet downloaded any map files. Do you want to do it now?</string>
-    <string name="map_first_run_download_maps_starting_layers">Starting Layers Manager!</string>
-    <string name="map_navigation_selection_dialog_title">Select Navigation Mode</string>
-    <string name="map_navigation_selection_dialog_message">Use DMD2 to calculate the route or use an external app?</string>
+    <string name="map_first_run_download_maps_title">Nenhum mapa baixado ainda</string>
+    <string name="map_first_run_download_maps_message">Tu ainda não baixou nenhum ficheiro de mapa. Tu quer fazer isso agora?</string>
+    <string name="map_first_run_download_maps_starting_layers">Iniciando o Gerenciador de Camadas!</string>
+    <string name="map_navigation_selection_dialog_title">Selecione o modo de navegação</string>
+    <string name="map_navigation_selection_dialog_message">Usar DMD2 para calcular a rota ou usar um aplicação externo?</string>
     <string name="map_navigation_selection_dialog_use_dmd2">Use DMD2</string>
-    <string name="map_navigation_selection_dialog_use_external">External App</string>
+    <string name="map_navigation_selection_dialog_use_external">Aplicação externo</string>
     <string name="map_panning_mode_enable">Panning Mode Enabled</string>
-    <string name="map_lock_button_long_press_unlock">Press and hold to unlock!</string>
+    <string name="map_lock_button_long_press_unlock">Prima e segure para desbloquear!</string>
     <!--Map Layers Manager-->
-    <string name="map_layers_dialog_title">Map Layers</string>
-    <string name="map_layers_base_map_title">Base Map Source</string>
-    <string name="map_layers_base_map_description">Base data for terrain, roads, buildings, addresses, and elevation.</string>
+    <string name="map_layers_dialog_title">Camadas do mapa</string>
+    <string name="map_layers_base_map_title">Fonte do mapa básico</string>
+    <string name="map_layers_base_map_description">Dados básicos para terreno, estradas, edifícios, endereços e elevação.</string>
     <string name="map_layers_3D_buildings_title">3D Buildings</string>
-    <string name="map_layers_3D_buildings_description">Converts building areas into basic extruded 3D shapes</string>
+    <string name="map_layers_3D_buildings_description">Converte áreas de construção em formas 3D extrudadas básicas</string>
     <string name="map_layers_scale_visibility_title">Scale &amp; Visibility</string>
-    <string name="map_layers_scale_visibility_description">Adjust map, labels and symbols scale and visibility</string>
-    <string name="map_layers_scale_map_layer_label">Map Scale</string>
-    <string name="map_layers_enable_layer_label">Enable Layer</string>
-    <string name="map_layers_enable_labels_layer_label">Enable Labels</string>
+    <string name="map_layers_scale_visibility_description">Ajuste a escala e a visibilidade do mapa, dos rótulos e dos símbolos</string>
+    <string name="map_layers_scale_map_layer_label">Escala do mapa</string>
+    <string name="map_layers_enable_layer_label">Habilitar camada</string>
+    <string name="map_layers_enable_labels_layer_label">Ativar rótulos</string>
     <string name="map_layers_scale_labels_layer_label">Labels Scale</string>
     <string name="map_layers_enable_symbols_layer_label">Enable Symbols</string>
-    <string name="map_layers_scale_symbols_layer_label">Symbols Scale</string>
-    <string name="map_layers_location_title">Location Icon</string>
-    <string name="map_layers_location_description">Adjust the current location icon</string>
+    <string name="map_layers_scale_symbols_layer_label">Escala de Símbolos</string>
+    <string name="map_layers_location_title">Ícone de localização</string>
+    <string name="map_layers_location_description">Ajustar o ícone de localização atual</string>
     <string name="map_layers_icon_scale">Icon Scale</string>
-    <string name="map_layers_icon_show_accuracy_range">Show Accuracy Range</string>
+    <string name="map_layers_icon_show_accuracy_range">Mostrar faixa de precisão</string>
     <string name="map_layers_hillshading_enable_shadows_label">Enable Shadows</string>sd
-    <string name="map_layers_map_base_download_more">Download Maps</string>
-    <string name="map_layers_map_base_title">Select Maps to Load</string>
-    <string name="map_layers_map_base_file_missing">Error: The map files are missing, please download them again!</string>
-    <string name="map_layers_map_base_no_map_yet">No downloaded maps yet, click Download Maps to download!</string>
-    <string name="map_layers_downloader_region_title">Select Region</string>
-    <string name="map_layers_downloader_map_title">Select Map</string>
-    <string name="map_layers_downloader_country_downloaded_label">Downloaded:</string>
+    <string name="map_layers_map_base_download_more">Baixar mapas</string>
+    <string name="map_layers_map_base_title">Selecione mapas para carregar</string>
+    <string name="map_layers_map_base_file_missing">Erro: Os ficheiros do mapa estão faltando, baixe-os novamente!</string>
+    <string name="map_layers_map_base_no_map_yet">Nenhum mapa baixado ainda, toque em Baixar mapas para fazer o download!</string>
+    <string name="map_layers_downloader_region_title">Selecione a região</string>
+    <string name="map_layers_downloader_map_title">Selecione Mapa</string>
+    <string name="map_layers_downloader_country_downloaded_label">Baixado:</string>
     <string name="map_layers_downloader_country_date_label">Last Update:</string>
     <string name="map_layers_downloader_country_size_label">Size:</string>
     <string name="map_layers_downloader_country_region_label">Region:</string>
-    <string name="map_layers_downloader_country_filename_label">File Name:</string>
-    <string name="map_layers_downloader_country_loaded_label">Load Map:</string>
+    <string name="map_layers_downloader_country_filename_label">Nome do ficheiro:</string>
+    <string name="map_layers_downloader_country_loaded_label">Carregar mapa:</string>
     <string name="map_layers_downloader_no_update_label">No Update</string>
-    <string name="map_layers_downloader_notification_title">DMD2 Downloading</string>
-    <string name="map_layers_downloader_wait_until_finished">Please wait for the download to complete!</string>
-    <string name="map_layers_downloader_cant_connect">Cannot connect to server, try again later!</string>
-    <string name="map_layers_downloader_not_enough_space">Not enough storage space!</string>
-    <string name="map_layers_poi_highlight_title">POI Icon Highlight</string>
-    <string name="map_layers_poi_highlight_description">Set POI icons to show at lower zoom levels (500m zoom max)(fuel/hospital/peaks are always enabled).</string>
+    <string name="map_layers_downloader_notification_title">Baixando DMD2</string>
+    <string name="map_layers_downloader_wait_until_finished">Aguarde o download ser concluído!</string>
+    <string name="map_layers_downloader_cant_connect">Não é possível conectar-se ao servidor. Tente novamente mais tarde!</string>
+    <string name="map_layers_downloader_not_enough_space">Espaço de armazenamento insuficiente!</string>
+    <string name="map_layers_poi_highlight_title">Destaque do ícone POI</string>
+    <string name="map_layers_poi_highlight_description">Defina os ícones de POI para serem exibidos em níveis de zoom mais baixos (zoom máximo de 500 m) (combustível/hospital/picos estão sempre ativados).</string>
     <string name="map_layers_poi_fuel">Fuel</string>
     <string name="map_layers_poi_hospital">Hospital</string>
     <string name="map_layers_poi_peaks">Peaks</string>
@@ -871,165 +871,165 @@
     <string name="map_layers_poi_restaurant">Restaurant</string>
     <string name="map_layers_poi_cafe">Cafe</string>
     <string name="map_layers_poi_pub">Pub</string>
-    <string name="map_layers_poi_cafe_and_Pub">Cafe &amp; Pub</string>
+    <string name="map_layers_poi_cafe_and_Pub">Café e Pub</string>
     <string name="map_layers_poi_hotel">Hotel</string>
     <string name="map_layers_poi_hostel">Hostel</string>
     <string name="map_layers_poi_accommodation">Accommodation</string>
     <string name="map_layers_poi_camping">Camping</string>
     <string name="map_layers_poi_supermarket">Supermarket</string>
-    <string name="map_layers_poi_attraction">Attraction</string>
-    <string name="map_layers_poi_view_point">View Point</string>
-    <string name="map_layers_poi_historic">Historic</string>
+    <string name="map_layers_poi_attraction">Atração</string>
+    <string name="map_layers_poi_view_point">Mirante</string>
+    <string name="map_layers_poi_historic">Histórico</string>
     <string name="map_layers_poi_natural">Natural</string>
-    <string name="map_layers_poi_parking_place">Parking Place</string>
-    <string name="map_layers_poi_car_repair">Car Repair</string>
+    <string name="map_layers_poi_parking_place">Lugar de estacionamento</string>
+    <string name="map_layers_poi_car_repair">Reparação de automóveis</string>
     <string name="map_layers_poi_monument">Monument</string>
     <string name="map_layers_poi_atm">ATM</string>
     <string name="map_layers_poi_bank">Bank</string>
-    <string name="map_layers_poi_gas">Gas Station</string>
-    <string name="map_layers_poi_moto_repair">Motorcycle Repair</string>
-    <string name="map_layers_theme_title">Map Type &amp; Style</string>
-    <string name="map_layers_theme_description">Select the default minimal and clean map type or a more detailed off-road topographic type. Also set the light and dark color modes.</string>
+    <string name="map_layers_poi_gas">Posto de gasolina</string>
+    <string name="map_layers_poi_moto_repair">Reparação de motocicletas</string>
+    <string name="map_layers_theme_title">Tipo e estilo do mapa</string>
+    <string name="map_layers_theme_description">Selecione o tipo de mapa mínimo e limpo padrão ou um tipo topográfico off-road mais detalhado. Defina também os modos de cores claras e escuras.</string>
     <string name="map_layers_map_type_default_title">Default Minimal</string>
-    <string name="map_layers_map_type_topo_title">Off-Road Topo</string>
+    <string name="map_layers_map_type_topo_title">Topo fora de estrada</string>
     <string name="map_layers_map_type_light_or_dark">Light / Dark Mode:</string>
-    <string name="map_layers_map_type_always_light">Light</string>
+    <string name="map_layers_map_type_always_light">Luz</string>
     <string name="map_layers_map_type_always_dark">Dark</string>
-    <string name="map_layers_map_type_follow_theme">Theme</string>
+    <string name="map_layers_map_type_follow_theme">Tema</string>
     <string name="map_layers_map_type_light_sensor">Sensor</string>
-    <string name="map_layers_topo_advanced_title">Topo Advanced Options</string>
-    <string name="map_layers_topo_advanced_description">Fine tune the Off-road Topographic map type</string>
-    <string name="map_layers_topo_high_contrast_mode">High-Contrast Mode</string>
-    <string name="map_layers_topo_options_altitude_line">Show Altitude Lines</string>
-    <string name="map_layers_topo_options_low_zoom_unpaved">Unpaved Highlight (visible at low zoom)</string>
-    <string name="map_layers_topo_options_show_motorway">Show Motorways</string>
-    <string name="map_layers_topo_options_show_primary">Show Primary Roads</string>
-    <string name="map_layers_topo_options_show_secondary">Show Secondary Roads</string>
+    <string name="map_layers_topo_advanced_title">Opções avançadas de topo</string>
+    <string name="map_layers_topo_advanced_description">Ajuste o tipo de mapa topográfico off-road</string>
+    <string name="map_layers_topo_high_contrast_mode">Modo de alto contraste</string>
+    <string name="map_layers_topo_options_altitude_line">Mostrar linhas de altitude</string>
+    <string name="map_layers_topo_options_low_zoom_unpaved">Destaque não pavimentado (visível com zoom baixo)</string>
+    <string name="map_layers_topo_options_show_motorway">Mostrar autoestradas</string>
+    <string name="map_layers_topo_options_show_primary">Mostrar estradas primárias</string>
+    <string name="map_layers_topo_options_show_secondary">Mostrar estradas secundárias</string>
     <string name="map_layers_reset">All settings have been reset to defaults!</string>
-    <string name="map_layers_hillshading_title">HillShading (online)</string>
-    <string name="map_layers_hillshading_description">Shows the topographical shape of hills and mountains using shading</string>
-    <string name="map_layers_hillshading_transparency">Opacity</string>
-    <string name="map_layers_routing_title">Routing UI</string>
-    <string name="map_layers_routing_description">Adjust the width of the calculated route line on the map</string>
+    <string name="map_layers_hillshading_title">HillShading (on-line)</string>
+    <string name="map_layers_hillshading_description">Mostra a forma topográfica de colinas e montanhas usando sombreamento</string>
+    <string name="map_layers_hillshading_transparency">Opacidade</string>
+    <string name="map_layers_routing_title">IU de roteamento</string>
+    <string name="map_layers_routing_description">Ajuste a largura da linha de rota calculada no mapa</string>
     <string name="map_layers_routing_width_line">Line Width</string>
-    <string name="map_layers_routing_transparency_line">Line Opacity</string>
-    <string name="map_layers_routing_pins_size">Indications Size</string>
+    <string name="map_layers_routing_transparency_line">Opacidade da linha</string>
+    <string name="map_layers_routing_pins_size">Indicações Tamanho</string>
     <!--GPX Manager-->
     <string name="gpx_manager_title">GPX Manager</string>
-    <string name="gpx_manager_load_file">Load File</string>
-    <string name="gpx_manager_no_file_loaded">No file loaded. Press Load File.</string>
-    <string name="gpx_manager_reloading_files_please_wait">Reloading Files. Please wait.</string>
-    <string name="gpx_manager_tracks">Tracks</string>
-    <string name="gpx_manager_waypoints">Waypoints</string>
-    <string name="gpx_manager_center_map_button">Center Map</string>
+    <string name="gpx_manager_load_file">Carregar ficheiro</string>
+    <string name="gpx_manager_no_file_loaded">Nenhum ficheiro carregado. Prima Carregar ficheiro.</string>
+    <string name="gpx_manager_reloading_files_please_wait">Recarregando ficheiros. Por favor, aguarde.</string>
+    <string name="gpx_manager_tracks">Faixas</string>
+    <string name="gpx_manager_waypoints">Pontos de passagem</string>
+    <string name="gpx_manager_center_map_button">Mapa Central</string>
     <string name="gpx_manager_settings_title">GPX Settings</string>
-    <string name="gpx_manager_settings_visibility_title">Show or Hide</string>
-    <string name="gpx_manager_settings_visibility_message">Show or hide GPX elements (for all files). This takes priority over individual file settings.</string>
-    <string name="gpx_manager_settings_tracks_visibility">Show All Enabled GPX Tracks</string>
-    <string name="gpx_manager_settings_direction_arrows_visibility">Show Track Direction Arrows</string>
-    <string name="gpx_manager_settings_waypoints_visibility">Show All Enabled Waypoints</string>
-    <string name="gpx_manager_settings_waypoints_titles">Show Waypoint Title Text</string>
-    <string name="gpx_manager_settings_waypoints_zoom">Hide Waypoints on Low Zoom</string>
-    <string name="gpx_manager_settings_style_title">Sizes &amp; Opacity</string>
+    <string name="gpx_manager_settings_visibility_title">Mostrar ou ocultar</string>
+    <string name="gpx_manager_settings_visibility_message">Mostre ou oculte elementos GPX (para todos os ficheiros). Isso tem prioridade sobre as configurações de ficheiros individuais.</string>
+    <string name="gpx_manager_settings_tracks_visibility">Mostrar todas as trilhas GPX habilitadas</string>
+    <string name="gpx_manager_settings_direction_arrows_visibility">Mostrar setas de direção da trilha</string>
+    <string name="gpx_manager_settings_waypoints_visibility">Mostrar todos os waypoints habilitados</string>
+    <string name="gpx_manager_settings_waypoints_titles">Mostrar texto do título do waypoint</string>
+    <string name="gpx_manager_settings_waypoints_zoom">Ocultar pontos de referência com zoom baixo</string>
+    <string name="gpx_manager_settings_style_title">Tamanhos e opacidade</string>
     <string name="gpx_manager_settings_style_message">Set GPX elements default sizes &amp; opacity</string>
     <string name="gpx_manager_settings_defaults_title">Color Defaults</string>
-    <string name="gpx_manager_settings_defaults_message">Track line default color and color overwrites</string>
+    <string name="gpx_manager_settings_defaults_message">Cor padrão da linha de rastreamento e substituições de cores</string>
     <string name="gpx_manager_settings_track_width">Track Line Width</string>
-    <string name="gpx_manager_settings_track_transparency">Track Opacity</string>
-    <string name="gpx_manager_settings_arrow_size">Direction Arrow Size</string>
-    <string name="gpx_manager_settings_waypoint_size">Waypoint Pin Size</string>
-    <string name="gpx_manager_settings_hide_all">Hide All</string>
-    <string name="gpx_manager_settings_show_all">Show All</string>
+    <string name="gpx_manager_settings_track_transparency">Rastrear opacidade</string>
+    <string name="gpx_manager_settings_arrow_size">Tamanho da seta de direção</string>
+    <string name="gpx_manager_settings_waypoint_size">Tamanho do pino do waypoint</string>
+    <string name="gpx_manager_settings_hide_all">Ocultar tudo</string>
+    <string name="gpx_manager_settings_show_all">Mostrar tudo</string>
     <string name="gpx_manager_settings_delete_all">Delete All</string>
-    <string name="gpx_manager_settings_default_track_color">Default track color (when no color is specified or set by the user):</string>
-    <string name="gpx_manager_settings_default_overwrite_all_colors">Overwrite all colors set in files to default color:</string>
-    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Overwrite all colors set by the user to default color:</string>
-    <string name="gpx_manager_settings_load_poi_title">Auto Load POIs</string>
-    <string name="gpx_manager_settings_load_poi_message">Automatically load POI along the track up to 3 categories</string>
-    <string name="gpx_manager_settings_load_poi_enable_label">Enable auto POI load along the track:</string>
-    <string name="gpx_manager_settings_poi_cat_select_cats">Select POI categories to load:</string>
-    <string name="gpx_manager_no_tracks_warning">The selected GPX file does not contain any tracks!</string>
-    <string name="gpx_manager_track_manager_title">Track Manager</string>
+    <string name="gpx_manager_settings_default_track_color">Cor padrão da trilha (quando nenhuma cor é especificada ou definida pelo usuário):</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors">Substitua todas as cores definidas nos ficheiros pela cor padrão:</string>
+    <string name="gpx_manager_settings_default_overwrite_all_colors_user">Substitua todas as cores definidas pelo usuário pela cor padrão:</string>
+    <string name="gpx_manager_settings_load_poi_title">Carregar automaticamente POIs</string>
+    <string name="gpx_manager_settings_load_poi_message">Carregue automaticamente POI ao longo da trilha em até 3 categorias</string>
+    <string name="gpx_manager_settings_load_poi_enable_label">Ative o carregamento automático de POI ao longo da trilha:</string>
+    <string name="gpx_manager_settings_poi_cat_select_cats">Selecione categorias de POI para carregar:</string>
+    <string name="gpx_manager_no_tracks_warning">O ficheiro GPX selecionado não contém nenhuma trilha!</string>
+    <string name="gpx_manager_track_manager_title">Gerenciador de trilhas</string>
     <string name="gpx_manager_track_manager_no_description">No track description available.</string>
-    <string name="gpx_manager_track_manager_track_length">Track Length</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_title">Navigate To Track Point</string>
-    <string name="gpx_manager_track_manager_navigate_dialog_message">Select to which track point you want to navigate.</string>
-    <string name="gpx_manager_track_manager_navigate_start">Track Start</string>
-    <string name="gpx_manager_track_manager_navigate_closest">Closest Point</string>
-    <string name="gpx_manager_track_manager_navigate_end">Track End</string>
-    <string name="gpx_manager_advanced_convert_to_route3">Please notice that this operation is really demanding and slow. The result might also not be a perfect match to the original track! Use with caution.</string>
-    <string name="gpx_manager_track_manager_select_nav_app">Select Navigation App</string>
-    <string name="gpx_manager_track_manager_poi_search">POI Search</string>
-    <string name="gpx_manager_no_waypoint_warning">The selected GPX file does not contain any waypoints!</string>
-    <string name="gpx_manager_waypoints_manager_title">Waypoints Manager</string>
-    <string name="gpx_manager_waypoints_navigate_to">Navigate To</string>
-    <string name="gpx_manager_waypoints_share_location">Share Location</string>
-    <string name="gpx_manager_waypoints_search_at_location">Search Near</string>
+    <string name="gpx_manager_track_manager_track_length">Comprimento da trilha</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_title">Navegue até o ponto de rastreamento</string>
+    <string name="gpx_manager_track_manager_navigate_dialog_message">Selecione para qual ponto de controle tu deseja navegar.</string>
+    <string name="gpx_manager_track_manager_navigate_start">Início da trilha</string>
+    <string name="gpx_manager_track_manager_navigate_closest">Ponto mais próximo</string>
+    <string name="gpx_manager_track_manager_navigate_end">Fim da trilha</string>
+    <string name="gpx_manager_advanced_convert_to_route3">Observe que esta operação é muito exigente e lenta. O resultado também pode não ser uma combinação perfeita com a faixa original! Use com cuidado.</string>
+    <string name="gpx_manager_track_manager_select_nav_app">Selecione o aplicação de navegação</string>
+    <string name="gpx_manager_track_manager_poi_search">Pesquisa de PI</string>
+    <string name="gpx_manager_no_waypoint_warning">O ficheiro GPX selecionado não contém nenhum waypoint!</string>
+    <string name="gpx_manager_waypoints_manager_title">Gerenciador de pontos de referência</string>
+    <string name="gpx_manager_waypoints_navigate_to">Navegue até</string>
+    <string name="gpx_manager_waypoints_share_location">Compartilhar localização</string>
+    <string name="gpx_manager_waypoints_search_at_location">Pesquisar perto</string>
     <string name="gpx_manager_waypoint_no_description">No waypoint description available.</string>
-    <string name="gpx_manager_waypoint_straight_line_distance">Straight Line Distance</string>
-    <string name="gpx_manager_waypoint_distance_on_track">Distance from you</string>
-    <string name="gpx_manager_waypoint_distance_more">Track Point Dist.</string>
-    <string name="gpx_manager_waypoint_distance_from_track_start">Distance from track start</string>
-    <string name="gpx_manager_waypoint_not_on_track">You need to be riding on the same GPX file to get distances information.</string>
-    <string name="gpx_manager_waypoint_no_valid_location_yet">Waiting for GPS Fix</string>
-    <string name="gpx_manager_waypoint_share_app">Select app to share</string>
-    <string name="gpx_manager_gpx_loading_message">Loading GPX File</string>
-    <string name="gpx_manager_poi_loading_message">Loading track POI search, this might take some time…</string>
-    <string name="gpx_manager_advanced_title">Advanced Options</string>
-    <string name="gpx_manager_advanced_convert_to_route">Attempt to convert full file to navigation:</string>
-    <string name="gpx_manager_advanced_convert_no_tracks">This GPX file does not contain any track!</string>
+    <string name="gpx_manager_waypoint_straight_line_distance">Distância em linha reta</string>
+    <string name="gpx_manager_waypoint_distance_on_track">Distância de tu</string>
+    <string name="gpx_manager_waypoint_distance_more">Dist. do ponto de rastreamento</string>
+    <string name="gpx_manager_waypoint_distance_from_track_start">Distância do início da trilha</string>
+    <string name="gpx_manager_waypoint_not_on_track">Tu precisa estar no mesmo ficheiro GPX para obter informações de distâncias.</string>
+    <string name="gpx_manager_waypoint_no_valid_location_yet">Aguardando correção do GPS</string>
+    <string name="gpx_manager_waypoint_share_app">Selecione o aplicação para compartilhar</string>
+    <string name="gpx_manager_gpx_loading_message">Carregando ficheiro GPX</string>
+    <string name="gpx_manager_poi_loading_message">Carregando a pesquisa de POI de trilha, isso pode levar algum tempo…</string>
+    <string name="gpx_manager_advanced_title">Opções Avançadas</string>
+    <string name="gpx_manager_advanced_convert_to_route">Tente converter o ficheiro completo em navegação:</string>
+    <string name="gpx_manager_advanced_convert_no_tracks">Este ficheiro GPX não contém nenhuma trilha!</string>
     <!-- Map Press Actions -->
-    <string name="map_long_press_point_title">Map Long Press Actions</string>
-    <string name="map_long_press_point_no_info">No information for this point!</string>
+    <string name="map_long_press_point_title">Mapear ações de toque longo</string>
+    <string name="map_long_press_point_no_info">Nenhuma informação para este ponto!</string>
     <string name="map_long_press_point_close_to">in</string>
-    <string name="map_long_press_point_nearest_city">nearest city is</string>
-    <string name="map_long_press_point_navigate">Navigate</string>
+    <string name="map_long_press_point_nearest_city">cidade mais próxima é</string>
+    <string name="map_long_press_point_navigate">Navegar</string>
     <string name="map_long_press_point_share">Share</string>
-    <string name="map_long_press_search_poi">Search POI</string>
-    <string name="map_long_press_online_weather">Online Weather</string>
-    <string name="map_long_press_online_weather_no_info">No information for this point!</string>
+    <string name="map_long_press_search_poi">Pesquisar PI</string>
+    <string name="map_long_press_online_weather">Clima on-line</string>
+    <string name="map_long_press_online_weather_no_info">Nenhuma informação para este ponto!</string>
     <!-- License -->
-    <string name="map_license_title">Map Demo Mode</string>
-    <string name="map_license_message">Demo mode is limited to 15 minutes per session. Buy the Map Plugin to unlock!</string>
-    <string name="map_buy_button">Buy Plugin</string>
-    <string name="map_buy_dialog_title">Map Plugin Purchase</string>
+    <string name="map_license_title">Modo de demonstração de mapa</string>
+    <string name="map_license_message">O modo de demonstração é limitado a 15 minutos por sessão. Compre o plugin do mapa para desbloquear!</string>
+    <string name="map_buy_button">Comprar plug-in</string>
+    <string name="map_buy_dialog_title">Compra de plug-in de mapa</string>
     <string name="map_buy_dialog_message1">Select subscription duration.</string>
-    <string name="map_buy_dialog_message2">12 Month Subscription</string>
-    <string name="map_buy_dialog_message3">Lifetime Purchase</string>
-    <string name="map_buy_dialog_message4">6 Month Subscription</string>
-    <string name="map_buy_button_12_month">12 Month</string>
-    <string name="map_buy_button_6_month">6 Month</string>
+    <string name="map_buy_dialog_message2">Assinatura de 12 meses</string>
+    <string name="map_buy_dialog_message3">Compra vitalícia</string>
+    <string name="map_buy_dialog_message4">Assinatura de 6 meses</string>
+    <string name="map_buy_button_12_month">12 meses</string>
+    <string name="map_buy_button_6_month">6 meses</string>
     <string name="map_buy_button_lifetime">Lifetime</string>
-    <string name="license_limitation_message">This option is only available for licensed users!</string>
+    <string name="license_limitation_message">Esta opção está disponível apenas para usuários licenciados!</string>
     <!-- Map Settings -->
-    <string name="map_settings_auto_zoom_cat_title">Auto Zoom &amp; Tilt</string>
+    <string name="map_settings_auto_zoom_cat_title">Zoom e inclinação automáticos</string>
     <string name="map_settings_auto_zoom_title">Enable auto-zoom level</string>
     <string name="map_settings_auto_tilt_title">Enable auto-tilt level</string>
-    <string name="map_settings_auto_nav_only">Auto mode only in active navigation</string>
-    <string name="map_settings_ui_cat_title">Interface Options</string>
-    <string name="map_settings_ui_enable_track_progress">Enable track progress info box</string>
-    <string name="map_settings_ui_enable_track_progress_summary">Will show a box on the side of the screen with track progress and distances to next POIs and Waypoints.</string>
-    <string name="map_settings_ui_disable_touch_on_lock">Disable map touch when locked</string>
-    <string name="map_settings_ui_disable_touch_on_lock_message">Specially useful if you have a controller, disables the whole screen touch</string>
-    <string name="map_settings_ui_lock_on_move_title">Auto lock when moving</string>
-    <string name="map_settings_ui_lock_on_move_message">Map will automatically lock UI when you start moving</string>
-    <string name="map_settings_ui_unlock_on_stop_title">Auto unlock when stopped</string>
-    <string name="map_settings_ui_unlock_on_stop_message">Map will automatically unlock UI when you stop moving</string>
-    <string name="map_settings_language_cat_title">Map Language</string>
-    <string name="map_settings_language_load_mode_title">Map Language</string>
+    <string name="map_settings_auto_nav_only">Modo automático apenas na navegação ativa</string>
+    <string name="map_settings_ui_cat_title">Opções de interface</string>
+    <string name="map_settings_ui_enable_track_progress">Ativar caixa de informações de progresso do acompanhamento</string>
+    <string name="map_settings_ui_enable_track_progress_summary">Irá mostrar uma caixa na lateral da ecrã com o progresso da trilha e as distâncias até os próximos POIs e Waypoints.</string>
+    <string name="map_settings_ui_disable_touch_on_lock">Desativar toque no mapa quando bloqueado</string>
+    <string name="map_settings_ui_disable_touch_on_lock_message">Especialmente útil se tu tiver um controlador, desativa o toque na ecrã inteira</string>
+    <string name="map_settings_ui_lock_on_move_title">Bloqueio automático ao mover</string>
+    <string name="map_settings_ui_lock_on_move_message">O mapa bloqueará automaticamente a interface do usuário quando tu começar a se mover</string>
+    <string name="map_settings_ui_unlock_on_stop_title">Desbloqueio automático quando parado</string>
+    <string name="map_settings_ui_unlock_on_stop_message">O mapa desbloqueará automaticamente a interface do usuário quando tu parar de se mover</string>
+    <string name="map_settings_language_cat_title">Idioma do mapa</string>
+    <string name="map_settings_language_load_mode_title">Idioma do mapa</string>
     <string-array name="map_settings_language_load_mode_entries" translatable="true">
-        <item>Localised Map Language</item>
-        <item>English or available latin alphabet</item>
-        <item>French > English or available latin alphabet</item>
-        <item>German > English or available latin alphabet</item>
+        <item>Idioma do mapa localizado</item>
+        <item>Inglês ou alfabeto latino disponível</item>
+        <item>Francês&gt; Inglês ou alfabeto latino disponível</item>
+        <item>Alemão &gt; Inglês ou alfabeto latino disponível</item>
     </string-array>
-    <string name="map_settings_navigation_cat_title">Navigation</string>
-    <string name="map_settings_navigation_start_ask_title">Navigate To: Ask to use DMD2 or External</string>
-    <string name="map_settings_navigation_start_ask_message">If enabled DMD2 will ask if you want to use DMD2 or another app. If disabled it defaults to DMD2.</string>
+    <string name="map_settings_navigation_cat_title">Navegação</string>
+    <string name="map_settings_navigation_start_ask_title">Navegue até: Peça para usar DMD2 ou externo</string>
+    <string name="map_settings_navigation_start_ask_message">Se ativado, o DMD2 perguntará se tu deseja usar o DMD2 ou outro aplicação. Se desativado, o padrão é DMD2.</string>
     <string name="map_settings_navigation_use_voice_instructions_title">Enable Voice Instructions</string>
-    <string name="map_settings_navigation_use_voice_instructions_summary">Will use Text-To-Speech to provide voice instructions for the navigation.</string>
-    <string name="map_settings_navigation_show_waypoints_title">Show Waypoints on Map</string>
-    <string name="map_settings_navigation_show_waypoints_message">Will display routing instruction waypoint pin on the map.</string>
+    <string name="map_settings_navigation_use_voice_instructions_summary">Usará Text-To-Speech para fornecer instruções de voz para a navegação.</string>
+    <string name="map_settings_navigation_show_waypoints_title">Mostrar pontos de referência no mapa</string>
+    <string name="map_settings_navigation_show_waypoints_message">Exibirá o pino do waypoint das instruções de roteamento no mapa.</string>
     <string name="map_settings_navigation_recalculation_distance">Automatic route recalculation distance</string>
     <string-array name="map_settings_navigation_recalculation_distance_names" translatable="true">
         <item>50m</item>
@@ -1041,7 +1041,7 @@
         <item>Nunca</item>
     </string-array>
     <string name="map_settings_controller_cat_title">Opções de Controlador</string>
-    <string name="map_settings_controller_disable_pan_spot_title">Desactivar Panning com Alvo</string>
+    <string name="map_settings_controller_disable_pan_spot_title">Desativar Panning com Alvo</string>
     <string name="map_settings_controller_disable_pan_spot_summary">Desactiva o modo de panning do mapa com alvo e acção</string>
     <!-- Poi Search -->
     <string name="map_poi_search_manager">Pesquisa de Localizações</string>
@@ -1070,7 +1070,7 @@
     <string name="map_map_track_tap_not_on_track_but_on_gpx">Estás em outro track.</string>
     <string name="map_map_track_tap_not_on_gpx">Não estás neste track ou em qualquer track do mesmo GPX.</string>
     <string name="map_map_track_tap_point_distance_from_track_start">Início de Track:</string>
-    <string name="map_map_track_tap_point_distance_to_track_end">Fim de Track:</string>
+    <string name="map_map_track_tap_point_distance_to_track_end">Fim da trilha:</string>
     <string name="map_map_track_tap_point_distance_from_gpx_start">Início GPX:</string>
     <string name="map_map_track_tap_point_distance_to_gpx_end">Fim GPX:</string>
     <string name="map_map_track_tap_point_distance_to_you">Distancia:</string>
@@ -1143,58 +1143,58 @@
     <string name="map_place_search_instructions">Insira no minímo 3 letras para obter resultados</string>
     <!-- GPX Recorder -->
     <string name="map_gpx_recorder_dialog_title">GPX Recorder</string>
-    <string name="map_gpx_recorder_dialog_my_recordings">Recordings</string>
-    <string name="map_gpx_recorder_dialog_status">Recording Status:</string>
-    <string name="map_gpx_recorder_dialog_recording_distance">Distance:</string>
-    <string name="map_gpx_recorder_dialog_recording_points">Points:</string>
-    <string name="map_gpx_recorder_dialog_recording_tracks">Tracks:</string>
-    <string name="map_gpx_recorder_dialog_recording_waypoints">Waypoints:</string>
-    <string name="map_gpx_recorder_dialog_recording_start_time">Started:</string>
+    <string name="map_gpx_recorder_dialog_my_recordings">Gravações</string>
+    <string name="map_gpx_recorder_dialog_status">Status de gravação:</string>
+    <string name="map_gpx_recorder_dialog_recording_distance">Distância:</string>
+    <string name="map_gpx_recorder_dialog_recording_points">Pontos:</string>
+    <string name="map_gpx_recorder_dialog_recording_tracks">Faixas:</string>
+    <string name="map_gpx_recorder_dialog_recording_waypoints">Pontos de passagem:</string>
+    <string name="map_gpx_recorder_dialog_recording_start_time">Iniciado:</string>
     <string name="map_gpx_recorder_dialog_recording_elapsed_time">Elapsed:</string>
-    <string name="map_gpx_recorder_dialog_recording_avg_speed">Avg Speed:</string>
+    <string name="map_gpx_recorder_dialog_recording_avg_speed">Velocidade média:</string>
     <string name="map_gpx_recorder_dialog_recording_elevation_gain">Alt Gain:</string>
-    <string name="map_gpx_recorder_dialog_record">Record</string>
+    <string name="map_gpx_recorder_dialog_record">Registro</string>
     <string name="map_gpx_recorder_dialog_pause">Pause</string>
     <string name="map_gpx_recorder_dialog_resume">Resume</string>
-    <string name="map_gpx_recorder_dialog_finish">Finish</string>
-    <string name="map_gpx_recorder_dialog_add_track">New Track</string>
-    <string name="map_gpx_recorder_dialog_add_waypoint">Add Waypoint</string>
-    <string name="map_gpx_recorder_dialog_status_stopped">Not recording, press Record button to start</string>
-    <string name="map_gpx_recorder_dialog_status_recording">Recording GPX, press Finish to end and save</string>
-    <string name="map_gpx_recorder_dialog_status_paused">Recorder Paused, resume it or finish it</string>
+    <string name="map_gpx_recorder_dialog_finish">Terminar</string>
+    <string name="map_gpx_recorder_dialog_add_track">Nova faixa</string>
+    <string name="map_gpx_recorder_dialog_add_waypoint">Adicionar ponto de passagem</string>
+    <string name="map_gpx_recorder_dialog_status_stopped">Não está gravando, prima o botão Gravar para iniciar</string>
+    <string name="map_gpx_recorder_dialog_status_recording">Gravando GPX, prima Concluir para finalizar e salvar</string>
+    <string name="map_gpx_recorder_dialog_status_paused">Gravador pausado, retome ou finalize</string>
     <string name="map_gpx_recorder_dialog_points_short">pts</string>
-    <string name="map_gpx_recorder_new_track_title">New Track Name</string>
-    <string name="map_gpx_recorder_new_track_add_track">Add Track</string>
-    <string name="map_gpx_recorder_inactive_warning">Cannot do that. Not Recording!</string>
-    <string name="map_gpx_recorder_finish_gpx_title">Finish Recording</string>
-    <string name="map_gpx_recorder_finish_gpx_message">Please choose to either save it to a GPX file, discard it and delete recording or close this dialog and continue recording.</string>
+    <string name="map_gpx_recorder_new_track_title">Novo nome da faixa</string>
+    <string name="map_gpx_recorder_new_track_add_track">Adicionar faixa</string>
+    <string name="map_gpx_recorder_inactive_warning">Não posso fazer isso. Não está gravando!</string>
+    <string name="map_gpx_recorder_finish_gpx_title">Concluir gravação</string>
+    <string name="map_gpx_recorder_finish_gpx_message">Escolha salvá-lo em um ficheiro GPX, descartá-lo e excluir a gravação ou fechar esta caixa de diálogo e continuar a gravação.</string>
     <string name="map_gpx_recorder_finish_name_file_title">Name for GPX File</string>
     <string name="map_gpx_recorder_finish_name_file_discard">Discard / Delete</string>
-    <string name="map_gpx_recorder_finish_name_file_already_exists_title">File Already Exists</string>
+    <string name="map_gpx_recorder_finish_name_file_already_exists_title">O ficheiro já existe</string>
     <string name="map_gpx_recorder_finish_name_file_already_exists_try_again">Try Again</string>
-    <string name="map_gpx_recorder_recordings_list">Recordings List</string>
-    <string name="map_gpx_recorder_recordings_list_no_file_yet">No recorded GPX files yet!</string>
-    <string name="map_gpx_recorder_recordings_list_load_gpx">Load GPX</string>
-    <string name="map_gpx_recorder_recordings_list_rename_gpx">Type New File Name:</string>
-    <string name="map_gpx_recorder_add_waypoint_title">New Waypoint</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_name">Waypoint Name</string>
-    <string name="map_gpx_recorder_add_waypoint_hint_description">Description Text</string>
-    <string name="map_gpx_recorder_add_waypoint_point_map">Tap Location</string>
+    <string name="map_gpx_recorder_recordings_list">Lista de Gravações</string>
+    <string name="map_gpx_recorder_recordings_list_no_file_yet">Nenhum ficheiro GPX gravado ainda!</string>
+    <string name="map_gpx_recorder_recordings_list_load_gpx">Carregar GPX</string>
+    <string name="map_gpx_recorder_recordings_list_rename_gpx">Digite o novo nome do ficheiro:</string>
+    <string name="map_gpx_recorder_add_waypoint_title">Novo ponto de referência</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_name">Nome do ponto de referência</string>
+    <string name="map_gpx_recorder_add_waypoint_hint_description">Texto de descrição</string>
+    <string name="map_gpx_recorder_add_waypoint_point_map">Toque em Localização</string>
     <string name="map_gpx_recorder_add_waypoint_auto_fill">Auto Fill</string>
-    <string name="map_gpx_recorder_add_waypoint_number">Waypoint</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Tap On Map To Position</string>
-    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Tap on the new location for the waypoint and then click set button!</string>
+    <string name="map_gpx_recorder_add_waypoint_number">Ponto de referência</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_title">Toque no mapa para posicionar</string>
+    <string name="map_gpx_recorder_add_waypoint_tap_map_message">Toque no novo local do waypoint e toque no botão definir!</string>
     <string name="map_gpx_recorder_add_waypoint_tap_save">Set Position</string>
-    <string name="map_gpx_recorder_tracks_edit">Recorder Tracks Editor</string>
-    <string name="map_gpx_recorder_tracks_edit_no_tracks">No Tracks Yet!</string>
-    <string name="map_gpx_recorder_track_edit_name">Track Name</string>
-    <string name="map_gpx_recorder_track_edit_description">Track Description</string>
-    <string name="map_gpx_recorder_track_edit_color">Color:</string>
-    <string name="map_gpx_recorder_waypoints_edit">Recorder Waypoints Editor</string>
-    <string name="map_gpx_recorder_waypoint_edit_pin">Pin Icon:</string>
-    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">No Waypoint Yet!</string>
-    <string name="map_gpx_recorder_confirm_delete_title">Delete Confirmation</string>
-    <string name="map_gpx_recorder_confirm_delete_message">Are you sure you want to delete this file? This action cannot be reversed!</string>
+    <string name="map_gpx_recorder_tracks_edit">Editor de trilhas do gravador</string>
+    <string name="map_gpx_recorder_tracks_edit_no_tracks">Ainda não há faixas!</string>
+    <string name="map_gpx_recorder_track_edit_name">Nome da faixa</string>
+    <string name="map_gpx_recorder_track_edit_description">Descrição da trilha</string>
+    <string name="map_gpx_recorder_track_edit_color">Cor:</string>
+    <string name="map_gpx_recorder_waypoints_edit">Editor de Waypoints do Gravador</string>
+    <string name="map_gpx_recorder_waypoint_edit_pin">Ícone de alfinete:</string>
+    <string name="map_gpx_recorder_waypoint_edit_no_waypoints_yet">Nenhum ponto de referência ainda!</string>
+    <string name="map_gpx_recorder_confirm_delete_title">Excluir confirmação</string>
+    <string name="map_gpx_recorder_confirm_delete_message">Tem certeza de que deseja excluir este ficheiro? Esta ação não pode ser revertida!</string>
 
 
     <!-- Event Mode -->
@@ -1225,7 +1225,7 @@
     <string name="event_mode_help_dialog_message">A tua posição</string>
     <string name="event_mode_help_call_1">Chamar #1</string>
     <string name="event_mode_help_call_2">Chamar #2</string>
-    <string name="event_mode_downloading">Download do Evento</string>
+    <string name="event_mode_downloading">Baixar do Evento</string>
     <string name="event_mode_downloading_message">A efectuar o download do evento, por favor aguarde…</string>
 
 </resources>
